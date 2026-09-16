@@ -1,4 +1,6 @@
-# Frozen targeted assay: interim validation result
+# Historical interim validation result
+
+The comparator has since completed. See [the final report](REPORT.md) and [calibration supplement](COMPARATOR_CALIBRATION.md). The text below preserves the earlier interim state.
 
 The targeted assay and depth comparisons are complete for all 24 held-out donors. The dedicated C4Investigator runs are still pending; placeholder rows in intermediate metric files must not be interpreted as its performance. The final report will include the completed native and separately calibrated total-C4 comparator.
 

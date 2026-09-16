@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "targeted_correct": {
+    "total": 24,
+    "A": 22,
+    "B": 22,
+    "L": 22,
+    "S": 22
+  },
+  "native_comparator_total_correct": 14,
+  "calibrated_comparator_total_correct": 24,
+  "validation_donors": 24,
+  "truth_derivation": "Post-freeze diagnostic sequence audit of all 91 held-out C4 genes",
+  "scope": "Independent recomputation from the same assembly sequences; not independent clinical validation."
+}

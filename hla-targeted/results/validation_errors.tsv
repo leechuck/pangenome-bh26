@@ -1,0 +1,53 @@
+donor	method	feature	prediction	truth
+HG04204	targeted_markers	A	3	2
+HG02451	targeted_markers	A		2
+HG04204	targeted_markers	B	1	2
+HG02451	targeted_markers	B		2
+HG02451	targeted_markers	OTHER		0
+HG02841	targeted_markers	L		2
+HG01960	targeted_markers	L		2
+HG02841	targeted_markers	S		2
+HG01960	targeted_markers	S		2
+HG02841	C4Investigator	total	5	4
+HG01934	C4Investigator	total	5	4
+HG01943	C4Investigator	total	5	4
+HG02071	C4Investigator	total	5	4
+HG01981	C4Investigator	total	6	5
+HG03540	C4Investigator	total	6	5
+HG02135	C4Investigator	total	5	4
+HG01960	C4Investigator	total	5	4
+HG02965	C4Investigator	total	5	4
+HG03927	C4Investigator	total	5	4
+HG02841	C4Investigator	A	3	2
+HG01943	C4Investigator	A	3	2
+HG01981	C4Investigator	A	3	2
+HG03540	C4Investigator	A	3	2
+HG02135	C4Investigator	A	3	2
+HG01960	C4Investigator	A	3	2
+HG02965	C4Investigator	A	4	3
+HG01934	C4Investigator	B	3	2
+HG02071	C4Investigator	B	3	2
+HG03927	C4Investigator	B	3	2
+HG02841	C4Investigator	L	3	2
+HG01934	C4Investigator	L	3	2
+HG01943	C4Investigator	L	4	3
+HG02071	C4Investigator	L	4	3
+HG01981	C4Investigator	L	6	5
+HG03927	C4Investigator	L	4	3
+HG03540	C4Investigator	S	3	2
+HG02135	C4Investigator	S	3	2
+HG01960	C4Investigator	S	3	2
+HG02965	C4Investigator	S	3	2
+HG04204	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-109f6cb2c3c027c8	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232
+HG03540	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-8904b92121a5f1e8;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-c91a117646c15232;RCCX-STRUCT-dcc3d8c1def31e41
+HG00673	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-109f6cb2c3c027c8	RCCX-STRUCT-b8ca310d36f0396c;RCCX-STRUCT-c91a117646c15232
+HG04204	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+HG03540	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+HG04204	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-109f6cb2c3c027c8	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232
+HG03540	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-8904b92121a5f1e8;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-c91a117646c15232;RCCX-STRUCT-dcc3d8c1def31e41
+HG00673	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-109f6cb2c3c027c8	RCCX-STRUCT-b8ca310d36f0396c;RCCX-STRUCT-c91a117646c15232
+HG04204	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+HG03540	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+HG03540	old_sketch_CN	full_signature_pair	RCCX-STRUCT-f3965b9e0fe6783a;RCCX-STRUCT-fc96b32fa448cea2	RCCX-STRUCT-c91a117646c15232;RCCX-STRUCT-dcc3d8c1def31e41
+HG00673	old_sketch_CN	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-109f6cb2c3c027c8	RCCX-STRUCT-b8ca310d36f0396c;RCCX-STRUCT-c91a117646c15232
+HG03540	old_sketch_CN	truth_in_dosage_compatible_set	True	False

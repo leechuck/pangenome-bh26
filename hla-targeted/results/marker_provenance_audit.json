@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "inherited_global_vocabulary": 11917,
+  "retained_inherited_features": 1085,
+  "targeted_group_probes": 299,
+  "all_retained_inherited_features_have_three_training_families": true,
+  "all_inherited_keys_follow_fixed_hash_rule": true,
+  "all_targeted_group_probes_present_in_training_RCCX": true,
+  "legacy_training_profile_columns_match": true,
+  "interpretation": "The inherited measurement vocabulary was originally a union across the panel. Every inherited feature actually used here passes a fixed sequence-only hash and occurs in at least three retained training families; regenerating that sketch from those training sequences would include all used features. Held-out-only vocabulary entries are excluded from scoring and normalization. New targeted probe groups were discovered solely from retained training sequences."
+}

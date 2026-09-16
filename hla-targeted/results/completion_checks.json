@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "validation_donors": 24,
+  "development_donors": 106,
+  "training_haplotypes": 543,
+  "checks": [
+    "frozen_assay_hashes",
+    "family_exclusion",
+    "sample_split",
+    "complete_measurements",
+    "complete_dedicated_comparator",
+    "sum_preserving_dosage",
+    "ranked_pairs_in_compatible_set",
+    "all_attempted_denominators",
+    "validation_assembly_diagnostic_audit"
+  ],
+  "limitations": "These checks establish provenance and accounting, not clinical truth, external-cohort validity, phase or calibrated uncertainty."
+}

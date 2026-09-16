@@ -16,5 +16,8 @@
   "validation_comparator_dependency": "Initial afterany:20608163 dependency cleared after 17/18 development comparator tasks completed; native validation runs are independent and retain the frozen algorithm.",
   "validation_assay": "Frozen in source/validation_freeze.json before validation measurements were launched",
   "canonical_repo": "https://github.com/leechuck/pangenome-bh26",
-  "dependency_cleared_utc": "2026-09-16T04:40:48.080484+00:00"
+  "dependency_cleared_utc": "2026-09-16T04:40:48.080484+00:00",
+  "completion_record": "source/job_completion.tsv",
+  "completed_tasks": 201,
+  "analysis_completed_utc": "2026-09-16T05:44:50.469523+00:00"
 }

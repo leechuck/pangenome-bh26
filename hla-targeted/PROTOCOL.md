@@ -1,6 +1,6 @@
 # Targeted RCCX/C4 experiment
 
-Status: development in progress; fresh-donor evaluation has not started.
+This protocol records the design used before held-out evaluation. The experiment is now complete; see `REPORT.md` and `COMPLETION_AUDIT.md`.
 
 ## Question and endpoints
 

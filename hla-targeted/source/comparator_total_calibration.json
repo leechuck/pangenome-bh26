@@ -1,0 +1,97 @@
+{
+  "factor": 1.1596045197740117,
+  "pilot_records": [
+    {
+      "donor": "HG00146",
+      "estimate": 2.13333333333333,
+      "truth": 2
+    },
+    {
+      "donor": "HG00232",
+      "estimate": 5.68421052631579,
+      "truth": 5
+    },
+    {
+      "donor": "HG00321",
+      "estimate": 3.45762711864407,
+      "truth": 3
+    },
+    {
+      "donor": "HG00329",
+      "estimate": 5.69230769230769,
+      "truth": 5
+    },
+    {
+      "donor": "HG01786",
+      "estimate": 4.58181818181818,
+      "truth": 4
+    },
+    {
+      "donor": "HG02392",
+      "estimate": 7.0,
+      "truth": 6
+    },
+    {
+      "donor": "HG03139",
+      "estimate": 3.53846153846154,
+      "truth": 3
+    },
+    {
+      "donor": "HG03195",
+      "estimate": 4.70588235294118,
+      "truth": 4
+    },
+    {
+      "donor": "HG03225",
+      "estimate": 4.68571428571429,
+      "truth": 4
+    },
+    {
+      "donor": "HG03784",
+      "estimate": 6.05405405405405,
+      "truth": 5
+    },
+    {
+      "donor": "NA18505",
+      "estimate": 3.68421052631579,
+      "truth": 3
+    },
+    {
+      "donor": "NA18948",
+      "estimate": 6.57142857142857,
+      "truth": 6
+    },
+    {
+      "donor": "NA18952",
+      "estimate": 7.16666666666667,
+      "truth": 6
+    },
+    {
+      "donor": "NA18974",
+      "estimate": 7.18181818181818,
+      "truth": 6
+    },
+    {
+      "donor": "NA19007",
+      "estimate": 3.52941176470588,
+      "truth": 3
+    },
+    {
+      "donor": "NA19159",
+      "estimate": 6.68421052631579,
+      "truth": 6
+    },
+    {
+      "donor": "NA21106",
+      "estimate": 4.10169491525424,
+      "truth": 4
+    },
+    {
+      "donor": "NA21144",
+      "estimate": 4.51612903225806,
+      "truth": 4
+    }
+  ],
+  "recipe": "median(continuous C4Investigator total estimate / assembly total) on the original 18 pilot donors only",
+  "plan_utc": "2026-09-16T04:24:01.358699+00:00"
+}
