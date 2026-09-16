@@ -9,3 +9,5 @@ source/read_counts/
 literature/C4Investigator.html
 literature/C4Investigator.txt
 !source/inference_inputs.tar.gz
+source/validation_background/
+!source/validation_background_counts.tar.gz

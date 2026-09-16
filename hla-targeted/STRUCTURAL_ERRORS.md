@@ -21,3 +21,9 @@ Every validation donor has multiple dosage-compatible signature pairs (3–87). 
 A useful extended typing record would keep classical HLA types, C4 total/A/B/L/S dosage, the full set of compatible RCCX structures, and the source of phase evidence as separate fields. Direct long-molecule evidence linking diagnostic sites and module boundaries is the appropriate next test of arrangement; a unique ranking optimum is insufficient.
 
 No caller thresholds or reference paths were changed after observing these errors. These are descriptive analyses of the frozen validation run.
+
+## Post-freeze probe-coverage audit
+
+All 91 validation C4 genes contain all 15 A/B diagnostic probes for their assembly-assigned class. All 60 long genes contain 16 probes at each insertion junction; all 31 short genes contain 16 deletion-junction probes. Thus no assembled diagnostic window is absent from the frozen vocabulary in this set.
+
+HG04204 has 39 A-supporting and 19 B-supporting fragments despite complete probe coverage of both A and both B genes. Probe dropout does not explain this discrepancy. Stochastic sampling or upstream mapping/recruitment effects remain possible; this audit does not establish their cause. See `results/validation_probe_coverage.tsv`.

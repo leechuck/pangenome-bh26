@@ -10,9 +10,11 @@
     "development_measurements": 20608477,
     "validation_C4Investigator": 20608683,
     "validation_measurements": 20609343,
-    "validation_gene_alignment": 20609360
+    "validation_gene_alignment": 20609360,
+    "validation_MHC_specificity": 20609950
   },
-  "validation_comparator_dependency": "afterany:20608163",
+  "validation_comparator_dependency": "Initial afterany:20608163 dependency cleared after 17/18 development comparator tasks completed; native validation runs are independent and retain the frozen algorithm.",
   "validation_assay": "Frozen in source/validation_freeze.json before validation measurements were launched",
-  "canonical_repo": "https://github.com/leechuck/pangenome-bh26"
+  "canonical_repo": "https://github.com/leechuck/pangenome-bh26",
+  "dependency_cleared_utc": "2026-09-16T04:40:48.080484+00:00"
 }
