@@ -6,7 +6,7 @@ We are testing C4 A/B diagnostic sites, long/short HERV insertion junctions, and
 
 The previous 106 donors are development data only. A fixed set of 24 previously untested donors was selected before examining their read-based typing results; all their recorded families are excluded from marker discovery and reference paths. These donors are drawn from the existing assembly panel, not an independent external cohort. Public MHC-recruited WGS reads have been retrieved for all 24. Selection and source URLs are recorded in `source/validation_selection.json` and `source/validation_donors.tsv`.
 
-Development references contain 543 haplotypes and 1,090 annotated C4 genes. Diagnostic-site auditing found three noncanonical A-like motifs; these are candidates for further investigation, not validated novel alleles. Marker specificity, counter validation, dosage calibration, model freezing and fresh-donor evaluation remain to be completed.
+Development references contain 543 haplotypes and 1,090 annotated C4 genes. Diagnostic-site auditing found three noncanonical A-like motifs; these are candidates for further investigation, not validated novel alleles. All 299 targeted probes passed a full-training-MHC specificity audit, and the fragment counter passed synthetic contract tests. Development read measurements and C4Investigator runs are underway. Dosage calibration, model freezing and fresh-donor evaluation remain to be completed. See `PROTOCOL.md` for endpoints and limitations.
 
 ## Reproduction
 

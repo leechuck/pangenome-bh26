@@ -1,0 +1,36 @@
+{
+  "training_haplotypes": 543,
+  "targeted_probes": 299,
+  "off_locus_probes": 0,
+  "scope": "MHC sequences only; does not prove whole-genome specificity",
+  "groups": {
+    "A": {
+      "probes": 29,
+      "off_locus_probes": 0
+    },
+    "B": {
+      "probes": 30,
+      "off_locus_probes": 0
+    },
+    "LONG_LEFT": {
+      "probes": 16,
+      "off_locus_probes": 0
+    },
+    "LONG_RIGHT": {
+      "probes": 25,
+      "off_locus_probes": 0
+    },
+    "SHORT": {
+      "probes": 16,
+      "off_locus_probes": 0
+    },
+    "BOUNDARY": {
+      "probes": 168,
+      "off_locus_probes": 0
+    },
+    "NONCANONICAL": {
+      "probes": 15,
+      "off_locus_probes": 0
+    }
+  }
+}
