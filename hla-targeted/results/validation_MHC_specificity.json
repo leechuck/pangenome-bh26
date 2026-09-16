@@ -1,0 +1,9 @@
+{
+  "haplotypes": 48,
+  "C4_genes": 91,
+  "diagnostic_probes": 131,
+  "haplotype_group_combinations_with_extra_matches": 0,
+  "extra_matches": [],
+  "scope": "Whole held-out MHC versus annotated C4 genes; excludes module-start contexts and does not establish whole-genome specificity",
+  "analysis_stage": "post-evaluation diagnostic; frozen caller unchanged"
+}

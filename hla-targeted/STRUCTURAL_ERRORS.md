@@ -27,3 +27,5 @@ No caller thresholds or reference paths were changed after observing these error
 All 91 validation C4 genes contain all 15 A/B diagnostic probes for their assembly-assigned class. All 60 long genes contain 16 probes at each insertion junction; all 31 short genes contain 16 deletion-junction probes. Thus no assembled diagnostic window is absent from the frozen vocabulary in this set.
 
 HG04204 has 39 A-supporting and 19 B-supporting fragments despite complete probe coverage of both A and both B genes. Probe dropout does not explain this discrepancy. Stochastic sampling or upstream mapping/recruitment effects remain possible; this audit does not establish their cause. See `results/validation_probe_coverage.tsv`.
+
+A separate post-evaluation count across all 48 complete held-out MHC haplotypes found no extra matches outside the annotated C4 genes for any of the 131 diagnostic probes. This rules out that particular within-MHC confounder; it does not establish whole-genome specificity. See `results/validation_MHC_specificity.json` and `.tsv`.
