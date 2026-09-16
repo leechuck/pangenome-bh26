@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-09-16T04:03:04.353205+00:00",
+  "remote_root": "/home/leechuck/hla/codex-targeted",
+  "jobs": {
+    "install": 20608031,
+    "fresh_read_recruitment": 20608032,
+    "training_alignments": 20608135,
+    "development_C4Investigator": 20608163,
+    "training_background": 20608322,
+    "development_measurements": 20608477,
+    "validation_C4Investigator": 20608683
+  },
+  "validation_comparator_dependency": "afterany:20608163",
+  "validation_assay": "Not yet frozen; no validation marker measurements or predictions have been inspected",
+  "canonical_repo": "https://github.com/leechuck/pangenome-bh26"
+}

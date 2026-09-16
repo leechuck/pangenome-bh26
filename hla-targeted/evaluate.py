@@ -35,9 +35,10 @@ def main():
     for r in pred:
         donor=r['donor'];p=ROOT/f'source/baseline/{cohort}/{donor}/results/C4Investigator_c4_summary.csv'
         base[donor]=list(csv.DictReader(open(p)))[0] if p.exists() else {}
+    baseline_donors=set((ROOT/'source/development_donors.txt').read_text().splitlines()) if cohort=='development' else {r['donor'] for r in pred}
     for feature in ['total','A','B','L','S']:
         col='C4'+('' if feature=='total' else feature)+'_copy'
-        metric('C4Investigator',feature,[(r['donor'],integer(base[r['donor']].get(col)),truth[r['donor']][feature]) for r in pred])
+        metric('C4Investigator',feature,[(r['donor'],integer(base[r['donor']].get(col)),truth[r['donor']][feature]) for r in pred if r['donor'] in baseline_donors])
     for method in {r['method'] for r in read(ROOT/f'results/{cohort}_path_predictions.tsv')}:
         ps=[r for r in read(ROOT/f'results/{cohort}_path_predictions.tsv') if r['method']==method]
         metric(method,'full_signature_pair',[(r['donor'],r['ranked_pair'] or None,';'.join(sorted(x['structure_id'] for x in bydonor[r['donor']]))) for r in ps])

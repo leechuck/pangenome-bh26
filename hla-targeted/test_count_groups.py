@@ -8,11 +8,11 @@ def key(s):
     return min(int(''.join(format('ACGT'.index(c),'02b') for c in x),2) for x in (s,rc))
 def main():
     rng=random.Random(126)
-    probes=[''.join(rng.choices('ACGT',k=31)) for _ in range(4)]
+    probes=[''.join(rng.choices('ACGT',k=31)) for _ in range(6)]
     with tempfile.TemporaryDirectory() as td:
         d=Path(td); exe=d/'counter'
         subprocess.run(['g++','-O2','-std=c++17',str(ROOT/'count_groups.cpp'),'-o',str(exe)],check=True)
-        (d/'markers').write_text(''.join(f'{key(s)}\t{m}\n' for s,m in zip(probes,[1,2,64,16])))
+        (d/'markers').write_text(''.join(f'{key(s)}\t{m}\n' for s,m in zip(probes,[1,2,64,16,4,8])))
         records=[]
         def add(name,s,q=None): records.append(f'@{name}\n{s}\n+\n{q or "I"*len(s)}\n')
         add('dedup/1',probes[0]+'N'+probes[0]);add('dedup/2',probes[0].translate(str.maketrans('ACGT','TGCA'))[::-1])
@@ -20,12 +20,16 @@ def main():
         add('quality',probes[1],'I'*15+'4'+'I'*15) # Q19 invalidates the only marker
         add('threshold',probes[1],'5'*31) # Q20 accepted
         add('other',probes[2]);add('short',probes[3]);add('ambiguous','N'*31)
+        add('lsmixed/1',probes[4]);add('lsmixed/2',probes[3])
+        add('othermixed/1',probes[2]);add('othermixed/2',probes[0])
+        add('right',probes[5])
         result=subprocess.run([str(exe),str(d/'markers'),str(d/'counts'),str(d/'groups')],input=''.join(records),text=True)
         assert result.returncode==0
-        assert struct.unpack('<4I',(d/'counts').read_bytes())==(2,2,1,1)
+        assert struct.unpack('<6I',(d/'counts').read_bytes())==(3,2,2,2,1,1)
         groups={r['metric']:int(r['fragments']) for r in csv.DictReader(open(d/'groups'),delimiter='\t')}
-        assert groups['all_fragments']==7,groups
-        assert [groups[k] for k in ['A_only','B_only','OTHER_only','AB_ambiguous','SHORT']]==[1,1,1,1,1],groups
+        assert groups['all_fragments']==10,groups
+        assert [groups[k] for k in ['A_only','B_only','OTHER_only','AB_ambiguous','SHORT']]==[1,1,1,1,2],groups
+        assert groups['LS_ambiguous']==1 and groups['LONG_LEFT']==1 and groups['LONG_RIGHT']==1,groups
         bad=subprocess.run([str(exe),str(d/'markers'),str(d/'counts'),str(d/'groups')],input='@broken\nACTG\n+\nI\n',text=True)
         assert bad.returncode==3
     print('PASS: fragment deduplication, reverse complements, mixed mates, Q19/Q20, noncanonical probes, missing bases, malformed FASTQ')

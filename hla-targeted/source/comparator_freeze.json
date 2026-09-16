@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-16T04:00:23.131864+00:00",
+  "method": "Unmodified C4Investigator at recorded upstream commit; native calls, no outcome tuning",
+  "execution": "Validation comparator may execute independently of targeted-assay development; do not inspect its validation outputs until targeted assay is frozen",
+  "files": {
+    "c4investigator.sbatch": "09b89111181ad185456f7ba3350f2b46df6e95142b395170c03f9f6e7f9d6267",
+    "source/tool_version.json": "6203ceb399a002d55ec4f1d53e125a15a3d915fea91668dedba0108421f1da36",
+    "source/validation_donors.tsv": "204a08b35943d3b953511ce74b337b09d044a5008fc674f64e4234edaa5edc2d",
+    "source/fresh_donors.txt": "9281371925c701a0b95447deb9fac3af40a048f22bf9daa75fa318a568badbe0"
+  }
+}
