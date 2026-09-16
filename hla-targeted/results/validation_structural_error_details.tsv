@@ -1,0 +1,4 @@
+donor	truth_C4_paths	imputed_C4_paths	truth_marginals	imputed_marginals	same_marginals	category
+HG00673	AL-AS / AL-BL	AL-BS / AL-AL	"{""A"": 3, ""B"": 1, ""L"": 3, ""S"": 1}"	"{""A"": 3, ""B"": 1, ""L"": 3, ""S"": 1}"	1	ranking_error_with_truth_compatible
+HG03540	AL-BL / AL-BS-BS	BL-AS-BS / AL-BL	"{""A"": 2, ""B"": 3, ""L"": 3, ""S"": 2}"	"{""A"": 2, ""B"": 3, ""L"": 3, ""S"": 2}"	1	truth_structure_absent_from_reference
+HG04204	AL-BS / AL-BL	AL-BS / AL-AL	"{""A"": 2, ""B"": 2, ""L"": 3, ""S"": 1}"	"{""A"": 3, ""B"": 1, ""L"": 3, ""S"": 1}"	0	incorrect_marginal_dosage

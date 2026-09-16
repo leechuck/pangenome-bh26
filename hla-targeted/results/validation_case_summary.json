@@ -1,0 +1,28 @@
+{
+  "n": 24,
+  "changes": {
+    "unchanged": 23,
+    "loss": 1
+  },
+  "categories": {
+    "correct_ranked_imputation": 21,
+    "ranking_error_with_truth_compatible": 1,
+    "truth_structure_absent_from_reference": 1,
+    "incorrect_marginal_dosage": 1
+  },
+  "reference_missing": 1,
+  "compatible_set_sizes": {
+    "3": 1,
+    "17": 7,
+    "37": 4,
+    "29": 3,
+    "87": 2,
+    "16": 1,
+    "5": 1,
+    "12": 2,
+    "85": 1,
+    "26": 1,
+    "7": 1
+  },
+  "description": "Descriptive post-evaluation attribution, preserving the frozen model. Categories are ordered; multiple failure causes can coexist."
+}
