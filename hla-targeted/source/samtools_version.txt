@@ -1,0 +1,28 @@
+samtools 1.21
+Using htslib 1.23
+Copyright (C) 2024 Genome Research Ltd.
+
+Samtools compilation details:
+    Features:       build=configure curses=yes 
+    CC:             /opt/conda/conda-bld/samtools_1734249775320/_build_env/bin/x86_64-conda-linux-gnu-cc
+    CPPFLAGS:       -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /lustre10/home/leechuck/hla/mm/envs/hla/include
+    CFLAGS:         -Wall -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /lustre10/home/leechuck/hla/mm/envs/hla/include -fdebug-prefix-map=/opt/conda/conda-bld/samtools_1734249775320/work=/usr/local/src/conda/samtools-1.21 -fdebug-prefix-map=/lustre10/home/leechuck/hla/mm/envs/hla=/usr/local/src/conda-prefix
+    LDFLAGS:        -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/lustre10/home/leechuck/hla/mm/envs/hla/lib -Wl,-rpath-link,/lustre10/home/leechuck/hla/mm/envs/hla/lib -L/lustre10/home/leechuck/hla/mm/envs/hla/lib
+    HTSDIR:         
+    LIBS:           
+    CURSES_LIB:     -ltinfow -lncursesw
+
+HTSlib compilation details:
+    Features:       build=configure libcurl=yes S3=yes GCS=yes libdeflate=yes lzma=yes bzip2=yes plugins=yes plugin-path=/lustre10/home/leechuck/hla/mm/envs/hla/libexec/htslib htscodecs=1.6.5
+    CC:             /opt/conda/conda-bld/htslib_1765902480168/_build_env/bin/x86_64-conda-linux-gnu-cc
+    CPPFLAGS:       -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /lustre10/home/leechuck/hla/mm/envs/hla/include
+    CFLAGS:         -Wall -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /lustre10/home/leechuck/hla/mm/envs/hla/include -fdebug-prefix-map=/opt/conda/conda-bld/htslib_1765902480168/work=/usr/local/src/conda/htslib-1.23 -fdebug-prefix-map=/lustre10/home/leechuck/hla/mm/envs/hla=/usr/local/src/conda-prefix -fvisibility=hidden
+    LDFLAGS:        -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/lustre10/home/leechuck/hla/mm/envs/hla/lib -Wl,-rpath-link,/lustre10/home/leechuck/hla/mm/envs/hla/lib -L/lustre10/home/leechuck/hla/mm/envs/hla/lib -fvisibility=hidden -rdynamic
+
+HTSlib URL scheme handlers present:
+    built-in:	 file, preload, data
+    Amazon S3:	 s3+https, s3, s3+http
+    Google Cloud Storage:	 gs+http, gs+https, gs
+    libcurl:	 gophers, smtp, wss, smb, rtsp, tftp, pop3, smbs, imaps, pop3s, ws, ftps, https, http, ftp, gopher, imap, sftp, smtps, scp, dict, mqtt, telnet
+    crypt4gh-needed:	 crypt4gh
+    mem:	 mem

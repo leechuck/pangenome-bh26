@@ -26,7 +26,11 @@ def main():
         metrics.append(dict(cohort=cohort,method=method,feature=feature,n=len(items),called=sum(p is not None for _,p,t in items),correct=sum(p is not None and p==t for _,p,t in items)))
         for donor,p,t in items:
             if p is None or p!=t:errors.append(dict(donor=donor,method=method,feature=feature,prediction=p,truth=t))
-    def integer(s):return int(float(s)) if s not in ('',None) else None
+    def integer(s):
+        try:
+            v=float(s)
+            return int(v) if np.isfinite(v) else None
+        except (ValueError,TypeError):return None
     for feature in ['total','A','B','OTHER','L','S']:
         col=('C4' if feature=='total' else feature)+'_call'
         metric('targeted_markers',feature,[(r['donor'],integer(r[col]),truth[r['donor']][feature]) for r in pred])
@@ -34,7 +38,9 @@ def main():
     base={}
     for r in pred:
         donor=r['donor'];p=ROOT/f'source/baseline/{cohort}/{donor}/results/C4Investigator_c4_summary.csv'
-        base[donor]=list(csv.DictReader(open(p)))[0] if p.exists() else {}
+        entries=list(csv.DictReader(open(p))) if p.exists() else []
+        assert len(entries)<=1,(donor,'unexpected multiple comparator records')
+        base[donor]=entries[0] if entries else {}
     baseline_donors=set((ROOT/'source/development_donors.txt').read_text().splitlines()) if cohort=='development' else {r['donor'] for r in pred}
     for feature in ['total','A','B','L','S']:
         col='C4'+('' if feature=='total' else feature)+'_copy'

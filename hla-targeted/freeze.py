@@ -19,7 +19,7 @@ def main():
     subprocess.run(['python3',str(ROOT/'test_count_groups.py')],check=True)
     shutil.copyfile(ROOT/'results/development_metrics.tsv',ROOT/'source/frozen_development_metrics.tsv')
     paths=list(ROOT.glob('*.py'))+list(ROOT.glob('*.cpp'))+list(ROOT.glob('*.sbatch'))+list(ROOT.glob('*.sh'))
-    paths += [ROOT/'source'/p for p in ['markers.txt','marker_groups.tsv','marker_design.json','target_definitions.json','training_rows.json','training_profiles.npy','dosage_model.json','tool_version.json','validation_donors.tsv','validation_selection.json','training_C4_genes.tsv','frozen_development_metrics.tsv']]
+    paths += [ROOT/'source'/p for p in ['markers.txt','marker_groups.tsv','marker_design.json','target_definitions.json','training_rows.json','training_profiles.npy','dosage_model.json','tool_version.json','validation_donors.tsv','validation_selection.json','validation_demographics.tsv','training_C4_genes.tsv','training_C4_genes.fa','training_C4_genes.paf','module_boundary_contexts.fa','C4_reference.fa','frozen_development_metrics.tsv']]
     paths += [ROOT/'results'/p for p in ['training_C4_diagnostic_audit.tsv','development_calibration_inputs.tsv','development_dosage_predictions.tsv','probe_specificity.json']]
     paths += list((ROOT/'source/background').glob('*.bin'))
     assert len(list((ROOT/'source/background').glob('*.bin')))==len(rows)
