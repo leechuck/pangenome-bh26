@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-09-16T04:39:04.062290+00:00",
+  "status": "passed",
+  "archive_sha256": "6368c4f92478b6f06807b98cc90443c757f7b9a4864c1eaffbc55076e615d476",
+  "archive_members_verified": 934,
+  "validation_dosage_rows_reproduced": 24,
+  "validation_path_rows_reproduced": 72,
+  "comparison": "byte-for-byte equality after restoring archive in isolated temporary directory and running the frozen inference module",
+  "scope": "Uses tracked metadata and training diagnostic audit alongside the bundled derived inputs; raw read counting and assembly reconstruction are separate stages."
+}
