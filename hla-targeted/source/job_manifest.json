@@ -8,9 +8,11 @@
     "development_C4Investigator": 20608163,
     "training_background": 20608322,
     "development_measurements": 20608477,
-    "validation_C4Investigator": 20608683
+    "validation_C4Investigator": 20608683,
+    "validation_measurements": 20609343,
+    "validation_gene_alignment": 20609360
   },
   "validation_comparator_dependency": "afterany:20608163",
-  "validation_assay": "Not yet frozen; no validation marker measurements or predictions have been inspected",
+  "validation_assay": "Frozen in source/validation_freeze.json before validation measurements were launched",
   "canonical_repo": "https://github.com/leechuck/pangenome-bh26"
 }

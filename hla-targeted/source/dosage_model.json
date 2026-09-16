@@ -1,0 +1,16 @@
+{
+  "A_relative_B": {
+    "factor": 1.0,
+    "development_donors": 102
+  },
+  "L_relative_S": {
+    "factor": 0.9423076923076923,
+    "development_donors": 79
+  },
+  "OTHER_relative_B": 1.0,
+  "minimum_diagnostic_fragments": 20,
+  "maximum_rounding_distance": 0.4,
+  "maximum_long_junction_imbalance": 0.5,
+  "notes": "Exploratory development fit. Thresholds are heuristic, not calibrated error probabilities. OTHER efficiency assumed, not fitted. Total-C4 factor inherited from the earlier 18-donor pilot.",
+  "total_C4_factor": 1.1526268115942029
+}

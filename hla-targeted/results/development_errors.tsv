@@ -1,0 +1,240 @@
+donor	method	feature	prediction	truth
+HG01530	targeted_markers	total		4
+HG02165	targeted_markers	total		4
+NA18948	targeted_markers	total		6
+NA20806	targeted_markers	total		4
+NA20809	targeted_markers	total		4
+HG00320	targeted_markers	A		2
+HG00344	targeted_markers	A		2
+HG01530	targeted_markers	A		2
+HG02165	targeted_markers	A		2
+HG03139	targeted_markers	A	1	2
+NA18944	targeted_markers	A		2
+NA18948	targeted_markers	A		4
+NA18971	targeted_markers	A		2
+NA19443	targeted_markers	A		2
+NA20762	targeted_markers	A	3	2
+NA20799	targeted_markers	A		2
+NA20806	targeted_markers	A		1
+NA20809	targeted_markers	A		2
+NA20870	targeted_markers	A	1	2
+NA21106	targeted_markers	A		3
+HG00320	targeted_markers	B		1
+HG00344	targeted_markers	B		2
+HG01530	targeted_markers	B		2
+HG02165	targeted_markers	B		2
+HG03139	targeted_markers	B	2	1
+NA18944	targeted_markers	B		2
+NA18948	targeted_markers	B		2
+NA18971	targeted_markers	B		2
+NA19443	targeted_markers	B		1
+NA20762	targeted_markers	B	1	2
+NA20799	targeted_markers	B		2
+NA20806	targeted_markers	B		3
+NA20809	targeted_markers	B		2
+NA20870	targeted_markers	B	3	2
+NA21106	targeted_markers	B		1
+HG00320	targeted_markers	OTHER		0
+HG00344	targeted_markers	OTHER		0
+HG01530	targeted_markers	OTHER		0
+HG02165	targeted_markers	OTHER		0
+NA18944	targeted_markers	OTHER		0
+NA18948	targeted_markers	OTHER		0
+NA18971	targeted_markers	OTHER		0
+NA19443	targeted_markers	OTHER		0
+NA20799	targeted_markers	OTHER		0
+NA20806	targeted_markers	OTHER		0
+NA20809	targeted_markers	OTHER		0
+NA21106	targeted_markers	OTHER		0
+HG01530	targeted_markers	L		2
+HG02165	targeted_markers	L		3
+HG02976	targeted_markers	L		2
+NA18620	targeted_markers	L		3
+NA18879	targeted_markers	L		1
+NA18948	targeted_markers	L		5
+NA19066	targeted_markers	L		3
+NA19087	targeted_markers	L		3
+NA19338	targeted_markers	L		2
+NA20806	targeted_markers	L		4
+NA20809	targeted_markers	L		3
+HG01530	targeted_markers	S		2
+HG02165	targeted_markers	S		1
+HG02976	targeted_markers	S		1
+NA18620	targeted_markers	S		1
+NA18879	targeted_markers	S		2
+NA18948	targeted_markers	S		1
+NA19066	targeted_markers	S		1
+NA19087	targeted_markers	S		1
+NA19338	targeted_markers	S		2
+NA20806	targeted_markers	S		0
+NA20809	targeted_markers	S		1
+HG00232	C4Investigator	total	6	5
+HG00329	C4Investigator	total	6	5
+HG01786	C4Investigator	total	5	4
+HG02392	C4Investigator	total	7	6
+HG03139	C4Investigator	total	4	3
+HG03195	C4Investigator	total	5	4
+HG03225	C4Investigator	total	5	4
+HG03784	C4Investigator	total		5
+NA18505	C4Investigator	total		3
+NA18948	C4Investigator	total		6
+NA18952	C4Investigator	total		6
+NA18974	C4Investigator	total		6
+NA19007	C4Investigator	total		3
+NA19159	C4Investigator	total		6
+NA21106	C4Investigator	total		4
+NA21144	C4Investigator	total		4
+HG00232	C4Investigator	A	5	4
+HG00329	C4Investigator	A	4	3
+HG01786	C4Investigator	A	4	3
+HG03195	C4Investigator	A	3	2
+HG03225	C4Investigator	A	3	2
+HG03784	C4Investigator	A		3
+NA18505	C4Investigator	A		2
+NA18948	C4Investigator	A		4
+NA18952	C4Investigator	A		4
+NA18974	C4Investigator	A		4
+NA19007	C4Investigator	A		2
+NA19159	C4Investigator	A		3
+NA21106	C4Investigator	A		3
+NA21144	C4Investigator	A		1
+HG02392	C4Investigator	B	4	3
+HG03139	C4Investigator	B	2	1
+HG03784	C4Investigator	B		2
+NA18505	C4Investigator	B		1
+NA18948	C4Investigator	B		2
+NA18952	C4Investigator	B		2
+NA18974	C4Investigator	B		2
+NA19007	C4Investigator	B		1
+NA19159	C4Investigator	B		3
+NA21106	C4Investigator	B		1
+NA21144	C4Investigator	B		3
+HG00232	C4Investigator	L	6	5
+HG00329	C4Investigator	L	5	4
+HG01786	C4Investigator	L	4	3
+HG03139	C4Investigator	L	3	2
+HG03784	C4Investigator	L		4
+NA18505	C4Investigator	L		2
+NA18948	C4Investigator	L		5
+NA18952	C4Investigator	L		6
+NA18974	C4Investigator	L		4
+NA19007	C4Investigator	L		2
+NA19159	C4Investigator	L		2
+NA21106	C4Investigator	L		4
+NA21144	C4Investigator	L		2
+HG02392	C4Investigator	S	4	3
+HG03195	C4Investigator	S	3	2
+HG03225	C4Investigator	S	3	2
+HG03784	C4Investigator	S		1
+NA18505	C4Investigator	S		1
+NA18948	C4Investigator	S		1
+NA18952	C4Investigator	S		0
+NA18974	C4Investigator	S		2
+NA19007	C4Investigator	S		1
+NA19159	C4Investigator	S		4
+NA21106	C4Investigator	S		0
+NA21144	C4Investigator	S		2
+HG00140	old_sketch_CN	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-4c34865fcf2a50f9
+HG00146	old_sketch_CN	full_signature_pair	RCCX-STRUCT-80c1563b57f16898;RCCX-STRUCT-a002f576cdda62b4	RCCX-STRUCT-a002f576cdda62b4;RCCX-STRUCT-f3f0f2d8f59c7414
+HG00232	old_sketch_CN	full_signature_pair	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-750ba4509b0b305f	RCCX-STRUCT-c91a117646c15232;RCCX-STRUCT-daf9913a8b810e06
+HG01530	old_sketch_CN	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-08dc6d3cd5c804e4
+HG02155	old_sketch_CN	full_signature_pair	RCCX-STRUCT-80c1563b57f16898;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-7b1f207074474ef0
+HG02165	old_sketch_CN	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232
+HG02392	old_sketch_CN	full_signature_pair	RCCX-STRUCT-42dd7f832dff3c86;RCCX-STRUCT-8904b92121a5f1e8	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-716f40e69c45c13d
+HG03225	old_sketch_CN	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-08dc6d3cd5c804e4	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-804d53b600bb619f
+NA18570	old_sketch_CN	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-b8ca310d36f0396c	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-08dc6d3cd5c804e4
+NA18620	old_sketch_CN	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-109f6cb2c3c027c8	RCCX-STRUCT-b8ca310d36f0396c;RCCX-STRUCT-c91a117646c15232
+NA18879	old_sketch_CN	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-a002f576cdda62b4	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-12355a86c207700e
+NA18948	old_sketch_CN	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c043bb7aaa1cb89c
+NA18971	old_sketch_CN	full_signature_pair	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-c91a117646c15232;RCCX-STRUCT-c91a117646c15232
+NA18982	old_sketch_CN	full_signature_pair	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-b8ca310d36f0396c	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-109f6cb2c3c027c8
+NA18990	old_sketch_CN	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-b8ca310d36f0396c	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-08dc6d3cd5c804e4
+NA19088	old_sketch_CN	full_signature_pair	RCCX-STRUCT-750ba4509b0b305f;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-4c34865fcf2a50f9;RCCX-STRUCT-772019bbe8032c14
+NA19159	old_sketch_CN	full_signature_pair	RCCX-STRUCT-0c843ef37c4c8a9d;RCCX-STRUCT-0c843ef37c4c8a9d	RCCX-STRUCT-0c843ef37c4c8a9d;RCCX-STRUCT-43779c00c9747168
+NA20282	old_sketch_CN	full_signature_pair	RCCX-STRUCT-8904b92121a5f1e8;RCCX-STRUCT-b8ca310d36f0396c	RCCX-STRUCT-0c843ef37c4c8a9d;RCCX-STRUCT-b8ca310d36f0396c
+NA20503	old_sketch_CN	full_signature_pair	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-109f6cb2c3c027c8	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-c91a117646c15232
+NA20752	old_sketch_CN	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-109f6cb2c3c027c8
+NA20762	old_sketch_CN	full_signature_pair	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-c91a117646c15232;RCCX-STRUCT-c91a117646c15232
+NA20806	old_sketch_CN	full_signature_pair		RCCX-STRUCT-684f24a39886a3ee;RCCX-STRUCT-c91a117646c15232
+NA20809	old_sketch_CN	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232
+NA21102	old_sketch_CN	full_signature_pair	RCCX-STRUCT-804d53b600bb619f;RCCX-STRUCT-e92677dc4f8b8aff	RCCX-STRUCT-804d53b600bb619f;RCCX-STRUCT-f3965b9e0fe6783a
+NA21144	old_sketch_CN	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-08dc6d3cd5c804e4	RCCX-STRUCT-005a3eadf9cf15cd;RCCX-STRUCT-08dc6d3cd5c804e4
+HG00146	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+HG00232	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+HG01530	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+HG02165	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+HG02392	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+NA18879	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+NA18948	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+NA19088	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+NA20806	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+NA20809	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+NA21144	old_sketch_CN	truth_in_dosage_compatible_set	True	False
+HG00140	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-4c34865fcf2a50f9
+HG00146	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-80c1563b57f16898;RCCX-STRUCT-a002f576cdda62b4	RCCX-STRUCT-a002f576cdda62b4;RCCX-STRUCT-f3f0f2d8f59c7414
+HG00232	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-ca928f07d032036f	RCCX-STRUCT-c91a117646c15232;RCCX-STRUCT-daf9913a8b810e06
+HG01530	targeted_without_module_context	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-08dc6d3cd5c804e4
+HG02155	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-80c1563b57f16898;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-7b1f207074474ef0
+HG02165	targeted_without_module_context	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232
+HG02392	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-42dd7f832dff3c86;RCCX-STRUCT-8904b92121a5f1e8	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-716f40e69c45c13d
+HG03139	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-005a3eadf9cf15cd;RCCX-STRUCT-80c1563b57f16898	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-80c1563b57f16898
+HG03225	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-08dc6d3cd5c804e4	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-804d53b600bb619f
+NA18620	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-109f6cb2c3c027c8	RCCX-STRUCT-b8ca310d36f0396c;RCCX-STRUCT-c91a117646c15232
+NA18879	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-3d82c5351ccfb664;RCCX-STRUCT-80c1563b57f16898	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-12355a86c207700e
+NA18948	targeted_without_module_context	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c043bb7aaa1cb89c
+NA19088	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-684f24a39886a3ee;RCCX-STRUCT-750ba4509b0b305f	RCCX-STRUCT-4c34865fcf2a50f9;RCCX-STRUCT-772019bbe8032c14
+NA20282	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-8904b92121a5f1e8;RCCX-STRUCT-b8ca310d36f0396c	RCCX-STRUCT-0c843ef37c4c8a9d;RCCX-STRUCT-b8ca310d36f0396c
+NA20762	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-c91a117646c15232;RCCX-STRUCT-c91a117646c15232
+NA20806	targeted_without_module_context	full_signature_pair		RCCX-STRUCT-684f24a39886a3ee;RCCX-STRUCT-c91a117646c15232
+NA20809	targeted_without_module_context	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232
+NA20870	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-684f24a39886a3ee	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232
+NA21102	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-804d53b600bb619f;RCCX-STRUCT-e92677dc4f8b8aff	RCCX-STRUCT-804d53b600bb619f;RCCX-STRUCT-f3965b9e0fe6783a
+NA21144	targeted_without_module_context	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-f110abe9b93df8a5	RCCX-STRUCT-005a3eadf9cf15cd;RCCX-STRUCT-08dc6d3cd5c804e4
+HG00146	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+HG00232	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+HG01530	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+HG02165	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+HG02392	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+HG03139	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+NA18879	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+NA18948	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+NA19088	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+NA20762	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+NA20806	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+NA20809	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+NA20870	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+NA21144	targeted_without_module_context	truth_in_dosage_compatible_set	True	False
+HG00140	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-4c34865fcf2a50f9
+HG00146	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-80c1563b57f16898;RCCX-STRUCT-a002f576cdda62b4	RCCX-STRUCT-a002f576cdda62b4;RCCX-STRUCT-f3f0f2d8f59c7414
+HG00232	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-ca928f07d032036f	RCCX-STRUCT-c91a117646c15232;RCCX-STRUCT-daf9913a8b810e06
+HG01530	targeted_dosage_paths	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-08dc6d3cd5c804e4
+HG02155	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-80c1563b57f16898;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-7b1f207074474ef0
+HG02165	targeted_dosage_paths	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232
+HG02392	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-42dd7f832dff3c86;RCCX-STRUCT-8904b92121a5f1e8	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-716f40e69c45c13d
+HG03139	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-005a3eadf9cf15cd;RCCX-STRUCT-80c1563b57f16898	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-80c1563b57f16898
+HG03225	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-08dc6d3cd5c804e4	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-804d53b600bb619f
+NA18620	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-109f6cb2c3c027c8	RCCX-STRUCT-b8ca310d36f0396c;RCCX-STRUCT-c91a117646c15232
+NA18879	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-3d82c5351ccfb664;RCCX-STRUCT-80c1563b57f16898	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-12355a86c207700e
+NA18948	targeted_dosage_paths	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c043bb7aaa1cb89c
+NA19088	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-684f24a39886a3ee;RCCX-STRUCT-750ba4509b0b305f	RCCX-STRUCT-4c34865fcf2a50f9;RCCX-STRUCT-772019bbe8032c14
+NA20282	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-8904b92121a5f1e8;RCCX-STRUCT-b8ca310d36f0396c	RCCX-STRUCT-0c843ef37c4c8a9d;RCCX-STRUCT-b8ca310d36f0396c
+NA20762	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-109f6cb2c3c027c8;RCCX-STRUCT-c91a117646c15232	RCCX-STRUCT-c91a117646c15232;RCCX-STRUCT-c91a117646c15232
+NA20806	targeted_dosage_paths	full_signature_pair		RCCX-STRUCT-684f24a39886a3ee;RCCX-STRUCT-c91a117646c15232
+NA20809	targeted_dosage_paths	full_signature_pair		RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232
+NA20870	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-684f24a39886a3ee	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-c91a117646c15232
+NA21102	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-804d53b600bb619f;RCCX-STRUCT-e92677dc4f8b8aff	RCCX-STRUCT-804d53b600bb619f;RCCX-STRUCT-f3965b9e0fe6783a
+NA21144	targeted_dosage_paths	full_signature_pair	RCCX-STRUCT-08dc6d3cd5c804e4;RCCX-STRUCT-f110abe9b93df8a5	RCCX-STRUCT-005a3eadf9cf15cd;RCCX-STRUCT-08dc6d3cd5c804e4
+HG00146	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+HG00232	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+HG01530	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+HG02165	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+HG02392	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+HG03139	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+NA18879	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+NA18948	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+NA19088	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+NA20762	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+NA20806	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+NA20809	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+NA20870	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False
+NA21144	targeted_dosage_paths	truth_in_dosage_compatible_set	True	False

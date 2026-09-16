@@ -1,0 +1,6 @@
+{
+  "utc": "2026-09-16T04:24:01.358699+00:00",
+  "recipe": "Divide continuous C4Investigator wgs_c4_copy by median(estimate / assembly copies) across the original 18 pilot donors, then round nearest integer. No component-dosage recalibration and no held-out outcome tuning.",
+  "rationale": "Development outputs show native dosage bias; provide the same pilot-only scalar recipe as other total-C4 methods while preserving native primary calls.",
+  "script_sha256": "dc5b2e2f0d1a0e21dfeeb19b76af6f69bd76828755effc60d3337682c6ac884b"
+}
