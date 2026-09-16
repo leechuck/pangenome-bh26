@@ -1,0 +1,10 @@
+source/C4Investigator/
+source/*.tar.gz
+source/*.npy
+source/*.fa
+source/*.paf
+count_groups
+source/background/
+source/read_counts/
+literature/C4Investigator.html
+literature/C4Investigator.txt

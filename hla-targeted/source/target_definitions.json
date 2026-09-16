@@ -1,0 +1,42 @@
+{
+  "reference_source": "https://github.com/Hollenbach-lab/C4Investigator",
+  "diagnostic_sites0": [
+    14259,
+    14262,
+    14270,
+    14273,
+    14275
+  ],
+  "A_motif": "CGTGC",
+  "B_motif": "TCACT",
+  "HERV_start0": 2860,
+  "HERV_end0": 9227,
+  "training_haplotypes": 543,
+  "training_genes": 1090,
+  "heldout_families": [
+    "HG00436",
+    "HG00640",
+    "HG00671",
+    "HG01241",
+    "HG01359",
+    "HG01932",
+    "HG01941",
+    "HG01960",
+    "HG01976",
+    "HG01979",
+    "HG02053",
+    "HG02071",
+    "HG02135",
+    "HG02258",
+    "HG02449",
+    "HG02721",
+    "HG02733",
+    "HG02839",
+    "HG02884",
+    "HG02964",
+    "HG03538",
+    "HG03642",
+    "HG03925",
+    "HG04099"
+  ]
+}

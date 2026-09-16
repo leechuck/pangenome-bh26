@@ -1,0 +1,27 @@
+{
+  "total_markers": 12214,
+  "targeted_markers": 299,
+  "group_memberships": {
+    "A": 29,
+    "LONG_LEFT": 16,
+    "LONG_RIGHT": 25,
+    "B": 30,
+    "SHORT": 16,
+    "NONCANONICAL": 15,
+    "BOUNDARY": 168
+  },
+  "conflicting_probes_removed": 0,
+  "training_gene_audit": {
+    "match": 1087,
+    "diagnostic_annotation_disagreement": 3
+  },
+  "groups": {
+    "A": 1,
+    "B": 2,
+    "LONG_LEFT": 4,
+    "LONG_RIGHT": 8,
+    "SHORT": 16,
+    "BOUNDARY": 32,
+    "NONCANONICAL": 64
+  }
+}
