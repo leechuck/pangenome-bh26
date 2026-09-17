@@ -1,0 +1,46 @@
+{
+  "utc": "2026-09-17T02:35:43.068240+00:00",
+  "jobs": {
+    "T1K": {
+      "states": {
+        "COMPLETED": 40
+      },
+      "failed": [],
+      "expected": 40
+    },
+    "SpecHLA": {
+      "states": {
+        "COMPLETED": 40
+      },
+      "failed": [],
+      "expected": 40
+    },
+    "PanGenie": {
+      "states": {
+        "COMPLETED": 40
+      },
+      "failed": [],
+      "expected": 40
+    }
+  },
+  "outputs": {
+    "T1K": {
+      "donors_with_files": 40,
+      "missing": []
+    },
+    "SpecHLA": {
+      "donors_with_files": 40,
+      "missing": []
+    },
+    "PanGenie": {
+      "donors_with_files": 40,
+      "missing": []
+    }
+  },
+  "panel_index": {
+    "state": "COMPLETED",
+    "exit_code": "0:0"
+  },
+  "index_logs_complete": 10,
+  "all_complete": true
+}

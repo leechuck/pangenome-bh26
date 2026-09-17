@@ -1,0 +1,15 @@
+{
+  "fold": 3,
+  "arm": "hprc",
+  "training_donors": 224,
+  "counts": {
+    "input_sites": 100922,
+    "missing_or_nonphased": 264,
+    "retained_sites": 87875,
+    "retained_SNV_sites": 72490,
+    "no_training_alt": 12782,
+    "retained_SV_length_change_sites": 278,
+    "non_ACGT": 1
+  },
+  "caveat": "Global graph topology; complete phased training genotypes only; no independent SNV/SV truth established yet"
+}

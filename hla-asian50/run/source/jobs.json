@@ -7,9 +7,18 @@
     "full_graph": 20632448,
     "SpecHLA": 20632470,
     "panel_index": 20632534,
-    "PanGenie": 20632571
+    "PanGenie": 20632571,
+    "verify_outputs": 20634221,
+    "verify_outputs_initial_checker": 20633242
   },
   "initial_cohort": 40,
   "Arabian_pending": false,
-  "Arabian_status": "deferred_by_user"
+  "Arabian_status": "deferred_by_user",
+  "monitoring": {
+    "poll_interval_seconds": 50,
+    "SpecHLA_array_throttle": 6,
+    "changes": "Increased from 1 to 4, then 5, then 6 concurrent jobs as CPUs became available and PanGenie completed; caller arguments unchanged.",
+    "first_watcher_snapshot_utc": "2026-09-17T01:34:12.463472+00:00",
+    "last_watcher_snapshot_utc": "2026-09-17T02:35:43.068240+00:00"
+  }
 }

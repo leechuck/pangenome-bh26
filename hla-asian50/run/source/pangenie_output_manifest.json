@@ -1,0 +1,562 @@
+[
+  {
+    "donor": "HG02155",
+    "arm": "full",
+    "path": "pangenie/HG02155/full/calls_genotyping.vcf",
+    "size_bytes": 123256493,
+    "sha256": "f1378b8b4b1f689f60355aa666ca10fb42f3639dd17a82eab12704d5aadde3bd"
+  },
+  {
+    "donor": "HG02155",
+    "arm": "hprc",
+    "path": "pangenie/HG02155/hprc/calls_genotyping.vcf",
+    "size_bytes": 158332228,
+    "sha256": "ae44b1c54e7b3c2c0c89b0abb4f794aaa97447211a4a1a2c0ff8d9994d18a6e0"
+  },
+  {
+    "donor": "NA18620",
+    "arm": "full",
+    "path": "pangenie/NA18620/full/calls_genotyping.vcf",
+    "size_bytes": 123255809,
+    "sha256": "837c7af1ed278234c6615df28b1dcbab459e27d91b6ce3efe417b3fc6f36775a"
+  },
+  {
+    "donor": "NA18620",
+    "arm": "hprc",
+    "path": "pangenie/NA18620/hprc/calls_genotyping.vcf",
+    "size_bytes": 158340202,
+    "sha256": "f16d9f5624ee89e61caedadd7bdb49ec2b9be86b9cef3a50d169430282579ae1"
+  },
+  {
+    "donor": "HG00706",
+    "arm": "full",
+    "path": "pangenie/HG00706/full/calls_genotyping.vcf",
+    "size_bytes": 123265501,
+    "sha256": "e822848c4fe2c2b3bf707a56c603a6dfd5ccfdd47e719e927a110e85a85a686c"
+  },
+  {
+    "donor": "HG00706",
+    "arm": "hprc",
+    "path": "pangenie/HG00706/hprc/calls_genotyping.vcf",
+    "size_bytes": 158340112,
+    "sha256": "43b35e832cdcb7484f31acf6ae73798e4a62a0a68f4959827b85f6ea985d2be8"
+  },
+  {
+    "donor": "NA19087",
+    "arm": "full",
+    "path": "pangenie/NA19087/full/calls_genotyping.vcf",
+    "size_bytes": 123253589,
+    "sha256": "7984454be224024d3f700ce0b13ce1584a952d906a3f4a8174de28a0a180d186"
+  },
+  {
+    "donor": "NA19087",
+    "arm": "hprc",
+    "path": "pangenie/NA19087/hprc/calls_genotyping.vcf",
+    "size_bytes": 158326216,
+    "sha256": "4f8a9218d6aec065b566c4e876ec1c8f9ccb68b15d4c3f219a37d05b619f8294"
+  },
+  {
+    "donor": "HG03804",
+    "arm": "full",
+    "path": "pangenie/HG03804/full/calls_genotyping.vcf",
+    "size_bytes": 123258276,
+    "sha256": "1201d8b48c52be443744e5a35755f88437d508c6fd17d5a3277b1f0330ce02d6"
+  },
+  {
+    "donor": "HG03804",
+    "arm": "hprc",
+    "path": "pangenie/HG03804/hprc/calls_genotyping.vcf",
+    "size_bytes": 158341936,
+    "sha256": "3217bc7363d7557fa1c8bac96ecee1525412b454e8e1bdb97b3e994a995faffd"
+  },
+  {
+    "donor": "NA21093",
+    "arm": "full",
+    "path": "pangenie/NA21093/full/calls_genotyping.vcf",
+    "size_bytes": 123260151,
+    "sha256": "6cacd5843bc6aa2319c9b32f1a9e520a9df340d535f1fe4ed2b054f29dd1a640"
+  },
+  {
+    "donor": "NA21093",
+    "arm": "hprc",
+    "path": "pangenie/NA21093/hprc/calls_genotyping.vcf",
+    "size_bytes": 158333844,
+    "sha256": "129f5079dbfd1b13187e2dfc846b765726185a7a0811284155a7e088c517a351"
+  },
+  {
+    "donor": "HG03742",
+    "arm": "full",
+    "path": "pangenie/HG03742/full/calls_genotyping.vcf",
+    "size_bytes": 123261325,
+    "sha256": "f175dac2dbe0db4ec42d296dd301023d15c2728389d0f2113893ab839d08d26c"
+  },
+  {
+    "donor": "HG03742",
+    "arm": "hprc",
+    "path": "pangenie/HG03742/hprc/calls_genotyping.vcf",
+    "size_bytes": 158342016,
+    "sha256": "b045bf88fa7913386a9aae445b9ae53fcde17aceab43b8640aa6f99c814dfc3f"
+  },
+  {
+    "donor": "HG03239",
+    "arm": "full",
+    "path": "pangenie/HG03239/full/calls_genotyping.vcf",
+    "size_bytes": 123256590,
+    "sha256": "8cd8b7fb89c56bb70202f828900d0729cf5e7931cbe5691668075d9cea136021"
+  },
+  {
+    "donor": "HG03239",
+    "arm": "hprc",
+    "path": "pangenie/HG03239/hprc/calls_genotyping.vcf",
+    "size_bytes": 158332084,
+    "sha256": "e63854b172877ba92377158e98b387186ce3768879d9b1dfdf51e9c765fd6857"
+  },
+  {
+    "donor": "HG02178",
+    "arm": "full",
+    "path": "pangenie/HG02178/full/calls_genotyping.vcf",
+    "size_bytes": 123769859,
+    "sha256": "c518c7657cc5c530bc9f0869739439151f19a9a7a2a6e30f8472e76df79662ed"
+  },
+  {
+    "donor": "HG02178",
+    "arm": "hprc",
+    "path": "pangenie/HG02178/hprc/calls_genotyping.vcf",
+    "size_bytes": 158262943,
+    "sha256": "d284297c7a0ce77684e45b8101aa5ac302e687fb77a4e38474d7466405f72ec7"
+  },
+  {
+    "donor": "NA18608",
+    "arm": "full",
+    "path": "pangenie/NA18608/full/calls_genotyping.vcf",
+    "size_bytes": 123773724,
+    "sha256": "daeb9187ca68445a693e413aa315f8c22901d4d853c60a0b525f10063b8d7c7c"
+  },
+  {
+    "donor": "NA18608",
+    "arm": "hprc",
+    "path": "pangenie/NA18608/hprc/calls_genotyping.vcf",
+    "size_bytes": 158275399,
+    "sha256": "34d239e3ccf64ce46f6e06b2f8019eaedc21c64e057b693d5262f8e351b0da80"
+  },
+  {
+    "donor": "HG00658",
+    "arm": "full",
+    "path": "pangenie/HG00658/full/calls_genotyping.vcf",
+    "size_bytes": 123780591,
+    "sha256": "2fcea9ed234d54dcb28547b3ad1241083de5b17748cc54588c598b56614c55ba"
+  },
+  {
+    "donor": "HG00658",
+    "arm": "hprc",
+    "path": "pangenie/HG00658/hprc/calls_genotyping.vcf",
+    "size_bytes": 158269940,
+    "sha256": "e0e2f063114f15d181ee06f52d6b68c77c84fc7d17f0996fdac829c97c30284f"
+  },
+  {
+    "donor": "HG02132",
+    "arm": "full",
+    "path": "pangenie/HG02132/full/calls_genotyping.vcf",
+    "size_bytes": 123782335,
+    "sha256": "89135fc141bfc605a16beee223d3895e585747c7eeb025a308ea29b6dbc5150e"
+  },
+  {
+    "donor": "HG02132",
+    "arm": "hprc",
+    "path": "pangenie/HG02132/hprc/calls_genotyping.vcf",
+    "size_bytes": 158265102,
+    "sha256": "7d5ebaf35a3842c515e46c7eb83f59cce68cc8feda0e507a828bd7ebf1cecdcd"
+  },
+  {
+    "donor": "HG03831",
+    "arm": "full",
+    "path": "pangenie/HG03831/full/calls_genotyping.vcf",
+    "size_bytes": 123782378,
+    "sha256": "002f03a1a3e26d32e51ba5fb3d3117ab0bd48e761e4940f202ab38cf2339d41e"
+  },
+  {
+    "donor": "HG03831",
+    "arm": "hprc",
+    "path": "pangenie/HG03831/hprc/calls_genotyping.vcf",
+    "size_bytes": 158263995,
+    "sha256": "ba324546c36f39f8082ad4272abbcb7eaad7b2de3ef4c66f41ba2a32b4627eb4"
+  },
+  {
+    "donor": "NA20905",
+    "arm": "full",
+    "path": "pangenie/NA20905/full/calls_genotyping.vcf",
+    "size_bytes": 123778235,
+    "sha256": "aa1af75594dec4e46e533a8ac3572d489888a9c73ca8b7e29c82dd0c328228e3"
+  },
+  {
+    "donor": "NA20905",
+    "arm": "hprc",
+    "path": "pangenie/NA20905/hprc/calls_genotyping.vcf",
+    "size_bytes": 158271693,
+    "sha256": "37b4e80e38871e15debf7aa34e32f87d54d4e58228aa008fd867023d8ec60676"
+  },
+  {
+    "donor": "HG03874",
+    "arm": "full",
+    "path": "pangenie/HG03874/full/calls_genotyping.vcf",
+    "size_bytes": 123777676,
+    "sha256": "5f9fcfdb2d064d50cf923ff58434da5cf673c718e5c36a5d76c25f9d4e34c17a"
+  },
+  {
+    "donor": "HG03874",
+    "arm": "hprc",
+    "path": "pangenie/HG03874/hprc/calls_genotyping.vcf",
+    "size_bytes": 158266314,
+    "sha256": "fb78c2f00f7ae0901b675adb47d27b57a8d76096b0ba51ba55e7d40f98955ec4"
+  },
+  {
+    "donor": "HG04199",
+    "arm": "full",
+    "path": "pangenie/HG04199/full/calls_genotyping.vcf",
+    "size_bytes": 123773102,
+    "sha256": "1833ac51b46bc0930276313e01263bc6929a2ef243dd231b71896598f56fdaa9"
+  },
+  {
+    "donor": "HG04199",
+    "arm": "hprc",
+    "path": "pangenie/HG04199/hprc/calls_genotyping.vcf",
+    "size_bytes": 158264338,
+    "sha256": "49b84e8e142dc20a9085230d2493a122a213169860311b5516bd9cfccc8d5da8"
+  },
+  {
+    "donor": "HG02391",
+    "arm": "full",
+    "path": "pangenie/HG02391/full/calls_genotyping.vcf",
+    "size_bytes": 123653166,
+    "sha256": "140da001b214128e47d356a14f773f7577ec14aa62811937c63fb08ec1375e9d"
+  },
+  {
+    "donor": "HG02391",
+    "arm": "hprc",
+    "path": "pangenie/HG02391/hprc/calls_genotyping.vcf",
+    "size_bytes": 158546208,
+    "sha256": "2a8d37427b8356c76239753adbe83b531d81d5878de539028fedcf1e68ea0f07"
+  },
+  {
+    "donor": "NA18570",
+    "arm": "full",
+    "path": "pangenie/NA18570/full/calls_genotyping.vcf",
+    "size_bytes": 123654669,
+    "sha256": "cfe9e10b42ea32b36208c5b1c89ee58ade7fad408852f6660ac6434ff1ab9a1f"
+  },
+  {
+    "donor": "NA18570",
+    "arm": "hprc",
+    "path": "pangenie/NA18570/hprc/calls_genotyping.vcf",
+    "size_bytes": 158546749,
+    "sha256": "026bfd222bb426ce7273e58bccace73eee044f13ef43cc8711cf745da0aa72e8"
+  },
+  {
+    "donor": "NA18940",
+    "arm": "full",
+    "path": "pangenie/NA18940/full/calls_genotyping.vcf",
+    "size_bytes": 123641986,
+    "sha256": "1cbe15eb0a046f22bb63778d1d870ef92224cb965282f1e411ee7cc457fe9097"
+  },
+  {
+    "donor": "NA18940",
+    "arm": "hprc",
+    "path": "pangenie/NA18940/hprc/calls_genotyping.vcf",
+    "size_bytes": 158532676,
+    "sha256": "0f198c30f61da6dbf742810d7ee39c810ccf7ef80f5ff6797fe8b4a91c3f3ff6"
+  },
+  {
+    "donor": "HG02027",
+    "arm": "full",
+    "path": "pangenie/HG02027/full/calls_genotyping.vcf",
+    "size_bytes": 123652148,
+    "sha256": "b668c1bc97e5357565dd1becbbe739e7c6ddcdef4707c48010e27629647cae68"
+  },
+  {
+    "donor": "HG02027",
+    "arm": "hprc",
+    "path": "pangenie/HG02027/hprc/calls_genotyping.vcf",
+    "size_bytes": 158537907,
+    "sha256": "4b67b2e7b61523da8ceb16d3bac54bb8ce969b2ab787c4c56d70f50ca845173d"
+  },
+  {
+    "donor": "HG04187",
+    "arm": "full",
+    "path": "pangenie/HG04187/full/calls_genotyping.vcf",
+    "size_bytes": 123651459,
+    "sha256": "870906646ecca34351f08560ad3f19084f6750a89986325f46d1171473d7437d"
+  },
+  {
+    "donor": "HG04187",
+    "arm": "hprc",
+    "path": "pangenie/HG04187/hprc/calls_genotyping.vcf",
+    "size_bytes": 158539287,
+    "sha256": "78b914c1dd7822c0f9d2a9b4e2ed5649a06e85aca39baa645d0cb51ea58cbcf3"
+  },
+  {
+    "donor": "NA21144",
+    "arm": "full",
+    "path": "pangenie/NA21144/full/calls_genotyping.vcf",
+    "size_bytes": 123644536,
+    "sha256": "2613fc00636f52414ed1f7f3a85d4733dd954d3f199e6bba8f9ecc2dd52c6704"
+  },
+  {
+    "donor": "NA21144",
+    "arm": "hprc",
+    "path": "pangenie/NA21144/hprc/calls_genotyping.vcf",
+    "size_bytes": 158528253,
+    "sha256": "b708dd0431da702306eff132094898ac8eb45cc87a18a5457d86cb000e5559b7"
+  },
+  {
+    "donor": "HG02602",
+    "arm": "full",
+    "path": "pangenie/HG02602/full/calls_genotyping.vcf",
+    "size_bytes": 123638582,
+    "sha256": "5b74201996a0caadb7b0fb8b60b987a27c7481a02c29ac8f2021649d4bd44046"
+  },
+  {
+    "donor": "HG02602",
+    "arm": "hprc",
+    "path": "pangenie/HG02602/hprc/calls_genotyping.vcf",
+    "size_bytes": 158530958,
+    "sha256": "ab3ba5c8a74b108ad17d361a507b512bfe236cfc5d45de86936f2c24922d13e2"
+  },
+  {
+    "donor": "HG04115",
+    "arm": "full",
+    "path": "pangenie/HG04115/full/calls_genotyping.vcf",
+    "size_bytes": 123644432,
+    "sha256": "0d1a49167d590bae675ebd9ceb867442b7b41983cb2f415119113676c8672937"
+  },
+  {
+    "donor": "HG04115",
+    "arm": "hprc",
+    "path": "pangenie/HG04115/hprc/calls_genotyping.vcf",
+    "size_bytes": 158533081,
+    "sha256": "6f61ddc1efe22964040d36047af81023e9f2f3d443819120f4209ac4d4b9dbcf"
+  },
+  {
+    "donor": "HG02165",
+    "arm": "full",
+    "path": "pangenie/HG02165/full/calls_genotyping.vcf",
+    "size_bytes": 123634895,
+    "sha256": "25695b6871ff0f866ab9537d04e3a5c2c7a7d54bcd68d5058f11c1fe2568b998"
+  },
+  {
+    "donor": "HG02165",
+    "arm": "hprc",
+    "path": "pangenie/HG02165/hprc/calls_genotyping.vcf",
+    "size_bytes": 159110335,
+    "sha256": "34f162dc1b6adfc022346389de6b3f4ff3dd818d6a5e4e36b3b06350a39f0d1e"
+  },
+  {
+    "donor": "HG00558",
+    "arm": "full",
+    "path": "pangenie/HG00558/full/calls_genotyping.vcf",
+    "size_bytes": 123646699,
+    "sha256": "3ae52b9b2fd504577a8a849a21c64cc6ec6f3a76c95f1d39695ab7a268fb7293"
+  },
+  {
+    "donor": "HG00558",
+    "arm": "hprc",
+    "path": "pangenie/HG00558/hprc/calls_genotyping.vcf",
+    "size_bytes": 159120657,
+    "sha256": "25bb9188739fdf38f4c82f50261caad344cd53082d1e1937acabb22cfff92a1c"
+  },
+  {
+    "donor": "NA18952",
+    "arm": "full",
+    "path": "pangenie/NA18952/full/calls_genotyping.vcf",
+    "size_bytes": 123641174,
+    "sha256": "a0f9fa0af41f928a0448cf57cae9ae5d5b48b58783a14af01801e2cdcdd02cd6"
+  },
+  {
+    "donor": "NA18952",
+    "arm": "hprc",
+    "path": "pangenie/NA18952/hprc/calls_genotyping.vcf",
+    "size_bytes": 159112496,
+    "sha256": "d9449c52db49e3f22be620e5a1f5a646a19525bc7360ccb75bcdfb0ad011eeff"
+  },
+  {
+    "donor": "HG02523",
+    "arm": "full",
+    "path": "pangenie/HG02523/full/calls_genotyping.vcf",
+    "size_bytes": 123634088,
+    "sha256": "2fee9768450991696527361666da0ac7f2ed2a75285e73db8fbd14438fbae351"
+  },
+  {
+    "donor": "HG02523",
+    "arm": "hprc",
+    "path": "pangenie/HG02523/hprc/calls_genotyping.vcf",
+    "size_bytes": 159114232,
+    "sha256": "fa33ad260587b16bbe121b062191fa5b538e5722690e3ee29fefd048a44793be"
+  },
+  {
+    "donor": "HG03927",
+    "arm": "full",
+    "path": "pangenie/HG03927/full/calls_genotyping.vcf",
+    "size_bytes": 123641441,
+    "sha256": "10e070127dba063f1fbf2dc815d0c757838b62be3ee0e28dbe5432751ee6ee0f"
+  },
+  {
+    "donor": "HG03927",
+    "arm": "hprc",
+    "path": "pangenie/HG03927/hprc/calls_genotyping.vcf",
+    "size_bytes": 159109669,
+    "sha256": "cb59a000af638315ed0bed3a1a9af72ec15a83c56e303d6c15725ff39c80b879"
+  },
+  {
+    "donor": "NA21106",
+    "arm": "full",
+    "path": "pangenie/NA21106/full/calls_genotyping.vcf",
+    "size_bytes": 123637374,
+    "sha256": "b8fb2802ef2c66bf3312359249ab1f866c96a037097339488f2f903db0065092"
+  },
+  {
+    "donor": "NA21106",
+    "arm": "hprc",
+    "path": "pangenie/NA21106/hprc/calls_genotyping.vcf",
+    "size_bytes": 159111136,
+    "sha256": "1a7c43c0b6a60a1c331732ff8d9add3f128f6d8ea2f6a4de1e551553f0794acb"
+  },
+  {
+    "donor": "HG02738",
+    "arm": "full",
+    "path": "pangenie/HG02738/full/calls_genotyping.vcf",
+    "size_bytes": 123644063,
+    "sha256": "e3b3024838ec3e79a74cc1be1eb398b3cc8ac3e381a404024d6ea9d56c7d8623"
+  },
+  {
+    "donor": "HG02738",
+    "arm": "hprc",
+    "path": "pangenie/HG02738/hprc/calls_genotyping.vcf",
+    "size_bytes": 159109655,
+    "sha256": "79b2e7ced105bcd83c26980d7161f348cdcf16b1265bd12d8d8027e17e15a5ee"
+  },
+  {
+    "donor": "HG03688",
+    "arm": "full",
+    "path": "pangenie/HG03688/full/calls_genotyping.vcf",
+    "size_bytes": 123647118,
+    "sha256": "65ece9a4ab195682f65538ab80b2af80e837a1cde41790899017ffc13bbf8c13"
+  },
+  {
+    "donor": "HG03688",
+    "arm": "hprc",
+    "path": "pangenie/HG03688/hprc/calls_genotyping.vcf",
+    "size_bytes": 159120970,
+    "sha256": "c193d0462a4ebe8fc3412e33c6607c6318870f6d6ccdb5d90db927d3abab4a3f"
+  },
+  {
+    "donor": "NA18747",
+    "arm": "full",
+    "path": "pangenie/NA18747/full/calls_genotyping.vcf",
+    "size_bytes": 123176539,
+    "sha256": "6eaa314317bb70fc96c7588b81bd3f5220152a44e6dd2ab564b49fc491165d2d"
+  },
+  {
+    "donor": "NA18747",
+    "arm": "hprc",
+    "path": "pangenie/NA18747/hprc/calls_genotyping.vcf",
+    "size_bytes": 158703963,
+    "sha256": "53e8162c7b050208864d33092fea0a38e29b93829b887b2952133ff0faac8ec4"
+  },
+  {
+    "donor": "HG00609",
+    "arm": "full",
+    "path": "pangenie/HG00609/full/calls_genotyping.vcf",
+    "size_bytes": 123187292,
+    "sha256": "9b41543f5f6e5bc079e69aeb1ef02e71e6fb9595942d12021385e14679355beb"
+  },
+  {
+    "donor": "HG00609",
+    "arm": "hprc",
+    "path": "pangenie/HG00609/hprc/calls_genotyping.vcf",
+    "size_bytes": 158708708,
+    "sha256": "b6556fdcb0a95da06affb9832ef954462d9b7db3343ea1a16122f08fc328ea76"
+  },
+  {
+    "donor": "NA19088",
+    "arm": "full",
+    "path": "pangenie/NA19088/full/calls_genotyping.vcf",
+    "size_bytes": 123176546,
+    "sha256": "1213c5cedf8f3208e2512182ffdc2f8cf52ae9c67dec4a963bdbba061eba30ea"
+  },
+  {
+    "donor": "NA19088",
+    "arm": "hprc",
+    "path": "pangenie/NA19088/hprc/calls_genotyping.vcf",
+    "size_bytes": 158701519,
+    "sha256": "959a30396e8322d0ed1a1489c6c5af71d6ac68852e3e48b2548b30ad61b00de5"
+  },
+  {
+    "donor": "HG02074",
+    "arm": "full",
+    "path": "pangenie/HG02074/full/calls_genotyping.vcf",
+    "size_bytes": 123180110,
+    "sha256": "70e7dd40a73783e27e312c62b4d70026be044424922d348074b733c1c79ec036"
+  },
+  {
+    "donor": "HG02074",
+    "arm": "hprc",
+    "path": "pangenie/HG02074/hprc/calls_genotyping.vcf",
+    "size_bytes": 158707437,
+    "sha256": "c5ceec224a998dfa175210c560a7c903a9bbfe3cb771eb66c52e99b3ed173c97"
+  },
+  {
+    "donor": "HG04157",
+    "arm": "full",
+    "path": "pangenie/HG04157/full/calls_genotyping.vcf",
+    "size_bytes": 123170659,
+    "sha256": "3f0a22aa8cbd15b3d150eee2faf099019531dcb0870f24fd4f5d832f0979df2b"
+  },
+  {
+    "donor": "HG04157",
+    "arm": "hprc",
+    "path": "pangenie/HG04157/hprc/calls_genotyping.vcf",
+    "size_bytes": 158690959,
+    "sha256": "8f0427731347e06e16780ae1d4963d0e7646e004681235539c363b545b19b786"
+  },
+  {
+    "donor": "HG03784",
+    "arm": "full",
+    "path": "pangenie/HG03784/full/calls_genotyping.vcf",
+    "size_bytes": 123177527,
+    "sha256": "048d797db01729d9b1c4cd45f2251aa1e62e0e25eed1df372f5305c5fa8d2144"
+  },
+  {
+    "donor": "HG03784",
+    "arm": "hprc",
+    "path": "pangenie/HG03784/hprc/calls_genotyping.vcf",
+    "size_bytes": 158702686,
+    "sha256": "3c3fd72e1c1de0b046141947bd1731ff3ee3320b09ec38747e9ebc8d1249117a"
+  },
+  {
+    "donor": "HG03017",
+    "arm": "full",
+    "path": "pangenie/HG03017/full/calls_genotyping.vcf",
+    "size_bytes": 123180701,
+    "sha256": "09358f947dfb05f97ab77ae177b3616a4b662780d8d9a2b3eb4341bc4c84b0c9"
+  },
+  {
+    "donor": "HG03017",
+    "arm": "hprc",
+    "path": "pangenie/HG03017/hprc/calls_genotyping.vcf",
+    "size_bytes": 158709655,
+    "sha256": "fa3acc51ae23e26a969df38e8c9f0a6a62a87553b215ddf78e41362b05326286"
+  },
+  {
+    "donor": "HG04204",
+    "arm": "full",
+    "path": "pangenie/HG04204/full/calls_genotyping.vcf",
+    "size_bytes": 123174614,
+    "sha256": "8ce1e4919214b52b523d27cbbe028b84666c51ae606751e2b586c3d74ca54eaf"
+  },
+  {
+    "donor": "HG04204",
+    "arm": "hprc",
+    "path": "pangenie/HG04204/hprc/calls_genotyping.vcf",
+    "size_bytes": 158694699,
+    "sha256": "7e0585fe6e1c0aa14550811b9fbc30afec859d48b038d6e0a358dd812c64f8a4"
+  }
+]

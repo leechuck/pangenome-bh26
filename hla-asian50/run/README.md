@@ -1,6 +1,8 @@
 # Mixed Asian pilot execution
 
-Execution authorised by Robert: “Run this now.” Initial jobs submitted 17 September 2026 on DDBJ, account `asianhla-group`, partition `asianhla-c32`. This supersedes earlier decisions not to launch an accuracy benchmark. Results are pending; job submission is not a completed benchmark.
+**Completed:** all 40 T1K, 40 SpecHLA and 40 paired-arm PanGenie jobs finished successfully; output verification passed. See the [completion record and saved call outputs](COMPLETION.md). Accuracy evaluation remains outstanding.
+
+Execution authorised by Robert: “Run this now.” Initial jobs submitted 17 September 2026 on DDBJ, account `asianhla-group`, partition `asianhla-c32`. This supersedes earlier decisions not to launch an accuracy benchmark. The submitted calling run is complete; this does not mean the accuracy benchmark is complete.
 
 ## Current cohort
 

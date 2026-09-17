@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "donors": 40,
+  "T1K_files": 40,
+  "SpecHLA_files": 40,
+  "PanGenie_VCFs": 80,
+  "meaning": "Native file identity and schema checks, not genotyping accuracy"
+}
