@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-09-17T01:24:31.588931+00:00",
+  "instruction": "Focus on 1000 Genomes samples only; add Saudi samples later.",
+  "current_donors": 40,
+  "strata": {
+    "EAS": 20,
+    "SAS": 20
+  },
+  "Arabian_validation": "deferred",
+  "reference_graph": "unchanged",
+  "cohort_freeze": "cohort_freeze.json preserved as original submission record"
+}

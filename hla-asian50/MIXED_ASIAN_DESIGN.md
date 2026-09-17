@@ -1,5 +1,7 @@
 # Revised scope: separately analysed Asian strata
 
+**Current scope:** Robert has deferred Saudi/Arabian validation and requested 1000 Genomes only. The running cohort is 20 East Asian plus 20 South Asian donors, analysed separately. The three-stratum proposal below is retained as the future extension; Arabian inputs are no longer a blocker. This changes validation donors, not the composition of the full reference graph.
+
 Robert requested a mixed East, West Asian/Arabian and South Asian pilot, with separate analysis because graph representation differs across populations. This supersedes the East-Asian-only accuracy-benchmark proposal in README.md. The existing 50-person selection and representation results remain a historical feasibility experiment; they are not results for the revised cohort.
 
 ## Available candidates

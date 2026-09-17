@@ -10,5 +10,6 @@
     "PanGenie": 20632571
   },
   "initial_cohort": 40,
-  "Arabian_pending": true
+  "Arabian_pending": false,
+  "Arabian_status": "deferred_by_user"
 }

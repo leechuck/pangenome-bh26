@@ -2,13 +2,13 @@
 
 Execution authorised by Robert: “Run this now.” Initial jobs submitted 17 September 2026 on DDBJ, account `asianhla-group`, partition `asianhla-c32`. This supersedes earlier decisions not to launch an accuracy benchmark. Results are pending; job submission is not a completed benchmark.
 
-## Initial cohort and remaining stratum
+## Current cohort
 
-Forty donors are frozen in `source/donors.tsv`: 20 East Asian and 20 South Asian, with five eight-donor folds (four per stratum). Eight East Asian donors have experimental classical HLA labels in the current resource. Approximately ten West Asian/Arabian slots remain unfilled pending verified matched WGS. Do not label this a completed 50-donor or three-stratum run.
+Forty donors are frozen in `source/donors.tsv`: 20 East Asian and 20 South Asian, with five eight-donor folds (four per stratum). Eight East Asian donors have experimental classical HLA labels in the current resource. Robert subsequently limited the current validation to 1000 Genomes and deferred Saudi/Arabian samples. The current cohort is therefore these 40 donors; no additional Arabian slots are required for this run. Keep East and South Asian results separate.
 
 Selection balances populations before using experimental-label availability and a fixed hash; no prediction outcomes are used. Both haplotypes and known family/alias paths are excluded from each corresponding inference panel. Earlier analyses have examined some donors, so this is not a fresh blind cohort. `cohort_freeze.json` records selection time and file hashes. The original East-Asian-only feasibility inputs in the parent directory remain historical.
 
-DDBJ's APR README states that raw reads were not downloaded; the inspected `data/fastq` directory is empty. The public APR ENA project PRJNA1108179 has 18 Illumina runs, all with Hi-C run titles. Thirteen have misleading `WGS` library-strategy metadata. `APR_ena_runs.tsv`, `APR_illumina_audit.tsv` and the individual run XML records preserve that audit. We do not substitute Hi-C for ordinary short-read WGS. Saudi/JaSaPaGe matched WGS remains to be located. Robert has been asked for an existing path/accession while available runs proceed.
+DDBJ's APR README states that raw reads were not downloaded; the inspected `data/fastq` directory is empty. The public APR ENA project PRJNA1108179 has 18 Illumina runs, all with Hi-C run titles. Thirteen have misleading `WGS` library-strategy metadata. `APR_ena_runs.tsv`, `APR_illumina_audit.tsv` and the individual run XML records preserve that audit. We do not substitute Hi-C for ordinary short-read WGS. This source audit is historical. Locating or downloading Saudi/Arabian reads is deferred and does not block the current benchmark.
 
 ## Submitted stages
 
@@ -23,7 +23,7 @@ The global graph was originally constructed with validation assemblies. These ar
 
 ## Limits and work still required
 
-This initial run uses reference-recruited MHC reads, excluding unmapped/off-region fragments absent from the existing CRAMs. It cannot measure whole-WGS recruitment rescue. Ordinary whole-WGS recruitment, matched Arabian inputs, independently audited SNV/SV truth and callable intervals, appropriate linear variant-calling/SV-genotyping baselines, translation of graph-inferred sequences to classical HLA labels, scoring and discordance review remain required before the proposed benchmark is complete. T1K/SpecHLA native databases differ; their version/provenance must accompany comparisons.
+This initial run uses reference-recruited MHC reads, excluding unmapped/off-region fragments absent from the existing CRAMs. It cannot measure whole-WGS recruitment rescue. Ordinary whole-WGS recruitment, independently audited SNV/SV truth and callable intervals, appropriate linear variant-calling/SV-genotyping baselines, translation of graph-inferred sequences to classical HLA labels, scoring and discordance review remain required before the proposed benchmark is complete. T1K/SpecHLA native databases differ; their version/provenance must accompany comparisons.
 
 Top-level graph bubbles are not automatically individual SNVs or SVs. Length-change site counts are preliminary bookkeeping, not a complete SV classification. Do not report graph-bubble agreement as independent SNV/SV accuracy or claim improved SV detection from these jobs alone. Test-only alleles filtered from inference remain part of the truth/coverage denominator when scoring, rather than being silently removed.
 
