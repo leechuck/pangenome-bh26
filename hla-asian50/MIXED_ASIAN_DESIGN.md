@@ -1,6 +1,6 @@
 # Revised scope: separately analysed Asian strata
 
-Robert requested a mixed East, Central and South Asian pilot, with separate analysis because graph representation differs across populations. This supersedes the East-Asian-only accuracy-benchmark proposal in README.md. The existing 50-person selection and representation results remain a historical feasibility experiment; they are not results for the revised cohort.
+Robert requested a mixed East, West Asian/Arabian and South Asian pilot, with separate analysis because graph representation differs across populations. This supersedes the East-Asian-only accuracy-benchmark proposal in README.md. The existing 50-person selection and representation results remain a historical feasibility experiment; they are not results for the revised cohort.
 
 ## Available candidates
 
@@ -15,12 +15,12 @@ Candidate IDs are in `source/mixed_asian_candidates.tsv`. This is an eligibility
 
 The [official 1000 Genomes population metadata](https://github.com/igsr/1000Genomes_data_indexes/blob/master/README_populations.md) has no dedicated Central Asian or Arabian/West Asian stratum. Saudi genomes represent West Asia, not Central Asia. Pakistani PJL remains classified as South Asian; it must not be relabelled Central Asian to fill a quota. Korean reference haplotypes likewise do not create a Korean 1000 Genomes validation population.
 
-A clarification is pending on whether the third requested stratum means Central Asia, West Asia/Arabia, or both. Central/West Asian validation requires another source of donor-matched short reads and reliable truth. Existing paired RCCX annotations include five JaSaPaGe-Saudi donors and 53 APR donors, but the latter are not automatically Saudi or Central Asian, and these counts do not establish independent, usable short-read validation samples. Do not infer ancestry from sample names or assembly-provider labels alone.
+Robert confirmed **West Asia / Arabian** as the third stratum. Central Asia is outside this pilot. West Asian/Arabian validation requires another source of donor-matched short reads and reliable truth. Existing paired RCCX annotations include five JaSaPaGe-Saudi donors and 53 APR donors, but the latter are not automatically Saudi or Central Asian, and these counts do not establish independent, usable short-read validation samples. Do not infer ancestry from sample names or assembly-provider labels alone.
 
 ## Analysis changes
 
-- Use approximately balanced broad strata within a roughly 50-donor total, subject to confirmed third-stratum eligibility. Do not freeze numerical quotas or replacement samples until that stratum is resolved. Within strata, balance named populations where feasible and report population counts.
-- Treat East, South and the confirmed third stratum as separate primary summaries. Show each method's accuracy, call coverage, uncertainty, truth denominator and full-panel versus HPRC-only paired difference within each stratum. A pooled figure may accompany these results but cannot replace them. Population-level results with few samples are descriptive.
+- Use approximately balanced broad strata within a roughly 50-donor total, subject to confirmed third-stratum eligibility. Do not freeze numerical quotas or replacement samples until matched reads, donor metadata and validation data are verified. Within strata, balance named populations where feasible and report population counts.
+- Treat East Asian, South Asian and West Asian/Arabian strata as separate primary summaries. Show each method's accuracy, call coverage, uncertainty, truth denominator and full-panel versus HPRC-only paired difference within each stratum. A pooled figure may accompany these results but cannot replace them. Population-level results with few samples are descriptive.
 - Measure training-panel representation after family exclusions: distinct donors/haplotypes, locus completeness, allele/structure availability and sequence distance to available haplotypes. Reference-donor counts alone do not establish how well a test allele is represented.
 - Test the hypothesis that poorer represented South Asian haplotypes have different error rates or gains. Do not assume South Asian performance is worse; HLA alleles are shared across populations and HPRC already includes South Asian donors.
 - Preserve strict family/alias exclusion and full-panel versus HPRC-only inference with identical inputs. Consider size-matched panel subsampling to distinguish more haplotypes from their population composition. Do not tune either arm on new test predictions.
