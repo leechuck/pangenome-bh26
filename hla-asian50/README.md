@@ -1,5 +1,7 @@
 # Asian HLA/MHC benchmark: literature and 50-donor feasibility experiment
 
+**Scope update:** Robert has requested separate East, Central and South Asian analyses. See [the revised mixed-Asian design](MIXED_ASIAN_DESIGN.md). The East-Asian-only selection and results below are historical; the third stratum needs geographic/data-source clarification before a new cohort is frozen.
+
 Status (17 September 2026): literature review, deterministic cohort selection, remote input audit and held-out structural-representation experiment complete. **The 50-donor short-read typing / SNV / SV accuracy benchmark has not run.** There are no new read-derived accuracy results in this directory.
 
 The general proposed approach already exists. The useful remaining hypothesis is whether **this Asian-enriched panel** improves inference beyond an HPRC-only panel and existing specialist tools. Robert's execution condition was “If not done and can improve, do it”; the literature does not satisfy the “not done” condition. We therefore completed a bounded feasibility experiment and specified the comparison below, without launching a redundant large benchmark or claiming novelty. The absence of a coarse-structure coverage gain does not rule out a sequence-level gain.
