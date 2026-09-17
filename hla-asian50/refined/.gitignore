@@ -1,0 +1,11 @@
+__pycache__/
+panels/
+hla_panels/
+hla_source/
+hla_calls/
+pangenie/
+*.tar.gz
+locityper/
+
+!results/panel_metadata.tar.gz
+!results/locityper_native.tar.gz

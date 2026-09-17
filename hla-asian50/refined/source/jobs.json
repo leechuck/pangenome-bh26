@@ -1,0 +1,26 @@
+{
+  "index": "20635501",
+  "variants": "20635511",
+  "variant_score": "20635512",
+  "hla_index": "20635206",
+  "hla_genotypes": "20635209",
+  "hla_score": "20635374",
+  "cancelled": {
+    "20635094": "Panels complete; replace sequential indexing with independent parallel indices, new prefix index_v2",
+    "20635123": "Replaced dependency after indexing parallelization",
+    "20635372": "Replaced dependency after indexing parallelization",
+    "20635275": "Split variant/HLA scoring into independent jobs",
+    "20635650": "Restrict genome-wide repeat counter to primary chromosomes before use",
+    "20635668": "Repeat counter completed; correct minus-strand locus FASTAs before target indexing",
+    "20635691": "Replace pilot dependency after orientation correction"
+  },
+  "locityper_setup": "20635852",
+  "locityper_pilot": "20636208",
+  "variant_archive": "20635551",
+  "failed": {
+    "20635854": "Missing preprocessing parent output directory; created parent and corrected batch script before retry"
+  },
+  "locityper_remaining": "20636227",
+  "named_HLA_score": "20636236",
+  "named_HLA_archive": "20636237"
+}

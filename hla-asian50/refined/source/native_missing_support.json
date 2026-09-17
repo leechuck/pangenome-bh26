@@ -1,0 +1,5 @@
+{
+  "source": "https://github.com/eblerjana/pangenie/blob/v4.2.1/src/variantreader.cpp",
+  "sha256": "cdb249cb78b38d07acf4daef30e38ea5c18a02d86e4c3e7bef7d3de0df0e4e3a",
+  "evidence": "Lines 201-222 encode each phased missing haplotype allele as an undefined N path; lines 462-489 exclude undefined alleles from reported genotypes. No genotype imputation is required."
+}

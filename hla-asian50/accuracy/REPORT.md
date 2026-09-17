@@ -1,5 +1,9 @@
 # Does the Asian-enriched panel help?
 
+**Follow-up:** [Callable-site repair and named HLA comparison](../refined/REPORT.md)
+reruns these donors without the complete-case site filter. The original results
+below remain the frozen baseline.
+
 **It improves exact genotype concordance on shared sites, especially SV-bearing genotypes, but the present full-panel pipeline recovers fewer correct genotypes overall because it discards more sites.** These are held-out assembly-concordance results, not independent clinical accuracy.
 
 ## Full panel versus HPRC-only

@@ -1,0 +1,172 @@
+[
+  {
+    "fold": 0,
+    "arm": "full",
+    "training_donors": 363,
+    "counts": {
+      "input_sites": 100922,
+      "retained_sites": 100346,
+      "missing_haplotype_alleles_retained": 22239,
+      "sites_with_missing_retained": 19068,
+      "no_known_training_alt": 576
+    },
+    "old_sites_preserved": 81278,
+    "new_sites": 19068,
+    "old_sites_lost": 0,
+    "full_contains_HPRC_sites": true,
+    "missing_policy": "native phased missing alleles; no reference filling or imputation"
+  },
+  {
+    "fold": 0,
+    "arm": "hprc",
+    "training_donors": 224,
+    "counts": {
+      "input_sites": 100922,
+      "retained_sites": 87928,
+      "missing_haplotype_alleles_retained": 231,
+      "sites_with_missing_retained": 225,
+      "no_known_training_alt": 12994
+    },
+    "old_sites_preserved": 87703,
+    "new_sites": 225,
+    "old_sites_lost": 0,
+    "full_contains_HPRC_sites": true,
+    "missing_policy": "native phased missing alleles; no reference filling or imputation"
+  },
+  {
+    "fold": 1,
+    "arm": "full",
+    "training_donors": 363,
+    "counts": {
+      "input_sites": 100922,
+      "retained_sites": 100268,
+      "missing_haplotype_alleles_retained": 22217,
+      "sites_with_missing_retained": 19044,
+      "no_known_training_alt": 654
+    },
+    "old_sites_preserved": 81224,
+    "new_sites": 19044,
+    "old_sites_lost": 0,
+    "full_contains_HPRC_sites": true,
+    "missing_policy": "native phased missing alleles; no reference filling or imputation"
+  },
+  {
+    "fold": 1,
+    "arm": "hprc",
+    "training_donors": 224,
+    "counts": {
+      "input_sites": 100922,
+      "retained_sites": 87878,
+      "missing_haplotype_alleles_retained": 233,
+      "sites_with_missing_retained": 227,
+      "no_known_training_alt": 13044
+    },
+    "old_sites_preserved": 87651,
+    "new_sites": 227,
+    "old_sites_lost": 0,
+    "full_contains_HPRC_sites": true,
+    "missing_policy": "native phased missing alleles; no reference filling or imputation"
+  },
+  {
+    "fold": 2,
+    "arm": "full",
+    "training_donors": 363,
+    "counts": {
+      "input_sites": 100922,
+      "retained_sites": 100340,
+      "missing_haplotype_alleles_retained": 22203,
+      "sites_with_missing_retained": 19043,
+      "no_known_training_alt": 582
+    },
+    "old_sites_preserved": 81297,
+    "new_sites": 19043,
+    "old_sites_lost": 0,
+    "full_contains_HPRC_sites": true,
+    "missing_policy": "native phased missing alleles; no reference filling or imputation"
+  },
+  {
+    "fold": 2,
+    "arm": "hprc",
+    "training_donors": 224,
+    "counts": {
+      "input_sites": 100922,
+      "retained_sites": 87820,
+      "missing_haplotype_alleles_retained": 229,
+      "sites_with_missing_retained": 226,
+      "no_known_training_alt": 13102
+    },
+    "old_sites_preserved": 87594,
+    "new_sites": 226,
+    "old_sites_lost": 0,
+    "full_contains_HPRC_sites": true,
+    "missing_policy": "native phased missing alleles; no reference filling or imputation"
+  },
+  {
+    "fold": 3,
+    "arm": "full",
+    "training_donors": 363,
+    "counts": {
+      "input_sites": 100922,
+      "retained_sites": 100385,
+      "missing_haplotype_alleles_retained": 22235,
+      "sites_with_missing_retained": 19072,
+      "no_known_training_alt": 537
+    },
+    "old_sites_preserved": 81313,
+    "new_sites": 19072,
+    "old_sites_lost": 0,
+    "full_contains_HPRC_sites": true,
+    "missing_policy": "native phased missing alleles; no reference filling or imputation"
+  },
+  {
+    "fold": 3,
+    "arm": "hprc",
+    "training_donors": 224,
+    "counts": {
+      "input_sites": 100922,
+      "retained_sites": 88097,
+      "missing_haplotype_alleles_retained": 225,
+      "sites_with_missing_retained": 222,
+      "no_known_training_alt": 12825
+    },
+    "old_sites_preserved": 87875,
+    "new_sites": 222,
+    "old_sites_lost": 0,
+    "full_contains_HPRC_sites": true,
+    "missing_policy": "native phased missing alleles; no reference filling or imputation"
+  },
+  {
+    "fold": 4,
+    "arm": "full",
+    "training_donors": 363,
+    "counts": {
+      "input_sites": 100922,
+      "retained_sites": 100271,
+      "missing_haplotype_alleles_retained": 22216,
+      "sites_with_missing_retained": 19045,
+      "no_known_training_alt": 651
+    },
+    "old_sites_preserved": 81226,
+    "new_sites": 19045,
+    "old_sites_lost": 0,
+    "full_contains_HPRC_sites": true,
+    "missing_policy": "native phased missing alleles; no reference filling or imputation"
+  },
+  {
+    "fold": 4,
+    "arm": "hprc",
+    "training_donors": 225,
+    "counts": {
+      "input_sites": 100922,
+      "retained_sites": 87477,
+      "missing_haplotype_alleles_retained": 227,
+      "sites_with_missing_retained": 221,
+      "no_known_training_alt": 13445
+    },
+    "old_sites_preserved": 87256,
+    "new_sites": 221,
+    "old_sites_lost": 0,
+    "full_contains_HPRC_sites": true,
+    "missing_policy": "native phased missing alleles; no reference filling or imputation"
+  }
+]

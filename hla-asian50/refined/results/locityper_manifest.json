@@ -1,0 +1,4257 @@
+[
+  {
+    "path": "locityper/calls/HG02155/full/loci/HLA-A/res.json.gz",
+    "bytes": 636,
+    "sha256": "84a1be888f62f87eaf259e6e69225da22c5b87bfb9391c6c2ebc1045583c40a8"
+  },
+  {
+    "path": "locityper/calls/HG02155/full/loci/HLA-B/res.json.gz",
+    "bytes": 378,
+    "sha256": "32fbb4504c9219990c11d377eee7b3703cab3e4344fd5b76a423ba561a8d8e19"
+  },
+  {
+    "path": "locityper/calls/HG02155/full/loci/HLA-C/res.json.gz",
+    "bytes": 478,
+    "sha256": "a21025d2442531698ff17e586dd5aa7bd37287a1ffb9189c810ff54f5b0e1378"
+  },
+  {
+    "path": "locityper/calls/HG02155/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 367,
+    "sha256": "e5b38311f2a2dc08f868f02864979e448be8c95aa6e861292faa7ef4aee54f71"
+  },
+  {
+    "path": "locityper/calls/HG02155/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 865,
+    "sha256": "5bbd53ded086c3647ec8bf50f8581e510ae7b9b9107d5f94b9a0eb16dfcef2d6"
+  },
+  {
+    "path": "locityper/calls/HG02155/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 369,
+    "sha256": "5e587e52d379dba4c5353214e2f8c26138b160055477ec597c14525d83a5d56b"
+  },
+  {
+    "path": "locityper/calls/HG02155/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 372,
+    "sha256": "66a38da2666b61ef3a027273e0f04f07e446653bca859598d139ded10d35cd3c"
+  },
+  {
+    "path": "locityper/calls/HG02155/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 367,
+    "sha256": "aba716aad1100d81cfeb193dbbbf27d7e34f231645ec91d0ad75cac0e66783c9"
+  },
+  {
+    "path": "locityper/calls/HG02155/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 533,
+    "sha256": "0f69087a769923c96c61a80ec320dbd92b0337037c07f141d41a1f988409ca79"
+  },
+  {
+    "path": "locityper/calls/HG02155/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 374,
+    "sha256": "e342fcedf0a7c3c2191966ac43756baa702c4940275bbe32603ea24b21307970"
+  },
+  {
+    "path": "locityper/calls/HG02155/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 366,
+    "sha256": "07cbbc0ada82ac340a79c212bd598d13186efe8d56ae91db971b69937a6f080a"
+  },
+  {
+    "path": "locityper/calls/HG02155/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 617,
+    "sha256": "85c603bc78030cfe173b82b2215f069019f45aaa537fce161dd2952d87b76513"
+  },
+  {
+    "path": "locityper/calls/HG02155/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 764,
+    "sha256": "32dfbb82c94baacf33023b396c37a7516e90c035a2c2cd1d59c73b6395405e77"
+  },
+  {
+    "path": "locityper/calls/HG02155/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 379,
+    "sha256": "d24afc7f57f5d22a4531f349548858860262a7c6da1966a1fdff1f8f47b3e5ec"
+  },
+  {
+    "path": "locityper/calls/HG02155/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 981,
+    "sha256": "0f76b44a4ac6fb3d966e85dd75caf881688b37f37d4c78415bd73b64ad0577d6"
+  },
+  {
+    "path": "locityper/calls/HG02155/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 372,
+    "sha256": "4fa0ef97f11370b71286d45b94b04753cdeef5ada0be48899624d749c403aa20"
+  },
+  {
+    "path": "locityper/calls/NA18620/full/loci/HLA-A/res.json.gz",
+    "bytes": 575,
+    "sha256": "37c6d5d1f4e109d305f5fdbefdb1c273dc7abb6a1a0aed0f33c1e61ebd92caf1"
+  },
+  {
+    "path": "locityper/calls/NA18620/full/loci/HLA-B/res.json.gz",
+    "bytes": 372,
+    "sha256": "5b94870186a97d5b6adc9c19577be0133185025ce57ed222980a11e57e3570de"
+  },
+  {
+    "path": "locityper/calls/NA18620/full/loci/HLA-C/res.json.gz",
+    "bytes": 365,
+    "sha256": "8a24332561b4b1b8b7bb7d1817a897fd625a13541e2c1a9ea38b73397c5c27c7"
+  },
+  {
+    "path": "locityper/calls/NA18620/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 374,
+    "sha256": "54a81a5612e95147cadf85cdc3822d27b55650cdaa57ef98496bd00d2f424c86"
+  },
+  {
+    "path": "locityper/calls/NA18620/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 367,
+    "sha256": "0d45c500afa68954730766104201014063a48933eabe3c09f498431fe0269a86"
+  },
+  {
+    "path": "locityper/calls/NA18620/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 619,
+    "sha256": "55aed8532294045affc69c05e1eadc4bd51a09de4677d46cc3bf2cfd6b57c80a"
+  },
+  {
+    "path": "locityper/calls/NA18620/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 522,
+    "sha256": "b797afa58da470c3d28c61f04e2a0ae85a94ecf8565ae639b92e9714a03b40c3"
+  },
+  {
+    "path": "locityper/calls/NA18620/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 370,
+    "sha256": "feac4b8a6851c344141fd21b904a155242aac49b82e7261a73554ef4d9cdead5"
+  },
+  {
+    "path": "locityper/calls/NA18620/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 421,
+    "sha256": "08e578e325ddf1b364d9d807306d521a34e3a6f7810831269fb35abbd25a105d"
+  },
+  {
+    "path": "locityper/calls/NA18620/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 374,
+    "sha256": "1674e168d9635879a7f0949e4389d4e9fe19e5bb85d28f96df3b3ccc134fd7e5"
+  },
+  {
+    "path": "locityper/calls/NA18620/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 367,
+    "sha256": "e939243ea19c849113ad1dada3c1e412935668ff061f627b89bb568362e7dac1"
+  },
+  {
+    "path": "locityper/calls/NA18620/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 755,
+    "sha256": "4b14563b98b917961a1aa648d92ff3ad91271af6b365cc78f62b167f8f66cd15"
+  },
+  {
+    "path": "locityper/calls/NA18620/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 369,
+    "sha256": "4c17273afe1b4bb3312a1cdd760701c7eb8ea0aeff7e22d665153f2c3ea5be24"
+  },
+  {
+    "path": "locityper/calls/NA18620/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 525,
+    "sha256": "4fb8792a6c09a1ebcc2b34f346e309c0ec2db64dadc05558eeb05b69e31bcf7c"
+  },
+  {
+    "path": "locityper/calls/NA18620/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 422,
+    "sha256": "ff2d9521e327a73595939c2d63e6b9e824f212ec5bfedb17d047a22a9e837194"
+  },
+  {
+    "path": "locityper/calls/NA18620/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 380,
+    "sha256": "ac52b9117f4255891b262626719d4c95b3548a218e793397808e3a59e858a5c3"
+  },
+  {
+    "path": "locityper/calls/HG00706/full/loci/HLA-A/res.json.gz",
+    "bytes": 736,
+    "sha256": "a41411999e032b28002dda58d64381c0118728d4933e911a1cc5bd4351984888"
+  },
+  {
+    "path": "locityper/calls/HG00706/full/loci/HLA-B/res.json.gz",
+    "bytes": 348,
+    "sha256": "5c537ff1c8e58257d1a5ac9b22e15b08198e39d8cd8faf7f32011d9435fc3727"
+  },
+  {
+    "path": "locityper/calls/HG00706/full/loci/HLA-C/res.json.gz",
+    "bytes": 714,
+    "sha256": "80b9551810748bfaea000d3cd9b6942936a2092f29c722574d78bfd239222d95"
+  },
+  {
+    "path": "locityper/calls/HG00706/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 472,
+    "sha256": "356eb2655a75b763fb4e2c9062edfde24eaafe168f8fd356b0cd222403bd8071"
+  },
+  {
+    "path": "locityper/calls/HG00706/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 829,
+    "sha256": "ee02c91ba56f4329b8fbde950eb173c50e3b19d98322c37b07ed08bb30306930"
+  },
+  {
+    "path": "locityper/calls/HG00706/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 372,
+    "sha256": "f49c284ec4db46acdb967379c2669c5a9f4752b8785a453421a41ef0b3478be9"
+  },
+  {
+    "path": "locityper/calls/HG00706/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 941,
+    "sha256": "a88de705817032f068ab5970e58e90fbedf569464bf38daa5b3e1e842fc93a32"
+  },
+  {
+    "path": "locityper/calls/HG00706/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 357,
+    "sha256": "ade013ae815c3bfcf36c7d24d5ec994cad4aae1e37794e088bb8f4fff757d7a5"
+  },
+  {
+    "path": "locityper/calls/HG00706/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 672,
+    "sha256": "6ccd4e5fe26ec9370c4e65f9f60342b7fa54eade200734bc28ee39152b8940d4"
+  },
+  {
+    "path": "locityper/calls/HG00706/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 354,
+    "sha256": "55f3b0a5d31099b1e89300b230f9ad2606c06f8938042be9c2a5836d79e3da8d"
+  },
+  {
+    "path": "locityper/calls/HG00706/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 518,
+    "sha256": "2b7cad05fb3555601dfa60a50f364fb080cae0a216362ec5778af2c5392def87"
+  },
+  {
+    "path": "locityper/calls/HG00706/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 368,
+    "sha256": "74db2712db8ec4c22d4aed465ca1e586ac8e3f60b78591895d0fb30f477d3f5e"
+  },
+  {
+    "path": "locityper/calls/HG00706/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 777,
+    "sha256": "cdc13a33939ac22f0be4a0fe9c16ef583513e9c379b84477ffd5dcda02e286d1"
+  },
+  {
+    "path": "locityper/calls/HG00706/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 378,
+    "sha256": "51d6587d10dc5e81657ae1f7be3da204fc0abfbcb7b8417badbeed99df98f7a9"
+  },
+  {
+    "path": "locityper/calls/HG00706/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 568,
+    "sha256": "3ca00c87c2d10644be3b83396c70851ba2c9edc1206dfb4452a70d12ea99f9fb"
+  },
+  {
+    "path": "locityper/calls/HG00706/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "3dfecd135734367bdce9e5b056d663f26d93c76f6a06c0296bfde83776f36a9d"
+  },
+  {
+    "path": "locityper/calls/NA19087/full/loci/HLA-A/res.json.gz",
+    "bytes": 529,
+    "sha256": "34f84d1ae8becf751996b32b9e0f76d3eb6b6fe2f0502f846ca8d382910d5fb0"
+  },
+  {
+    "path": "locityper/calls/NA19087/full/loci/HLA-B/res.json.gz",
+    "bytes": 358,
+    "sha256": "6c3bef5eceb6574549ab8c20f540f74502a07631e6f11002b42dadc88099cf40"
+  },
+  {
+    "path": "locityper/calls/NA19087/full/loci/HLA-C/res.json.gz",
+    "bytes": 483,
+    "sha256": "e43bf310fbe3d18c4625e0e1247a87ec7e5132512f36e117bc263b572157d70a"
+  },
+  {
+    "path": "locityper/calls/NA19087/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 415,
+    "sha256": "45c58de288549972a724710938ae4d9cbd8bbcb55e59b01b2e93870c9a8e14b1"
+  },
+  {
+    "path": "locityper/calls/NA19087/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 373,
+    "sha256": "6d13e61016188054fb6bfeed6f768a170de52356738d1533cdacccd556a329e1"
+  },
+  {
+    "path": "locityper/calls/NA19087/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 366,
+    "sha256": "ec2dc97a40a97dd3106b05208b7bfd9540d966efac618f61fa137d8521e244e1"
+  },
+  {
+    "path": "locityper/calls/NA19087/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 527,
+    "sha256": "ba91b5e54ec258f66727531c9e87e30a2a979b413e111d44f51736ee4d64a528"
+  },
+  {
+    "path": "locityper/calls/NA19087/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "a6d95c71ca4b0afcbca99f3f4919461374767e69ed62bdc70024d40777597544"
+  },
+  {
+    "path": "locityper/calls/NA19087/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 372,
+    "sha256": "0f58d9fcb76d8a30eb18d28d1f97e47b60f2872854b039b7c575d2c1d42b67f3"
+  },
+  {
+    "path": "locityper/calls/NA19087/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 362,
+    "sha256": "2bf10f96cfcae39a963a50589458bd7fc9352f8ba3f5e6bee5d67e4776d1aba6"
+  },
+  {
+    "path": "locityper/calls/NA19087/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 469,
+    "sha256": "8aac6399ae84e9f993b0230844d712cd73dcf2bfba09689f55da0944bfdebbea"
+  },
+  {
+    "path": "locityper/calls/NA19087/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 770,
+    "sha256": "f54de0bad5bcdba0f91d2a477177d9471366500862558fac731c190e3b325ff0"
+  },
+  {
+    "path": "locityper/calls/NA19087/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 376,
+    "sha256": "a5000d5dbd6e1faa8d03359dec248f0212799923f2efdd9e115b14957f75eba1"
+  },
+  {
+    "path": "locityper/calls/NA19087/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 377,
+    "sha256": "59e73f75ebbbba45b9c3c4ffb4f65312e22f3ad10c22c46bf7fd7f0b8a8f056b"
+  },
+  {
+    "path": "locityper/calls/NA19087/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 371,
+    "sha256": "4e2b06f7102c676d651ad6e9dc3c4c829d23049f861e3a01be5cc5fa6c8fedd7"
+  },
+  {
+    "path": "locityper/calls/NA19087/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 357,
+    "sha256": "ce1e4822fb86eeb00debbf1e9bb5caa4dd8156f457bcc5a8db97d691a45b586c"
+  },
+  {
+    "path": "locityper/calls/HG03804/full/loci/HLA-A/res.json.gz",
+    "bytes": 376,
+    "sha256": "b3cde70a3c502bf844c0a2f17109ebdd68fa43784dce3414ca8f6aa96928ae1a"
+  },
+  {
+    "path": "locityper/calls/HG03804/full/loci/HLA-B/res.json.gz",
+    "bytes": 369,
+    "sha256": "c1d9708b5c7e96cf453dea2fcd67a8d0a02d5b0b4852b52b0ab63b0e826d8fc6"
+  },
+  {
+    "path": "locityper/calls/HG03804/full/loci/HLA-C/res.json.gz",
+    "bytes": 675,
+    "sha256": "d66af60539524720a8dc4d55e8fb4bbe3791b0e6e6dc386e69d637196f1f6b2e"
+  },
+  {
+    "path": "locityper/calls/HG03804/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 361,
+    "sha256": "679799a8c39ed0728a1eb072cd27d9d9731d068c8b90f0dd49a4cea551bea4a0"
+  },
+  {
+    "path": "locityper/calls/HG03804/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 378,
+    "sha256": "9735f4800bac4e412cfccea678407d7bc1f90ce05dbfc7c666cb8796e8f67c80"
+  },
+  {
+    "path": "locityper/calls/HG03804/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 371,
+    "sha256": "cd44c7152920269eb54c76e50c77e1e1007d9e7bd1e47dfe133f9345a76a353b"
+  },
+  {
+    "path": "locityper/calls/HG03804/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 374,
+    "sha256": "33be126639fc1af5ecafbb834f63de0d7b3e5d6865c87aef0c9d37f396682fec"
+  },
+  {
+    "path": "locityper/calls/HG03804/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 377,
+    "sha256": "ac2947b49d3e88214677e242b140523232d977101a8795ce186a45e1986d1b10"
+  },
+  {
+    "path": "locityper/calls/HG03804/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 423,
+    "sha256": "f13bda7c270d4609ddc4b3ede880cb211abab599fc6fb7108ce6e3f3979da8c0"
+  },
+  {
+    "path": "locityper/calls/HG03804/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 364,
+    "sha256": "b450c82c1e316765044c70d19e6acc0b7e26910220ff94480cec0db100e40141"
+  },
+  {
+    "path": "locityper/calls/HG03804/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 884,
+    "sha256": "14abdd9560282a8876711608fa99338384803491d12aa7be9a3392f94016c38e"
+  },
+  {
+    "path": "locityper/calls/HG03804/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 364,
+    "sha256": "9814b4939101af21145ae76ecf3c61aa55a81b1fb6608b2f6d2a0e7ac3822de4"
+  },
+  {
+    "path": "locityper/calls/HG03804/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 372,
+    "sha256": "f81182c02c382efcd9bfc817845c2936720c1d38bf81a7e16f587c2220e001d5"
+  },
+  {
+    "path": "locityper/calls/HG03804/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 376,
+    "sha256": "514239860d134b45ce5edeb57d5ee321b16fc9cb8c5d022b7144dbcf4cf502a1"
+  },
+  {
+    "path": "locityper/calls/HG03804/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 431,
+    "sha256": "5f6febb627e2fd8b8d0f275843649fd5e986eb2edb878c56fc8e2ce38a3eff18"
+  },
+  {
+    "path": "locityper/calls/HG03804/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 379,
+    "sha256": "8268cd5f78b49050a291c79773fb6e32860774aa6ec64f22c488cd60564ca8f4"
+  },
+  {
+    "path": "locityper/calls/NA21093/full/loci/HLA-A/res.json.gz",
+    "bytes": 375,
+    "sha256": "1d50b7b333b169ae6b780c408594d784f260317af71036932b4991bd529a0571"
+  },
+  {
+    "path": "locityper/calls/NA21093/full/loci/HLA-B/res.json.gz",
+    "bytes": 378,
+    "sha256": "0e4593c1b4187308c5708c8e3e79278fa704fceb507cf195800de1fd051166de"
+  },
+  {
+    "path": "locityper/calls/NA21093/full/loci/HLA-C/res.json.gz",
+    "bytes": 525,
+    "sha256": "3a5b4cf0a7bc853772b5ae6586634bfd9487fb647becd4a906bb6f0188b853d4"
+  },
+  {
+    "path": "locityper/calls/NA21093/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1258,
+    "sha256": "4f04c21f3d30fa85d4407da9134faddb68845413253f1f841e6f879684634a40"
+  },
+  {
+    "path": "locityper/calls/NA21093/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 375,
+    "sha256": "481a1369cea233343f08af628fc7aabc942994ef19b58becd6687229051430bb"
+  },
+  {
+    "path": "locityper/calls/NA21093/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "14615a91b303095724b3db83b7bc1d3fbd2ef946f72f986bebdac4474d413f1c"
+  },
+  {
+    "path": "locityper/calls/NA21093/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 371,
+    "sha256": "d7b1b3c030b365e025daf69ef1ecfec021a4556f63458a6ccc8f870869a8f236"
+  },
+  {
+    "path": "locityper/calls/NA21093/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 827,
+    "sha256": "e06e58fdb988a743cfe2e54f4e75cbbe10e125f5c3461e457911060a5f6e20f2"
+  },
+  {
+    "path": "locityper/calls/NA21093/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 378,
+    "sha256": "0ada41d580dd43a7c0d6e1d5604f75a4270c79d9bae753930255bd6ea61d629d"
+  },
+  {
+    "path": "locityper/calls/NA21093/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 372,
+    "sha256": "67573fde8f65e01ff960bb8375cef32422eae7b146f449f12e06fd8464ec243e"
+  },
+  {
+    "path": "locityper/calls/NA21093/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 375,
+    "sha256": "11164fd1ad472fad8422ec034dd2165fb8e1cc8fd0be1781565959d7d10d45da"
+  },
+  {
+    "path": "locityper/calls/NA21093/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1103,
+    "sha256": "43a8a1f50986d825d2bae3bde66406312297a50fae0a19d7bb5c3a023d78cbce"
+  },
+  {
+    "path": "locityper/calls/NA21093/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 366,
+    "sha256": "ec6468d90630f9f39eaa4b3b2ad7b7bf763af511c5f6e238496532c04a4779b4"
+  },
+  {
+    "path": "locityper/calls/NA21093/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "c7af07305f6644ec16418913bf067fb6af425de0895bd38dbbb1eb0172f4a3fe"
+  },
+  {
+    "path": "locityper/calls/NA21093/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 419,
+    "sha256": "51e693811e1f26d5ac5fac7946c5158cf19b54cf1d1afd79e05f1a5b95f4b10c"
+  },
+  {
+    "path": "locityper/calls/NA21093/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 427,
+    "sha256": "990c518edc72ba6cf2e3cc0aa9f683dae286e08f05646d9dcf23bbf6473f61e6"
+  },
+  {
+    "path": "locityper/calls/HG03742/full/loci/HLA-A/res.json.gz",
+    "bytes": 378,
+    "sha256": "426315f6afadd0ae500836149c232229f06f64d0444c1bc8414295da02f5a611"
+  },
+  {
+    "path": "locityper/calls/HG03742/full/loci/HLA-B/res.json.gz",
+    "bytes": 367,
+    "sha256": "6be76134d5d9a67a61eef4085b8df72b178e320dac4327d05e253174bcaddc67"
+  },
+  {
+    "path": "locityper/calls/HG03742/full/loci/HLA-C/res.json.gz",
+    "bytes": 374,
+    "sha256": "6f6cf8ccd887234d0970fd4ec7e1a9c47806f7718dff1c9fbdbb358d22e92ad3"
+  },
+  {
+    "path": "locityper/calls/HG03742/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1368,
+    "sha256": "71f422d417a6707e8134609da9d95499ffa1dde261d743772801cdd004e3df9e"
+  },
+  {
+    "path": "locityper/calls/HG03742/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 378,
+    "sha256": "6788159adfc5428fd8a9d717a62db782a4059393fb9545354464bba289fabadb"
+  },
+  {
+    "path": "locityper/calls/HG03742/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 381,
+    "sha256": "163c13a0fb5054c83d1fb0e72a6b876006084b8af4e011a7765dea9da4e52c2b"
+  },
+  {
+    "path": "locityper/calls/HG03742/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 776,
+    "sha256": "8af3db3bae5465158b737dab72ce0695bb18b438bf9833b67178a4d936a1617e"
+  },
+  {
+    "path": "locityper/calls/HG03742/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 369,
+    "sha256": "e458761cbdf49e324f0ac016bf3fc2fdf25443b9037220caf956b78fb65763d3"
+  },
+  {
+    "path": "locityper/calls/HG03742/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 379,
+    "sha256": "b2f2bfc0a1a29909c8111adc2b870cf706cd125807f03d4e195c3a131f67c4bd"
+  },
+  {
+    "path": "locityper/calls/HG03742/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 371,
+    "sha256": "1da294082428313d40a4388bfe7ed24e71f876913e422f574d89247cc7b4f5f2"
+  },
+  {
+    "path": "locityper/calls/HG03742/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 377,
+    "sha256": "add08e85e91bb117083325119ae04fe72ead27f4d6c825b2865f4c73bc13f3f7"
+  },
+  {
+    "path": "locityper/calls/HG03742/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 927,
+    "sha256": "6422578c0b44f47fdb7344f57100ac8502bd9b62fe855ef781ac386ec91031fd"
+  },
+  {
+    "path": "locityper/calls/HG03742/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 377,
+    "sha256": "298315d48b451a84e8ecdc4d17a3e2013449fd7372eb0d2528d179337fb0e6fd"
+  },
+  {
+    "path": "locityper/calls/HG03742/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 379,
+    "sha256": "0505075ac044015a3d94c6d8b02e2d6adafcbf98b72c9c70ed79f9e1974d8b89"
+  },
+  {
+    "path": "locityper/calls/HG03742/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 519,
+    "sha256": "9b8aadc64d451115ae18d791dc77cc5f18905b859ed0368c6360d03cab427a97"
+  },
+  {
+    "path": "locityper/calls/HG03742/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 378,
+    "sha256": "c37093aac59011a35a86f1cab82ff91143061677dadc31ce534ce114cde047d1"
+  },
+  {
+    "path": "locityper/calls/HG03239/full/loci/HLA-A/res.json.gz",
+    "bytes": 1038,
+    "sha256": "fdc381ae920666175e04e06f182f5d6cc2b12d7b0b4d6b71049b89db19649483"
+  },
+  {
+    "path": "locityper/calls/HG03239/full/loci/HLA-B/res.json.gz",
+    "bytes": 375,
+    "sha256": "39358353aafa99ddb70a1df377ec39a95c05e505440dfec671e541d30cd90b66"
+  },
+  {
+    "path": "locityper/calls/HG03239/full/loci/HLA-C/res.json.gz",
+    "bytes": 371,
+    "sha256": "34ef88c1fbd8dae12ce71c7a837ecf491542f2d78f9808f2751be714b7500f17"
+  },
+  {
+    "path": "locityper/calls/HG03239/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 2675,
+    "sha256": "ea2ac0448b163120949072c0dd7e4b8d7dfbadd2a29a1366a99ce9c3d30fdaf5"
+  },
+  {
+    "path": "locityper/calls/HG03239/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 979,
+    "sha256": "bc2495480430cedf78bf96404653099c7fd4eae1564693f1b01c7d94996cdf8b"
+  },
+  {
+    "path": "locityper/calls/HG03239/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 826,
+    "sha256": "b59be344615cc5a01c0f1d72ff0fc0105c7f127e0c9ac13b4320ac85c2347e22"
+  },
+  {
+    "path": "locityper/calls/HG03239/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 423,
+    "sha256": "a4fc9c92f5a5cb069eb922ed4471716e35464b21363554444ee44b56ad31365a"
+  },
+  {
+    "path": "locityper/calls/HG03239/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 374,
+    "sha256": "cea1d2535d4134ad22d65455f61039ac9440e5b76fab8301257223b588832f65"
+  },
+  {
+    "path": "locityper/calls/HG03239/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 971,
+    "sha256": "46b8f4b58310941977b35ef850c394abda3e8e2b2f0de21ad90650d7de4ac9de"
+  },
+  {
+    "path": "locityper/calls/HG03239/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 371,
+    "sha256": "42773ff5f554eff2f158495709cb9121dd7209c2eb1a5f68516b9b19705be158"
+  },
+  {
+    "path": "locityper/calls/HG03239/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 365,
+    "sha256": "280e80677c33816d69e80d1292e9b1bfa202e7d4cc33ff3a0e45030ad1805d92"
+  },
+  {
+    "path": "locityper/calls/HG03239/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 2431,
+    "sha256": "40e947fa4c3250742de6c42da8c67602489d3f8593686434c59d71e0b0a8aa3d"
+  },
+  {
+    "path": "locityper/calls/HG03239/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 564,
+    "sha256": "e67e4f409be09f5e176411692540b64c86c305b2d1a6b101e027820d0d19e4c2"
+  },
+  {
+    "path": "locityper/calls/HG03239/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 828,
+    "sha256": "ae4a665ccd4845a64e13cbf55e91c62297cd8a96178f447b1976552f0e04f860"
+  },
+  {
+    "path": "locityper/calls/HG03239/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 379,
+    "sha256": "c4a3a08488a58eed68d6ca99b9275e9fd2428603f55a80a9dc07859db231a11c"
+  },
+  {
+    "path": "locityper/calls/HG03239/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 372,
+    "sha256": "f85980866797d18e57de6ae911f267c66b0866e26e8ed6a9570d1411f1db8f1c"
+  },
+  {
+    "path": "locityper/calls/HG02178/full/loci/HLA-A/res.json.gz",
+    "bytes": 373,
+    "sha256": "494e9e73457d0c2f09a9a04bb93113a4f6eda70e2765861bd37c5e7e7c7357c1"
+  },
+  {
+    "path": "locityper/calls/HG02178/full/loci/HLA-B/res.json.gz",
+    "bytes": 379,
+    "sha256": "d887e53d4386d4f80f9452d172e3e54bddc6b928a15467439924cdc3f07938e4"
+  },
+  {
+    "path": "locityper/calls/HG02178/full/loci/HLA-C/res.json.gz",
+    "bytes": 411,
+    "sha256": "855bf4ce984cd9503f6613e512eb6b343e82e797e716c7df49f3924036aa7abb"
+  },
+  {
+    "path": "locityper/calls/HG02178/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1133,
+    "sha256": "4197bbdf0158ac1c85e59729064e662ae38b6eca6dd9f0980299c1def0dc83a2"
+  },
+  {
+    "path": "locityper/calls/HG02178/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 375,
+    "sha256": "796354eab9bf33aae7baa10c8ead712b94a5ccaef34321128eff7c680a475a02"
+  },
+  {
+    "path": "locityper/calls/HG02178/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "f91e04ba0f15c8a570d310921b33c884a0025a9d0dea29ed7caedad57f030c0f"
+  },
+  {
+    "path": "locityper/calls/HG02178/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 715,
+    "sha256": "8e645d9ac712ae98337a2d540266f87b00b4c8401b963ec0f19aae585e01319f"
+  },
+  {
+    "path": "locityper/calls/HG02178/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "65e374cef1f934a83d03f39f4cd192de1d4f231e8dc2be8f628e3a806ee16575"
+  },
+  {
+    "path": "locityper/calls/HG02178/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 374,
+    "sha256": "d825cb780c3df94ef8fb8088c613c27f7e0862524626fcf336d96989a192150e"
+  },
+  {
+    "path": "locityper/calls/HG02178/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 364,
+    "sha256": "4a53aeeae5795e07bf388b7170c9e4ef0d0e35491ce4a464fd40ac47861d7f56"
+  },
+  {
+    "path": "locityper/calls/HG02178/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 366,
+    "sha256": "64001e4183aa72aa7aac0d380cb782e688dabb2d1cc5504cdcde7c1b1be8dc64"
+  },
+  {
+    "path": "locityper/calls/HG02178/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1085,
+    "sha256": "4c5f1a9f095cde6f5ba53952be42d6851c61450e60b21690b6ed1265dcc4bf4c"
+  },
+  {
+    "path": "locityper/calls/HG02178/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 383,
+    "sha256": "c680187191cf56f9675eb8bee4e7df3309c1205d1a81058e64d1b4cc0e7e5ff0"
+  },
+  {
+    "path": "locityper/calls/HG02178/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 378,
+    "sha256": "ebd21a830c7266b06bc0e011ed82c6966bb0883ff1652f3d14ebb0fd8c38f9f7"
+  },
+  {
+    "path": "locityper/calls/HG02178/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 623,
+    "sha256": "31222ed2e8845c4f53397a220ee624301fdd403c542ebfa80894480ebcc4915f"
+  },
+  {
+    "path": "locityper/calls/HG02178/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 371,
+    "sha256": "d53197b1858e1a9ca1c52e4dfcbda7fbf8948d1a0d1249d786e9e67471589090"
+  },
+  {
+    "path": "locityper/calls/NA18608/full/loci/HLA-A/res.json.gz",
+    "bytes": 424,
+    "sha256": "2304c81ea61140c20e5f97aab9fe722fec1f0345100309439d66672cba408b5b"
+  },
+  {
+    "path": "locityper/calls/NA18608/full/loci/HLA-B/res.json.gz",
+    "bytes": 378,
+    "sha256": "704878c58935b434bc0416e59ba386f8700f96697f65498135b783f2567750ef"
+  },
+  {
+    "path": "locityper/calls/NA18608/full/loci/HLA-C/res.json.gz",
+    "bytes": 382,
+    "sha256": "795e7e33f7e044f6e97812edf3e6cacfc5aad80b9e9cbd60d3a8843f2c9e7533"
+  },
+  {
+    "path": "locityper/calls/NA18608/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 368,
+    "sha256": "f24635be5db4623459443725c415983a005ad50963ba275f5fedc74834c1ede5"
+  },
+  {
+    "path": "locityper/calls/NA18608/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 664,
+    "sha256": "9a3590220b109c0e14409441019bb63a24ff28950cf5e6a093472e99b9d09242"
+  },
+  {
+    "path": "locityper/calls/NA18608/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 376,
+    "sha256": "7932f5cad6a38464bc5734cbab9727c580f734522ac955236673fdb54cd6aca4"
+  },
+  {
+    "path": "locityper/calls/NA18608/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 921,
+    "sha256": "d8475d3dc4cff255b2997c20e4bf1f3cfd36abd69d3978a0b4b9bc366163d7ab"
+  },
+  {
+    "path": "locityper/calls/NA18608/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 369,
+    "sha256": "33529f9c2854c741f070a8eda590ca8158e5914fa387d4fd3140d1623459f4e3"
+  },
+  {
+    "path": "locityper/calls/NA18608/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 379,
+    "sha256": "2e0cc2227efcbfedb5f7a473e4839d97517bf1b8a36546021836e0375e7be5fd"
+  },
+  {
+    "path": "locityper/calls/NA18608/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 369,
+    "sha256": "67bb88773f6b4a2ecdd776739c4f93ee30ed6f72792ad46cc3b8b0788aeaed56"
+  },
+  {
+    "path": "locityper/calls/NA18608/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 378,
+    "sha256": "8168f2b083b14e488f7c558e886686c5e683093508df0673edb1b6c074a046f6"
+  },
+  {
+    "path": "locityper/calls/NA18608/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 521,
+    "sha256": "2b6666ddbf2fb2d3bff44bc1d808a6b13ee137274335c61a17cb28d217b95d16"
+  },
+  {
+    "path": "locityper/calls/NA18608/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 681,
+    "sha256": "fd0921f636d6dbaf02c265813fc7e2ef6bc2b47048c945e9302c40a5c5c2dff6"
+  },
+  {
+    "path": "locityper/calls/NA18608/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 374,
+    "sha256": "3af1245b5056f66cf2c974a69ea39cb9e4d94f16ec848879e4c43672d3862fd6"
+  },
+  {
+    "path": "locityper/calls/NA18608/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 573,
+    "sha256": "5e49294dbc0be4dda0041de254925b0ac1333131d74e27122d1a5c44146a1345"
+  },
+  {
+    "path": "locityper/calls/NA18608/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 426,
+    "sha256": "1715bf24531a40957ff03ff7275aa79d24b9b1065e2470319ceb0ef069f65e07"
+  },
+  {
+    "path": "locityper/calls/HG00658/full/loci/HLA-A/res.json.gz",
+    "bytes": 1124,
+    "sha256": "be81d3c3b3b281148b3c60b1957a13ce5231637d6374a872121843ce867ec089"
+  },
+  {
+    "path": "locityper/calls/HG00658/full/loci/HLA-B/res.json.gz",
+    "bytes": 378,
+    "sha256": "ed2655402ca3561e5ea15d13bd108dc0f30491074a06682b6188df7eab73a5ea"
+  },
+  {
+    "path": "locityper/calls/HG00658/full/loci/HLA-C/res.json.gz",
+    "bytes": 372,
+    "sha256": "a4e023c45f0a7e6b25aa4222d219ccb9a4b7be347e016b23f0574291ebe5b2e0"
+  },
+  {
+    "path": "locityper/calls/HG00658/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 472,
+    "sha256": "9ab3486bc91dc521a10d7e79fccaf35cf8aa8258ade6fd29318d58155f43b38d"
+  },
+  {
+    "path": "locityper/calls/HG00658/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 379,
+    "sha256": "2471151bd88ff13e915ecafd3b38dee94f2bcbfad655e72d9b4973223acf91b6"
+  },
+  {
+    "path": "locityper/calls/HG00658/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "7a268bd7a53b2d1226b465a9ceb441549ef6ce03e216fc47447b289192d68fc7"
+  },
+  {
+    "path": "locityper/calls/HG00658/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 364,
+    "sha256": "ce1d24b2ac2628ec65a5e27f5d952774c256f85f28797af4b67d8637e4b16426"
+  },
+  {
+    "path": "locityper/calls/HG00658/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 379,
+    "sha256": "cb4005a515c1cd742cad30ef742948cfe4d0e8e916c6891b3af78f4db6408233"
+  },
+  {
+    "path": "locityper/calls/HG00658/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 715,
+    "sha256": "3fbe8c15d2908678062c947f2f0fe629171673a3ac8346bc7f276bbb035973eb"
+  },
+  {
+    "path": "locityper/calls/HG00658/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 374,
+    "sha256": "8e417defbab6e5560cd87e2c587bb8524f3730c418a1dbeaa4f40ea94cb8db75"
+  },
+  {
+    "path": "locityper/calls/HG00658/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 368,
+    "sha256": "ac9df5edc8246d8c3f33aa491fe6c30b77d8782fdfc3991906a3338a0567d94e"
+  },
+  {
+    "path": "locityper/calls/HG00658/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 369,
+    "sha256": "befbd570ed337eae8cdca0966735a0fc81bd5a79a6aef7e8f2a4c20fe772e815"
+  },
+  {
+    "path": "locityper/calls/HG00658/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 372,
+    "sha256": "35ba3c24192bb00cf4e45d53b7b6e2dc719ef7b1cea4a3d42c7ed5a5508cc605"
+  },
+  {
+    "path": "locityper/calls/HG00658/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 364,
+    "sha256": "690bfe3d6ca3b21df869855cb1dd3ac35b5678e19d2cf6a54f1ed1b000e69337"
+  },
+  {
+    "path": "locityper/calls/HG00658/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 708,
+    "sha256": "e769b2dbb65cd50ebce0d153588eddcc5bafc391af49bc8af7a7f58be452c910"
+  },
+  {
+    "path": "locityper/calls/HG00658/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 370,
+    "sha256": "f829abe8cc64338092415ed7ef026731b1280eeff3cb424ceb4e129ebb305ce8"
+  },
+  {
+    "path": "locityper/calls/HG02132/full/loci/HLA-A/res.json.gz",
+    "bytes": 426,
+    "sha256": "5a209a0ac3c72d2978a08de76e76309f2af5498c26061481e0377968cba5b295"
+  },
+  {
+    "path": "locityper/calls/HG02132/full/loci/HLA-B/res.json.gz",
+    "bytes": 379,
+    "sha256": "acd1d5213a0a0f7c94f5b4b0ef27ace3cf323b62249d0e39c410f19acbc504cf"
+  },
+  {
+    "path": "locityper/calls/HG02132/full/loci/HLA-C/res.json.gz",
+    "bytes": 471,
+    "sha256": "5d4260f65a4ec9c367858f6aec5a1e53804a1c5fc1fb0e6e6932830db25d58a3"
+  },
+  {
+    "path": "locityper/calls/HG02132/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 2664,
+    "sha256": "b4138b635bc7ff5be533a579e3b9d80e801a53bbfe465158be7729c884c1e0a6"
+  },
+  {
+    "path": "locityper/calls/HG02132/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 377,
+    "sha256": "b1ffc166a61d0f4441b11144497944adafa5d5a2313bdb51f2489576537814b1"
+  },
+  {
+    "path": "locityper/calls/HG02132/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 429,
+    "sha256": "4754e31d3eb21d8695f62a6da6aba394069fadc43d75d5cb27917e7284fd43c3"
+  },
+  {
+    "path": "locityper/calls/HG02132/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 567,
+    "sha256": "db547effceb1c898f6f43c616ee497fd5eab87e660f8bd09e7a7fdfbec48ce3f"
+  },
+  {
+    "path": "locityper/calls/HG02132/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "94805b53643daf80d1642f68abd2b113a2cf0afb283f1db9bfb2417fdd1f6ad9"
+  },
+  {
+    "path": "locityper/calls/HG02132/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 373,
+    "sha256": "d395989b7daba04eb029e9e451ff3ab4dff09a226054f1fccffc39dc9277e60a"
+  },
+  {
+    "path": "locityper/calls/HG02132/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 378,
+    "sha256": "63ec41fe504e2b2e6d1ca51b189f8403b3870f872ea4955dde85a39b4d760932"
+  },
+  {
+    "path": "locityper/calls/HG02132/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 374,
+    "sha256": "6c0c90c8dd98515265716db7b6e2ff68a4ce77a69ca21200c709fa740a7c586a"
+  },
+  {
+    "path": "locityper/calls/HG02132/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1185,
+    "sha256": "5db60923f76f4adc24b8d95459d1a4c3298e01a6ea51bfc8763e9ef7ef803c7e"
+  },
+  {
+    "path": "locityper/calls/HG02132/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 376,
+    "sha256": "e6a1bf63275fc55cf9ccb8d7a2eadd343b5b116ab68c184713c63e8c39105390"
+  },
+  {
+    "path": "locityper/calls/HG02132/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 573,
+    "sha256": "2c024503fd0bf5cc692385189c12b8be22e4259c78d8a9c9e9f50aac96e8bd9b"
+  },
+  {
+    "path": "locityper/calls/HG02132/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 1465,
+    "sha256": "046e2de1b03ff923347ed77356428a2205913d203457022339479ff77a5b1264"
+  },
+  {
+    "path": "locityper/calls/HG02132/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "e3e0d6235d021009e6f098f13c9c64952e756dcf5a33cc071f3ba9d316923f5b"
+  },
+  {
+    "path": "locityper/calls/HG03831/full/loci/HLA-A/res.json.gz",
+    "bytes": 876,
+    "sha256": "3525c95767074d4490c3e0d1fedc8440426bea4e07257238b7e20bcaf2566dc8"
+  },
+  {
+    "path": "locityper/calls/HG03831/full/loci/HLA-B/res.json.gz",
+    "bytes": 376,
+    "sha256": "3e3fedcaf1240c1fb0fd44ff7c6fbcc7bced584fd673f9e4493c4ad0ed8fb512"
+  },
+  {
+    "path": "locityper/calls/HG03831/full/loci/HLA-C/res.json.gz",
+    "bytes": 375,
+    "sha256": "11cadc06d81a2d5f3d55ce49492bf0d00a03ef520e10aaf29f7f851088bbefba"
+  },
+  {
+    "path": "locityper/calls/HG03831/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 369,
+    "sha256": "467e1f61462475177be04a4b4f942db39d81ad3be240abed46a34618a394736f"
+  },
+  {
+    "path": "locityper/calls/HG03831/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 376,
+    "sha256": "676be524f03d33703c888815a4c50f7366b97a3c0e55b94f057d7e89a1b8d1cd"
+  },
+  {
+    "path": "locityper/calls/HG03831/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 370,
+    "sha256": "eec7e605463b4088cd4c50bc823af76746cb85f284a5203ff804f6c69fe72140"
+  },
+  {
+    "path": "locityper/calls/HG03831/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 425,
+    "sha256": "e85cd4cab20eb2d1696e0f5bd9c6cb84dfab8d95fcf0ed268c40095dd63bb01e"
+  },
+  {
+    "path": "locityper/calls/HG03831/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 372,
+    "sha256": "3dba3c0857f8bf422c854b9907d6c8ac471447d5c9fee88e892cb5a3930356c9"
+  },
+  {
+    "path": "locityper/calls/HG03831/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 885,
+    "sha256": "d8989426a6f4e5e14fe5cb32708d225a910c2b66d3d14995f5e8297691ea1497"
+  },
+  {
+    "path": "locityper/calls/HG03831/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 381,
+    "sha256": "ba325c21ae4c7efda83bff1bc6b424f893ba847ac903df057bfdc228225c334f"
+  },
+  {
+    "path": "locityper/calls/HG03831/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 380,
+    "sha256": "341adeadfb0b6ce44c426d97e686beac6cf277a668b09bb80134404e4e4a52aa"
+  },
+  {
+    "path": "locityper/calls/HG03831/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 357,
+    "sha256": "16d430da6848379723711cf1393767c5a639abd1be1a93cb1d87e000c9092951"
+  },
+  {
+    "path": "locityper/calls/HG03831/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 371,
+    "sha256": "b14c50f7ede39252ba73d289ff997d8e9cd40182222be661ed0f5f22975d8689"
+  },
+  {
+    "path": "locityper/calls/HG03831/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 366,
+    "sha256": "68a48e77abc964a1669941f60838744c3486539efee7114188254524bb2896c6"
+  },
+  {
+    "path": "locityper/calls/HG03831/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 673,
+    "sha256": "b7f560bad9e56a010518e320e74097169951aadb45fbc5bd6ce9dfcf77b1fd3b"
+  },
+  {
+    "path": "locityper/calls/HG03831/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "b15ae97e5a7382ae3d8b5ddfbace929402e5d90c829a20e95626c14eee9ab68b"
+  },
+  {
+    "path": "locityper/calls/NA20905/full/loci/HLA-A/res.json.gz",
+    "bytes": 378,
+    "sha256": "4ec4655b5527a61bf53794f4ad8aa6f95c5c5666163078e2aaedfcd436bd3665"
+  },
+  {
+    "path": "locityper/calls/NA20905/full/loci/HLA-B/res.json.gz",
+    "bytes": 354,
+    "sha256": "111e8f9caa3cb88123f8f6f0d6f3ca0694535598d4b8de96f665bff39129eb87"
+  },
+  {
+    "path": "locityper/calls/NA20905/full/loci/HLA-C/res.json.gz",
+    "bytes": 371,
+    "sha256": "28c2b4339e36b056e84ce63bcdc065ddbcaeb29e29c4cea971ba838ac0a63a6b"
+  },
+  {
+    "path": "locityper/calls/NA20905/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 919,
+    "sha256": "6cac3211ff536d5ed4030e4c60aca7334be3aff482235b14412454b63afb5a19"
+  },
+  {
+    "path": "locityper/calls/NA20905/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 469,
+    "sha256": "2ce1a019e95349a823031efda40843071092f0ed6580e1e19b4861b1ba6c1fe8"
+  },
+  {
+    "path": "locityper/calls/NA20905/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 381,
+    "sha256": "866b4385852f4836bd0e313a8ede1d89b6f1de793ad59ab0dc97101f07f20f4f"
+  },
+  {
+    "path": "locityper/calls/NA20905/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 375,
+    "sha256": "54c6dd55144f8a337792d9f2aac4163b7bcb0b53f447530fad6e2024db30eb04"
+  },
+  {
+    "path": "locityper/calls/NA20905/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 346,
+    "sha256": "95b88e19bf155777b02447e4f04ab3c345e00e94aa832b2f06f4d7f40ea84b8c"
+  },
+  {
+    "path": "locityper/calls/NA20905/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 371,
+    "sha256": "09b21f1de4bb8d233490b8e7270c7fd24cc254e12d13a2df957f418f595186d7"
+  },
+  {
+    "path": "locityper/calls/NA20905/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 356,
+    "sha256": "da9106883007b997ed113c231279de704cffb35ccfa48cfdef981df7b8321803"
+  },
+  {
+    "path": "locityper/calls/NA20905/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 371,
+    "sha256": "38948a64934c717fcd370c9eb67708e4d7828e32132bf79e5540596f077661ff"
+  },
+  {
+    "path": "locityper/calls/NA20905/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1069,
+    "sha256": "ca005d4d9a020514225376181580277aaa037b0fc9064f0638e1469ecf8963c4"
+  },
+  {
+    "path": "locityper/calls/NA20905/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 420,
+    "sha256": "6c6d585f912cd12eecce74fbb19bec59ed15975db06f976e4d52b5f5e360a0c8"
+  },
+  {
+    "path": "locityper/calls/NA20905/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 428,
+    "sha256": "538a80590339214c8fc410b68d591b9e08bdd660dd0b4b58ee147b60efc7542a"
+  },
+  {
+    "path": "locityper/calls/NA20905/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 369,
+    "sha256": "7d4fd3c7ff1d3b2d613ab80264d7c9f270020d449a37835618896e204896e1df"
+  },
+  {
+    "path": "locityper/calls/NA20905/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 627,
+    "sha256": "86d83ce0a15b5d3bf1a6fa1c43788ca0bbc1a50bd179629a5c879201e53ee26d"
+  },
+  {
+    "path": "locityper/calls/HG03874/full/loci/HLA-A/res.json.gz",
+    "bytes": 377,
+    "sha256": "06ffe390b3dcc8477130dc17758a1ad78aa0fe556f1c55230deec5f8b702f92e"
+  },
+  {
+    "path": "locityper/calls/HG03874/full/loci/HLA-B/res.json.gz",
+    "bytes": 373,
+    "sha256": "8a53d0ba4475fd0d0c50e5dd4cc5292edf3de5f5c27070eed3bdb059e7ad6cb6"
+  },
+  {
+    "path": "locityper/calls/HG03874/full/loci/HLA-C/res.json.gz",
+    "bytes": 372,
+    "sha256": "f544fbe7a3587bdd954c04eba1b445cc5cc2852da2874eb9c904b3c89b68c432"
+  },
+  {
+    "path": "locityper/calls/HG03874/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 820,
+    "sha256": "7e99153e0274237e792a74121311505ebe362314a1b263d897e857848695a159"
+  },
+  {
+    "path": "locityper/calls/HG03874/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 1027,
+    "sha256": "6fb58c442e9a053e880156c5566de836efbe978e58d6da962c54850949b1cada"
+  },
+  {
+    "path": "locityper/calls/HG03874/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 366,
+    "sha256": "8a9eb18b12bef622e070fa33d149e625fa54c8b9ab5ea21ad18a29ec0337102a"
+  },
+  {
+    "path": "locityper/calls/HG03874/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 363,
+    "sha256": "9ec4a03aa3233f474954e128e542a8a45503108e39e9de46d56609132467edb0"
+  },
+  {
+    "path": "locityper/calls/HG03874/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 371,
+    "sha256": "6a745ffdd4552fb2d0b85d8b9d2fea6977404cc833cbe58d3b38f8d77b2785f1"
+  },
+  {
+    "path": "locityper/calls/HG03874/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 373,
+    "sha256": "b47fbbf9073970d4b6c39dc4831ae39d11567655f8f26820278aac17ff7214fa"
+  },
+  {
+    "path": "locityper/calls/HG03874/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 375,
+    "sha256": "671e7241011f2168c37f4cdd71d405540f3710da52294b217c4955bbf161e05c"
+  },
+  {
+    "path": "locityper/calls/HG03874/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 374,
+    "sha256": "6578939dc69d645cd20605e4ac8e61fc7feb2ff225a77c20108ac7d7d8857e40"
+  },
+  {
+    "path": "locityper/calls/HG03874/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 817,
+    "sha256": "f69469a0876626401d1c45295594a612e4df04e622759e24d0db547df5a4c9ca"
+  },
+  {
+    "path": "locityper/calls/HG03874/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 767,
+    "sha256": "d18fdb45898c1358f3f165ed47842f87e1aec86ede92a875057344e6382f9117"
+  },
+  {
+    "path": "locityper/calls/HG03874/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 369,
+    "sha256": "62ae78488f349cc5e5e9b953df40db483bb106f388e00ff50f3c6a88339f31c4"
+  },
+  {
+    "path": "locityper/calls/HG03874/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 573,
+    "sha256": "6d3816f2e0e900bf36dd95bd5512bfde42ec87c10e1ee4146d2c4867728be83d"
+  },
+  {
+    "path": "locityper/calls/HG03874/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 357,
+    "sha256": "0dcc110f7faeadf44d2811090aae311f45e5f72d52ad1b5da13856ffa4bd26c8"
+  },
+  {
+    "path": "locityper/calls/HG04199/full/loci/HLA-A/res.json.gz",
+    "bytes": 375,
+    "sha256": "3aa55f53ad23a4933f1f22026f0675b98e8fdd54150de3c6f8b4181471934851"
+  },
+  {
+    "path": "locityper/calls/HG04199/full/loci/HLA-B/res.json.gz",
+    "bytes": 372,
+    "sha256": "7c1c0843aba054483f0e7f235d87b17eefc226f551b1090993d0a9a465800b87"
+  },
+  {
+    "path": "locityper/calls/HG04199/full/loci/HLA-C/res.json.gz",
+    "bytes": 472,
+    "sha256": "1833967fccf7bf33358feec09a46dc5237fed7a589271ee5fb7cbac5149efdfa"
+  },
+  {
+    "path": "locityper/calls/HG04199/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 673,
+    "sha256": "2932e326134dfa2fd9f829f2d71ce6c5190960ad95679f246e3ffc4888676a6a"
+  },
+  {
+    "path": "locityper/calls/HG04199/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 373,
+    "sha256": "ca839d07a0c67c22f77e33c813ed1d367afa86263d1fa1d693a60d40d0a8ca33"
+  },
+  {
+    "path": "locityper/calls/HG04199/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 370,
+    "sha256": "efc7477f6703a7eb17e1c23e4c6efaa515b0ce0484742393a394eb2ea4e8249d"
+  },
+  {
+    "path": "locityper/calls/HG04199/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 665,
+    "sha256": "e2acb3568d098ad996034009348899b34f41265f7a467f6a0db1fbf6137ca377"
+  },
+  {
+    "path": "locityper/calls/HG04199/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "cdfa51d86acb44d387b414054f378e75e8ab8cb47db41ff18c97bb4ef3e3c494"
+  },
+  {
+    "path": "locityper/calls/HG04199/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 366,
+    "sha256": "8985dc56574c7fee348accf2c1cdcd89aa4c2a3e887d8bdb77b6a972b5bfc128"
+  },
+  {
+    "path": "locityper/calls/HG04199/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 358,
+    "sha256": "b5eba53a7b2edb6a7b817ac1e5afbd2cde9d689a5974983fa65903e320ead25c"
+  },
+  {
+    "path": "locityper/calls/HG04199/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 375,
+    "sha256": "70e23af2222169c196817623c20b0872ca51e459557aa846e7fec11bd540a692"
+  },
+  {
+    "path": "locityper/calls/HG04199/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 625,
+    "sha256": "5da74a6a966ac2aa33c2de36245d5c8d42468047aa429576f45354ad53db0c96"
+  },
+  {
+    "path": "locityper/calls/HG04199/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 376,
+    "sha256": "d4e20f679ff9d4d41ee5b416a16356e3a9ae286741b03640f2e71de04e8548e4"
+  },
+  {
+    "path": "locityper/calls/HG04199/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "e43e332c834742feb423ac23d848130c477ef0128b5465228e477e2baf3de213"
+  },
+  {
+    "path": "locityper/calls/HG04199/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 473,
+    "sha256": "411b55a5838a19db5c509e0beb55ead58ebb2e137ca0f06e020c9ecb5fee23e2"
+  },
+  {
+    "path": "locityper/calls/HG04199/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 368,
+    "sha256": "f3e2e0dd2cca416784902523047e16d6269547f33ce5f969ae192f10c558f4c6"
+  },
+  {
+    "path": "locityper/calls/HG02391/full/loci/HLA-A/res.json.gz",
+    "bytes": 575,
+    "sha256": "7229a97de104f586ffaac989a5786809ca03b56057e4949899dccf0133ae3f81"
+  },
+  {
+    "path": "locityper/calls/HG02391/full/loci/HLA-B/res.json.gz",
+    "bytes": 365,
+    "sha256": "85555a24c926c119a638b347b1d85db797091dee68c87393655a2599f3d4328b"
+  },
+  {
+    "path": "locityper/calls/HG02391/full/loci/HLA-C/res.json.gz",
+    "bytes": 622,
+    "sha256": "12784a0fb5ca1fab4a1f75f9d3dbbb329492089c335de60a2177144b34e71c49"
+  },
+  {
+    "path": "locityper/calls/HG02391/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "10c6d43de9329c34c604381f298c5e83777f8bf8b459539763ffe0748f63cf76"
+  },
+  {
+    "path": "locityper/calls/HG02391/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 573,
+    "sha256": "a42dd00cba0180179b3b59f2ff45acbb4d5b210a9a2a99ff63b9f74aabb03515"
+  },
+  {
+    "path": "locityper/calls/HG02391/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 724,
+    "sha256": "a3b1cd0ff7da2c75515c821ea24acc8e7c542cca811b1e6f9d778db232bc6d7e"
+  },
+  {
+    "path": "locityper/calls/HG02391/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 871,
+    "sha256": "ed2e49b64d3800177dcffe71c620c6cc4dd78dcf696f404782ce466b52aa700b"
+  },
+  {
+    "path": "locityper/calls/HG02391/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 372,
+    "sha256": "3ba62441925bfb22ed8f5cba86e668487a8d4090cb50f87865726e2a0447a6ae"
+  },
+  {
+    "path": "locityper/calls/HG02391/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 373,
+    "sha256": "8753ea385857db73059d1d3e149f40dc3153fb7568007a9e0fea12e30d8898f6"
+  },
+  {
+    "path": "locityper/calls/HG02391/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 375,
+    "sha256": "ae00b7fa52e3c029ba14e86fb8e4c6bd10aa2b232c4c1f73694fe7373a90f485"
+  },
+  {
+    "path": "locityper/calls/HG02391/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 513,
+    "sha256": "de70d5711b1eb4c307c126bcfbda436f0ec94ba17e208bc42d4e0ef970c61adb"
+  },
+  {
+    "path": "locityper/calls/HG02391/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 379,
+    "sha256": "b5a0b4640eb573263e7c2ef10404e2d374ebad9ec208ac446cb8709d8978ac35"
+  },
+  {
+    "path": "locityper/calls/HG02391/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 532,
+    "sha256": "05db5534f958b714c2f515b0760e4d7a30fe7c2882b29e68e463af3eb99bd9a4"
+  },
+  {
+    "path": "locityper/calls/HG02391/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 362,
+    "sha256": "7460899a1971b409809957a99168ab90ab8a8da40bc4f6d0c5667a46f445e879"
+  },
+  {
+    "path": "locityper/calls/HG02391/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 774,
+    "sha256": "62c35ea63a2138a9a877cb34583d4bb4507d9a2242e8710524f9e9b8d1d6799b"
+  },
+  {
+    "path": "locityper/calls/HG02391/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 533,
+    "sha256": "86ab3fbd0ea42b5bc6781e7a709a29af74f831c07d8da173bcee2a224a07b494"
+  },
+  {
+    "path": "locityper/calls/NA18570/full/loci/HLA-A/res.json.gz",
+    "bytes": 2649,
+    "sha256": "7c6341d48fcf892cb5ff5d7c055af6f2aa3775c6278572ce2917bc1a88fb4d43"
+  },
+  {
+    "path": "locityper/calls/NA18570/full/loci/HLA-B/res.json.gz",
+    "bytes": 375,
+    "sha256": "243781d657d6cc74f6759ed29eb6e24d39e13b85dbf1ee4122044d125820076c"
+  },
+  {
+    "path": "locityper/calls/NA18570/full/loci/HLA-C/res.json.gz",
+    "bytes": 1282,
+    "sha256": "fb19ac632758f6a533c65447bafbbe83249cc60666077b89cc9bfcc9ea24d112"
+  },
+  {
+    "path": "locityper/calls/NA18570/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1126,
+    "sha256": "c74a87071371f1d125519fc90f0d07ad079f5e9b001d24685a689b308a40c5c5"
+  },
+  {
+    "path": "locityper/calls/NA18570/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 962,
+    "sha256": "cb87429a8c0f32775f8f5eea81d6512f797c72bdfcdb924c687d0405ec369521"
+  },
+  {
+    "path": "locityper/calls/NA18570/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 381,
+    "sha256": "0863544abc06adf9481ba74204af199b603c70a42f17b24d439d06eb8b58c076"
+  },
+  {
+    "path": "locityper/calls/NA18570/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 1131,
+    "sha256": "fd680302116346d22d8b2443652c079c94b2c5a01178b19d601610dc16f14591"
+  },
+  {
+    "path": "locityper/calls/NA18570/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 370,
+    "sha256": "42506586139db53b8374aff134bbd52bf95d53fe5f3629a367c300c3c3e0434d"
+  },
+  {
+    "path": "locityper/calls/NA18570/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 1615,
+    "sha256": "eca3d8011b4f7ae415192d638dc1e6576f969729cc323956a08cfa4425895443"
+  },
+  {
+    "path": "locityper/calls/NA18570/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 372,
+    "sha256": "14416a28a39f5ece4a062ebad2fee726c3aeae0900bf0966b0ec4ac9471e91a5"
+  },
+  {
+    "path": "locityper/calls/NA18570/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 1177,
+    "sha256": "b4df41a2070064b40700e4566818d4ff00bf0e648fd54da40c908b3de3757160"
+  },
+  {
+    "path": "locityper/calls/NA18570/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 719,
+    "sha256": "b5529a5c3735cce1a8ad5e77f25750a039e1df34cf7a9609248f1f5c9c68761a"
+  },
+  {
+    "path": "locityper/calls/NA18570/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 662,
+    "sha256": "558b6ed4cc11ec10c39d8c9ede25312a35bf87497c0b184780fe0a1afcf9fc49"
+  },
+  {
+    "path": "locityper/calls/NA18570/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 372,
+    "sha256": "0da19b34ccbbcbdaefc13dddcf115d871c40258a851bcb2a770e1a80a7687867"
+  },
+  {
+    "path": "locityper/calls/NA18570/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 622,
+    "sha256": "b76baa6a67d0825df20ddbd59d0aa62a632808b1a27fae2a0bb88fef08015580"
+  },
+  {
+    "path": "locityper/calls/NA18570/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 368,
+    "sha256": "5a9767f620e587128107860f05cd421f8e89b5c154acbbaa1734fed3ea5d08fc"
+  },
+  {
+    "path": "locityper/calls/NA18940/full/loci/HLA-A/res.json.gz",
+    "bytes": 919,
+    "sha256": "1c80299b7329bacfcfffaa2a8eda212ae974afc7a24b38554c4561dd5574d052"
+  },
+  {
+    "path": "locityper/calls/NA18940/full/loci/HLA-B/res.json.gz",
+    "bytes": 369,
+    "sha256": "9dca82186e325da46bafa848a678b7f24b3e0d2c4c29d13b09757bbeafa0e414"
+  },
+  {
+    "path": "locityper/calls/NA18940/full/loci/HLA-C/res.json.gz",
+    "bytes": 383,
+    "sha256": "1f092022ca4383141b093049a0af380c0f472f81265c3d6128a8d7d4b5683bef"
+  },
+  {
+    "path": "locityper/calls/NA18940/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 778,
+    "sha256": "b9f0be59c839b771b04a2022c5f0a78297d92d6e83c31f9ff18830fa4b897f38"
+  },
+  {
+    "path": "locityper/calls/NA18940/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 376,
+    "sha256": "d50ec6507915b0adc61cdc0f714be1d593f3b536dc3c3b6d8971789f0116fa94"
+  },
+  {
+    "path": "locityper/calls/NA18940/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "339f63d77e2755c1e3345663f6a3e91e92c48daefce3d8c714e0f6d6ff6be136"
+  },
+  {
+    "path": "locityper/calls/NA18940/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 373,
+    "sha256": "fe0adf8a0dab0a357e1a514aa776503df369c880e456504c4ea8685a51e35c05"
+  },
+  {
+    "path": "locityper/calls/NA18940/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 371,
+    "sha256": "08e31e3dccc3f4786903286e23d772935d7dc94dcc6be5e4c8f38d295a5dde1f"
+  },
+  {
+    "path": "locityper/calls/NA18940/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 680,
+    "sha256": "73a4c0192a57889e454f6ca126813498577e2f7bae708d4829c5d4ab37964ab4"
+  },
+  {
+    "path": "locityper/calls/NA18940/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 382,
+    "sha256": "40e22bfbd4c976b0bd24ecb39f311c2381c12b9cfbe78aa619fc0bef2d002b58"
+  },
+  {
+    "path": "locityper/calls/NA18940/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 377,
+    "sha256": "4bf4868003b3216f062ccb33ffb80dcfa047553c40c33659a773ea37f6ee09cf"
+  },
+  {
+    "path": "locityper/calls/NA18940/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 374,
+    "sha256": "4436ff19322e6f06d01a2f0de73ecf49e7c97f3960df573efccca629a7a1667f"
+  },
+  {
+    "path": "locityper/calls/NA18940/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 373,
+    "sha256": "94b93448d07081d8e248e380076c96cb86f19c1609bdeb060ae04dd495f68752"
+  },
+  {
+    "path": "locityper/calls/NA18940/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 382,
+    "sha256": "2386c52b65cd9570b3bd69453668248643541554fe5fa95146357d6350543c5a"
+  },
+  {
+    "path": "locityper/calls/NA18940/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 420,
+    "sha256": "8273b013a0a9d456c1b3b8338ec7479ec50e5c598a571b7e877eab88b332959a"
+  },
+  {
+    "path": "locityper/calls/NA18940/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "8d18bbbee3c7fa71140a7f53a0bff8d6052a09ba842c1e3ad305ad6b24e05538"
+  },
+  {
+    "path": "locityper/calls/HG02027/full/loci/HLA-A/res.json.gz",
+    "bytes": 575,
+    "sha256": "307e6d3f2926b531e4cd4039fc8e44c23bb98711afef743d627e4f301c76b23c"
+  },
+  {
+    "path": "locityper/calls/HG02027/full/loci/HLA-B/res.json.gz",
+    "bytes": 376,
+    "sha256": "31202bf502241ddab9922b072af1a85c7ae082a2688bc63abef0d19622827f4a"
+  },
+  {
+    "path": "locityper/calls/HG02027/full/loci/HLA-C/res.json.gz",
+    "bytes": 374,
+    "sha256": "29a1c3eabbb2f4d44d6c8a469d3525922369a32d84ab863275a25534808fb121"
+  },
+  {
+    "path": "locityper/calls/HG02027/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 467,
+    "sha256": "90004a1eec7c6a1b29c9af9e8d1ec5a0154636a961bd9440d596f1c6f152bcfb"
+  },
+  {
+    "path": "locityper/calls/HG02027/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 567,
+    "sha256": "0f021aa626942e48ab9b4c176df751d48fcd3bb8cd94a818366def02f9c9fbaa"
+  },
+  {
+    "path": "locityper/calls/HG02027/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 412,
+    "sha256": "b46ff45ad4a9ee8d042420a6d5715334b9b43c2d343d26b392277d82563ddc2d"
+  },
+  {
+    "path": "locityper/calls/HG02027/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 761,
+    "sha256": "0fdaa5099e468b20ffef076c9dd16e060b8756c5dfd8bc9b75e8c110d4c626a5"
+  },
+  {
+    "path": "locityper/calls/HG02027/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 374,
+    "sha256": "2d424bbc609033727a41c95c6e68b6534ae86f76ed0cfa4490a7dcef0740de8a"
+  },
+  {
+    "path": "locityper/calls/HG02027/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 622,
+    "sha256": "9d4b9d326eb840bdd402a1d03d8d355cf929cf999f3d51a555da65f7d69fa02a"
+  },
+  {
+    "path": "locityper/calls/HG02027/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 374,
+    "sha256": "b56b22e068b7ba840fc956abbd39502092a336d44dc6d82a55be936bad596a07"
+  },
+  {
+    "path": "locityper/calls/HG02027/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 360,
+    "sha256": "10fa8c6bc1e30b27ec167f1d8d943fb3e0d45b7eb7b012076652ab3059e4678a"
+  },
+  {
+    "path": "locityper/calls/HG02027/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 370,
+    "sha256": "59e6a1b3ec684b30268987cfa10b87682875971156af7d663e656fd21da4d66f"
+  },
+  {
+    "path": "locityper/calls/HG02027/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 373,
+    "sha256": "c8767ca6f93a09a72440588198823a8aba89959f32a7699ca8e0401b8b61fa20"
+  },
+  {
+    "path": "locityper/calls/HG02027/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 376,
+    "sha256": "87732c041edcf73f0d352bd0567f35260241eb663f5bc89aab3f1c1cab23d125"
+  },
+  {
+    "path": "locityper/calls/HG02027/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 823,
+    "sha256": "752b43bcdb4a7f562033d5586b1918bbd607fdca45580c56b2cb256f02e2c389"
+  },
+  {
+    "path": "locityper/calls/HG02027/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 372,
+    "sha256": "faa9ffb6550beb2e3c1f82dd8c47ca40428f0c0b6480fa0721149fa7cc1ec514"
+  },
+  {
+    "path": "locityper/calls/HG04187/full/loci/HLA-A/res.json.gz",
+    "bytes": 372,
+    "sha256": "6af71074688cd59adbf103d8fdc7fe84ae55e8860dcf956ecd525cc37dceec74"
+  },
+  {
+    "path": "locityper/calls/HG04187/full/loci/HLA-B/res.json.gz",
+    "bytes": 371,
+    "sha256": "1dfe0d2836e347acc51ab8590a0144d0932b4674b8fe8ab560ebf113fcb700b0"
+  },
+  {
+    "path": "locityper/calls/HG04187/full/loci/HLA-C/res.json.gz",
+    "bytes": 370,
+    "sha256": "035bc151f8ffe8e3cb2872374212a40d6989c0497df9d7aa0d6dab27cba95570"
+  },
+  {
+    "path": "locityper/calls/HG04187/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 421,
+    "sha256": "da292fdfda2345bea1e0f478543dffa88f06bc54bc11814040847c15ce78f6ab"
+  },
+  {
+    "path": "locityper/calls/HG04187/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 1166,
+    "sha256": "8bc82c1b012ae0ac1a218be3c6f5ac8f808905fc095372059f19b4b710d60ddf"
+  },
+  {
+    "path": "locityper/calls/HG04187/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 374,
+    "sha256": "a6a400567c43aa77f1173b4146b5c305a39cb97d0fda3efbaf6e48ab929078d2"
+  },
+  {
+    "path": "locityper/calls/HG04187/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 673,
+    "sha256": "cc2bb788bc2fbcd9f2617f8d60f3b2a39751e82b6dae5ff7d2e2266181f63184"
+  },
+  {
+    "path": "locityper/calls/HG04187/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 369,
+    "sha256": "6ea8a5d76447d7d20dcd135167c0c7e44c9f51c2cc377608fc71df43b7e02374"
+  },
+  {
+    "path": "locityper/calls/HG04187/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 376,
+    "sha256": "8feb8291ad288843858aff370ae02b31d223d156cbff70075ffee9f0bda5d323"
+  },
+  {
+    "path": "locityper/calls/HG04187/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 374,
+    "sha256": "168784ea18e30e79d9f7d2e6da447da864eada09aaca11dcd3f3f52fd03d9d28"
+  },
+  {
+    "path": "locityper/calls/HG04187/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 354,
+    "sha256": "5e6f49395b08bd59c4bd254443e34effe44af63fb1d13743245950399e4a3e28"
+  },
+  {
+    "path": "locityper/calls/HG04187/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 670,
+    "sha256": "26ec169160ca7623b5133dd8cb904a5a5728ed17608774e32ad7a21a1be7c3b4"
+  },
+  {
+    "path": "locityper/calls/HG04187/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 1062,
+    "sha256": "01463048e1a9863372b37d28dd95b01875a62498cd2ba4d3505ce4c58ac639e5"
+  },
+  {
+    "path": "locityper/calls/HG04187/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 376,
+    "sha256": "5b41fbd39714147732fd0e6dcc9dde388cbd711d1f0a20ee11eb8b8851690327"
+  },
+  {
+    "path": "locityper/calls/HG04187/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 525,
+    "sha256": "aff0c11d1b275a0789d500161d990add4b0164fb75d5a2af5862490a6a725889"
+  },
+  {
+    "path": "locityper/calls/HG04187/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 351,
+    "sha256": "494ce480ee646125bf2b2f0e2abc8fec8a58fe7a6f92cf64dbf903c0e8781dbe"
+  },
+  {
+    "path": "locityper/calls/NA21144/full/loci/HLA-A/res.json.gz",
+    "bytes": 532,
+    "sha256": "fdc1f0a4fb66e53a537100ed09dd64e49ef63de6ad88c43fb8c75c78d381aa0f"
+  },
+  {
+    "path": "locityper/calls/NA21144/full/loci/HLA-B/res.json.gz",
+    "bytes": 357,
+    "sha256": "03070e475fac73f1bfeefb0304708b02fc6ad2fb7fcacf120d43247e8e1a357b"
+  },
+  {
+    "path": "locityper/calls/NA21144/full/loci/HLA-C/res.json.gz",
+    "bytes": 373,
+    "sha256": "9b9d61c0f3c6ca7edd8e02dca766849b47be53c4317a0e42ed225144a8f6ccaf"
+  },
+  {
+    "path": "locityper/calls/NA21144/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1012,
+    "sha256": "67de3da0410b7a8d1040cf8296db7d9dcdcec03a8cc63190b9a4f3bd494b389f"
+  },
+  {
+    "path": "locityper/calls/NA21144/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 773,
+    "sha256": "4b593381094cbe525f102ff78fd3f304b2caa099322de53dfc138a87fecdffa9"
+  },
+  {
+    "path": "locityper/calls/NA21144/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 384,
+    "sha256": "daf1faef8bf4eb12688cb10d4a13126678bf4bf59a87da060c9c906bfd546549"
+  },
+  {
+    "path": "locityper/calls/NA21144/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 427,
+    "sha256": "be2ae43d6dc358dba38c24dd56c211a86848c5af807f48b82e83e066b4c5a179"
+  },
+  {
+    "path": "locityper/calls/NA21144/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "9bbcb2eeebd831f5b21d75c2edd9fa76eec4c5f218a56a9bbf0a8803acd8ca36"
+  },
+  {
+    "path": "locityper/calls/NA21144/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 530,
+    "sha256": "c804b947a0e96ac368154927cadc2838dc3a2ea0245259e4cf8b3a30645413d3"
+  },
+  {
+    "path": "locityper/calls/NA21144/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 358,
+    "sha256": "e564246452166d663ec8cf76bd0893e39f023c31a0570a35af636c44312c43f7"
+  },
+  {
+    "path": "locityper/calls/NA21144/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 371,
+    "sha256": "023739aab76e5f4b45a13af7a273de5c4102d1a1a9c1af39fc2c343d7b4ca89d"
+  },
+  {
+    "path": "locityper/calls/NA21144/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 619,
+    "sha256": "16347e473995ce7f15e177df7712e977822d0808ad45799607edf870835ae338"
+  },
+  {
+    "path": "locityper/calls/NA21144/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 774,
+    "sha256": "2ab68dc10dd5469e9aa10750c4763991c86fb3688682b96ba94c3ccfaa832d11"
+  },
+  {
+    "path": "locityper/calls/NA21144/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 376,
+    "sha256": "d145421a27b145a9b8b17ab8b4639db0bd9e1fec80c93ee06d43c820af3bdcd5"
+  },
+  {
+    "path": "locityper/calls/NA21144/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 431,
+    "sha256": "1ab7ec4382d8d22c41c4270bf3acb1cede32d1b0930e8964fb67fff60ccd9cd4"
+  },
+  {
+    "path": "locityper/calls/NA21144/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 370,
+    "sha256": "a61bdb2f36757e29a42bd8421e4f58f73beb1cecdb2cc273b1df15a560e5cb1b"
+  },
+  {
+    "path": "locityper/calls/HG02602/full/loci/HLA-A/res.json.gz",
+    "bytes": 882,
+    "sha256": "955fa49886a8dd93daa415be7d2ad7d053f534d72c7d938d987229d4ed1139b1"
+  },
+  {
+    "path": "locityper/calls/HG02602/full/loci/HLA-B/res.json.gz",
+    "bytes": 369,
+    "sha256": "31ef916a3b2f6ab757a86a388031ebf86533099ab551f8fcec0625d0c649062b"
+  },
+  {
+    "path": "locityper/calls/HG02602/full/loci/HLA-C/res.json.gz",
+    "bytes": 622,
+    "sha256": "6bfa3c1fad3857285c404142ea64075725799c4ff9b094623c124a9a5735589c"
+  },
+  {
+    "path": "locityper/calls/HG02602/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 963,
+    "sha256": "e43dfdae3daad721c0aa82e998dea529921558e22d364b64410d15b204afd8be"
+  },
+  {
+    "path": "locityper/calls/HG02602/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 373,
+    "sha256": "41cb5861c06e451534fc1e954d886383d969851655a474170056e7c6427ffe6a"
+  },
+  {
+    "path": "locityper/calls/HG02602/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 379,
+    "sha256": "647fdbd935aa82cc834f594dc87b189668c0a3b7dc9399bdf1ff2630e3b95736"
+  },
+  {
+    "path": "locityper/calls/HG02602/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 373,
+    "sha256": "c7707aaca4483966045ed8a14a1d78efc7ac3981a42af5407be61e8a73e3e827"
+  },
+  {
+    "path": "locityper/calls/HG02602/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 366,
+    "sha256": "df9f121fee492b0c51da81fffe572c4ec6e6117f52236672686d123e94d4b10c"
+  },
+  {
+    "path": "locityper/calls/HG02602/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 473,
+    "sha256": "cf082b90ef9d3c84a2a1ab6fc6f2171dd77916fed1792cf03afc1c5ab1fc706a"
+  },
+  {
+    "path": "locityper/calls/HG02602/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 373,
+    "sha256": "e2ffc9cbc6200c8cb087a008f1ce9abe55f28eda58b3dae10ce82337af116c16"
+  },
+  {
+    "path": "locityper/calls/HG02602/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 580,
+    "sha256": "976a87c23d0c9104ba72e3d17466720fc1321d11db1a3788cf81ee03c3d44c61"
+  },
+  {
+    "path": "locityper/calls/HG02602/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 932,
+    "sha256": "cf7977b9bdde6744e6576f23a6b600a9c134f8fe3f17949908df0e4cab63747c"
+  },
+  {
+    "path": "locityper/calls/HG02602/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 421,
+    "sha256": "0f39ba30245ba769f8e14ad3c5c9f29afd92f981510286d29b89ed203fff00b5"
+  },
+  {
+    "path": "locityper/calls/HG02602/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 378,
+    "sha256": "bb2fdb598c05a4b9c38c79eb410976109c60855b64be08ff9cf1530b70f41766"
+  },
+  {
+    "path": "locityper/calls/HG02602/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 573,
+    "sha256": "c830c515de18145e2fca295af7030cb80776641827fd07c93d0aeb1f62a981a7"
+  },
+  {
+    "path": "locityper/calls/HG02602/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 374,
+    "sha256": "78840e4984bf404a1818f7302b84c48d8a9eaeef07f0142126b0c87bc2e42832"
+  },
+  {
+    "path": "locityper/calls/HG04115/full/loci/HLA-A/res.json.gz",
+    "bytes": 717,
+    "sha256": "ae129daca59dca2bfb14f3f299734cf9632ca51351080d78da9b0e02fa7ae203"
+  },
+  {
+    "path": "locityper/calls/HG04115/full/loci/HLA-B/res.json.gz",
+    "bytes": 367,
+    "sha256": "3e159db6155f48a306caf378df343380f509ed8e77c8250832299a31f4e813c5"
+  },
+  {
+    "path": "locityper/calls/HG04115/full/loci/HLA-C/res.json.gz",
+    "bytes": 668,
+    "sha256": "c732bb1a5f1d720e61b3323b3f05cf6e7c99e7ae08a5ac5c2382af4e4f4b9291"
+  },
+  {
+    "path": "locityper/calls/HG04115/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1109,
+    "sha256": "4467bf26890fee1e101058e523cb595bcf69dd12b66d4d2b78eef9d5af2b132a"
+  },
+  {
+    "path": "locityper/calls/HG04115/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 574,
+    "sha256": "23adbc44b9581400d5a3efb2dda1694de3dbac144aa38d37f91a93d7792f2841"
+  },
+  {
+    "path": "locityper/calls/HG04115/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 370,
+    "sha256": "1f976c3b5d195d18f6ce8d8251a9e2c029b9046624ab3582c4ba1ac6dc3d671e"
+  },
+  {
+    "path": "locityper/calls/HG04115/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 372,
+    "sha256": "69496021f7e0f8a3b93cd866531324ceca9e1e1424925015b7a23ee6a092eba4"
+  },
+  {
+    "path": "locityper/calls/HG04115/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 351,
+    "sha256": "38d1aaad8043b114e1642e7e6922207e7cec40fb7c07e5bb29adf3fab9553349"
+  },
+  {
+    "path": "locityper/calls/HG04115/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 569,
+    "sha256": "c5b9d4bf02f94fee7e6665c0c6ff670f556602dd3c0a04787ab34c58a781be54"
+  },
+  {
+    "path": "locityper/calls/HG04115/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 378,
+    "sha256": "995756cb1ad13d74188faeda6574993382b4961e8d86405cd3fb46d4a7ffe7e3"
+  },
+  {
+    "path": "locityper/calls/HG04115/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 369,
+    "sha256": "572214775f32b41f1cea5c30274277c2c16bc9f8fbe97f521ca7ad78d30363d6"
+  },
+  {
+    "path": "locityper/calls/HG04115/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1176,
+    "sha256": "a0b193372fde79190d4e6c04b1c6d8be4adaeceb04101f82f308eade28e65ef3"
+  },
+  {
+    "path": "locityper/calls/HG04115/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 421,
+    "sha256": "46618b92b5ce01f95719c69913ca5b8b13de1c89111f3eec9805af4a79054e9d"
+  },
+  {
+    "path": "locityper/calls/HG04115/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 371,
+    "sha256": "831e859ec4d3ddefcd89bce7f13c899d1e4144b88165f2e7b12a0331f32ba2d7"
+  },
+  {
+    "path": "locityper/calls/HG04115/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 383,
+    "sha256": "0118e68f22743ce98bffffb63a42c29ce318c807d2eed6cd368c845758e6e179"
+  },
+  {
+    "path": "locityper/calls/HG04115/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 349,
+    "sha256": "ae7ad081f430defbcbd86c229a74e67bc3aca183d0f1b141961e0e51f051ff24"
+  },
+  {
+    "path": "locityper/calls/HG02165/full/loci/HLA-A/res.json.gz",
+    "bytes": 377,
+    "sha256": "a9aad9f387b1098f7175284cc69e5d26603c78f06b63965eb7c206e3b3a467eb"
+  },
+  {
+    "path": "locityper/calls/HG02165/full/loci/HLA-B/res.json.gz",
+    "bytes": 375,
+    "sha256": "0f425f8976dcce017711c88225592a0ce529e96c760244efc30e1228e168c435"
+  },
+  {
+    "path": "locityper/calls/HG02165/full/loci/HLA-C/res.json.gz",
+    "bytes": 373,
+    "sha256": "7f598866c62c3684a31d8ed55c8ade9ae3b5d455ad175878972b9ac0fe810a45"
+  },
+  {
+    "path": "locityper/calls/HG02165/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 429,
+    "sha256": "4ef3022e5a429902c2ce6852d0da4bc9a30c891a23f97114b0fa2ee2f4053595"
+  },
+  {
+    "path": "locityper/calls/HG02165/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 374,
+    "sha256": "d3c91391d770eae512432a9c7ae9d2bb9c5527616a3a2a393c13088f4ee08a90"
+  },
+  {
+    "path": "locityper/calls/HG02165/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 820,
+    "sha256": "375ff7d0b36c88a1ef8c5178f81910df8df39b00b95f1ad8669e607a10f9c39b"
+  },
+  {
+    "path": "locityper/calls/HG02165/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 870,
+    "sha256": "e4c03987a739659bc6c94ba81691eae0d520b4c5cea525997d8c017365c4215e"
+  },
+  {
+    "path": "locityper/calls/HG02165/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 365,
+    "sha256": "8097ad6ded00685de80f1226667a067f16a07cada59f12aa401397cff9b94f81"
+  },
+  {
+    "path": "locityper/calls/HG02165/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 377,
+    "sha256": "f90f6ebdc01750ae1b16b8e5a9a5b1b6f5602c8adb5699a35b69fc3af82e5573"
+  },
+  {
+    "path": "locityper/calls/HG02165/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 359,
+    "sha256": "4a7dd1fbb166c2153e56e9a9bc5aa25971f913033dbba5e95ee9a57b322eb75b"
+  },
+  {
+    "path": "locityper/calls/HG02165/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 377,
+    "sha256": "afe35c6f089bf2f21629fe2ccfa75be231bd4d2f7773c29ca4f322f24830bbd6"
+  },
+  {
+    "path": "locityper/calls/HG02165/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 430,
+    "sha256": "0f41b0795cfa0d8128205b324bb6ed625091f45a55f869e948a061f5ea7442d9"
+  },
+  {
+    "path": "locityper/calls/HG02165/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 374,
+    "sha256": "e189bc5b297159f9fc6410cb9c5b6ba767d59dcfbe5676e607c2351a3f7deb52"
+  },
+  {
+    "path": "locityper/calls/HG02165/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 475,
+    "sha256": "cd41225e5349e7a1c68c04e261adf10c07f097b3e58489fc6361af8a9c91ab4b"
+  },
+  {
+    "path": "locityper/calls/HG02165/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 1125,
+    "sha256": "b867290c3edcc64be8bc8c1b12f325f193a93ccd4925c2beedd7399bc0e1f1d6"
+  },
+  {
+    "path": "locityper/calls/HG02165/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 370,
+    "sha256": "3dd737377dafcfe1a915a0e6e8a01a2e8368701d471ccf54b742d91354b7f74c"
+  },
+  {
+    "path": "locityper/calls/HG00558/full/loci/HLA-A/res.json.gz",
+    "bytes": 525,
+    "sha256": "2e2d09eee49214ed15775fd7ed7692275a13cacc93a64336f359443167a3f2e4"
+  },
+  {
+    "path": "locityper/calls/HG00558/full/loci/HLA-B/res.json.gz",
+    "bytes": 379,
+    "sha256": "371ea7caf43d80801f78618af0ef01a5e08500b6da39d454c9f0bb34bb19503f"
+  },
+  {
+    "path": "locityper/calls/HG00558/full/loci/HLA-C/res.json.gz",
+    "bytes": 361,
+    "sha256": "02dfe23fca5f5cf7e71a9c7aaeb304589ab2fa8dd550406d1e8913685e0e8006"
+  },
+  {
+    "path": "locityper/calls/HG00558/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1170,
+    "sha256": "af03695036ab7972e2876fac6b33104ea3faad0c63d410a9890c89cbd0d7e495"
+  },
+  {
+    "path": "locityper/calls/HG00558/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 383,
+    "sha256": "5ef71d7cc364d66676e8bc41c3567b7014347c0a147a5a935c9b6e4a257964cb"
+  },
+  {
+    "path": "locityper/calls/HG00558/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 378,
+    "sha256": "6da8e9fff8257eab1e273e16321577b38302f51a4a0f497d8d947a30c2797482"
+  },
+  {
+    "path": "locityper/calls/HG00558/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 976,
+    "sha256": "d63ce10457957e0783e1b4ff9be92c34adc9d4e5f2c03de451e95750e23978db"
+  },
+  {
+    "path": "locityper/calls/HG00558/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 623,
+    "sha256": "cd8568229fabe3d93a0ece3716c33c19c428164c6fea045eeed1a111e1aaeb3e"
+  },
+  {
+    "path": "locityper/calls/HG00558/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 820,
+    "sha256": "7f1d84ea45b2d2afba3cbc6e762ec2139f22ba5d909d93661264f73ad388eccd"
+  },
+  {
+    "path": "locityper/calls/HG00558/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 380,
+    "sha256": "139ca7ea08c5dc6452660ef5b5fafd26f32b4a8927405f3f3163d26fdb4d015d"
+  },
+  {
+    "path": "locityper/calls/HG00558/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 376,
+    "sha256": "57a12f09bc2b8fd846d6768b32eb8c2e3db248f67a481ec0c39fb7e65f0d6eb1"
+  },
+  {
+    "path": "locityper/calls/HG00558/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1069,
+    "sha256": "ec333bb1d4cbd2a645f0b6d6e37d81f32c72be67887f76c11a81859e539b15be"
+  },
+  {
+    "path": "locityper/calls/HG00558/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 371,
+    "sha256": "18a24a9652ce50de1b91471494616d41390f28b68f3bd9ec95f7f76a45f9382e"
+  },
+  {
+    "path": "locityper/calls/HG00558/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 385,
+    "sha256": "123d6aebee1dc97a0a357e87816f2ff2b2d744b9b72b3057dc767d2cb1a300e6"
+  },
+  {
+    "path": "locityper/calls/HG00558/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 1170,
+    "sha256": "58e09e7bb362b625ca2227bb44ca8852346bc3fc593ba4fcf86853d11431bc32"
+  },
+  {
+    "path": "locityper/calls/HG00558/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 581,
+    "sha256": "f7bc68bc28339714242daa63d27b39df2e72b06e5fbb6c59e2baa0230a2ee679"
+  },
+  {
+    "path": "locityper/calls/NA18952/full/loci/HLA-A/res.json.gz",
+    "bytes": 378,
+    "sha256": "e65b9bfff160570a9f6abb72090cb32a3ea0f4a9f9a07d610eaee44f1f6afc4f"
+  },
+  {
+    "path": "locityper/calls/NA18952/full/loci/HLA-B/res.json.gz",
+    "bytes": 366,
+    "sha256": "5160cceb168dc36d60a27492943ec381dc43dce8cc9801273d0e940f41aee06e"
+  },
+  {
+    "path": "locityper/calls/NA18952/full/loci/HLA-C/res.json.gz",
+    "bytes": 369,
+    "sha256": "f66a7840838b915f38b91d3faee30c1dd5e6737548ae635f922a12ec8e8638cb"
+  },
+  {
+    "path": "locityper/calls/NA18952/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1124,
+    "sha256": "d5586f0032c1bbe534ee9863f44b99a4d3057c7bcef4f279ed3b556e556a1bfd"
+  },
+  {
+    "path": "locityper/calls/NA18952/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 375,
+    "sha256": "aa81d29f00c77ae5966e27910e88813ce4b25a6172369b3867e1671e8c16ee72"
+  },
+  {
+    "path": "locityper/calls/NA18952/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 379,
+    "sha256": "917f7db0fbab330a2586623aa4600d49132d04806b3ccaf9cfe3e243d5751b22"
+  },
+  {
+    "path": "locityper/calls/NA18952/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 525,
+    "sha256": "cc468fbf8e70e3534f6264db69b44c4cfc82f0a938a043912a700e2fea06989c"
+  },
+  {
+    "path": "locityper/calls/NA18952/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "ed6321ad986c1d41ad402499a6d0dbb8beb1a7c47d4f0c0467f02b6a0a71ebe4"
+  },
+  {
+    "path": "locityper/calls/NA18952/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 373,
+    "sha256": "0fcd7d98ffe37ae2f8824de7d214a48d1509630315bb5989f854c73030ae9d79"
+  },
+  {
+    "path": "locityper/calls/NA18952/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 375,
+    "sha256": "74183063b3cc7d8632ff525a6d98189d2fb03af0a02f4918987d8af39990f0e1"
+  },
+  {
+    "path": "locityper/calls/NA18952/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 367,
+    "sha256": "792418626713ffab56f0d3f759918ada722723f65578304d9189ae397a04c954"
+  },
+  {
+    "path": "locityper/calls/NA18952/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1071,
+    "sha256": "6d1036c30103a140efeb60fddc32567c90ed630efe50c3b5fe2a2114a192cdb0"
+  },
+  {
+    "path": "locityper/calls/NA18952/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 375,
+    "sha256": "f6e763efbc37ec6feccf60bc9643abc28f9252584c10479d773a2281871f7085"
+  },
+  {
+    "path": "locityper/calls/NA18952/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 382,
+    "sha256": "556314c53ada552bebcc2f72be63fe3576c25b5f53dc669b506fb586d8276c34"
+  },
+  {
+    "path": "locityper/calls/NA18952/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 519,
+    "sha256": "1c5c917382cd18e2b85a4a7be0f7c4d7831f9dde53e1eedefc03d48a494c4419"
+  },
+  {
+    "path": "locityper/calls/NA18952/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "4b0ac546f928b3551530369376332024c9aa0a0496ccc16e378fd646d201d5ba"
+  },
+  {
+    "path": "locityper/calls/HG02523/full/loci/HLA-A/res.json.gz",
+    "bytes": 782,
+    "sha256": "9715d105c832927f51a3afb9fbaf0b8d29db927e61a79b4ed780ac0eeef2dfc4"
+  },
+  {
+    "path": "locityper/calls/HG02523/full/loci/HLA-B/res.json.gz",
+    "bytes": 369,
+    "sha256": "c4120e36376f83a375eccaa46550b107c287e8afceceac27ff68bad6ee405d8f"
+  },
+  {
+    "path": "locityper/calls/HG02523/full/loci/HLA-C/res.json.gz",
+    "bytes": 475,
+    "sha256": "90cbd5446792a771a7c06113b9fbc743461628e1ba4375b3d144249595ca8f9e"
+  },
+  {
+    "path": "locityper/calls/HG02523/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1580,
+    "sha256": "fa5b618d7c98f32173a4b00f48f2ed48b0dbd2b720f848d6448898af40fb6399"
+  },
+  {
+    "path": "locityper/calls/HG02523/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 372,
+    "sha256": "038ecc691c05aa898c53c5fc1afec7bc8c3383ee2e294609b18be88080fe78f7"
+  },
+  {
+    "path": "locityper/calls/HG02523/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 380,
+    "sha256": "358630f17e9869ac561c23b6caa2bb4e2af07a9cc618d39b148843530d06b6ef"
+  },
+  {
+    "path": "locityper/calls/HG02523/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 572,
+    "sha256": "0dd8e1da1c1e4ac1fcd4d406043fec6b0c994304265a5aa4c6ba5db1917236a2"
+  },
+  {
+    "path": "locityper/calls/HG02523/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 379,
+    "sha256": "27ee9216cb2224c95b1e7794c30695aed1dc9a06a260eee2d59c5bf90b852df3"
+  },
+  {
+    "path": "locityper/calls/HG02523/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 524,
+    "sha256": "b0a5982c0b991729e9488536f5f1bf6f1db20bfcd04df5b62b94ddf0f4b282b6"
+  },
+  {
+    "path": "locityper/calls/HG02523/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 371,
+    "sha256": "cb0aee4d1cf7cedc5836cf74bb43a231953a7171d415ebe2311cfd4a73ad8bd7"
+  },
+  {
+    "path": "locityper/calls/HG02523/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 376,
+    "sha256": "4ed8a80431170a72d4f8edce32da06c333152b3f86d81690bbce05cc9d8f5a84"
+  },
+  {
+    "path": "locityper/calls/HG02523/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1176,
+    "sha256": "cca2cdac45a048f6e68ed56051935ee75be9bb3c2056c1f9b6a03f58b7187e58"
+  },
+  {
+    "path": "locityper/calls/HG02523/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 369,
+    "sha256": "0cd5fa6031dfb876d8fbdd31d1de8d3fa6df467eb4dae9998f2e8ff375b4e52e"
+  },
+  {
+    "path": "locityper/calls/HG02523/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 381,
+    "sha256": "f75a6c4941278947cc472727e63f0f18be5da5733d173cc1422138b2bb1082d8"
+  },
+  {
+    "path": "locityper/calls/HG02523/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 605,
+    "sha256": "1b3ca4af610e2111c88a20f608b814bd52bb8003d07dc4fed50e28381db88f1d"
+  },
+  {
+    "path": "locityper/calls/HG02523/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 371,
+    "sha256": "98a9bcabbd6636516598750a679f43e628ff7bb7c871460d2622e7369072ad27"
+  },
+  {
+    "path": "locityper/calls/HG03927/full/loci/HLA-A/res.json.gz",
+    "bytes": 945,
+    "sha256": "00fd07e92575eb9915a21a66a1d330bd33e2c1e0955cd23497d2579803d1a2ef"
+  },
+  {
+    "path": "locityper/calls/HG03927/full/loci/HLA-B/res.json.gz",
+    "bytes": 363,
+    "sha256": "2d2e2d3a6470a56db3545321433edba2469d2f0addbf33a3e31dbd6c1e2a3782"
+  },
+  {
+    "path": "locityper/calls/HG03927/full/loci/HLA-C/res.json.gz",
+    "bytes": 372,
+    "sha256": "d8844154bd1655d6e9cea4780a16ecf994a46f5a26ca698c4464e5af8474c605"
+  },
+  {
+    "path": "locityper/calls/HG03927/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 963,
+    "sha256": "fe2f8d564e268958ccacc3fa4b84926006583905d619e6344de164cbe8c21a72"
+  },
+  {
+    "path": "locityper/calls/HG03927/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 436,
+    "sha256": "38d7e185ddd654efa09af73bdefb2d3cd596333d32175a90c8790606664b5ec7"
+  },
+  {
+    "path": "locityper/calls/HG03927/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 378,
+    "sha256": "37d2a051804e2ad7decb93433b998c2076cc3e6f7081bfc211cb7e7cbe8a4748"
+  },
+  {
+    "path": "locityper/calls/HG03927/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 671,
+    "sha256": "9c627d28886d0742f20ef8c4012ae73bbc6d086f8fece7c54b125997be631772"
+  },
+  {
+    "path": "locityper/calls/HG03927/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 667,
+    "sha256": "a9be98f34ca98a6d6bb007484811897762a1e2e549aad5a776f457d8e5227a3b"
+  },
+  {
+    "path": "locityper/calls/HG03927/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 981,
+    "sha256": "fb1267aa8f3daed603aa42d262c0e7af14743b9af267bbcae7823c0d87485a34"
+  },
+  {
+    "path": "locityper/calls/HG03927/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 473,
+    "sha256": "bd9d92d0e94f0b2e8034fe8638b96ed72e9f8f769d17cab1a4c181f1c9bd7c09"
+  },
+  {
+    "path": "locityper/calls/HG03927/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 378,
+    "sha256": "0bdd25cbc596e17121b9d09bcfea4d52f37a71efac554d38e30aca70db909441"
+  },
+  {
+    "path": "locityper/calls/HG03927/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 885,
+    "sha256": "fe5cfb25cb407aa6a55a6aa075c80fd4c4522e032578c1736d85a8bfb37dca52"
+  },
+  {
+    "path": "locityper/calls/HG03927/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 419,
+    "sha256": "7508ae32731006655307b4291b822325584f67b24a52502f4184503c75485520"
+  },
+  {
+    "path": "locityper/calls/HG03927/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 386,
+    "sha256": "8632589e49d166cc12cc467d7990af88093c703f59b15cbe9ea04b85339a18a4"
+  },
+  {
+    "path": "locityper/calls/HG03927/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 474,
+    "sha256": "02c95d1096e0b193706c290267383b194c586f48c8ae54cdd0dae7df7fc16a7d"
+  },
+  {
+    "path": "locityper/calls/HG03927/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 722,
+    "sha256": "6585afaf362a68884da56bf64cd2a087127a67150432dba8c44f580dcac1d37f"
+  },
+  {
+    "path": "locityper/calls/NA21106/full/loci/HLA-A/res.json.gz",
+    "bytes": 376,
+    "sha256": "a6404f5aa5f677ac4f66fa427662bf77b79330b6f67dcdc5c31542655008fe2f"
+  },
+  {
+    "path": "locityper/calls/NA21106/full/loci/HLA-B/res.json.gz",
+    "bytes": 357,
+    "sha256": "94514db19258ce3b2da08ecd880dfab0f220660e73217c2998d9414349a774e6"
+  },
+  {
+    "path": "locityper/calls/NA21106/full/loci/HLA-C/res.json.gz",
+    "bytes": 376,
+    "sha256": "eb06b26fefc2ffd61b3c6a2577bc9f2d38257a51b24db993896bb6d2c4581e66"
+  },
+  {
+    "path": "locityper/calls/NA21106/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 522,
+    "sha256": "5296de066a84943de092ac761f81c95278f2b9b71aeadb28e02bf7f359616723"
+  },
+  {
+    "path": "locityper/calls/NA21106/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 369,
+    "sha256": "8abb46e14d7314d674dbd641c2efad5c43dbb1692bfb6258820e6b8f5c2b0d78"
+  },
+  {
+    "path": "locityper/calls/NA21106/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 381,
+    "sha256": "47c18927fab4ac7c3da8fe2c9b101659293d6f864773be5dd09339fa0a02bbbf"
+  },
+  {
+    "path": "locityper/calls/NA21106/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 823,
+    "sha256": "93efac36e2e5921bbb93866a8f979cc21c924efcc5685c56b477d0522cb933b3"
+  },
+  {
+    "path": "locityper/calls/NA21106/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 381,
+    "sha256": "ec9b473372065f95b665d177d11e4a1f6dd5bd10d8fad6e187c8536dd012c75c"
+  },
+  {
+    "path": "locityper/calls/NA21106/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 367,
+    "sha256": "da217c6c721ee6cfe2fca02e7471e000796b9c49e5e0ea4a907ccaa8dd40ce06"
+  },
+  {
+    "path": "locityper/calls/NA21106/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 359,
+    "sha256": "2ba18f1bfc63c7682c857451f4afb4f34f646b8b206ff39bf3e2fce13aa2918c"
+  },
+  {
+    "path": "locityper/calls/NA21106/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 373,
+    "sha256": "afc7a01adfdc8342deeb236b9528b5f6d038ab2a518625834f272b4455995967"
+  },
+  {
+    "path": "locityper/calls/NA21106/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 374,
+    "sha256": "4163f03544fc2a74f9d8b95849c6b90fd805d05a839438a9a52e749e23ab5bfc"
+  },
+  {
+    "path": "locityper/calls/NA21106/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 371,
+    "sha256": "ff03de9eed27d751798d0ff1a909ea3318377554988126f6a41ce3b24d5cd7d3"
+  },
+  {
+    "path": "locityper/calls/NA21106/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 376,
+    "sha256": "e6aeeec87e8f9ff921baf59287d47f1da10f285bdea9da8fe3f72b11691ae6c2"
+  },
+  {
+    "path": "locityper/calls/NA21106/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 573,
+    "sha256": "0a41d816750c37e4e1ac69c794d01e611d3d25a5ae888ddc6bbcf2bfb4ebf020"
+  },
+  {
+    "path": "locityper/calls/NA21106/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 380,
+    "sha256": "226fa8cd0486304698ba7f24ea3e2e89308ac6e6c072ffb8f49d7509d8a60073"
+  },
+  {
+    "path": "locityper/calls/HG02738/full/loci/HLA-A/res.json.gz",
+    "bytes": 832,
+    "sha256": "b6b70a6c6e65938791814b9df17110aefcc572512f5ad464b74bd6a6ddfa99a0"
+  },
+  {
+    "path": "locityper/calls/HG02738/full/loci/HLA-B/res.json.gz",
+    "bytes": 370,
+    "sha256": "c4dc55a935039adde0912c767900970022c8942c9c16ece1ccf06b16024d9718"
+  },
+  {
+    "path": "locityper/calls/HG02738/full/loci/HLA-C/res.json.gz",
+    "bytes": 367,
+    "sha256": "22658921e0eff9592755ddb9fa532c11c838e4a9ee4eadb2ec027ecd707b4c24"
+  },
+  {
+    "path": "locityper/calls/HG02738/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 377,
+    "sha256": "2a89232629adce4dba9cfa860d0b4fd345d494846e7bc8526b398b49dceadcf3"
+  },
+  {
+    "path": "locityper/calls/HG02738/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 780,
+    "sha256": "b057eb091ce756fca780e0c028f51c631d4e1b6725b6c3cb726cae569798ef4a"
+  },
+  {
+    "path": "locityper/calls/HG02738/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 769,
+    "sha256": "505166c523c0725895401a6e41e5880dcc2337c547c8d7c55bcb3484cc472e8f"
+  },
+  {
+    "path": "locityper/calls/HG02738/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 375,
+    "sha256": "fb2cd965d83a8b3638e6e0a55fb998df02137c102fbab6c1a491077f7fe84e0e"
+  },
+  {
+    "path": "locityper/calls/HG02738/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 382,
+    "sha256": "58fb3ac20398e85961fa1ded1a3238f8a93e1e5753f5d2c7790a92bf868b2514"
+  },
+  {
+    "path": "locityper/calls/HG02738/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 481,
+    "sha256": "7ab4a0bfbec06112df28c128efe23f6d465f6006c6c8e5d845028d6d8cf39698"
+  },
+  {
+    "path": "locityper/calls/HG02738/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 378,
+    "sha256": "817b766bc1c54078183d8227342b1e43b40e0df4ce4c32c90ec27119290dcf1b"
+  },
+  {
+    "path": "locityper/calls/HG02738/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 368,
+    "sha256": "064ebbafd14895a65183cd45be79eaf21b439a9abfd6d4d8470ca46944e3ec51"
+  },
+  {
+    "path": "locityper/calls/HG02738/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 364,
+    "sha256": "276764cec2e8877b1577d9f9d73a5fb5a698a517643dc2f92854d44d90b12517"
+  },
+  {
+    "path": "locityper/calls/HG02738/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 473,
+    "sha256": "651896b4330924e1668f58dbefb5c85ad08b02d5f63b385bd0b969c4943b89ed"
+  },
+  {
+    "path": "locityper/calls/HG02738/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 567,
+    "sha256": "cee4ebc1c6c416e2a2494cf1f6c8394250d115318dbb56b9ea54cf4b9d1283a8"
+  },
+  {
+    "path": "locityper/calls/HG02738/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 364,
+    "sha256": "3a253955d2a5d2b588aeac33be8d592a82f1850c609665d8ae06af5a85b065b7"
+  },
+  {
+    "path": "locityper/calls/HG02738/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 377,
+    "sha256": "531c8e903ad646a802f86c528dc119fa77851cf52708e1763e3f730175cc0147"
+  },
+  {
+    "path": "locityper/calls/HG03688/full/loci/HLA-A/res.json.gz",
+    "bytes": 838,
+    "sha256": "f6571e544fe9084e086f0a33e78650deff48d5cf971f5dc4a996c0d10909e37c"
+  },
+  {
+    "path": "locityper/calls/HG03688/full/loci/HLA-B/res.json.gz",
+    "bytes": 526,
+    "sha256": "f9ef80905004921a9ff80c3c5cef7538bcf8c802e2f37793c012759dbec124ff"
+  },
+  {
+    "path": "locityper/calls/HG03688/full/loci/HLA-C/res.json.gz",
+    "bytes": 520,
+    "sha256": "27eec57863893f3aaccb42c90ba44f75c653646e0254b049b0c31237820d09da"
+  },
+  {
+    "path": "locityper/calls/HG03688/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 634,
+    "sha256": "e75536be1d4840b87c8833127a45d7a3bd5453c65af816949fb010a8917e1208"
+  },
+  {
+    "path": "locityper/calls/HG03688/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 369,
+    "sha256": "21e22d6a76ed138f2b05c590400716059fc4fd26c126d010da8eed51f48a1918"
+  },
+  {
+    "path": "locityper/calls/HG03688/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "ea41caaa9aa3b13fc630b6e280798b31dd1de632bcd9a36dd33d6e2c2da6f6d9"
+  },
+  {
+    "path": "locityper/calls/HG03688/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 377,
+    "sha256": "3280f4da308cbcf29a8506c14356ba541c47c94513dbccd980cc8564b4591448"
+  },
+  {
+    "path": "locityper/calls/HG03688/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 374,
+    "sha256": "0dfca65a855fd0c207175b2106e8431b58356bd7f3cc7e40be0f05753a9927e5"
+  },
+  {
+    "path": "locityper/calls/HG03688/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 673,
+    "sha256": "c6aef74c73c837f7fc69a7c57122aafe9d66f5a42fb9d8a2a1e031b1116b779d"
+  },
+  {
+    "path": "locityper/calls/HG03688/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 377,
+    "sha256": "d1f540626fefbab290b52a8679a8cd0bcf342030a2b9e8a8ea4e15caeb348c33"
+  },
+  {
+    "path": "locityper/calls/HG03688/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 523,
+    "sha256": "bfc49338041f73468da75d2a22e3c51dc0a49d711bc679b8b9834a3f5e36c968"
+  },
+  {
+    "path": "locityper/calls/HG03688/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 529,
+    "sha256": "42f3af2332f7a8b91c848e2faf5700d87077aa9cbe6bbe067a4b5d9a1fcf1a95"
+  },
+  {
+    "path": "locityper/calls/HG03688/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 373,
+    "sha256": "179c4ad77701bdb85586379525ca5492d2d268fdbc6fae5c4fcdb1c404206756"
+  },
+  {
+    "path": "locityper/calls/HG03688/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 427,
+    "sha256": "b1286a6461951db69e42f60164936106dee3d2b6d3fdfabb40c54751e1b07e59"
+  },
+  {
+    "path": "locityper/calls/HG03688/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 370,
+    "sha256": "ec51af7d399c1ef3dcee3b57135c3872012240a2aa8ddd37e585d3157f6e0b50"
+  },
+  {
+    "path": "locityper/calls/HG03688/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 371,
+    "sha256": "42a5628554bad37609b4ef4fb02ef88b567c2125b15a51d61e7ac5a5b65624db"
+  },
+  {
+    "path": "locityper/calls/NA18747/full/loci/HLA-A/res.json.gz",
+    "bytes": 373,
+    "sha256": "78c2f2fa9da4d9129bf8da56076648ef000ab050dda11fe01f6dbd037886798f"
+  },
+  {
+    "path": "locityper/calls/NA18747/full/loci/HLA-B/res.json.gz",
+    "bytes": 375,
+    "sha256": "3fd47a0cc88323e831bec488fca0a3ff3bfca5e9ffbf6b695fbc89f59093eaf9"
+  },
+  {
+    "path": "locityper/calls/NA18747/full/loci/HLA-C/res.json.gz",
+    "bytes": 376,
+    "sha256": "272659b43fc80977a580db6cf5eaec59536d8a092bd7a2897ac6a12605c7d2c0"
+  },
+  {
+    "path": "locityper/calls/NA18747/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 369,
+    "sha256": "ae147b262b530511c8144e61be87ae5a32ac999fd33c4c5657d4e95d56bfdf3f"
+  },
+  {
+    "path": "locityper/calls/NA18747/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 372,
+    "sha256": "69ae5d8521d251728c3e0990533ecb6f3e0750312e028906172f568551383855"
+  },
+  {
+    "path": "locityper/calls/NA18747/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 377,
+    "sha256": "2c9e17b42628acbd1c59a652e79b5b32cc5c1425d1fcaeb6efc29cc579318f19"
+  },
+  {
+    "path": "locityper/calls/NA18747/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 1169,
+    "sha256": "a28e5ca227485d398e7484ba90cd9db41f98b2e4b6d44a4eb7fdc656461a5868"
+  },
+  {
+    "path": "locityper/calls/NA18747/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "e945165e3cbe615a03351ac5beeb27558e1d91c0e6f0f26aac0bf7d76c721a51"
+  },
+  {
+    "path": "locityper/calls/NA18747/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 378,
+    "sha256": "914884cd206700ab3a3241cf261bf31f2f4c1e3b5befe2544fddec464ee49f06"
+  },
+  {
+    "path": "locityper/calls/NA18747/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 368,
+    "sha256": "1a75a59817bcb897f4d883c8af0f3d5a6e82495c65ceae5aad4f613e06715311"
+  },
+  {
+    "path": "locityper/calls/NA18747/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 670,
+    "sha256": "eb10cf0dade19f4ff1d9ad968a0a851164df194a60006f613f9fd046bacfa4d1"
+  },
+  {
+    "path": "locityper/calls/NA18747/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 368,
+    "sha256": "c96852c6670b97ed85ddd94afa88aabae2ec89f374c767c424a9d5b33cb44948"
+  },
+  {
+    "path": "locityper/calls/NA18747/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 376,
+    "sha256": "ab587143e137d0b30cb527eb5037b269783b1dd591e6b149e218d3a141bedc6d"
+  },
+  {
+    "path": "locityper/calls/NA18747/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 379,
+    "sha256": "639d1b2aafc651916332d80e7bd799980ce5e5e87313183a2139978e20e5ed1a"
+  },
+  {
+    "path": "locityper/calls/NA18747/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 1151,
+    "sha256": "0f5a0d856bfa3b33c3127ff043e7cbb5bfd46c2ff2bffcba29d2c99d7746ee91"
+  },
+  {
+    "path": "locityper/calls/NA18747/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 368,
+    "sha256": "fd7010722ce84e0d62ac54f506ad174c526db16da3762033c565d57a3f4cd4c4"
+  },
+  {
+    "path": "locityper/calls/HG00609/full/loci/HLA-A/res.json.gz",
+    "bytes": 984,
+    "sha256": "d5d174bad0449269ba953395add4def01f3abc86e7ddb5bf8e303dc84bf95021"
+  },
+  {
+    "path": "locityper/calls/HG00609/full/loci/HLA-B/res.json.gz",
+    "bytes": 572,
+    "sha256": "c602004c84c7120e7f64b5abe8d089d8fb391af0b8c42a057237e757f00a67eb"
+  },
+  {
+    "path": "locityper/calls/HG00609/full/loci/HLA-C/res.json.gz",
+    "bytes": 465,
+    "sha256": "92998bbf0c43c7c1525a59d04163ab569a9284a0cfc7657930dbaf7ac6a8eb8e"
+  },
+  {
+    "path": "locityper/calls/HG00609/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 825,
+    "sha256": "ac503b06a0986f5b00bf1352a49ed47e2a9a68aa69eb07241c249ae6d7cb73e4"
+  },
+  {
+    "path": "locityper/calls/HG00609/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 371,
+    "sha256": "d18a4e192284da3bb61ccbdb3d033b24ea18e7a149ba16ba2ed2418883354bd0"
+  },
+  {
+    "path": "locityper/calls/HG00609/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 376,
+    "sha256": "9b275acb4c0318dddd8590dba8f208c3186393782005879c05c76609c888d697"
+  },
+  {
+    "path": "locityper/calls/HG00609/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 800,
+    "sha256": "733c6b1d02966be2feb13efe14641f6574c3238acb80ca6a6108e21695d8c5ab"
+  },
+  {
+    "path": "locityper/calls/HG00609/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 619,
+    "sha256": "dae1e0c26eae2f0a08c5a405ce1cf8eb9d1601df15d73dbb9b34c8137fcd132c"
+  },
+  {
+    "path": "locityper/calls/HG00609/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 831,
+    "sha256": "cd1c1698cd697490a793edfeed13d387082d2aa4c4cb10b7be6dcc8c24598e2f"
+  },
+  {
+    "path": "locityper/calls/HG00609/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 374,
+    "sha256": "a8cf9c55fe763ac2a200026cc673feeadcdf188dac93e1f3b409cc9614581f9f"
+  },
+  {
+    "path": "locityper/calls/HG00609/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 367,
+    "sha256": "288e8698bfd7c5cc05ba1736a6adf8f0e88fff7cc59ece821e47517d66c67be2"
+  },
+  {
+    "path": "locityper/calls/HG00609/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 766,
+    "sha256": "72f02373269a5edd93e9726cc36bdd29432fe0eefe0c9412833967c54ac6ebcc"
+  },
+  {
+    "path": "locityper/calls/HG00609/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 424,
+    "sha256": "040ce6f83df666a7342a69d1f67c75a9390a959ba2c039a01146fa087841a88a"
+  },
+  {
+    "path": "locityper/calls/HG00609/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 369,
+    "sha256": "e9bbc1a0e5820b8a74f4bc43bd5a63b09475b5d70988da6a4a9ae0632efae446"
+  },
+  {
+    "path": "locityper/calls/HG00609/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 1821,
+    "sha256": "d83bec18f82970aa4caf57275f3c0d7ae7678b611978fa042ed086fbd10a1fa7"
+  },
+  {
+    "path": "locityper/calls/HG00609/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 428,
+    "sha256": "d7e0b4477cecb02abf0e8945c30fac06f0839c4e5b3ad52e642b280bfc14ca4d"
+  },
+  {
+    "path": "locityper/calls/NA19088/full/loci/HLA-A/res.json.gz",
+    "bytes": 375,
+    "sha256": "bc1b19fc7287deba8a75ea4842a60190c05d9fbc04d908820a8a42914552ac4b"
+  },
+  {
+    "path": "locityper/calls/NA19088/full/loci/HLA-B/res.json.gz",
+    "bytes": 373,
+    "sha256": "ef10f6873f0728e1bcdfd1d44a95558c013940cafa7b325a707e59f7637b963d"
+  },
+  {
+    "path": "locityper/calls/NA19088/full/loci/HLA-C/res.json.gz",
+    "bytes": 971,
+    "sha256": "0f46ecbf5613f1516cf4cf3c59937608bff886fea995c93161a49308186b4fd1"
+  },
+  {
+    "path": "locityper/calls/NA19088/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 789,
+    "sha256": "432381742ed0fd12a613e4f4a750820c4d049442ccd8253a13167c2eaa6caaa4"
+  },
+  {
+    "path": "locityper/calls/NA19088/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 379,
+    "sha256": "5dae5cd57869e72cf518583935b6c4c9a74f73149eef961f1075e223eef9d7ee"
+  },
+  {
+    "path": "locityper/calls/NA19088/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 377,
+    "sha256": "3e3b00aa265939bfd20939e95111fadd92b2c0119d7dbc63a16ad74b5ad379bd"
+  },
+  {
+    "path": "locityper/calls/NA19088/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 663,
+    "sha256": "33b2eb4db5c7aece703f29a7ead8fa30031d2b7391439a028967d8b8e5da8509"
+  },
+  {
+    "path": "locityper/calls/NA19088/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 625,
+    "sha256": "13bc3b859caffa831f3c04701907f72f4b79ea575b3fdfb81c506a00cca208ea"
+  },
+  {
+    "path": "locityper/calls/NA19088/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 369,
+    "sha256": "86ac2164ecae7b1c46da146c881099d31f5c0666ec491f6a7e745e8e19d7b830"
+  },
+  {
+    "path": "locityper/calls/NA19088/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 375,
+    "sha256": "91bc6402d2a8f27d6202976f173af291bf74175da40640c0a31f2777d323bbe9"
+  },
+  {
+    "path": "locityper/calls/NA19088/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 1020,
+    "sha256": "f778b3281fa2f79b4eb63b4523d227225ae15d9df45fc5d4abc1eebde4ab7581"
+  },
+  {
+    "path": "locityper/calls/NA19088/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 731,
+    "sha256": "ca8ebd5d6ea9030ece0a464f8e6aa19087de31c36f3e902337573a279daa7d34"
+  },
+  {
+    "path": "locityper/calls/NA19088/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 372,
+    "sha256": "34a15d9285e383a1f6e3dbcd63759311392b7fd3f0de081f994d8a4561008a1c"
+  },
+  {
+    "path": "locityper/calls/NA19088/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 524,
+    "sha256": "0932709e165c977ef9bcaca64ae8ccd05cfc47382cad350665ef905db1b00dbf"
+  },
+  {
+    "path": "locityper/calls/NA19088/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 573,
+    "sha256": "d0997f2255a6754719a347559b5a08ebba4bb328d2452dab5038f1aaf2e207bf"
+  },
+  {
+    "path": "locityper/calls/NA19088/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 680,
+    "sha256": "2753a08569b7aad867f51bf53ede30256059b81f62f2c1a0e6da7ae5679483b5"
+  },
+  {
+    "path": "locityper/calls/HG02074/full/loci/HLA-A/res.json.gz",
+    "bytes": 674,
+    "sha256": "ca0358d7dc6ff9c15923bf03b8c366beb616d774be54413392db478fc9a35254"
+  },
+  {
+    "path": "locityper/calls/HG02074/full/loci/HLA-B/res.json.gz",
+    "bytes": 377,
+    "sha256": "94cef9d5df2f74c8c1b758a4498097309c84ce9270aa68e0ce8a80e84e1cdcad"
+  },
+  {
+    "path": "locityper/calls/HG02074/full/loci/HLA-C/res.json.gz",
+    "bytes": 529,
+    "sha256": "5cad6ec091ba3d531cc9f60d7b6a73223eb8bc1a56e2b1f7f1fc7db2a0dd278b"
+  },
+  {
+    "path": "locityper/calls/HG02074/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 816,
+    "sha256": "264a272496cd354f72eb114209aba36929414f9b34176bb0d88895a932577a5c"
+  },
+  {
+    "path": "locityper/calls/HG02074/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 375,
+    "sha256": "10c2bc6c518f3899d5a05e46e67f98f4e8f5933c912ba4191b52e14b4e089fee"
+  },
+  {
+    "path": "locityper/calls/HG02074/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 374,
+    "sha256": "ea599e564fcd99d877c7bb74a32d63e7fd8ad5894751f65bb8686adeeb471907"
+  },
+  {
+    "path": "locityper/calls/HG02074/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 921,
+    "sha256": "8c9f68d561635a4a1943ac4115560068b2bf8385cf434a861a359203aa20d259"
+  },
+  {
+    "path": "locityper/calls/HG02074/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 372,
+    "sha256": "3c24e108614a616a1347070b05dd61ebbbdb9672f1beb4a8ac84feb87b3c6a32"
+  },
+  {
+    "path": "locityper/calls/HG02074/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 676,
+    "sha256": "83f0e1967391a06042efc71b39f84ca65062322dab9e2b75b055e7fd93742209"
+  },
+  {
+    "path": "locityper/calls/HG02074/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 368,
+    "sha256": "58953b35bf0704f9501d48e12e03cc9b1ecedc14d716c40ed0ea3cdda00047e0"
+  },
+  {
+    "path": "locityper/calls/HG02074/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 463,
+    "sha256": "cf389211746032d4f767d85aab7bc6e718d955da880cf1e486d6b74fa13f20fe"
+  },
+  {
+    "path": "locityper/calls/HG02074/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 871,
+    "sha256": "7c90e8f861b3eafb575075695f18ce16d6537a81bfcf1a5e6a9040c0b3b812da"
+  },
+  {
+    "path": "locityper/calls/HG02074/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 373,
+    "sha256": "4d67df6d09d1317607da68c0a111fd267ad5588a2df4cdfd2cf70fd3d98f9218"
+  },
+  {
+    "path": "locityper/calls/HG02074/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 376,
+    "sha256": "8b95357ba62712fe15b0dad28728e676ffda7c150c7577695c2afd3262fe558b"
+  },
+  {
+    "path": "locityper/calls/HG02074/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 1082,
+    "sha256": "ad5ff66f79d98f521c59388df99cf7bc8bf819b886e6208ec242076717b44909"
+  },
+  {
+    "path": "locityper/calls/HG02074/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 482,
+    "sha256": "110eefa4f9f74a1344113e527f52fa8aef3e9af8cdd93f8ce7c897b8f10ccc1a"
+  },
+  {
+    "path": "locityper/calls/HG04157/full/loci/HLA-A/res.json.gz",
+    "bytes": 376,
+    "sha256": "ac2a10d330b11b62ccfe33ba77b6575831e5061e4868ee7b85f28aca419da796"
+  },
+  {
+    "path": "locityper/calls/HG04157/full/loci/HLA-B/res.json.gz",
+    "bytes": 352,
+    "sha256": "8cfc5cb3f6c5840a965af8d1567a6bab4fef2e065f1a18565f98567838e3800d"
+  },
+  {
+    "path": "locityper/calls/HG04157/full/loci/HLA-C/res.json.gz",
+    "bytes": 514,
+    "sha256": "5997e1a03d8ec0c8e3da5f4a1f3e96a795a01788ccb90403cb604d78d5196117"
+  },
+  {
+    "path": "locityper/calls/HG04157/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1186,
+    "sha256": "932cc95b581edc538115373555e03179cf73e4d8de9aa933bf4d2959137a349f"
+  },
+  {
+    "path": "locityper/calls/HG04157/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 374,
+    "sha256": "fbc5a0be5ce2dfa34ed6e969b16bdd5a6cd666495be7b3c30273e32b27fd5a62"
+  },
+  {
+    "path": "locityper/calls/HG04157/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 721,
+    "sha256": "2b3f5f8356484e235a9389b77f2600c584794f808d3dadf23791ee4742b8a59d"
+  },
+  {
+    "path": "locityper/calls/HG04157/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 374,
+    "sha256": "fa96de77f324ffe45c13eb524a22e186ee035dae3a93d31ac8fc6bf2cfeb4a3f"
+  },
+  {
+    "path": "locityper/calls/HG04157/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 361,
+    "sha256": "4966c233ec656924f79f6f5b8c8e45e24cb24274f2e072eb6afbe60231d911f2"
+  },
+  {
+    "path": "locityper/calls/HG04157/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 375,
+    "sha256": "8273a330d35c45c30881574f34c82d59b5c0891a7ced4c082fd6ce3818ebc39f"
+  },
+  {
+    "path": "locityper/calls/HG04157/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 352,
+    "sha256": "0ef5527ee1b68178e54d059e8afffce78d145db1383c556a8134a672b061faf4"
+  },
+  {
+    "path": "locityper/calls/HG04157/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 376,
+    "sha256": "d0f8ce6915b64a056153e0fccbf149885d2889fb24f9a470d603b0a1f011c291"
+  },
+  {
+    "path": "locityper/calls/HG04157/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1181,
+    "sha256": "306f2ff1e4485cb812fdd639c7d4d9d999a0ce715fde981893d9c8dab2a9cbbd"
+  },
+  {
+    "path": "locityper/calls/HG04157/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 370,
+    "sha256": "1c6054ef132122d0c75bb5c5ed9ec8bcdbb318c7d93903cd221ace9116da45de"
+  },
+  {
+    "path": "locityper/calls/HG04157/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 532,
+    "sha256": "053c10523fb62234e5be7d13f79d94295723d1436841807c24b195b76d6c7d13"
+  },
+  {
+    "path": "locityper/calls/HG04157/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 369,
+    "sha256": "71c618cad3552a825a905ab1b120ea71fa2f01f88cc4c8d82fe4929ef82555be"
+  },
+  {
+    "path": "locityper/calls/HG04157/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 356,
+    "sha256": "e6fe70653c93fc1db5fc58ddafedd2ff30a914bdd8df60a8e466b0fd4ef17f6d"
+  },
+  {
+    "path": "locityper/calls/HG03784/full/loci/HLA-A/res.json.gz",
+    "bytes": 381,
+    "sha256": "ce8d0bc7bc4d328015d8ad2dac3b1286cfa2fa00ca9dff00e352efaa97583a7e"
+  },
+  {
+    "path": "locityper/calls/HG03784/full/loci/HLA-B/res.json.gz",
+    "bytes": 373,
+    "sha256": "b88f55cae12919fac50cbc3ccad9d1f3a0e4f5c7a0152a67ca14883870c0021b"
+  },
+  {
+    "path": "locityper/calls/HG03784/full/loci/HLA-C/res.json.gz",
+    "bytes": 623,
+    "sha256": "1b8e18030d24df3d1f16d435b72259d3a503e9a9bab4e6a6a475f5230b04a0f4"
+  },
+  {
+    "path": "locityper/calls/HG03784/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 366,
+    "sha256": "7dc806aed29cfd181156052f9e3c02745bd9ccce7c1b6c313b4f180bec342aa6"
+  },
+  {
+    "path": "locityper/calls/HG03784/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 368,
+    "sha256": "e91100c2b74be7535c0fd3a498e0a2f9b1b12435be8686e8e0dfbd5b80705e32"
+  },
+  {
+    "path": "locityper/calls/HG03784/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 377,
+    "sha256": "852aa3ebf43f278dc3442edcc5d3dc78b3a8ee8554a71be71529dd6d261fc6de"
+  },
+  {
+    "path": "locityper/calls/HG03784/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 376,
+    "sha256": "44dcf40f2191855a3c36fd6da11e6a2970e8216cb8457856717c3f96708f597c"
+  },
+  {
+    "path": "locityper/calls/HG03784/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "73884b78e08513373e6f521a9391a18c4311e1fe52cbd66cf65078b266d0579e"
+  },
+  {
+    "path": "locityper/calls/HG03784/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 724,
+    "sha256": "65132991d8aae299ae74718ff10bbc81de97e015c708b1c109949617c0ce04be"
+  },
+  {
+    "path": "locityper/calls/HG03784/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 373,
+    "sha256": "3a0b89de2481b8978236134c0114480eb33b6b53c211dd885c8cee281cc94d2e"
+  },
+  {
+    "path": "locityper/calls/HG03784/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 573,
+    "sha256": "03edd79f3a90fa55d59e388a61e342fb678d6f951388f5dd14e0de10e804e476"
+  },
+  {
+    "path": "locityper/calls/HG03784/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 378,
+    "sha256": "1080be057715f54a1be9a9c80d8791f4e2dc47d5fd3dbd38674a7d03dca3d019"
+  },
+  {
+    "path": "locityper/calls/HG03784/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 369,
+    "sha256": "943042c8ae0c501830843e4318e99b6c23c47a0917050520827d34683793707b"
+  },
+  {
+    "path": "locityper/calls/HG03784/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 370,
+    "sha256": "76aad21bf4fcd78a52c66a680a557979a4245747bffd7eeb7c832ee6cb58e93e"
+  },
+  {
+    "path": "locityper/calls/HG03784/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 373,
+    "sha256": "7896c9eeeb46920bac01ad0ee8f75f6d54baab7eed5c66fc1b0496a016459d1a"
+  },
+  {
+    "path": "locityper/calls/HG03784/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 420,
+    "sha256": "e2300a5d7d2ad7c0c896c8018b71584d3696e79d820c1ac60954926033d3a433"
+  },
+  {
+    "path": "locityper/calls/HG03017/full/loci/HLA-A/res.json.gz",
+    "bytes": 630,
+    "sha256": "9336649e1171e4737f2788956e6b5d27f9c32c74db45db7eef8f49df40890cd2"
+  },
+  {
+    "path": "locityper/calls/HG03017/full/loci/HLA-B/res.json.gz",
+    "bytes": 377,
+    "sha256": "deb5f7071def593d0536bea6d6616ea034d837dcd94aa431f04f0b36c976d799"
+  },
+  {
+    "path": "locityper/calls/HG03017/full/loci/HLA-C/res.json.gz",
+    "bytes": 531,
+    "sha256": "90f1fe6fcc5a380959f14a448073929767b1be8fb69371a6b1ef5f07bc369ce2"
+  },
+  {
+    "path": "locityper/calls/HG03017/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 621,
+    "sha256": "9a7205c3a4531ce5479f72d8522583188a0d785b2c34b4f1e03cf865ee813320"
+  },
+  {
+    "path": "locityper/calls/HG03017/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 377,
+    "sha256": "f3e33315a60c08243659f5320e3ac5e46f236ef8b5c172fa8956f05f2936e32d"
+  },
+  {
+    "path": "locityper/calls/HG03017/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "bf4ad691d1de989c38a8771384330ace977ec75a9451988a53967f044b84dda6"
+  },
+  {
+    "path": "locityper/calls/HG03017/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 376,
+    "sha256": "61325c4e46d7dbc8cb20eee86d690c70b50ccea487f1fb65ba1d681646163990"
+  },
+  {
+    "path": "locityper/calls/HG03017/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 375,
+    "sha256": "0811631b364d0378ecbbcce7e8ddb551a9c3085b5e3298f3121fe23b89f263a1"
+  },
+  {
+    "path": "locityper/calls/HG03017/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 772,
+    "sha256": "5760841d1c226e497c88ae2ce381e8a0dabfbabfffee5e2df79197d7f4bbdae4"
+  },
+  {
+    "path": "locityper/calls/HG03017/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 371,
+    "sha256": "abad71c316a07c2adc24df62067993c16429609c4d20d46ecc7b3c83bc6da199"
+  },
+  {
+    "path": "locityper/calls/HG03017/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 380,
+    "sha256": "9d9da626bf756713787b0c27a49e9968ea930f9d3340fc56a1842792a5cc7327"
+  },
+  {
+    "path": "locityper/calls/HG03017/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 431,
+    "sha256": "ea3f2c025516517e780d5b068a4b296b6efce434c80bca1f0687d0515dc3a2f8"
+  },
+  {
+    "path": "locityper/calls/HG03017/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 369,
+    "sha256": "1b397bbe27ac5877b3066b56fc8c6441dbd8544c5278a078021984f0e229c522"
+  },
+  {
+    "path": "locityper/calls/HG03017/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 381,
+    "sha256": "f795ed252829d9cc0091e8679bb0003b7f1c81283d1fa6e5273a0a737c9405fd"
+  },
+  {
+    "path": "locityper/calls/HG03017/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 380,
+    "sha256": "06efdc0a5bf3aee5ee09225078b94cf2a6ca3e8420ef51bd10168e6ac4f5bddd"
+  },
+  {
+    "path": "locityper/calls/HG03017/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 377,
+    "sha256": "2e802ca072e34d1deb93599ca74fafc087c37818b9b17d7e60b6834e1272b3ac"
+  },
+  {
+    "path": "locityper/calls/HG04204/full/loci/HLA-A/res.json.gz",
+    "bytes": 371,
+    "sha256": "05b8ee9aa78e422646b8413064f4b6bb84f702f1cc09b7453253947215b872ca"
+  },
+  {
+    "path": "locityper/calls/HG04204/full/loci/HLA-B/res.json.gz",
+    "bytes": 360,
+    "sha256": "6fa170aa999c7c5596608e00ed45621203bc7de3e4f8bb236a17de2c43108194"
+  },
+  {
+    "path": "locityper/calls/HG04204/full/loci/HLA-C/res.json.gz",
+    "bytes": 714,
+    "sha256": "4d99c3a0e68b19148300d4f772cce0af95ad94660993994fc2ed2388c35e08c4"
+  },
+  {
+    "path": "locityper/calls/HG04204/full/loci/HLA-DRB1/res.json.gz",
+    "bytes": 1124,
+    "sha256": "bedd97f13e6f99eab49873cd8ee229803eac73d7a3cfe9c7ff7e7bb0ecda562c"
+  },
+  {
+    "path": "locityper/calls/HG04204/full/loci/HLA-DQA1/res.json.gz",
+    "bytes": 374,
+    "sha256": "a00ca7c0ef3870f54e7118d55fc8830c58f88e3cef5f2cc33b247b9d6fd87b83"
+  },
+  {
+    "path": "locityper/calls/HG04204/full/loci/HLA-DQB1/res.json.gz",
+    "bytes": 622,
+    "sha256": "b40aef1d7c1774ea1637cf02c70d1fbe666ab9fb944a5bda7039b1857224cab5"
+  },
+  {
+    "path": "locityper/calls/HG04204/full/loci/HLA-DPA1/res.json.gz",
+    "bytes": 372,
+    "sha256": "df0fd3df6b1762b87eec34ea797c7ef11c8b045b80948cf2c8c77f86cc614f15"
+  },
+  {
+    "path": "locityper/calls/HG04204/full/loci/HLA-DPB1/res.json.gz",
+    "bytes": 373,
+    "sha256": "8496fe412208d415631266ee9f560df8c9fde6c9edfaa3e517e712afd241497e"
+  },
+  {
+    "path": "locityper/calls/HG04204/hprc/loci/HLA-A/res.json.gz",
+    "bytes": 473,
+    "sha256": "1e6bc11a73db44e09dd9f87901f94108e18dd437f94f086f06fab6054ffd2ab0"
+  },
+  {
+    "path": "locityper/calls/HG04204/hprc/loci/HLA-B/res.json.gz",
+    "bytes": 374,
+    "sha256": "ca7c8c1b5d07a7ab32804a71572230b53af1968665711158d7ad937de37508c2"
+  },
+  {
+    "path": "locityper/calls/HG04204/hprc/loci/HLA-C/res.json.gz",
+    "bytes": 514,
+    "sha256": "e6e113a470c430c90b9953dc73decbaf416ccda4ed092716a0771f7fd52679b0"
+  },
+  {
+    "path": "locityper/calls/HG04204/hprc/loci/HLA-DRB1/res.json.gz",
+    "bytes": 979,
+    "sha256": "0f28802b87b979b56825394ecede60591ad6ed7addc7d96a48841545c7093cd5"
+  },
+  {
+    "path": "locityper/calls/HG04204/hprc/loci/HLA-DQA1/res.json.gz",
+    "bytes": 362,
+    "sha256": "fc9ee329038bd0a3d6dd8c1cb4eea59a24a51d60948cf2c4c9d065403beeeef7"
+  },
+  {
+    "path": "locityper/calls/HG04204/hprc/loci/HLA-DQB1/res.json.gz",
+    "bytes": 520,
+    "sha256": "3ebcf483036ff9b1067f7d4bce618fba820b9377a69b5c216f55cf1057c6da08"
+  },
+  {
+    "path": "locityper/calls/HG04204/hprc/loci/HLA-DPA1/res.json.gz",
+    "bytes": 371,
+    "sha256": "a162af5d7d537cd8d14e6b7e2bf70bff927699ac86937c3d119431344c5a31dc"
+  },
+  {
+    "path": "locityper/calls/HG04204/hprc/loci/HLA-DPB1/res.json.gz",
+    "bytes": 377,
+    "sha256": "891c6496f23580da9ba8177112483af9b916c95524eff3f03b632b37d79a0c7d"
+  },
+  {
+    "path": "locityper/panels/fold0/full/labels.tsv.gz",
+    "bytes": 104494,
+    "sha256": "4d3ef66728062c98ea2d4ecdb5c3580d0f2441be475ff2e4c0f0358282a8429f"
+  },
+  {
+    "path": "locityper/panels/fold0/hprc/labels.tsv.gz",
+    "bytes": 69314,
+    "sha256": "4403aeef1cb37bc88bde07a0107869e8a2572a39729352c3b1978b3df0846c04"
+  },
+  {
+    "path": "locityper/panels/fold1/full/labels.tsv.gz",
+    "bytes": 104080,
+    "sha256": "dcc263d5389425c7c3ff8c8c051de28d4837a3c00bebc200cd911bc49e300a9e"
+  },
+  {
+    "path": "locityper/panels/fold1/hprc/labels.tsv.gz",
+    "bytes": 68924,
+    "sha256": "9d3a6f311f8305dc611d822827923414ad80c9e31c0825ce12c5b0b6ec1ef683"
+  },
+  {
+    "path": "locityper/panels/fold2/full/labels.tsv.gz",
+    "bytes": 104428,
+    "sha256": "f4b26c7d3b99a6b1dd1407a71f98109d4d4e44dd7f44bf77ca3baba4dbc0307e"
+  },
+  {
+    "path": "locityper/panels/fold2/hprc/labels.tsv.gz",
+    "bytes": 69276,
+    "sha256": "1e884b7b69a8c0418e19551b6b87231ca2ee8442b24d270a273ac939fda2fd4b"
+  },
+  {
+    "path": "locityper/panels/fold3/full/labels.tsv.gz",
+    "bytes": 105000,
+    "sha256": "aacebbf2b6e5b8037b1e22bd5f6762a76e78612bea695ca3abe491a99b38b980"
+  },
+  {
+    "path": "locityper/panels/fold3/hprc/labels.tsv.gz",
+    "bytes": 70121,
+    "sha256": "5a46c0f4efd34ed828228cc46e23fb84ee63110fb26d4b5662b4eb804e6fce18"
+  },
+  {
+    "path": "locityper/panels/fold4/full/labels.tsv.gz",
+    "bytes": 104105,
+    "sha256": "357bf3a6833c1c121a1ede5e49c41f4259fc35ab4adaa666214626f5e4815a9a"
+  },
+  {
+    "path": "locityper/panels/fold4/hprc/labels.tsv.gz",
+    "bytes": 69506,
+    "sha256": "4f8fc59a48fa1f1545275dae1354f65bfd9a805ad3421587bbd8d0fcc5d33094"
+  },
+  {
+    "path": "locityper/panels/fold0/full/targets.bed",
+    "bytes": 974,
+    "sha256": "a56df4de091436a3eb3ca88c87f1a34c73dba5a68a89e3950eb42e17158fe443"
+  },
+  {
+    "path": "locityper/panels/fold0/hprc/targets.bed",
+    "bytes": 974,
+    "sha256": "f0dce270f879c602c6b9efbbb038a56383662c47c27bbfc61cfc4012d89b1b47"
+  },
+  {
+    "path": "locityper/panels/fold1/full/targets.bed",
+    "bytes": 974,
+    "sha256": "33ea161d1dab2ce2eedd774bf73310287ade4845394dfe05ed311ee6008c831f"
+  },
+  {
+    "path": "locityper/panels/fold1/hprc/targets.bed",
+    "bytes": 974,
+    "sha256": "993c2b7701e316d78f0a02cefe209490516d18b0b4a7209f58760a680f14ffa3"
+  },
+  {
+    "path": "locityper/panels/fold2/full/targets.bed",
+    "bytes": 974,
+    "sha256": "04411af5bb86a5366d01f7a6089609c4431dfdd13800de32e7c81d3da9757cf1"
+  },
+  {
+    "path": "locityper/panels/fold2/hprc/targets.bed",
+    "bytes": 974,
+    "sha256": "36eefa07926c4ed5c79f5dadbe827a714623d21fdd3ec620ac14edc7418ec1f1"
+  },
+  {
+    "path": "locityper/panels/fold3/full/targets.bed",
+    "bytes": 974,
+    "sha256": "180d724568ba6e40d06c9ba6b259d58d2cc72d82ccd43525dfc1d100c28921e9"
+  },
+  {
+    "path": "locityper/panels/fold3/hprc/targets.bed",
+    "bytes": 974,
+    "sha256": "b20b0afad9d7cb23848ec66a21965aa4b44da70792e4967d179519303b2c7b79"
+  },
+  {
+    "path": "locityper/panels/fold4/full/targets.bed",
+    "bytes": 974,
+    "sha256": "259f97c7cc7306a036acabb0f7450cd43fced978e1b9cc2ddbf45ce106067bdb"
+  },
+  {
+    "path": "locityper/panels/fold4/hprc/targets.bed",
+    "bytes": 974,
+    "sha256": "c50a2139b69fbb45f86a5e94fdd93cd56595077429dc7c37a4971b8e448cefb8"
+  },
+  {
+    "path": "locityper/panels/fold0/full/target.log",
+    "bytes": 4519,
+    "sha256": "e0e81de32b252b95c0114896da67e9aa1356bd1ad805ace91cc5631b46bc4ec4"
+  },
+  {
+    "path": "locityper/panels/fold0/hprc/target.log",
+    "bytes": 4511,
+    "sha256": "39dc70ca747f2ab12cba5cc6fdd188ba0c8dc243e1f0bbe5b82df22644b2b88b"
+  },
+  {
+    "path": "locityper/panels/fold1/full/target.log",
+    "bytes": 4519,
+    "sha256": "b62b32812ca6dce83da40dfd2e5fca0d41bc658f59bed92641d264889e12fbe1"
+  },
+  {
+    "path": "locityper/panels/fold1/hprc/target.log",
+    "bytes": 4511,
+    "sha256": "cd61be592c1010ff8650ba8764e7d04f1c938e36500ae79111faf2043895a190"
+  },
+  {
+    "path": "locityper/panels/fold2/full/target.log",
+    "bytes": 4519,
+    "sha256": "7f0357155886b0e0cf794ef1afa51a89c67bafb4574cde4122dd08d73fc49fa2"
+  },
+  {
+    "path": "locityper/panels/fold2/hprc/target.log",
+    "bytes": 4511,
+    "sha256": "bb95f867d09eefedc6a88bf193ea609d31e8ac1472bcb0c8c30eb1f456e6be35"
+  },
+  {
+    "path": "locityper/panels/fold3/full/target.log",
+    "bytes": 4519,
+    "sha256": "fcdd663e9371d19053833965c91c8e38621d7a25a51a802951ba8e440b2b9202"
+  },
+  {
+    "path": "locityper/panels/fold3/hprc/target.log",
+    "bytes": 4513,
+    "sha256": "ff04596747b365159952f1c011c2a2d5873b02499038016671576d179eadc3be"
+  },
+  {
+    "path": "locityper/panels/fold4/full/target.log",
+    "bytes": 4519,
+    "sha256": "1108f4620bfa5730850284f8df173cdc9086afcff436756ee75cd399f7c74b2d"
+  },
+  {
+    "path": "locityper/panels/fold4/hprc/target.log",
+    "bytes": 4511,
+    "sha256": "0f9e35912e5b75734709ecb3b1e3a5a02fbaf8ec17c895c7942ed39568d969b0"
+  },
+  {
+    "path": "locityper/panel_audit.json",
+    "bytes": 8944,
+    "sha256": "23fee8d22765f4749a2cc483c8267953fea67b55766da2a30dab4f40c72e9eac"
+  },
+  {
+    "path": "locityper/preproc-HG00558.log",
+    "bytes": 2805,
+    "sha256": "466ec7cbae5c47dc1511c0d63300776e2bb96f8ac70fdf48d449979f8833ed15"
+  },
+  {
+    "path": "locityper/preproc-HG00609.log",
+    "bytes": 2733,
+    "sha256": "291b84fe72ce2543f9b16b7e31b5734b7c9dda87cae65de5076046a6d431ba07"
+  },
+  {
+    "path": "locityper/preproc-HG00658.log",
+    "bytes": 2733,
+    "sha256": "1d2dd43ccf85323b2539df74f2035ac9710587a3197cc64470f38f9667229f12"
+  },
+  {
+    "path": "locityper/preproc-HG00706.log",
+    "bytes": 2805,
+    "sha256": "c6487ec88a13423ff1cadeb45ffdb3938af91fb3942eee64c1ff33cc7eeba893"
+  },
+  {
+    "path": "locityper/preproc-HG02027.log",
+    "bytes": 2805,
+    "sha256": "1bb5fce70658fd30a2b2498dbe85553d1bcdfebb16c641791dcbf3ffc7296f2e"
+  },
+  {
+    "path": "locityper/preproc-HG02074.log",
+    "bytes": 2806,
+    "sha256": "a6f7fc601518389379d6cde0cb65de8742d0555792a38fdea9610f463bbbb46a"
+  },
+  {
+    "path": "locityper/preproc-HG02132.log",
+    "bytes": 2805,
+    "sha256": "7934d78e8ead492c1000a3134c5e5fdbe2c290bd3ab148da661907079234666b"
+  },
+  {
+    "path": "locityper/preproc-HG02155.log",
+    "bytes": 2805,
+    "sha256": "8ba2ce36397272b9c7a9da4bc2fa3d70ebe79016bda81487ad626dfc6eba270a"
+  },
+  {
+    "path": "locityper/preproc-HG02165.log",
+    "bytes": 2803,
+    "sha256": "016bc60722de74d200ddc7e757c8a3c95f2a9113d24c52aee97264238d8b717d"
+  },
+  {
+    "path": "locityper/preproc-HG02178.log",
+    "bytes": 2803,
+    "sha256": "03f7aebd216523ccbb9fd0c1204feac8c238c890731caa33337a19318d9c0fbf"
+  },
+  {
+    "path": "locityper/preproc-HG02391.log",
+    "bytes": 2733,
+    "sha256": "b18e1cd4a606d759b6071d06a084012ce50f7f4ce713ff59d8baed0caf5db738"
+  },
+  {
+    "path": "locityper/preproc-HG02523.log",
+    "bytes": 2805,
+    "sha256": "0db464a1c803b790752e9ce2baeaa32241007a72fa6339233324796c9e472507"
+  },
+  {
+    "path": "locityper/preproc-HG02602.log",
+    "bytes": 2805,
+    "sha256": "cf89111bd88ed1debd6ed89a271ea64f72233e14992678aa79edbb60eac1c6c2"
+  },
+  {
+    "path": "locityper/preproc-HG02738.log",
+    "bytes": 2806,
+    "sha256": "58cd289d2968716ebe2ff97614b308565ea5d8ddba3d2d39f54e404f5ce0ef7a"
+  },
+  {
+    "path": "locityper/preproc-HG03017.log",
+    "bytes": 2805,
+    "sha256": "0a10fdd9f3857266a56f62366bf0966d5aa49c9372a1acd01659e511daea6369"
+  },
+  {
+    "path": "locityper/preproc-HG03239.log",
+    "bytes": 2733,
+    "sha256": "177a3068ef11a8ba2b884f9af55880e6a9599e2d1031c412db9d226250a3ac44"
+  },
+  {
+    "path": "locityper/preproc-HG03688.log",
+    "bytes": 2805,
+    "sha256": "5a2b23ed39423b08654f01d711f6630925c1c531aa0cf485da2f932e342fade1"
+  },
+  {
+    "path": "locityper/preproc-HG03742.log",
+    "bytes": 2805,
+    "sha256": "c6190f59fb9f057884f3fcd810cd52154e95a046b72787afcb17371983a477dd"
+  },
+  {
+    "path": "locityper/preproc-HG03784.log",
+    "bytes": 2805,
+    "sha256": "f2e868bc1fd843157bad2b0e1084de5f577c716ba83d7e621acd98ff0d7ffad4"
+  },
+  {
+    "path": "locityper/preproc-HG03804.log",
+    "bytes": 2805,
+    "sha256": "c590c7fd4de4fe0a3a7a3d8f3a8e785561d8e2292a6a83ba16bd03d00466fa13"
+  },
+  {
+    "path": "locityper/preproc-HG03831.log",
+    "bytes": 2805,
+    "sha256": "8cca6b8f4f8f8907cf9255cfb09cd89dc00d20babdfe179d4f8570362b320c5e"
+  },
+  {
+    "path": "locityper/preproc-HG03874.log",
+    "bytes": 2733,
+    "sha256": "ecf14c7acf5583f966bbcb616bd6f79fcbf07fcd0dad391a5c00fd05f72a0773"
+  },
+  {
+    "path": "locityper/preproc-HG03927.log",
+    "bytes": 2805,
+    "sha256": "35f46d366ec749d6e7c8e5f0a35587517f054bd4905cb50e0df2ad0261ef5723"
+  },
+  {
+    "path": "locityper/preproc-HG04115.log",
+    "bytes": 2805,
+    "sha256": "6b82ea9019ff199cd18839840f108bf2f36e90d4eac48b17bdd6356617e66c6b"
+  },
+  {
+    "path": "locityper/preproc-HG04157.log",
+    "bytes": 2805,
+    "sha256": "ba3393c1605646dd26ff79f9d6f33b43d34e3c7d2425aac2ed2c90dd23321639"
+  },
+  {
+    "path": "locityper/preproc-HG04187.log",
+    "bytes": 2805,
+    "sha256": "1f127174e14ddb10c2ea2678cb8a2b76284a7d7fe6c16b56df94491fdcd174b0"
+  },
+  {
+    "path": "locityper/preproc-HG04199.log",
+    "bytes": 2805,
+    "sha256": "ad4550a3c7c97cf4e5ad501a7b85f43922f1bd9dfd9f2d0d87590eda0ef60d00"
+  },
+  {
+    "path": "locityper/preproc-HG04204.log",
+    "bytes": 2805,
+    "sha256": "fe2e47852c43ff5197ce4dcf7df6abfbb99a51b9a33248b06a9315f28f9b1601"
+  },
+  {
+    "path": "locityper/preproc-NA18570.log",
+    "bytes": 2805,
+    "sha256": "493bd322dbc4a2f91ac744f07cb1905a841462341e09c6a017d20a509f19e1e2"
+  },
+  {
+    "path": "locityper/preproc-NA18608.log",
+    "bytes": 2733,
+    "sha256": "54a9eaee08c51abe05327945b67a2eaa91dbdf13ae51ce2a648a63fbaedefd93"
+  },
+  {
+    "path": "locityper/preproc-NA18620.log",
+    "bytes": 2805,
+    "sha256": "8e8d41fc9c2a383fff26325a2b6643541643521991315157dd5549f9561b8d6d"
+  },
+  {
+    "path": "locityper/preproc-NA18747.log",
+    "bytes": 2805,
+    "sha256": "f9f6f37ca96ea29f50a38e12d1a785e5d9f952828bf82d2b9731df78f08eeedc"
+  },
+  {
+    "path": "locityper/preproc-NA18940.log",
+    "bytes": 2805,
+    "sha256": "1f93cc8a7219830dcea972c6754dfb9e66d02340425c998223529a784d8a8a34"
+  },
+  {
+    "path": "locityper/preproc-NA18952.log",
+    "bytes": 2805,
+    "sha256": "bd1b9dfd98cef70c428e387386a8b1ed0134789d9bb03816f64b546cb8867898"
+  },
+  {
+    "path": "locityper/preproc-NA19087.log",
+    "bytes": 2805,
+    "sha256": "572aee47174296a80cd0136ff6179ae0afc984b15b43aacebc5a5fec27427be7"
+  },
+  {
+    "path": "locityper/preproc-NA19088.log",
+    "bytes": 2805,
+    "sha256": "f58d25d3e7e5c6283926a6659a668ddb2efe98615ca1b1a504b11608c1e16b30"
+  },
+  {
+    "path": "locityper/preproc-NA20905.log",
+    "bytes": 2808,
+    "sha256": "a9f143b1784cb91c42a5b4597baa735e2a67670a99a081e6a2c94fb2b871ce99"
+  },
+  {
+    "path": "locityper/preproc-NA21093.log",
+    "bytes": 2806,
+    "sha256": "471b9c5fd56d705dfafb72f895ef34ec624bf5cc019b684575bdeb152de4251d"
+  },
+  {
+    "path": "locityper/preproc-NA21106.log",
+    "bytes": 2809,
+    "sha256": "b3e78e4f1c79503e28dc701f23c7d9efcd581d2f444397d7f9c89f3842b7d035"
+  },
+  {
+    "path": "locityper/preproc-NA21144.log",
+    "bytes": 2805,
+    "sha256": "da564753b12e47211d04f29c9cd68dc2e795440eb685786f13fbc43eaf4eee36"
+  },
+  {
+    "path": "locityper/genotype-HG00558-full.log",
+    "bytes": 17966,
+    "sha256": "32ac8252516c6b8a86bdf1353a210f0e25c9f642125f6d398edb4a6180b343aa"
+  },
+  {
+    "path": "locityper/genotype-HG00558-hprc.log",
+    "bytes": 17718,
+    "sha256": "ae336f857cf068122137271fd697b6b5465d1ac5b8b81ea7fbe875486293a10b"
+  },
+  {
+    "path": "locityper/genotype-HG00609-full.log",
+    "bytes": 17961,
+    "sha256": "0b46f2c84743f3028538c165d5b5a62a8029d6754d39149bf4e2376e2466ff7e"
+  },
+  {
+    "path": "locityper/genotype-HG00609-hprc.log",
+    "bytes": 17485,
+    "sha256": "87fffc1f29df1bf60a18abff77fdf3406ca28f851d685b1d9ebf6ebaa256a4cb"
+  },
+  {
+    "path": "locityper/genotype-HG00658-full.log",
+    "bytes": 17962,
+    "sha256": "c0b674e4f5e9da08abbd22aac34e8aa88085fb1c50a8dc3f73dc69bb1cc386d2"
+  },
+  {
+    "path": "locityper/genotype-HG00658-hprc.log",
+    "bytes": 17480,
+    "sha256": "09da15b8c24539410a09c85e54077573d7176143035f073718ee411fa7bc5478"
+  },
+  {
+    "path": "locityper/genotype-HG00706-full.log",
+    "bytes": 17960,
+    "sha256": "5ffc1a7bb38151c2bc0120f2590d9ba2cf3dbf0cb926d14ff01a3ca51e46eb5b"
+  },
+  {
+    "path": "locityper/genotype-HG00706-hprc.log",
+    "bytes": 17482,
+    "sha256": "99827b54a5ff1938471783a23352de278fb79816d355930d4e28148fd8611738"
+  },
+  {
+    "path": "locityper/genotype-HG02027-full.log",
+    "bytes": 17960,
+    "sha256": "e6edd22d6e2003f0a84b712b0fecc352b20d3a0c810abbb85680638f139eb791"
+  },
+  {
+    "path": "locityper/genotype-HG02027-hprc.log",
+    "bytes": 17483,
+    "sha256": "a1a6b394c06495c99651b8f04cba75efb1776d3c80fb6d93f046a43f28052f0d"
+  },
+  {
+    "path": "locityper/genotype-HG02074-full.log",
+    "bytes": 17968,
+    "sha256": "de68114cf42707cef5b7cfc19af721a6edf6ff898c3199f25fd15ca5b21bab03"
+  },
+  {
+    "path": "locityper/genotype-HG02074-hprc.log",
+    "bytes": 17489,
+    "sha256": "7ffd122477d7e349fa6d91e83a956500b37661ab39ac2a41b332dd32fdcbf9f5"
+  },
+  {
+    "path": "locityper/genotype-HG02132-full.log",
+    "bytes": 17958,
+    "sha256": "d1fdf3dfb026635af1275da5482d54e2e664afc00b9bcd37f01bfbba9931974f"
+  },
+  {
+    "path": "locityper/genotype-HG02132-hprc.log",
+    "bytes": 17478,
+    "sha256": "5e9cfb8d4fe7dc9435c441d38408a718eb82cd7e2a8fafc81a75c7c7ab985c21"
+  },
+  {
+    "path": "locityper/genotype-HG02155-full.log",
+    "bytes": 17961,
+    "sha256": "14b79d5733e852d055126616927de8cb3e4c66220110c65cb8c64a4649e13b26"
+  },
+  {
+    "path": "locityper/genotype-HG02155-hprc.log",
+    "bytes": 17481,
+    "sha256": "2cfb6e498526d1e8cd1889a887aee47c3be99368f7e69e3c12f3d50aaa8d201d"
+  },
+  {
+    "path": "locityper/genotype-HG02165-full.log",
+    "bytes": 17967,
+    "sha256": "5aaf9f3720fe5bd869f1fc25c2538a5f6f59e4f30e05733c67cc92270090c53b"
+  },
+  {
+    "path": "locityper/genotype-HG02165-hprc.log",
+    "bytes": 17718,
+    "sha256": "1991284d5b5afa85353572788eae81f8a25f9cc1140c1d193ed06447f0736f7d"
+  },
+  {
+    "path": "locityper/genotype-HG02178-full.log",
+    "bytes": 17968,
+    "sha256": "0eaaa12f09ac2186ced18a7c28357feb80fe33441cb3ef9723bcdbb70639c85a"
+  },
+  {
+    "path": "locityper/genotype-HG02178-hprc.log",
+    "bytes": 17489,
+    "sha256": "3eaf9588c3b78c35e1520ea062f8fdf78a76fd33e575d2e193f5e3228e27c2cf"
+  },
+  {
+    "path": "locityper/genotype-HG02391-full.log",
+    "bytes": 17956,
+    "sha256": "e451af9092d38d3917c401ad4bb40fd604f4c0a5f9df78439e8dfe109fec8fae"
+  },
+  {
+    "path": "locityper/genotype-HG02391-hprc.log",
+    "bytes": 17480,
+    "sha256": "39cb442dcaa83a394f6aeaa521f15473dfa3bc0cb32d892ef597dbe123cc61bf"
+  },
+  {
+    "path": "locityper/genotype-HG02523-full.log",
+    "bytes": 17964,
+    "sha256": "448c5829b6a74748472b591ff71fb47dfb410477b248db58eec3cef85a56954e"
+  },
+  {
+    "path": "locityper/genotype-HG02523-hprc.log",
+    "bytes": 17717,
+    "sha256": "d217c2619f665e3e0d622095b3f72bd83dfa497fd6fd215a1e96c8c7ba8cf747"
+  },
+  {
+    "path": "locityper/genotype-HG02602-full.log",
+    "bytes": 17966,
+    "sha256": "ce995be545044fa99e6e76d4a01c1fa1e41325307fa8f886ac9ddfeb586f51a6"
+  },
+  {
+    "path": "locityper/genotype-HG02602-hprc.log",
+    "bytes": 17488,
+    "sha256": "bbb1ba74549e7e6194aed8167c77a52b2a800ea30d516a8bc75906de17149d74"
+  },
+  {
+    "path": "locityper/genotype-HG02738-full.log",
+    "bytes": 17968,
+    "sha256": "698555d6e19c9c4f47252b3acd745e4dc3951b6d40e03ac1dc00ae24ebaa1233"
+  },
+  {
+    "path": "locityper/genotype-HG02738-hprc.log",
+    "bytes": 17725,
+    "sha256": "229407ce70e1e0cd98c4d55db186bdc671d87ba1086d31e5709156edcd15f7cf"
+  },
+  {
+    "path": "locityper/genotype-HG03017-full.log",
+    "bytes": 17964,
+    "sha256": "4f92e966a1cd3cc730e5b1ffbc0a5be3ecd8cdd9dc7604e86d19bd9ca62eede4"
+  },
+  {
+    "path": "locityper/genotype-HG03017-hprc.log",
+    "bytes": 17491,
+    "sha256": "9547fea81126729b875c07d0bd6abe10cce4cb78ef5fc1ec25f5cc3c6f32a282"
+  },
+  {
+    "path": "locityper/genotype-HG03239-full.log",
+    "bytes": 17955,
+    "sha256": "cee4b668dcc2264a6301fdd5bcaa48c0cbea0a88344ef86f9f3a756146291707"
+  },
+  {
+    "path": "locityper/genotype-HG03239-hprc.log",
+    "bytes": 17478,
+    "sha256": "20c3cb32e8631dfc202dc89ab8eefe59998770cfd2ccfc77c1a5f58f6e2031bf"
+  },
+  {
+    "path": "locityper/genotype-HG03688-full.log",
+    "bytes": 17965,
+    "sha256": "b99499b9dfade08dc71c1a8dc6080f589b97efcee9e24f955bee0bd7798726fa"
+  },
+  {
+    "path": "locityper/genotype-HG03688-hprc.log",
+    "bytes": 17717,
+    "sha256": "562f493890fc2a8a8488972edc06e1d1297b5227421f61a472b96bee3e044d7c"
+  },
+  {
+    "path": "locityper/genotype-HG03742-full.log",
+    "bytes": 17968,
+    "sha256": "1d94bcc6b702493636f7939540d09c626c21e2601cdd962c815c61c8197d1c7c"
+  },
+  {
+    "path": "locityper/genotype-HG03742-hprc.log",
+    "bytes": 17496,
+    "sha256": "56165d561f571ede15192c4d06fbaae221e6da50836ddb64038cfe9e0c539d4f"
+  },
+  {
+    "path": "locityper/genotype-HG03784-full.log",
+    "bytes": 17968,
+    "sha256": "41712f7d04a2fd5fe4048c9a93cdb2cff4ab2459311c3cd35040e2d36d8131a1"
+  },
+  {
+    "path": "locityper/genotype-HG03784-hprc.log",
+    "bytes": 17491,
+    "sha256": "74cae3d4b584653d611246ad05ed29ff7313e91b6d592fb12efcb9d06e0759b3"
+  },
+  {
+    "path": "locityper/genotype-HG03804-full.log",
+    "bytes": 17956,
+    "sha256": "20aa6650eda8a8f013f9f04d4871b5411a582dff188abb423d305cc548e0826e"
+  },
+  {
+    "path": "locityper/genotype-HG03804-hprc.log",
+    "bytes": 17479,
+    "sha256": "3e5acd6378bcadbbc7ca894a1a13d343e5947d36a4c635d6fac98c5044623dd6"
+  },
+  {
+    "path": "locityper/genotype-HG03831-full.log",
+    "bytes": 17960,
+    "sha256": "bb9c85e3f70a8aae10d3f13559c3eb8a3277800a90f9b05131e687ded50dbc04"
+  },
+  {
+    "path": "locityper/genotype-HG03831-hprc.log",
+    "bytes": 17481,
+    "sha256": "15f681ca1577ab97f49bc972b9feaf915d8a60902b3fb98d7b29bd0319dbac70"
+  },
+  {
+    "path": "locityper/genotype-HG03874-full.log",
+    "bytes": 17968,
+    "sha256": "6b3493af4ffdf1c45fe1e319aae119330e7bac43da6e928a220474796bafafae"
+  },
+  {
+    "path": "locityper/genotype-HG03874-hprc.log",
+    "bytes": 17488,
+    "sha256": "62f24b1033256f11b4e7cfa42bccdc01ec35a4bf23130d339520e37f3efa4fed"
+  },
+  {
+    "path": "locityper/genotype-HG03927-full.log",
+    "bytes": 17957,
+    "sha256": "4a9b72d880aeef296cbd7cf933282c981b5b37c4699fee17a1dae4fadc8b2bb5"
+  },
+  {
+    "path": "locityper/genotype-HG03927-hprc.log",
+    "bytes": 17714,
+    "sha256": "283897f52bb057a9b9e278d0cf8366d930feaa22c69c828cec3155ec888c539a"
+  },
+  {
+    "path": "locityper/genotype-HG04115-full.log",
+    "bytes": 17965,
+    "sha256": "f830293b14d194c350add61a8adf03333ddbd96a1ce8e77304223eb173ab4193"
+  },
+  {
+    "path": "locityper/genotype-HG04115-hprc.log",
+    "bytes": 17485,
+    "sha256": "6fdd24c651c5aaa8936a3454d70897e681a825e522c4ab46031d98338d913cc2"
+  },
+  {
+    "path": "locityper/genotype-HG04157-full.log",
+    "bytes": 17968,
+    "sha256": "86dea400f3fbeced1aa46e0712cebca6424327954ba891197d5256711dfb82a0"
+  },
+  {
+    "path": "locityper/genotype-HG04157-hprc.log",
+    "bytes": 17491,
+    "sha256": "60e321a1b288321776ac4e89f2f24405e9b940020587ba5b7736bf4bbd4b55a7"
+  },
+  {
+    "path": "locityper/genotype-HG04187-full.log",
+    "bytes": 17964,
+    "sha256": "3a3b5f539501f15ad99d2b05b361a71e1af433dcc1506d55f56406c50f80d086"
+  },
+  {
+    "path": "locityper/genotype-HG04187-hprc.log",
+    "bytes": 17487,
+    "sha256": "2b0dff1b39448f7866f697d83f7c11db52677e3faca5c85cab62805f6a44f3ad"
+  },
+  {
+    "path": "locityper/genotype-HG04199-full.log",
+    "bytes": 17970,
+    "sha256": "5ab963c6b6913cbdddd5321ac233ab92baa53cccd315fa600c504f9223aeffec"
+  },
+  {
+    "path": "locityper/genotype-HG04199-hprc.log",
+    "bytes": 17490,
+    "sha256": "e4c88914b96a8d421f672b670a6d8de48fad0f353dbc3c1a6f9691cfdf2d38ba"
+  },
+  {
+    "path": "locityper/genotype-HG04204-full.log",
+    "bytes": 17961,
+    "sha256": "d833c14aa4987699e8ecf8b99fc4a1e0cfbe5d7684f02abc2b43012da2637560"
+  },
+  {
+    "path": "locityper/genotype-HG04204-hprc.log",
+    "bytes": 17485,
+    "sha256": "84cfa3ed0d5d8843fecda5aa284b350fe9dec5b1d12ea575adf3b975fc93d7d2"
+  },
+  {
+    "path": "locityper/genotype-NA18570-full.log",
+    "bytes": 17964,
+    "sha256": "5dd6e2f191e6758deb0e7c011bdbe42dda2cea0b0d456b5bb81d498170c53f72"
+  },
+  {
+    "path": "locityper/genotype-NA18570-hprc.log",
+    "bytes": 17487,
+    "sha256": "126ec41d8e84ab2cc915e719ed91e9abedbb3d0fa913ff017df246757d451320"
+  },
+  {
+    "path": "locityper/genotype-NA18608-full.log",
+    "bytes": 17968,
+    "sha256": "f0a343f047449af9cf4d0401893fe731f2b7f28606069bbd0230e2aba7438f4e"
+  },
+  {
+    "path": "locityper/genotype-NA18608-hprc.log",
+    "bytes": 17485,
+    "sha256": "d95d9bfc5440b3c7d3ae3b89540dc9f0872c55d37194af7d67a0285ca1473fa1"
+  },
+  {
+    "path": "locityper/genotype-NA18620-full.log",
+    "bytes": 17974,
+    "sha256": "149bb0f96d383a727e1ee9c329c32ba641e5f951f9b3872efab6842b704465dd"
+  },
+  {
+    "path": "locityper/genotype-NA18620-hprc.log",
+    "bytes": 17494,
+    "sha256": "2e21eaf998001d183dff43a198b5f2b91ab8e28df17d783e6d950d9659eb274b"
+  },
+  {
+    "path": "locityper/genotype-NA18747-full.log",
+    "bytes": 17970,
+    "sha256": "a8e75bd2cb69994246e809f31f8b6e6767ae201a88e341e6c6e7bc0813210c25"
+  },
+  {
+    "path": "locityper/genotype-NA18747-hprc.log",
+    "bytes": 17492,
+    "sha256": "0fdf7e6d1b97bb85cafb3c2c0687109e9ad359f8d7d62e18703282cd5e7568ec"
+  },
+  {
+    "path": "locityper/genotype-NA18940-full.log",
+    "bytes": 17967,
+    "sha256": "a0d56b3a1993a544de39bda3726cc1977fe9bab954777d820d7744681aa9a48f"
+  },
+  {
+    "path": "locityper/genotype-NA18940-hprc.log",
+    "bytes": 17483,
+    "sha256": "fa3d8a3b3d1a7aacfb02a2d449bee1f1d697290df9115282218f132701622569"
+  },
+  {
+    "path": "locityper/genotype-NA18952-full.log",
+    "bytes": 17972,
+    "sha256": "419d6850d0865124741f5f5fb7f030485e963131c866d29f75fe833e4c7d3c71"
+  },
+  {
+    "path": "locityper/genotype-NA18952-hprc.log",
+    "bytes": 17729,
+    "sha256": "358a4d470402e5c196fc095dbbe0c7e89ffea07e849646870a1ea13129c93153"
+  },
+  {
+    "path": "locityper/genotype-NA19087-full.log",
+    "bytes": 17967,
+    "sha256": "dc707cfac9886bc6d7847c3bd60500e1c4a8d6a185b5af389657ca6e9bbe87b7"
+  },
+  {
+    "path": "locityper/genotype-NA19087-hprc.log",
+    "bytes": 17493,
+    "sha256": "059c3d9d275f3032a488d5385584699988a2523eb9edfa2ba98d3e49300367c0"
+  },
+  {
+    "path": "locityper/genotype-NA19088-full.log",
+    "bytes": 17957,
+    "sha256": "1951549fdd49c4e5d87ec473774c401e63f30194304f4c1960d622d6d657ea68"
+  },
+  {
+    "path": "locityper/genotype-NA19088-hprc.log",
+    "bytes": 17483,
+    "sha256": "5a7cf65ab0f88965af62c90d202d154e0d8550db10ce113311ec9ed99efa8853"
+  },
+  {
+    "path": "locityper/genotype-NA20905-full.log",
+    "bytes": 17986,
+    "sha256": "23c21f4fbc3012ceb6af6e4c30669ef200be1001d69d1e04a37985b2d48294e6"
+  },
+  {
+    "path": "locityper/genotype-NA20905-hprc.log",
+    "bytes": 17503,
+    "sha256": "aca0a8184d8453812368fe593736da00b596ade6ad645b32ec3d0cc0ada19ebc"
+  },
+  {
+    "path": "locityper/genotype-NA21093-full.log",
+    "bytes": 17969,
+    "sha256": "1cd7b84f0d05ec0322e05eb7818f11617c3451dde38745b2add05e02e5dbaf1b"
+  },
+  {
+    "path": "locityper/genotype-NA21093-hprc.log",
+    "bytes": 17494,
+    "sha256": "6c1f6093895c53e9be36572005c65775767aefcb638733ea80fb5cfd089dcdac"
+  },
+  {
+    "path": "locityper/genotype-NA21106-full.log",
+    "bytes": 17978,
+    "sha256": "a3d670e6a3e58e6e99f6c67bbddcace7a3f8a78abedd18a9e30d3a15eafe071e"
+  },
+  {
+    "path": "locityper/genotype-NA21106-hprc.log",
+    "bytes": 17733,
+    "sha256": "164555255d164864cb28e66a5b1ac504ed52cb45257ba6d378baa6ae68d6e7cf"
+  },
+  {
+    "path": "locityper/genotype-NA21144-full.log",
+    "bytes": 17963,
+    "sha256": "94300f2b94dc75c5747a8a4a8fe0212a52931ee711bd74ccfc3e00972efb40de"
+  },
+  {
+    "path": "locityper/genotype-NA21144-hprc.log",
+    "bytes": 17486,
+    "sha256": "4e6c72be466140d8916b2bb0376887b1c1cab382d13bdf3c0f0a0d40fbedf2cd"
+  },
+  {
+    "path": "locityper/preproc/HG00558/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG00609/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG00658/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG00706/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG02027/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG02074/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG02132/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG02155/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG02165/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG02178/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG02391/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG02523/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG02602/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG02738/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG03017/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG03239/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG03688/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG03742/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG03784/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG03804/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG03831/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG03874/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG03927/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG04115/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG04157/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG04187/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG04199/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/HG04204/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA18570/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA18608/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA18620/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA18747/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA18940/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA18952/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA19087/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA19088/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA20905/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA21093/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA21106/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/preproc/NA21144/mapping.json",
+    "bytes": 114,
+    "sha256": "ca64e9a431417c7c3308884f7b82c6bd96039db2183ef7e400ff0a168d8f477c"
+  },
+  {
+    "path": "locityper/GRCh38.jf.COMPLETE",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "prepare_hla.py",
+    "bytes": 5395,
+    "sha256": "69a8eb4c8a131b187316b171e307d88532b850ca5b889fabaf94f348376d83a6"
+  },
+  {
+    "path": "prepare_locityper.py",
+    "bytes": 2288,
+    "sha256": "93ec1d41b18a610da17013bf33bd41768f210b53cdccba9fecb4903bfd9179ae"
+  },
+  {
+    "path": "prepare_panels.py",
+    "bytes": 5105,
+    "sha256": "1cd24f015a105151dbaea12ecd5df13240dd21c7cbcd4fe946971bcb05969b36"
+  },
+  {
+    "path": "score_hla.py",
+    "bytes": 6973,
+    "sha256": "bf5e29082be5361a7cf3d0e8b6b46a0fc799607a61cb01976f2f04cb7307dcd3"
+  },
+  {
+    "path": "score_locityper.py",
+    "bytes": 3355,
+    "sha256": "aef845a837a627e49dc43e05feca6e40aa1c122219b525601921ac247fa415fc"
+  },
+  {
+    "path": "score_variants.py",
+    "bytes": 6206,
+    "sha256": "f102a6eefda817c97d8df0dd207bea256d54091996f24b19f403897dfd126dcd"
+  },
+  {
+    "path": "archive.sbatch",
+    "bytes": 1689,
+    "sha256": "5ac634bf3f675b4701632111fb05d72f7ed481b4843e16bc12f12dcb9c3b40ae"
+  },
+  {
+    "path": "archive_locityper.sbatch",
+    "bytes": 1538,
+    "sha256": "ef5805483d61a9a5702a455bc068c884d45f6056d27fbfcbf38fec8a64c35eb9"
+  },
+  {
+    "path": "build.sbatch",
+    "bytes": 655,
+    "sha256": "2a1cdc4b5428c36e5308b8d3d3619c3680e585aa4de1e3d6b448e90b9b2ff8fb"
+  },
+  {
+    "path": "hla_build.sbatch",
+    "bytes": 748,
+    "sha256": "2ee38da702506b147322ab4c479e207e28b40a9075141b93ad0ccb7db5dd06a3"
+  },
+  {
+    "path": "hla_genotype.sbatch",
+    "bytes": 839,
+    "sha256": "fea0c9617d9a6d06408836d107f6f2751466d55da8a6b6eb6036442b6b3fb701"
+  },
+  {
+    "path": "index.sbatch",
+    "bytes": 641,
+    "sha256": "87047d9678a446d01f71cb29f7540d3630eef8a5657cc40976287f55dbb1abd9"
+  },
+  {
+    "path": "locityper_genotype.sbatch",
+    "bytes": 1101,
+    "sha256": "a51b6a94c96643564c9eb59d851870e3d23161b0283ef2670d5d679e341ede21"
+  },
+  {
+    "path": "locityper_setup.sbatch",
+    "bytes": 1118,
+    "sha256": "f36e3bdca10c0dc72ed30ab6b11452eba39421ed2b7baaeddfbcaaa53a4bbab8"
+  },
+  {
+    "path": "pangenie.sbatch",
+    "bytes": 879,
+    "sha256": "2c1e2cb708c7249c0644eba17c311ace8306a9a14340f8ac1a7eaca5f1217e6b"
+  },
+  {
+    "path": "score.sbatch",
+    "bytes": 388,
+    "sha256": "f6059bdd4b5645d859ac5365d08d44b97cd68fda02c100aa5e2d207c61de1f2c"
+  },
+  {
+    "path": "score_hla.sbatch",
+    "bytes": 369,
+    "sha256": "d0c21a231c91add283f21ecc5bd9a9729c45ca1042a54e14209c2b2045b35f9c"
+  },
+  {
+    "path": "score_locityper.sbatch",
+    "bytes": 386,
+    "sha256": "8f0e44c0a24a02e41527bf7ad82cb8e81a28a68ef6f947fa256d72998ca45099"
+  },
+  {
+    "path": "DESIGN.md",
+    "bytes": 7333,
+    "sha256": "92f05a047c33333be27b30c2e3c7257ce211f091800e590cd2995d4ebe755bfe"
+  }
+]

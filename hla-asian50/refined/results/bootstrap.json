@@ -1,0 +1,6 @@
+{
+  "replicates": 10000,
+  "seed": "SHA256 of 20260917 + endpoint key + baseline",
+  "unit": "paired donor resampling within ancestry",
+  "caveat": "Conditional on fixed test donors/sites/folds and overlapping training panels; no multiple-testing correction"
+}

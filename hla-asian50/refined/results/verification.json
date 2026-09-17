@@ -1,0 +1,13 @@
+{
+  "native_locus_results": 640,
+  "archive_member_hashes_verified": 851,
+  "eligible_HLA_comparisons_per_method": 358,
+  "methods": 6,
+  "no_calls_retained": true,
+  "variant_checks": {
+    "donors": 40,
+    "old_metrics_exactly_reproduced": true,
+    "all_previous_output_sites_preserved": true,
+    "full_output_contains_HPRC_output_sites": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "hla_sources.tar.gz": "9713409cfee222249004b519a2cdbce7c94ffe46595fd959967153de613aa9e3",
+  "prepare_panels.py": "1cd24f015a105151dbaea12ecd5df13240dd21c7cbcd4fe946971bcb05969b36",
+  "prepare_hla.py": "69a8eb4c8a131b187316b171e307d88532b850ca5b889fabaf94f348376d83a6",
+  "score_variants.py": "f102a6eefda817c97d8df0dd207bea256d54091996f24b19f403897dfd126dcd",
+  "score_hla.py": "bf5e29082be5361a7cf3d0e8b6b46a0fc799607a61cb01976f2f04cb7307dcd3",
+  "DESIGN.md": "92f05a047c33333be27b30c2e3c7257ce211f091800e590cd2995d4ebe755bfe"
+}

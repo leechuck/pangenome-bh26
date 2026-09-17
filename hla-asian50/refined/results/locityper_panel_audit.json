@@ -1,0 +1,564 @@
+[
+  [
+    {
+      "fold": 0,
+      "arm": "full",
+      "gene": "A",
+      "haplotypes": 158,
+      "training_donors": 363
+    },
+    {
+      "fold": 0,
+      "arm": "full",
+      "gene": "B",
+      "haplotypes": 335,
+      "training_donors": 363
+    },
+    {
+      "fold": 0,
+      "arm": "full",
+      "gene": "C",
+      "haplotypes": 251,
+      "training_donors": 363
+    },
+    {
+      "fold": 0,
+      "arm": "full",
+      "gene": "DRB1",
+      "haplotypes": 417,
+      "training_donors": 363
+    },
+    {
+      "fold": 0,
+      "arm": "full",
+      "gene": "DQA1",
+      "haplotypes": 144,
+      "training_donors": 363
+    },
+    {
+      "fold": 0,
+      "arm": "full",
+      "gene": "DQB1",
+      "haplotypes": 172,
+      "training_donors": 363
+    },
+    {
+      "fold": 0,
+      "arm": "full",
+      "gene": "DPA1",
+      "haplotypes": 144,
+      "training_donors": 363
+    },
+    {
+      "fold": 0,
+      "arm": "full",
+      "gene": "DPB1",
+      "haplotypes": 226,
+      "training_donors": 363
+    },
+    {
+      "fold": 0,
+      "arm": "hprc",
+      "gene": "A",
+      "haplotypes": 97,
+      "training_donors": 224
+    },
+    {
+      "fold": 0,
+      "arm": "hprc",
+      "gene": "B",
+      "haplotypes": 235,
+      "training_donors": 224
+    },
+    {
+      "fold": 0,
+      "arm": "hprc",
+      "gene": "C",
+      "haplotypes": 173,
+      "training_donors": 224
+    },
+    {
+      "fold": 0,
+      "arm": "hprc",
+      "gene": "DRB1",
+      "haplotypes": 263,
+      "training_donors": 224
+    },
+    {
+      "fold": 0,
+      "arm": "hprc",
+      "gene": "DQA1",
+      "haplotypes": 110,
+      "training_donors": 224
+    },
+    {
+      "fold": 0,
+      "arm": "hprc",
+      "gene": "DQB1",
+      "haplotypes": 126,
+      "training_donors": 224
+    },
+    {
+      "fold": 0,
+      "arm": "hprc",
+      "gene": "DPA1",
+      "haplotypes": 93,
+      "training_donors": 224
+    },
+    {
+      "fold": 0,
+      "arm": "hprc",
+      "gene": "DPB1",
+      "haplotypes": 152,
+      "training_donors": 224
+    },
+    {
+      "fold": 1,
+      "arm": "full",
+      "gene": "A",
+      "haplotypes": 159,
+      "training_donors": 363
+    },
+    {
+      "fold": 1,
+      "arm": "full",
+      "gene": "B",
+      "haplotypes": 335,
+      "training_donors": 363
+    },
+    {
+      "fold": 1,
+      "arm": "full",
+      "gene": "C",
+      "haplotypes": 250,
+      "training_donors": 363
+    },
+    {
+      "fold": 1,
+      "arm": "full",
+      "gene": "DRB1",
+      "haplotypes": 413,
+      "training_donors": 363
+    },
+    {
+      "fold": 1,
+      "arm": "full",
+      "gene": "DQA1",
+      "haplotypes": 143,
+      "training_donors": 363
+    },
+    {
+      "fold": 1,
+      "arm": "full",
+      "gene": "DQB1",
+      "haplotypes": 171,
+      "training_donors": 363
+    },
+    {
+      "fold": 1,
+      "arm": "full",
+      "gene": "DPA1",
+      "haplotypes": 143,
+      "training_donors": 363
+    },
+    {
+      "fold": 1,
+      "arm": "full",
+      "gene": "DPB1",
+      "haplotypes": 224,
+      "training_donors": 363
+    },
+    {
+      "fold": 1,
+      "arm": "hprc",
+      "gene": "A",
+      "haplotypes": 98,
+      "training_donors": 224
+    },
+    {
+      "fold": 1,
+      "arm": "hprc",
+      "gene": "B",
+      "haplotypes": 234,
+      "training_donors": 224
+    },
+    {
+      "fold": 1,
+      "arm": "hprc",
+      "gene": "C",
+      "haplotypes": 173,
+      "training_donors": 224
+    },
+    {
+      "fold": 1,
+      "arm": "hprc",
+      "gene": "DRB1",
+      "haplotypes": 258,
+      "training_donors": 224
+    },
+    {
+      "fold": 1,
+      "arm": "hprc",
+      "gene": "DQA1",
+      "haplotypes": 108,
+      "training_donors": 224
+    },
+    {
+      "fold": 1,
+      "arm": "hprc",
+      "gene": "DQB1",
+      "haplotypes": 125,
+      "training_donors": 224
+    },
+    {
+      "fold": 1,
+      "arm": "hprc",
+      "gene": "DPA1",
+      "haplotypes": 94,
+      "training_donors": 224
+    },
+    {
+      "fold": 1,
+      "arm": "hprc",
+      "gene": "DPB1",
+      "haplotypes": 150,
+      "training_donors": 224
+    },
+    {
+      "fold": 2,
+      "arm": "full",
+      "gene": "A",
+      "haplotypes": 158,
+      "training_donors": 363
+    },
+    {
+      "fold": 2,
+      "arm": "full",
+      "gene": "B",
+      "haplotypes": 338,
+      "training_donors": 363
+    },
+    {
+      "fold": 2,
+      "arm": "full",
+      "gene": "C",
+      "haplotypes": 250,
+      "training_donors": 363
+    },
+    {
+      "fold": 2,
+      "arm": "full",
+      "gene": "DRB1",
+      "haplotypes": 414,
+      "training_donors": 363
+    },
+    {
+      "fold": 2,
+      "arm": "full",
+      "gene": "DQA1",
+      "haplotypes": 143,
+      "training_donors": 363
+    },
+    {
+      "fold": 2,
+      "arm": "full",
+      "gene": "DQB1",
+      "haplotypes": 170,
+      "training_donors": 363
+    },
+    {
+      "fold": 2,
+      "arm": "full",
+      "gene": "DPA1",
+      "haplotypes": 146,
+      "training_donors": 363
+    },
+    {
+      "fold": 2,
+      "arm": "full",
+      "gene": "DPB1",
+      "haplotypes": 227,
+      "training_donors": 363
+    },
+    {
+      "fold": 2,
+      "arm": "hprc",
+      "gene": "A",
+      "haplotypes": 97,
+      "training_donors": 224
+    },
+    {
+      "fold": 2,
+      "arm": "hprc",
+      "gene": "B",
+      "haplotypes": 236,
+      "training_donors": 224
+    },
+    {
+      "fold": 2,
+      "arm": "hprc",
+      "gene": "C",
+      "haplotypes": 170,
+      "training_donors": 224
+    },
+    {
+      "fold": 2,
+      "arm": "hprc",
+      "gene": "DRB1",
+      "haplotypes": 259,
+      "training_donors": 224
+    },
+    {
+      "fold": 2,
+      "arm": "hprc",
+      "gene": "DQA1",
+      "haplotypes": 109,
+      "training_donors": 224
+    },
+    {
+      "fold": 2,
+      "arm": "hprc",
+      "gene": "DQB1",
+      "haplotypes": 125,
+      "training_donors": 224
+    },
+    {
+      "fold": 2,
+      "arm": "hprc",
+      "gene": "DPA1",
+      "haplotypes": 98,
+      "training_donors": 224
+    },
+    {
+      "fold": 2,
+      "arm": "hprc",
+      "gene": "DPB1",
+      "haplotypes": 154,
+      "training_donors": 224
+    },
+    {
+      "fold": 3,
+      "arm": "full",
+      "gene": "A",
+      "haplotypes": 160,
+      "training_donors": 363
+    },
+    {
+      "fold": 3,
+      "arm": "full",
+      "gene": "B",
+      "haplotypes": 338,
+      "training_donors": 363
+    },
+    {
+      "fold": 3,
+      "arm": "full",
+      "gene": "C",
+      "haplotypes": 251,
+      "training_donors": 363
+    },
+    {
+      "fold": 3,
+      "arm": "full",
+      "gene": "DRB1",
+      "haplotypes": 421,
+      "training_donors": 363
+    },
+    {
+      "fold": 3,
+      "arm": "full",
+      "gene": "DQA1",
+      "haplotypes": 144,
+      "training_donors": 363
+    },
+    {
+      "fold": 3,
+      "arm": "full",
+      "gene": "DQB1",
+      "haplotypes": 173,
+      "training_donors": 363
+    },
+    {
+      "fold": 3,
+      "arm": "full",
+      "gene": "DPA1",
+      "haplotypes": 145,
+      "training_donors": 363
+    },
+    {
+      "fold": 3,
+      "arm": "full",
+      "gene": "DPB1",
+      "haplotypes": 226,
+      "training_donors": 363
+    },
+    {
+      "fold": 3,
+      "arm": "hprc",
+      "gene": "A",
+      "haplotypes": 100,
+      "training_donors": 224
+    },
+    {
+      "fold": 3,
+      "arm": "hprc",
+      "gene": "B",
+      "haplotypes": 238,
+      "training_donors": 224
+    },
+    {
+      "fold": 3,
+      "arm": "hprc",
+      "gene": "C",
+      "haplotypes": 174,
+      "training_donors": 224
+    },
+    {
+      "fold": 3,
+      "arm": "hprc",
+      "gene": "DRB1",
+      "haplotypes": 266,
+      "training_donors": 224
+    },
+    {
+      "fold": 3,
+      "arm": "hprc",
+      "gene": "DQA1",
+      "haplotypes": 110,
+      "training_donors": 224
+    },
+    {
+      "fold": 3,
+      "arm": "hprc",
+      "gene": "DQB1",
+      "haplotypes": 127,
+      "training_donors": 224
+    },
+    {
+      "fold": 3,
+      "arm": "hprc",
+      "gene": "DPA1",
+      "haplotypes": 97,
+      "training_donors": 224
+    },
+    {
+      "fold": 3,
+      "arm": "hprc",
+      "gene": "DPB1",
+      "haplotypes": 154,
+      "training_donors": 224
+    },
+    {
+      "fold": 4,
+      "arm": "full",
+      "gene": "A",
+      "haplotypes": 158,
+      "training_donors": 363
+    },
+    {
+      "fold": 4,
+      "arm": "full",
+      "gene": "B",
+      "haplotypes": 331,
+      "training_donors": 363
+    },
+    {
+      "fold": 4,
+      "arm": "full",
+      "gene": "C",
+      "haplotypes": 249,
+      "training_donors": 363
+    },
+    {
+      "fold": 4,
+      "arm": "full",
+      "gene": "DRB1",
+      "haplotypes": 413,
+      "training_donors": 363
+    },
+    {
+      "fold": 4,
+      "arm": "full",
+      "gene": "DQA1",
+      "haplotypes": 145,
+      "training_donors": 363
+    },
+    {
+      "fold": 4,
+      "arm": "full",
+      "gene": "DQB1",
+      "haplotypes": 171,
+      "training_donors": 363
+    },
+    {
+      "fold": 4,
+      "arm": "full",
+      "gene": "DPA1",
+      "haplotypes": 146,
+      "training_donors": 363
+    },
+    {
+      "fold": 4,
+      "arm": "full",
+      "gene": "DPB1",
+      "haplotypes": 225,
+      "training_donors": 363
+    },
+    {
+      "fold": 4,
+      "arm": "hprc",
+      "gene": "A",
+      "haplotypes": 97,
+      "training_donors": 225
+    },
+    {
+      "fold": 4,
+      "arm": "hprc",
+      "gene": "B",
+      "haplotypes": 234,
+      "training_donors": 225
+    },
+    {
+      "fold": 4,
+      "arm": "hprc",
+      "gene": "C",
+      "haplotypes": 171,
+      "training_donors": 225
+    },
+    {
+      "fold": 4,
+      "arm": "hprc",
+      "gene": "DRB1",
+      "haplotypes": 262,
+      "training_donors": 225
+    },
+    {
+      "fold": 4,
+      "arm": "hprc",
+      "gene": "DQA1",
+      "haplotypes": 111,
+      "training_donors": 225
+    },
+    {
+      "fold": 4,
+      "arm": "hprc",
+      "gene": "DQB1",
+      "haplotypes": 126,
+      "training_donors": 225
+    },
+    {
+      "fold": 4,
+      "arm": "hprc",
+      "gene": "DPA1",
+      "haplotypes": 98,
+      "training_donors": 225
+    },
+    {
+      "fold": 4,
+      "arm": "hprc",
+      "gene": "DPB1",
+      "haplotypes": 153,
+      "training_donors": 225
+    }
+  ]
+]

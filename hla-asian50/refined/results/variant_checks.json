@@ -1,0 +1,6 @@
+{
+  "donors": 40,
+  "old_metrics_exactly_reproduced": true,
+  "all_previous_output_sites_preserved": true,
+  "full_output_contains_HPRC_output_sites": true
+}
