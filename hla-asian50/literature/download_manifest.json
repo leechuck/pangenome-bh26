@@ -1,0 +1,35 @@
+[
+  {
+    "name": "locityper2025",
+    "doi": "10.1038/s41588-025-02362-4",
+    "results": 1,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12597825/fullTextXML",
+    "sha256": "3424ff42c2a02975a58df7a566c74b39db78eecd4b194f35ce75c4ed4c3a450b"
+  },
+  {
+    "name": "pangenie2022",
+    "doi": "10.1038/s41588-022-01043-w",
+    "results": 1,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9005351/fullTextXML",
+    "sha256": "197e45093fb45104289d020f11221c9dc79b0b4a2601621c3f89c533dd1926e0"
+  },
+  {
+    "name": "t1k2023",
+    "doi": "10.1101/gr.277585.122",
+    "results": 1,
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10519407/fullTextXML",
+    "sha256": "6ba5b20f9ad3d67fd00dc099c78eeed71b4451bdd8679bfcd47a0d84a08a89e5"
+  },
+  {
+    "name": "cosigt2026",
+    "doi": "10.1186/s13059-026-04242-4",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13551797/fullTextXML",
+    "sha256": "29c879cdc581c907da66537de3a97b41ecf4703e31e78e1e256113033ffd9197"
+  },
+  {
+    "name": "spechla2023",
+    "doi": "10.1016/j.crmeth.2023.100589",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10545945/fullTextXML",
+    "sha256": "b8f8ba205c800081f938ee34240a31c8832da7d97ff81b43305a29000ac02cbb"
+  }
+]

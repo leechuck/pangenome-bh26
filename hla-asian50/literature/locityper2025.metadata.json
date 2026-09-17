@@ -1,0 +1,57 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1038/s41588-025-02362-4",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41107551",
+        "source": "MED",
+        "pmid": "41107551",
+        "pmcid": "PMC12597825",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12597825"
+          ]
+        },
+        "doi": "10.1038/s41588-025-02362-4",
+        "title": "Locityper enables targeted genotyping of complex polymorphic genes.",
+        "authorString": "Prodanov T, Plender EG, Seebohm G, Meuth SG, Eichler EE, Marschall T.",
+        "journalTitle": "Nat Genet",
+        "issue": "11",
+        "journalVolume": "57",
+        "pubYear": "2025",
+        "journalIssn": "1061-4036; 1546-1718; ",
+        "pageInfo": "2901-2908",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "bioproject",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2025-10-17",
+        "firstIndexDate": "2025-10-19"
+      }
+    ]
+  }
+}

@@ -7,6 +7,7 @@
 - [Dedicated C4 comparator calibration](hla-targeted/COMPARATOR_CALIBRATION.md)
 - [Structural phase counterexamples](hla-targeted/STRUCTURAL_ERRORS.md)
 - [Targeted assay reproduction](hla-targeted/README.md)
+- [Asian 50-donor feasibility experiment and literature assessment](hla-asian50/README.md) (accuracy benchmark not yet run)
 - [Extended HLA panel](hla-structural/results/extended_HLA_panel.tsv)
 - [HLA reproduction instructions](hla-analysis/REPRODUCIBILITY.md)
 - [Structural reproduction instructions](hla-structural/README.md)

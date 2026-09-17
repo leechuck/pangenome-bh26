@@ -1,0 +1,59 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1016/j.crmeth.2023.100589",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "37714157",
+        "source": "MED",
+        "pmid": "37714157",
+        "pmcid": "PMC10545945",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10545945"
+          ]
+        },
+        "doi": "10.1016/j.crmeth.2023.100589",
+        "title": "SpecHLA enables full-resolution HLA typing from sequencing data.",
+        "authorString": "Wang S, Wang M, Chen L, Pan G, Wang Y, Li SC.",
+        "journalTitle": "Cell Rep Methods",
+        "issue": "9",
+        "journalVolume": "3",
+        "pubYear": "2023",
+        "journalIssn": "2667-2375",
+        "pageInfo": "100589",
+        "pubType": "brief-report; research support, non-u.s. gov't; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "bioproject",
+            "arrayexpress",
+            "igsr",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2023-09-14",
+        "firstIndexDate": "2023-09-17"
+      }
+    ]
+  }
+}

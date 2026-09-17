@@ -1,0 +1,40 @@
+{
+  "seed": "asian50-20260917-v1",
+  "eligible_EAS_donors": 55,
+  "selected": 50,
+  "populations": {
+    "CDX": 5,
+    "CHB": 5,
+    "CHS": 10,
+    "JPT": 19,
+    "KHV": 11
+  },
+  "fold_sizes": {
+    "0": 10,
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10
+  },
+  "experimental_HLA_donors": 23,
+  "experimental_HLA_donor_gene_rows": 115,
+  "previously_evaluated_donors": 33,
+  "oracle": {
+    "DRB_full_panel": {
+      "represented": 100,
+      "total": 100
+    },
+    "DRB_HPRC_only": {
+      "represented": 100,
+      "total": 100
+    },
+    "RCCX_full_panel": {
+      "represented": 95,
+      "total": 100
+    },
+    "RCCX_HPRC_only": {
+      "represented": 95,
+      "total": 100
+    }
+  }
+}

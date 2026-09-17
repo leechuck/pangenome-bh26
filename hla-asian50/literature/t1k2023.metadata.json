@@ -1,0 +1,57 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1101/gr.277585.122",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "37169596",
+        "source": "MED",
+        "pmid": "37169596",
+        "pmcid": "PMC10519407",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10519407"
+          ]
+        },
+        "doi": "10.1101/gr.277585.122",
+        "title": "Efficient and accurate KIR and HLA genotyping with massively parallel sequencing data.",
+        "authorString": "Song L, Bai G, Liu XS, Li B, Li H.",
+        "journalTitle": "Genome Res",
+        "issue": "6",
+        "journalVolume": "33",
+        "pubYear": "2023",
+        "journalIssn": "1088-9051; 1549-5469; ",
+        "pageInfo": "923-931",
+        "pubType": "research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 59,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "bioproject",
+            "igsr"
+          ]
+        },
+        "firstPublicationDate": "2023-05-11",
+        "firstIndexDate": "2023-05-12"
+      }
+    ]
+  }
+}

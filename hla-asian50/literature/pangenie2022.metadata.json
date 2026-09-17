@@ -1,0 +1,57 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1038/s41588-022-01043-w",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35410384",
+        "source": "MED",
+        "pmid": "35410384",
+        "pmcid": "PMC9005351",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9005351"
+          ]
+        },
+        "doi": "10.1038/s41588-022-01043-w",
+        "title": "Pangenome-based genome inference allows efficient and accurate genotyping across a wide spectrum of variant classes.",
+        "authorString": "Ebler J, Ebert P, Clarke WE, Rausch T, Audano PA, Houwaart T, Mao Y, Korbel JO, Eichler EE, Zody MC, Dilthey AT, Marschall T.",
+        "journalTitle": "Nat Genet",
+        "issue": "4",
+        "journalVolume": "54",
+        "pubYear": "2022",
+        "journalIssn": "1061-4036; 1546-1718; ",
+        "pageInfo": "518-525",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 216,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refsnp",
+            "igsr"
+          ]
+        },
+        "firstPublicationDate": "2022-04-11",
+        "firstIndexDate": "2022-04-13"
+      }
+    ]
+  }
+}

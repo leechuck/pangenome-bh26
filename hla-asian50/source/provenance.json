@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-09-17T00:34:15.201138+00:00",
+  "status": "feasibility_complete_accuracy_benchmark_not_run",
+  "input_sha256": {
+    "hla-pilot/source/1000G.ped": "4e164b717433fc9bfc16e29b20e5b4659b4216185b3275322d421fe3d323c132",
+    "hla-pilot/source/1000G_HLA.txt": "0455d0302ac12a29ab87091cab5e3e557416f6301e89fb122eef8d49cd5644ec",
+    "hla-audit/2026-09-16/panel_manifest.tsv": "cf420f6a051b9f810188d765dd425720876ed06b2e7aa23cf7815d577ee0112f",
+    "hla-structural/source/catalogue.tsv": "540a1f284c4f10deb035280fd256a115312bc90beeed4496d96899d2ae1eb187",
+    "hla-structural/source/evaluation_donors.txt": "75095fecae5e02b683c06d6b7144b410faa2d4ae7692d588a9bb889aade1bb8e",
+    "hla-targeted/source/validation_donors.tsv": "204a08b35943d3b953511ce74b337b09d044a5008fc674f64e4234edaa5edc2d"
+  },
+  "search_queries": [
+    "pangenome HLA genotyping short reads graph Kourami HLA LA structural variants PanGenie 2025 2026",
+    "HLA typing benchmark 2025 2026 T1K arcasHLA HISAT genotype WGS Asian",
+    "T1K HLA typing github SpecHLA HLA LA benchmark WGS 2025",
+    "Locityper Nature Genetics haplotype 2025",
+    "pangenome HLA Asian short read genotyping benchmark"
+  ]
+}

@@ -1,0 +1,26 @@
+# Literature search: 17 September 2026
+
+Targeted search of primary articles and official software documentation, followed by full-text inspection. This is not a systematic review or a claim that every possible panel-specific experiment has been published. Saved XML files were parsed and article titles checked; TXT files are readable extractions. `download_manifest.json` records source URLs and SHA256 hashes.
+
+## Direct precedents
+
+- [Ebler et al., 2022, PanGenie](https://doi.org/10.1038/s41588-022-01043-w), `pangenie2022.xml/.txt`: pangenome haplotype/k-mer inference across SNPs, indels and SVs; explicitly includes a leave-one-out HLA-region experiment. This directly precedes the broad proposed idea. [Official documentation](https://pangenie.readthedocs.io/en/latest/) explains that it genotypes provided variants rather than discovering unseen alleles, and warns that regional input requires matching regional reads/reference.
+- [Logsdon et al., 2025](https://doi.org/10.1038/s41586-025-09140-6): pangenome-based genotyping in 3,202 1000 Genomes individuals, with SNVs, indels and SVs and MHC/RCCX analysis. Full text already archived at `../../literature/2026-09-16/logsdon2025_complex_genetic_variation.xml` and `.txt`. This is existing evidence that the approach scales and can extend variant access, not evidence for superiority of our panel.
+- [Prodanov et al., 2025, Locityper](https://doi.org/10.1038/s41588-025-02362-4), `locityper2025.xml/.txt`: targeted haplotype inference for complex loci including HLA, evaluated against variant-calling approaches and with held-out samples. It uses haplotype sequence panels without requiring a graph topology. Its results reinforce the distinction between the benefit of haplotype diversity and the benefit of a graph representation.
+- [Bolognini et al., 2026, COSIGT](https://doi.org/10.1186/s13059-026-04242-4), published September 8, `cosigt2026.xml/.txt`: especially close precedent, complex-locus pangenome genotyping with SV evaluation and HLA typing from annotated inferred haplotypes. Its HLA comparison used T1K and microarray-imputed HLA labels; excluded cases include types absent from the panel and failed calls. Our proposed evaluation should retain attempted-sample denominators and distinguish experimental labels from imputation. A different truth design is useful, but does not make graph-based HLA typing novel.
+
+## Classical HLA comparator rationale
+
+- [Song et al., 2023, T1K](https://doi.org/10.1101/gr.277585.122), `t1k2023.xml/.txt`: flexible HLA/KIR genotyping, with WGS support and novel SNP post-analysis. [Official implementation](https://github.com/mourisl/T1K) documents `--preset hla-wgs`. Appropriate broad, computationally accessible comparator.
+- [Wang et al., 2023, SpecHLA](https://doi.org/10.1016/j.crmeth.2023.100589), `spechla2023.xml/.txt`: diploid HLA sequence reconstruction and typing, with WGS benchmarks and multiple specialist comparisons. [Official implementation](https://github.com/deepomicslab/SpecHLA) supports whole-gene WGS analysis. Useful for sequence-level as well as classical-label comparison, where callable regions overlap.
+- [Dilthey et al., 2019, HLA*LA](https://doi.org/10.1093/bioinformatics/btz235): graph-based HLA typing; full text previously saved under `../../literature/2026-09-16/dilthey2019_hlala.xml/.txt`. [Official implementation](https://github.com/DiltheyLab/HLA-LA). Provides a strong established graph-based specialist comparator, not a single-reference control.
+
+Kourami and HLA-HD are also relevant precedents already archived in the earlier literature review. “SOTA” is task- and dataset-dependent; choosing three established tools does not establish a universal ranking.
+
+## Why improvement is plausible, and why it may not happen
+
+A diverse panel can represent non-reference insertions, divergent sequences and multi-gene haplotypes absent from GRCh38. Reads can then support known allele sequences and junctions rather than relying solely on discordant alignment to one reference. Linked haplotype information can help where individual reads are ambiguous. These mechanisms are supported by the PanGenie and Locityper precedents; their effect in our panel remains an empirical hypothesis.
+
+Specialist HLA methods already compare many known alleles, often with graphs or local assembly. Our 754 input haplotypes are not 754 independent donors, and an assembly panel need not be more comprehensive than IPD-IMGT/HLA for classical alleles. Repeated C4 modules can remain indistinguishable with short reads; increased graph complexity can create ambiguous alignments. Haplotype imputation can misassign a rare/new structure, and total copy number does not establish physical phase. Previously, our calibrated linear-depth C4 baseline tied the graph-derived method, and targeted module contexts added no held-out structural accuracy.
+
+Our new 50-donor catalogue experiment finds identical structural-signature availability in full and HPRC-only panels. Thus we have no evidence yet that the extra cohorts improve this coarse endpoint. Fine-scale sequence/SV performance remains open. This supports a controlled panel ablation if pursued, not a promise that SVs “should improve.”
