@@ -1,0 +1,35 @@
+{
+  "utc": "2026-09-17T00:58:59.931620+00:00",
+  "seed": "mixed-asian-pilot-20260917-v1",
+  "status": "initial_40_available_strata_Arabian_pending",
+  "reserved_Arabian_slots": 10,
+  "strata": {
+    "EAS": 20,
+    "SAS": 20
+  },
+  "populations": {
+    "CDX": 4,
+    "CHB": 4,
+    "CHS": 4,
+    "JPT": 4,
+    "BEB": 5,
+    "GIH": 4,
+    "ITU": 3,
+    "PJL": 4,
+    "KHV": 4,
+    "STU": 4
+  },
+  "experimental_HLA_donors": 8,
+  "fold_sizes": {
+    "0": 8,
+    "1": 8,
+    "2": 8,
+    "3": 8,
+    "4": 8
+  },
+  "selection": "Population-balanced within stratum, experimental-label availability then fixed hash; no prediction outcomes",
+  "files": {
+    "donors.tsv": "f68c6fcd534f99eda2bb252070f6a05a0dd9229dc2987b557f920476bd836c2e",
+    "excluded_paths.tsv": "7ed82c4279ce01bbf4dee71d559c9452081f55bae31684305965c9423b7ebc89"
+  }
+}

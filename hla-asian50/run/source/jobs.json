@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-09-17T01:07:35.771439+00:00",
+  "jobs": {
+    "install": 20632337,
+    "T1K": 20632380,
+    "graph_failed_old_vg": 20632398,
+    "full_graph": 20632448,
+    "SpecHLA": 20632470,
+    "panel_index": 20632534,
+    "PanGenie": 20632571
+  },
+  "initial_cohort": 40,
+  "Arabian_pending": true
+}

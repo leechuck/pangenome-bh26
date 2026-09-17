@@ -1,5 +1,7 @@
 # Asian HLA/MHC benchmark: literature and 50-donor feasibility experiment
 
+**Execution update:** Robert explicitly authorised execution. [The initial mixed-cohort run](run/README.md) has started on DDBJ (20 East Asian + 20 South Asian; Arabian WGS inputs pending). The feasibility status and decision below are historical.
+
 **Scope update:** Robert has requested separate East Asian, South Asian and West Asian/Arabian analyses. See [the revised mixed-Asian design](MIXED_ASIAN_DESIGN.md). The East-Asian-only selection and results below are historical; West Asian/Arabian matched reads and validation data must be verified before a new cohort is frozen.
 
 Status (17 September 2026): literature review, deterministic cohort selection, remote input audit and held-out structural-representation experiment complete. **The 50-donor short-read typing / SNV / SV accuracy benchmark has not run.** There are no new read-derived accuracy results in this directory.

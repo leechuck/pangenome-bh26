@@ -1,0 +1,5 @@
+vg version v1.76.1-89-gf2ed0bbd4 "Chomper"
+Compiled with g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0 on Linux
+Linked against libstd++ 20230528
+Using HTSlib headers 101990, library 1.19.1-29-g3cfe8769
+Built by ghickey@mustard

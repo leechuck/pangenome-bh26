@@ -1,0 +1,9 @@
+__pycache__/
+reads/
+graph/
+panels/
+t1k/
+spechla/
+pangenie/
+logs/
+source/t1k_dna.fa

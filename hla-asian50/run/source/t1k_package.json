@@ -1,0 +1,122 @@
+{
+    "arch": "x86_64",
+    "build": "h43eeafb_2",
+    "build_number": 2,
+    "build_string": "h43eeafb_2",
+    "channel": "bioconda",
+    "constrains": [],
+    "depends": [
+        "curl",
+        "libgcc-ng >=12",
+        "libstdcxx-ng >=12",
+        "libzlib >=1.2.13,<2.0a0",
+        "perl",
+        "python"
+    ],
+    "extracted_package_dir": "/lustre10/home/leechuck/hla/mm/pkgs/https/conda.anaconda.org/bioconda/linux-64/t1k-1.0.6-h43eeafb_2",
+    "files": [
+        "bin/AddGeneCoord.pl",
+        "bin/ParseDatFile.pl",
+        "bin/analyzer",
+        "bin/bam-extractor",
+        "bin/fastq-extractor",
+        "bin/genotyper",
+        "bin/run-t1k",
+        "bin/t1k-build.pl",
+        "bin/t1k-merge.py",
+        "bin/t1k-smartseq.pl"
+    ],
+    "fn": "t1k-1.0.6-h43eeafb_2.tar.bz2",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/lustre10/home/leechuck/hla/mm/pkgs/https/conda.anaconda.org/bioconda/linux-64/t1k-1.0.6-h43eeafb_2",
+        "type": 1
+    },
+    "md5": "ed815357c61aedd3b2a99c8da9179a4b",
+    "name": "t1k",
+    "package_tarball_full_path": "/lustre10/home/leechuck/hla/mm/pkgs/https/conda.anaconda.org/bioconda/linux-64/t1k-1.0.6-h43eeafb_2.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/AddGeneCoord.pl",
+                "path_type": "hardlink",
+                "sha256": "645bd19a28257a395e4e5d8b278de7b2003b23b0dd0d03cbb0b0295138816c0b",
+                "sha256_in_prefix": "645bd19a28257a395e4e5d8b278de7b2003b23b0dd0d03cbb0b0295138816c0b",
+                "size_in_bytes": 2141
+            },
+            {
+                "_path": "bin/ParseDatFile.pl",
+                "path_type": "hardlink",
+                "sha256": "8dc86688ebf55827679cbcccdbbe98849db3b12e3ffdc5f88f7ebc190f002983",
+                "sha256_in_prefix": "8dc86688ebf55827679cbcccdbbe98849db3b12e3ffdc5f88f7ebc190f002983",
+                "size_in_bytes": 15589
+            },
+            {
+                "_path": "bin/analyzer",
+                "path_type": "hardlink",
+                "sha256": "9e52ef72eae40f7a7455f8d063df64669fd3f849c4593c650eec7a598c5c5d82",
+                "sha256_in_prefix": "9e52ef72eae40f7a7455f8d063df64669fd3f849c4593c650eec7a598c5c5d82",
+                "size_in_bytes": 192216
+            },
+            {
+                "_path": "bin/bam-extractor",
+                "path_type": "hardlink",
+                "sha256": "c51ef58204244ba3c1a8ce412a9170871b38ddc26b581c0b7f881fb6f4a23360",
+                "sha256_in_prefix": "c51ef58204244ba3c1a8ce412a9170871b38ddc26b581c0b7f881fb6f4a23360",
+                "size_in_bytes": 461544
+            },
+            {
+                "_path": "bin/fastq-extractor",
+                "path_type": "hardlink",
+                "sha256": "96a9ca88b5659fc550e5e36d3fd3906a919324dfc0dde61cf049076cc98834fc",
+                "sha256_in_prefix": "96a9ca88b5659fc550e5e36d3fd3906a919324dfc0dde61cf049076cc98834fc",
+                "size_in_bytes": 65248
+            },
+            {
+                "_path": "bin/genotyper",
+                "path_type": "hardlink",
+                "sha256": "c4fdcfbc8c8baca2911d4770fe8eec0104223d363f38b79a409fc7ef96a2352c",
+                "sha256_in_prefix": "c4fdcfbc8c8baca2911d4770fe8eec0104223d363f38b79a409fc7ef96a2352c",
+                "size_in_bytes": 182864
+            },
+            {
+                "_path": "bin/run-t1k",
+                "path_type": "hardlink",
+                "sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+                "sha256_in_prefix": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+                "size_in_bytes": 12303
+            },
+            {
+                "_path": "bin/t1k-build.pl",
+                "path_type": "hardlink",
+                "sha256": "75c7a9560790a1145c7de1019491e81c8ca513298959b4c69e9be414d23317ab",
+                "sha256_in_prefix": "75c7a9560790a1145c7de1019491e81c8ca513298959b4c69e9be414d23317ab",
+                "size_in_bytes": 4419
+            },
+            {
+                "_path": "bin/t1k-merge.py",
+                "path_type": "hardlink",
+                "sha256": "8e18831cbfbfa428ac2266d241f5242649f4622e651f306db11822adc52ca147",
+                "sha256_in_prefix": "8e18831cbfbfa428ac2266d241f5242649f4622e651f306db11822adc52ca147",
+                "size_in_bytes": 2882
+            },
+            {
+                "_path": "bin/t1k-smartseq.pl",
+                "path_type": "hardlink",
+                "sha256": "74a2471c82067d5d34b4328d2e241bd4c2e1f4776aab17930e69d4039b16c4f9",
+                "sha256_in_prefix": "74a2471c82067d5d34b4328d2e241bd4c2e1f4776aab17930e69d4039b16c4f9",
+                "size_in_bytes": 4667
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "t1k",
+    "sha256": "515cd8b26b01fb1b8d1ea15cc2d2ed2d9c1a2c42c5fb7fde27dfe89f46d43e43",
+    "size": 390588,
+    "subdir": "linux-64",
+    "timestamp": 1723450145,
+    "url": "https://conda.anaconda.org/bioconda/linux-64/t1k-1.0.6-h43eeafb_2.tar.bz2",
+    "version": "1.0.6"
+}
