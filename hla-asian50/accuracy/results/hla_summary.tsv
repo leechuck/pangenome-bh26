@@ -1,0 +1,13 @@
+method	gene	donors	n	called	correct	allele_n	allele_matches
+T1K	A	8	8	8	8	16	16
+T1K	B	8	8	8	7	16	15
+T1K	C	8	8	8	7	16	15
+T1K	DRB1	8	8	8	6	16	13
+T1K	DQB1	7	7	7	6	14	13
+T1K	ALL	8	39	39	34	78	72
+SpecHLA	A	8	8	8	8	16	16
+SpecHLA	B	8	8	8	8	16	16
+SpecHLA	C	8	8	8	8	16	16
+SpecHLA	DRB1	8	8	8	5	16	12
+SpecHLA	DQB1	7	7	7	7	14	14
+SpecHLA	ALL	8	39	39	36	78	74

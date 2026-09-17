@@ -1,0 +1,2 @@
+sample	haplotype	contig	contig_len	start	end	strand	piece_len	mhc_covered_bp	mhc_covered_frac	n_pieces	anchors	query
+GRCh38	0	GRCh38#0#chr6	NA	28410701	33580488	+	5169788	5169788	0.9999	1	15763	MHC_GRCh38#0#chr6:28410120-33580577

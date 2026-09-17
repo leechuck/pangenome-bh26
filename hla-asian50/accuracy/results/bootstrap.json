@@ -1,0 +1,5 @@
+{
+  "seed": 20260917,
+  "replicates": 10000,
+  "unit": "donor, within ancestry; paired arms; percentile CI; conditional on fixed sites/folds; no multiplicity correction"
+}

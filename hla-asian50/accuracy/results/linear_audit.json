@@ -1,0 +1,6 @@
+{
+  "not_pure_SNV": 590,
+  "duplicate_positions_excluded": 5156,
+  "graph_SNV_sites": 79844,
+  "matched_linear_PASS_SNV_sites": 65060
+}

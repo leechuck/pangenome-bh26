@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-17",
+  "local_python": "3.13.5",
+  "numpy": "2.2.4",
+  "matplotlib": "3.10.1+dfsg1",
+  "sources": [
+    {
+      "file": "NYGC_README.pdf",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_coverage/working/20201028_3202_raw_GT_with_annot/20201028_1000G_2020Oct26_NYGC_JointGenotyping_README.pdf",
+      "sha256": "0257cdec00e69a45aa801e12c20a32206b1a91610b610191a7acfac82103f98b"
+    },
+    {
+      "file": "NYGC_PHASING_README.pdf",
+      "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_coverage/working/20201028_3202_phased/README_SNV_INDEL_phasing_111822.pdf",
+      "sha256": "5ee863bb33c197fa9e9b5055d05f0248eab0f12550eb36a6adf169fc9abfae02"
+    }
+  ],
+  "notes": "Scoring completed; raw VCF fetch cancelled for runtime before seeing linear results. Published phased callset used. Partial raw file never scored. Rerun Slurm scripts request 12G after measured peaks near 8G in successful original 8G jobs."
+}
