@@ -1,0 +1,1322 @@
+{
+  "scope": "Exposed development only; partial comparisons are not accuracy claims",
+  "runs": {
+    "HG00658/hprc/sampled": {
+      "status": "complete",
+      "started": 1789738138.1863446,
+      "donor": "HG00658",
+      "reads_sha256": {
+        "1": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "2": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "baseline_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+      "joined_sha256": "869ebdf3310bbf430221875dba7a75b0a56a581b464e08cee9950203b7171e1c",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "cb6f26f463cba6d7ff50ae929d06dff0ad6a5d3ec42d7b2e74e5338d1873db1a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789738150.251037,
+      "fragment_counts": {
+        "input_fragments": 738921,
+        "DRB1": 16399,
+        "A": 1803,
+        "DQB1": 3338,
+        "C": 1038,
+        "DPB1": 2066,
+        "DPA1": 1417,
+        "DQA1": 1749,
+        "B": 1443
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "994402d6ad743a841a967826b8dfe62403061481576bc6bd5e2f71d863d60084",
+        "decisions.json": "37cecc72151410ed19cd43651a8eba2f1d922da926ec12cd99b276cff32eb457"
+      }
+    },
+    "HG00658/hprc/unsampled": {
+      "status": "complete",
+      "started": 1789738144.1364403,
+      "donor": "HG00658",
+      "reads_sha256": {
+        "1": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "2": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "baseline_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+      "joined_sha256": "678161393a6417570ef9635de3fe7afd91f5c8f91382bbad670f4f0540890af4",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "cb6f26f463cba6d7ff50ae929d06dff0ad6a5d3ec42d7b2e74e5338d1873db1a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789738156.1253877,
+      "fragment_counts": {
+        "input_fragments": 738921,
+        "DRB1": 16290,
+        "A": 1682,
+        "DQB1": 3556,
+        "DQA1": 2592,
+        "C": 1226,
+        "DPB1": 1950,
+        "DPA1": 1424,
+        "B": 1185
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "994402d6ad743a841a967826b8dfe62403061481576bc6bd5e2f71d863d60084",
+        "decisions.json": "da5ae3717e052c80296310f1e8a9737db8a6e298b015e90c9e31a3ce619e8837"
+      }
+    },
+    "HG00658/hprc_asian/sampled": {
+      "status": "complete",
+      "started": 1789738156.4936652,
+      "donor": "HG00658",
+      "reads_sha256": {
+        "1": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "2": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "baseline_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+      "joined_sha256": "51021dd9666c7ff11c62794a4f292c2db9f5962f325e3cdfdbb37868699d84e3",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "cb6f26f463cba6d7ff50ae929d06dff0ad6a5d3ec42d7b2e74e5338d1873db1a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789738170.5317068,
+      "fragment_counts": {
+        "input_fragments": 738921,
+        "DRB1": 12519,
+        "A": 1964,
+        "C": 1174,
+        "DPB1": 2054,
+        "DQB1": 2300,
+        "DPA1": 1416,
+        "DQA1": 2205,
+        "B": 1121
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "994402d6ad743a841a967826b8dfe62403061481576bc6bd5e2f71d863d60084",
+        "decisions.json": "0dc8ac2555ba7b1e22ec0f0354cb6032d7616ced9bd7fb8526e8a77287f9dc01"
+      }
+    },
+    "HG00658/hprc_asian/unsampled": {
+      "status": "complete",
+      "started": 1789738118.8238657,
+      "donor": "HG00658",
+      "reads_sha256": {
+        "1": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "2": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "baseline_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+      "joined_sha256": "fa18110dfe2da7b87d25ae35d078988c9f6d99d988d57ac7f325c7a95ec5e05e",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "cb6f26f463cba6d7ff50ae929d06dff0ad6a5d3ec42d7b2e74e5338d1873db1a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789738132.6606724,
+      "fragment_counts": {
+        "input_fragments": 738921,
+        "DRB1": 12592,
+        "A": 1844,
+        "C": 1209,
+        "DPB1": 1904,
+        "DQB1": 3446,
+        "DPA1": 1417,
+        "DQA1": 2676,
+        "B": 1149
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "994402d6ad743a841a967826b8dfe62403061481576bc6bd5e2f71d863d60084",
+        "decisions.json": "3a4ace2545f160ae79155133caf6aa4832b6f017d6611bfd32b08601aedf0a4b"
+      }
+    },
+    "HG02132/hprc/sampled": {
+      "status": "complete",
+      "started": 1789739234.4501731,
+      "donor": "HG02132",
+      "reads_sha256": {
+        "1": "5107e8fe5400f404fbb1fed37c01459762f5f76316eee1cdae6b3103445e08dd",
+        "2": "3584af6be7f05c380652c72d7bd5d6a48004ed5532b00913b2b2f9c704771484"
+      },
+      "baseline_sha256": "30f274600a6420b7fb1916368012dc1a03e96e681ff30369e4ac3e83f13845a7",
+      "joined_sha256": "6549b997219431925bb30755f807e91e5f4131df299d902479d235679c4e0547",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "074d9730d66b24107e5bf34640fd6d1b3d65ced117d3fe529f08632f1a06aff0",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739250.0895674,
+      "fragment_counts": {
+        "input_fragments": 759682,
+        "DRB1": 16451,
+        "DQA1": 1590,
+        "DQB1": 3507,
+        "A": 2426,
+        "DPB1": 2076,
+        "C": 1317,
+        "B": 1245,
+        "DPA1": 1411
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "1e063e640f7372dd303ff6c4dd9fe62c86871b555fc25e2a42f03061089f60ca",
+        "decisions.json": "a33007f8bd58dcb9c8c39f6170734ea2f15f6765c8cad7197561e13b4a02c9b8"
+      }
+    },
+    "HG02132/hprc/unsampled": {
+      "status": "complete",
+      "started": 1789739158.1978345,
+      "donor": "HG02132",
+      "reads_sha256": {
+        "1": "5107e8fe5400f404fbb1fed37c01459762f5f76316eee1cdae6b3103445e08dd",
+        "2": "3584af6be7f05c380652c72d7bd5d6a48004ed5532b00913b2b2f9c704771484"
+      },
+      "baseline_sha256": "30f274600a6420b7fb1916368012dc1a03e96e681ff30369e4ac3e83f13845a7",
+      "joined_sha256": "d104f564297a714e3552b6c9ed582ea6ac7f9bb145b3166a55a8a62705dbdc59",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "074d9730d66b24107e5bf34640fd6d1b3d65ced117d3fe529f08632f1a06aff0",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739173.9011025,
+      "fragment_counts": {
+        "input_fragments": 759682,
+        "DRB1": 16329,
+        "DQA1": 2356,
+        "DQB1": 3306,
+        "A": 1756,
+        "DPB1": 1975,
+        "C": 1251,
+        "B": 1178,
+        "DPA1": 1416
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "1e063e640f7372dd303ff6c4dd9fe62c86871b555fc25e2a42f03061089f60ca",
+        "decisions.json": "1af65b0d3f5db01bdb0dec6b642a2fea41d4d9541ef9dbc25ee7be163587ccd1"
+      }
+    },
+    "HG02132/hprc_asian/sampled": {
+      "status": "complete",
+      "started": 1789739151.5693948,
+      "donor": "HG02132",
+      "reads_sha256": {
+        "1": "5107e8fe5400f404fbb1fed37c01459762f5f76316eee1cdae6b3103445e08dd",
+        "2": "3584af6be7f05c380652c72d7bd5d6a48004ed5532b00913b2b2f9c704771484"
+      },
+      "baseline_sha256": "30f274600a6420b7fb1916368012dc1a03e96e681ff30369e4ac3e83f13845a7",
+      "joined_sha256": "e47a6ae67a01d7063364237a69bcaeca9b229ca9f094e00a38d248b633486300",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "074d9730d66b24107e5bf34640fd6d1b3d65ced117d3fe529f08632f1a06aff0",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739170.836261,
+      "fragment_counts": {
+        "input_fragments": 759682,
+        "DRB1": 12447,
+        "DQB1": 2756,
+        "A": 2638,
+        "DQA1": 2120,
+        "DPB1": 2067,
+        "DPA1": 1411,
+        "C": 1227,
+        "B": 1027
+      },
+      "changed_genes": [
+        "DPB1"
+      ],
+      "output_sha256": {
+        "calls.json": "d366f278bab772cbff73a0746fe571b87815ff7048e2ac3620faf1589e420db3",
+        "decisions.json": "e4732117b029cb9f81eb42d78325a47134c63fe9153e822498692b240b312319"
+      }
+    },
+    "HG02132/hprc_asian/unsampled": {
+      "status": "complete",
+      "started": 1789739242.3612783,
+      "donor": "HG02132",
+      "reads_sha256": {
+        "1": "5107e8fe5400f404fbb1fed37c01459762f5f76316eee1cdae6b3103445e08dd",
+        "2": "3584af6be7f05c380652c72d7bd5d6a48004ed5532b00913b2b2f9c704771484"
+      },
+      "baseline_sha256": "30f274600a6420b7fb1916368012dc1a03e96e681ff30369e4ac3e83f13845a7",
+      "joined_sha256": "19d567149a9869a044ec53afd08e43b3536cd309393cc89304fb34065f3a2776",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "074d9730d66b24107e5bf34640fd6d1b3d65ced117d3fe529f08632f1a06aff0",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739260.9273365,
+      "fragment_counts": {
+        "input_fragments": 759682,
+        "DRB1": 12472,
+        "DQA1": 2481,
+        "DQB1": 3294,
+        "A": 2021,
+        "DPB1": 1907,
+        "C": 1229,
+        "B": 1079,
+        "DPA1": 1418
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "1e063e640f7372dd303ff6c4dd9fe62c86871b555fc25e2a42f03061089f60ca",
+        "decisions.json": "7eb0ec31a4ebab3b2c7ee39e39f27f5582e967526bd066883ee1990601f4fb6c"
+      }
+    },
+    "HG03831/hprc/sampled": {
+      "status": "complete",
+      "started": 1789739158.37893,
+      "donor": "HG03831",
+      "reads_sha256": {
+        "1": "6f4591ff0c8035362dc356ee713205255ca85c6146b9521d8a1cf9da2acbd84b",
+        "2": "3a9f50e46dc840cbb2ffe11d0bd15750c7fbe14151f419eb933fa0acbb900189"
+      },
+      "baseline_sha256": "b07a33c2724c86c33916adef9b7d804ceb7b5809b7b2c826abc3fb4341256aed",
+      "joined_sha256": "cf33eba15348d6072a48b3e432ce1ab9de0fb7262ba5bf3eebd37c4b2ff23e58",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "74449ffe090f3213106ac8621074ecd0357c94d61d1eed1beb473fbce53578a0",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739174.6355991,
+      "fragment_counts": {
+        "input_fragments": 793279,
+        "DRB1": 16386,
+        "B": 1257,
+        "DQB1": 3263,
+        "DPB1": 1997,
+        "DQA1": 1739,
+        "C": 1263,
+        "A": 2877,
+        "DPA1": 1399
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "8f7ad1909e2d94431a587144e3472028f1ad01140fec76c1b3b79355471a69a4",
+        "decisions.json": "dbf138f324223f29cce982bb39e57ffcf9cf3422c64e2ebba437b7ae1c154f06"
+      }
+    },
+    "HG03831/hprc/unsampled": {
+      "status": "complete",
+      "started": 1789739206.544562,
+      "donor": "HG03831",
+      "reads_sha256": {
+        "1": "6f4591ff0c8035362dc356ee713205255ca85c6146b9521d8a1cf9da2acbd84b",
+        "2": "3a9f50e46dc840cbb2ffe11d0bd15750c7fbe14151f419eb933fa0acbb900189"
+      },
+      "baseline_sha256": "b07a33c2724c86c33916adef9b7d804ceb7b5809b7b2c826abc3fb4341256aed",
+      "joined_sha256": "11014ae15b76c28c24c8f7649ba7e85034aa972bf202350668d3f13764618bc4",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "74449ffe090f3213106ac8621074ecd0357c94d61d1eed1beb473fbce53578a0",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739223.7580523,
+      "fragment_counts": {
+        "input_fragments": 793279,
+        "DRB1": 16294,
+        "B": 1216,
+        "DQB1": 3474,
+        "DPB1": 1908,
+        "DQA1": 2540,
+        "C": 1196,
+        "A": 1818,
+        "DPA1": 1393
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "8f7ad1909e2d94431a587144e3472028f1ad01140fec76c1b3b79355471a69a4",
+        "decisions.json": "404cfd7d2caf1bdc75c050c2d39bc6effe288a8575b38182b094f61fa5218799"
+      }
+    },
+    "HG03831/hprc_asian/sampled": {
+      "status": "complete",
+      "started": 1789739170.7433147,
+      "donor": "HG03831",
+      "reads_sha256": {
+        "1": "6f4591ff0c8035362dc356ee713205255ca85c6146b9521d8a1cf9da2acbd84b",
+        "2": "3a9f50e46dc840cbb2ffe11d0bd15750c7fbe14151f419eb933fa0acbb900189"
+      },
+      "baseline_sha256": "b07a33c2724c86c33916adef9b7d804ceb7b5809b7b2c826abc3fb4341256aed",
+      "joined_sha256": "09ecdaa985f157e57d3092be023f9a78d2b0ac98ec7e581eec8dab311eca2333",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "74449ffe090f3213106ac8621074ecd0357c94d61d1eed1beb473fbce53578a0",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739190.5607448,
+      "fragment_counts": {
+        "input_fragments": 793279,
+        "DRB1": 12636,
+        "B": 984,
+        "DPB1": 1994,
+        "DQB1": 2315,
+        "DQA1": 2131,
+        "C": 1361,
+        "A": 3414,
+        "DPA1": 1355
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "8f7ad1909e2d94431a587144e3472028f1ad01140fec76c1b3b79355471a69a4",
+        "decisions.json": "3c49007eb949d4c174e7ed056f173191179072d219b4c28ba50c9afe185048ae"
+      }
+    },
+    "HG03831/hprc_asian/unsampled": {
+      "status": "complete",
+      "started": 1789739249.5382643,
+      "donor": "HG03831",
+      "reads_sha256": {
+        "1": "6f4591ff0c8035362dc356ee713205255ca85c6146b9521d8a1cf9da2acbd84b",
+        "2": "3a9f50e46dc840cbb2ffe11d0bd15750c7fbe14151f419eb933fa0acbb900189"
+      },
+      "baseline_sha256": "b07a33c2724c86c33916adef9b7d804ceb7b5809b7b2c826abc3fb4341256aed",
+      "joined_sha256": "56a6f5bc629bddc51878f9466d6df454fec0e6b5f1637d7760e71576bff32fc4",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "74449ffe090f3213106ac8621074ecd0357c94d61d1eed1beb473fbce53578a0",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739268.8279593,
+      "fragment_counts": {
+        "input_fragments": 793279,
+        "DRB1": 12737,
+        "B": 1160,
+        "DQB1": 3467,
+        "DPB1": 1837,
+        "DQA1": 2608,
+        "C": 1220,
+        "A": 2156,
+        "DPA1": 1389
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "8f7ad1909e2d94431a587144e3472028f1ad01140fec76c1b3b79355471a69a4",
+        "decisions.json": "470751e02507e1791767c7517ec4fc67fac1cf28b4ae46642dc97ecb6e8a5518"
+      }
+    },
+    "HG03874/hprc/sampled": {
+      "status": "complete",
+      "started": 1789739176.269147,
+      "donor": "HG03874",
+      "reads_sha256": {
+        "1": "59116ef6eb97c3c70a6c6e085e0d47fd676fc9142a3096703af341586e1f9a20",
+        "2": "e82b1b55ee72ccf87110cd5100abd1bfa1a4a67cedc49a3e7344faf0a312119b"
+      },
+      "baseline_sha256": "adc6b6bde32e50144e57f15187f6f7e066fc29489386bad7c0dd1e6248378e22",
+      "joined_sha256": "64317a875562a15cafbe9a6e3d31a6d0c9938b98d16aa401dd98e16e156e9651",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "7fac069a666476989c12fd635be26bf562e48f48e46eb9080691349e579c92e4",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739193.266706,
+      "fragment_counts": {
+        "input_fragments": 758621,
+        "DPB1": 2061,
+        "DPA1": 1528,
+        "DQA1": 1711,
+        "DRB1": 16244,
+        "DQB1": 3186,
+        "C": 1287,
+        "B": 1416,
+        "A": 1871
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "1270e9652f93a3ef92a4a6f1f3a3dbc226244e19e9619942219e41b4f5503aa7",
+        "decisions.json": "40546360112a8ccd2fc26e3efcab8e7a17ca3027305ea73e5a74fffe4f4fb2a5"
+      }
+    },
+    "HG03874/hprc/unsampled": {
+      "status": "complete",
+      "started": 1789739155.6134267,
+      "donor": "HG03874",
+      "reads_sha256": {
+        "1": "59116ef6eb97c3c70a6c6e085e0d47fd676fc9142a3096703af341586e1f9a20",
+        "2": "e82b1b55ee72ccf87110cd5100abd1bfa1a4a67cedc49a3e7344faf0a312119b"
+      },
+      "baseline_sha256": "adc6b6bde32e50144e57f15187f6f7e066fc29489386bad7c0dd1e6248378e22",
+      "joined_sha256": "5f2e5652de65ec45900b1415c78967abef4faf0d654a1991f563c40a4e74a64d",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "7fac069a666476989c12fd635be26bf562e48f48e46eb9080691349e579c92e4",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739171.4523847,
+      "fragment_counts": {
+        "input_fragments": 758621,
+        "DPB1": 1937,
+        "DPA1": 1524,
+        "DRB1": 16169,
+        "DQB1": 3166,
+        "C": 1267,
+        "B": 1264,
+        "A": 1766,
+        "DQA1": 2326
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "1270e9652f93a3ef92a4a6f1f3a3dbc226244e19e9619942219e41b4f5503aa7",
+        "decisions.json": "c496d18e75b35914bbf930946cf25977db599171f7bb2d1eb4e8f7c7d92a710a"
+      }
+    },
+    "HG03874/hprc_asian/sampled": {
+      "status": "complete",
+      "started": 1789739240.4478257,
+      "donor": "HG03874",
+      "reads_sha256": {
+        "1": "59116ef6eb97c3c70a6c6e085e0d47fd676fc9142a3096703af341586e1f9a20",
+        "2": "e82b1b55ee72ccf87110cd5100abd1bfa1a4a67cedc49a3e7344faf0a312119b"
+      },
+      "baseline_sha256": "adc6b6bde32e50144e57f15187f6f7e066fc29489386bad7c0dd1e6248378e22",
+      "joined_sha256": "718c566e41691559535eae39ac56cc17024091dde1c9f685a6f464edd6ff2566",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "7fac069a666476989c12fd635be26bf562e48f48e46eb9080691349e579c92e4",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739264.286817,
+      "fragment_counts": {
+        "input_fragments": 758621,
+        "DPB1": 2059,
+        "DPA1": 1463,
+        "DQA1": 2053,
+        "DRB1": 12643,
+        "DQB1": 2529,
+        "C": 1364,
+        "B": 1090,
+        "A": 1954
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "1270e9652f93a3ef92a4a6f1f3a3dbc226244e19e9619942219e41b4f5503aa7",
+        "decisions.json": "6d36fdb2fca10980e66800c3359e1c50b82bd1fb06cc82e91e0eac54114cbb8f"
+      }
+    },
+    "HG03874/hprc_asian/unsampled": {
+      "status": "complete",
+      "started": 1789739167.6603076,
+      "donor": "HG03874",
+      "reads_sha256": {
+        "1": "59116ef6eb97c3c70a6c6e085e0d47fd676fc9142a3096703af341586e1f9a20",
+        "2": "e82b1b55ee72ccf87110cd5100abd1bfa1a4a67cedc49a3e7344faf0a312119b"
+      },
+      "baseline_sha256": "adc6b6bde32e50144e57f15187f6f7e066fc29489386bad7c0dd1e6248378e22",
+      "joined_sha256": "57efe9947d81923d3befe47c31e88e22ade0870540e73ddf027aefc082b993b2",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "7fac069a666476989c12fd635be26bf562e48f48e46eb9080691349e579c92e4",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739190.909599,
+      "fragment_counts": {
+        "input_fragments": 758621,
+        "DPB1": 1875,
+        "DQA1": 2459,
+        "DPA1": 1526,
+        "DRB1": 12731,
+        "DQB1": 3073,
+        "C": 1252,
+        "B": 1184,
+        "A": 1959
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "1270e9652f93a3ef92a4a6f1f3a3dbc226244e19e9619942219e41b4f5503aa7",
+        "decisions.json": "8c965ca7de5faf7904a081185a5ab77e56d18db2d618a799dcfc1794f45deb50"
+      }
+    },
+    "HG01530/hprc/sampled": {
+      "status": "complete",
+      "started": 1789739158.3143692,
+      "donor": "HG01530",
+      "reads_sha256": {
+        "1": "1e26d363799c4fe297a854743ecd6996500514608f476e7cd03fd9f571ae5cc3",
+        "2": "b215ba7922ce7db5028d16d9409cfd2e617d2ef3b69fcf3831dac8f9c2bb0261"
+      },
+      "baseline_sha256": "2f903e0001f3155f5e3b3735f451e065aca1c8df6e84f391435bcfe6b3d60c25",
+      "joined_sha256": "8c865a33901ba2bca0cc6011d704b4d4ba42665aa20c0af357d0f5dfc4809f51",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "1c3b017a32013dfdaba322e4abf4b94b4ad768a679f7c5cc49c87b3de79204e9",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739174.6835127,
+      "fragment_counts": {
+        "input_fragments": 690741,
+        "DRB1": 15287,
+        "DQB1": 3254,
+        "DQA1": 1670,
+        "B": 1475,
+        "C": 1067,
+        "A": 1616,
+        "DPA1": 1398,
+        "DPB1": 1997
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "af72802d1ddb7e92d8cabbd12135557dcb61596529895976e7d800d1f28c4a20",
+        "decisions.json": "db230f8c79c7a6d1e5f89a4a666cffc1cf36b193e7442f23b1b3e196336ace94"
+      }
+    },
+    "HG01530/hprc/unsampled": {
+      "status": "complete",
+      "started": 1789739231.0160103,
+      "donor": "HG01530",
+      "reads_sha256": {
+        "1": "1e26d363799c4fe297a854743ecd6996500514608f476e7cd03fd9f571ae5cc3",
+        "2": "b215ba7922ce7db5028d16d9409cfd2e617d2ef3b69fcf3831dac8f9c2bb0261"
+      },
+      "baseline_sha256": "2f903e0001f3155f5e3b3735f451e065aca1c8df6e84f391435bcfe6b3d60c25",
+      "joined_sha256": "fa35d554313107b92671b5d148ccf2b43a662c0bf7c20230bd9e9e19d507f1c1",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "1c3b017a32013dfdaba322e4abf4b94b4ad768a679f7c5cc49c87b3de79204e9",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739248.0681343,
+      "fragment_counts": {
+        "input_fragments": 690741,
+        "DRB1": 15174,
+        "DQB1": 3188,
+        "DQA1": 2388,
+        "C": 1213,
+        "DPA1": 1394,
+        "DPB1": 1856,
+        "B": 1200,
+        "A": 1547
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "af72802d1ddb7e92d8cabbd12135557dcb61596529895976e7d800d1f28c4a20",
+        "decisions.json": "c4dbc562eba05e4af7df47be7ed6bbabd3eeee14ada4c5cb076db2b01cade9dd"
+      }
+    },
+    "HG01530/hprc_asian/sampled": {
+      "status": "complete",
+      "started": 1789739164.5932558,
+      "donor": "HG01530",
+      "reads_sha256": {
+        "1": "1e26d363799c4fe297a854743ecd6996500514608f476e7cd03fd9f571ae5cc3",
+        "2": "b215ba7922ce7db5028d16d9409cfd2e617d2ef3b69fcf3831dac8f9c2bb0261"
+      },
+      "baseline_sha256": "2f903e0001f3155f5e3b3735f451e065aca1c8df6e84f391435bcfe6b3d60c25",
+      "joined_sha256": "8bb3aaa2c4d3ced91f8b124808c4efe318dda0f6a4a908aeb2271b2d635ef3e3",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "1c3b017a32013dfdaba322e4abf4b94b4ad768a679f7c5cc49c87b3de79204e9",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739186.8175945,
+      "fragment_counts": {
+        "input_fragments": 690741,
+        "DRB1": 11724,
+        "DQA1": 1929,
+        "DQB1": 2319,
+        "C": 1238,
+        "A": 1711,
+        "B": 1084,
+        "DPA1": 1389,
+        "DPB1": 2013
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "af72802d1ddb7e92d8cabbd12135557dcb61596529895976e7d800d1f28c4a20",
+        "decisions.json": "4493531f901f37a250fcb220dee76a8643c5adaab08897696c455daf26d45e80"
+      }
+    },
+    "HG01530/hprc_asian/unsampled": {
+      "status": "complete",
+      "started": 1789739164.4109356,
+      "donor": "HG01530",
+      "reads_sha256": {
+        "1": "1e26d363799c4fe297a854743ecd6996500514608f476e7cd03fd9f571ae5cc3",
+        "2": "b215ba7922ce7db5028d16d9409cfd2e617d2ef3b69fcf3831dac8f9c2bb0261"
+      },
+      "baseline_sha256": "2f903e0001f3155f5e3b3735f451e065aca1c8df6e84f391435bcfe6b3d60c25",
+      "joined_sha256": "bc1c67cb935042381ef946cfa67ac3f527fd5d1c31843b2d9d534e56ddfa725d",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "1c3b017a32013dfdaba322e4abf4b94b4ad768a679f7c5cc49c87b3de79204e9",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739185.8754466,
+      "fragment_counts": {
+        "input_fragments": 690741,
+        "DRB1": 11792,
+        "DQB1": 3064,
+        "DQA1": 2559,
+        "C": 1201,
+        "DPA1": 1396,
+        "DPB1": 1813,
+        "B": 1143,
+        "A": 1626
+      },
+      "changed_genes": [
+        "A"
+      ],
+      "output_sha256": {
+        "calls.json": "14f7456824fe6f304696c23085785c67cc7dae62e0a758fb7f06d5f78683e004",
+        "decisions.json": "ebf926ffff93404b6704727fea51eb1c27a6ef8fbc77a2982a50141ef7a7b456"
+      }
+    },
+    "NA20806/hprc/sampled": {
+      "status": "complete",
+      "started": 1789739167.651613,
+      "donor": "NA20806",
+      "reads_sha256": {
+        "1": "af58c5b7b239a81fd8292c91cebfa99f610ce985268dbd862cd7bea8ca550b1d",
+        "2": "4a0ee09ada28f7344e5a1994671b36ae3cf129d0f65b9e67c266bb092d4daa10"
+      },
+      "baseline_sha256": "d496f1722300441f0343d1f9d10c4a437326d2249722fa76b97c6f2e1647961f",
+      "joined_sha256": "868cadb87dbdffa6e41f19513dc7c50392615c063f4d4f5b77ea4b99dd36de39",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "e6a7281e9411d343390af581eccfb74b5625993f4937ff0b087962dc72ff328c",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739185.8663695,
+      "fragment_counts": {
+        "input_fragments": 781204,
+        "DQA1": 1803,
+        "DRB1": 18302,
+        "DQB1": 3639,
+        "A": 2069,
+        "B": 1528,
+        "DPB1": 2233,
+        "DPA1": 1684,
+        "C": 1051
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "33c91af485640afede7ad269eda6735e1e76f88f682e3e132b80aeefc7c8bbb1",
+        "decisions.json": "b0cd85fd61f234094469664fbbe2c2b1c69c72ca0bda8cbc9ace516fce530c6f"
+      }
+    },
+    "NA20806/hprc/unsampled": {
+      "status": "complete",
+      "started": 1789739167.567964,
+      "donor": "NA20806",
+      "reads_sha256": {
+        "1": "af58c5b7b239a81fd8292c91cebfa99f610ce985268dbd862cd7bea8ca550b1d",
+        "2": "4a0ee09ada28f7344e5a1994671b36ae3cf129d0f65b9e67c266bb092d4daa10"
+      },
+      "baseline_sha256": "d496f1722300441f0343d1f9d10c4a437326d2249722fa76b97c6f2e1647961f",
+      "joined_sha256": "81ffdae20742fb03de5d42512ee40c6637bd97653b9938d14fab9287c194b8e4",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "e6a7281e9411d343390af581eccfb74b5625993f4937ff0b087962dc72ff328c",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739185.7181404,
+      "fragment_counts": {
+        "input_fragments": 781204,
+        "DQA1": 2748,
+        "DRB1": 18145,
+        "DQB1": 3662,
+        "A": 1752,
+        "B": 1281,
+        "C": 1262,
+        "DPB1": 2123,
+        "DPA1": 1679
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "33c91af485640afede7ad269eda6735e1e76f88f682e3e132b80aeefc7c8bbb1",
+        "decisions.json": "565acdd3e1e3a90e35765988cdeea69eaff29d43e6f88c77175dbc8ccda60274"
+      }
+    },
+    "NA20806/hprc_asian/sampled": {
+      "status": "complete",
+      "started": 1789739170.6404932,
+      "donor": "NA20806",
+      "reads_sha256": {
+        "1": "af58c5b7b239a81fd8292c91cebfa99f610ce985268dbd862cd7bea8ca550b1d",
+        "2": "4a0ee09ada28f7344e5a1994671b36ae3cf129d0f65b9e67c266bb092d4daa10"
+      },
+      "baseline_sha256": "d496f1722300441f0343d1f9d10c4a437326d2249722fa76b97c6f2e1647961f",
+      "joined_sha256": "08285b841dafe6043835c3ebadc22769513110fbe9951d2aa33b6aada63ecbfc",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "e6a7281e9411d343390af581eccfb74b5625993f4937ff0b087962dc72ff328c",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739192.034003,
+      "fragment_counts": {
+        "input_fragments": 781204,
+        "A": 2213,
+        "DQA1": 2292,
+        "B": 1171,
+        "DRB1": 14365,
+        "DQB1": 2422,
+        "DPB1": 2236,
+        "DPA1": 1678,
+        "C": 1221
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "33c91af485640afede7ad269eda6735e1e76f88f682e3e132b80aeefc7c8bbb1",
+        "decisions.json": "a18103422fd0bbc704063731a07168896c0282085584bafee7ee644d3443d58b"
+      }
+    },
+    "NA20806/hprc_asian/unsampled": {
+      "status": "complete",
+      "started": 1789739243.0337167,
+      "donor": "NA20806",
+      "reads_sha256": {
+        "1": "af58c5b7b239a81fd8292c91cebfa99f610ce985268dbd862cd7bea8ca550b1d",
+        "2": "4a0ee09ada28f7344e5a1994671b36ae3cf129d0f65b9e67c266bb092d4daa10"
+      },
+      "baseline_sha256": "d496f1722300441f0343d1f9d10c4a437326d2249722fa76b97c6f2e1647961f",
+      "joined_sha256": "8a23de0977accf7ef3e2a188f73e5ac0440e86072b7d425ccd89de977b7d7fa1",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "e6a7281e9411d343390af581eccfb74b5625993f4937ff0b087962dc72ff328c",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739266.7456818,
+      "fragment_counts": {
+        "input_fragments": 781204,
+        "DQA1": 2915,
+        "A": 1891,
+        "DRB1": 14372,
+        "C": 1240,
+        "DQB1": 3551,
+        "DPB1": 2028,
+        "DPA1": 1679,
+        "B": 1220
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "33c91af485640afede7ad269eda6735e1e76f88f682e3e132b80aeefc7c8bbb1",
+        "decisions.json": "48c4acc2faacd53af4ae13bd1a46b4d45012e7e6e65407f9b5e1a24d0fb6b9cf"
+      }
+    },
+    "HG03516/hprc/sampled": {
+      "status": "complete",
+      "started": 1789739170.3014088,
+      "donor": "HG03516",
+      "reads_sha256": {
+        "1": "75fa4d91bba4990ae0b213444eee95d5535b934b287d4cd7e948f2421a4def81",
+        "2": "e0749cfbf00b26e6fc88de75042f98d1d5e09ba5272a4ef3c27fe4391ad8c6ed"
+      },
+      "baseline_sha256": "1f14b002bdcc817b21c33c711604ff0bf0adad3304fa068047d370615a31bc54",
+      "joined_sha256": "c8676be3dabbd7c7c4ff3f374208e70db56c4fef7f3001c09dcb674372a0a452",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "822dff93858beed2e714528c580741397913e824a025444de9aa980c15783091",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739185.8900435,
+      "fragment_counts": {
+        "input_fragments": 657381,
+        "DRB1": 15261,
+        "DPB1": 1978,
+        "DPA1": 1328,
+        "C": 1193,
+        "B": 1359,
+        "DQA1": 1618,
+        "DQB1": 3211,
+        "A": 1910
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "02e16f0b1f2c53ee65c10e9e941b2fa86b431dfc1859a042106f65045b6d7800",
+        "decisions.json": "f5d92098aaf23cef3d168b4d5d02b9b45298a38776fcf5e38ff4bfa1b3f06555"
+      }
+    },
+    "HG03516/hprc/unsampled": {
+      "status": "complete",
+      "started": 1789739210.4185872,
+      "donor": "HG03516",
+      "reads_sha256": {
+        "1": "75fa4d91bba4990ae0b213444eee95d5535b934b287d4cd7e948f2421a4def81",
+        "2": "e0749cfbf00b26e6fc88de75042f98d1d5e09ba5272a4ef3c27fe4391ad8c6ed"
+      },
+      "baseline_sha256": "1f14b002bdcc817b21c33c711604ff0bf0adad3304fa068047d370615a31bc54",
+      "joined_sha256": "4c3668fe4e420f8c9cace704d05450a591850a7a3989ac00f43e3298123ec095",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "822dff93858beed2e714528c580741397913e824a025444de9aa980c15783091",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739228.0285811,
+      "fragment_counts": {
+        "input_fragments": 657381,
+        "DRB1": 15195,
+        "DPB1": 1862,
+        "DPA1": 1328,
+        "DQA1": 2351,
+        "B": 1217,
+        "DQB1": 3225,
+        "A": 1731,
+        "C": 1229
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "02e16f0b1f2c53ee65c10e9e941b2fa86b431dfc1859a042106f65045b6d7800",
+        "decisions.json": "7da33537d9e69a13cf16e0503f2a47bbd6bf726f6b3cd71741b2e16042c3f675"
+      }
+    },
+    "HG03516/hprc_asian/sampled": {
+      "status": "complete",
+      "started": 1789739173.3236368,
+      "donor": "HG03516",
+      "reads_sha256": {
+        "1": "75fa4d91bba4990ae0b213444eee95d5535b934b287d4cd7e948f2421a4def81",
+        "2": "e0749cfbf00b26e6fc88de75042f98d1d5e09ba5272a4ef3c27fe4391ad8c6ed"
+      },
+      "baseline_sha256": "1f14b002bdcc817b21c33c711604ff0bf0adad3304fa068047d370615a31bc54",
+      "joined_sha256": "34a095801ddf1af9650dd562ac3377feeaac6bad71e50566940f39e9badca45d",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "822dff93858beed2e714528c580741397913e824a025444de9aa980c15783091",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739190.8870246,
+      "fragment_counts": {
+        "input_fragments": 657381,
+        "DRB1": 11585,
+        "DPB1": 1984,
+        "DPA1": 1325,
+        "DQA1": 2011,
+        "C": 1291,
+        "DQB1": 2132,
+        "A": 2030,
+        "B": 1113
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "02e16f0b1f2c53ee65c10e9e941b2fa86b431dfc1859a042106f65045b6d7800",
+        "decisions.json": "097f43f596f26aa404a5b4ea7d8fa09210b391d3d4f8068078eb8d4558bba10f"
+      }
+    },
+    "HG03516/hprc_asian/unsampled": {
+      "status": "complete",
+      "started": 1789739179.676009,
+      "donor": "HG03516",
+      "reads_sha256": {
+        "1": "75fa4d91bba4990ae0b213444eee95d5535b934b287d4cd7e948f2421a4def81",
+        "2": "e0749cfbf00b26e6fc88de75042f98d1d5e09ba5272a4ef3c27fe4391ad8c6ed"
+      },
+      "baseline_sha256": "1f14b002bdcc817b21c33c711604ff0bf0adad3304fa068047d370615a31bc54",
+      "joined_sha256": "eaf199b1deb6ac37ee98f0f3becb76434655a959c0f5ea604b1a27f1fe56adf2",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "822dff93858beed2e714528c580741397913e824a025444de9aa980c15783091",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739198.13364,
+      "fragment_counts": {
+        "input_fragments": 657381,
+        "DRB1": 11676,
+        "DPB1": 1788,
+        "DPA1": 1330,
+        "DQA1": 2485,
+        "B": 1156,
+        "DQB1": 3149,
+        "A": 1970,
+        "C": 1228
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "02e16f0b1f2c53ee65c10e9e941b2fa86b431dfc1859a042106f65045b6d7800",
+        "decisions.json": "d9f3dcbb41855883437481f7d69b8da82d94adbb79cd3e51d949a530ee5cb830"
+      }
+    },
+    "NA19185/hprc/sampled": {
+      "status": "complete",
+      "started": 1789739234.5504844,
+      "donor": "NA19185",
+      "reads_sha256": {
+        "1": "3f63af0a18e57db1676b6608bb8f2ec256f4adc3f6d4be8558e58b82f740798a",
+        "2": "e45964cbd13aa17c71b6ef6424060b592bae13b27c8e4f62816e851bc8e5dddf"
+      },
+      "baseline_sha256": "a997e0694191fb33f4f59f44e7ec9bae029dba2d70c17d8c3411b46a3286631e",
+      "joined_sha256": "6192e1c0cae78aee7a6c4255f331ea6969452aa839970060604cc4931c986c44",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "8d72d05c9202688cbe591eb5ac726af1b824dc1f6019c0a67c2b990199aa733a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739251.9006495,
+      "fragment_counts": {
+        "input_fragments": 787107,
+        "DRB1": 18695,
+        "DPA1": 1665,
+        "A": 2194,
+        "B": 1582,
+        "DQB1": 3932,
+        "DQA1": 1854,
+        "C": 1524,
+        "DPB1": 2360
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "9f942dfdf92e14633fbea7f171404794fa7328140a543d1a49141671096be9a3",
+        "decisions.json": "40dfb3e4bd0e945683bf19a7c65ab1541de8bb6a54dcda52a8f9ad84cadd85dd"
+      }
+    },
+    "NA19185/hprc/unsampled": {
+      "status": "complete",
+      "started": 1789739207.8584614,
+      "donor": "NA19185",
+      "reads_sha256": {
+        "1": "3f63af0a18e57db1676b6608bb8f2ec256f4adc3f6d4be8558e58b82f740798a",
+        "2": "e45964cbd13aa17c71b6ef6424060b592bae13b27c8e4f62816e851bc8e5dddf"
+      },
+      "baseline_sha256": "a997e0694191fb33f4f59f44e7ec9bae029dba2d70c17d8c3411b46a3286631e",
+      "joined_sha256": "1e8c95a590843bb3e2541e42075a503577490c981009941efedee0e2c66d7084",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "8d72d05c9202688cbe591eb5ac726af1b824dc1f6019c0a67c2b990199aa733a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739228.1975818,
+      "fragment_counts": {
+        "input_fragments": 787107,
+        "DRB1": 18533,
+        "DPA1": 1693,
+        "A": 2014,
+        "DQB1": 3768,
+        "B": 1406,
+        "DQA1": 2694,
+        "DPB1": 2256,
+        "C": 1499
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "9f942dfdf92e14633fbea7f171404794fa7328140a543d1a49141671096be9a3",
+        "decisions.json": "1d5ec43db8150d5a26086332855a7fbeebfa4165b069c14bfef8850dc6ca3f74"
+      }
+    },
+    "NA19185/hprc_asian/sampled": {
+      "status": "complete",
+      "started": 1789739208.044264,
+      "donor": "NA19185",
+      "reads_sha256": {
+        "1": "3f63af0a18e57db1676b6608bb8f2ec256f4adc3f6d4be8558e58b82f740798a",
+        "2": "e45964cbd13aa17c71b6ef6424060b592bae13b27c8e4f62816e851bc8e5dddf"
+      },
+      "baseline_sha256": "a997e0694191fb33f4f59f44e7ec9bae029dba2d70c17d8c3411b46a3286631e",
+      "joined_sha256": "d8c9a7117cc81fa2015bbbd1df2724989ad4145364fa7fc9d16616ae730f3538",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "8d72d05c9202688cbe591eb5ac726af1b824dc1f6019c0a67c2b990199aa733a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739231.0047317,
+      "fragment_counts": {
+        "input_fragments": 787107,
+        "DPA1": 1663,
+        "A": 2376,
+        "DRB1": 14560,
+        "B": 1276,
+        "DQB1": 2740,
+        "DQA1": 2315,
+        "C": 1662,
+        "DPB1": 2355
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "9f942dfdf92e14633fbea7f171404794fa7328140a543d1a49141671096be9a3",
+        "decisions.json": "77faf4519baf076f3b451a74a37b65fede62676bb1411db6de8fc4bdaa0e0d35"
+      }
+    },
+    "NA19185/hprc_asian/unsampled": {
+      "status": "complete",
+      "started": 1789739251.7270944,
+      "donor": "NA19185",
+      "reads_sha256": {
+        "1": "3f63af0a18e57db1676b6608bb8f2ec256f4adc3f6d4be8558e58b82f740798a",
+        "2": "e45964cbd13aa17c71b6ef6424060b592bae13b27c8e4f62816e851bc8e5dddf"
+      },
+      "baseline_sha256": "a997e0694191fb33f4f59f44e7ec9bae029dba2d70c17d8c3411b46a3286631e",
+      "joined_sha256": "82ee2052fbd3bee911d45922d74cf74a426c2aaa680d0a71d9e4b16a3569e853",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "8d72d05c9202688cbe591eb5ac726af1b824dc1f6019c0a67c2b990199aa733a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789739273.42499,
+      "fragment_counts": {
+        "input_fragments": 787107,
+        "DPA1": 1685,
+        "A": 2261,
+        "DRB1": 14642,
+        "C": 1501,
+        "DQB1": 3622,
+        "B": 1318,
+        "DQA1": 2841,
+        "DPB1": 2173
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "9f942dfdf92e14633fbea7f171404794fa7328140a543d1a49141671096be9a3",
+        "decisions.json": "8e451ba327bdc7c42232e4762f0df8063c3b3308aa1a138ff504cc4ddde054a3"
+      }
+    }
+  },
+  "scorer_sha256": "8ad6bd95261103ecd8ed35af89169cf22489e9c3ba2e74a5ebcea84c3a2554c6"
+}

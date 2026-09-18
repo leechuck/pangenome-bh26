@@ -1,0 +1,82 @@
+{
+  "scope": "Fixed exposed development cohort only; partial results are not cohort accuracy estimates",
+  "conditions": {
+    "hprc/sampled": {
+      "completed_donors": 8,
+      "eligible": 47,
+      "changed_genes": 0,
+      "rescues": 0,
+      "losses": 0,
+      "residual_error_reasons": {
+        "Native allele absent from observed graph; retain IPD fallback": 4,
+        "Best graph pair includes an unlabelled path": 2
+      },
+      "all_decision_reasons": {
+        "Best graph pair includes an unlabelled path": 18,
+        "Native allele absent from observed graph; retain IPD fallback": 40,
+        "Graph agrees with native pair": 5,
+        "Native four-field pair unresolved": 1
+      }
+    },
+    "hprc/unsampled": {
+      "completed_donors": 8,
+      "eligible": 47,
+      "changed_genes": 0,
+      "rescues": 0,
+      "losses": 0,
+      "residual_error_reasons": {
+        "Native allele absent from observed graph; retain IPD fallback": 4,
+        "Graph agrees with native pair": 2
+      },
+      "all_decision_reasons": {
+        "Graph agrees with native pair": 14,
+        "Native allele absent from observed graph; retain IPD fallback": 40,
+        "Best graph pair includes an unlabelled path": 9,
+        "Native four-field pair unresolved": 1
+      }
+    },
+    "hprc_asian/sampled": {
+      "completed_donors": 8,
+      "eligible": 47,
+      "changed_genes": 1,
+      "rescues": 0,
+      "losses": 1,
+      "residual_error_reasons": {
+        "Native allele absent from observed graph; retain IPD fallback": 3,
+        "Best graph pair includes an unlabelled path": 2,
+        "Graph genotype is tied": 1
+      },
+      "all_decision_reasons": {
+        "Graph genotype is tied": 8,
+        "Native allele absent from observed graph; retain IPD fallback": 24,
+        "Best graph pair includes an unlabelled path": 24,
+        "Graph agrees with native pair": 6,
+        "Graph-supported four-field refinement": 1,
+        "Native four-field pair unresolved": 1
+      }
+    },
+    "hprc_asian/unsampled": {
+      "completed_donors": 8,
+      "eligible": 47,
+      "changed_genes": 1,
+      "rescues": 0,
+      "losses": 1,
+      "residual_error_reasons": {
+        "Native allele absent from observed graph; retain IPD fallback": 3,
+        "Best graph pair includes an unlabelled path": 1,
+        "Graph agrees with native pair": 2
+      },
+      "all_decision_reasons": {
+        "Graph agrees with native pair": 26,
+        "Native allele absent from observed graph; retain IPD fallback": 24,
+        "Best graph pair includes an unlabelled path": 10,
+        "Graph genotype is tied": 2,
+        "Graph-supported four-field refinement": 1,
+        "Native four-field pair unresolved": 1
+      }
+    }
+  },
+  "score_sha256": "af551858144c147ab215798615dd1626de7e05c4a29d3290646036a87b77b754",
+  "provenance_sha256": "1766090eeb7e5ddd349601487d8bd27ac34345de6a58f36955e90816b7141dbd",
+  "driver_sha256": "d8d09efe5b138f935cb38cda763eae546221fb7ac04f581db02d8ea1eb94159b"
+}

@@ -514,6 +514,21 @@ handling, rather than simply removing the fallback guard.
 
 ### Scheduling follow-up (18 September)
 
+The eight-donor pair-refinement batch subsequently completed all 32 graph
+conditions. HPRC sampled and unsampled retain 41/47 correct four-field calls;
+both additive conditions have 40/47, versus genomic IPD 41/47 and original T1K
+21/47. Each additive condition introduces one error, with no rescues: HG02132
+DPB1 under sampling and HG01530 A without sampling. These small development
+differences provide no evidence of incremental graph benefit. Complete results
+and decisions are in `development/completed-graph-pair-batch-v1/`.
+
+`diagnose_refinement_changes.py` reproduces the recorded changed-pair score gains
+and partitions contributions by gene-span overlap and native-candidate support.
+It is a read-only development diagnostic, not a revised caller. The competing
+paths at each changed allele have equal lengths, so a simple path-length
+difference is not sufficient to explain these errors. Fragment-level causes
+remain under investigation; reserved validation outcomes remain unexamined.
+
 After 138 of 224 calibrated evidence tasks completed, the remaining 86 were
 waiting on batch priority while debug had idle capacity. Pending evidence,
 join, recruitment and pair-refinement jobs were permitted on either batch or

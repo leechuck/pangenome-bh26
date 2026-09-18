@@ -1,0 +1,257 @@
+donor	condition	gene	eligible	native_correct	refined_correct	changed	reason	score_gain_over_native	score_gap	informative_fragments
+HG00658	hprc/sampled	A	1	1	1	0	Best graph pair includes an unlabelled path	252.98294397508744		1803
+HG00658	hprc/sampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc/sampled	C	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc/sampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc/sampled	DPB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc/sampled	DQA1	1	1	1	0	Best graph pair includes an unlabelled path	6871.8640752697775		1749
+HG00658	hprc/sampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	7571.979977584933		3338
+HG00658	hprc/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc/unsampled	A	1	1	1	0	Graph agrees with native pair	0.0		1682
+HG00658	hprc/unsampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc/unsampled	C	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc/unsampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc/unsampled	DPB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc/unsampled	DQA1	1	1	1	0	Graph agrees with native pair	0.0		2592
+HG00658	hprc/unsampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	3618.6316825503527		3556
+HG00658	hprc/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc_asian/sampled	A	1	1	1	0	Graph genotype is tied	24.685085662854817		1964
+HG00658	hprc_asian/sampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc_asian/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	3095.4736371287727		1174
+HG00658	hprc_asian/sampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc_asian/sampled	DPB1	0	0	0	0	Graph agrees with native pair	0.0		2054
+HG00658	hprc_asian/sampled	DQA1	1	1	1	0	Best graph pair includes an unlabelled path	1400.8710851760188		2205
+HG00658	hprc_asian/sampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	8132.708196986131		2300
+HG00658	hprc_asian/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc_asian/unsampled	A	1	1	1	0	Graph agrees with native pair	0.0		1844
+HG00658	hprc_asian/unsampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc_asian/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1209
+HG00658	hprc_asian/unsampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG00658	hprc_asian/unsampled	DPB1	0	0	0	0	Graph agrees with native pair	0.0		1904
+HG00658	hprc_asian/unsampled	DQA1	1	1	1	0	Graph agrees with native pair	0.0		2676
+HG00658	hprc_asian/unsampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	1490.2984500781567		3446
+HG00658	hprc_asian/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/sampled	A	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/sampled	B	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/sampled	C	1	1	1	0	Graph agrees with native pair	0.0		1317
+HG02132	hprc/sampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/sampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/sampled	DQA1	1	1	1	0	Best graph pair includes an unlabelled path	6253.72916932945		1590
+HG02132	hprc/sampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/unsampled	A	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/unsampled	B	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1251
+HG02132	hprc/unsampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/unsampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/unsampled	DQA1	1	1	1	0	Best graph pair includes an unlabelled path	127.74484359182861		2356
+HG02132	hprc/unsampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc_asian/sampled	A	1	1	1	0	Best graph pair includes an unlabelled path	1853.162169195432		2638
+HG02132	hprc_asian/sampled	B	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc_asian/sampled	C	1	1	1	0	Graph genotype is tied	3601.9096689143635		1227
+HG02132	hprc_asian/sampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc_asian/sampled	DPB1	1	1	0	1	Graph-supported four-field refinement	22.665844516471225	19.002232439717773	2067
+HG02132	hprc_asian/sampled	DQA1	1	1	1	0	Best graph pair includes an unlabelled path	605.5977571025014		2120
+HG02132	hprc_asian/sampled	DQB1	1	1	1	0	Graph genotype is tied	2324.016206822238		2756
+HG02132	hprc_asian/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc_asian/unsampled	A	1	1	1	0	Graph agrees with native pair	0.0		2021
+HG02132	hprc_asian/unsampled	B	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc_asian/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1229
+HG02132	hprc_asian/unsampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG02132	hprc_asian/unsampled	DPB1	1	1	1	0	Graph agrees with native pair	0.0		1907
+HG02132	hprc_asian/unsampled	DQA1	1	1	1	0	Graph genotype is tied	113.328015620099		2481
+HG02132	hprc_asian/unsampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	2000.086327812387		3294
+HG02132	hprc_asian/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/sampled	A	1	1	1	0	Best graph pair includes an unlabelled path	1285.8649234800087		2877
+HG03831	hprc/sampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/sampled	C	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/sampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/sampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/sampled	DQA1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/sampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	7168.293500552435		3263
+HG03831	hprc/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/unsampled	A	1	1	1	0	Best graph pair includes an unlabelled path	268.14162421591254		1818
+HG03831	hprc/unsampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/unsampled	C	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/unsampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/unsampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/unsampled	DQA1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc/unsampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	3320.8612423690365		3474
+HG03831	hprc/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc_asian/sampled	A	1	1	1	0	Graph agrees with native pair	0.0		3414
+HG03831	hprc_asian/sampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc_asian/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	658.7580230596432		1361
+HG03831	hprc_asian/sampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc_asian/sampled	DPB1	1	1	1	0	Graph agrees with native pair	0.0		1994
+HG03831	hprc_asian/sampled	DQA1	1	1	1	0	Best graph pair includes an unlabelled path	1809.0482439685247		2131
+HG03831	hprc_asian/sampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	8374.502383580684		2315
+HG03831	hprc_asian/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc_asian/unsampled	A	1	1	1	0	Best graph pair includes an unlabelled path	583.3023803365859		2156
+HG03831	hprc_asian/unsampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc_asian/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1220
+HG03831	hprc_asian/unsampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03831	hprc_asian/unsampled	DPB1	1	1	1	0	Graph agrees with native pair	0.0		1837
+HG03831	hprc_asian/unsampled	DQA1	1	1	1	0	Graph agrees with native pair	0.0		2608
+HG03831	hprc_asian/unsampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	1260.7799348279623		3467
+HG03831	hprc_asian/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/sampled	A	1	1	1	0	Best graph pair includes an unlabelled path	390.0394168763414		1871
+HG03874	hprc/sampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	100.60426801328776		1287
+HG03874	hprc/sampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/sampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/sampled	DQA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/sampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/unsampled	A	1	1	1	0	Best graph pair includes an unlabelled path	262.49987426765074		1766
+HG03874	hprc/unsampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1267
+HG03874	hprc/unsampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/unsampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/unsampled	DQA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/unsampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc_asian/sampled	A	1	1	1	0	Best graph pair includes an unlabelled path	3391.170550278741		1954
+HG03874	hprc_asian/sampled	B	1	1	1	0	Best graph pair includes an unlabelled path	1096.1847548971705		1090
+HG03874	hprc_asian/sampled	C	1	1	1	0	Graph genotype is tied	1968.9420421885102		1364
+HG03874	hprc_asian/sampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc_asian/sampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc_asian/sampled	DQA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc_asian/sampled	DQB1	1	1	1	0	Graph genotype is tied	5181.444532910639		2529
+HG03874	hprc_asian/sampled	DRB1	0	0	0	0	Best graph pair includes an unlabelled path	6903.728339878602		12643
+HG03874	hprc_asian/unsampled	A	1	1	1	0	Best graph pair includes an unlabelled path	125.89059672967505		1959
+HG03874	hprc_asian/unsampled	B	1	1	1	0	Graph agrees with native pair	0.0		1184
+HG03874	hprc_asian/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1252
+HG03874	hprc_asian/unsampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc_asian/unsampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc_asian/unsampled	DQA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03874	hprc_asian/unsampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	730.391906173314		3073
+HG03874	hprc_asian/unsampled	DRB1	0	0	0	0	Best graph pair includes an unlabelled path	7152.218540525013		12731
+HG01530	hprc/sampled	A	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc/sampled	B	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	618.3229467941408		1067
+HG01530	hprc/sampled	DPA1	1	1	1	0	Graph agrees with native pair	0.0		1398
+HG01530	hprc/sampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc/sampled	DQA1	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc/sampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	74.51749338934496		3254
+HG01530	hprc/sampled	DRB1	1	1	1	0	Best graph pair includes an unlabelled path	11911.397135546264		15287
+HG01530	hprc/unsampled	A	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc/unsampled	B	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1213
+HG01530	hprc/unsampled	DPA1	1	1	1	0	Graph agrees with native pair	0.0		1394
+HG01530	hprc/unsampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc/unsampled	DQA1	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc/unsampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	94.12736007075182		3188
+HG01530	hprc/unsampled	DRB1	1	1	1	0	Best graph pair includes an unlabelled path	11664.133752807298		15174
+HG01530	hprc_asian/sampled	A	1	1	1	0	Best graph pair includes an unlabelled path	744.1807265696407		1711
+HG01530	hprc_asian/sampled	B	0	0	0	0	Best graph pair includes an unlabelled path	786.8786016267491		1084
+HG01530	hprc_asian/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	2033.3779696339552		1238
+HG01530	hprc_asian/sampled	DPA1	1	1	1	0	Graph agrees with native pair	0.0		1389
+HG01530	hprc_asian/sampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc_asian/sampled	DQA1	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc_asian/sampled	DQB1	1	1	1	0	Graph genotype is tied	3891.834093708153		2319
+HG01530	hprc_asian/sampled	DRB1	1	1	1	0	Best graph pair includes an unlabelled path	6375.3827232236		11724
+HG01530	hprc_asian/unsampled	A	1	1	0	1	Graph-supported four-field refinement	78.58478837541816	78.58478837541816	1626
+HG01530	hprc_asian/unsampled	B	0	0	0	0	Graph agrees with native pair	0.0		1143
+HG01530	hprc_asian/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1201
+HG01530	hprc_asian/unsampled	DPA1	1	1	1	0	Graph agrees with native pair	0.0		1396
+HG01530	hprc_asian/unsampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc_asian/unsampled	DQA1	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG01530	hprc_asian/unsampled	DQB1	1	1	1	0	Graph agrees with native pair	0.0		3064
+HG01530	hprc_asian/unsampled	DRB1	1	1	1	0	Best graph pair includes an unlabelled path	6607.389003276046		11792
+NA20806	hprc/sampled	A	1	1	1	0	Graph agrees with native pair	0.0		2069
+NA20806	hprc/sampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+NA20806	hprc/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	890.6557601416048		1051
+NA20806	hprc/sampled	DPA1	1	1	1	0	Graph agrees with native pair	0.0		1684
+NA20806	hprc/sampled	DPB1	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA20806	hprc/sampled	DQA1	1	1	1	0	Best graph pair includes an unlabelled path	7217.745302512266		1803
+NA20806	hprc/sampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	5938.1014302735875		3639
+NA20806	hprc/sampled	DRB1	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA20806	hprc/unsampled	A	1	1	1	0	Graph agrees with native pair	0.0		1752
+NA20806	hprc/unsampled	B	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+NA20806	hprc/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1262
+NA20806	hprc/unsampled	DPA1	1	1	1	0	Graph agrees with native pair	0.0		1679
+NA20806	hprc/unsampled	DPB1	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA20806	hprc/unsampled	DQA1	1	1	1	0	Best graph pair includes an unlabelled path	647.3796436440762		2748
+NA20806	hprc/unsampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	5343.046561715653		3662
+NA20806	hprc/unsampled	DRB1	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA20806	hprc_asian/sampled	A	1	1	1	0	Best graph pair includes an unlabelled path	1126.1893410851108		2213
+NA20806	hprc_asian/sampled	B	1	1	1	0	Best graph pair includes an unlabelled path	1633.4418522036804		1171
+NA20806	hprc_asian/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	3425.795772000607		1221
+NA20806	hprc_asian/sampled	DPA1	1	1	1	0	Graph agrees with native pair	0.0		1678
+NA20806	hprc_asian/sampled	DPB1	1	0	0	0	Best graph pair includes an unlabelled path	322.09108202564244		2236
+NA20806	hprc_asian/sampled	DQA1	1	1	1	0	Graph genotype is tied	2391.7596324195156		2292
+NA20806	hprc_asian/sampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	8770.197949280344		2422
+NA20806	hprc_asian/sampled	DRB1	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA20806	hprc_asian/unsampled	A	1	1	1	0	Graph agrees with native pair	0.0		1891
+NA20806	hprc_asian/unsampled	B	1	1	1	0	Graph agrees with native pair	0.0		1220
+NA20806	hprc_asian/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1240
+NA20806	hprc_asian/unsampled	DPA1	1	1	1	0	Graph agrees with native pair	0.0		1679
+NA20806	hprc_asian/unsampled	DPB1	1	0	0	0	Best graph pair includes an unlabelled path	20.27375707166584		2028
+NA20806	hprc_asian/unsampled	DQA1	1	1	1	0	Graph genotype is tied	635.4237559510557		2915
+NA20806	hprc_asian/unsampled	DQB1	1	1	1	0	Best graph pair includes an unlabelled path	2967.786995685332		3551
+NA20806	hprc_asian/unsampled	DRB1	1	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc/sampled	A	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc/sampled	B	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	407.7036992911858		1193
+HG03516	hprc/sampled	DPA1	0	0	0	0	Native four-field pair unresolved			
+HG03516	hprc/sampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc/sampled	DQA1	1	0	0	0	Best graph pair includes an unlabelled path	6486.592340734202		1618
+HG03516	hprc/sampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc/unsampled	A	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc/unsampled	B	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1229
+HG03516	hprc/unsampled	DPA1	0	0	0	0	Native four-field pair unresolved			
+HG03516	hprc/unsampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc/unsampled	DQA1	1	0	0	0	Graph agrees with native pair	0.0		2351
+HG03516	hprc/unsampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc_asian/sampled	A	1	1	1	0	Best graph pair includes an unlabelled path	811.8246832441364		2030
+HG03516	hprc_asian/sampled	B	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc_asian/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	3449.408181396686		1291
+HG03516	hprc_asian/sampled	DPA1	0	0	0	0	Native four-field pair unresolved			
+HG03516	hprc_asian/sampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc_asian/sampled	DQA1	1	0	0	0	Graph genotype is tied	2106.880479720763		2011
+HG03516	hprc_asian/sampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc_asian/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc_asian/unsampled	A	1	1	1	0	Graph agrees with native pair	0.0		1970
+HG03516	hprc_asian/unsampled	B	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc_asian/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1228
+HG03516	hprc_asian/unsampled	DPA1	0	0	0	0	Native four-field pair unresolved			
+HG03516	hprc_asian/unsampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc_asian/unsampled	DQA1	1	0	0	0	Graph agrees with native pair	0.0		2485
+HG03516	hprc_asian/unsampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+HG03516	hprc_asian/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc/sampled	A	1	1	1	0	Graph agrees with native pair	0.0		2194
+NA19185	hprc/sampled	B	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	359.82831690319017		1524
+NA19185	hprc/sampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc/sampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc/sampled	DQA1	1	0	0	0	Best graph pair includes an unlabelled path	6776.420939193272		1854
+NA19185	hprc/sampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc/unsampled	A	1	1	1	0	Graph agrees with native pair	0.0		2014
+NA19185	hprc/unsampled	B	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1499
+NA19185	hprc/unsampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc/unsampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc/unsampled	DQA1	1	0	0	0	Graph agrees with native pair	0.0		2694
+NA19185	hprc/unsampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc_asian/sampled	A	1	1	1	0	Graph agrees with native pair	0.0		2376
+NA19185	hprc_asian/sampled	B	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc_asian/sampled	C	1	1	1	0	Best graph pair includes an unlabelled path	2086.8099515145745		1662
+NA19185	hprc_asian/sampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc_asian/sampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc_asian/sampled	DQA1	1	0	0	0	Best graph pair includes an unlabelled path	967.4096387097998		2315
+NA19185	hprc_asian/sampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc_asian/sampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc_asian/unsampled	A	1	1	1	0	Graph agrees with native pair	0.0		2261
+NA19185	hprc_asian/unsampled	B	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc_asian/unsampled	C	1	1	1	0	Graph agrees with native pair	0.0		1501
+NA19185	hprc_asian/unsampled	DPA1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc_asian/unsampled	DPB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc_asian/unsampled	DQA1	1	0	0	0	Graph agrees with native pair	0.0		2841
+NA19185	hprc_asian/unsampled	DQB1	1	1	1	0	Native allele absent from observed graph; retain IPD fallback			
+NA19185	hprc_asian/unsampled	DRB1	0	0	0	0	Native allele absent from observed graph; retain IPD fallback			
