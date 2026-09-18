@@ -89,6 +89,9 @@ print(json.dumps(rows))'''.replace('ROOT_LITERAL',repr(root)).replace('DONORS_LI
         bootstrap_replicates=10000,bootstrap_seed=20260918,
         failure_handling=original_eval['failure_handling'])
     save(OUT/'EVALUATION_FREEZE.json',evaluation)
+    save(OUT/'HANDOFF_FREEZE.json',dict(status='handoff_frozen_before_outcome_inspection',frozen_at=now,
+        evaluation_freeze_sha256=sha(OUT/'EVALUATION_FREEZE.json'),
+        code_sha256={n:sha(HERE/n) for n in ('hgsvc_handoff.py','score_hgsvc_snapshot.py')}))
     print(json.dumps(dict(status='frozen',donors=len(cohort),freeze_sha256=sha(frozen))))
 
 

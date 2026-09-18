@@ -42,3 +42,23 @@ protection against duplicate uncertain submissions. Existing coarse-anchor and
 native-locus tests also passed. Live inference success and independent improvement
 remain to be established. Full provenance review and the complete terminal method
 grid are required before scoring.
+
+## Provenance handoff and scoring
+
+`hgsvc_handoff.py` checks all seven outputs per donor (original T1K, three raw
+candidates and three anchored candidates) before fetching any prediction text.
+It verifies the complete grid, read identities, frozen model/driver hashes,
+parameters, reference manifests and parent-output links. The remote check hashes
+small result files but returns only metadata. Failed or pending outputs block
+fetching until their disposition is explicitly audited; they are never omitted.
+
+`score_hgsvc_snapshot.py` rechecks downloaded output hashes, recomputes every
+anchor from its parents, verifies per-gene two-field identity, and only then
+constructs HGSVC truth and invokes the fixed evaluator. It writes an unblinding
+record, complete gene-level results, summary, truth QC and paired contrasts.
+These handoff/scoring scripts receive their own code freeze when the execution
+freeze is written. They are not invoked automatically by the monitor.
+
+Eleven HGSVC tests now pass, including rejection of altered parent links,
+swapped reads, missing native-locus guards and incomplete provenance grids.
+The scorer has not yet been run on held-out predictions or truth.
