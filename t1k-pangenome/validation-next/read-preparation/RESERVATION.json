@@ -1,0 +1,25 @@
+{
+  "status": "reserved_unscored_pending_execution_and_endpoint_freeze",
+  "reserved_at": "2026-09-18T16:02:22.614537+00:00",
+  "donors": 28,
+  "families": 28,
+  "rule": "All HGSVC3 donors outside indexed prior benchmark/graph donor sets and their pedigree families, with indexed paired short reads; no outcome selection",
+  "cohort_sha256": "511aeddb292d9ecbaa1c8983bac5d8d66c67258e984a254eaa6f8476401bc073",
+  "audit_sha256": {
+    "METADATA_CANDIDATES.json": "f6d52b2ff95d10e6576195f188167a906d199a8664f35774fb81e3f46e7e86c7",
+    "READ_AVAILABILITY.json": "cf69fd5663a077cfd7881bb862950cd2644542e77999a216e3b718ab086e82a6",
+    "IBEX_EXPOSURE_AUDIT.json": "b8a45c350d41d45c8dedadfb6bedb3e489bea44617d7e4017d7be23ed1e73a11",
+    "DDBJ_EXPOSURE_AUDIT.json": "dd4690c92ac20d7aaebb71142d5ad4431129f62f80b72ffc3bef0f0ed0dd91a7"
+  },
+  "truth_access": "Reservation inspected donor identifiers and metadata, not candidate-donor HLA labels or typing performance. Existing published reference annotations were documented in the exposure audit.",
+  "limitations": [
+    "Exposure audit covers indexed local results and named IBEX/DDBJ output roots, not every possible external evaluation.",
+    "Sample aliases beyond current donor/source and pedigree metadata may require an explicit audit amendment.",
+    "HGSVC assembly truth quality and fixed endpoint eligibility still need freezing before evaluation."
+  ],
+  "requirements": [
+    "Retain all 28 donors, including execution failures; no outcome-based reselection.",
+    "Preserve the original 84-donor frozen result and label follow-up model selection as exploratory.",
+    "Freeze full inference, truth derivation and endpoint code before evaluating reserved predictions."
+  ]
+}

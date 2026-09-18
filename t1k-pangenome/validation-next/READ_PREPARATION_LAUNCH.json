@@ -1,0 +1,18 @@
+{
+  "status": "submitted",
+  "created": 1789747738.5289109,
+  "root": "/home/leechuck/hla/t1k-pangenome/hgsvc-validation-v1",
+  "scope": "Read preparation only; no inference or truth access",
+  "donors": 28,
+  "code_and_input_sha256": {
+    "read-availability.json": "4e826c3110c31f3e03ec3957ce3b6112ceeb1cda0b1084e8d32d7d96b106fb2c",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f",
+    "recruit.sh": "50c6634cd2167e45e1bab9e4226d18d7d501bbde8dd4d2b1b72ec41cd93d2b86",
+    "recruit.tsv": "d58afb3b6d7e48c08348a81a9edc8b2f8480358856e032c175088d52992b4815",
+    "cohort.tsv": "511aeddb292d9ecbaa1c8983bac5d8d66c67258e984a254eaa6f8476401bc073",
+    "RESERVATION.json": "dfde6cecd9fd5d48fa5d5fe170062067f729200d92aaf6851526d40cf471ec27",
+    "prepare_validation_reads.py": "667eed82abcc0cd0e611a6cf81b5f1188a47ad7725e705d0ff1ef11c4215535d"
+  },
+  "job_name": "t1k-hgsvc28-reads",
+  "job": "52061497"
+}
