@@ -54,3 +54,25 @@ phase references and the pinned AsianHLA panel. Alignment/phasing runs belong
 on Slurm; the supplied deployment and job scripts target DDBJ. Bulk read and
 sequence data are kept outside Git. This release is for research evaluation;
 heterozygous structural phasing and generalisation remain open work.
+
+## Running the frozen typer
+
+On DDBJ, with a prepared validation root containing fold databases, graphs,
+read pairs and `phase/PREPARED.json`:
+
+```sh
+python3 code/dogohla.py --root "$validation_root" --donor HG00658 --fold 1 --threads 4
+```
+
+The driver creates validated intermediate runs and `final/runs/HG00658/DogoHLA/`
+with reconstructed FASTAs, native naming tables, a structural-edit audit and
+hashed completion records. `DogoHLA-no-graph` is the matched graph ablation.
+Use `--paired` to also run native SpecHLA on the same inputs. Failed stages
+remain inspectable; partial directories are never silently overwritten.
+
+From this repository, `python3 hla-spechla-pg/launch_validation.py NEW_RELEASE`
+deploys immutable code and submits the prespecified 32-donor validation.
+This deployment entry point targets the existing DDBJ reference layout;
+0.1.0 is not yet a portable installer. `SPECHLA_PG_ROOT` only relocates pipeline
+assets and outputs; it does not alter inference. Original frozen algorithm
+hashes and deployed wrapper hashes are recorded separately.

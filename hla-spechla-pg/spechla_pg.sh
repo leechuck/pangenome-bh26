@@ -14,7 +14,7 @@ threads=4; graph=pggb
 while getopts "n:1:2:o:k:m:g:j:" opt; do case $opt in
  n) sample=$OPTARG;; 1) fq1=$OPTARG;; 2) fq2=$OPTARG;; o) outdir=$OPTARG;; k) fold=$OPTARG;; m) mode=$OPTARG;; g) graph=$OPTARG;; j) threads=$OPTARG;;
 esac; done
-ROOT=/home/leechuck/hla/spechla-pg
+ROOT=${SPECHLA_PG_ROOT:-/home/leechuck/hla/spechla-pg}
 ENV=/home/leechuck/hla/mm/envs/asian50-spechla
 export PATH=$ENV/bin:/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin:$PATH
 export CONDA_PREFIX=$ENV LD_LIBRARY_PATH=$ENV/lib

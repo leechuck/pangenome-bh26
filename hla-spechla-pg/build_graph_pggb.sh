@@ -4,7 +4,7 @@
 # Input graphs/fold$FOLD/HLA_$GENE.in.fa (SpecHLA#0#HLA_<gene> reference + fold training panel sequences).
 set -euo pipefail
 fold=$1; gene=$2; threads=${3:-4}
-cd /home/leechuck/hla/spechla-pg
+cd "${SPECHLA_PG_ROOT:-/home/leechuck/hla/spechla-pg}"
 export PATH=/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin:/home/leechuck/hla/mm/envs/pggb053/bin:/home/leechuck/hla/mm/envs/asian50-spechla/bin:$PATH
 g=HLA_$gene; in=graphs/fold$fold/$g.in.fa; out=graphs/fold$fold/pggb_$g; P=graphs/fold$fold/$g.pggb
 if [ -e $P.giraffe.gbz ] && [ -e $P.min ] && [ "${FORCE:-0}" != 1 ]; then echo ALREADY $fold $g; exit 0; fi
