@@ -46,7 +46,8 @@
     "native": "52062887",
     "bootstrap": "52062901",
     "bootstrap_evidence": "52062902",
-    "calibration": "52062917"
+    "calibration": "52062917",
+    "mapping": "52063958"
   },
   "pending_submission": null,
   "scope": "All 28 reserved donors; no truth or typing output inspection"

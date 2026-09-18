@@ -95,3 +95,9 @@ current dependency and released **40** such tasks, leaving every unfinished
 parent dependency intact. All updates succeeded. The complete per-task audit is
 `BOOTSTRAP_DEPENDENCY_RELEASE.json`, also saved remotely before acknowledgement.
 This changes scheduling only, not inference inputs, parameters or scoring.
+
+All seven initial arrays subsequently completed successfully: 28 runs of each
+T1K reference, coverage, native evidence and calibration, plus 224 bootstrap
+mappings and 224 projections. The dispatcher submitted calibrated two-panel
+mapping as **52063958** (448 tasks, concurrency limit 200). Downstream projection,
+refinement and independent scoring remain outstanding.
