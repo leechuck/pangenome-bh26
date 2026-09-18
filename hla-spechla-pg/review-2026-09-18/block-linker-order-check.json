@@ -1,0 +1,12 @@
+{
+  "installed-map_block2_database.py": {
+    "low_then_high": 18000,
+    "high_then_low": 20000,
+    "expected_maximum": 20000
+  },
+  "upstream/script/whole/map_block2_database.py": {
+    "low_then_high": 18000,
+    "high_then_low": 20000,
+    "expected_maximum": 20000
+  }
+}

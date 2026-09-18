@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "leak_gourraud": {
+      "AFR": 18,
+      "ALL": 93,
+      "AMR": 53,
+      "EAS": 22
+    },
+    "test_A_loo": {
+      "AFR": 64,
+      "ALL": 228,
+      "AMR": 43,
+      "EAS": 55,
+      "EUR": 30,
+      "SAS": 36,
+      "dev": 40
+    },
+    "test_B_gourraud": {
+      "AFR": 188,
+      "ALL": 946,
+      "AMR": 173,
+      "EAS": 230,
+      "EUR": 355
+    }
+  },
+  "sha256": "35daa196fb3518d3c73cbd1b3ddcd5c2f45f8696dd36c120d045001d579ff057"
+}

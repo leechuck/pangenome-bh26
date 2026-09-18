@@ -1,0 +1,6 @@
+hprc	classical8 282/319 = 88.4%	DRB345 113/113 = 100.0%
+asian_matched	classical8 296/319 = 92.8%	DRB345 113/113 = 100.0%
+full	classical8 295/319 = 92.5%	DRB345 111/113 = 98.2%
+T1K	classical8 314/319 = 98.4%	DRB345 48/113 = 42.5%
+spechla native	exact 41/128	mean edits 627.9
+spechla A	exact 51/128	mean edits 471.7

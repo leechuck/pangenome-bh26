@@ -1,0 +1,8 @@
+{
+  "gfa": "/home/asianhla/data/upload/HLA/mhc_graph/MHC.full.gfa.gz",
+  "ref": "GRCh38#0#ctg1",
+  "nodes": 418024,
+  "haplotypes": 754,
+  "reference_length": 5169788,
+  "nonconsecutive_haplotype_lines": []
+}

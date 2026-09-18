@@ -1,0 +1,14 @@
+{
+  "upstream/script/ExtractHLAread.sh": "4481365e67715d9f7fa84c63350efb49e6b7ba56d35a3edeab01b278ca21a8ef",
+  "upstream/script/assign_reads_to_genes.py": "eae0976e53d5672414c8f83f9d803b34fe6fa8cc579352985369ab6ce33df532",
+  "upstream/script/mask_low_depth_region.py": "e0d8d2d0782c5100156fc4d6a85b64c186c755ba823eb79e638bc9e52a6b9f91",
+  "upstream/script/phase_unlinked_block.py": "21567e79f1c2c6e96193a3868dd6fbad7395192b170540de9f71f70e94781219",
+  "upstream/script/phase_variants.py": "3d8b96cf793bff828376d4e1060477f8dff0856f2fcf1c77f8b8395aa6a5d41a",
+  "upstream/script/run.assembly.realign.sh": "17e76de500dacafba6814d5e1c348b5f6e7b3d33100330300b93cc49d3d6bb0e",
+  "upstream/script/whole/SpecHLA.sh": "56198fdc2f9542877f6e7e2e57e3d4ca3c1cf3f4441ef19c53729c5e1d446a6c",
+  "upstream/script/whole/annoHLA.pl": "7aef9916cb6380cb5f924c92882c3a899387de743a56bff17671c380de864159",
+  "upstream/script/whole/map_block2_database.py": "a951894c073391cb13ce8ce8371031267215ee4c6fc9851c93bdbc6d30042e23",
+  "upstream/script/whole/select.region.txt": "6364833e71e40cf62c89d24f88353afcc4160e3d445effb3a5877b087aabd756",
+  "paper.xml": "b8f8ba205c800081f938ee34240a31c8832da7d97ff81b43305a29000ac02cbb",
+  "figure1.jpg": "5bab5c25c576dfa98a37d2e7dad53d6f6f6c7b44af441742ca522928a3bf3ef1"
+}

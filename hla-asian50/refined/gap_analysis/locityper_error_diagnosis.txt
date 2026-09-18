@@ -1,0 +1,165 @@
+
+== NA18620 DRB1 truth=12:02;12:01 pred=12:01;NO_CALL q=7 reads=2020
+  truth h1 12:02 len=17854; nearest panel: P0134[DRB1*12:02]d=0, P0131[DRB1*12:02]d=1, P0133[DRB1*12:02]d=1 | picked: P0281[DRB1*12:01]d=155, P0389[NOLABEL]d=591
+  truth h2 12:01 len=17192; nearest panel: P0071[DRB1*12:01]d=2, P0073[DRB1*12:01]d=3, P0072[NOLABEL]d=26 | picked: P0281[DRB1*12:01]d=651, P0389[NOLABEL]d=1124
+  unlabelled pick P0389 sources: [('HIFI032302D#1#HLA-DRB1', 'NOLABEL(cds_complete=1,old=HLA-DRB1*08:03:new,known_exact_protein)')]
+
+== HG00706 A truth=02:01;11:01 pred=11:01;02:06 q=10 reads=683
+  truth h1 02:01 len=7517; nearest panel: P0074[A*02:01]d=0, P0067[A*02:01]d=1, P0075[A*02:07]d=1 | picked: P0025[A*11:01]d=264, P0070[A*02:06]d=3
+  truth h2 11:01 len=7503; nearest panel: P0025[A*11:01]d=0, P0020[A*11:01]d=1, P0021[A*11:01]d=1 | picked: P0025[A*11:01]d=0, P0070[A*02:06]d=263
+
+== HG00706 C truth=03:04;08:01 pred=03:04;08:03 q=11 reads=560
+  truth h1 03:04 len=8304; nearest panel: P0183[C*03:04]d=0, P0182[C*03:04]d=1, P0174[C*03:04]d=2 | picked: P0183[C*03:04]d=0, P0223[C*08:03]d=166
+  truth h2 08:01 len=8282; nearest panel: P0220[C*08:01]d=22, P0218[C*08:01]d=23, P0222[C*08:03]d=23 | picked: P0183[C*03:04]d=172, P0223[C*08:03]d=25
+
+== NA19087 DQB1 truth=04:02;06:04 pred=06:04;04:01 q=3 reads=1246
+  truth h1 04:02 len=11036; nearest panel: P0152[DQB1*04:02]d=0, P0034[DQB1*04:02]d=72, P0038[DQB1*04:02]d=74 | picked: P0091[DQB1*06:04]d=1533, P0149[DQB1*04:01]d=101
+  truth h2 06:04 len=11102; nearest panel: P0091[DQB1*06:04]d=0, P0090[DQB1*06:09]d=1, P0089[DQB1*06:09]d=2 | picked: P0091[DQB1*06:04]d=0, P0149[DQB1*04:01]d=1562
+
+== NA19087 DPB1 truth=03:01;05:01 pred=63:01;03:01 q=5 reads=1856
+  truth h1 03:01 len=15467; nearest panel: P0181[DPB1*03:01]d=0, P0180[DPB1*03:01]d=1, P0210[DPB1*03:01]d=10 | picked: P0128[DPB1*63:01]d=61, P0181[DPB1*03:01]d=0
+  truth h2 05:01 len=15466; nearest panel: P0128[DPB1*63:01]d=5, P0131[DPB1*05:01]d=13, P0200[DPB1*05:01]d=14 | picked: P0128[DPB1*63:01]d=5, P0181[DPB1*03:01]d=64
+
+== HG03742 DPA1 truth=01:04;01:03 pred=01:03;01:03 q=10 reads=1785
+  truth h1 01:04 len=9641; nearest panel: P0097[DPA1*01:04]d=0, P0098[DPA1*01:04]d=1, P0099[DPA1*03:01]d=35 | picked: P0064[DPA1*01:03]d=4139, P0107[DPA1*01:03]d=3845
+  truth h2 01:03 len=13775; nearest panel: P0111[DPA1*01:03]d=0, P0106[DPA1*01:03]d=1, P0108[DPA1*01:03]d=1 | picked: P0064[DPA1*01:03]d=18, P0107[DPA1*01:03]d=299
+
+== HG03239 A truth=24:07;26:01 pred=24:02;26:01 q=20 reads=484
+  truth h1 24:07 len=7502; nearest panel: P0042[A*24:07]d=0, P0036[A*24:02]d=1, P0029[A*24:02]d=2 | picked: P0040[A*24:02]d=2, P0141[A*26:01]d=230
+  truth h2 26:01 len=7517; nearest panel: P0141[A*26:01]d=1, P0118[A*26:01]d=3, P0120[A*26:01]d=3 | picked: P0040[A*24:02]d=231, P0141[A*26:01]d=1
+
+== NA18608 DRB1 truth=14:05;14:07 pred=14:05;NO_CALL q=11 reads=1992
+  truth h1 14:05 len=17845; nearest panel: P0039[DRB1*14:05]d=2, P0038[DRB1*14:54]d=6, P0040[DRB1*14:05]d=6 | picked: P0039[DRB1*14:05]d=2, P0385[NOLABEL]d=615
+  truth h2 14:07 len=17248; nearest panel: P0201[DRB1*14:54]d=15, P0236[DRB1*14:54]d=15, P0249[DRB1*14:54]d=22 | picked: P0039[DRB1*14:05]d=601, P0385[NOLABEL]d=1134
+  unlabelled pick P0385 sources: [('HIFI032302D#1#HLA-DRB1', 'NOLABEL(cds_complete=1,old=HLA-DRB1*08:03:new,known_exact_protein)')]
+
+== HG00658 DRB1 truth=08:03;14:04 pred=14:04;NO_CALL q=4 reads=940
+  truth h1 08:03 len=17824; nearest panel: P0383[DRB1*08:03]d=0, P0382[DRB1*08:03]d=1, P0385[NOLABEL]d=4 | picked: P0325[DRB1*14:04]d=649, P0385[NOLABEL]d=4
+  truth h2 14:04 len=17217; nearest panel: P0244[DRB1*14:04]d=9, P0249[DRB1*14:54]d=21, P0250[DRB1*14:54]d=23 | picked: P0325[DRB1*14:04]d=723, P0385[NOLABEL]d=1137
+  unlabelled pick P0385 sources: [('HIFI032302D#1#HLA-DRB1', 'NOLABEL(cds_complete=1,old=HLA-DRB1*08:03:new,known_exact_protein)')]
+
+== HG02132 B truth=15:11;55:02 pred=15:01;55:02 q=38 reads=588
+  truth h1 15:11 len=7591; nearest panel: P0242[B*15:11]d=0, P0211[B*15:05]d=238, P0319[B*15:01]d=279 | picked: P0051[B*15:01]d=506, P0175[B*55:02]d=633
+  truth h2 55:02 len=8090; nearest panel: P0175[B*55:02]d=0, P0170[B*55:02]d=1, P0171[B*55:01]d=2 | picked: P0051[B*15:01]d=152, P0175[B*55:02]d=0
+
+== HG03831 B truth=52:01;15:08 pred=52:01;15:01 q=13 reads=600
+  truth h1 52:01 len=8085; nearest panel: P0038[B*52:01]d=0, P0039[B*52:01]d=3, P0036[B*51:01]d=10 | picked: P0038[B*52:01]d=0, P0179[B*15:01]d=155
+  truth h2 15:08 len=8094; nearest panel: P0177[B*15:08]d=0, P0173[B*15:08]d=1, P0178[B*15:01]d=3 | picked: P0038[B*52:01]d=159, P0179[B*15:01]d=4
+
+== HG03831 DRB1 truth=15:06;15:02 pred=15:01;15:02 q=127 reads=1737
+  truth h1 15:06 len=15571; nearest panel: P0103[DRB1*15:01]d=1, P0099[DRB1*15:03]d=6, P0104[DRB1*15:03]d=6 | picked: P0103[DRB1*15:01]d=1, P0301[DRB1*15:02]d=748
+  truth h2 15:02 len=14861; nearest panel: P0301[DRB1*15:02]d=2, P0302[DRB1*15:02]d=6, P0300[DRB1*15:02]d=29 | picked: P0103[DRB1*15:01]d=749, P0301[DRB1*15:02]d=2
+
+== HG03874 DQA1 truth=05:09;02:01 pred=05:05;02:01 q=3 reads=1041
+  truth h1 05:09 len=9764; nearest panel: P0053[DQA1*05:05]d=1, P0055[DQA1*05:05]d=13, P0054[DQA1*05:05]d=17 | picked: P0038[DQA1*05:05]d=830, P0073[DQA1*02:01]d=1798
+  truth h2 02:01 len=10403; nearest panel: P0073[DQA1*02:01]d=0, P0071[DQA1*02:01]d=1, P0072[DQA1*02:01]d=1 | picked: P0038[DQA1*05:05]d=1047, P0073[DQA1*02:01]d=0
+
+== NA18940 C truth=12:02;01:03 pred=12:02;01:02 q=55 reads=936
+  truth h1 12:02 len=8303; nearest panel: P0105[C*12:02]d=0, P0106[C*12:02]d=2, P0103[C*12:02]d=22 | picked: P0106[C*12:02]d=2, P0227[C*01:02]d=105
+  truth h2 01:03 len=7972; nearest panel: P0084[C*01:03]d=0, P0085[C*01:03]d=2, P0125[C*06:02]d=184 | picked: P0106[C*12:02]d=430, P0227[C*01:02]d=334
+
+== HG02027 A truth=11:01;02:03 pred=02:06;11:01 q=7 reads=760
+  truth h1 11:01 len=7503; nearest panel: P0026[A*11:01]d=0, P0020[A*11:01]d=1, P0021[A*11:01]d=1 | picked: P0009[A*02:06]d=260, P0026[A*11:01]d=0
+  truth h2 02:03 len=7517; nearest panel: P0010[A*02:03]d=0, P0008[NOLABEL]d=2, P0073[A*02:03]d=2 | picked: P0009[A*02:06]d=5, P0026[A*11:01]d=263
+
+== HG02027 DRB1 truth=12:02;12:02 pred=12:02;NO_CALL q=5 reads=1190
+  truth h1 12:02 len=17237; nearest panel: P0095[DRB1*12:02]d=0, P0091[DRB1*12:02]d=5, P0092[DRB1*12:02]d=5 | picked: P0140[DRB1*12:02]d=618, P0388[NOLABEL]d=1039
+  truth h2 12:02 len=17240; nearest panel: P0091[DRB1*12:02]d=0, P0090[DRB1*12:02]d=1, P0092[DRB1*12:02]d=1 | picked: P0140[DRB1*12:02]d=623, P0388[NOLABEL]d=1042
+  unlabelled pick P0388 sources: [('HIFI032302D#1#HLA-DRB1', 'NOLABEL(cds_complete=1,old=HLA-DRB1*08:03:new,known_exact_protein)')]
+
+== HG02027 DQA1 truth=06:01;06:01 pred=06:01;NO_CALL q=4 reads=616
+  truth h1 06:01 len=10560; nearest panel: P0045[DQA1*06:01]d=0, P0042[DQA1*06:01]d=1, P0046[DQA1*06:01]d=1 | picked: P0045[DQA1*06:01]d=0, P0047[NOLABEL]d=1
+  truth h2 06:01 len=10560; nearest panel: P0045[DQA1*06:01]d=0, P0042[DQA1*06:01]d=1, P0046[DQA1*06:01]d=1 | picked: P0045[DQA1*06:01]d=0, P0047[NOLABEL]d=1
+  unlabelled pick P0047 sources: [('HIFI032018D#1#HLA-DQA1', 'NOLABEL(cds_complete=1,old=HLA-DQA1*06:new,unresolved_no_exact_match)')]
+
+== HG04187 DRB1 truth=03:01;11:01 pred=03:01;NO_CALL q=13 reads=1194
+  truth h1 03:01 len=17819; nearest panel: P0238[DRB1*03:01]d=0, P0239[DRB1*03:01]d=1, P0043[DRB1*03:01]d=4 | picked: P0238[DRB1*03:01]d=0, P0388[NOLABEL]d=683
+  truth h2 11:01 len=17824; nearest panel: P0396[DRB1*11:01]d=4, P0394[DRB1*11:01]d=5, P0397[DRB1*11:01]d=5 | picked: P0238[DRB1*03:01]d=68, P0388[NOLABEL]d=671
+  unlabelled pick P0388 sources: [('HIFI032302D#1#HLA-DRB1', 'NOLABEL(cds_complete=1,old=HLA-DRB1*08:03:new,known_exact_protein)')]
+
+== HG04187 DQA1 truth=05:01;05:09 pred=05:01;05:05 q=3 reads=620
+  truth h1 05:01 len=9710; nearest panel: P0084[DQA1*05:01]d=0, P0056[DQA1*05:01]d=2, P0053[DQA1*05:05]d=122 | picked: P0028[DQA1*05:01]d=820, P0033[DQA1*05:05]d=935
+  truth h2 05:09 len=9798; nearest panel: P0052[DQA1*05:05]d=167, P0054[DQA1*05:05]d=174, P0055[DQA1*05:05]d=178 | picked: P0028[DQA1*05:01]d=942, P0033[DQA1*05:05]d=814
+
+== HG04187 DQB1 truth=02:07;03:01 pred=02:01;03:01 q=39 reads=1135
+  truth h1 02:07 len=11480; nearest panel: P0002[DQB1*02:01]d=1, P0003[DQB1*02:01]d=2, P0004[DQB1*02:01]d=2 | picked: P0002[DQB1*02:01]d=1, P0118[DQB1*03:01]d=1021
+  truth h2 03:01 len=11231; nearest panel: P0118[DQB1*03:01]d=1, P0117[DQB1*03:01]d=2, P0055[DQB1*03:01]d=4 | picked: P0002[DQB1*02:01]d=1021, P0118[DQB1*03:01]d=1
+
+== HG02602 DPB1 truth=414:01;02:01 pred=02:01;05:01 q=27 reads=2031
+  truth h1 414:01 len=15468; nearest panel: P0008[DPB1*16:01]d=28, P0209[DPB1*05:01]d=43, P0141[DPB1*05:01]d=44 | picked: P0014[DPB1*02:01]d=331, P0141[DPB1*05:01]d=44
+  truth h2 02:01 len=15528; nearest panel: P0014[DPB1*02:01]d=0, P0005[DPB1*48:01]d=1, P0015[DPB1*02:01]d=1 | picked: P0014[DPB1*02:01]d=0, P0141[DPB1*05:01]d=373
+
+== HG04115 A truth=11:01;74:02 pred=11:01;32:01 q=11 reads=699
+  truth h1 11:01 len=7503; nearest panel: P0026[A*11:01]d=0, P0020[A*11:01]d=1, P0021[A*11:01]d=1 | picked: P0026[A*11:01]d=0, P0153[A*32:01]d=271
+  truth h2 74:02 len=7518; nearest panel: P0155[A*74:01]d=6, P0151[A*74:01]d=7, P0153[A*32:01]d=10 | picked: P0026[A*11:01]d=263, P0153[A*32:01]d=10
+
+== HG02165 DRB1 truth=14:54;14:54 pred=14:54;NO_CALL q=4 reads=2018
+  truth h1 14:54 len=17259; nearest panel: P0205[DRB1*14:54]d=0, P0240[DRB1*14:54]d=8, P0326[DRB1*14:07]d=15 | picked: P0038[DRB1*14:54]d=590, P0393[NOLABEL]d=1149
+  truth h2 14:54 len=17259; nearest panel: P0205[DRB1*14:54]d=0, P0240[DRB1*14:54]d=8, P0326[DRB1*14:07]d=15 | picked: P0038[DRB1*14:54]d=590, P0393[NOLABEL]d=1149
+  unlabelled pick P0393 sources: [('HIFI032302D#1#HLA-DRB1', 'NOLABEL(cds_complete=1,old=HLA-DRB1*08:03:new,known_exact_protein)')]
+
+== HG00558 A truth=02:01;01:01 pred=01:01;02:06 q=14 reads=672
+  truth h1 02:01 len=7517; nearest panel: P0075[A*02:01]d=0, P0068[A*02:01]d=1, P0076[A*02:07]d=1 | picked: P0005[A*01:01]d=259, P0059[A*02:06]d=4
+  truth h2 01:01 len=7503; nearest panel: P0005[A*01:01]d=0, P0006[A*01:01]d=1, P0007[A*01:03]d=2 | picked: P0005[A*01:01]d=0, P0059[A*02:06]d=262
+
+== HG02523 A truth=11:01;02:07 pred=11:01;02:06 q=3 reads=623
+  truth h1 11:01 len=7503; nearest panel: P0026[A*11:01]d=0, P0020[A*11:01]d=1, P0021[A*11:01]d=1 | picked: P0026[A*11:01]d=0, P0079[A*02:06]d=263
+  truth h2 02:07 len=7517; nearest panel: P0076[A*02:07]d=0, P0075[A*02:01]d=1, P0013[A*02:07]d=2 | picked: P0026[A*11:01]d=265, P0079[A*02:06]d=4
+
+== HG02738 DRB1 truth=03:01;03:01 pred=03:01;NO_CALL q=14 reads=1426
+  truth h1 03:01 len=17819; nearest panel: P0242[DRB1*03:01]d=0, P0243[DRB1*03:01]d=1, P0045[DRB1*03:01]d=4 | picked: P0242[DRB1*03:01]d=0, P0393[NOLABEL]d=683
+  truth h2 03:01 len=17819; nearest panel: P0242[DRB1*03:01]d=0, P0243[DRB1*03:01]d=1, P0045[DRB1*03:01]d=4 | picked: P0242[DRB1*03:01]d=0, P0393[NOLABEL]d=683
+  unlabelled pick P0393 sources: [('HIFI032302D#1#HLA-DRB1', 'NOLABEL(cds_complete=1,old=HLA-DRB1*08:03:new,known_exact_protein)')]
+
+== HG02738 DQB1 truth=02:01;02:01 pred=02:07;02:01 q=3 reads=1477
+  truth h1 02:01 len=11480; nearest panel: P0003[DQB1*02:01]d=0, P0002[DQB1*02:07]d=1, P0004[DQB1*02:01]d=1 | picked: P0002[DQB1*02:07]d=1, P0003[DQB1*02:01]d=0
+  truth h2 02:01 len=11480; nearest panel: P0003[DQB1*02:01]d=0, P0002[DQB1*02:07]d=1, P0004[DQB1*02:01]d=1 | picked: P0002[DQB1*02:07]d=1, P0003[DQB1*02:01]d=0
+
+== HG03688 A truth=68:01;02:11 pred=02:06;68:01 q=6 reads=539
+  truth h1 68:01 len=7517; nearest panel: P0109[A*68:01]d=0, P0103[A*68:01]d=1, P0107[A*68:01]d=1 | picked: P0009[A*02:06]d=74, P0109[A*68:01]d=0
+  truth h2 02:11 len=7517; nearest panel: P0078[A*02:11]d=0, P0070[A*02:11]d=1, P0014[A*02:11]d=2 | picked: P0009[A*02:06]d=6, P0109[A*68:01]d=77
+
+== NA18747 B truth=15:27;35:03 pred=35:03;15:01 q=23 reads=875
+  truth h1 15:27 len=7867; nearest panel: P0317[B*15:01]d=12, P0319[B*15:25]d=35, P0320[B*15:25]d=36 | picked: P0010[B*35:03]d=344, P0048[B*15:01]d=229
+  truth h2 35:03 len=8085; nearest panel: P0010[B*35:03]d=0, P0007[B*35:03]d=1, P0011[B*35:01]d=1 | picked: P0010[B*35:03]d=0, P0048[B*15:01]d=128
+
+== NA18747 C truth=04:01;04:01 pred=04:01;NO_CALL q=6 reads=1004
+  truth h1 04:01 len=8304; nearest panel: P0059[C*04:01]d=0, P0058[C*04:01]d=1, P0060[C*04:01]d=1 | picked: P0060[C*04:01]d=1, P0061[NOLABEL]d=157
+  truth h2 04:01 len=8304; nearest panel: P0059[C*04:01]d=0, P0058[C*04:01]d=1, P0060[C*04:01]d=1 | picked: P0060[C*04:01]d=1, P0061[NOLABEL]d=157
+  unlabelled pick P0061 sources: [('NA18620#2#HLA-C', 'NOLABEL(cds_complete=1,old=HLA-C*04:81:00:new,unresolved_no_exact_match)')]
+
+== HG00609 DRB1 truth=15:01;09:01 pred=09:01;15:03 q=5 reads=1285
+  truth h1 15:01 len=15474; nearest panel: P0194[DRB1*15:01]d=2, P0192[DRB1*15:04]d=3, P0193[NOLABEL]d=4 | picked: P0081[DRB1*09:01]d=7819, P0106[DRB1*15:03]d=94
+  truth h2 09:01 len=19395; nearest panel: P0082[DRB1*09:01]d=0, P0075[DRB1*09:01]d=1, P0078[DRB1*09:01]d=1 | picked: P0081[DRB1*09:01]d=2, P0106[DRB1*15:03]d=7810
+
+== NA19088 B truth=15:01;15:07 pred=15:01;15:01 q=9 reads=931
+  truth h1 15:01 len=6725; nearest panel: P0280[B*15:01]d=5, P0204[B*15:03]d=57, P0136[B*50:01]d=115 | picked: P0055[B*15:01]d=1372, P0055[B*15:01]d=1372
+  truth h2 15:07 len=8094; nearest panel: P0055[B*15:01]d=1, P0049[B*15:01]d=2, P0051[B*15:01]d=2 | picked: P0055[B*15:01]d=1, P0055[B*15:01]d=1
+
+== HG02074 A truth=02:07;11:01 pred=11:01;02:06 q=4 reads=858
+  truth h1 02:07 len=7517; nearest panel: P0074[A*02:07]d=0, P0073[A*02:01]d=1, P0013[A*02:07]d=2 | picked: P0020[A*11:01]d=266, P0070[A*02:06]d=4
+  truth h2 11:01 len=7300; nearest panel: P0029[A*11:01]d=0, P0026[A*11:01]d=204, P0020[A*11:01]d=205 | picked: P0020[A*11:01]d=205, P0070[A*02:06]d=462
+
+== HG02074 B truth=46:01;15:12 pred=15:01;46:01 q=17 reads=750
+  truth h1 46:01 len=8094; nearest panel: P0178[B*46:01]d=0, P0182[B*46:01]d=1, P0276[B*46:01]d=9 | picked: P0051[B*15:01]d=48, P0178[B*46:01]d=0
+  truth h2 15:12 len=7024; nearest panel: P0208[B*15:12]d=2, P0209[B*15:12]d=3, P0106[B*15:18]d=322 | picked: P0051[B*15:01]d=1073, P0178[B*46:01]d=1090
+
+== HG02074 DRB1 truth=14:54;09:01 pred=09:01;14:01 q=3 reads=1200
+  truth h1 14:54 len=17259; nearest panel: P0201[DRB1*14:54]d=0, P0234[DRB1*14:54]d=8, P0319[DRB1*14:07]d=15 | picked: P0084[DRB1*09:01]d=4980, P0323[DRB1*14:01]d=680
+  truth h2 09:01 len=19395; nearest panel: P0082[DRB1*09:01]d=0, P0075[DRB1*09:01]d=1, P0078[DRB1*09:01]d=1 | picked: P0084[DRB1*09:01]d=1, P0323[DRB1*14:01]d=5245
+
+== HG04157 DPB1 truth=13:01;16:01 pred=414:01;13:01 q=326 reads=1953
+  truth h1 13:01 len=15462; nearest panel: P0148[DPB1*13:01]d=0, P0137[DPB1*13:01]d=7, P0135[DPB1*13:01]d=8 | picked: P0022[DPB1*414:01]d=93, P0148[DPB1*13:01]d=0
+  truth h2 16:01 len=15468; nearest panel: P0022[DPB1*414:01]d=28, P0109[DPB1*93:01]d=35, P0108[DPB1*06:01]d=37 | picked: P0022[DPB1*414:01]d=28, P0148[DPB1*13:01]d=95
+
+== HG03784 A truth=02:09;02:11 pred=02:01;02:11 q=18 reads=1021
+  truth h1 02:09 len=7515; nearest panel: P0073[A*02:01]d=3, P0067[A*02:01]d=4, P0074[A*02:07]d=4 | picked: P0053[A*02:01]d=567, P0076[A*02:11]d=5
+  truth h2 02:11 len=7517; nearest panel: P0076[A*02:11]d=0, P0069[A*02:11]d=1, P0014[A*02:11]d=2 | picked: P0053[A*02:01]d=570, P0076[A*02:11]d=0
+
+== HG03784 B truth=35:01;35:03 pred=35:03;51:01 q=21 reads=983
+  truth h1 35:01 len=8085; nearest panel: P0025[B*35:01]d=26, P0011[B*35:01]d=27, P0005[B*35:01]d=28 | picked: P0010[B*35:03]d=28, P0193[B*51:01]d=53
+  truth h2 35:03 len=8085; nearest panel: P0010[B*35:03]d=0, P0007[B*35:03]d=1, P0011[B*35:01]d=1 | picked: P0010[B*35:03]d=0, P0193[B*51:01]d=76
+
+== HG03784 DRB1 truth=12:01;14:04 pred=12:01;08:06 q=55 reads=2104
+  truth h1 12:01 len=17669; nearest panel: P0271[DRB1*12:01]d=3, P0095[DRB1*12:02]d=142, P0094[DRB1*12:02]d=144 | picked: P0272[DRB1*12:01]d=531, P0337[DRB1*08:06]d=1041
+  truth h2 14:04 len=17934; nearest panel: P0325[DRB1*14:04]d=2, P0324[DRB1*14:04]d=4, P0323[DRB1*14:01]d=7 | picked: P0272[DRB1*12:01]d=876, P0337[DRB1*08:06]d=1207

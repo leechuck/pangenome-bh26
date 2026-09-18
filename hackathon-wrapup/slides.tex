@@ -1,0 +1,113 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc}
+\usepackage{graphicx}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{}
+\definecolor{ink}{HTML}{122B39}
+\definecolor{paper}{HTML}{F5F2E9}
+\definecolor{teal}{HTML}{007D80}
+\definecolor{mint}{HTML}{5DE2CB}
+\definecolor{orange}{HTML}{FFB45B}
+\definecolor{muted}{HTML}{B5C9CE}
+\definecolor{slate}{HTML}{54717E}
+\setbeamercolor{background canvas}{bg=paper}
+\newcommand{\txt}[6]{\node[anchor=north west,align=left,text=#4,text width=#3 cm,inner sep=0pt,font=\fontsize{#5}{#6}\selectfont] at (#1,#2)}
+\newcommand{\foot}[2]{\txt{0.6}{0.40}{14}{#1}{7}{8}{BIOHACKATHON 2026\quad /\quad MHC PANGENOME\hfill github.com/leechuck/pangenome-bh26\qquad #2/3};}
+\hyphenpenalty=10000
+\begin{document}
+
+\setbeamercolor{background canvas}{bg=ink}
+\begin{frame}[plain]
+\begin{tikzpicture}[remember picture,overlay,x=1cm,y=1cm,shift={(current page.south west)}]
+\txt{0.6}{8.48}{14.8}{mint}{10}{12}{THE BUILD};
+\txt{0.6}{7.91}{14.8}{white}{25}{29}{\textbf{Whose HLA is in your reference?}};
+\txt{0.6}{6.94}{14.8}{muted}{13}{17}{Five projects. One graph of the MHC, a highly variable immune region.};
+\txt{0.6}{5.86}{5.8}{mint}{47}{49}{\textbf{754}};
+\txt{0.65}{4.57}{6.3}{white}{16}{19}{MHC haplotypes};
+\txt{0.65}{3.62}{6.5}{muted}{10}{14}{390 Asian or Arab haplotypes\\752 biological haplotypes + 2 references};
+% Conceptual paths, explicitly labelled as a schematic.
+\txt{7.4}{5.91}{7.7}{muted}{10}{13}{APR / HPRC r2 / JaSaPaGe / K-PanRef / CPC};
+\foreach \y/\c in {3.65/mint,4.03/orange,4.41/white,4.79/mint,5.17/orange}{
+ \draw[\c,line width=1.7pt,opacity=.9] (7.5,\y) .. controls (8.5,\y) and (8.7,4.4) .. (9.4,4.4) -- (10.1,4.4);
+}
+\draw[mint,line width=2.4pt] (10.1,4.4) .. controls (10.6,4.4) and (10.7,5.1) .. (11.3,5.1) -- (12.0,5.1) .. controls (12.5,5.1) and (12.5,4.4) .. (13.0,4.4) -- (14.8,4.4);
+\draw[orange,line width=2.4pt] (10.1,4.4) .. controls (10.6,4.4) and (10.7,3.7) .. (11.3,3.7) -- (12.0,3.7) .. controls (12.5,3.7) and (12.5,4.4) .. (13.0,4.4);
+\draw[white,line width=2pt] (10.1,4.4) -- (13.0,4.4);
+\foreach \x/\y in {9.4/4.4,10.1/4.4,11.3/5.1,12/5.1,11.3/3.7,12/3.7,13/4.4,14.8/4.4}{\fill[ink] (\x,\y) circle (0.065);\draw[white,line width=.8pt] (\x,\y) circle (0.065);}
+\txt{7.5}{3.21}{7.6}{muted}{8}{10}{Extract MHC $\rightarrow$ annotate $\rightarrow$ build graph (schematic)};
+\draw[slate] (0.65,2.62) -- (15.3,2.62);
+\txt{0.65}{2.31}{4.5}{mint}{11}{13}{\textbf{A SHARED RESOURCE}};
+\txt{0.65}{1.77}{4.5}{white}{12}{16}{Graph + allele labels};
+\txt{5.65}{2.31}{4.4}{mint}{11}{13}{\textbf{A WORKING PIPELINE}};
+\txt{5.65}{1.77}{4.4}{white}{12}{16}{CWL workflow};
+\txt{10.65}{2.31}{4.7}{mint}{11}{13}{\textbf{A TEST BED}};
+\txt{10.65}{1.77}{4.7}{white}{12}{16}{Reads: 2,504 samples};
+\foot{muted}{1}
+\end{tikzpicture}
+\end{frame}
+
+\setbeamercolor{background canvas}{bg=paper}
+\begin{frame}[plain]
+\begin{tikzpicture}[remember picture,overlay,x=1cm,y=1cm,shift={(current page.south west)}]
+\txt{0.6}{8.48}{14.8}{teal}{10}{12}{THE PAYOFF};
+\txt{0.6}{7.91}{14.8}{ink}{24}{28}{\textbf{More haplotypes. Better SV calls.}};
+\txt{0.6}{6.93}{14.8}{slate}{12}{16}{Better recovery of genotypes carrying structural variants.};
+\txt{0.65}{5.96}{9.5}{ink}{12}{15}{\textbf{SV-bearing genotypes recovered exactly (\%)}};
+\fill[slate] (0.7,5.25) circle (.07);\txt{0.91}{5.43}{3.7}{slate}{10}{12}{HPRC-only panel};
+\fill[teal] (4.6,5.25) circle (.07);\txt{4.81}{5.43}{3.4}{teal}{10}{12}{Expanded panel};
+% Scale 65--85%, x = 2.7 + .34 * (accuracy - 65).
+\foreach \v in {65,70,75,80,85}{
+ \pgfmathsetmacro{\xx}{2.7+.34*(\v-65)}
+ \draw[slate!18] (\xx,2.7) -- (\xx,4.75);
+ \node[text=slate,font=\small,anchor=north] at (\xx,2.57) {\v};
+}
+\txt{0.65}{4.41}{2.4}{ink}{10}{14}{East Asian\\20 donors};
+\txt{0.65}{3.36}{2.4}{ink}{10}{14}{South Asian\\20 donors};
+\draw[teal!40,line width=5pt] (5.199,4.05) -- (6.525,4.05);
+\draw[teal!40,line width=5pt] (6.212,3.0) -- (6.882,3.0);
+\foreach \x/\y/\val/\col in {5.199/4.05/72.4/slate,6.525/4.05/76.2/teal,6.212/3.0/75.3/slate,6.882/3.0/77.3/teal}{
+ \fill[\col] (\x,\y) circle (.095);
+ \node[text=\col,font=\bfseries\small,anchor=south] at (\x,\y+.15) {\val};
+}
+\fill[ink,rounded corners=5pt] (10.2,2.62) rectangle (15.35,5.83);
+\txt{10.57}{5.54}{4.5}{mint}{34}{37}{\textbf{+3.9}};
+\txt{10.57}{4.52}{4.45}{white}{10}{13}{points in East Asian donors};
+\txt{10.57}{3.95}{4.45}{muted}{9}{12}{95\% CI: +2.4 to +5.3};
+\txt{10.57}{3.40}{4.45}{muted}{9}{12}{South Asian: +2.0 points\\95\% CI: +0.3 to +3.5};
+\txt{0.65}{1.99}{14.7}{ink}{14}{18}{\textbf{The clearest gain: recovering harder variants.}};
+\txt{0.65}{1.20}{14.7}{slate}{8}{11}{40-donor pilot, PanGenie, same reads; assembly-derived truth. Panel size and ancestry change together.\\Test families excluded from panels; test assemblies remain in graph topology. All eligible SV-bearing genotypes.};
+\foot{slate}{2}
+\end{tikzpicture}
+\end{frame}
+
+\setbeamercolor{background canvas}{bg=ink}
+\begin{frame}[plain]
+\begin{tikzpicture}[remember picture,overlay,x=1cm,y=1cm,shift={(current page.south west)}]
+\txt{0.6}{8.48}{14.8}{mint}{10}{12}{THE SURPRISE};
+\txt{0.6}{7.91}{14.8}{white}{24}{28}{\textbf{Better sequences. Same names.}};
+\txt{0.6}{6.93}{14.8}{muted}{13}{17}{A small change to SpecHLA: add pangenome sequences when collecting reads.};
+\txt{0.65}{5.96}{8.8}{white}{12}{15}{\textbf{Exact gene reconstructions (out of 128)}};
+\txt{0.65}{5.36}{8.8}{muted}{9}{12}{8 donors $\times$ 8 genes $\times$ 2 haplotypes; assembly truth};
+\txt{0.65}{4.72}{4}{muted}{12}{15}{Standard SpecHLA};
+\fill[slate!40!ink,rounded corners=2pt] (0.65,3.9) rectangle (8.65,4.25);
+\fill[muted,rounded corners=2pt] (0.65,3.9) rectangle (3.2125,4.25);
+\txt{7.12}{4.73}{1.6}{white}{19}{21}{\textbf{41}};
+\txt{0.65}{3.44}{6.3}{mint}{12}{15}{+ pangenome in read binning};
+\fill[slate!40!ink,rounded corners=2pt] (0.65,2.62) rectangle (8.65,2.97);
+\fill[mint,rounded corners=2pt] (0.65,2.62) rectangle (3.8375,2.97);
+\txt{7.12}{3.45}{1.6}{mint}{19}{21}{\textbf{51}};
+\txt{0.65}{2.29}{8.7}{white}{9}{12}{\textbf{10 more exact sequences;} same allele calls (61/63).};
+\fill[white,opacity=.06,rounded corners=5pt] (9.45,2.05) rectangle (15.35,6.05);
+\txt{9.8}{5.76}{5.15}{orange}{8}{10}{LOCITYPER / 40 DONORS};
+\txt{9.8}{5.17}{5.12}{white}{12}{16}{\textbf{T1K leads on names.}};
+\txt{9.8}{4.34}{5.12}{muted}{10}{14}{Classical genes, 40 donors:\\T1K \textbf{98.4\%} / our panel \textbf{92.5\%}};
+\txt{9.8}{3.31}{5.12}{white}{10}{14}{DRB3/4/5 type + copy number:\\our panel \textbf{111/113 correct}};
+\txt{9.8}{2.53}{5.12}{muted}{8}{10}{Stage B; before exon grafting.};
+\draw[slate] (0.65,1.76) -- (15.35,1.76);
+\txt{0.65}{1.49}{14.7}{mint}{15}{19}{\textbf{Next: take this beyond the pilot.}};
+\txt{0.65}{0.94}{14.7}{white}{11}{14}{Locked validation: 228 leave-one-out donors + 946 experimentally typed donors.};
+\foot{muted}{3}
+\end{tikzpicture}
+\end{frame}
+\end{document}

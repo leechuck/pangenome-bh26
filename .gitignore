@@ -36,3 +36,22 @@ hla-viz/mhc_bundle/
 hla-viz/classII_bundle/
 hla-viz/data/
 hla-viz/hla_calls.tsv
+# Rebuildable/downloaded inputs and native run snapshots for the HLA typers.
+hla-bench/source/imgt/
+hla-typer/source/ipd_cds/
+hla-typer/source/ipd_partial/
+hla-typer/results/loci/
+hla-typer/results/calls/
+hla-typer/results/c1/
+hla-typer/results/*snapshot.tar.gz
+hla-typer/results/status-*/c1/
+hla-typer/results/status-*/*.tar.gz
+hla-spechla-pg/source/imgt_gen/
+hla-spechla-pg/source/catalogue_slim.tsv
+hla-spechla-pg/source/exons.tsv
+hla-spechla-pg/results/runs/
+hackathon-wrapup/*.aux
+hackathon-wrapup/*.nav
+hackathon-wrapup/*.out
+hackathon-wrapup/*.snm
+hackathon-wrapup/*.toc
