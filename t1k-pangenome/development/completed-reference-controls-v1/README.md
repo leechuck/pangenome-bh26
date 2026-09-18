@@ -11,8 +11,11 @@ all references are aligned with native T1K, not a graph mapper.
 | Full genomic IPD | 494/509 | 285/323 |
 
 Full genomic IPD provides the largest four-field gain, independently of the
-Asian graph. Every new reference reduces two-field point accuracy, so none
-meets the prespecified success criterion as-is. These development donors have
+Asian graph. The genomic-IPD two-field result differs by only one genotype;
+this is not evidence of meaningful deterioration. The literal prespecified
+point-estimate rule remains distinct from that practical interpretation. These development donors have
 already been examined and do not establish independent improvement.
 Genomic-IPD-plus-context controls and graph refinement remain separate ongoing
 experiments. The 84 reserved donors remain unscored.
+
+The completed six-method results and paired uncertainty are now in ../completed-reference-controls-v2/.

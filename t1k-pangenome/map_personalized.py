@@ -5,6 +5,7 @@ all-IPD evidence and joint competing-locus inference remain necessary.
 """
 import argparse
 import json
+import math
 import os
 from pathlib import Path
 import shutil
@@ -25,7 +26,21 @@ def sampling_decision(coverage, gene, disabled=False):
     return depth,None
 
 
-def run(graph, coverage_file, gene, reads, output, threads, disable_selection=False):
+def fragment_parameters(calibration, hashes):
+    if calibration['status'] != 'complete' or not calibration['estimate']['usable']:
+        raise ValueError('Incomplete library calibration')
+    if calibration['reads_sha256'] != hashes:
+        raise ValueError('Library calibration used different reads')
+    fit = calibration['estimate']
+    values = [fit['fragment_mean'], fit['fragment_stdev']]
+    if any(isinstance(v, bool) or not isinstance(v, (float, int)) or
+           not math.isfinite(v) or v <= 0 for v in values):
+        raise ValueError('Invalid insert distribution')
+    return ['--fragment-mean', str(values[0]), '--fragment-stdev', str(values[1])]
+
+
+def run(graph, coverage_file, gene, reads, output, threads, disable_selection=False,
+        calibration_file=None):
     if not 1 <= threads <= int(os.environ.get('SLURM_CPUS_PER_TASK','0')):
         raise ValueError('Requires sufficient Slurm CPU allocation')
     if output.exists():
@@ -44,6 +59,10 @@ def run(graph, coverage_file, gene, reads, output, threads, disable_selection=Fa
     hashes = {str(p):sha(p) for p in reads}
     if hashes != coverage['reads_sha256']:
         raise ValueError('Coverage was estimated from different reads')
+    insert_args = []
+    if calibration_file is not None:
+        calibration = json.loads(calibration_file.read_text())
+        insert_args = fragment_parameters(calibration, hashes)
     depth,fallback = sampling_decision(coverage,gene,disable_selection)
     vg = Path('/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg')
     kmc = Path('/home/leechuck/hla/t1k-pangenome/tools/kmc-3.2.4/kmc')
@@ -57,6 +76,9 @@ def run(graph, coverage_file, gene, reads, output, threads, disable_selection=Fa
                   measured_kmer_coverage=depth,selection_disabled=disable_selection,
                   sampling_fallback=fallback,commands=[],
                   scope='Per-locus alignment evidence only; retain all-IPD and competing-locus evidence')
+    if calibration_file is not None:
+        record['library_calibration_sha256'] = sha(calibration_file)
+        record['fragment_parameters'] = insert_args
     def save():
         (output/'manifest.json').write_text(json.dumps(record,indent=2)+'\n')
     def execute(command, target=None):
@@ -83,6 +105,7 @@ def run(graph, coverage_file, gene, reads, output, threads, disable_selection=Fa
                      '-k','counts.kff','-g','sampled.gbz','graph.gbz'])
             mapping_graph = 'sampled.gbz'
         command = [str(vg),'giraffe','-Z',mapping_graph,'-f',str(reads[0]),'-f',str(reads[1]),'-t',str(threads)]
+        command += insert_args
         if mapping_graph=='graph.gbz':
             # The haplotype-preparation index intentionally omits distances;
             # giraffe/minimizer construction requires a full distance index.
@@ -118,5 +141,6 @@ if __name__ == '__main__':
     p.add_argument('--reads',type=Path,nargs=2,required=True)
     p.add_argument('--threads',type=int,default=4)
     p.add_argument('--disable-selection',action='store_true')
+    p.add_argument('--calibration',type=Path)
     a = p.parse_args()
-    run(a.graph,a.coverage,a.gene,a.reads,a.output,a.threads,a.disable_selection)
+    run(a.graph,a.coverage,a.gene,a.reads,a.output,a.threads,a.disable_selection,a.calibration)

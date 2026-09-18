@@ -1,0 +1,25 @@
+{
+  "job": "52047082",
+  "code_sha256": {
+    "library_calibration.py": "876d7535423022b5b79522ddca44da039aa683c7955abab25b972ff1bd18f953",
+    "evidence_io.py": "14495b5ddbe02f4514f886424a4c75aa42ca5102fb78c1122ec903858a8b2289",
+    "fragment_support.py": "bbfd8943563acccbb6b5ebda723d4c7cef44ef88a2dd508439cbae28cf52856f",
+    "join_evidence.py": "e9e9c5ac6bcb0197436fd6403286595814f669261e5d4caf8069a11b467a4930",
+    "t1k_evidence.py": "b79c8cdf6708bf8f0401adb4a0aa9a73b8251da3543b5d6343382ac02a06b9b6",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f",
+    "build_panel.py": "60d51b0276db3d1a6a109bf22bb4f555a7cadb40d4e1f1856758e16b80d238d2"
+  },
+  "command": [
+    "python3",
+    "/home/leechuck/hla/t1k-pangenome/library-calibration-v1-code/library_calibration.py",
+    "--source",
+    "/home/leechuck/hla/t1k-pangenome/development/fragments-v2/HG00658/hprc_asian/unsampled",
+    "--mapping",
+    "/home/leechuck/hla/t1k-pangenome/development/mapping-v2/HG00658/hprc_asian/unsampled",
+    "--output",
+    "/home/leechuck/hla/t1k-pangenome/development/library-calibration-v1/HG00658",
+    "--threads",
+    "8"
+  ],
+  "scope": "Development insert calibration; no truth read"
+}

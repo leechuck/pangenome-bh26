@@ -1,0 +1,26 @@
+{
+  "scope": "Exploratory development comparison; not independent validation or proof of equivalence",
+  "candidate": "ipd_genome",
+  "baseline": "T1K",
+  "source_sha256": "4490738b05e901fe3751b23760a0d75c791ca76f04fc00bd8a54608eb0f14bd2",
+  "results": {
+    "2": {
+      "difference": -0.0019646365422396855,
+      "lower_95": -0.021653543307086614,
+      "upper_95": 0.01764705882352941,
+      "families": 64,
+      "replicates": 10000,
+      "gains": 13,
+      "losses": 14
+    },
+    "4": {
+      "difference": 0.37770897832817335,
+      "lower_95": 0.3238095238095238,
+      "upper_95": 0.43260188087774293,
+      "families": 64,
+      "replicates": 10000,
+      "gains": 131,
+      "losses": 9
+    }
+  }
+}

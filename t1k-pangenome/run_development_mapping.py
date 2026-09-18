@@ -22,11 +22,13 @@ if __name__ == '__main__':
     parser.add_argument('--panel', choices=('hprc', 'hprc_asian'), required=True)
     parser.add_argument('--selection', choices=('sampled', 'unsampled'), required=True)
     parser.add_argument('--index', type=int, choices=range(len(GENES)), required=True)
+    parser.add_argument('--calibration', type=Path)
     args = parser.parse_args()
     gene = GENES[args.index]
     reads = Path('/home/leechuck/hla/hla-typer/reads/HG00658')
     run(graph_path(args.panel, gene),
         ROOT/'coverage/development-genome-screen-v1/HG00658.json', gene,
         [reads/'r1.fq.gz', reads/'r2.fq.gz'],
-        ROOT/'development/mapping-v2/HG00658'/args.panel/args.selection/gene,
-        threads=4, disable_selection=args.selection == 'unsampled')
+        ROOT/'development'/('mapping-v3' if args.calibration else 'mapping-v2')/'HG00658'/args.panel/args.selection/gene,
+        threads=4, disable_selection=args.selection == 'unsampled',
+        calibration_file=args.calibration)

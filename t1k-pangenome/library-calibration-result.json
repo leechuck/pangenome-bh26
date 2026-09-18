@@ -1,0 +1,153 @@
+{
+  "status": "complete",
+  "started": 1789734805.1521611,
+  "finished": 1789734814.6258152,
+  "reads_sha256": {
+    "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+    "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+  },
+  "estimate": {
+    "usable": true,
+    "fragment_mean": 452.4512754085293,
+    "fragment_stdev": 105.59783882511589,
+    "median": 441.0,
+    "robust_scale": 102.29939999999999,
+    "input_fragments": 10044,
+    "retained_fragments": 10036,
+    "trimmed_fragments": 8,
+    "observed_min": 34,
+    "observed_max": 953.0
+  },
+  "selection_counts": {
+    "selected": 10044,
+    "ambiguous_insert": 63,
+    "competing_locus": 278
+  },
+  "selected_by_gene": {
+    "A": 970,
+    "B": 925,
+    "C": 969,
+    "DPA1": 1250,
+    "DPB1": 1610,
+    "DRB1": 1798,
+    "DQA1": 1162,
+    "DQB1": 1360
+  },
+  "parameters": {
+    "minimum_identity": 0.98,
+    "minimum_mapq": 30,
+    "locus_score_margin": 10,
+    "maximum_span_disagreement": 5,
+    "maximum_insert": 1000,
+    "minimum_fragments": 200
+  },
+  "sources": [
+    {
+      "gene": "A",
+      "counts": {
+        "alignment_records": 1477842,
+        "retained_alignment_records": 2560
+      },
+      "reads_sha256": {
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "support_manifest_sha256": "1297e94b475c3346f312314d782cee6c9fa9b50b937235185c9c19c0efad6617",
+      "projection_manifest_sha256": "683c58d8effa54038da6419ed9afa1c0c157b4c250c9405de24102ce51e6130a"
+    },
+    {
+      "gene": "B",
+      "counts": {
+        "alignment_records": 1477842,
+        "retained_alignment_records": 2195
+      },
+      "reads_sha256": {
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "support_manifest_sha256": "2ebbd966f247c964ebba503777d7842de42869a9813074779bf2cf5a72925883",
+      "projection_manifest_sha256": "712e2f36fc3bf8ba4098b576f322a7d43dfb90a581eca40d40fee6e93616b56c"
+    },
+    {
+      "gene": "C",
+      "counts": {
+        "alignment_records": 1477842,
+        "retained_alignment_records": 2424
+      },
+      "reads_sha256": {
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "support_manifest_sha256": "2a2e53213146b5b87bc6225e2974bc622848b75a0bbd85f87fec0b44ba0d2fd4",
+      "projection_manifest_sha256": "b7e72305f00d3006ad39a1a7e93314e5eb926e9332700756fd2242001259246d"
+    },
+    {
+      "gene": "DPA1",
+      "counts": {
+        "alignment_records": 1477842,
+        "retained_alignment_records": 3310
+      },
+      "reads_sha256": {
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "support_manifest_sha256": "4afc25becafc4f2791b563b930fa13d37053df51bb815d53d48e3f8b3d06085a",
+      "projection_manifest_sha256": "fe750f38a50fa79cf8d7543a6736f9ff41875403aa54262cdecebe46abf21539"
+    },
+    {
+      "gene": "DPB1",
+      "counts": {
+        "alignment_records": 1477842,
+        "retained_alignment_records": 4727
+      },
+      "reads_sha256": {
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "support_manifest_sha256": "48e493bf3ac2f9886f5e5a0cbd82a8d1e13084a7606f0b68bfa01783124533a5",
+      "projection_manifest_sha256": "abd7d96af3527990e31af1efa2b497f9eb87d6174c232e251dd655ff4577b55f"
+    },
+    {
+      "gene": "DQA1",
+      "counts": {
+        "alignment_records": 1477842,
+        "retained_alignment_records": 3284
+      },
+      "reads_sha256": {
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "support_manifest_sha256": "7563821d791578d32f6697ae8a033385a2c6949fa0036989df19188a7a2d86ab",
+      "projection_manifest_sha256": "1947f0fbea01bd96bf796de07e1229e6d1fd012329fffc87dd2be7ccdd651269"
+    },
+    {
+      "gene": "DQB1",
+      "counts": {
+        "alignment_records": 1477842,
+        "retained_alignment_records": 3814
+      },
+      "reads_sha256": {
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "support_manifest_sha256": "cb9be909a43b055a4196c86a6b3c26993cadfef30b48297dc007eeeec461a77b",
+      "projection_manifest_sha256": "a1b596b1bf0b66cda84be8c5d9c46f60b38d9a7c7740c2a73f279329ae7ecd33"
+    },
+    {
+      "gene": "DRB1",
+      "counts": {
+        "alignment_records": 1477842,
+        "retained_alignment_records": 8837
+      },
+      "reads_sha256": {
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "support_manifest_sha256": "37e8c79fb64aa49e4f667956fa40195f71c5847d0daa569b2af44bd982392703",
+      "projection_manifest_sha256": "15891b2eb4b3749c578478d299bc8f9467b6c5645fdd3ab228b9a60850177453"
+    }
+  ],
+  "driver_sha256": "876d7535423022b5b79522ddca44da039aa683c7955abab25b972ff1bd18f953",
+  "scope": "Insert calibration only; one fragment once; no genotype truth or ancestry prior",
+  "limitations": "Conditional on alignable conserved graph context and inserts <=1000; selected-locus bias remains possible"
+}

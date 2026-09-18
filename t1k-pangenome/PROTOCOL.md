@@ -272,8 +272,10 @@ content. They keep the same reads, candidates, caller and scoring rules.
 
 Full-genomic-IPD substitution subsequently completed all 64 donors at 494/509
 two-field and 285/323 four-field genotypes, versus original T1K's 495/509 and
-163/323. This is the strongest reference control but still fails the requirement
-that two-field point accuracy not decrease. Its gains cannot be attributed to
+163/323. This is the strongest reference control. The net one-call two-field difference
+is effectively unchanged in practical terms, not evidence of meaningful deterioration.
+It does not meet the literal no-decrease point rule; that rule has not been
+changed retrospectively. Paired development uncertainty is reported separately. Its gains cannot be attributed to
 the Asian graph. Completed donor/gene results and ancestry summaries are archived
 in development/completed-reference-controls-v1/. Reserved outcomes remain unscored.
 
@@ -293,6 +295,21 @@ Mapping logs separately show failed insert-distribution learning at some loci
 when supplied unbinned reads, followed by single-end mapping. The coordinate fix
 does not solve this calibration issue. It remains a requirement before the final
 graph inference method is frozen. No validation truth has been used.
+
+The six completed reference controls are archived in
+`development/completed-reference-controls-v2/`. Full genomic IPD remains strongest;
+naively adding observed contexts gives 431/509 and 203/323 (HPRC), or 470/509
+and 259/323 (HPRC plus Asian). These findings motivate separate graph evidence
+rather than treating each observed context as an independent allele candidate.
+
+Development library calibration now uses one unique fragment once across loci,
+requires high alignment identity and mapping quality, and excludes competing-locus
+and insert-span ambiguities. It uses no genotype truth. HG00658 yielded 10,036
+retained fragments across eight loci, mean 452.45 bp and standard deviation
+105.60 bp. Mapping-v3 supplies these same parameters to both graph panels and
+selection conditions; read hashes must match calibration. Earlier mapping outputs
+remain preserved. This controls failed per-locus insert learning; it is not a
+claim of improved genotype accuracy.
 
 ## References
 

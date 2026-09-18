@@ -17,7 +17,8 @@ def development_jobs():
  for name in ('linear-control-launch.json','genome-control-launch.json','genomic-context-control-launch.json',
               'development-map-launch.json','development-map-all-loci-launch.json',
               'native-evidence-development-launch.json','development-evidence-launch.json',
-              'development-evidence-v2-launch.json'):
+              'development-evidence-v2-launch.json','library-calibration-launch.json',
+              'development-map-calibrated-launch.json'):
   path=T1K/name
   if not path.exists():continue
   record=json.loads(path.read_text())

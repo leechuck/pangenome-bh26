@@ -1,0 +1,15 @@
+{
+  "code_sha256": {
+    "run_development_mapping.py": "99aba1d84b1c8a812af9a48ab50644b83e40f7969a3f05b6e831d9dfdfe8f0db",
+    "map_personalized.py": "2e4d21abb575cca82bf202271eccf986fca26a89674897b8b1e4c4c40a073ff6",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f"
+  },
+  "jobs": {
+    "hprc/sampled": "52047188",
+    "hprc/unsampled": "52047189",
+    "hprc_asian/sampled": "52047190",
+    "hprc_asian/unsampled": "52047194"
+  },
+  "scope": "Matched graph mapping with shared insert parameters; no genotype truth",
+  "pilot": "52047186"
+}
