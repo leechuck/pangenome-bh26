@@ -50,8 +50,8 @@ Current references preserve 86 HPRC/reference source haplotypes per locus and
 These counts are smaller than the old benchmark panels because the new reserved
 test families and previously exposed development families are all excluded.
 
-Graph construction and topology validation passed for the HPRC HLA-A pilot;
-the remaining 15 panel/locus builds are scheduled. Remaining implementation:
+All 16 panel/locus graphs completed construction and sampling-index preparation;
+four needed an explicit backbone when building the distance index. Remaining implementation:
 competing paralog/decoy references, real-sample k-mer selection, graph-based
 candidate-pair refinement, and frozen independent evaluation.
 The existing eight target loci alone are not a complete mapping decoy set.
@@ -130,3 +130,11 @@ and mate metadata. Shared sequence does not force a single allele assignment;
 walks absent from the observed paths stay explicitly unsupported. The adapter
 checks that alignment node IDs belong to the input graph. Fragment likelihoods,
 paralog competition and allele-level inference still need integration.
+
+The corrected synthetic T1K controls completed successfully: baseline, HPRC
+contexts and HPRC-plus-Asian contexts all decoded to the same expected HLA-A
+four-field pair. The first adapter version incorrectly mixed `A` and `HLA-A`
+gene namespaces; v2 derives its namespace from the unchanged IPD reference and
+the decoder rejects duplicate normalized gene rows. These training-path tests
+establish integration, not improvement. The first graph-evidence projection
+also retained compatible observed-path placements for all 4,008 reads.

@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "gfa_sha256": "bf08ef04134e65641aa6b480a53de6376930a876013fcdaf2e191c01ec6a4302",
+  "alignments_sha256": "4f337dd7ac02d740a31c859438852c6a28140cd8de36e9a145d30630c4c7ff75",
+  "driver_sha256": "fdad19abc24aa80fd3068be0d270f7fcdfac720e1b55993675577915696b641b",
+  "outcomes": {
+    "supported": 4008
+  },
+  "output_sha256": "e482591fedb5c9c78ea00ba08d827625dc7f46e81356bdbc10863508635c79a9",
+  "scope": "Path-compatible placements only; no genotype inference or independent accuracy claim"
+}
