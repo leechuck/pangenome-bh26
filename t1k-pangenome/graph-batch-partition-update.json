@@ -1,0 +1,135 @@
+{
+  "reason": "Debug limited to 204 CPUs across three nodes; batch reports 12191 idle CPUs; move pending tasks only",
+  "updates": [
+    {
+      "job": "52047958",
+      "skipped_states": [
+        "PENDING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING",
+        "RUNNING"
+      ]
+    },
+    {
+      "job": "52047971",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047972",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047973",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047986",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047988",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_7",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_15",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_23",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_31",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_39",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_47",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_50",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_52",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_53",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_54",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047958_55",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

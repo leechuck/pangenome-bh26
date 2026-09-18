@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "donor": "HG00290",
+  "started": 1789736679.1054044,
+  "plan_sha256": "4333e38da37c2ebc56fdc404ffee3e365caf38347c1b7804e270ef0c268d691b",
+  "driver_sha256": "a8ee9028ba0005b79cafd79373641df7e2469841c247eb2bc80d8eae2e508460",
+  "reads_sha256": {
+    "r1.fq.gz": "b4c8724b01ca1e3ce19c372ca3a53bb1d1f3189e29677bda6ec2cec1e3e649cb",
+    "r2.fq.gz": "361d30808267592b0be46153383d54126f05c4fa25ddd3f9e3111d1534af5814"
+  },
+  "command": [
+    "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+    "-1",
+    "/home/leechuck/hla/t1k-pangenome/validation-reads/HG00290/r1.fq.gz",
+    "-2",
+    "/home/leechuck/hla/t1k-pangenome/validation-reads/HG00290/r2.fq.gz",
+    "--preset",
+    "hla-wgs",
+    "-f",
+    "/home/leechuck/hla/hla-typer/t1kdb/hla365_dna_seq.fa",
+    "-t",
+    "4",
+    "--alleleDigitUnits",
+    "4",
+    "--alleleDelimiter",
+    ":",
+    "-o",
+    "/home/leechuck/hla/t1k-pangenome/validation-runs/frozen-t1k-v1/HG00290/HG00290"
+  ],
+  "recipe": {
+    "alleleDelimiter": ":",
+    "alleleDigitUnits": 4,
+    "database_sha256": "024218d8482525bc5227ac8445a7c20ef69a66978a28ac73ff73e3a636297b22",
+    "ipd": "3.65.0",
+    "preset": "hla-wgs",
+    "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd"
+  },
+  "scope": "Reserved baseline calls only; no truth loaded or outcomes scored",
+  "finished": 1789736836.9441874,
+  "output_sha256": {
+    "HG00290_genotype.tsv": "ff7104197b5ba2441f4b6a43d4353628b6e270af75a984793a3bad222edbf118"
+  }
+}

@@ -33,7 +33,7 @@ def main():
     record=dict(code_sha256=hashes,jobs={},donors=config['donors'],scope=config['scope'])
     def save():ledger.write_text(json.dumps(record,indent=2)+'\n')
     def stage(name,count,cpus,mem,dependencies=()):
-        extra=['--array=0-'+str(count-1),'--partition=debug']
+        extra=['--array=0-'+str(count-1)]
         if dependencies:extra+=['--dependency='+','.join(kind+':'+record['jobs'][parent] for kind,parent in dependencies)]
         job=submit('t1k-batch-'+name,cpus,mem,'02:00:00',base+['--stage',name],extra)
         record['jobs'][name]=job;save()

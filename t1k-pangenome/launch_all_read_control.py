@@ -26,7 +26,7 @@ if __name__=='__main__':
     root='/home/leechuck/hla/t1k-pangenome'
     pilot=previous['jobs']['native']
     completed=remote('test -f '+B+'/hla/t1k-pangenome/development/graph-recruitment-v1/HG00658/native/COMPLETE.json && echo yes || echo no')=='yes'
-    extra=['--array=1-63','--partition=debug']
+    extra=['--array=1-63']
     if not completed:
         if not remote('squeue -h -j '+pilot+' -o %T'):raise ValueError('Native parity not complete or live')
         extra+=['--dependency=afterok:'+pilot]

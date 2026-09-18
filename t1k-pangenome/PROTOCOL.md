@@ -424,6 +424,19 @@ independence: candidate freeze, untouched outcomes, provenance, exclusions and
 final failure audits remain separate requirements. Its test on the completed
 reference controls is explicitly development-only and does not unblind validation.
 
+### Scheduling correction
+
+The development graph stages initially inherited the pilot's debug partition.
+A live scheduler audit found debug restricted to three nodes / 204 CPUs, while
+batch exposed 367 nodes / 32,000 CPUs, with 12,191 idle at observation time. Pending
+stages and pending bootstrap tasks were therefore moved to batch without restarting
+running tasks or changing inputs/inference. Future cohort launchers default to
+batch. `graph-batch-partition-update.json` records scheduler update results.
+
+The reserved baseline execution pilot completed successfully in about 158 seconds;
+only its completion metadata was fetched, not genotype contents. Its execution
+manifest is validation-baseline-pilot-execution.json. No reserved outcome was scored.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
