@@ -36,7 +36,7 @@ class TruthTest(unittest.TestCase):
         result = reference_index([('HLA:1 A*01:01:01:01','ACGT'),
                                   ('HLA:2 A*01:01:01:02','ACGT'),
                                   ('HLA:3 A*02:01:01:01','ACNT')], 'A')
-        self.assertEqual(result,self.refs['A'] | {'ACGT':['A*01:01:01:01','A*01:01:01:02']})
+        self.assertEqual(result,{'ACGT':['A*01:01:01:01','A*01:01:01:02']})
 
 
 if __name__ == '__main__':unittest.main()
