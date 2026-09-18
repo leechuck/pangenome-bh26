@@ -80,7 +80,7 @@ def evaluate(root,cohort,out):
                     called,correct,matches=compare(predictions,slots) if slots is not None else (0,0,0)
                     rows.append(dict(donor=donor,stratum=d['stratum'],method=method,gene=gene,level=level,status=state,
                         eligible=int(slots is not None),called=called,correct=correct,allele_matches=matches,
-                        allele1=pair[0] or '',allele2=pair[1] or ''))
+                        allele1=pair[0] or 'NO_CALL',allele2=pair[1] or 'NO_CALL'))
     complete=[d['donor'] for d in donors if all(states[d['donor'],m] for m in ('native','DogoHLA-no-graph','DogoHLA','T1K'))]
     cohorts={'first_six':list(FIRST_SIX),'completed_matched':complete,'planned_32':sorted(donor_ids)}
     summary=[]
