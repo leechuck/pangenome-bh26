@@ -45,7 +45,8 @@
       "bootstrap_evidence": "52051990",
       "calibration": "52052012",
       "mapping": "52055293",
-      "evidence": "52056935"
+      "evidence": "52056935",
+      "join": "52058649"
     }
   },
   "scope": "84 reserved donors; two unsampled panels; no prediction fetch or truth scoring",
@@ -58,6 +59,12 @@
   "submission_dependencies": {
     "evidence": [
       "--dependency=aftercorr:52055293"
-    ]
+    ],
+    "join": []
+  },
+  "join_submission_reconciliation": {
+    "checked_at": "2026-09-18T15:14:54.987352+00:00",
+    "job": "52058649",
+    "evidence": "sacct SubmitLine verifies stage, index range and frozen digest; monitor timed out after submission; existing job retained without resubmission"
   }
 }

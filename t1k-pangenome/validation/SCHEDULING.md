@@ -64,6 +64,17 @@ mappings already recorded complete. An accounting-verified release was therefore
 started: only pending projection task IDs whose exact mapping ID was COMPLETED
 with exit code 0:0 were passed to `scontrol update ... Dependency=`. This produced
 actual overlap (47 projection tasks running while 10 mappings were still running).
-The release command is still in progress; its full response will be retained as
-`validation-calibrated-projection-release.json` on IBEX and locally. No task was
-restarted. Final completion is checked independently by the dispatcher.
+The release SSH connection ended with exit 255 before its audit file was
+written. No task was restarted. Subsequent independent accounting verified all
+1,328 mappings and all 1,328 projections COMPLETED with exit code 0:0; see
+`mapping-projection-execution-complete.json`. No dependency update or retry is
+needed for these completed arrays.
+
+## Join submission reconciliation
+
+Join array **52058649**, indices 2–167, was accepted by Slurm but the monitor's
+55-second dispatcher timeout expired before its job ID reached the local ledger.
+Slurm accounting's `SubmitLine` verified the exact stage, index range and frozen
+inference digest. The existing job was adopted into the ledger; no duplicate
+was submitted. The monitor now allows the dispatcher 300 seconds to finish
+submission and record its result. Its unknown-submission guard is retained.

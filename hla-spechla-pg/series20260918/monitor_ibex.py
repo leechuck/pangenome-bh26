@@ -37,7 +37,9 @@ previous_failures=set()
 while True:
  try:
   if (T1K/'validation-graph-launch.json').exists():
-   subprocess.run([sys.executable,str(T1K/'advance_validation_graph.py')],check=True,timeout=55)
+   # Submission can outlast a polling interval under controller load. Do not
+   # kill the dispatcher before it can record the accepted job identifier.
+   subprocess.run([sys.executable,str(T1K/'advance_validation_graph.py')],check=True,timeout=300)
   launch=json.loads((HERE/'ibex-launch.json').read_text())
   jobs={k:v for k,v in launch['jobs'].items() if not k.endswith('_initial')}
   jobs['recruit']=(HERE/'ibex-recruit-job.txt').read_text().strip()

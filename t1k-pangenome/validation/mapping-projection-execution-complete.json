@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-18T15:13:55.566836+00:00",
+  "jobs": [
+    "52055293",
+    "52056935"
+  ],
+  "indices": [
+    16,
+    1343
+  ],
+  "successful_tasks_per_job": 1328,
+  "scope": "Accounting metadata only; complete expected grid verified; no predictions inspected",
+  "dependency_update_reconciliation": "SSH connection ended with exit 255; subsequently every mapping and projection task independently verified COMPLETED 0:0; no resubmission needed"
+}
