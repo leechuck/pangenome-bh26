@@ -1,0 +1,26 @@
+[
+  {
+    "file": "20181129_HLA_manifest.txt",
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/HLA_types/20181129_HLA_manifest.txt",
+    "sha256": "73cf1485e34c94638856ebc38a4d874c7d64c9dae0ba34abc34fc27fa61af0b2",
+    "bytes": 263
+  },
+  {
+    "file": "20181129_HLA_types_full_1000_Genomes_Project_panel.txt",
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/HLA_types/20181129_HLA_types_full_1000_Genomes_Project_panel.txt",
+    "sha256": "570b5cc5523273826a5695452f18b77f8742e568e1e35a34aed5d2a313472e8e",
+    "bytes": 202701
+  },
+  {
+    "file": "README_20181129_HLA_types_full_1000_Genomes_Project_panel.txt",
+    "url": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/HLA_types/README_20181129_HLA_types_full_1000_Genomes_Project_panel.txt",
+    "sha256": "ec5b36c80bf1365fde7092fdb9944caa7b04bacc27936097dcfed86050d8a6b3",
+    "bytes": 3131
+  },
+  {
+    "file": "S2_Table.xlsx",
+    "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0206512.s010&type=supplementary",
+    "sha256": "03eb4cdfe8fb6667a04f691a17df4c7927f424cc1ef1fc5b0de752fa8769a7ec",
+    "bytes": 248517
+  }
+]

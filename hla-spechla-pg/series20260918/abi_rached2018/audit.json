@@ -1,0 +1,27 @@
+{
+  "samples": 2693,
+  "gourraud_overlap": 996,
+  "matched64_overlap": 40,
+  "eligibility": {
+    "eligible": 2191,
+    "graph_family": 268,
+    "pedigree_unverified": 125,
+    "graph_donor": 109
+  },
+  "eligible_ancestry": {
+    "AFR": 563,
+    "AMR": 268,
+    "EAS": 435,
+    "EUR": 473,
+    "SAS": 452
+  },
+  "allele_status": {
+    "resolved_two_field": 26066,
+    "ambiguous": 132,
+    "source_asterisk_unresolved": 110,
+    "missing": 620,
+    "invalid_source_value": 2
+  },
+  "source_sha256": "570b5cc5523273826a5695452f18b77f8742e568e1e35a34aed5d2a313472e8e",
+  "policy": "Secondary two-field concordance only. No four-field truth. Preserve ambiguity; unresolved annotations and malformed values excluded explicitly. Graph donors and known families excluded from independent cohort; matched64 evaluated only with their held-out panels. Eligibility is not a job submission."
+}

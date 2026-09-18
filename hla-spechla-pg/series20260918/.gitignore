@@ -1,0 +1,3 @@
+__pycache__/
+transfer-*.log
+transfer-complete.json

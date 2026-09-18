@@ -1,0 +1,13 @@
+{
+  "seed": "DogoHLA-ancestry-20260918",
+  "cohort_sha256": "8e111c57dd61cf9a9f68f3013ac3ed21147c19f5f5aafc777e8254b6a7012576",
+  "selection": "Metadata-only, unique families, population round robin within 16 EUR and 16 AFR; complete assembly truth across eight genes",
+  "excluded_haplotypes": 132,
+  "strata": {
+    "EAS": 16,
+    "SAS": 16,
+    "EUR": 16,
+    "AFR": 16
+  },
+  "scope": "New non-Asian donors come from test_A_loo; now reserved for this prospective experiment, not available for a later untouched test."
+}

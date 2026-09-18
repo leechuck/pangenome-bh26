@@ -1,0 +1,9 @@
+{
+  "host": "hohndor@ilogin.ibex.kaust.edu.sa",
+  "workdir": "/ibex/scratch/projects/c2014/rob/dogohla-benchmark",
+  "partition": "batch",
+  "account": "pi-hohndor",
+  "account_evidence": "sacctmgr show assoc where user=hohndor, 2026-09-18: pi-hohndor; c2014 is storage project",
+  "container_bind": "hla:/home/leechuck/hla",
+  "status": "workspace created; deployment in progress"
+}
