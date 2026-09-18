@@ -1,0 +1,9 @@
+{
+  "scope": "Synthetic integration of measured coverage and selection ablation",
+  "jobs": {
+    "sampled": "52045357",
+    "unsampled": "52045358",
+    "unsampled_distance_repair": "52045406"
+  },
+  "repair": "Build full mapping distance index; haplotype-only distanceless index cannot serve giraffe"
+}

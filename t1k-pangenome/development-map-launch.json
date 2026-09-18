@@ -1,0 +1,11 @@
+{
+  "donor": "HG00658",
+  "gene": "A",
+  "scope": "First development mapping pilot, after legacy benchmark; no validation outcomes",
+  "jobs": {
+    "hprc/sampled": "52045442",
+    "hprc/unsampled": "52045444",
+    "hprc_asian/sampled": "52045448",
+    "hprc_asian/unsampled": "52045450"
+  }
+}

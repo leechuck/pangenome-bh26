@@ -1,0 +1,78 @@
+{
+  "status": "complete",
+  "marker_sha256": "a233e0b594acba1bf388534acb4a6a61b65651bc1157f2fc946e71c1a96cd746",
+  "driver_sha256": "6f9fe1b8e9ba4a0ef0bfffade4bc5fcd9fba6dbb98dac8109cf7597027b0ceb6",
+  "reads_sha256": {
+    "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+    "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+  },
+  "reads": 1477842,
+  "genes": {
+    "A": {
+      "markers": 1321,
+      "median_kmer_depth": 37,
+      "zero_fraction": 0.0,
+      "usable": true,
+      "personalization_coverage": 37,
+      "fallback_reason": null
+    },
+    "B": {
+      "markers": 1360,
+      "median_kmer_depth": 29.0,
+      "zero_fraction": 0.0,
+      "usable": true,
+      "personalization_coverage": 29,
+      "fallback_reason": null
+    },
+    "C": {
+      "markers": 1520,
+      "median_kmer_depth": 28.0,
+      "zero_fraction": 0.0,
+      "usable": true,
+      "personalization_coverage": 28,
+      "fallback_reason": null
+    },
+    "DPA1": {
+      "markers": 3203,
+      "median_kmer_depth": 29,
+      "zero_fraction": 0.0,
+      "usable": true,
+      "personalization_coverage": 29,
+      "fallback_reason": null
+    },
+    "DPB1": {
+      "markers": 6818,
+      "median_kmer_depth": 31.0,
+      "zero_fraction": 0.0,
+      "usable": true,
+      "personalization_coverage": 31,
+      "fallback_reason": null
+    },
+    "DQA1": {
+      "markers": 421,
+      "median_kmer_depth": 31,
+      "zero_fraction": 0.0,
+      "usable": true,
+      "personalization_coverage": 31,
+      "fallback_reason": null
+    },
+    "DQB1": {
+      "markers": 220,
+      "median_kmer_depth": 27.0,
+      "zero_fraction": 0.12272727272727273,
+      "usable": true,
+      "personalization_coverage": 27,
+      "fallback_reason": null
+    },
+    "DRB1": {
+      "markers": 189,
+      "median_kmer_depth": 49,
+      "zero_fraction": 0.0,
+      "usable": true,
+      "personalization_coverage": 49,
+      "fallback_reason": null
+    }
+  },
+  "specificity_scope": "Observed HLA panels and supplied all-IPD reference only; not genome-wide",
+  "scope": "Coverage diagnostic only; low support must retain unsampled graph/all-IPD fallback"
+}

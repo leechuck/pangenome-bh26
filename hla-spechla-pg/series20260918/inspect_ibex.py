@@ -34,6 +34,7 @@ for stage,pattern in [('reference_graphs','graphs/build-v1/*/*/manifest.json'),
                       ('reserved_reads','validation-reads/*/manifest.json'),
                       ('native_evidence_build','tools/t1k-evidence-v1/manifest.json'),
                       ('development_coverage','coverage/development-v1/*.json'),
+                      ('development_mapping','development/mapping-v1/*/*/*/*/manifest.json'),
                       ('linear_hprc','development/linear-v1/hprc/*/manifest.json'),
                       ('linear_hprc_asian','development/linear-v1/hprc_asian/*/manifest.json')]:
  counts=collections.Counter()

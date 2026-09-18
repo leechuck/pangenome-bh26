@@ -150,6 +150,17 @@ The first synthetic coverage check measured HLA-A median k-mer depth 69 from
 zero depth and failed the personalization gate. A development-donor coverage
 pilot is queued separately from genotype inference.
 
+The HG00658 development coverage pilot completed with usable marker depths of
+27–49 across all eight loci (1,477,842 unbinned reads). map_personalized.py checks
+that the coverage report hashes match the exact input reads, uses that measured
+depth for path sampling, and retains all alignment records including unmapped
+reads. Selection-disabled or low-coverage operation uses the unsampled graph.
+It builds a full distance index for mapping; the distanceless index used during
+haplotype preprocessing is insufficient for giraffe. Both sampled and unsampled
+synthetic mapping retained and mapped all 4,008 reads. HG00658 HLA-A mapping pilots
+for both panels and both selection settings are queued after the remaining
+legacy benchmark. These outputs are evidence inputs, not complete HLA calls.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
