@@ -502,6 +502,16 @@ with completed-donor counts for partial batches. The monitor refreshes this audi
 after fetching refinement calls. It neither reads reserved outcomes nor selects
 parameters from them.
 
+The residual-error audit additionally checks eligibility for the current native
+fallback rule using the same genomic alias resolver as inference. Of 38 errors,
+12 have an unresolved native four-field pair. Another 13 contain a native allele
+absent from the additive graph (15 for HPRC alone). Thus only 13 additive-panel
+errors, or 11 HPRC-panel errors, can currently enter pair refinement. Eligibility
+does not establish that either truth pair is represented or distinguishable.
+This identifies a coverage limitation: improving the remaining cases would
+require comparable evidence for missing IPD candidates or explicit ambiguity
+handling, rather than simply removing the fallback guard.
+
 ### Scheduling follow-up (18 September)
 
 After 138 of 224 calibrated evidence tasks completed, the remaining 86 were

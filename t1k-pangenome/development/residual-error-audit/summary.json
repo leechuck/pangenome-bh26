@@ -24,6 +24,18 @@
       "1": 6
     }
   },
+  "refinement_eligibility": {
+    "hprc": {
+      "native missing from graph": 15,
+      "unresolved native": 12,
+      "eligible for graph refinement": 11
+    },
+    "hprc_asian": {
+      "native missing from graph": 13,
+      "unresolved native": 12,
+      "eligible for graph refinement": 13
+    }
+  },
   "source_sha256": "4490738b05e901fe3751b23760a0d75c791ca76f04fc00bd8a54608eb0f14bd2",
   "metadata_sha256": {
     "references/observed-v2/hprc/HLA-B.json": "7fdd45fcbe96a743fc72a1ad825633df0e9d880bc33f9e00e96586105115aa69",
@@ -43,5 +55,5 @@
     "references/observed-v2/hprc_asian/HLA-C.json": "938a6e56bfaf8fe05af810040854694f329559a016f9ece8e7e1feed0bad186c",
     "references/observed-v2/hprc_asian/HLA-DPB1.json": "2ef2b94c6cf695b0e15092c76a02ecc05ee3887b74b1112f27a40a33807e86bd"
   },
-  "driver_sha256": "c30f77d896ad0382cec77dd2a3b73c50c03d85fac212187d0be53d9b7c5760ce"
+  "driver_sha256": "df38bcae8080df22015402533628063f474660fd83456feac19101e4f7e39472"
 }
