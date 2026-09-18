@@ -58,3 +58,16 @@ The existing eight target loci alone are not a complete mapping decoy set.
 The upstream [vg haplotype sampling documentation](https://github.com/vgteam/vg/wiki/Haplotype-Sampling)
 requires a compatible chain structure; do not silently replace a failed sampling
 step with the full graph and label it personalized.
+
+`build_graph.py` prepares one locus graph under Slurm using the installed
+wfmash/seqwish/smoothxg/gfaffix/odgi/vg tools. Its pilot parameters use 500 bp
+segments and a 1 kb minimum alignment block; the older DRB1 builder's 25 kb
+cutoff is longer than the new HLA-A sequences. These are development parameters,
+not an accuracy-validated choice. The builder rejects changed reference hashes,
+preserves failed attempts, records executed commands and binary hashes, and
+requires exact preservation of every named input sequence through graph
+normalization. It then builds distance, r-index and haplotype-sampling indexes.
+A failed topology/index step is a failed build, with no full-graph fallback.
+Successful preprocessing does not yet prove sample-specific selection or typing
+accuracy. The graph remains a locus preparation artifact without a complete
+paralog/decoy reference.

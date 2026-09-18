@@ -1,0 +1,6 @@
+{
+  "job": "52042957",
+  "command": "export SINGULARITYENV_SLURM_JOB_ID=\"$SLURM_JOB_ID\"; exec bash /ibex/scratch/projects/c2014/rob/dogohla-benchmark/run_ibex.sbatch /home/leechuck/hla/mm/envs/asian50-spechla/bin/python3 /home/leechuck/hla/t1k-pangenome/build_graph.py --reference /home/leechuck/hla/t1k-pangenome/references/observed-v2 --panel hprc --gene A --output /home/leechuck/hla/t1k-pangenome/graphs/pilot-v1/hprc/A --threads 8",
+  "scope": "Reference preparation only; HPRC HLA-A; no sample reads or truth",
+  "output": "/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/t1k-pangenome/graphs/pilot-v1/hprc/A"
+}
