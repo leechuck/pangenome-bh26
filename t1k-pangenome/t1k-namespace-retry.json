@@ -1,0 +1,74 @@
+{
+  "hprc": {
+    "reference_job": "52043737",
+    "reference_command": [
+      "python3",
+      "/home/leechuck/hla/t1k-pangenome/t1k_reference.py",
+      "--reference",
+      "/home/leechuck/hla/t1k-pangenome/references/observed-v2",
+      "--panel",
+      "hprc",
+      "--ipd",
+      "/home/leechuck/hla/hla-typer/t1kdb/hla365_dna_seq.fa",
+      "--output",
+      "/home/leechuck/hla/t1k-pangenome/t1k-references/v2/hprc"
+    ],
+    "synthetic_job": "52043742",
+    "synthetic_command": [
+      "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+      "-1",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/r1.fq",
+      "-2",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/r2.fq",
+      "--preset",
+      "hla-wgs",
+      "-f",
+      "/home/leechuck/hla/t1k-pangenome/t1k-references/v2/hprc/reference.fa",
+      "-t",
+      "4",
+      "--alleleDigitUnits",
+      "4",
+      "--alleleDelimiter",
+      ":",
+      "-o",
+      "/home/leechuck/hla/t1k-pangenome/smoke/t1k-v2/hprc/synthetic"
+    ],
+    "reason": "Preserve original IPD HLA- gene namespace"
+  },
+  "hprc_asian": {
+    "reference_job": "52043782",
+    "reference_command": [
+      "python3",
+      "/home/leechuck/hla/t1k-pangenome/t1k_reference.py",
+      "--reference",
+      "/home/leechuck/hla/t1k-pangenome/references/observed-v2",
+      "--panel",
+      "hprc_asian",
+      "--ipd",
+      "/home/leechuck/hla/hla-typer/t1kdb/hla365_dna_seq.fa",
+      "--output",
+      "/home/leechuck/hla/t1k-pangenome/t1k-references/v2/hprc_asian"
+    ],
+    "synthetic_job": "52043785",
+    "synthetic_command": [
+      "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+      "-1",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/r1.fq",
+      "-2",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/r2.fq",
+      "--preset",
+      "hla-wgs",
+      "-f",
+      "/home/leechuck/hla/t1k-pangenome/t1k-references/v2/hprc_asian/reference.fa",
+      "-t",
+      "4",
+      "--alleleDigitUnits",
+      "4",
+      "--alleleDelimiter",
+      ":",
+      "-o",
+      "/home/leechuck/hla/t1k-pangenome/smoke/t1k-v2/hprc_asian/synthetic"
+    ],
+    "reason": "Preserve original IPD HLA- gene namespace"
+  }
+}
