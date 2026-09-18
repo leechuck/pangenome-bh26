@@ -182,6 +182,23 @@ coordinate validation. Its matched-64 pilot and array are queued behind the
 legacy benchmark. Marker specificity is also being rechecked against the fuller
 IPD sequences, which expose intronic paralog matches absent from truncated entries.
 
+The full-genomic-IPD marker screen completed (jobs 52045734/52045735;
+coverage-genome-development-result.json). DRB1 retained only 49 specific markers,
+down from 189 with the truncated reference, and therefore fails the prespecified
+100-marker development gate despite a median depth of 52. It must use unsampled
+graph evidence; high apparent coverage alone does not justify personalization.
+The other seven loci retain usable marker sets, with median depths of 27–36.
+These are HLA/IPD-relative specificity results, not genome-wide uniqueness tests.
+
+All eight loci are queued for HG00658 under both panels and both selection
+settings using this fuller screen (development-map-all-loci-launch.json).
+Each array depends on its original HLA-A mapping pilot and the remaining legacy
+benchmark. Code is copied into a separately hashed directory. HLA-A is repeated
+because its marker set and measured coverage changed; original pilot outputs
+remain available. DRB1 in the selection-enabled arm must record its fallback.
+These mappings still provide evidence only; joint inference and calibration are
+not completed by this experiment.
+
 All 84 reserved donors now have verified read preparation records, archived in
 validation/READ_PREPARATION.json (65,467,081 paired fragments). This archives the
 preparation manifests and read hashes; it does not genotype or unblind them.

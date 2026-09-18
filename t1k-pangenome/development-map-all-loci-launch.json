@@ -1,0 +1,40 @@
+{
+  "donor": "HG00658",
+  "genes": [
+    "A",
+    "B",
+    "C",
+    "DPA1",
+    "DPB1",
+    "DQA1",
+    "DQB1",
+    "DRB1"
+  ],
+  "scope": "Development alignment evidence only; no validation truth or genotype claims",
+  "coverage": "coverage/development-genome-screen-v1/HG00658.json",
+  "code_sha256": {
+    "run_development_mapping.py": "616b43fa9a1af3398297935312a715844ac4b0ead0c0bcf66fc0bcd604d226fe",
+    "map_personalized.py": "34279270c88913405c12b11b5b531061cd83fcf91ddd14cd885add8851b38c7c",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f"
+  },
+  "jobs": {
+    "hprc/sampled": {
+      "job": "52045836",
+      "dependency": "afterany:52039862,afterok:52045735:52045442"
+    },
+    "hprc/unsampled": {
+      "job": "52045838",
+      "dependency": "afterany:52039862,afterok:52045735:52045444"
+    },
+    "hprc_asian/sampled": {
+      "job": "52045839",
+      "dependency": "afterany:52039862,afterok:52045735:52045448"
+    },
+    "hprc_asian/unsampled": {
+      "job": "52045841",
+      "dependency": "afterany:52039862,afterok:52045735:52045450"
+    }
+  },
+  "legacy_dependency": "52039862",
+  "coverage_dependency": "52045735"
+}
