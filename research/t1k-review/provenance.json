@@ -1,0 +1,24 @@
+{
+  "retrieved_at": "2026-09-18T09:20:49.806201+00:00",
+  "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10519407/",
+  "doi": "10.1101/gr.277585.122",
+  "paper_format": "Full text HTML and extracted text; PDF endpoints rejected requests. Figure 1 downloaded separately.",
+  "repository": "https://github.com/mourisl/T1K",
+  "latest_commit": "9f09f4dccee4e7501b98a4e822943c0fb26a4e25",
+  "benchmark_version_commit": "f37aa80a78c23b9bb809717f39a89e7ffbc064a0",
+  "benchmark_package": "t1k-1.0.6-h43eeafb_2",
+  "changes": "Read-only review of algorithms and existing benchmark evidence; no inference changes or new jobs.",
+  "file_sha256": {
+    ".gitignore": "f9503355a301b1e0b18b906e305865db7c12443de367524d415658a739af9142",
+    "HG00658-existing-blast-evidence.txt": "627d6de0b185022266de36d4c51dcf2be338e4d74b8b0928a3951ba61cefbf88",
+    "paper-PMC12643174.txt": "0e11775b1b72dcf25b742fc7af1e39f368ee76b94bf176dbece6489e2f54fc70",
+    "paper-PMC12643174.html": "0832fb5b4591386e36ca6ca93b2b42de2e225b3111134e11b5407e7057565337",
+    "paper.html": "bef731611aeb5dacd5b299829019831f8f5a62cf0017657b0ac37a35087793c3",
+    "matched-per-gene.tsv": "4d88e10d5819c579e87d9d483c5316e938908d490c7f98a69ebb80d760a21fbc",
+    "figure1.jpg": "a0ae5ca1cc9b6f30265e9c8ac8a207823cfaf458a328b08f78abee4b070bbfb8",
+    "SpecHLA-annoHLA.pl": "ff3e285320ca21d35ed634ed69c6acd50580e55e035b582e44b37e398981f795",
+    "REVIEW.md": "f574b8027018015d6de9da7d05d16c18890dcdcd019899a1b8c2a6f00ff4a38e",
+    "paper.txt": "093f882cd59a2a7e1703fad8bf5d2a9b47ee1948d5326b854993cb18b9e9cd73"
+  },
+  "additional_paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12643174/"
+}

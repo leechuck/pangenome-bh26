@@ -1,0 +1,99 @@
+# T1K plus an Asian-enriched personalized graph
+
+Status: preparation. No improvement established. Existing benchmark runs remain
+frozen and finish before new improvement experiments are launched.
+
+## Scope and controls
+
+Complete the matched-64 and Gourraud-946 benchmark and its existing comparators,
+including final failure accounting, per-ancestry output, and panel ablations.
+HLA-HD remains unavailable until an authorized installer is obtained; this must
+not be described as a completed HLA-HD comparison.
+
+The new inference pipeline retains T1K's joint allele competition. It uses read
+k-mers to select local paths from HPRC plus Asian haplotypes, aligns reads to the
+resulting reduced graph, and refines allele pairs with genomic-context evidence.
+All-IPD alternatives remain available; graph absence is not allele absence.
+Both mates and competing loci/pseudogenes must be considered. Uncertain four-field
+calls remain ambiguous rather than becoming confident population imputations.
+
+Compare these stages on identical read recruitment and IPD 3.65:
+
+1. Frozen T1K 1.0.6, explicit four-field output (current baseline).
+2. Graph-derived sequence references with T1K's existing alignment/inference.
+3. T1K candidates plus graph-supported candidates, personalized graph alignment
+   and joint candidate-pair refinement.
+4. The same refinement with HPRC alone versus HPRC plus Asian haplotypes.
+   Compare selection enabled/disabled to isolate personalization.
+
+Do not replace HPRC with a size-matched Asian subset in the primary comparison.
+Retain that older experiment as a secondary panel-composition control. Adding
+sequence information and changing alignment are separate effects.
+
+## Development and locked evaluation
+
+Already examined matched-64 and original development samples are development
+data. Gourraud results have also been observed and cannot become an untouched
+confirmatory test merely by splitting the file now. Do not select samples on
+where T1K is wrong.
+
+reserve_validation.py reserves every remaining assembly-cohort family with no
+indexed previous exposure, consuming only donor IDs and metadata. The entire
+reserved cohort and its known relatives are excluded from every inference panel,
+including alternate assembly aliases. Development donors/families are excluded
+too. A reservation is immutable. Verify read availability before freezing the
+final analysis set; any exclusion must be outcome-independent and documented.
+The reserved cohort is ancestry-imbalanced; report the strata and do not call it
+an ancestry-matched experiment.
+
+Freeze code, references, parameters, candidate-selection rule, failure handling,
+and one primary candidate before scoring reserved outcomes. Reference preparation
+may use training-path sequence labels only. Inference must not read held-out
+assemblies, catalogue rows or truth calls. The evaluator alone receives them.
+
+## Evidence required to claim improvement
+
+Primary endpoint: exact diploid four-numeric-field genotype accuracy among loci
+whose two truth haplotypes have exact genomic labels. Use the existing ambiguity-
+aware scoring rule, identical eligibility for all methods, no padding of short
+names, and zero credit for failed/no-call eligible genotypes. Novel/unlabelled
+truth is reported separately, never silently counted as successfully typed.
+
+Require a positive lower bound of a prespecified 95% paired family-cluster
+bootstrap interval (10,000 replicates, seed 20260918) for the selected candidate
+minus frozen T1K on the complete reserved cohort. Also require that the two-field
+point accuracy does not decrease, and its paired 95% interval excludes a loss
+larger than one percentage point. This supports a four-field improvement claim,
+not an unqualified improvement at every resolution or ancestry.
+
+To attribute improvement to the Asian graph, report the additive HPRC-plus-Asian
+versus HPRC-only contrast separately under the same inference procedure. Do not
+attribute a change caused only by additional IPD sequence to graph alignment.
+Secondary method/ancestry comparisons are exploratory unless separately frozen
+with multiplicity handling before evaluation.
+
+If the primary test fails, report that result. Further development must use a
+new independent validation set or explicitly account for repeated testing; never
+relabel the failed validation cohort as untouched. Improvement is an experimental
+outcome, not a guaranteed property of the implementation.
+
+## Technical checks before graph refinement
+
+Confirm that the existing graph satisfies the chain and path requirements of
+vg haplotype sampling. The personalized-pangenome paper assumes adequate coverage
+(at least about 20x) and graph-unique informative k-mers. Measure effective HLA
+coverage and specificity against paralog/decoy sequences; do not assume that
+nominal WGS coverage or locus-local uniqueness suffices. Count from recruited
+reads before hard per-gene binning. Preserve multiple candidate paths when k-mer
+evidence is inconclusive, and report fallback frequency.
+
+T1K's default DNA references truncate long introns and may fill unknown introns
+with modal sequence. Keep observed assembly sequence, uncertain sequence and
+imputed sequence distinct. Deduplicate identical paths so representation counts
+do not masquerade as independent read evidence or measured allele frequencies.
+
+## References
+
+- Song et al. (2023), https://doi.org/10.1101/gr.277585.122
+- Siren et al. (2024), https://doi.org/10.1038/s41592-024-02407-2
+- Source/paper review: ../research/t1k-review/REVIEW.md

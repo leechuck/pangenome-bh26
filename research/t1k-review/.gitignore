@@ -1,0 +1,9 @@
+T1K/
+T1K-v1.0.6/
+paper*.html
+paper*.txt
+paper*.pdf
+figure1.jpg
+__pycache__/
+
+SpecHLA-annoHLA.pl

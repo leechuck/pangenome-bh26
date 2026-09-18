@@ -1,0 +1,24 @@
+{
+  "status": "reserved_not_unblinded",
+  "rule": "All test_A_loo families with no development, matched-64, Gourraud or indexed legacy-T1K exposure; no outcome-based selection.",
+  "donors": 84,
+  "families": 84,
+  "strata": {
+    "EUR": 2,
+    "AMR": 16,
+    "AFR": 37,
+    "EAS": 13,
+    "SAS": 16
+  },
+  "excluded_panel_haplotypes": 400,
+  "source_sha256": {
+    "cohorts": "35daa196fb3518d3c73cbd1b3ddcd5c2f45f8696dd36c120d045001d579ff057",
+    "matched": "8e111c57dd61cf9a9f68f3013ac3ed21147c19f5f5aafc777e8254b6a7012576",
+    "legacy": "3eff42ffb781b198c81c60576db0a9772b494cfd24c65ebbfb19eba60720b9c7",
+    "metadata": "5014f14d9db1afa3776b695df0ed9eb1a04723764bda88219ad02e9ec1a2f7ca",
+    "groups": "cb18bad30fb5ff34e1afb955258023462b78ccf092de9c4ed01976ef630bdfbd"
+  },
+  "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+  "excluded_paths_sha256": "07347373ff58a12c384b228b6ffbb4f21778654b21b35254e4f79cd3421f86d8",
+  "limitation": "Exposure audit covers repository cohort metadata and indexed legacy outputs; further discovered prior evaluations invalidate the affected families before unblinding, with an explicit audit amendment."
+}

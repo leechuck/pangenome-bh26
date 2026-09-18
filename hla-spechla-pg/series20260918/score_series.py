@@ -63,5 +63,8 @@ def main():
   report.append(f"| {m} | {n}/64 | {' | '.join(scores)} |")
  report += ['','`summary.tsv` also separates EAS, SAS, EUR and AFR. Pending methods retain all planned truth denominators in TSV output; headline accuracy is withheld until the method finishes all 64 donors. Calls on eligible truth that remain unresolved are failures, not removed from the denominator.','']
  (OUT/'REPORT.md').write_text('\n'.join(report));print('\n'.join(report))
+ if (HERE/'panel-membership.json').exists():
+  from panel_comparison import main as panel_report
+  panel_report()
 
 if __name__=='__main__':main()

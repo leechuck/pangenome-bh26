@@ -1,0 +1,542 @@
+{
+  "membership": {
+    "counts": {
+      "hprc": 340,
+      "asian_matched": 340,
+      "full": 622
+    },
+    "additive_retains_all_hprc": true,
+    "added_haplotypes": 282,
+    "added_sources": {
+      "CPC-Chinese": 116,
+      "APR": 106,
+      "JaSaPaGe-Japanese": 14,
+      "JaSaPaGe-Saudi": 18,
+      "KPanRef-Korean": 28
+    },
+    "replacement_removes_hprc": 282,
+    "excluded_overlap": 0
+  },
+  "comparisons": [
+    {
+      "candidate": "full:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "two_field",
+      "stratum": "ALL",
+      "result": {
+        "eligible": 509,
+        "candidate_correct": 404,
+        "baseline_correct": 407,
+        "gains": 3,
+        "losses": 6
+      }
+    },
+    {
+      "candidate": "full:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "two_field",
+      "stratum": "EAS",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 106,
+        "baseline_correct": 107,
+        "gains": 0,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "full:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "two_field",
+      "stratum": "SAS",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 99,
+        "baseline_correct": 99,
+        "gains": 1,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "full:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "two_field",
+      "stratum": "EUR",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 102,
+        "baseline_correct": 104,
+        "gains": 1,
+        "losses": 3
+      }
+    },
+    {
+      "candidate": "full:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "two_field",
+      "stratum": "AFR",
+      "result": {
+        "eligible": 125,
+        "candidate_correct": 97,
+        "baseline_correct": 97,
+        "gains": 1,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "full:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "four_field",
+      "stratum": "ALL",
+      "result": {
+        "eligible": 323,
+        "candidate_correct": 108,
+        "baseline_correct": 109,
+        "gains": 0,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "full:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "four_field",
+      "stratum": "EAS",
+      "result": {
+        "eligible": 84,
+        "candidate_correct": 24,
+        "baseline_correct": 24,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "full:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "four_field",
+      "stratum": "SAS",
+      "result": {
+        "eligible": 81,
+        "candidate_correct": 32,
+        "baseline_correct": 32,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "full:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "four_field",
+      "stratum": "EUR",
+      "result": {
+        "eligible": 93,
+        "candidate_correct": 37,
+        "baseline_correct": 37,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "full:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "four_field",
+      "stratum": "AFR",
+      "result": {
+        "eligible": 65,
+        "candidate_correct": 15,
+        "baseline_correct": 16,
+        "gains": 0,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "full:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "two_field",
+      "stratum": "ALL",
+      "result": {
+        "eligible": 509,
+        "candidate_correct": 402,
+        "baseline_correct": 402,
+        "gains": 3,
+        "losses": 3
+      }
+    },
+    {
+      "candidate": "full:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "two_field",
+      "stratum": "EAS",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 106,
+        "baseline_correct": 106,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "full:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "two_field",
+      "stratum": "SAS",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 98,
+        "baseline_correct": 98,
+        "gains": 1,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "full:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "two_field",
+      "stratum": "EUR",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 101,
+        "baseline_correct": 101,
+        "gains": 1,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "full:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "two_field",
+      "stratum": "AFR",
+      "result": {
+        "eligible": 125,
+        "candidate_correct": 97,
+        "baseline_correct": 97,
+        "gains": 1,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "full:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "four_field",
+      "stratum": "ALL",
+      "result": {
+        "eligible": 323,
+        "candidate_correct": 108,
+        "baseline_correct": 109,
+        "gains": 0,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "full:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "four_field",
+      "stratum": "EAS",
+      "result": {
+        "eligible": 84,
+        "candidate_correct": 24,
+        "baseline_correct": 24,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "full:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "four_field",
+      "stratum": "SAS",
+      "result": {
+        "eligible": 81,
+        "candidate_correct": 32,
+        "baseline_correct": 32,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "full:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "four_field",
+      "stratum": "EUR",
+      "result": {
+        "eligible": 93,
+        "candidate_correct": 37,
+        "baseline_correct": 37,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "full:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "four_field",
+      "stratum": "AFR",
+      "result": {
+        "eligible": 65,
+        "candidate_correct": 15,
+        "baseline_correct": 16,
+        "gains": 0,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "two_field",
+      "stratum": "ALL",
+      "result": {
+        "eligible": 509,
+        "candidate_correct": 400,
+        "baseline_correct": 407,
+        "gains": 3,
+        "losses": 10
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "two_field",
+      "stratum": "EAS",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 106,
+        "baseline_correct": 107,
+        "gains": 0,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "two_field",
+      "stratum": "SAS",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 98,
+        "baseline_correct": 99,
+        "gains": 2,
+        "losses": 3
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "two_field",
+      "stratum": "EUR",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 102,
+        "baseline_correct": 104,
+        "gains": 1,
+        "losses": 3
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "two_field",
+      "stratum": "AFR",
+      "result": {
+        "eligible": 125,
+        "candidate_correct": 94,
+        "baseline_correct": 97,
+        "gains": 0,
+        "losses": 3
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "four_field",
+      "stratum": "ALL",
+      "result": {
+        "eligible": 323,
+        "candidate_correct": 108,
+        "baseline_correct": 109,
+        "gains": 0,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "four_field",
+      "stratum": "EAS",
+      "result": {
+        "eligible": 84,
+        "candidate_correct": 24,
+        "baseline_correct": 24,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "four_field",
+      "stratum": "SAS",
+      "result": {
+        "eligible": 81,
+        "candidate_correct": 32,
+        "baseline_correct": 32,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "four_field",
+      "stratum": "EUR",
+      "result": {
+        "eligible": 93,
+        "candidate_correct": 37,
+        "baseline_correct": 37,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA",
+      "baseline": "hprc:DogoHLA",
+      "level": "four_field",
+      "stratum": "AFR",
+      "result": {
+        "eligible": 65,
+        "candidate_correct": 15,
+        "baseline_correct": 16,
+        "gains": 0,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "two_field",
+      "stratum": "ALL",
+      "result": {
+        "eligible": 509,
+        "candidate_correct": 399,
+        "baseline_correct": 402,
+        "gains": 4,
+        "losses": 7
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "two_field",
+      "stratum": "EAS",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 105,
+        "baseline_correct": 106,
+        "gains": 0,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "two_field",
+      "stratum": "SAS",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 99,
+        "baseline_correct": 98,
+        "gains": 3,
+        "losses": 2
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "two_field",
+      "stratum": "EUR",
+      "result": {
+        "eligible": 128,
+        "candidate_correct": 101,
+        "baseline_correct": 101,
+        "gains": 1,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "two_field",
+      "stratum": "AFR",
+      "result": {
+        "eligible": 125,
+        "candidate_correct": 94,
+        "baseline_correct": 97,
+        "gains": 0,
+        "losses": 3
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "four_field",
+      "stratum": "ALL",
+      "result": {
+        "eligible": 323,
+        "candidate_correct": 108,
+        "baseline_correct": 109,
+        "gains": 0,
+        "losses": 1
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "four_field",
+      "stratum": "EAS",
+      "result": {
+        "eligible": 84,
+        "candidate_correct": 24,
+        "baseline_correct": 24,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "four_field",
+      "stratum": "SAS",
+      "result": {
+        "eligible": 81,
+        "candidate_correct": 32,
+        "baseline_correct": 32,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "four_field",
+      "stratum": "EUR",
+      "result": {
+        "eligible": 93,
+        "candidate_correct": 37,
+        "baseline_correct": 37,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    {
+      "candidate": "asian_matched:DogoHLA-no-graph",
+      "baseline": "hprc:DogoHLA-no-graph",
+      "level": "four_field",
+      "stratum": "AFR",
+      "result": {
+        "eligible": 65,
+        "candidate_correct": 15,
+        "baseline_correct": 16,
+        "gains": 0,
+        "losses": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/dogohla-series20260918/arms/hprc/final/runs/HG00658/DogoHLA/tmp/HLA_A_1.blast.out1
+HLA_A_0:100-3300	A*11:335:01	100.000	3071	0	0	95	3165	1	3071	0.0	5672
+HLA_A_0:100-3300	A*11:01:01:01	98.533	3203	45	1	1	3201	100	3302	0.0	5653
+HLA_A_0:100-3300	A*11:50Q	97.502	3203	66	2	1	3201	100	3290	0.0	5459
+/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/dogohla-series20260918/arms/hprc/final/runs/HG00658/DogoHLA/tmp/HLA_A_2.blast.out1
+HLA_A_1:100-3300	A*11:50Q	99.157	3201	15	1	1	3201	100	3288	0.0	5751
+HLA_A_1:100-3300	A*11:01:01:01	99.000	3201	32	0	1	3201	100	3300	0.0	5734
+HLA_A_1:100-3300	A*11:335:01	97.429	3073	77	1	95	3167	1	3071	0.0	5236
