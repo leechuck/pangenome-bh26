@@ -199,6 +199,16 @@ remain available. DRB1 in the selection-enabled arm must record its fallback.
 These mappings still provide evidence only; joint inference and calibration are
 not completed by this experiment.
 
+The development evidence jobs project the 32 locus/panel/selection mappings onto
+observed paths, retain concordant mate pairs and join each eight-locus set with
+native T1K fragment assignments. They depend on mapping success and a synthetic
+byte-parity check of disk-backed fragment grouping. Grouping uses SQLite so that
+arbitrary mate order does not require the entire sample in memory; duplicate and
+ambiguous placement semantics are unchanged. Large evidence files are hashed in
+chunks. Code snapshots and dependencies are recorded in
+development-evidence-launch.json. Native weights and graph scores remain separate
+in these joined outputs: calibration and genotype inference are still required.
+
 All 84 reserved donors now have verified read preparation records, archived in
 validation/READ_PREPARATION.json (65,467,081 paired fragments). This archives the
 preparation manifests and read hashes; it does not genotype or unblind them.

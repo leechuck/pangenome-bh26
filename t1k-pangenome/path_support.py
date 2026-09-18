@@ -7,7 +7,7 @@ import argparse
 import collections
 import json
 from pathlib import Path
-from build_graph import sha
+from evidence_io import sha
 
 
 class PathIndex:

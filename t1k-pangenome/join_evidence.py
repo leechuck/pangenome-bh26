@@ -5,7 +5,7 @@ from contextlib import closing
 import json
 from pathlib import Path
 import sqlite3
-from build_graph import sha
+from evidence_io import sha
 from t1k_evidence import parse
 
 

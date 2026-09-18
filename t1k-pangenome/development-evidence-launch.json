@@ -1,0 +1,38 @@
+{
+  "donor": "HG00658",
+  "scope": "Development fragment evidence only, without genotype calls",
+  "code_sha256": {
+    "run_development_evidence.py": "bdc9a8b9adadb2f802ee2dfe9bc20a5c4d8dea0761927fdfacd05b278681c8d9",
+    "run_development_mapping.py": "616b43fa9a1af3398297935312a715844ac4b0ead0c0bcf66fc0bcd604d226fe",
+    "map_personalized.py": "34279270c88913405c12b11b5b531061cd83fcf91ddd14cd885add8851b38c7c",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f",
+    "evidence_io.py": "14495b5ddbe02f4514f886424a4c75aa42ca5102fb78c1122ec903858a8b2289",
+    "fragment_support.py": "bbfd8943563acccbb6b5ebda723d4c7cef44ef88a2dd508439cbae28cf52856f",
+    "path_support.py": "84d0537093dd0d7ba6e10974826a7271bc1922980e2d73087e1ff0b350a7672a",
+    "join_evidence.py": "e9e9c5ac6bcb0197436fd6403286595814f669261e5d4caf8069a11b467a4930",
+    "t1k_evidence.py": "b79c8cdf6708bf8f0401adb4a0aa9a73b8251da3543b5d6343382ac02a06b9b6"
+  },
+  "jobs": {
+    "hprc/sampled": {
+      "fragments": "52045887",
+      "dependency": "aftercorr:52045836,afterok:52045886",
+      "join": "52045895"
+    },
+    "hprc/unsampled": {
+      "fragments": "52045896",
+      "dependency": "aftercorr:52045838,afterok:52045886",
+      "join": "52045904"
+    },
+    "hprc_asian/sampled": {
+      "fragments": "52045905",
+      "dependency": "aftercorr:52045839,afterok:52045886",
+      "join": "52045914"
+    },
+    "hprc_asian/unsampled": {
+      "fragments": "52045915",
+      "dependency": "aftercorr:52045841,afterok:52045886",
+      "join": "52045923"
+    }
+  },
+  "smoke": "52045886"
+}

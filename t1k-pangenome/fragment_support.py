@@ -1,9 +1,13 @@
 """Join graph placements into paired-fragment evidence without double counting."""
 import argparse
 import collections
+from contextlib import closing
+import itertools
 import json
 from pathlib import Path
-from build_graph import sha
+import sqlite3
+import tempfile
+from evidence_io import sha
 
 
 def pair_key(record):
@@ -54,6 +58,25 @@ def collect(records, maximum_insert):
                    alignment_records={str(i):len(mates[i]) for i in (1,2)})
 
 
+def collect_disk(records, maximum_insert, directory):
+    """Group arbitrary mate order on disk, retaining only one fragment in RAM."""
+    with tempfile.TemporaryDirectory(prefix='fragment-sort-', dir=directory) as temporary:
+        with closing(sqlite3.connect(Path(temporary)/'records.sqlite')) as connection:
+            connection.execute('PRAGMA temp_store=FILE')
+            connection.execute('PRAGMA cache_size=-8192')
+            connection.execute('CREATE TABLE reads (first TEXT, second TEXT, ordinal INTEGER, payload TEXT)')
+            def rows():
+                for ordinal, record in enumerate(records):
+                    names, _ = pair_key(record)
+                    yield (*names, ordinal, json.dumps(record, separators=(',', ':')))
+            connection.executemany('INSERT INTO reads VALUES (?,?,?,?)', rows())
+            connection.commit()
+            connection.execute('CREATE INDEX fragments ON reads(first,second,ordinal)')
+            cursor = connection.execute('SELECT first,second,payload FROM reads ORDER BY first,second,ordinal')
+            for _, group in itertools.groupby(cursor, key=lambda row: row[:2]):
+                yield from collect((json.loads(row[2]) for row in group), maximum_insert)
+
+
 def build(source, output, maximum_insert):
     if output.exists():
         raise FileExistsError(output)
@@ -66,11 +89,12 @@ def build(source, output, maximum_insert):
     output.mkdir(parents=True)
     counts = collections.Counter()
     with support.open() as stream, (output/'fragments.jsonl').open('w') as target:
-        for fragment in collect((json.loads(line) for line in stream), maximum_insert):
+        for fragment in collect_disk((json.loads(line) for line in stream), maximum_insert, output):
             counts[fragment['status']] += 1
             target.write(json.dumps(fragment)+'\n')
     report = dict(status='complete', source_manifest_sha256=sha(source/'COMPLETE.json'),
                   driver_sha256=sha(Path(__file__)), maximum_insert=maximum_insert,
+                  grouping='disk-backed; original fragment semantics retained',
                   outcomes=dict(counts), output_sha256=sha(output/'fragments.jsonl'),
                   scope='Concordant paired placements; no calibrated likelihoods or genotype calls')
     (output/'COMPLETE.json').write_text(json.dumps(report,indent=2)+'\n')

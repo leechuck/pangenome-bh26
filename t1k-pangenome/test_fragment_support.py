@@ -1,5 +1,7 @@
 import unittest
-from fragment_support import collect
+from pathlib import Path
+import tempfile
+from fragment_support import collect, collect_disk
 
 
 def record(name,mate,slot,path,start,end,reverse):
@@ -46,6 +48,30 @@ class FragmentSupportTests(unittest.TestCase):
 
     def test_long_insert_rejected(self):
         self.assertFalse(list(collect([self.a,self.b],300))[0]['candidates'])
+
+    def test_disk_grouping_preserves_ambiguity_duplicates_and_missing_mates(self):
+        other = record('x/1','x/2',1,'q',10,160,False)
+        ambiguous = dict(self.a, placements=self.a['placements'] + [
+            dict(path='q',start=10,end=160,reverse=False)])
+        records = [self.b, other, ambiguous, dict(self.a,score=100), self.b]
+        with tempfile.TemporaryDirectory() as folder:
+            observed = list(collect_disk(iter(records),1000,folder))
+            self.assertEqual(observed,list(collect(records,1000)))
+            self.assertEqual(list(Path(folder).iterdir()),[])
+
+    def test_disk_grouping_handles_identical_mate_names(self):
+        self.a.update(name='r',fragment_next={'name':'r'})
+        self.b.update(name='r',fragment_prev={'name':'r'})
+        with tempfile.TemporaryDirectory() as folder:
+            self.assertEqual(list(collect_disk([self.b,self.a],1000,folder)),
+                             list(collect([self.b,self.a],1000)))
+
+    def test_disk_grouping_cleans_up_on_invalid_mate(self):
+        broken = dict(self.a,fragment_next=None)
+        with tempfile.TemporaryDirectory() as folder:
+            with self.assertRaises(ValueError):
+                list(collect_disk([self.a,broken],1000,folder))
+            self.assertEqual(list(Path(folder).iterdir()),[])
 
 
 if __name__ == '__main__':
