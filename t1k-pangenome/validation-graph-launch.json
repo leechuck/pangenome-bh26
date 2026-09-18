@@ -43,7 +43,8 @@
       "native": "52051947",
       "bootstrap": "52051978",
       "bootstrap_evidence": "52051990",
-      "calibration": "52052012"
+      "calibration": "52052012",
+      "mapping": "52055293"
     }
   },
   "scope": "84 reserved donors; two unsampled panels; no prediction fetch or truth scoring",
@@ -52,5 +53,5 @@
     "reason": "QOSMaxSubmitJobPerUserLimit",
     "effect": "Slurm rejected submission; no mapping job created. Existing pilot and cohort preparation jobs retained."
   },
-  "dispatch_policy": "Remaining stages submitted automatically after verified predecessor completion; fixed inference unchanged"
+  "dispatch_policy": "Remaining stages submitted after verified predecessor completion to respect per-user queued-job cap"
 }
