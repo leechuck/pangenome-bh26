@@ -1,0 +1,17 @@
+cohort	method	fields	donors	eligible	called	correct	allele_matches
+development	T1K	2	8	63	63	63	126
+development	T1K	4	8	47	47	21	60
+development	anchored_ipd_genome	2	8	63	63	63	126
+development	anchored_ipd_genome	4	8	47	47	41	86
+development	anchored_hprc	2	8	63	63	63	126
+development	anchored_hprc	4	8	47	47	41	86
+development	anchored_hprc_asian	2	8	63	63	63	126
+development	anchored_hprc_asian	4	8	47	47	41	86
+exposed_validation	T1K	2	84	670	670	646	1315
+exposed_validation	T1K	4	84	387	383	199	521
+exposed_validation	anchored_ipd_genome	2	84	670	670	646	1315
+exposed_validation	anchored_ipd_genome	4	84	387	384	335	712
+exposed_validation	anchored_hprc	2	84	670	670	646	1315
+exposed_validation	anchored_hprc	4	84	387	384	336	713
+exposed_validation	anchored_hprc_asian	2	84	670	670	646	1315
+exposed_validation	anchored_hprc_asian	4	84	387	384	339	716

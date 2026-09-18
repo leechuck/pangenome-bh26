@@ -1,0 +1,559 @@
+{
+  "scope": "Exploratory coarse-anchor composition on exposed donors; not independent validation",
+  "anchor_sha256": "201e4316ac8449c0a6923972bba1877e3f1ddb6acab72575ed915e6cd564205a",
+  "scorer_sha256": "41bcf3daaa90ade18bc8966fa3e56cee09f5907a6d8f0ba4460958f062940797",
+  "runs": {
+    "development/HG00658": {
+      "original_sha256": "7e37d6c47b3842ea63263af3cc29b02c1c08b097931a9a7e72aee6aed9da43fe",
+      "genomic_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+      "hprc_sha256": "cd84c77dacb1a34d795ef91415085547df81a584c50bba1287922823db8198cd",
+      "hprc_asian_sha256": "6b6e781600de56c260ace648af7210c07728744440821c178098fd02c35384a0"
+    },
+    "development/HG02132": {
+      "original_sha256": "ddf12a64b492e491a93f4bc0cf3876c5ea9bcad9960724556df55b8324b94877",
+      "genomic_sha256": "30f274600a6420b7fb1916368012dc1a03e96e681ff30369e4ac3e83f13845a7",
+      "hprc_sha256": "230dff51edd8fdae448aa5dfd386b4f3031754f7269b3711cfed306b81140f5a",
+      "hprc_asian_sha256": "d5818b5370147e14d89ba3dd2fc6438568ae6bb4c295e1d1ac8a503376e8a085"
+    },
+    "development/HG03831": {
+      "original_sha256": "d74ac204af480411554e28ff72b600fadba2988010e3b16fa87b8981a47874d3",
+      "genomic_sha256": "b07a33c2724c86c33916adef9b7d804ceb7b5809b7b2c826abc3fb4341256aed",
+      "hprc_sha256": "7438e607da6fa76e7bacf7523c871a35943d8ca88d42108fe6d7419735f05e14",
+      "hprc_asian_sha256": "964857a0456450c0141e405591886d9eff1e16498335e54be3413d13526710ba"
+    },
+    "development/HG03874": {
+      "original_sha256": "b4ddca356a83d9009e17aa7b0edfaa95d22685241429c499f57ceff6c60fe99b",
+      "genomic_sha256": "adc6b6bde32e50144e57f15187f6f7e066fc29489386bad7c0dd1e6248378e22",
+      "hprc_sha256": "4aabc4d2de04558597add749a28e79cfca75ddae651da09fc8a8286c3a39630a",
+      "hprc_asian_sha256": "eff1a0600ad9848a49e7e80ee9293c947ddd701981be5683cbb646e0aa5f4261"
+    },
+    "development/HG01530": {
+      "original_sha256": "5c61d79dd28b1ae1aa90a1aee4a05223795e43c48f974d9d6e5b1ddf6fe0db21",
+      "genomic_sha256": "2f903e0001f3155f5e3b3735f451e065aca1c8df6e84f391435bcfe6b3d60c25",
+      "hprc_sha256": "e80a62efffb2510721b8ae21a57e2a06bec53cbc48773f5c6832a5b598846f43",
+      "hprc_asian_sha256": "108a7c03813ee441840e8c454534dae437c8e2d809aef8c1d406b794e6db63f4"
+    },
+    "development/NA20806": {
+      "original_sha256": "4c6b96ac1d551c5c52ba2969ced9a9fb8d9aedcca6d394bdc7cffc936a6befe8",
+      "genomic_sha256": "d496f1722300441f0343d1f9d10c4a437326d2249722fa76b97c6f2e1647961f",
+      "hprc_sha256": "313e6288989437ae1c4dc33967c75e42f3f1c5a1ad121ba3204f6c6c9288766d",
+      "hprc_asian_sha256": "1f0b633350cbfe117bb2f2f18a90e2194d4cb2bc93e0cc82ab784c2ab21ae938"
+    },
+    "development/HG03516": {
+      "original_sha256": "e870759574b7547ec608eab1e90195bbe5235762ac26bebbff85f88c1488bab1",
+      "genomic_sha256": "1f14b002bdcc817b21c33c711604ff0bf0adad3304fa068047d370615a31bc54",
+      "hprc_sha256": "53057f1d03392ca6ac8c631c1fb2914432b556cad18d7539f00917af88df18d9",
+      "hprc_asian_sha256": "ebb39e6a7322565f1accc9b51ad2a26fdc2061d1136c7f606077991691b7505a"
+    },
+    "development/NA19185": {
+      "original_sha256": "f1270001fa372167794358db5df2417d72be2fdabc24ceb1ade446fbae529d6b",
+      "genomic_sha256": "a997e0694191fb33f4f59f44e7ec9bae029dba2d70c17d8c3411b46a3286631e",
+      "hprc_sha256": "877ac4ab387b34287803ec3335560918a9a02c8144fa4ad462f34b6c8bc714d8",
+      "hprc_asian_sha256": "82db91b812ee5640d7c484b4892ccb3664e43d7bfb0b2ea0ebd68264ea4475dc"
+    },
+    "exposed_validation/HG00290": {
+      "original_sha256": "6ec8406c27e408532f7176a99791bd527ec6890a322ba4667fdfbb07144f8fb3",
+      "genomic_sha256": "f363fd99bd6a1e374db8c78b03b316fbc66f8b55823ecd9767dd969fa110ccb5",
+      "hprc_sha256": "5f6763b2715f15be7cfef1d0de869e69a1a5dd24ad00352e696d4968b1043763",
+      "hprc_asian_sha256": "7757fd81fb6b2b828c5543138e4e67cea985d8730d2f3efccf9e2ecc552a4763"
+    },
+    "exposed_validation/HG01433": {
+      "original_sha256": "de52103d12137fb7022a3f65e4ad86eed05b7fc7c44d2c2d3b9470ae7a2e690f",
+      "genomic_sha256": "a8c2d50de2e66b826c1bb8435b7e22e0e05c699486f861ba9ec0e1621e025ac2",
+      "hprc_sha256": "4b9ad3d502226616c859770a7df81f540eacb4a59a89251cc7fa6126866ba1dc",
+      "hprc_asian_sha256": "5b8daca11d337151d6ddad65318031c88139611b71c61df6baa0702096f64fbf"
+    },
+    "exposed_validation/HG01884": {
+      "original_sha256": "fe3cce2cef5aa6d2ca32b1862fce4ab934790f11b5b477e561d9cdbdd8489fb7",
+      "genomic_sha256": "781eda6a41548722f233cfa5766455331e165e82817bfa493f5c5086a275a521",
+      "hprc_sha256": "d98c392400825c3ef12f1fab8b2bab4b3abceb1e726647a621952a42717a800d",
+      "hprc_asian_sha256": "aebbdfbc3a792fd2cbd0237830485b90be29232bff8c4af9913a674a4a1de277"
+    },
+    "exposed_validation/HG01891": {
+      "original_sha256": "6733292a17f26bd40016f891e82c80d4ec85fe94ddeb6c87cb6bb93cd39c13db",
+      "genomic_sha256": "5cbad9ea7a50b54c6a17f429150ba66710968482e75fd816827578b46b4140e8",
+      "hprc_sha256": "49a3f5512a1895c4f5007c7c9d1da1ab75cb26ab301d1b2751996746200a6964",
+      "hprc_asian_sha256": "3521853152fe942349431b432c61a0f73edcd43df4dc2e5807b98b7017742054"
+    },
+    "exposed_validation/HG01928": {
+      "original_sha256": "b28e7ae149cb0da407193c3570bc9dc378b5e58bce2518325af16e03d1bb7e2d",
+      "genomic_sha256": "adc30803b5dca689485615a692e596a557c80dd2324b2a554a018853c125db04",
+      "hprc_sha256": "1577bfe759d053463b334ce5dc16ed8e2107572c40666ddd7ef8cc2dd69661b9",
+      "hprc_asian_sha256": "6a7dfbb21f5d8a265b3d55076a8427b805b8886f200c9b91ce5286e95b6bc944"
+    },
+    "exposed_validation/HG01934": {
+      "original_sha256": "e72baa2f3e1ad21a45844436cd0bf351f7d36f59732b531132aa2029842dc362",
+      "genomic_sha256": "807a79c7336102d588c2badaccefff5fdced72a73461718dd232af245ea07a5d",
+      "hprc_sha256": "c8005d2d8deb5c042343302a2a9a9714929abb36161e7eab776c675a041cfbde",
+      "hprc_asian_sha256": "802e507cfdf15a6a188a2bdfab31f8ca8f6726d2637e872d4107c618dec8f01e"
+    },
+    "exposed_validation/HG01940": {
+      "original_sha256": "74022fbe6137463b7cd8473dec6610a5bb2565a7ddcc9329a9afb19a4bf25380",
+      "genomic_sha256": "7337484dd4eae17082b8e15db56bea2316d0dd587f05193b9b9c5739f27cc5b7",
+      "hprc_sha256": "ae5de360c6267634794400e4314242cbb7123a5288a5cf87251dc68dbb4bb743",
+      "hprc_asian_sha256": "8632f401f626f51ae5942bf9a271ed67d37d963a419bdc1d50be260eb9ba2797"
+    },
+    "exposed_validation/HG01943": {
+      "original_sha256": "deff51500629cad3490ccd32ccf87b1d96d465fc659a8fd26a5e702172cfb7bf",
+      "genomic_sha256": "15fbbd5a56654ce320a00367e0882b381e27ff44aa1c881ce50481c2e222c57c",
+      "hprc_sha256": "2a2749695307e5af37925f4eb0f9fef428d9aad6bd6a360651c85bbfadad9dd7",
+      "hprc_asian_sha256": "4c310527639c665bad31daf21fbd464f5492bd5bbf5b4284398e39fcf1c274c8"
+    },
+    "exposed_validation/HG01952": {
+      "original_sha256": "f16cc3bf82c190f51f3321dcab1954db9b816d5e5057bf55161cfbcbb802566d",
+      "genomic_sha256": "7c80d668841d7571fa6ebed83e1b64acf000c80b0ac48262a70f891f14f2a15f",
+      "hprc_sha256": "563e853fc449602631513a76af4e282eefd3d6648809be7062a15e9e104a1d13",
+      "hprc_asian_sha256": "a38245a520a3cedc576e94f4bdb1df6e31b5ef5df37be6cfa477944b0fb07e1b"
+    },
+    "exposed_validation/HG01969": {
+      "original_sha256": "0c233895679e94b51462452cc461b866cbae43395133ed74de2d0ef620e5823f",
+      "genomic_sha256": "605cac47d1ff11d1ec852ee7f68798db0f16981287998d5502425d0980b38d00",
+      "hprc_sha256": "b25f830fdfeb6241717724e0e5dbade3c242dc6d68133172591b2871827c1da7",
+      "hprc_asian_sha256": "55dfebc31609e7ae0ac9a3cf38e6b7ed7a9bc8c09a82b6bd427605341476688c"
+    },
+    "exposed_validation/HG01975": {
+      "original_sha256": "7c7c5c8ae7a8e8db74c1c13ba4766a020c26cf8a0ba8e0f64f079e0dc33cfda5",
+      "genomic_sha256": "75423aff18ac2d1d003a28c14ac10a86bc28c052ac0b6c114c102ab307d9a7c9",
+      "hprc_sha256": "3229925806ccd44fa6936a1bf861bd86ec55430c8c2f1e9c0b3135c8d2c0ba16",
+      "hprc_asian_sha256": "abe1c38ebd48ac831181ee64a4a4ae1644437ecdffd4f8fd01208ddafcd1e709"
+    },
+    "exposed_validation/HG01978": {
+      "original_sha256": "125775c4f841d713b4615e3f0dc2c46b227375cf731a2e7743e5d2f1097f16cc",
+      "genomic_sha256": "445390a4f0db42f063b92a322c1fd58a3d2b298f6d9726093eeb86ab092d52da",
+      "hprc_sha256": "48485654f9f46d2848d81041eb855f56b971d9999d04f35f68def6a3600c9a65",
+      "hprc_asian_sha256": "33a63fa45d476032dce891dcc51dfdfde1b5411b0f0ae11c6a71ccb25e2d3d79"
+    },
+    "exposed_validation/HG01981": {
+      "original_sha256": "0a20f9fdf724f9bbfb598c6468646530fd1957976e3ef02fbef5d45fd65eb7b3",
+      "genomic_sha256": "a9226cae60069328362bffbee5873c2e59f204fa46181f976a14df30e4835b96",
+      "hprc_sha256": "95e7e3dca6941f244b56d28b863cd6bcfb5a7643ffd4d3ea2fc1044775d8c2da",
+      "hprc_asian_sha256": "6f07885d923a48c60c1edfe6e90ba76c1da15518e12134732ec0553537046531"
+    },
+    "exposed_validation/HG01993": {
+      "original_sha256": "7213b6f9a93fe2260112bd0adc850ebc057179989d629f5b74dd8ef4fb148bc4",
+      "genomic_sha256": "1a29071fab790d83c28988dcc50905c0c20065f345394ad55e38e0f0071a111f",
+      "hprc_sha256": "d002334958b8c64fda122f95a7ba1d7067f01068c860143d69220f59899b6108",
+      "hprc_asian_sha256": "ffbddf4ee14e5a60bebcdbb7c24b8641f5aa0fefc269f5d5a8731ef2bee4bd5f"
+    },
+    "exposed_validation/HG02004": {
+      "original_sha256": "0ca34721b7b7a9ed828a00e5637ebecbe8ad9ae77ab33273eb2d1c4ecc08efbf",
+      "genomic_sha256": "52ee7ec5811c2440a898d3f0eabca50edcc0f36725e85709b28981509ea7d685",
+      "hprc_sha256": "6854f827253f64057fc704d9ad11c700c81379cb4ac48224277ae9f7e50c248e",
+      "hprc_asian_sha256": "59b7fccb6879d7f41c3568f60c068f264146681c03e3bb71f63e024f97dba5b3"
+    },
+    "exposed_validation/HG02015": {
+      "original_sha256": "1ca2669d98acf6f3ea689319183d8a9083d4f43833da6b2f48f8d524d7c8f721",
+      "genomic_sha256": "46c9e90cda04049d5382d63f34f63fed5a245f4c0dbae9056bc1e459ab1641ab",
+      "hprc_sha256": "720bb224b6519599aa2c9e360bf9de965ddd224095eb3d8a3b89ee51bfc1f81a",
+      "hprc_asian_sha256": "707b797aa4e078f297d97de5167504f6fe01d8b241375c1283f418014a275d8f"
+    },
+    "exposed_validation/HG02040": {
+      "original_sha256": "86d076796db70dab5dfda2414e2aec4c6e1c8358571b2beaff79c522e4dd38e3",
+      "genomic_sha256": "dcc73b573b5abba8c1f101802686cc1f42ef0fd30a7848e164c1e957407b95ca",
+      "hprc_sha256": "8daf6fc4986ff7f9f5b8257d3f9f1ffa2cd83ac44f535b98b3f2879ad5b739e6",
+      "hprc_asian_sha256": "860036a68920f0055a463f352977adcdbcfd41a740bb70ded799b004ed0d4fc6"
+    },
+    "exposed_validation/HG02055": {
+      "original_sha256": "1ef6bde162bd085cd09342a7ca0cdb18642a177a3cd3f3aaca4c95c492c77f4d",
+      "genomic_sha256": "77df4edbd6fed3fcb6f58408cbae6488f64cb077233ce8e02ea18a02426e3c58",
+      "hprc_sha256": "96cdee08704a3d9475f97b4fbc416a953b6bcf9bfc8abbf70ec5a0621fc49c1c",
+      "hprc_asian_sha256": "2c6fe01cdde59e34f4444cc067da8f9c557699e8508ef5bb1a22651e9af0f145"
+    },
+    "exposed_validation/HG02056": {
+      "original_sha256": "470b4413c83ce1e5f80ece6c60cac1caf4e01785da2dc98b039377c89328bb15",
+      "genomic_sha256": "6e14b93ac52928db5b9535940308e138e437e52f4144dbd256de4d557eab82a9",
+      "hprc_sha256": "4c5bc45e05aba179499498ed38cfe96de951e13b078f8b3962edd784e0463612",
+      "hprc_asian_sha256": "fcb751223c83dc38e9c37fc95926b36f9a054c67f6d04ec96018ee3cf1fa7049"
+    },
+    "exposed_validation/HG02071": {
+      "original_sha256": "ce346f8c2cbaeecfecc35bb5d2a4ac800b69305922cdc487eb339ab00012cfd2",
+      "genomic_sha256": "0ea8687156b98556aecb56653aedee0d4f0c9f4b90d9d456427fa8f4f919227f",
+      "hprc_sha256": "1a26cc0004339e4bd04ecb495545aa51e2b169e07e45230baa211b1afacc6b50",
+      "hprc_asian_sha256": "5340873a0f66e12a0b5058bb2b4e42fb91f516c21f5ea3df9c6167c82baccf84"
+    },
+    "exposed_validation/HG02080": {
+      "original_sha256": "39de5c32904453db76f54b93e02cce71366b1adf1019226dc2f93aa81f1d0d8e",
+      "genomic_sha256": "b5c0665b57068eca43ccec181048126bb25568fa31703756dcc457ff1ff1ed4d",
+      "hprc_sha256": "8b928137e90b8f1b1fe79ed9e64ea886a072029572bcbf7afbac69e90a82d1e9",
+      "hprc_asian_sha256": "050b361c14c1dc2df37de929e972c5dfa64a9b409fe3a98b5d1d48c4628ed391"
+    },
+    "exposed_validation/HG02083": {
+      "original_sha256": "25b192cb97c9a384a7c5399ef36c62209e64bbd36efa574655ba40ca36d545e8",
+      "genomic_sha256": "3e3c4c82bf77c7bc88495d25279ebeced0668dce4496cfd4040bd5d88d175dcb",
+      "hprc_sha256": "28cd349f9888a5ab2498eba54f547f35d2a253c4a68f7d025335dfc1b93e20fc",
+      "hprc_asian_sha256": "7f7f12b06086655a2b94fac02946b4652fbec4b5557a07bd4ea077c971353004"
+    },
+    "exposed_validation/HG02129": {
+      "original_sha256": "405f4b6db36baa53f23d2da0373640b20ca5c9ac700b6e93c34ef0bf330a1359",
+      "genomic_sha256": "237aaed26ba9d32cc5f5b682197d5e1bb4bfa405e86e21d33e8a714d49cfd421",
+      "hprc_sha256": "0a97b2b0f319dd404dc1b28a07c49d482e2447322f5b067015c93e5d9b4ecf50",
+      "hprc_asian_sha256": "85446e494ad4d46b7cc231e0befc341987dfd1a9f039079775fde822feb49e1c"
+    },
+    "exposed_validation/HG02135": {
+      "original_sha256": "d8470e82ba8bf76144817f0ba914528e8e6173a24d163c2840c1840d35a30429",
+      "genomic_sha256": "db162b8693abf21eeedda4613f7ae37a4e2c6dd4cf5aa8fccb9dfe481949fca1",
+      "hprc_sha256": "e80676f77c20b7a7f32d389f262c8e6755df5be47d216c7c9b36726bcc168900",
+      "hprc_asian_sha256": "b4d261f37f6fb9122beb19283c1f7af04fb4cad07e3bf446907bc931578d2e9a"
+    },
+    "exposed_validation/HG02148": {
+      "original_sha256": "bc0797b24a4223a17a4ccd7c7e729d366cadeecb7910d4f5bdc199e586abf791",
+      "genomic_sha256": "c19e400190f806ddb2a7f70e2ffef08eb6d5ec02f9f25965e450c9b0f96e4fce",
+      "hprc_sha256": "80b302a85d06467863c58d9d4bbc52135508132593dc31dea94d46d8f831cac2",
+      "hprc_asian_sha256": "f1a01eee89e2cb18981e089bb2145c4caf12bcfba6767dbf829da3db8ee40403"
+    },
+    "exposed_validation/HG02257": {
+      "original_sha256": "06e7c4828e8b0f76e6d5fba7fc44ab7469506173ae3da2064a9edd479df6ac76",
+      "genomic_sha256": "db484e5d96146a8ea25dcfa1b239cd1a01a3d90eb615d9237883a4584d66be9d",
+      "hprc_sha256": "f7107e644729091b5496247650de395bafc39cd48f104dfb8f793dfa9db44813",
+      "hprc_asian_sha256": "e977da06d03ecca83b445dea04249e6313d9fac6ef9249b12cdb6c0ea82ad197"
+    },
+    "exposed_validation/HG02258": {
+      "original_sha256": "56c7135300fd8a6d2ecc4da1dcf748212520f364e1d33d7091b0591e956934d0",
+      "genomic_sha256": "8d53c7a442c5061a0bac0efa14070dc4b86577575de27298af83049f6b837c6b",
+      "hprc_sha256": "4679fd5f94a3b6ead8eb7330b8103708e9aaedea95c25275fef4daa1b4ff0986",
+      "hprc_asian_sha256": "3282f0a2208a3d04bb85fb496a825ec22b10befc26309caf5a6931251ec6f102"
+    },
+    "exposed_validation/HG02273": {
+      "original_sha256": "46dc6c73318d02c341910b8f779cf771437a8817799006435040525d9df2d6a0",
+      "genomic_sha256": "fc8db2555b5c0234b515c2d76c1e2bd14348ce717d826ced4043dada3649cd1d",
+      "hprc_sha256": "5bb9300e54293588a012755334826eaf812d8694e89385a049f494281944af0e",
+      "hprc_asian_sha256": "88a048f3591270f21f9033e7dba2ac9eb8c1caa94977b9630618a83b40a05bb5"
+    },
+    "exposed_validation/HG02280": {
+      "original_sha256": "2fc37805fb7a23f7b960b808218d2e2ab1dba834cc3cbe6cd05917c701c831bf",
+      "genomic_sha256": "752d8fd584a38b7e9aae7c13fd402cb9c725fa1989918693a1a412c1fab95e6f",
+      "hprc_sha256": "754320d4b4669cafefe8e40c3cf795a15c8b303eaea73d1faa14579b49fd115c",
+      "hprc_asian_sha256": "1a6a1602651ae3d4d2d4f6a4349d5f77cf49ed464c3771cd2c27089a88452928"
+    },
+    "exposed_validation/HG02293": {
+      "original_sha256": "5437c02dbda9bad76233262032a17d6cb2288fea8679d1a5b2c3c7706c523220",
+      "genomic_sha256": "5c4011b3120284f9eb88ede8e297f939444e82ddf0de1ff3ce5c64717f7a6168",
+      "hprc_sha256": "9da10bb2eb1337971054b26c69e5bfbb74a34c2dfd7cf0a3d86806654a92b800",
+      "hprc_asian_sha256": "66f99c82f26fd673af876d7d223e59a9f0f468cad2dac1a4a0f70a1436be0346"
+    },
+    "exposed_validation/HG02300": {
+      "original_sha256": "a36491a928f63b2900484482f3075e4dcbbdd6eb178fcc8e39db25e2ab8b93b9",
+      "genomic_sha256": "ba1a59f0fc1ed8b894b4797a7e8e9e53af3c6dcaaa24a0a7473ef7247c405ec4",
+      "hprc_sha256": "57738989955307f4ca931008ebfd3e2411dad844f2d4d4506c4ab29be0cd33d9",
+      "hprc_asian_sha256": "6428f71b75e237c6c62724f0164802ee4e6d4916cc1cbfb6973b2ccdfbc037dc"
+    },
+    "exposed_validation/HG02392": {
+      "original_sha256": "a9f64ae5bff3f73a78795bbeb319547ac14c82df47a28ce18731e71d7f3ebec8",
+      "genomic_sha256": "8475c6a7f897978660ffea96b1d14cd93bc5d0a300bb685cdfec79f018cf23c3",
+      "hprc_sha256": "8ff02d4d337acc8a066a0934de9fd072e6292e242e66ee7c2926d6cf164c4b21",
+      "hprc_asian_sha256": "2df803f494ebf26d494756e615599718a0f7677d14528176cdaf29df22d69b6d"
+    },
+    "exposed_validation/HG02451": {
+      "original_sha256": "2bda51549f9297e0d03fade8a647da01bbaadd4d28f80e914d65e016904fa0d2",
+      "genomic_sha256": "ecdbde8d97a328af6a267990e360ee752226810614eba70ab21b1972c2d8561b",
+      "hprc_sha256": "c1812c3ebae10839f70f85ada04532ae664773152ca0fb19443f0faee72922bb",
+      "hprc_asian_sha256": "24247edd93aed95a0b3764ffff800b4881879f2c70cd152272d11a738d41b21c"
+    },
+    "exposed_validation/HG02514": {
+      "original_sha256": "024219b0afa31344964a7765807d4196cef1890cd9f1a2856efd0831bc255fb4",
+      "genomic_sha256": "3d6d7b16bbb5bfccd43626ec0f7b003048dd33d00c15ffd75c1e1e0db54b696b",
+      "hprc_sha256": "0a177684bf061590ac173e69e766e19531600d06dc8ba2cb916d95d66b536ad7",
+      "hprc_asian_sha256": "4509d2b782847aa5b97b33cc48df4362efbaeb7c65d1d40be4a8d347a5fac7b3"
+    },
+    "exposed_validation/HG02572": {
+      "original_sha256": "caa774e292f3954a23175b0c9e6d6e88f7f893b0ae27ec260c5f6369837cc8c7",
+      "genomic_sha256": "e0aea2c600e6a9ba7e233449363f54874eba5e7495d8f40b96e0e05ebc70b1a2",
+      "hprc_sha256": "815c44eb9d4e31498aa322a2bba454072dbd534c9a8e851575d301a7f1a3134c",
+      "hprc_asian_sha256": "662c8ca0600993454dc77bfa4d9225636d9473fd51d7f69ffa0c3b94189e68e9"
+    },
+    "exposed_validation/HG02583": {
+      "original_sha256": "140c78c8936d9547abce65c3f7c4acfc0de1038372497bd6490ccad34cad1b52",
+      "genomic_sha256": "7ce9cb01cfc715ceadb129285631192dc9db7a39da1877403b9c8a98804002a6",
+      "hprc_sha256": "97ead9f1770e74b983c78b772b32aec19bc00a5963f3e0f668fe2ef6b1e8ce12",
+      "hprc_asian_sha256": "033308cbcd06055f97b8a45de96453a4840afd3734eb548e3e67e7d98cf8e234"
+    },
+    "exposed_validation/HG02615": {
+      "original_sha256": "936b25a87299b7509e1efc17b8d1345ae78aae1458c6137d91dc1769670f7804",
+      "genomic_sha256": "4db09d8483364cc737647863cf2090eb4cc6d01cf0b9a86053b7b1030eaabe66",
+      "hprc_sha256": "ea059fc3369c55b9ade47ba7829cc0f366971cc82ef7ffdf2b709b1b7b466a5e",
+      "hprc_asian_sha256": "7dfe422dbe11aeda1648198685c0844218912ad66834d098374fee65138abeb8"
+    },
+    "exposed_validation/HG02622": {
+      "original_sha256": "d62f6a2fff51e6e4c3de421de9c50019b1efe783f18252be8d4c8d86a6454f1c",
+      "genomic_sha256": "dc41abb3f94a11091fc2614442cfa8b9cf3f25acf83d243377cf740e78f4c68e",
+      "hprc_sha256": "98a8cfd920344a06cb36eb8eafd05fb76e7163ab2eeb6cce431ddcec3318522d",
+      "hprc_asian_sha256": "8868e4420f5635deb2b04c9f18070781211f333d455f5f275dfdd7283a40905a"
+    },
+    "exposed_validation/HG02630": {
+      "original_sha256": "7d6c19f3d52721b82318e449c7a883d9bbc71f4af1e91ae55cc339ff7978fcc0",
+      "genomic_sha256": "f4371e94f874e173d1e57baf961cfd2be15ca4bb0bf8ba620e615cee6bcad94a",
+      "hprc_sha256": "dc6d7990867d82c392f473f0b18ea8897a781c1a71d2b0ba3c82569e34465073",
+      "hprc_asian_sha256": "39ec4792819c932ea5857d5c6541aba522ccc3ec561a39e71fbc5119b72c24f2"
+    },
+    "exposed_validation/HG02647": {
+      "original_sha256": "02acaeded67c691c3296cc2270282ef2e91736c4cef7500c3ad1b3a308d025ef",
+      "genomic_sha256": "c8180d455972e2e561e9c58a194bdd74dbc4043e9a08655c777f3b79f0ac8e82",
+      "hprc_sha256": "36874ca4ae76ca5eb2757911967ebc70587cb1f280505111f53b82beb3395dfe",
+      "hprc_asian_sha256": "90eb2ab035423f6a21abc8de7167045a8a47642124febd0b5cc6a6722619290f"
+    },
+    "exposed_validation/HG02668": {
+      "original_sha256": "1106d60d8bdd71b983f95b72152c6830f53f6919d1d3e45977fdd7131baf195d",
+      "genomic_sha256": "4e7233d8dbe36ad312e5fcadbcfdd3a47c98ada3d6bf200dd517ed5f7f344064",
+      "hprc_sha256": "bb1ba98c860d185ce3cd9104085576e5ce46552d6d8b60c46d949b46da442757",
+      "hprc_asian_sha256": "db9139a7b3881075acaf565d0126b529197af323d7815ad939ab56e8051f9d7f"
+    },
+    "exposed_validation/HG02698": {
+      "original_sha256": "11290f66037ae311488cb7a09ae7e6535fc0b877d896d2f4831d9504b27e3ae1",
+      "genomic_sha256": "65ad7a993841ce04b48a9b661ef5fcd36f640b828394a8cdc1a489b36bdd22e9",
+      "hprc_sha256": "2319959c320ed7d41e5e94553e0a23741f986457c45209c0c1885b5004cd2991",
+      "hprc_asian_sha256": "9249ee635da88e305ff2481ec7c66c270016c9fb757010ff2d3f1fe4842a58a3"
+    },
+    "exposed_validation/HG02717": {
+      "original_sha256": "99303598faeb246759d6a7738ed6479ea6fa41722f0bd5566c78ad124a48a764",
+      "genomic_sha256": "4095dbd785cac8e196ce9e859eeda1bbb411ad92109f75c988793ef4dfdbe9cb",
+      "hprc_sha256": "7226e6169c11945b87274def470cea33d498c3de4fc62982ec377c31da865839",
+      "hprc_asian_sha256": "133a264b603f42e9a7e7332bc925ff18bb3e68ae0040496cff4a688d212da365"
+    },
+    "exposed_validation/HG02723": {
+      "original_sha256": "48deb39ed9e1ef254a7512d111416254fd0176cb60d6eb924d1e81a4e7592db4",
+      "genomic_sha256": "6adebe82b8c74e82b0f2fd92e48306b8b797a24892fb461cd678b6c1e6af19a8",
+      "hprc_sha256": "9fc4f28b308ae168fbccece1032ea8d4b9dc0a7eff7d0fdeee6c69667f7f7ec7",
+      "hprc_asian_sha256": "e9f1bd1f8c1fbcaff56a69bd111734e3037f3ba3f82d44e02ad9d9707fda3b55"
+    },
+    "exposed_validation/HG02735": {
+      "original_sha256": "0aa5833c55a3433bb6bb34f38aaaace0b8a1ede4e10b1a0950807197d8ff66d3",
+      "genomic_sha256": "d7cdba7d095950c197f1f666487332226fe9cb4ec18ad549f5e9f1fcd6dd11aa",
+      "hprc_sha256": "6629d63f329d40acfe22587cac36a8fbe321b0bfffe9606b1b5f73e2de71a6fc",
+      "hprc_asian_sha256": "99288c489696d281f1e46b83ce4acf9e2f75d3a50a0f0db2927dc5e81ab5ae47"
+    },
+    "exposed_validation/HG02818": {
+      "original_sha256": "ec9267ea59d4ed1b19dbee59e391f0cf558dad0048eff9c1c499c8b04c5ed709",
+      "genomic_sha256": "3bbb3d4689dc42ab0ce3286c51b78683e7ddcc2f6adbd8dc0f844d517f6de56b",
+      "hprc_sha256": "ecab9afa95a5a7b43d920909df172ddb937712472714c8f82c6641255084b8fb",
+      "hprc_asian_sha256": "34d1bb6b7bda7e6f73b97a7555396b3b00750170627fa6fd1d3199af1dd55cc7"
+    },
+    "exposed_validation/HG02841": {
+      "original_sha256": "d073b5f997d99e14ba2050d6c8e1bf8f9305434dd382958c3fc557b48fafc41e",
+      "genomic_sha256": "6a5a88d2b4aaa3d84382548c68061a83eb917124136e8c97acd325c647efab92",
+      "hprc_sha256": "05998c3de36977e1d4b3068e60b58faec37aee5af24da974d776af2221fee034",
+      "hprc_asian_sha256": "5560f2edfa0bb68ca1995e37ec1fb939501ebe8a4d32409544b2018e2a2f14f2"
+    },
+    "exposed_validation/HG02886": {
+      "original_sha256": "1192247c3b5ff72470bbde62889d6ebc0bfa218aebd4f3e33bd43e7486bb288a",
+      "genomic_sha256": "62edec750ebf4c55c0681966bcfa9f83b376c740944b05b7a6a52247ef6996a5",
+      "hprc_sha256": "a3ad7755aaea4781d42851297f1f2b0b14dbf0c22745031d5d558e1a5d0d69af",
+      "hprc_asian_sha256": "08a480441be0cba3b0311894dac1f210d51df748c28cb8ccd45200d5ea6f7397"
+    },
+    "exposed_validation/HG02922": {
+      "original_sha256": "c995cf9f0017b49ed1bb45b6d87ce16571de15df90ceceaa4e6e8a0d5ff2f469",
+      "genomic_sha256": "dfde3856c8624d6068491d7d86eb3ebe7ab4653ea6791a14fbefb8ea489bdaa9",
+      "hprc_sha256": "693fce5eecbbcdcd2d7a851937ea40bec19ad669bac14d869ccb0ca2fbbad94c",
+      "hprc_asian_sha256": "771dbf2ebf7febc4062a27548d1dbc81bb3c18eae7c54bba301f8e19230dbb64"
+    },
+    "exposed_validation/HG02965": {
+      "original_sha256": "4decb9ee5272c173321d264b8f8ac01ddcf6664a4fe1027efd8124c06bc27162",
+      "genomic_sha256": "c1a7fe5a276a8286fa600f7f6026faeedf78a052725e31f6b1bd613bb76417eb",
+      "hprc_sha256": "6995c186d4141ca209a815468100b4f2741db53d198aff7d5edabc533ee1a37f",
+      "hprc_asian_sha256": "e62e8e9acaeb2c577ece74a5939866dc3dfdc9e9743e44c78093ee9c982ceed9"
+    },
+    "exposed_validation/HG03041": {
+      "original_sha256": "de21b2207717be13b19d51089fa085bc1a79d374fef1eec71daa4e119e4bcc3b",
+      "genomic_sha256": "91c609f9e2af5d6e8fcc94809bba771104c7f5289bb4a90ae579dd5662962c58",
+      "hprc_sha256": "4829e4bd84e46936417a20b3568ccad435cd796cd02152de1796869e3947e61b",
+      "hprc_asian_sha256": "0a140d3053b6681be8cfa1751e3b2dfca10f9920ce9b574e7331e16b07afed97"
+    },
+    "exposed_validation/HG03050": {
+      "original_sha256": "7189fb72fe439b9510ac6f61932270d27eedabca194674c11e7189c57f6347b5",
+      "genomic_sha256": "35daafa0d16ea596a3087571652ae373defd92d29d18f9e559a356997c03110b",
+      "hprc_sha256": "f4f4a3783991736e90d67d3d28da9e1ec527e1d3c68251c830cf0f8cb63bfdb5",
+      "hprc_asian_sha256": "467e5f2786a7a3d407a62f696de1c80ae6e0caca808cf2c2401537e0e99c0b88"
+    },
+    "exposed_validation/HG03098": {
+      "original_sha256": "82a13af271d44f8e9ed2d1217c8bd456084ace10627cb866661aec64c73994d9",
+      "genomic_sha256": "cb8e74b7aedb029d7b74e59108fc05da850af35800b89e7aaf18f33c8ec0516e",
+      "hprc_sha256": "21d70267dc9e40627a9ba5db5ed379a799d8dc412c966ef1d86f4fcf310523f4",
+      "hprc_asian_sha256": "fd48dc7a97453376baa74b70960135f68ebbc411b89b8ccdbb2dd560303167f0"
+    },
+    "exposed_validation/HG03130": {
+      "original_sha256": "be510bc35996a8f287bbbba3fc9bb3ad78bc2925d7aacf01c77ab82384bf80de",
+      "genomic_sha256": "9b38442a99e9d887e992fd8471c0453b032602a635463851fcaaf01aed188904",
+      "hprc_sha256": "772353ebc3f047b8ec72e71fbfab0ccca0d0bb0226f0c1dc82dc93140208b287",
+      "hprc_asian_sha256": "169cb0062f5fd302d6293e5f49d5dc4bc6b54f82daf0d2bba106e6da4439ab87"
+    },
+    "exposed_validation/HG03139": {
+      "original_sha256": "31b8d3a96844e19d3ab39e4df4718946a2472d5c7bd30a4041b69bf30229a9c4",
+      "genomic_sha256": "05609151f5af0fc84e10a124f140cc53a44e95506e8955ce10927b2ceb06d6bc",
+      "hprc_sha256": "e3b23293fb17f2885ae7caea76f411673a2d1cd995c491e5fae6a13242fd8cd9",
+      "hprc_asian_sha256": "b931f8860ec3471c969c6091de364b5046bd6d24a6a600db2ab0c6e457d41b24"
+    },
+    "exposed_validation/HG03195": {
+      "original_sha256": "7d37254ca0db13d02cd204465cc094a57a9f6b5828380057f974bb6d11bcdfd2",
+      "genomic_sha256": "1c323a6c35a5ae305073181491586078872f14065cfa5a365c5cc0260ced983a",
+      "hprc_sha256": "936a5582ad9a3d75a9bab1b2c2a9e89fec3b51a389fb168f2cce7af9f0e2125e",
+      "hprc_asian_sha256": "ae5aff07cc62e17268e9ee1c1495cdbf27fecefff1603a4d554c638299ff8c37"
+    },
+    "exposed_validation/HG03225": {
+      "original_sha256": "4b283393a509f6066a6f32ca976eac98295d021590ae38cf460fb316ec5ab5e8",
+      "genomic_sha256": "7731b4a296b6292129723abfaad86b26882dcca6083ba4f461e22d4499ec0c96",
+      "hprc_sha256": "47f5f87709b1785a02dd3656e99d72bf99b28313cad8f9715c94fd672c9e82ad",
+      "hprc_asian_sha256": "5f0bcf44d76d857fbb4236ac359a5220dc1a0b7f4cd5c2b501ea729bf44b9426"
+    },
+    "exposed_validation/HG03270": {
+      "original_sha256": "e2f906a475cbf77f4edaaed617d9c289e75d9d8da5434f4c76aef082a283a09d",
+      "genomic_sha256": "b75120cbd47c750b6f564c50b56fdcdfbbbe081531987c61d072063061b61216",
+      "hprc_sha256": "975215d3e4aebcc38438b8684c052469e10a0923488c7b15cd231d8135061ab5",
+      "hprc_asian_sha256": "d8a814da6462d30fc7695457682ac156f5193f16972f6404372fb418a16f63f1"
+    },
+    "exposed_validation/HG03470": {
+      "original_sha256": "8e8a6966a6533b4e514a6cbc6b9fbd5b347dd87afcef135ed12ca4011f41b3ab",
+      "genomic_sha256": "92e6a37e2bd48cfd4cc0027edb1c7b5ff6a020a377a0125412fc6d9817581b16",
+      "hprc_sha256": "ef08117429fccb242ec9f19d07c1e2efb44c799845beb12d64e58561cd1822e9",
+      "hprc_asian_sha256": "0acc19360279829481cb6c5e9436bd9cf13dc8c3b7d0725a10839dc3dca542a6"
+    },
+    "exposed_validation/HG03486": {
+      "original_sha256": "eb0b0348b527a34a2c87811ee6a8ff4849bbff8a779037fb58d225bb30a4614a",
+      "genomic_sha256": "98a72267e559d48684c762ecc1b5fa30cfe3d656a31d9ac518d917916dcfa13c",
+      "hprc_sha256": "14a3dfbd411609191240ad028e754524392d48bb215786edbfeedd97fd2579bb",
+      "hprc_asian_sha256": "2172833d89e3c64c80c084d2446b32c6f0a36720873b873e4ce25058a92d77e3"
+    },
+    "exposed_validation/HG03521": {
+      "original_sha256": "b770fb72c7547dac57beed02fdfca0959b4e487660c62faa1af2df1d1ca00c94",
+      "genomic_sha256": "0979a22f0fdd043168c7f0538e01a903e6f16f41bf213b1bac95d6cc99ce5587",
+      "hprc_sha256": "972e3a3fe12374556b071002922551e04ac8d791dc3e65a6f3ce125e2e3d99bf",
+      "hprc_asian_sha256": "145ffcbc377184a99da24174239502db869fd4f85c151857200f69a15b95e436"
+    },
+    "exposed_validation/HG03540": {
+      "original_sha256": "f2c17189bc2dbf4ff438fc346d0592a36672b52de7628bc3a8f340314723976c",
+      "genomic_sha256": "c16373ee9b8943321e311f34e5e10b71bafa862dabb7eac51fb712b25cdffc59",
+      "hprc_sha256": "0a55d182d52c18f13bf47a2cdfe487a8f0750f4ba2a110ab22427b0c0b240f21",
+      "hprc_asian_sha256": "68acc99a488652ffd6d9ce7318ba8859ecbfd349e7ab92cf4d09dff58293f7cf"
+    },
+    "exposed_validation/HG03579": {
+      "original_sha256": "004ba3661da556bf07bcd7c3e8957d9892b9d44f2791f08f2cb09527f3899107",
+      "genomic_sha256": "fd70b397e152fd30945c6e96c4d4ad7e73e433b9191b71b7eb633b5d3c07722c",
+      "hprc_sha256": "ac8449b15e81581eaf86f716b24c851161000b6d58283bc0889d2786a36f997f",
+      "hprc_asian_sha256": "f7241da75d8bc4d9e69ae3f770340779d0e55177bbade123e1f5fa4f9bd84f07"
+    },
+    "exposed_validation/HG03583": {
+      "original_sha256": "e96a2879014968baa29363a704f74e59c1b4849de13e8f0d3ec48af314575614",
+      "genomic_sha256": "7c529d07c3cf7bc447ff8d52127a5d7dd7a89d071dcfb9d4666b54826dd920e8",
+      "hprc_sha256": "0f4897bad76f2b5efd865f8ed71c332b311cce63e51e11e789bfe034be9dc7a7",
+      "hprc_asian_sha256": "e65849aa81777625c2ae5e950cae6f4a4a890ee0ca3ab5e7505cd209c8310ac0"
+    },
+    "exposed_validation/HG03654": {
+      "original_sha256": "aa6822c5be4c53b859c0b5bed6a9067a895a8ce639f5dcaf512d1e0e8f3bce5c",
+      "genomic_sha256": "4c699719e4c88d4fc807e06ababadb5a77a3ff07aec6fedd109d30cc416dd0b7",
+      "hprc_sha256": "664893eb3ad35109ecf6fb6f788e65ead92ca67723bee4c7da42c09f9680ffdd",
+      "hprc_asian_sha256": "f0f06a4c2dff031f4b34fe59a0c74cbb9a143c7e235339365de24c3888054082"
+    },
+    "exposed_validation/HG03669": {
+      "original_sha256": "2f148d0b390d14796581f9d19d2b07cd8ee0486d8c983960c6368c1d7216f1df",
+      "genomic_sha256": "d587bcac7a4cec6c13d46d04d76bac15fe7ac4365e287b4b86debbd61e32f20a",
+      "hprc_sha256": "cf30e6f9448680f20bb9e2e505867423e9e3b8060830ca1ffffba6cfaee0bd44",
+      "hprc_asian_sha256": "af9e3d014a72e855c306a0c661bc5d10ec53b9f245b0e0140122352d07d1f0b3"
+    },
+    "exposed_validation/HG03704": {
+      "original_sha256": "68cdfe820f9866c05ffe0a5b4b37be5b88a8a17a30adc8e1a81bba236a189058",
+      "genomic_sha256": "72851ac6ea57a0340bfa1a27558aff2159b56323365f173c7dc1f427dec636f6",
+      "hprc_sha256": "f6112f1da693e035bae8b18e2c9972a718ea7f89e0ccd70c58cf788b04a8b555",
+      "hprc_asian_sha256": "b79a895c44e7f9cc4cd42a9f3c1338ef4702ce2ecb1eae7c48ed07477456354a"
+    },
+    "exposed_validation/HG03710": {
+      "original_sha256": "9bfcff017139f0b3f76b71d7f6b89a3beb822d9282edaa7cff5c813d4006bd2c",
+      "genomic_sha256": "cfd90b60e11faa3ade97d360802b32dca3f161851158a53956d7989a1df8d9f9",
+      "hprc_sha256": "1ddec7979ee6f38195e8a67068ec49841b6b84e56763f1f4989b0e743d8b4b3c",
+      "hprc_asian_sha256": "07fb14083c79a32ac38c72c5d8d09ab56ae172cb24503e4d6ba39fcb5aea4a5b"
+    },
+    "exposed_validation/HG03816": {
+      "original_sha256": "361d27553d8dbb193e96753e4d954d173d7f1138c8ad9f9db8f40550e2fdfcec",
+      "genomic_sha256": "73a6172a416840d94c37c4fc2ef71fcce71f27285fc55168915e4a1fc0f6fac8",
+      "hprc_sha256": "e3fa8614cf5a874a81aba022ba61448d61ecd5c070b05cac1e17e6eb5b12c46f",
+      "hprc_asian_sha256": "4a7fce9147a1ee489f42144a606504aca6742b5b3b955e76625b34004e4e367f"
+    },
+    "exposed_validation/HG03834": {
+      "original_sha256": "37b6610e3f4546b28843f2c2b20f1e31245e2d5f3ac01e7a4a21bc467a9b72b2",
+      "genomic_sha256": "88347db130b3e7154c791e9c78d842a324063a882e320cb1505f01df57158229",
+      "hprc_sha256": "e028a028397841e95e96be511ea8b8e991ce66c0f3c5c38670c80a7978823ec4",
+      "hprc_asian_sha256": "2f301e559390be9b39288bc6fc4092682435e2c402c73d07d7e8ec39d97b1688"
+    },
+    "exposed_validation/HG03942": {
+      "original_sha256": "f41c6da98a035647f0ebf96fe64af27dc2dab2d29105a002f9e8c2551c933a8b",
+      "genomic_sha256": "f3cca751cf0e8318a979a86a2fa4e815ede127b4387fcbd096da92c616761ae6",
+      "hprc_sha256": "cfbb4d0979da8678ffeb25e1d7456f761b59b9e6ae9ffacf321b321bb47745ad",
+      "hprc_asian_sha256": "b5380ccfd3aed5bca6f02ead3f751063a2a2ccd45891c0e2ea86929c1dbaf08f"
+    },
+    "exposed_validation/HG04160": {
+      "original_sha256": "64838b9e005ceeca2db4cf8f5c13b9fd727a5eb3dd4ee4c168d96905283b5063",
+      "genomic_sha256": "7fbdf36406e584cd010d4e72960a2744879110fe7e76acb89aa74d5d136f8fb3",
+      "hprc_sha256": "c6a5c5057c11f3c6faa36014c347e5d7b477831f3c12654ccbf63361176c96c5",
+      "hprc_asian_sha256": "e1d685cc09ae619e9c6cc534dd9b5c2065c83cef20642f03e50794d07277e25a"
+    },
+    "exposed_validation/HG04184": {
+      "original_sha256": "57b253930d844323c36cf949020562eb0b89ce84c694aa6c3007674e74abba48",
+      "genomic_sha256": "9307c331bcb16d7b2d910cf0c27884698a8970d45382178b13be90500041c9b9",
+      "hprc_sha256": "c0318bcec2f3ba9f387470ffc681a016e2b76e6e4a44297fa0a1516406dfd162",
+      "hprc_asian_sha256": "48d42fd9584b0ebbc947e78b824d70c51e49dd23a2f11ca82feedb80b7bc07d6"
+    },
+    "exposed_validation/HG04228": {
+      "original_sha256": "ab98905b1e604260676bdb46ce179f6640d75d0de71f94835d7c8d6d0d21b317",
+      "genomic_sha256": "613a28df0bdba8c061256a4165e3de6ef51b0f11d7a01b9d9645fd5e5bc2dd51",
+      "hprc_sha256": "ea44e0e9c6e0c9e881897b35fb35ccf46887cfb7ea53c319e548dc7c8633b942",
+      "hprc_asian_sha256": "1bf3ab438dda1775e25e1b8120beb031b3be7a00975ff490cdc9dd38028b0ac5"
+    },
+    "exposed_validation/NA18565": {
+      "original_sha256": "d95c05189ea2328cccaa6c96c07a1f4d5a8cbd37552c4ca8aec96ff92ce3279e",
+      "genomic_sha256": "7855609c087f181db5912cd915cce61566aca372eab8679db1138d0d1517f473",
+      "hprc_sha256": "80d0295711eef7e69b9d11e7614ed1837f66f74a5c1ce2182f59a8733910efdb",
+      "hprc_asian_sha256": "4c1362dbba9d06f81db64765bf3f53286239ec1496e5e1da15be62515a312dc6"
+    },
+    "exposed_validation/NA18906": {
+      "original_sha256": "43be2ea8ab4b6c35722232c6950d23be4e344b9e22445f5168292d3c0a024507",
+      "genomic_sha256": "9a86e1f9f06590251c6981f9bc72891775270d5ab421b5268282cbeb26774e58",
+      "hprc_sha256": "5495ef8e1f14cf49dbf37b08770cfb5679f695e8dc845fa50fdef1fbb366df92",
+      "hprc_asian_sha256": "778e2ce75735316245ddbfe5665f2ad2ef90ffcd295fa160ce369ee9fe54cc6d"
+    },
+    "exposed_validation/NA18982": {
+      "original_sha256": "a09c1d95350fa35da5e0152be8d7309510a29a6cae305a085f364c103d6dc934",
+      "genomic_sha256": "37196cd6d482b5d70bbcd9b0f376cd78ba350fa104c0028e687e3faaba52d789",
+      "hprc_sha256": "32f15deafd4a5dbb177c64c09f18bcebbb9f620d6521b196e377bf694d9ef7b5",
+      "hprc_asian_sha256": "bddd01d1d964dbc9e517e0eecbc27a79938e09cbcf6be602feba49a129e864d5"
+    },
+    "exposed_validation/NA18983": {
+      "original_sha256": "7cb6af6a2bbcfea931838bcd26295a74271cc1831f0eeb7919ac59455c0a2342",
+      "genomic_sha256": "386a53ed5e9154300b949a5c0fb6cffa0d90d8bb6331d5cd56dc02f093c814a2",
+      "hprc_sha256": "7bb0cf4e1cb8aaaa212e844a0d7f2a1c273d399477876495ccaaf01f50f85045",
+      "hprc_asian_sha256": "af9b549af0ed7663eaa161686eaeb1ab5a93f5bab20431e03920a4b658afc62a"
+    },
+    "exposed_validation/NA19043": {
+      "original_sha256": "1c26baf2ec24923a147c13562415881fae7ba123c7dae4a2af5e3943a4e714af",
+      "genomic_sha256": "ca059aed58eeb987381f2c80007429e3f9495ed80cf2839ca319a7195d2ba9f4",
+      "hprc_sha256": "b1c747a5023bc32c493e6b3d15a719c10ffd0653a52bd879051b57cc347ba979",
+      "hprc_asian_sha256": "bbdb13892c48a774b6c6b36f7cb7d14a11348ad9e2ce15072526a0e3043db182"
+    },
+    "exposed_validation/NA20827": {
+      "original_sha256": "159860075f3e8a5e6dc6baf4ed8e611892fdf98916bef767a240e2016237924e",
+      "genomic_sha256": "a295223eaf71a940d06b22824c22893f781b02d3cd476fb6976a5f41d8059e0f",
+      "hprc_sha256": "845fc4ef631711a6b79247d67ab64a536be6111fe67aedbf4e11c9934797389c",
+      "hprc_asian_sha256": "b42803606ec4a4ceded1120f27dafc9607353ed44cd7612592bdd6c022768c1f"
+    },
+    "exposed_validation/NA20850": {
+      "original_sha256": "4669338c9d682c1cadc46d4ec07a77df28adfb39b34e39e7ddb6e98ae3494ac0",
+      "genomic_sha256": "ec19dc14cc78dcde0a62f6a6c19b77175816be29ace9f22d0e796fab20608200",
+      "hprc_sha256": "f34a4e864878121f5a9ed18d7d2393d7f09505b675da4eec8270bce5f23c5c17",
+      "hprc_asian_sha256": "6f4b31125530d70ec9d3daf78228184da474c6a976b10d886429e85e56e45e9f"
+    },
+    "exposed_validation/NA20870": {
+      "original_sha256": "73448cf9acae27b7f1a8bc0e688f756d7980efeed92e0e88f973775f765f3238",
+      "genomic_sha256": "7cf78150d07078265fd4a2f7a91a1921307fbf6e9a734eeabed57ee1ebe13332",
+      "hprc_sha256": "15c4ecfebdc868f5fbc929d95d05ab47b954332181b6f67afa090dd7cafe0eeb",
+      "hprc_asian_sha256": "bbebe75e88a3849d552bb9809701a34bc164ba6e029c2687eea6f5e0f739efd4"
+    },
+    "exposed_validation/NA21102": {
+      "original_sha256": "56d719dacda6e2f17e9ee1470e9d9ffb2cc9ce0c0e879fc0560d31ab2565a6d5",
+      "genomic_sha256": "bec486027040c8892d8f1931e182b2b769a314438a9e1cf933269432bba80d9e",
+      "hprc_sha256": "224d29d1a30bd7840f0fdc2561964cd469a41790f26d6b8f98e622152277df51",
+      "hprc_asian_sha256": "c4c8f2d0b92447de65e456b77c0f578e6fa3bcb6384d39c74a176e4c5cd90539"
+    },
+    "exposed_validation/NA21110": {
+      "original_sha256": "e225eb2d6885a877490a9e4acd3f47bba46f000f8049413be71181ac60f07b10",
+      "genomic_sha256": "91c1b5bf1a0d3934b8e5bdb674ca0c16ad346a7d33fea6825c11570cfaf6d55f",
+      "hprc_sha256": "19dce2c805c259fea7a64288734a6272cc3e5c97a6aaee1f9aa274c812d645d3",
+      "hprc_asian_sha256": "0505432651d7640eb85d5e400962ce12411710b94bead6530a55a4909f56ab21"
+    }
+  }
+}

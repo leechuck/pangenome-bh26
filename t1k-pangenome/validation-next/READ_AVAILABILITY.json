@@ -1,0 +1,541 @@
+{
+  "checked_at": "2026-09-18T15:55:53.887341+00:00",
+  "scope": "Prospective cohort HEAD availability only; not reservation or read validation; no outcomes inspected",
+  "candidate_metadata_sha256": "f6d52b2ff95d10e6576195f188167a906d199a8664f35774fb81e3f46e7e86c7",
+  "planned": 28,
+  "available": 28,
+  "donors": [
+    {
+      "donor": "HG00864",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242132/HG00864.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242132/HG00864.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242132/HG00864.final.cram",
+        "status": 200,
+        "bytes": 15652845426,
+        "accessible": true,
+        "etag": "\"874935ec9e879ddfa81a0e6438985def-117\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242132/HG00864.final.cram.crai",
+        "status": 200,
+        "bytes": 1379669,
+        "accessible": true,
+        "etag": "\"cc5b0f09ace488fa9cbac84b82c4e8ac\""
+      }
+    },
+    {
+      "donor": "HG01505",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988892/HG01505.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988892/HG01505.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988892/HG01505.final.cram",
+        "status": 200,
+        "bytes": 13813962614,
+        "accessible": true,
+        "etag": "\"f47b728af5592a723a3e0b2238a13b0d-103\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988892/HG01505.final.cram.crai",
+        "status": 200,
+        "bytes": 1283361,
+        "accessible": true,
+        "etag": "\"7f3ca30ffeb104a9f25e69493c4ff68c\""
+      }
+    },
+    {
+      "donor": "HG01573",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988905/HG01573.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988905/HG01573.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988905/HG01573.final.cram",
+        "status": 200,
+        "bytes": 13878925148,
+        "accessible": true,
+        "etag": "\"f8371b9c71e716ca04ba0f3fb99b6750-104\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988905/HG01573.final.cram.crai",
+        "status": 200,
+        "bytes": 1306855,
+        "accessible": true,
+        "etag": "\"74b638c5c138d4abfc092baae7b23341\""
+      }
+    },
+    {
+      "donor": "HG01596",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242063/HG01596.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242063/HG01596.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242063/HG01596.final.cram",
+        "status": 200,
+        "bytes": 16202781794,
+        "accessible": true,
+        "etag": "\"c2fa601461ac1acf768a6b4a5cca7479-121\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242063/HG01596.final.cram.crai",
+        "status": 200,
+        "bytes": 1438017,
+        "accessible": true,
+        "etag": "\"9680121e18eb3aba243acad84961ed9a\""
+      }
+    },
+    {
+      "donor": "HG02011",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988973/HG02011.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988973/HG02011.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988973/HG02011.final.cram",
+        "status": 200,
+        "bytes": 16999472372,
+        "accessible": true,
+        "etag": "\"e841d13309895bb3d59f9a286e943d8f-127\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988973/HG02011.final.cram.crai",
+        "status": 200,
+        "bytes": 1393333,
+        "accessible": true,
+        "etag": "\"e9929026765e872c71503ce1a831e0d1\""
+      }
+    },
+    {
+      "donor": "HG02018",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988975/HG02018.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988975/HG02018.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988975/HG02018.final.cram",
+        "status": 200,
+        "bytes": 16777185526,
+        "accessible": true,
+        "etag": "\"ef7d9e77877d332c09c9fed756d2c663-125\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988975/HG02018.final.cram.crai",
+        "status": 200,
+        "bytes": 1571559,
+        "accessible": true,
+        "etag": "\"e6b6124ac243a42cccd6e39eae9059d0\""
+      }
+    },
+    {
+      "donor": "HG02059",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988981/HG02059.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988981/HG02059.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988981/HG02059.final.cram",
+        "status": 200,
+        "bytes": 15788175048,
+        "accessible": true,
+        "etag": "\"a33d7c7b3c1611fa90d317213c7d7445-118\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988981/HG02059.final.cram.crai",
+        "status": 200,
+        "bytes": 1410981,
+        "accessible": true,
+        "etag": "\"8af2ec06b0fc49f2f66fb8acdf283a95\""
+      }
+    },
+    {
+      "donor": "HG02106",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988989/HG02106.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988989/HG02106.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988989/HG02106.final.cram",
+        "status": 200,
+        "bytes": 18541855381,
+        "accessible": true,
+        "etag": "\"4a9fdc2826e02a6568a6ddcecb8d9572-139\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988989/HG02106.final.cram.crai",
+        "status": 200,
+        "bytes": 1728143,
+        "accessible": true,
+        "etag": "\"7b1c628916446827ac83e3b76c5d53e2\""
+      }
+    },
+    {
+      "donor": "HG02282",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242231/HG02282.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242231/HG02282.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242231/HG02282.final.cram",
+        "status": 200,
+        "bytes": 17039240934,
+        "accessible": true,
+        "etag": "\"45032b2759183dfd21214488a0b4a25f-127\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242231/HG02282.final.cram.crai",
+        "status": 200,
+        "bytes": 1394465,
+        "accessible": true,
+        "etag": "\"9fa4e84af1a263d5a0ca3232418557ce\""
+      }
+    },
+    {
+      "donor": "HG02492",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989019/HG02492.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989019/HG02492.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989019/HG02492.final.cram",
+        "status": 200,
+        "bytes": 14477402516,
+        "accessible": true,
+        "etag": "\"2d1464fadbc6310af2f1a301e7d51d48-108\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989019/HG02492.final.cram.crai",
+        "status": 200,
+        "bytes": 1377851,
+        "accessible": true,
+        "etag": "\"6b77c623dc3d5c478c2267b52401014f\""
+      }
+    },
+    {
+      "donor": "HG02554",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242744/HG02554.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242744/HG02554.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242744/HG02554.final.cram",
+        "status": 200,
+        "bytes": 19107687345,
+        "accessible": true,
+        "etag": "\"78aa6529f4e723d4323812999d0d47e5-143\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242744/HG02554.final.cram.crai",
+        "status": 200,
+        "bytes": 1575223,
+        "accessible": true,
+        "etag": "\"020716d2b573cb58ea2d7be6884c6c99\""
+      }
+    },
+    {
+      "donor": "HG02587",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989031/HG02587.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989031/HG02587.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989031/HG02587.final.cram",
+        "status": 200,
+        "bytes": 15140604386,
+        "accessible": true,
+        "etag": "\"5bf5792bf8015150331211f9848fd02f-113\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989031/HG02587.final.cram.crai",
+        "status": 200,
+        "bytes": 1388556,
+        "accessible": true,
+        "etag": "\"7ae83319317f4d3bdb90a35729bad299\""
+      }
+    },
+    {
+      "donor": "HG02769",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242424/HG02769.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242424/HG02769.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242424/HG02769.final.cram",
+        "status": 200,
+        "bytes": 18099762131,
+        "accessible": true,
+        "etag": "\"5c1a0f615eda64134b4a4ab643156e3c-135\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242424/HG02769.final.cram.crai",
+        "status": 200,
+        "bytes": 1476111,
+        "accessible": true,
+        "etag": "\"1dca24a691073d11d49661be35300445\""
+      }
+    },
+    {
+      "donor": "HG02953",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242604/HG02953.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242604/HG02953.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242604/HG02953.final.cram",
+        "status": 200,
+        "bytes": 15678674312,
+        "accessible": true,
+        "etag": "\"57a30fe3cb3014b8b8c27b7d10f349af-117\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242604/HG02953.final.cram.crai",
+        "status": 200,
+        "bytes": 1238697,
+        "accessible": true,
+        "etag": "\"131c953b408111e9b7f30e090331c1b8\""
+      }
+    },
+    {
+      "donor": "HG03009",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242842/HG03009.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242842/HG03009.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242842/HG03009.final.cram",
+        "status": 200,
+        "bytes": 14929180730,
+        "accessible": true,
+        "etag": "\"38a8769fa4a161c1ed8d0d7a8742bc4a-112\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3242842/HG03009.final.cram.crai",
+        "status": 200,
+        "bytes": 1285945,
+        "accessible": true,
+        "etag": "\"d2005648cf5109ad9de5d2a47adb8c83\""
+      }
+    },
+    {
+      "donor": "HG03065",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989118/HG03065.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989118/HG03065.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989118/HG03065.final.cram",
+        "status": 200,
+        "bytes": 15607462856,
+        "accessible": true,
+        "etag": "\"b5c6b3b48a49e7a9ebb26910bc345eec-117\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989118/HG03065.final.cram.crai",
+        "status": 200,
+        "bytes": 1345767,
+        "accessible": true,
+        "etag": "\"596cecfa6d6670313fcfe202ef8f9781\""
+      }
+    },
+    {
+      "donor": "HG03248",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989141/HG03248.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989141/HG03248.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989141/HG03248.final.cram",
+        "status": 200,
+        "bytes": 15913704967,
+        "accessible": true,
+        "etag": "\"7f1e73bbfd1767f165d6b2b37f30874b-119\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989141/HG03248.final.cram.crai",
+        "status": 200,
+        "bytes": 1390480,
+        "accessible": true,
+        "etag": "\"5edb32d3c6bfd581eac7eaa4732cb578\""
+      }
+    },
+    {
+      "donor": "HG03456",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989168/HG03456.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989168/HG03456.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989168/HG03456.final.cram",
+        "status": 200,
+        "bytes": 16521100685,
+        "accessible": true,
+        "etag": "\"fda321f139dae25898f183e118fb0b2d-124\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989168/HG03456.final.cram.crai",
+        "status": 200,
+        "bytes": 1328727,
+        "accessible": true,
+        "etag": "\"f7d607c38b30d0c162ede4b0ba8ba584\""
+      }
+    },
+    {
+      "donor": "HG03683",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989199/HG03683.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989199/HG03683.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989199/HG03683.final.cram",
+        "status": 200,
+        "bytes": 15792740037,
+        "accessible": true,
+        "etag": "\"345c79109e1c352d1674c73caceba2ff-118\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989199/HG03683.final.cram.crai",
+        "status": 200,
+        "bytes": 1402000,
+        "accessible": true,
+        "etag": "\"b93b3c59f06d405d30dfa0cfaa9c04e1\""
+      }
+    },
+    {
+      "donor": "HG03732",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989210/HG03732.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989210/HG03732.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989210/HG03732.final.cram",
+        "status": 200,
+        "bytes": 15407246855,
+        "accessible": true,
+        "etag": "\"02736823947865357c0c601308387b6c-115\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989210/HG03732.final.cram.crai",
+        "status": 200,
+        "bytes": 1330980,
+        "accessible": true,
+        "etag": "\"0270969b2ee2697d8b6d6ac68db0852a\""
+      }
+    },
+    {
+      "donor": "HG03807",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989221/HG03807.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989221/HG03807.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989221/HG03807.final.cram",
+        "status": 200,
+        "bytes": 13511422987,
+        "accessible": true,
+        "etag": "\"d2a4036a6ec642f7584fe1fab37b99ee-101\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989221/HG03807.final.cram.crai",
+        "status": 200,
+        "bytes": 1247675,
+        "accessible": true,
+        "etag": "\"c8e0e9381b7669f65ad15ebe8380c903\""
+      }
+    },
+    {
+      "donor": "HG04036",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989235/HG04036.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989235/HG04036.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989235/HG04036.final.cram",
+        "status": 200,
+        "bytes": 15893297501,
+        "accessible": true,
+        "etag": "\"9b5967e8872cd8f0f8b92549b118d724-119\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989235/HG04036.final.cram.crai",
+        "status": 200,
+        "bytes": 1320750,
+        "accessible": true,
+        "etag": "\"53bb333e2d10e1434eddb7fd6051d5c1\""
+      }
+    },
+    {
+      "donor": "HG04217",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989261/HG04217.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989261/HG04217.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989261/HG04217.final.cram",
+        "status": 200,
+        "bytes": 15968127156,
+        "accessible": true,
+        "etag": "\"e7923252becbae8caf571522cff95896-119\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989261/HG04217.final.cram.crai",
+        "status": 200,
+        "bytes": 1326244,
+        "accessible": true,
+        "etag": "\"b4baaed9c1367540c054cb5c155fa597\""
+      }
+    },
+    {
+      "donor": "NA12329",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989317/NA12329.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989317/NA12329.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989317/NA12329.final.cram",
+        "status": 200,
+        "bytes": 15553611104,
+        "accessible": true,
+        "etag": "\"218acd43737adc11b4824bc594fab66f-116\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989317/NA12329.final.cram.crai",
+        "status": 200,
+        "bytes": 1358476,
+        "accessible": true,
+        "etag": "\"bd4e949b0f32520abc65002d6d386b8a\""
+      }
+    },
+    {
+      "donor": "NA18989",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239679/NA18989.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239679/NA18989.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239679/NA18989.final.cram",
+        "status": 200,
+        "bytes": 20944675685,
+        "accessible": true,
+        "etag": "\"35965a5d0aaeb2774f3fcae1abab2df6-157\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239679/NA18989.final.cram.crai",
+        "status": 200,
+        "bytes": 1729852,
+        "accessible": true,
+        "etag": "\"0e5c91b5318fed600bf71d19a00d65ee\""
+      }
+    },
+    {
+      "donor": "NA19331",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239721/NA19331.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239721/NA19331.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239721/NA19331.final.cram",
+        "status": 200,
+        "bytes": 16483247876,
+        "accessible": true,
+        "etag": "\"df56e45d60c8b90431ec2ef585aabdb2-123\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239721/NA19331.final.cram.crai",
+        "status": 200,
+        "bytes": 1399604,
+        "accessible": true,
+        "etag": "\"3204a93b5160d69f93b12709fbffd46e\""
+      }
+    },
+    {
+      "donor": "NA20355",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3241776/NA20355.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3241776/NA20355.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3241776/NA20355.final.cram",
+        "status": 200,
+        "bytes": 17944955108,
+        "accessible": true,
+        "etag": "\"7c924afa18a3dcb45354ba4d1849caf7-134\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3241776/NA20355.final.cram.crai",
+        "status": 200,
+        "bytes": 1351254,
+        "accessible": true,
+        "etag": "\"e056e2ebb9bb1a8cd56df98a37fb80ae\""
+      }
+    },
+    {
+      "donor": "NA20847",
+      "cram_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239999/NA20847.final.cram",
+      "crai_url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239999/NA20847.final.cram.crai",
+      "cram": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239999/NA20847.final.cram",
+        "status": 200,
+        "bytes": 15194480057,
+        "accessible": true,
+        "etag": "\"28ef4e0bd8e472f8186d8d7ac548e7a4-114\""
+      },
+      "crai": {
+        "url": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/data/ERR3239999/NA20847.final.cram.crai",
+        "status": 200,
+        "bytes": 1331280,
+        "accessible": true,
+        "etag": "\"fefeac21af554b003b00e81cd82768d1\""
+      }
+    }
+  ]
+}

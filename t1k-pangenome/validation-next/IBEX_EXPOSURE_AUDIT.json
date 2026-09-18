@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-09-18T15:54:50.621454+00:00",
+  "roots": [
+    "/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/dogohla-series20260918",
+    "/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/t1k-pangenome/development",
+    "/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/t1k-pangenome/validation-runs",
+    "/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/t1k-pangenome/alignment-only-ablation-v1",
+    "/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/t1k-pangenome/native-locus-ablation-v1"
+  ],
+  "directories_scanned": 71320,
+  "candidate_donors": [
+    "HG00864",
+    "HG01505",
+    "HG01573",
+    "HG01596",
+    "HG02011",
+    "HG02018",
+    "HG02059",
+    "HG02106",
+    "HG02282",
+    "HG02492",
+    "HG02554",
+    "HG02587",
+    "HG02769",
+    "HG02953",
+    "HG03009",
+    "HG03065",
+    "HG03248",
+    "HG03456",
+    "HG03683",
+    "HG03732",
+    "HG03807",
+    "HG04036",
+    "HG04217",
+    "NA12329",
+    "NA18989",
+    "NA19331",
+    "NA20355",
+    "NA20847"
+  ],
+  "hits": [],
+  "scope": "Directory identifiers only; no predictions or truth inspected"
+}
