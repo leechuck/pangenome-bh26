@@ -22,7 +22,7 @@ If asked: PanGenie; 20 EAS and 20 SAS donors. SV-bearing means a truth allele ha
 
 ## 3 — Better sequences. Same names. (~65 seconds)
 
-“The surprise came from a small change to an existing tool. We added pangenome sequences to the database SpecHLA uses when collecting reads. Exact gene reconstructions went from 41 to 51 out of 128. The two-field allele calls stayed the same.
+“The surprise came from a small change to an existing tool. We added pangenome sequences to the database SpecHLA uses when collecting reads. Exact matches to assembled gene bodies went from 41 to 51 out of 128. The two-field allele calls stayed the same.
 
 So an allele-name benchmark can miss a useful sequence improvement. The sequence itself matters if we want to study variation beyond the familiar name.
 
@@ -30,4 +30,4 @@ In parallel, our Locityper panel experiment still trails T1K on classical allele
 
 The next step is locked validation on a much larger set. If you have independent HLA truth or want to test the workflow on another cohort, let's compare notes.”
 
-If asked: SpecHLA sequence experiment has eight development donors, eight genes and two haplotypes per gene. Exact reconstruction is the report's edlib infix comparison to assembled gene bodies; masked N bases count as mismatches. The 40-donor panel comparison is Stage B before exon grafting. T1K 314/319 vs panel 295/319 is the harmonised classical-gene denominator. T1K lacks explicit copy-number reporting, so avoid presenting the DRB3/4/5 contrast as a general typing ranking. The 228/946 validation sets remain future work; successful C1 jobs are not yet scored evidence.
+If asked: SpecHLA sequence experiment has eight development donors, eight genes and two haplotypes per gene. Exact reconstruction is the report's edlib infix comparison to assembled gene bodies; masked N bases count as mismatches. The 40-donor panel comparison is Stage B before exon grafting. T1K 314/319 vs panel 295/319 is the harmonised classical-gene denominator. T1K lacks explicit copy-number reporting, so avoid presenting the DRB3/4/5 contrast as a general typing ranking. The 228/946 validation sets remain future work; subsequent C1 results are documented separately and are not part of this slide.

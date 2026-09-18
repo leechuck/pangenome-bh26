@@ -2,6 +2,26 @@
 
 Three slides for a short spoken wrap-up: **the build → the payoff → the surprise**.
 
+## Review and edit
+
+[Open the presentation](slides.pdf) · [Edit the slide source](slides.tex) · [Edit the talk track](speaker-notes.md)
+
+The shared version is on the [`hla-experiments` branch](https://github.com/leechuck/pangenome-bh26/tree/hla-experiments/hackathon-wrapup).
+Edit `slides.tex` for slide text, layout and diagrams; edit `speaker-notes.md` for
+the spoken story. The deck is self-contained: the supporting plotting script and
+research datasets are not needed to build it. Please keep numerical changes tied
+to the evidence below and include the rebuilt PDF and previews with slide edits.
+
+With TeX Live (Beamer/TikZ) and Poppler installed, run `make -C hackathon-wrapup`.
+This rebuilds the PDF and all three previews. The PDF can also be downloaded for
+review without installing anything.
+
+![Slide 1: Whose HLA is in your reference?](render/slide-1.png)
+![Slide 2: More haplotypes. Better SV calls.](render/slide-2.png)
+![Slide 3: Better sequences. Same names.](render/slide-3.png)
+
+## Files
+
 - `slides.pdf`: presentation, 16:9, vector graphics and selectable text.
 - `slides.tex`: editable Beamer/TikZ source; numbers explicitly set from the sources below.
 - `render/slide-*.png`: slide previews.
@@ -24,4 +44,7 @@ pdftoppm -png -r 140 hackathon-wrapup/slides.pdf hackathon-wrapup/render/slide
 3. SpecHLA: `hla-spechla-pg/results/sequence_scores.tsv` and `REPORT.md`. Native vs mode A (pangenome added to read-extraction/binning database): 41 vs 51 exact sequences of 128, in eight fold-0 development donors. Native designation gives 61/63 two-field genotypes in both arms. Excluded panel donors include fold relatives. Exact sequence matching uses edlib infix alignment, with N counted as a mismatch; see report for its scope.
 4. Separate Locityper Stage B experiment: `hla-typer/results/stageB/scores.tsv`, 40 development donors. Full panel classical genes 295/319 (92.5%), DRB3/4/5 111/113 (98.2%). Corrected T1K comparison: 314/319 (98.4%), DRB3/4/5 48/113 (42.5%). T1K does not report the copy-number endpoint, so its DRB3/4/5 score is omitted from the main slide. These are Stage B scores before grafting or T1K candidate integration.
 
-The 228 leave-one-out / 946 experimentally typed donor validation is future work. Newly completed C1 jobs have not been incorporated as scored results.
+The 228 leave-one-out / 946 experimentally typed donor validation is future work.
+This deck uses the checkpoints cited above. Subsequent typing experiments are
+tracked separately in `hla-spechla-pg/IMPLEMENTATION.md` and
+`hla-typer/results/status-2026-09-18/STATUS.md`.
