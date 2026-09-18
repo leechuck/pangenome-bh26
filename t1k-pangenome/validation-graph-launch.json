@@ -44,7 +44,8 @@
       "bootstrap": "52051978",
       "bootstrap_evidence": "52051990",
       "calibration": "52052012",
-      "mapping": "52055293"
+      "mapping": "52055293",
+      "evidence": "52056935"
     }
   },
   "scope": "84 reserved donors; two unsampled panels; no prediction fetch or truth scoring",
@@ -53,5 +54,10 @@
     "reason": "QOSMaxSubmitJobPerUserLimit",
     "effect": "Slurm rejected submission; no mapping job created. Existing pilot and cohort preparation jobs retained."
   },
-  "dispatch_policy": "Remaining stages submitted after verified predecessor completion to respect per-user queued-job cap"
+  "dispatch_policy": "Projection may overlap mapping through matching-task aftercorr dependencies; other stages require complete verified predecessors",
+  "submission_dependencies": {
+    "evidence": [
+      "--dependency=aftercorr:52055293"
+    ]
+  }
 }

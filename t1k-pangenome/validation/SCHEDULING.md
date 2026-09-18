@@ -26,8 +26,8 @@ Detailed scheduler responses are retained on IBEX under
 The local donor-update audit additionally contains the completed-task
 reconciliation. These are execution records, not genotype results.
 
-The automatic dispatcher submits the remaining calibrated mapping, projection,
-join, and refinement stages only after checking every required predecessor.
+The automatic dispatcher checks predecessor completion; projection can also use
+matching-task Slurm dependencies, as documented below.
 Prediction retrieval and scoring remain gated on the complete comparison grid.
 
 ## Verified outcome
@@ -44,3 +44,17 @@ The dispatcher then submitted calibrated mapping array **52055293**, indices
 concurrent four-CPU tasks on `batch,debug`. The next stages remain automatically
 gated on successful predecessor completion. No validation outcomes have been
 inspected.
+
+## Overlapping calibrated mapping and projection
+
+Projection array **52056935** uses indices 16–1343 and
+`aftercorr:52055293`, so each projection waits for successful completion of its
+matching donor/locus/panel mapping. This removes the whole-cohort mapping
+barrier while retaining the same prerequisites. Both arrays use identical
+indices; projection is capped at 300 concurrent one-CPU tasks. The join stage
+still requires all 1,328 projections and all native exports to complete.
+
+The dispatcher regression checks passed (2 tests), including a check that
+projection submission supplies the matching-task dependency and that an
+incomplete projection cohort cannot release the join stage. Frozen inference,
+read inputs, and endpoint scoring are unchanged.

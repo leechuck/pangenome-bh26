@@ -1,6 +1,9 @@
 import unittest
+import json
+import tempfile
+from pathlib import Path
 from unittest.mock import patch
-from advance_validation_graph import completed
+from advance_validation_graph import completed,advance
 
 
 class DispatchTests(unittest.TestCase):
@@ -12,3 +15,21 @@ class DispatchTests(unittest.TestCase):
                 self.assertFalse(completed('123',1,2))
         with patch('advance_validation_graph.remote',return_value='123_2|COMPLETED|0:0\n123_1|COMPLETED|0:0\n'):
             self.assertTrue(completed('123',1,2))
+
+    def test_projection_requires_matching_success_and_join_waits_for_all(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);(root/'work').mkdir()
+            ledger=root/'validation-graph-launch.json'
+            ledger.write_text(json.dumps({'freeze_sha256':'frozen',
+                'jobs':{'cohort':{'calibration':'100','mapping':'123','native':'122'}}}))
+            with patch('advance_validation_graph.HERE',root),patch(
+                    'advance_validation_graph.completed',return_value=False),patch(
+                    'advance_validation_graph.submit',return_value='124') as submit:
+                advance()
+                options=submit.call_args.args[-1]
+                self.assertIn('--dependency=aftercorr:123',options)
+                self.assertIn('--array=16-1343%300',options)
+                self.assertEqual(json.loads(ledger.read_text())['jobs']['cohort']['evidence'],'124')
+                submit.reset_mock()
+                advance()
+                submit.assert_not_called()

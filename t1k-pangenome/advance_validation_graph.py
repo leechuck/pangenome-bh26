@@ -32,7 +32,16 @@ def advance():
                 ('refine','join',2,167,2,167,1,'12G'))
         for name,parent,first,last,start,end,cpus,mem in stages:
             if name in jobs:continue
-            if parent not in jobs or not completed(jobs[parent],first,last):return
+            if parent not in jobs:return
+            parent_complete=completed(jobs[parent],first,last)
+            dependencies=[]
+            if not parent_complete:
+                # These two arrays have identical donor/locus/panel indices.
+                # Slurm releases each projection only when its matching mapping
+                # succeeds; no whole-cohort barrier is needed here.
+                if name!='evidence':return
+                assert (first,last)==(start,end)
+                dependencies=['--dependency=aftercorr:'+jobs[parent]]
             if name=='join' and not completed(jobs['native'],1,83):return
             code='/home/leechuck/hla/t1k-pangenome/validation-graph-v1-code'
             command=['python3',code+'/run_validation_graph.py','--assets',code,
@@ -41,7 +50,7 @@ def advance():
             ledger.write_text(json.dumps(record,indent=2)+'\n')
             try:
                 job=submit('t1k-val-cohort-'+name,cpus,mem,'02:00:00',command,
-                           ['--array='+str(start)+'-'+str(end)+'%300','--partition=batch,debug'])
+                           ['--array='+str(start)+'-'+str(end)+'%300','--partition=batch,debug']+dependencies)
             except subprocess.CalledProcessError as error:
                 if 'QOSMaxSubmitJobPerUserLimit' in (error.stderr or ''):
                     record.pop('submission_in_progress')
@@ -50,7 +59,8 @@ def advance():
                     return
                 raise
             jobs[name]=job;record.pop('submission_in_progress')
-            record['dispatch_policy']='Remaining stages submitted after verified predecessor completion to respect per-user queued-job cap'
+            record['dispatch_policy']='Projection may overlap mapping through matching-task aftercorr dependencies; other stages require complete verified predecessors'
+            record.setdefault('submission_dependencies',{})[name]=dependencies
             ledger.write_text(json.dumps(record,indent=2)+'\n')
             print(name,job,flush=True)
             return
