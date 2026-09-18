@@ -1,0 +1,14 @@
+{
+  "donors": 946,
+  "families": 660,
+  "ancestry": {
+    "EUR": 355,
+    "EAS": 230,
+    "AMR": 173,
+    "AFR": 188
+  },
+  "graph_donor_overlap": 0,
+  "graph_family_overlap": 0,
+  "cohort_sha256": "c29471fc16bbdc4e9e1fcf25efd91808d63002279f64dce6d571ca13d64bb3fe",
+  "truth": "Experimental Gourraud 2014, ambiguity-aware exon typing; no four-field truth"
+}

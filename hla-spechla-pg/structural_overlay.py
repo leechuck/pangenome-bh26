@@ -156,11 +156,16 @@ def run(source,graph,donor,out,genes,threads):
             raise ValueError('Graph run incomplete or changed')
         s=json.loads((d/'summary.json').read_text())
         if s['subset']!='all binned pairs': raise ValueError('Structural inference requires all binned pairs')
+    annotation_inputs=[source/f'{donor}.realign.sort.bam',source/f'{donor}.realign.sort.bam.bai']
+    expected_inputs={Path(p).name:h for p,h in manifest['configuration']['inputs'].items()}
+    for p in annotation_inputs:
+        if sha(p)!=expected_inputs[p.name]:raise ValueError('Annotation alignment input changed: '+str(p))
     refpath=ENV/'share/spechla/db/ref/hla.ref.extend.fa'
     exonpath=ENV/'share/spechla/script/whole/exon_extent.bed'
     designator=ENV/'share/spechla/script/whole/annoHLA.pl'
     config=dict(donor=donor,arm=out.name,source=str(source),source_outputs=inputs,
                 source_manifest_sha256=sha(source/'manifest.json'),reference_sha256=sha(refpath),
+                annotation_inputs={p.name:sha(p) for p in annotation_inputs},
                 graph_inputs={g:sha(graph/g/'graph.vcf') for g in genes},driver_sha256=sha(__file__),
                 exon_annotation_sha256=sha(exonpath),designator_sha256=sha(designator),
                 decomposition=dict(method='global_affine',match=2,mismatch=-4,gap_open=-6,gap_extend=-1),
@@ -174,6 +179,8 @@ def run(source,graph,donor,out,genes,threads):
             if g in exons: exons[g].append((int(a)-1,int(b)+1))
         if any(not intervals for intervals in exons.values()): raise ValueError('Missing exon annotation')
         for path in source.glob('hla.allele.*.fasta'): shutil.copy2(path,out/path.name)
+        # Native annotation uses read depth to resolve some ambiguous calls.
+        for path in annotation_inputs:(out/path.name).symlink_to(path.resolve())
         for gene in genes:
             variants,rows=candidates(graph/gene/'graph.vcf',donor,gene,exons[gene])
             reference=refs[f'HLA_{gene}'][slice(*BOUNDS[gene])].upper()

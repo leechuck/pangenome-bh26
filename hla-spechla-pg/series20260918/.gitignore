@@ -1,3 +1,9 @@
 __pycache__/
 transfer-*.log
 transfer-complete.json
+
+transfer-cache/
+custom-transfer-complete.json
+ibex-status.json
+ibex-status.tmp
+snapshot/

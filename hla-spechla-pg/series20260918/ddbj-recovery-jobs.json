@@ -1,0 +1,12 @@
+{
+  "native-long": "20667679",
+  "overlay": "20667681",
+  "empty_assembly_guard": "20668202",
+  "empty_assembly_donors": [
+    "HG02165",
+    "HG02391",
+    "HG02523",
+    "HG04115",
+    "NA18608"
+  ]
+}

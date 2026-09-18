@@ -5,5 +5,13 @@
   "account": "pi-hohndor",
   "account_evidence": "sacctmgr show assoc where user=hohndor, 2026-09-18: pi-hohndor; c2014 is storage project",
   "container_bind": "hla:/home/leechuck/hla",
-  "status": "workspace created; deployment in progress"
+  "status": "Deployed; all 946 Gourraud read sets recruited; matched 64 T1K complete; packed typing arrays and method checks active",
+  "deadline": null,
+  "parallelism": {
+    "cpus_per_sample": 4,
+    "samples_per_allocation": 8,
+    "cpus_per_allocation": 32,
+    "user_cpu_limit": 1300,
+    "backfill_jobs_per_user": 64
+  }
 }

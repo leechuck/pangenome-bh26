@@ -1,0 +1,278 @@
+{
+  "root": "/home/leechuck/hla/dogohla-series20260918/arms/hprc",
+  "method": "dogohla",
+  "cohort_sha256": "b378e30b28ea4b934dc8eed1c6d5c6c13336504bb6e80dd2f90870d73cad8c9d",
+  "chunks": [
+    [
+      {
+        "index": 1,
+        "donor": "HG02132"
+      },
+      {
+        "index": 2,
+        "donor": "HG02178"
+      },
+      {
+        "index": 3,
+        "donor": "HG03831"
+      },
+      {
+        "index": 4,
+        "donor": "HG03874"
+      },
+      {
+        "index": 5,
+        "donor": "HG04199"
+      },
+      {
+        "index": 6,
+        "donor": "NA18608"
+      },
+      {
+        "index": 7,
+        "donor": "NA20905"
+      },
+      {
+        "index": 8,
+        "donor": "HG02027"
+      }
+    ],
+    [
+      {
+        "index": 9,
+        "donor": "HG02391"
+      },
+      {
+        "index": 10,
+        "donor": "HG02602"
+      },
+      {
+        "index": 11,
+        "donor": "HG04115"
+      },
+      {
+        "index": 12,
+        "donor": "HG04187"
+      },
+      {
+        "index": 13,
+        "donor": "NA18570"
+      },
+      {
+        "index": 14,
+        "donor": "NA18940"
+      },
+      {
+        "index": 15,
+        "donor": "NA21144"
+      },
+      {
+        "index": 16,
+        "donor": "HG00558"
+      }
+    ],
+    [
+      {
+        "index": 17,
+        "donor": "HG02165"
+      },
+      {
+        "index": 18,
+        "donor": "HG02523"
+      },
+      {
+        "index": 19,
+        "donor": "HG02738"
+      },
+      {
+        "index": 20,
+        "donor": "HG03688"
+      },
+      {
+        "index": 21,
+        "donor": "HG03927"
+      },
+      {
+        "index": 22,
+        "donor": "NA18952"
+      },
+      {
+        "index": 23,
+        "donor": "NA21106"
+      },
+      {
+        "index": 24,
+        "donor": "HG00609"
+      }
+    ],
+    [
+      {
+        "index": 25,
+        "donor": "HG02074"
+      },
+      {
+        "index": 26,
+        "donor": "HG03017"
+      },
+      {
+        "index": 27,
+        "donor": "HG03784"
+      },
+      {
+        "index": 28,
+        "donor": "HG04157"
+      },
+      {
+        "index": 29,
+        "donor": "HG04204"
+      },
+      {
+        "index": 30,
+        "donor": "NA18747"
+      },
+      {
+        "index": 31,
+        "donor": "NA19088"
+      },
+      {
+        "index": 32,
+        "donor": "HG01530"
+      }
+    ],
+    [
+      {
+        "index": 33,
+        "donor": "NA20806"
+      },
+      {
+        "index": 34,
+        "donor": "HG00321"
+      },
+      {
+        "index": 35,
+        "donor": "HG00232"
+      },
+      {
+        "index": 36,
+        "donor": "HG01786"
+      },
+      {
+        "index": 37,
+        "donor": "NA20503"
+      },
+      {
+        "index": 38,
+        "donor": "HG00344"
+      },
+      {
+        "index": 39,
+        "donor": "HG00128"
+      },
+      {
+        "index": 40,
+        "donor": "HG01784"
+      }
+    ],
+    [
+      {
+        "index": 41,
+        "donor": "NA20809"
+      },
+      {
+        "index": 42,
+        "donor": "HG00272"
+      },
+      {
+        "index": 43,
+        "donor": "HG00133"
+      },
+      {
+        "index": 44,
+        "donor": "NA20805"
+      },
+      {
+        "index": 45,
+        "donor": "HG00320"
+      },
+      {
+        "index": 46,
+        "donor": "HG00140"
+      },
+      {
+        "index": 47,
+        "donor": "NA20762"
+      },
+      {
+        "index": 48,
+        "donor": "HG03516"
+      }
+    ],
+    [
+      {
+        "index": 49,
+        "donor": "NA19185"
+      },
+      {
+        "index": 50,
+        "donor": "HG02984"
+      },
+      {
+        "index": 51,
+        "donor": "HG01960"
+      },
+      {
+        "index": 52,
+        "donor": "NA20282"
+      },
+      {
+        "index": 53,
+        "donor": "NA19468"
+      },
+      {
+        "index": 54,
+        "donor": "HG03453"
+      },
+      {
+        "index": 55,
+        "donor": "HG03369"
+      },
+      {
+        "index": 56,
+        "donor": "NA19159"
+      }
+    ],
+    [
+      {
+        "index": 57,
+        "donor": "HG02809"
+      },
+      {
+        "index": 58,
+        "donor": "HG02145"
+      },
+      {
+        "index": 59,
+        "donor": "NA19909"
+      },
+      {
+        "index": 60,
+        "donor": "NA19338"
+      },
+      {
+        "index": 61,
+        "donor": "HG03209"
+      },
+      {
+        "index": 62,
+        "donor": "HG02976"
+      },
+      {
+        "index": 63,
+        "donor": "NA18879"
+      }
+    ]
+  ],
+  "replaced_job": "52032777",
+  "threads_per_sample": 4,
+  "cpus_per_allocation": 32
+}

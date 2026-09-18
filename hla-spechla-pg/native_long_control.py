@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Native SpecHLA -v True control, with only TCP-port/reference-path compatibility fixes."""
+"""Native SpecHLA -v True control, with documented execution compatibility fixes."""
 import argparse
 import csv
 from pathlib import Path
@@ -19,6 +19,29 @@ def patch(source):
     return source.replace(old,'hla_ref=$db/HLA/HLA_$hla/HLA_$hla.fa')
 
 
+def patch_insertion_phaser(source):
+    # Upstream SpecHap now dereferences --protocols unconditionally; legacy -N
+    # is still accepted by its parser but no longer initializes that argument.
+    old = 'SpecHap --ncs --window_size 15000 -N --vcf'
+    new = 'SpecHap --ncs --window_size 15000 --protocols nanopore --weights 1 --vcf'
+    if source.count(old) != 1:
+        raise ValueError('Unexpected upstream insertion-phasing command')
+    return source.replace(old, new)
+
+
+def patch_empty_assembly(source):
+    # An existing but empty list means no contig was selected. Upstream's -f
+    # check incorrectly enters BWA and can reuse an index from a previous region.
+    for name in ('extract.fa', 'id.list'):
+        old = 'if [ ! -f "$outdir/' + name + '" ]'
+        new = 'if [ ! -s "$outdir/' + name + '" ]'
+        if source.count(old)==0 and source.count(new)==1:continue
+        if source.count(old) != 1 or source.count(new):
+            raise ValueError('Unexpected local-assembly guard: ' + name)
+        source = source.replace(old, new)
+    return source
+
+
 def run(root,donor,fold,threads):
     out=root/'runs'/donor/'native-long'
     reads=root/'reads'/donor
@@ -30,12 +53,16 @@ def run(root,donor,fold,threads):
                 inputs={str(reads/f'r{i}.fq.gz'):sha(reads/f'r{i}.fq.gz') for i in (1,2)},
                 source_sha256=sha(original/'whole/SpecHLA.sh'),driver_sha256=sha(__file__),
                 patched_pipeline_sha256=hashlib.sha256(rewritten.encode()).hexdigest(),
-                compatibility_fixes=['OS-selected valid TCP port at ScanIndel startup','Correct installed path to the same per-gene reference FASTA','Honor allocated threads in ScanIndel BWA'])
+                compatibility_fixes=['OS-selected valid TCP port at ScanIndel startup','Correct installed path to the same per-gene reference FASTA','Honor allocated threads in ScanIndel BWA','Translate deprecated SpecHap -N to explicit nanopore protocol with unit weight','Use upstream no-contig fallback for empty read/contig lists; prevent stale BWA index reuse'])
     if not start(out,config): return
     t0=time.monotonic()
     try:
         script=out/'vendor/script'; shutil.copytree(original,script)
         (script/'whole/SpecHLA.sh').write_text(rewritten)
+        phaser=script/'phase_variants.py'
+        phaser.write_text(patch_insertion_phaser(phaser.read_text()))
+        assembly=script/'run.assembly.realign.sh'
+        assembly.write_text(patch_empty_assembly(assembly.read_text()))
         scan=script/'ScanIndel/ScanIndel.py'
         scan_source=scan.read_text()
         if scan_source.count('bwa mem -M -t8') != 1: raise ValueError('Unexpected ScanIndel thread option')

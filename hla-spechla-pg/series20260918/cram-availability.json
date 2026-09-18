@@ -1,0 +1,162 @@
+[
+  {
+    "donor": "HG01530",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG01530/HG01530.cram",
+    "access": "local"
+  },
+  {
+    "donor": "NA20806",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA20806/NA20806.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG00321",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG00321/HG00321.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG00232",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG00232/HG00232.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG01786",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG01786/HG01786.cram",
+    "access": "local"
+  },
+  {
+    "donor": "NA20503",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA20503/NA20503.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG00344",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG00344/HG00344.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG00128",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG00128/HG00128.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG01784",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG01784/HG01784.cram",
+    "access": "local"
+  },
+  {
+    "donor": "NA20809",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA20809/NA20809.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG00272",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG00272/HG00272.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG00133",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG00133/HG00133.cram",
+    "access": "local"
+  },
+  {
+    "donor": "NA20805",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA20805/NA20805.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG00320",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG00320/HG00320.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG00140",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG00140/HG00140.cram",
+    "access": "local"
+  },
+  {
+    "donor": "NA20762",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA20762/NA20762.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG03516",
+    "source": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989174/HG03516.final.cram",
+    "access": "remote_url"
+  },
+  {
+    "donor": "NA19185",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA19185/NA19185.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG02984",
+    "source": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989106/HG02984.final.cram",
+    "access": "remote_url"
+  },
+  {
+    "donor": "HG01960",
+    "source": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988961/HG01960.final.cram",
+    "access": "remote_url"
+  },
+  {
+    "donor": "NA20282",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA20282/NA20282.cram",
+    "access": "local"
+  },
+  {
+    "donor": "NA19468",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA19468/NA19468.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG03453",
+    "source": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989166/HG03453.final.cram",
+    "access": "remote_url"
+  },
+  {
+    "donor": "HG03369",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG03369/HG03369.cram",
+    "access": "local"
+  },
+  {
+    "donor": "NA19159",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA19159/NA19159.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG02809",
+    "source": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3989077/HG02809.final.cram",
+    "access": "remote_url"
+  },
+  {
+    "donor": "HG02145",
+    "source": "https://s3.amazonaws.com/1000genomes/1000G_2504_high_coverage/additional_698_related/data/ERR3988995/HG02145.final.cram",
+    "access": "remote_url"
+  },
+  {
+    "donor": "NA19909",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA19909/NA19909.cram",
+    "access": "local"
+  },
+  {
+    "donor": "NA19338",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA19338/NA19338.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG03209",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG03209/HG03209.cram",
+    "access": "local"
+  },
+  {
+    "donor": "HG02976",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/HG02976/HG02976.cram",
+    "access": "local"
+  },
+  {
+    "donor": "NA18879",
+    "source": "/usr/local/shared_data/public-human-genomes/GRCh38/1000Genomes/CRAM/NA18879/NA18879.cram",
+    "access": "local"
+  }
+]
