@@ -1,0 +1,46 @@
+{
+  "scope": "Fixed development expansion; first two cohort entries per ancestry stratum, no outcome selection",
+  "cohort_sha256": "b378e30b28ea4b934dc8eed1c6d5c6c13336504bb6e80dd2f90870d73cad8c9d",
+  "existing_pilot": {
+    "donor": "HG00658",
+    "stratum": "EAS",
+    "family": "HG00656"
+  },
+  "donors": [
+    {
+      "donor": "HG02132",
+      "stratum": "EAS",
+      "family": "HG02132"
+    },
+    {
+      "donor": "HG03831",
+      "stratum": "SAS",
+      "family": "HG03829"
+    },
+    {
+      "donor": "HG03874",
+      "stratum": "SAS",
+      "family": "HG03874"
+    },
+    {
+      "donor": "HG01530",
+      "stratum": "EUR",
+      "family": "IBS011"
+    },
+    {
+      "donor": "NA20806",
+      "stratum": "EUR",
+      "family": "NA20806"
+    },
+    {
+      "donor": "HG03516",
+      "stratum": "AFR",
+      "family": "NG107"
+    },
+    {
+      "donor": "NA19185",
+      "stratum": "AFR",
+      "family": "Y039"
+    }
+  ]
+}

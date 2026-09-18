@@ -24,9 +24,11 @@ def smoke():
     (output/'PARITY.json').write_text(json.dumps(report, indent=2)+'\n')
 
 
-def run(panel, selection, index, version='v2'):
+def run(panel, selection, index, version='v2', donor='HG00658'):
+    if not donor or Path(donor).name!=donor or donor in ('.','..'):
+        raise ValueError('Unsafe donor identifier')
     gene = GENES[index]
-    mapping = ROOT/'development'/('mapping-'+version)/'HG00658'/panel/selection/gene
+    mapping = ROOT/'development'/('mapping-'+version)/donor/panel/selection/gene
     graph = graph_path(panel, gene)
     mm = json.loads((mapping/'COMPLETE.json').read_text())
     gm = json.loads((graph/'COMPLETE.json').read_text())
@@ -41,7 +43,7 @@ def run(panel, selection, index, version='v2'):
     reference = ROOT/'references/observed-v2'/panel/('HLA-'+gene+'.fa')
     if sha(reference) != gm['source_sha256']:
         raise ValueError('Observed reference changed')
-    output = ROOT/'development'/('fragments-'+version)/'HG00658'/panel/selection/gene
+    output = ROOT/'development'/('fragments-'+version)/donor/panel/selection/gene
     output.mkdir(parents=True,exist_ok=False)
     record = dict(status='running',started=time.time(),graph_manifest_sha256=sha(graph/'COMPLETE.json'),
                   mapping_manifest_sha256=sha(mapping/'COMPLETE.json'),driver_sha256=sha(Path(__file__)))

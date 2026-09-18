@@ -1,0 +1,72 @@
+{
+  "code_sha256": {
+    "run_graph_development_batch.py": "91cbdc01ac6edafd3429a3e7811b59310ff63b38841ab0376cf01516bef1e44b",
+    "graph-development-batch.json": "79b544b793fa41005708a636404ec742f5ff07f2bf92f0f5a79ca4c23017cf19",
+    "run_development_mapping.py": "99aba1d84b1c8a812af9a48ab50644b83e40f7969a3f05b6e831d9dfdfe8f0db",
+    "map_personalized.py": "2e4d21abb575cca82bf202271eccf986fca26a89674897b8b1e4c4c40a073ff6",
+    "run_development_evidence.py": "169ed736f0a689496d536c235f5cf02d8e8d977751044545d3d350a37d040d6b",
+    "kmer_coverage.py": "6f9fe1b8e9ba4a0ef0bfffade4bc5fcd9fba6dbb98dac8109cf7597027b0ceb6",
+    "library_calibration.py": "876d7535423022b5b79522ddca44da039aa683c7955abab25b972ff1bd18f953",
+    "run_native_evidence.py": "0f056b6c16587496695cf007a7099e5297fb5524749e3aaf651f2d13d3e27466",
+    "join_evidence.py": "e9e9c5ac6bcb0197436fd6403286595814f669261e5d4caf8069a11b467a4930",
+    "graph_recruitment.py": "903404b6c93136dd05ab8cd442cc9994a933da9cf9161e893bfd2854632db752",
+    "evidence_io.py": "14495b5ddbe02f4514f886424a4c75aa42ca5102fb78c1122ec903858a8b2289",
+    "fragment_support.py": "bbfd8943563acccbb6b5ebda723d4c7cef44ef88a2dd508439cbae28cf52856f",
+    "path_support.py": "84d0537093dd0d7ba6e10974826a7271bc1922980e2d73087e1ff0b350a7672a",
+    "projection_graph.py": "1f5198d398fd22cad158f6d2eef43cbf633138002a765dcde10173f4e848f5e3",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f",
+    "build_panel.py": "60d51b0276db3d1a6a109bf22bb4f555a7cadb40d4e1f1856758e16b80d238d2",
+    "t1k_evidence.py": "b79c8cdf6708bf8f0401adb4a0aa9a73b8251da3543b5d6343382ac02a06b9b6",
+    "decode_t1k.py": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+    "t1k_reference.py": "21091a604007befd040e055f5a0409e70b428de8e03d305a469c728567186cbc"
+  },
+  "jobs": {
+    "coverage": "52047954",
+    "native": "52047955",
+    "bootstrap": "52047957",
+    "bootstrap_evidence": "52047958",
+    "calibration": "52047971",
+    "mapping": "52047972",
+    "evidence": "52047973",
+    "join": "52047986",
+    "recruit": "52047988"
+  },
+  "donors": [
+    {
+      "donor": "HG02132",
+      "stratum": "EAS",
+      "family": "HG02132"
+    },
+    {
+      "donor": "HG03831",
+      "stratum": "SAS",
+      "family": "HG03829"
+    },
+    {
+      "donor": "HG03874",
+      "stratum": "SAS",
+      "family": "HG03874"
+    },
+    {
+      "donor": "HG01530",
+      "stratum": "EUR",
+      "family": "IBS011"
+    },
+    {
+      "donor": "NA20806",
+      "stratum": "EUR",
+      "family": "NA20806"
+    },
+    {
+      "donor": "HG03516",
+      "stratum": "AFR",
+      "family": "NG107"
+    },
+    {
+      "donor": "NA19185",
+      "stratum": "AFR",
+      "family": "Y039"
+    }
+  ],
+  "scope": "Fixed development expansion; first two cohort entries per ancestry stratum, no outcome selection"
+}

@@ -370,6 +370,25 @@ all 63 tasks exited before read processing. The corrected retry uses `cohort.tsv
 at the run root; its exact SHA was verified before submission. The initial job
 and repair are retained in all-read-control-launch.json. The pilot was unaffected.
 
+### Balanced graph recruitment expansion
+
+All four graph recruitment conditions completed the HG00658 pilot with 8/8
+eligible two-field genotypes and 5/5 exact four-field genotypes, matching the
+full-genomic-IPD control. Thus the pilot establishes execution and preservation,
+not incremental accuracy benefit from graph recruitment or Asian paths.
+
+The next development panel contains the first two entries per ancestry stratum
+in the existing execution-cohort order (EAS, SAS, EUR, AFR), yielding eight
+independent known families. The existing HG00658 pilot is retained; seven new
+donors are processed in graph-development-batch.json. Selection reads metadata
+only and does not depend on observed errors. Per donor, the pipeline measures
+coverage, exports native genomic-IPD evidence, bootstraps unsampled additive
+mapping for insert calibration, maps four graph conditions with the same measured
+insert distribution, projects paired evidence, joins competing-locus evidence,
+and runs the graph-assisted native T1K call. All native candidate pairs remain.
+Dependency arrays prevent downstream work from consuming incomplete upstream
+outputs. Reserved validation donors remain excluded and unscored.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
