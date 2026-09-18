@@ -1,6 +1,6 @@
 #!/bin/bash
-# PGGB-style graph (wfmash all-vs-all alignment + seqwish induction, PGGB 0.5.3 parameters, without the smoothxg
-# normalisation stage) plus giraffe indexes for one fold and gene: build_graph_pggb.sh FOLD GENE THREADS
+# PGGB-style graph (wfmash + seqwish + smoothxg/gfaffix/odgi normalisation)
+# plus giraffe indexes for one fold and gene: build_graph_pggb.sh FOLD GENE THREADS
 # Input graphs/fold$FOLD/HLA_$GENE.in.fa (SpecHLA#0#HLA_<gene> reference + fold training panel sequences).
 set -euo pipefail
 fold=$1; gene=$2; threads=${3:-4}

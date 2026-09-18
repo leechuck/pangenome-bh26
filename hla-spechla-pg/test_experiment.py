@@ -1,6 +1,7 @@
 import importlib.util
 import itertools
 import json
+import re
 from pathlib import Path
 import tempfile
 import unittest
@@ -10,6 +11,23 @@ from phase_linkage import Linkage, read_blast
 
 
 class TestPhaseRepair(unittest.TestCase):
+    def test_complementary_pairs_belong_to_same_phase_edge(self):
+        path = Path(__file__).parent / 'review-2026-09-18/installed-map_block2_database.py'
+        ns = {'__name__': 'test'}
+        exec(E.patch_block_linker(path.read_text(), repair_pairing=True), ns)
+        class MockMap:
+            def main(self, a, b):
+                pair = tuple(int(re.search(r'_hap([12])', p)[1]) for p in (a,b))
+                class Result:
+                    high_score = {(1,1):14, (2,2):23, (2,1):32, (1,2):41}[pair]
+                    support_allele = []
+                return Result()
+        with tempfile.TemporaryDirectory() as d:
+            score = Path(d) / 'scores'
+            ns.update(Analyze_map=MockMap, blast_map=lambda x: None, outdir=d, score_file=str(score))
+            graph = ns['Construct_Graph'](); graph.fragments=['first','second']; graph.get_edge()
+            self.assertEqual(score.read_text().splitlines()[1].split()[2], '37;73')
+
     def test_maximum_and_ties_independent_of_subject_order(self):
         records = [('low', [90, 100, 90, 100]), ('best1', [100, 100, 100, 100]),
                    ('best2', [100, 100, 100, 100])]

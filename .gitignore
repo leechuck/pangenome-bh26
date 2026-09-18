@@ -50,6 +50,7 @@ hla-spechla-pg/source/imgt_gen/
 hla-spechla-pg/source/catalogue_slim.tsv
 hla-spechla-pg/source/exons.tsv
 hla-spechla-pg/results/runs/
+hla-spechla-pg/results/experiments/*/runs/
 hackathon-wrapup/*.aux
 hackathon-wrapup/*.nav
 hackathon-wrapup/*.out
