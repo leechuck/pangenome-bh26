@@ -5,6 +5,25 @@ from pathlib import Path
 HERE=Path(__file__).resolve().parent
 HOST='hohndor@ilogin.ibex.kaust.edu.sa'
 B='/ibex/scratch/projects/c2014/rob/dogohla-benchmark'
+T1K=HERE.parent.parent/'t1k-pangenome'
+
+def development_jobs():
+ result={}
+ def add(prefix,value):
+  if isinstance(value,dict):
+   for key,item in value.items():add(prefix+'/'+key,item)
+  elif isinstance(value,str) and value.isdigit():
+   result['t1k/'+prefix]=value
+ for name in ('linear-control-launch.json','genome-control-launch.json',
+              'development-map-launch.json','development-map-all-loci-launch.json',
+              'native-evidence-development-launch.json','development-evidence-launch.json'):
+  path=T1K/name
+  if not path.exists():continue
+  record=json.loads(path.read_text())
+  for key in ('jobs','job','smoke','pilot_job','array_job','reference_job'):
+   if key in record:add(name+'/'+key,record[key])
+ return result
+
 cycle=0
 previous_failures=set()
 while True:
@@ -13,7 +32,8 @@ while True:
   jobs={k:v for k,v in launch['jobs'].items() if not k.endswith('_initial')}
   jobs['recruit']=(HERE/'ibex-recruit-job.txt').read_text().strip()
   jobs['assets']=(HERE/'ibex-assets-job.txt').read_text().strip()
-  ids=','.join(jobs.values())
+  jobs.update(development_jobs())
+  ids=','.join(sorted(set(jobs.values())))
   cmd='sacct -X -P -n -j '+ids+' --format=JobID,JobName,State,ExitCode,Elapsed,NodeList; squeue -h -j '+ids+' -o "QUEUE|%i|%T|%R"'
   r=subprocess.run(['ssh','-o','BatchMode=yes','-o','ConnectTimeout=20',HOST,cmd],capture_output=True,text=True,timeout=55)
   if r.returncode:raise RuntimeError(r.stderr[-2000:])
@@ -39,6 +59,8 @@ while True:
   if cycle%3==0 or terminal:
    subprocess.run([sys.executable,str(HERE/'fetch_ibex.py'),'--gourraud'],check=True,timeout=110)
    subprocess.run([sys.executable,str(HERE/'score_gourraud.py')],check=True,timeout=180)
+   if any(key.startswith('t1k_preparation/linear_') for key in pipeline['stages']):
+    subprocess.run([sys.executable,str(T1K/'fetch_linear_controls.py')],check=True,timeout=180)
   cycle+=1
   if terminal:break
  except Exception as e:
