@@ -1,0 +1,236 @@
+{
+  "native/ALL": {
+    "exact_gain": {
+      "mean": 1.84375,
+      "lower_95": 1.28125,
+      "upper_95": 2.4375,
+      "donor_count": 32
+    },
+    "edit_reduction": {
+      "mean": 2461.84375,
+      "lower_95": 2201.15625,
+      "upper_95": 2714.6875,
+      "donor_count": 32
+    },
+    "two_field_gain": {
+      "mean": 0.3125,
+      "lower_95": 0.125,
+      "upper_95": 0.53125,
+      "donor_count": 32
+    },
+    "experimental_gain": {
+      "mean": 0.03125,
+      "lower_95": 0.0,
+      "upper_95": 0.09375,
+      "donor_count": 32
+    }
+  },
+  "native/EAS": {
+    "exact_gain": {
+      "mean": 1.9375,
+      "lower_95": 1.3125,
+      "upper_95": 2.5625,
+      "donor_count": 16
+    },
+    "edit_reduction": {
+      "mean": 2365.0625,
+      "lower_95": 2062.5,
+      "upper_95": 2692.0,
+      "donor_count": 16
+    },
+    "two_field_gain": {
+      "mean": 0.4375,
+      "lower_95": 0.1875,
+      "upper_95": 0.75,
+      "donor_count": 16
+    },
+    "experimental_gain": {
+      "mean": 0.0625,
+      "lower_95": 0.0,
+      "upper_95": 0.1875,
+      "donor_count": 16
+    }
+  },
+  "native/SAS": {
+    "exact_gain": {
+      "mean": 1.75,
+      "lower_95": 0.8125,
+      "upper_95": 2.75,
+      "donor_count": 16
+    },
+    "edit_reduction": {
+      "mean": 2558.625,
+      "lower_95": 2144.8125,
+      "upper_95": 2938.6875,
+      "donor_count": 16
+    },
+    "two_field_gain": {
+      "mean": 0.1875,
+      "lower_95": -0.0625,
+      "upper_95": 0.4375,
+      "donor_count": 16
+    },
+    "experimental_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 16
+    }
+  },
+  "native-long/ALL": {
+    "exact_gain": {
+      "mean": 1.78125,
+      "lower_95": 1.21875,
+      "upper_95": 2.34375,
+      "donor_count": 32
+    },
+    "edit_reduction": {
+      "mean": -289.375,
+      "lower_95": -752.9375,
+      "upper_95": 196.21875,
+      "donor_count": 32
+    },
+    "two_field_gain": {
+      "mean": 0.28125,
+      "lower_95": 0.09375,
+      "upper_95": 0.46875,
+      "donor_count": 32
+    },
+    "experimental_gain": {
+      "mean": 0.03125,
+      "lower_95": 0.0,
+      "upper_95": 0.09375,
+      "donor_count": 32
+    }
+  },
+  "native-long/EAS": {
+    "exact_gain": {
+      "mean": 1.9375,
+      "lower_95": 1.3125,
+      "upper_95": 2.5625,
+      "donor_count": 16
+    },
+    "edit_reduction": {
+      "mean": -772.125,
+      "lower_95": -1386.25,
+      "upper_95": -84.375,
+      "donor_count": 16
+    },
+    "two_field_gain": {
+      "mean": 0.375,
+      "lower_95": 0.125,
+      "upper_95": 0.6875,
+      "donor_count": 16
+    },
+    "experimental_gain": {
+      "mean": 0.0625,
+      "lower_95": 0.0,
+      "upper_95": 0.1875,
+      "donor_count": 16
+    }
+  },
+  "native-long/SAS": {
+    "exact_gain": {
+      "mean": 1.625,
+      "lower_95": 0.75,
+      "upper_95": 2.5625,
+      "donor_count": 16
+    },
+    "edit_reduction": {
+      "mean": 193.375,
+      "lower_95": -358.625,
+      "upper_95": 809.0625,
+      "donor_count": 16
+    },
+    "two_field_gain": {
+      "mean": 0.1875,
+      "lower_95": -0.0625,
+      "upper_95": 0.4375,
+      "donor_count": 16
+    },
+    "experimental_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 16
+    }
+  },
+  "DogoHLA-no-graph/ALL": {
+    "exact_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 32
+    },
+    "edit_reduction": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 32
+    },
+    "two_field_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 32
+    },
+    "experimental_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 32
+    }
+  },
+  "DogoHLA-no-graph/EAS": {
+    "exact_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 16
+    },
+    "edit_reduction": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 16
+    },
+    "two_field_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 16
+    },
+    "experimental_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 16
+    }
+  },
+  "DogoHLA-no-graph/SAS": {
+    "exact_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 16
+    },
+    "edit_reduction": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 16
+    },
+    "two_field_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 16
+    },
+    "experimental_gain": {
+      "mean": 0.0,
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "donor_count": 16
+    }
+  }
+}
