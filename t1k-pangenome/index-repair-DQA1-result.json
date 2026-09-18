@@ -1,0 +1,131 @@
+{
+  "status": "complete",
+  "started": 1789726214.5294662,
+  "panel": "hprc",
+  "gene": "DQA1",
+  "job": "52043291",
+  "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+  "source_sha256": "bca5848877fff924c5402556bc176375be6dd4e305228d747d7bd66ae01d956b",
+  "builder_sha256": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f",
+  "parameters": {
+    "segment_length": 500,
+    "minimum_block_length": 1000,
+    "identity": 90
+  },
+  "commands": [
+    [
+      "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+      "index",
+      "-j",
+      "graph.dist",
+      "--no-nested-distance",
+      "-t",
+      "8",
+      "-P",
+      "PGa481dafa4d0eab501eea0c018a05bd448d01587c760cfb50f04af48e4f4e288e",
+      "graph.gbz"
+    ],
+    [
+      "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+      "haplotypes",
+      "-v",
+      "2",
+      "-t",
+      "8",
+      "-H",
+      "graph.hapl",
+      "graph.gbz"
+    ]
+  ],
+  "tools": {
+    "bgzip": {
+      "path": "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/bgzip",
+      "sha256": "064457866f01b09016778b950489534caed59ff739257241cb35ec12186ef1ff"
+    },
+    "samtools": {
+      "path": "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/samtools",
+      "sha256": "6179ae786e312e505cdd2e7bb4ad8886b4c5a085651228d71c86528114784a8a"
+    },
+    "wfmash": {
+      "path": "/home/leechuck/hla/mm/envs/pggb053/bin/wfmash",
+      "sha256": "fd0c3824dd020e76522845105f645928d5d9f8772dbd0f6631530938a82f4cee"
+    },
+    "seqwish": {
+      "path": "/home/leechuck/hla/mm/envs/pggb053/bin/seqwish",
+      "sha256": "58e56e4acfba2152e419c5f5f117a8ddc6b2b4604c273deedc70e4e597e3cf3e"
+    },
+    "smoothxg": {
+      "path": "/home/leechuck/hla/mm/envs/pggb053/bin/smoothxg",
+      "sha256": "ddb4271b5d388a5f09050f92303993f5ddb4bafb551e64d21ec8399665142d6b"
+    },
+    "gfaffix": {
+      "path": "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/gfaffix",
+      "sha256": "c08821d82ca2a5d4979bd4b777a2f8df2a3987b796877f3174b5025119f67f53"
+    },
+    "odgi": {
+      "path": "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/odgi",
+      "sha256": "256898802c1e8d8136a861b35127730309bceb68119212b4bce939b8d6de5d9c"
+    },
+    "vg": {
+      "path": "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+      "sha256": "5390a894bde3b1d39bd7df389ff68aa2db9b6f319cba2304eec8da6e2dae3549"
+    }
+  },
+  "indexing_backbone": "PGa481dafa4d0eab501eea0c018a05bd448d01587c760cfb50f04af48e4f4e288e",
+  "exported_path_names": {
+    "PG01c0618eab0f8893774243aaf20254a7d6c3a74c787d1b8fe986b42d4de63fd6#0#HLA_DQA1#0": "PG01c0618eab0f8893774243aaf20254a7d6c3a74c787d1b8fe986b42d4de63fd6#0#HLA_DQA1",
+    "PG06d0cfab7cb791c0985b78f9ffa06b3019ca427fd92755320b9b8bcc8f1c905f#0#HLA_DQA1#0": "PG06d0cfab7cb791c0985b78f9ffa06b3019ca427fd92755320b9b8bcc8f1c905f#0#HLA_DQA1",
+    "PG19d7621a36ff2d2c4ef43c8dce59856cb826f1689aacd12bfaccf28bf48bdb95#0#HLA_DQA1#0": "PG19d7621a36ff2d2c4ef43c8dce59856cb826f1689aacd12bfaccf28bf48bdb95#0#HLA_DQA1",
+    "PG2d6e458799ec3166459b85d752603620119c97cd33b082b46682148c90d7841b#0#HLA_DQA1#0": "PG2d6e458799ec3166459b85d752603620119c97cd33b082b46682148c90d7841b#0#HLA_DQA1",
+    "PG37899848cdbd8d1e5d68b80929dfb75152e5741cb458ddcc31ea9c96c6a1ac2f#0#HLA_DQA1#0": "PG37899848cdbd8d1e5d68b80929dfb75152e5741cb458ddcc31ea9c96c6a1ac2f#0#HLA_DQA1",
+    "PG464b545eb8f01a31d24287153d7210449242d8482a812bd5e478c89609a89e53#0#HLA_DQA1#0": "PG464b545eb8f01a31d24287153d7210449242d8482a812bd5e478c89609a89e53#0#HLA_DQA1",
+    "PG46ea4e428496b114a0626a7dac1c4272f91859d11ce841d06c70eeb1b40f5a58#0#HLA_DQA1#0": "PG46ea4e428496b114a0626a7dac1c4272f91859d11ce841d06c70eeb1b40f5a58#0#HLA_DQA1",
+    "PG4e0b732b425ec3f1d4d00f95f9ecac2ec60de0b3b2249e7158ce67539857b34c#0#HLA_DQA1#0": "PG4e0b732b425ec3f1d4d00f95f9ecac2ec60de0b3b2249e7158ce67539857b34c#0#HLA_DQA1",
+    "PG5792951155a54bdd0d9b60eb292a6e374e27a82042690e8e52653c60bb7a4173#0#HLA_DQA1#0": "PG5792951155a54bdd0d9b60eb292a6e374e27a82042690e8e52653c60bb7a4173#0#HLA_DQA1",
+    "PG5946045304a4eb9785a5d5362b69e193365e2b201c90cb763eccc662d9c4a543#0#HLA_DQA1#0": "PG5946045304a4eb9785a5d5362b69e193365e2b201c90cb763eccc662d9c4a543#0#HLA_DQA1",
+    "PG5b61ea9339aab2ad28f10f39a677c16ad7bb98d6c060df8bce5f091adb068ffd#0#HLA_DQA1#0": "PG5b61ea9339aab2ad28f10f39a677c16ad7bb98d6c060df8bce5f091adb068ffd#0#HLA_DQA1",
+    "PG5d5839b9ecfcbf99badf398b9ce3fad87243fc0ba7a9a5699bad955d137ffdd2#0#HLA_DQA1#0": "PG5d5839b9ecfcbf99badf398b9ce3fad87243fc0ba7a9a5699bad955d137ffdd2#0#HLA_DQA1",
+    "PG61cb2d9fbbde929a7d0031c4a659871b253d50181c6d3f7d0970e5d03100ea2e#0#HLA_DQA1#0": "PG61cb2d9fbbde929a7d0031c4a659871b253d50181c6d3f7d0970e5d03100ea2e#0#HLA_DQA1",
+    "PG71fc6c362f2e1027e91648ef808c62b9951280667f3de25e14feee85906c4d8c#0#HLA_DQA1#0": "PG71fc6c362f2e1027e91648ef808c62b9951280667f3de25e14feee85906c4d8c#0#HLA_DQA1",
+    "PG7a098bdd97f29d9e74526e4ca497bacb15ca53606561bbc0887d3490d9563a32#0#HLA_DQA1#0": "PG7a098bdd97f29d9e74526e4ca497bacb15ca53606561bbc0887d3490d9563a32#0#HLA_DQA1",
+    "PG7d656c49490dd871335e3da39ae698d5deec315429d0a06559fcb853466ac653#0#HLA_DQA1#0": "PG7d656c49490dd871335e3da39ae698d5deec315429d0a06559fcb853466ac653#0#HLA_DQA1",
+    "PG7ede7a49afc634cab4919be982fc40e516491bb45828695e6a4fca4de3dac5ab#0#HLA_DQA1#0": "PG7ede7a49afc634cab4919be982fc40e516491bb45828695e6a4fca4de3dac5ab#0#HLA_DQA1",
+    "PG82eb795b0b33cff773b2c60313c24ab0c568f199a24dfd33da5f67043151db75#0#HLA_DQA1#0": "PG82eb795b0b33cff773b2c60313c24ab0c568f199a24dfd33da5f67043151db75#0#HLA_DQA1",
+    "PG871e1a794e41f6b5e94b93defa07df2249f6f2cb4537dae2027179fe2b518451#0#HLA_DQA1#0": "PG871e1a794e41f6b5e94b93defa07df2249f6f2cb4537dae2027179fe2b518451#0#HLA_DQA1",
+    "PG8e2e17cb23aad421c7485a4b476c734f1606f8a4bd5291af182422d9528682c8#0#HLA_DQA1#0": "PG8e2e17cb23aad421c7485a4b476c734f1606f8a4bd5291af182422d9528682c8#0#HLA_DQA1",
+    "PG8f3e53450cef90c8c5d99aa738318669be11b3823c11daa97f08d9567815979b#0#HLA_DQA1#0": "PG8f3e53450cef90c8c5d99aa738318669be11b3823c11daa97f08d9567815979b#0#HLA_DQA1",
+    "PG90a466cc495cde556081283de1e8553162b1846c245f3495d3bf95d052586e30#0#HLA_DQA1#0": "PG90a466cc495cde556081283de1e8553162b1846c245f3495d3bf95d052586e30#0#HLA_DQA1",
+    "PG939e481b17eaa710be1e68d259e5163952718de3f7f6d5753f3775f7a7b173eb#0#HLA_DQA1#0": "PG939e481b17eaa710be1e68d259e5163952718de3f7f6d5753f3775f7a7b173eb#0#HLA_DQA1",
+    "PG941ccffaa7694051e8de0e655bef6b5a8a3f91e9405080b5242bac79c1972bcb#0#HLA_DQA1#0": "PG941ccffaa7694051e8de0e655bef6b5a8a3f91e9405080b5242bac79c1972bcb#0#HLA_DQA1",
+    "PG9b61c093f252ad49c47f42bd5c9cb313b87750d6291f5729d46c26a969d1f366#0#HLA_DQA1#0": "PG9b61c093f252ad49c47f42bd5c9cb313b87750d6291f5729d46c26a969d1f366#0#HLA_DQA1",
+    "PG9dc6588bb49c5195522235b008c0c96a0c89c2b96170acadd7650399804b031b#0#HLA_DQA1#0": "PG9dc6588bb49c5195522235b008c0c96a0c89c2b96170acadd7650399804b031b#0#HLA_DQA1",
+    "PGa481dafa4d0eab501eea0c018a05bd448d01587c760cfb50f04af48e4f4e288e#0#HLA_DQA1": "PGa481dafa4d0eab501eea0c018a05bd448d01587c760cfb50f04af48e4f4e288e#0#HLA_DQA1",
+    "PGabad0615b19c498c2b32f9ca8ec9da84deb36e7ba0de8b44c9cb140904ed5ce8#0#HLA_DQA1#0": "PGabad0615b19c498c2b32f9ca8ec9da84deb36e7ba0de8b44c9cb140904ed5ce8#0#HLA_DQA1",
+    "PGad7eb2080b0bc0e5b655bcf478cc0eead1f91df21d674174157c9dedec8e6ae6#0#HLA_DQA1#0": "PGad7eb2080b0bc0e5b655bcf478cc0eead1f91df21d674174157c9dedec8e6ae6#0#HLA_DQA1",
+    "PGb5fd68b5fb21b249f3b7a10b8c20dfeb04b9777e50999ef5be8a85a58fc04e0a#0#HLA_DQA1#0": "PGb5fd68b5fb21b249f3b7a10b8c20dfeb04b9777e50999ef5be8a85a58fc04e0a#0#HLA_DQA1",
+    "PGb71592e0268125dc453dbc2fd8a684139828678edef7f8d115919673566ed342#0#HLA_DQA1#0": "PGb71592e0268125dc453dbc2fd8a684139828678edef7f8d115919673566ed342#0#HLA_DQA1",
+    "PGbc085575b598b563414ba29bc5305a99ed76733b0ef336a4f3c0d3fd39a17b65#0#HLA_DQA1#0": "PGbc085575b598b563414ba29bc5305a99ed76733b0ef336a4f3c0d3fd39a17b65#0#HLA_DQA1",
+    "PGc51912bf50217b6a595287bb484ed8743d7469ffed8eb706e36a5f33cc02750b#0#HLA_DQA1#0": "PGc51912bf50217b6a595287bb484ed8743d7469ffed8eb706e36a5f33cc02750b#0#HLA_DQA1",
+    "PGcb9f7aa76e3e9b7369b33ee13428b9d7741690925abb1f00097d5b47f3f15bcb#0#HLA_DQA1#0": "PGcb9f7aa76e3e9b7369b33ee13428b9d7741690925abb1f00097d5b47f3f15bcb#0#HLA_DQA1",
+    "PGd30aa0e5d0f685bad3dce2e1b0e27a897ada94343b8857388b727b5347998dff#0#HLA_DQA1#0": "PGd30aa0e5d0f685bad3dce2e1b0e27a897ada94343b8857388b727b5347998dff#0#HLA_DQA1",
+    "PGd731c0e478165b61742581d2bf82b33a9b303fa3777a42dc40304b9d176849a8#0#HLA_DQA1#0": "PGd731c0e478165b61742581d2bf82b33a9b303fa3777a42dc40304b9d176849a8#0#HLA_DQA1",
+    "PGdc1b0855fb2f35b57711c7d5c900194685282fd37f8842b97557d9b8819bb971#0#HLA_DQA1#0": "PGdc1b0855fb2f35b57711c7d5c900194685282fd37f8842b97557d9b8819bb971#0#HLA_DQA1",
+    "PGe5d877fbbed6151fc2dad69cc561216d123b5e8eaf8f6b73aa0b2e7df6b6ab0d#0#HLA_DQA1#0": "PGe5d877fbbed6151fc2dad69cc561216d123b5e8eaf8f6b73aa0b2e7df6b6ab0d#0#HLA_DQA1",
+    "PGe9811f865ea4bad2874f290f6a6bf5846ceddb9cdacf74445372a681392b0089#0#HLA_DQA1#0": "PGe9811f865ea4bad2874f290f6a6bf5846ceddb9cdacf74445372a681392b0089#0#HLA_DQA1",
+    "PGefc62f116f4155ac9b123cddfe7b066ce6258f8e100f26cfe1a8fffc4aa28dcb#0#HLA_DQA1#0": "PGefc62f116f4155ac9b123cddfe7b066ce6258f8e100f26cfe1a8fffc4aa28dcb#0#HLA_DQA1",
+    "PGf9c713287831d2e3f12264f540826a2dfbfae74b3d8393ee913974b30de86c8e#0#HLA_DQA1#0": "PGf9c713287831d2e3f12264f540826a2dfbfae74b3d8393ee913974b30de86c8e#0#HLA_DQA1",
+    "PGfe01cd3544fda75721d7e9ee57b359913d99430c157e30d485ee8326b84833e7#0#HLA_DQA1#0": "PGfe01cd3544fda75721d7e9ee57b359913d99430c157e30d485ee8326b84833e7#0#HLA_DQA1"
+  },
+  "repair_driver_sha256": "28ec0856f18f8d82f5eb80ccb1c53c833df6094a8e6c0d2c831414dcfc797809",
+  "previous_manifest_sha256": "a28af625e5faf6e8c8e7116b3427ffb0edfdf738e9dd434f231f2ae1971ea360",
+  "previous_attempt": "/home/leechuck/hla/t1k-pangenome/graphs/build-v1/hprc/DQA1",
+  "repair": "Explicit path prefix for distance-index backbone",
+  "finished": 1789726214.762679,
+  "verified_paths": 42,
+  "output_sha256": {
+    "graph.gbz": "73226e9eed800d948a570855e200420e890b7e5149242092f5cd87bf3513cfad",
+    "graph.ri": "3c8e399fe8d94c76fec03c3b02d5f4c4d1f3b1bff7af5b51e0b9fc47dc78cb97",
+    "graph.dist": "2911b336aa86c93c7b08d410c03960e989835f8daa0065fb1214d9ed0e7d0ce3",
+    "graph.hapl": "257d8a1b6515ec8ce170e7547f98e698910b2d18c61008034c20eee6e8cb217e"
+  }
+}

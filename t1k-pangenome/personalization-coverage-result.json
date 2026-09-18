@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "started": 1789726214.3071384,
+  "command": [
+    "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+    "giraffe",
+    "-Z",
+    "sampled.gbz",
+    "-f",
+    "r1.fq",
+    "-f",
+    "r2.fq",
+    "-t",
+    "8",
+    "-N",
+    "synthetic"
+  ],
+  "scope": "Synthetic training-path integration test; not typing accuracy",
+  "graph_manifest_sha256": "ecfc9a608bb1ecdaf627b99c4370497101d0027c7d43bbb67b4b63b041d04e1b",
+  "driver_sha256": "e2b252b940b7be54e8510b8737f8bc6207b4a4cab6daea496db40df826f81d25",
+  "vg_sha256": "5390a894bde3b1d39bd7df389ff68aa2db9b6f319cba2304eec8da6e2dae3549",
+  "kmc_sha256": "89e59edde1e8324493f81f93b310a3fb3f1b1cee9c53460ccec3eb725e8f9abb",
+  "selected_training_paths": [
+    "PG00cb7d93ac39b1f255145bb7f4101d678f4660f6970ef48954c9a5c01677441c#0#HLA_A",
+    "PG0981f91d0ae911228effc294e057503f7c9aee7fbd401cb1c0e429a6e530d029#0#HLA_A"
+  ],
+  "pairs": 2004,
+  "seed": 20260918,
+  "reads_sha256": {
+    "r1.fq": "e115dfe3062853d1805f125ee0e9d49ad41ba5bb76ed44420324c30720a1a43a",
+    "r2.fq": "50d848bf49ae560972b8e86a674e6423c3f6cbb8d30740beb5f74da1a8735481"
+  },
+  "preparation_commands": [
+    [
+      "/home/leechuck/hla/t1k-pangenome/tools/kmc-3.2.4/kmc",
+      "-k29",
+      "-m8",
+      "-okff",
+      "-t8",
+      "-hp",
+      "@read_files.txt",
+      "counts",
+      "tmp"
+    ],
+    [
+      "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+      "haplotypes",
+      "-v",
+      "2",
+      "-t",
+      "8",
+      "--coverage",
+      "65",
+      "--num-haplotypes",
+      "8",
+      "--include-reference",
+      "-i",
+      "graph.hapl",
+      "-k",
+      "counts.kff",
+      "-g",
+      "sampled.gbz",
+      "graph.gbz"
+    ]
+  ],
+  "explicit_kmer_coverage": 65,
+  "alignments": 4008,
+  "mapped": 4008,
+  "finished": 1789726217.5179315,
+  "gam_sha256": "422e8a63f9a36dc52a7b60701d1cf11296de103d85195dc7eb76a4859fee22eb"
+}
