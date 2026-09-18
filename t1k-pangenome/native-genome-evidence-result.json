@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "started": 1789735186.6365368,
+  "donor": "HG00658",
+  "baseline_manifest_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+  "baseline_completion_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+  "instrumented_build_sha256": "b0bd72b9f856eb60576285015cc9add6c831916ee6da47ba7ad2f4602aeeaa1f",
+  "input_sha256": {
+    "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+    "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+  },
+  "candidate_reads_sha256": {
+    "/home/leechuck/hla/t1k-pangenome/development/linear-v1/ipd_genome/HG00658/HG00658_candidate_1.fq": "7004b9c4db37a5e967cdcd32b04e0758573c1cc943422a294ba490559508575e",
+    "/home/leechuck/hla/t1k-pangenome/development/linear-v1/ipd_genome/HG00658/HG00658_candidate_2.fq": "d67f6bff41f51d6c6616cbf5d3b6d4e0b507fcd2fba646d37422104d49941dc9"
+  },
+  "driver_sha256": "0f056b6c16587496695cf007a7099e5297fb5524749e3aaf651f2d13d3e27466",
+  "reference_sha256": "9202c3d37a89045a8f01f08dfd3ba21c465835b72ac2e9e7a731ef4dfc2c1d6a",
+  "scope": "Native assignment export; baseline genotype preservation required",
+  "command": [
+    "/home/leechuck/hla/t1k-pangenome/tools/t1k-evidence-v1/export/genotyper",
+    "-s",
+    "0.97",
+    "--alleleDigitUnits",
+    "4",
+    "--alleleDelimiter",
+    ":",
+    "--outputReadAssignment",
+    "-f",
+    "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+    "-1",
+    "/home/leechuck/hla/t1k-pangenome/development/linear-v1/ipd_genome/HG00658/HG00658_candidate_1.fq",
+    "-2",
+    "/home/leechuck/hla/t1k-pangenome/development/linear-v1/ipd_genome/HG00658/HG00658_candidate_2.fq",
+    "-t",
+    "4",
+    "-o",
+    "/home/leechuck/hla/t1k-pangenome/development/native-genome-evidence-v1/HG00658/HG00658"
+  ],
+  "finished": 1789735434.3565023,
+  "genotype_unchanged": true,
+  "output_sha256": {
+    "HG00658_genotype.tsv": "9e5ada6de9237d383354e368908a42dfa09dfae51f568073e704ae30c6f924e9",
+    "HG00658_assign.tsv": "dded4caa2780a83c6ef4b7475755fdf4f7b97f1857abae163d19d302691df77b",
+    "evidence-audit.json": "70deebea8b9081ab2a065b06d1fef357951ca2ff133e744c462752ae34ac3efa"
+  }
+}

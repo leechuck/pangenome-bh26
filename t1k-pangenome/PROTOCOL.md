@@ -324,6 +324,32 @@ retains native alternatives for subsequent refinement; exported weights and grap
 alignment scores are not treated as independent read observations. The original
 native-evidence export remains preserved for the original-baseline comparison.
 
+### Graph-assisted recruitment development experiment
+
+Before replacing T1K's inference machinery, test whether graph-supported paired
+reads recover useful evidence missed by its candidate-read extraction. Retain the
+union of all native genomic-IPD candidate pairs and every pair with a concordant
+placement on at least one graph path. Duplicate paths or loci never duplicate a
+pair. T1K then aligns and jointly genotypes those selected reads against the same
+full genomic IPD reference, with unchanged inference parameters. Graph alignment
+scores are not multiplied into T1K weights or interpreted as allele probabilities.
+This tests graph-assisted recruitment, not the unfinished joint path-score model
+or discovery of alleles absent from IPD.
+
+The HG00658 pilot includes native-only read selection (mandatory byte-identical
+genotype parity), all initially recruited reads without graph filtering, HPRC
+sampled/unsampled, and HPRC-plus-Asian sampled/unsampled. All graph conditions retain
+the native candidate reads; no graph absence can remove an IPD alternative. The
+all-read arm distinguishes a graph-specific selection effect from simply bypassing
+native candidate extraction. Input, reference, executable and graph provenance are
+checked; raw/native paired sequences and qualities must agree. The read-selection
+unit tests reject foreign fragments, changed sequences, duplicates and broken
+pairs. No held-out outcomes are consumed. Pilot outputs are not confirmatory.
+
+The full-genomic-IPD native assignment export completed with byte-identical
+baseline genotypes; see native-genome-evidence-result.json. It remains available
+for the separate graph/native evidence refinement work.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
