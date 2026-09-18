@@ -1,0 +1,177 @@
+{
+  "scope": "Exploratory audit of all seven call-changing frozen decisions; not a new validation",
+  "cases": [
+    {
+      "donor": "HG01891",
+      "panel": "hprc",
+      "details_sha256": "4ca6c37bc18f66f66bb3a86547992db101ca78413b4764bf78ad2d4538f736d8",
+      "counts": [
+        {
+          "direction": "proposal",
+          "native_loci": [],
+          "fragments": 2
+        },
+        {
+          "direction": "proposal",
+          "native_loci": [
+            "DQA1"
+          ],
+          "fragments": 11
+        }
+      ]
+    },
+    {
+      "donor": "HG02080",
+      "panel": "hprc_asian",
+      "details_sha256": "9950665099e49dcf0ebc42db9619f2c85ef361d89c4ce8ba5f8feaf8964e6ac0",
+      "counts": [
+        {
+          "direction": "native",
+          "native_loci": [
+            "C"
+          ],
+          "fragments": 10
+        },
+        {
+          "direction": "proposal",
+          "native_loci": [
+            "F"
+          ],
+          "fragments": 1
+        },
+        {
+          "direction": "proposal",
+          "native_loci": [
+            "J"
+          ],
+          "fragments": 1
+        },
+        {
+          "direction": "proposal",
+          "native_loci": [
+            "Y"
+          ],
+          "fragments": 1
+        }
+      ]
+    },
+    {
+      "donor": "HG02257",
+      "panel": "hprc_asian",
+      "details_sha256": "4f463a23833bcad4913afb9db5f86d670696c02dba49a8a3d254fd5d0c46c19e",
+      "counts": [
+        {
+          "direction": "native",
+          "native_loci": [],
+          "fragments": 1
+        },
+        {
+          "direction": "native",
+          "native_loci": [
+            "A"
+          ],
+          "fragments": 10
+        },
+        {
+          "direction": "proposal",
+          "native_loci": [
+            "E"
+          ],
+          "fragments": 16
+        }
+      ]
+    },
+    {
+      "donor": "HG02258",
+      "panel": "hprc_asian",
+      "details_sha256": "92d47ed982f4ecc1e7acffffce8ef2250668a75ea028ffb17a718fe192b59ee8",
+      "counts": [
+        {
+          "direction": "native",
+          "native_loci": [
+            "DQA1"
+          ],
+          "fragments": 1
+        },
+        {
+          "direction": "proposal",
+          "native_loci": [],
+          "fragments": 1
+        },
+        {
+          "direction": "proposal",
+          "native_loci": [
+            "DQA1"
+          ],
+          "fragments": 29
+        }
+      ]
+    },
+    {
+      "donor": "HG02615",
+      "panel": "hprc",
+      "details_sha256": "8a3afc158d2b28b866f5239546177daa561d605fed91c706e012f148f68b3a2f",
+      "counts": [
+        {
+          "direction": "native",
+          "native_loci": [
+            "C"
+          ],
+          "fragments": 5
+        }
+      ]
+    },
+    {
+      "donor": "HG03270",
+      "panel": "hprc_asian",
+      "details_sha256": "1d38fe067f0ac9901ed2bca27c7f6157190e0e63ae1dc8b524ef409af31d58ff",
+      "counts": [
+        {
+          "direction": "native",
+          "native_loci": [
+            "DQA1"
+          ],
+          "fragments": 1
+        },
+        {
+          "direction": "proposal",
+          "native_loci": [],
+          "fragments": 8
+        },
+        {
+          "direction": "proposal",
+          "native_loci": [
+            "DQA1"
+          ],
+          "fragments": 39
+        }
+      ]
+    },
+    {
+      "donor": "HG03704",
+      "panel": "hprc_asian",
+      "details_sha256": "30db91eb7e807d01379dd603ec2d726bc4ab2900a04839f23c7e1b1f9566a516",
+      "counts": [
+        {
+          "direction": "native",
+          "native_loci": [],
+          "fragments": 1
+        },
+        {
+          "direction": "native",
+          "native_loci": [
+            "DQA1"
+          ],
+          "fragments": 5
+        },
+        {
+          "direction": "proposal",
+          "native_loci": [
+            "DQA1"
+          ],
+          "fragments": 2
+        }
+      ]
+    }
+  ]
+}

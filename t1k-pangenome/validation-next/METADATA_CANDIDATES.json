@@ -1,0 +1,294 @@
+{
+  "status": "metadata candidates only; further exposure, assembly quality and data availability audit required",
+  "candidates": [
+    {
+      "donor": "HG00864",
+      "family": "HG00864",
+      "population": "CDX",
+      "superpopulation": "EAS",
+      "cram": "1000G_2504_high_coverage/data/ERR3242132/HG00864.final.cram"
+    },
+    {
+      "donor": "HG01505",
+      "family": "IBS002",
+      "population": "IBS",
+      "superpopulation": "EUR",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3988892/HG01505.final.cram"
+    },
+    {
+      "donor": "HG01573",
+      "family": "PEL003",
+      "population": "PEL",
+      "superpopulation": "AMR",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3988905/HG01573.final.cram"
+    },
+    {
+      "donor": "HG01596",
+      "family": "VN002",
+      "population": "KHV",
+      "superpopulation": "EAS",
+      "cram": "1000G_2504_high_coverage/data/ERR3242063/HG01596.final.cram"
+    },
+    {
+      "donor": "HG02011",
+      "family": "BB13",
+      "population": "ACB",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3988973/HG02011.final.cram"
+    },
+    {
+      "donor": "HG02018",
+      "family": "VN047",
+      "population": "KHV",
+      "superpopulation": "EAS",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3988975/HG02018.final.cram"
+    },
+    {
+      "donor": "HG02059",
+      "family": "VN061",
+      "population": "KHV",
+      "superpopulation": "EAS",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3988981/HG02059.final.cram"
+    },
+    {
+      "donor": "HG02106",
+      "family": "PEL38",
+      "population": "PEL",
+      "superpopulation": "AMR",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3988989/HG02106.final.cram"
+    },
+    {
+      "donor": "HG02282",
+      "family": "BB24",
+      "population": "ACB",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/data/ERR3242231/HG02282.final.cram"
+    },
+    {
+      "donor": "HG02492",
+      "family": "PK06",
+      "population": "PJL",
+      "superpopulation": "SAS",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989019/HG02492.final.cram"
+    },
+    {
+      "donor": "HG02554",
+      "family": "BB67",
+      "population": "ACB",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/data/ERR3242744/HG02554.final.cram"
+    },
+    {
+      "donor": "HG02587",
+      "family": "GB24",
+      "population": "GWD",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989031/HG02587.final.cram"
+    },
+    {
+      "donor": "HG02769",
+      "family": "GB57",
+      "population": "GWD",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/data/ERR3242424/HG02769.final.cram"
+    },
+    {
+      "donor": "HG02953",
+      "family": "NG16",
+      "population": "ESN",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/data/ERR3242604/HG02953.final.cram"
+    },
+    {
+      "donor": "HG03009",
+      "family": "HG03009",
+      "population": "BEB",
+      "superpopulation": "SAS",
+      "cram": "1000G_2504_high_coverage/data/ERR3242842/HG03009.final.cram"
+    },
+    {
+      "donor": "HG03065",
+      "family": "SL05",
+      "population": "MSL",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989118/HG03065.final.cram"
+    },
+    {
+      "donor": "HG03248",
+      "family": "GB116",
+      "population": "GWD",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989141/HG03248.final.cram"
+    },
+    {
+      "donor": "HG03456",
+      "family": "SL51",
+      "population": "MSL",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989168/HG03456.final.cram"
+    },
+    {
+      "donor": "HG03683",
+      "family": "ST012",
+      "population": "STU",
+      "superpopulation": "SAS",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989199/HG03683.final.cram"
+    },
+    {
+      "donor": "HG03732",
+      "family": "IT003",
+      "population": "ITU",
+      "superpopulation": "SAS",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989210/HG03732.final.cram"
+    },
+    {
+      "donor": "HG03807",
+      "family": "BD19",
+      "population": "BEB",
+      "superpopulation": "SAS",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989221/HG03807.final.cram"
+    },
+    {
+      "donor": "HG04036",
+      "family": "ST116",
+      "population": "STU",
+      "superpopulation": "SAS",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989235/HG04036.final.cram"
+    },
+    {
+      "donor": "HG04217",
+      "family": "IT220",
+      "population": "ITU",
+      "superpopulation": "SAS",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989261/HG04217.final.cram"
+    },
+    {
+      "donor": "NA12329",
+      "family": "1328",
+      "population": "CEU",
+      "superpopulation": "EUR",
+      "cram": "1000G_2504_high_coverage/additional_698_related/data/ERR3989317/NA12329.final.cram"
+    },
+    {
+      "donor": "NA18989",
+      "family": "NA18989",
+      "population": "JPT",
+      "superpopulation": "EAS",
+      "cram": "1000G_2504_high_coverage/data/ERR3239679/NA18989.final.cram"
+    },
+    {
+      "donor": "NA19331",
+      "family": "LWK001",
+      "population": "LWK",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/data/ERR3239721/NA19331.final.cram"
+    },
+    {
+      "donor": "NA20355",
+      "family": "2484a",
+      "population": "ASW",
+      "superpopulation": "AFR",
+      "cram": "1000G_2504_high_coverage/data/ERR3241776/NA20355.final.cram"
+    },
+    {
+      "donor": "NA20847",
+      "family": "NA20847",
+      "population": "GIH",
+      "superpopulation": "SAS",
+      "cram": "1000G_2504_high_coverage/data/ERR3239999/NA20847.final.cram"
+    }
+  ],
+  "excluded": [
+    {
+      "donor": "HG00514",
+      "reasons": [
+        "family already exposed or in graph"
+      ]
+    },
+    {
+      "donor": "HG01114",
+      "reasons": [
+        "family already exposed or in graph"
+      ]
+    },
+    {
+      "donor": "HG01352",
+      "reasons": [
+        "family already exposed or in graph"
+      ]
+    },
+    {
+      "donor": "HG01457",
+      "reasons": [
+        "family already exposed or in graph"
+      ]
+    },
+    {
+      "donor": "HG01890",
+      "reasons": [
+        "family already exposed or in graph"
+      ]
+    },
+    {
+      "donor": "HG02666",
+      "reasons": [
+        "family already exposed or in graph"
+      ]
+    },
+    {
+      "donor": "HG03371",
+      "reasons": [
+        "family already exposed or in graph"
+      ]
+    },
+    {
+      "donor": "HG03452",
+      "reasons": [
+        "family already exposed or in graph"
+      ]
+    },
+    {
+      "donor": "HG03520",
+      "reasons": [
+        "family already exposed or in graph"
+      ]
+    },
+    {
+      "donor": "NA21487",
+      "reasons": [
+        "no pedigree record",
+        "no indexed 30x CRAM"
+      ]
+    },
+    {
+      "donor": "NA24385",
+      "reasons": [
+        "no pedigree record",
+        "no indexed 30x CRAM",
+        "HG002 alias; separate exposure audit needed"
+      ]
+    }
+  ],
+  "audited_at": "2026-09-18T15:49:47.786271+00:00",
+  "families": 28,
+  "source_sha256": {
+    "hla-analysis/source/HGSVCv3_HLA_alleles.fasta.gz": "c6aa133c4b609d5d246d07356c163e2bcf56c382520460224ac1358a95727872",
+    "hla-pilot/source/1000G.ped": "4e164b717433fc9bfc16e29b20e5b4659b4216185b3275322d421fe3d323c132",
+    "hla-bench/source/cohorts.tsv": "35daa196fb3518d3c73cbd1b3ddcd5c2f45f8696dd36c120d045001d579ff057",
+    "hla-typer/source/haplotype_donors.tsv": "5014f14d9db1afa3776b695df0ed9eb1a04723764bda88219ad02e9ec1a2f7ca",
+    "hla-bench/results/legacy_t1k_scores.tsv": "3eff42ffb781b198c81c60576db0a9772b494cfd24c65ebbfb19eba60720b9c7",
+    "hla-targeted/source/C4Investigator/resources/1000Genomes_resources/tgp_full_30x.tsv": "856d350775decef6edaba2573f8a4bb1ef5efdb2f7b71230a82fe9c7f60e41ac"
+  },
+  "sources": {
+    "hgsvc3": "https://github.com/hgsvc/phase3-main-pub",
+    "hprc2": "https://github.com/human-pangenomics/hprc_intermediate_assembly/blob/main/data_tables/assemblies_release2_v1.0.index.csv"
+  },
+  "prior_reference_annotations": "Candidate IDs occur in published Abi-Rached HLA reference tables and HGSVC RCCX/sequence positive controls. These are existing reference annotations, not evidence of new-typer performance. No indexed T1K outcome was found in the donor metadata audit.",
+  "remaining_checks": [
+    "Broader remote evaluation/exposure inventory",
+    "Sample aliases and complete family exclusion",
+    "Independent truth derivation and assembly quality gates",
+    "Confirm read URLs and prepare matched recruitment",
+    "Freeze candidate and endpoint before evaluation"
+  ]
+}

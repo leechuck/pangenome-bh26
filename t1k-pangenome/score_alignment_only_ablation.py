@@ -1,17 +1,22 @@
 """Score the full exposed-cohort ablation; never claim independent validation."""
 import csv
+import argparse
 import json
 from pathlib import Path
 from score_graph_pair_refinement import load
 from score_linear_controls import HERE,REPO,GENES,truth_a,genomic_truth,truth_slots,Nomenclature,prediction,compare,sha,write_tsv
 
 
-def run():
-    plan_path=HERE/'alignment-only-ablation-plan.json'
+def run(native_locus=False):
+    stem='native-locus-ablation' if native_locus else 'alignment-only-ablation'
+    method_prefix='native_locus' if native_locus else 'alignment_only'
+    driver='run_graph_pair_native_locus.py' if native_locus else 'run_graph_pair_alignment_only.py'
+    model='graph_pair_refinement_native_locus.py' if native_locus else 'graph_pair_refinement_alignment_only.py'
+    plan_path=HERE/(stem+'-plan.json')
     plan=json.loads(plan_path.read_text())
-    out=HERE/'development/completed-alignment-only-ablation-v1'
+    out=HERE/'development'/('completed-'+stem+'-v1')
     if out.exists():raise FileExistsError(out)
-    snapshot=HERE/'work/alignment-only-ablation-v1'
+    snapshot=HERE/'work'/(stem+'-v1')
     batches={}
     p=json.loads((HERE/'graph-development-batch.json').read_text())
     batches['development']=[p['existing_pilot'],*p['donors']]
@@ -29,10 +34,13 @@ def run():
         folder=snapshot/group/d/panel/'unsampled'
         state,calls,record=load(folder,baseline)
         assert state=='complete'
-        assert record['driver_sha256']==plan['code_sha256']['run_graph_pair_alignment_only.py']
-        assert record['model_sha256']==plan['code_sha256']['graph_pair_refinement_alignment_only.py']
+        assert record['driver_sha256']==plan['code_sha256'][driver]
+        assert record['model_sha256']==plan['code_sha256'][model]
         assert record['base_model_sha256']==plan['code_sha256']['graph_pair_refinement.py']
         assert record['parameters']['alignment_only'] and record['parameters']['internal_pairs'] and record['parameters']['pair_specific']
+        if native_locus:
+            assert record['parameters']['native_locus_guard']
+            assert record['alignment_model_sha256']==plan['code_sha256']['graph_pair_refinement_alignment_only.py']
         calls_by_case[group,d,panel]=calls
         provenance['/'.join((group,d,panel))]=sha(folder/'COMPLETE.json')
     truth=truth_a(REPO/'hla-analysis/results/sequence_catalogue.tsv',
@@ -56,11 +64,11 @@ def run():
                         slots=(genomic_truth(records) if fields==4 else truth_slots(records,'two_field',nom,gene)) if records else None
                         called,correct,matches=compare(prediction(calls,gene,fields),slots) if slots is not None else (0,0,0)
                         rows.append(dict(cohort=group,donor=d,family=donor['family'],stratum=donor['stratum'],
-                            method='alignment_only_'+panel,gene=gene,fields=fields,state='complete',
+                            method=method_prefix+'_'+panel,gene=gene,fields=fields,state='complete',
                             eligible=int(slots is not None),called=called,correct=correct,allele_matches=matches))
     summary=[]
     for group,donors in batches.items():
-        for method in ('T1K','ipd_genome','alignment_only_hprc','alignment_only_hprc_asian'):
+        for method in ('T1K','ipd_genome',method_prefix+'_hprc',method_prefix+'_hprc_asian'):
             for fields in (2,4):
                 subset=[r for r in rows if (r['cohort'],r['method'],r['fields'])==(group,method,fields)]
                 assert len(subset)==len(donors)*len(GENES)
@@ -73,4 +81,7 @@ def run():
     print(json.dumps(summary,indent=2))
 
 
-if __name__=='__main__':run()
+if __name__=='__main__':
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--native-locus',action='store_true')
+    run(p.parse_args().native_locus)

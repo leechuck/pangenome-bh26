@@ -1,0 +1,35 @@
+{
+  "scope": "Post-unblinding fragment-level audit of every frozen changed decision",
+  "cases": [
+    [
+      "HG01891",
+      "hprc"
+    ],
+    [
+      "HG02080",
+      "hprc_asian"
+    ],
+    [
+      "HG02257",
+      "hprc_asian"
+    ],
+    [
+      "HG02258",
+      "hprc_asian"
+    ],
+    [
+      "HG02615",
+      "hprc"
+    ],
+    [
+      "HG03270",
+      "hprc_asian"
+    ],
+    [
+      "HG03704",
+      "hprc_asian"
+    ]
+  ],
+  "driver_sha256": "9ded82e228a81a4109be5b7bd8dbfbc8a143eb41e254f54b8d76d2fbac6a09bd",
+  "job": "52059934"
+}

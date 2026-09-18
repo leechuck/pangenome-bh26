@@ -18,7 +18,7 @@ def pair_log(values, pair, noise=.01):
     return math.log(noise + .5*(1-noise)*sum(values.get(a, 0) for a in pair))
 
 
-def run(root, donor, panel, output):
+def run(root, donor, panel, output, include_details=False):
     if not os.environ.get('SLURM_CPUS_PER_TASK'):
         raise RuntimeError('Run evidence processing under Slurm')
     if output.exists():
@@ -58,6 +58,7 @@ def run(root, donor, panel, output):
     jm=json.loads((joined/'COMPLETE.json').read_text())
     source=joined/'evidence.jsonl'
     assert sha(source)==jm['output_sha256']
+    details=[]
     totals={g:collections.defaultdict(lambda:dict(fragments=0,frozen_gain=0.,equal_length_gain=0.))
             for g in changed}
     with source.open() as stream:
@@ -74,6 +75,16 @@ def run(root, donor, panel, output):
             old=native_pair(calls[gene]);new=changed[gene]['pair']
             gain=pair_log(values,new)-pair_log(values,old)
             equal_gain=pair_log(equal[1],new)-pair_log(equal[1],old)
+            if include_details and abs(equal_gain)>1e-8:
+                relevant=set(old+new)
+                placements={path:ps for graph_source in item['graph_sources'].values()
+                    for path,ps in graph_source['candidates'].items()
+                    if paths[path]['gene']==gene and relevant.intersection(paths[path]['candidates'])}
+                details.append(dict(fragment=item['fragment'],gene=gene,
+                    native_pair=old,proposed_pair=new,equal_length_gain=equal_gain,
+                    emissions={a:equal[1].get(a,0) for a in sorted(relevant)},
+                    native_candidates=item['native_candidates'],placements=placements,
+                    path_metadata={p:paths[p] for p in placements}))
             categories=['all', 'length_only_pair_difference' if abs(equal_gain)<=1e-8
                         else 'alignment_pair_difference',
                         'native_allele_absent' if any(values.get(a,0)==0 for a in old)
@@ -88,6 +99,8 @@ def run(root, donor, panel, output):
                 scope='Exploratory post-unblinding fixed-pair diagnostics; no new calls or validation claim',
                 manifest_sha256=sha(folder/'COMPLETE.json'),joined_sha256=sha(joined/'COMPLETE.json'),
                 driver_sha256=sha(Path(__file__)))
+    if include_details:
+        result['discriminating_fragments']=details
     output.parent.mkdir(parents=True,exist_ok=True)
     output.write_text(json.dumps(result,indent=2)+'\n')
 
@@ -98,4 +111,5 @@ if __name__=='__main__':
     p.add_argument('--donor',required=True)
     p.add_argument('--panel',choices=('hprc','hprc_asian'),required=True)
     p.add_argument('--output',type=Path,required=True)
-    a=p.parse_args();run(a.root,a.donor,a.panel,a.output)
+    p.add_argument('--include-details',action='store_true')
+    a=p.parse_args();run(a.root,a.donor,a.panel,a.output,a.include_details)
