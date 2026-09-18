@@ -1,0 +1,35 @@
+{
+  "status": "selected_pending_execution_freeze",
+  "selected_at": "2026-09-18T16:13:19.642334+00:00",
+  "primary": "Original-T1K coarse-anchored genomic-IPD plus unsampled HPRC+Asian graph; alignment-only emissions with native-locus guard",
+  "code_sha256": {
+    "anchor_t1k_coarse.py": "201e4316ac8449c0a6923972bba1877e3f1ddb6acab72575ed915e6cd564205a",
+    "graph_pair_refinement_native_locus.py": "465bd5bbe161ca308546a861405e95353ef5c407b54d5809d11def226ca70b0f",
+    "graph_pair_refinement_alignment_only.py": "26fa14c7638801baf3b8bafd51786d542296949fa3fae1e4b4a15cab7ef7f7da",
+    "graph_pair_refinement.py": "9652277178484bb4ef0bbaa167f44b2e7b7ee43414edb944a8428e843c65f0bb",
+    "run_graph_pair_native_locus.py": "b1f75122e7cc8c7f38ec0c9bb9e7090a2aec6ad5091c46b7f2d60280f34e64d5",
+    "hgsvc_truth.py": "20964dfeeef0836ca18603b337d7e6da44e1d3c34ed95d27ede03e1beca9bd0f",
+    "paired_evaluation.py": "493e6e1b20505cdccb00522ea0550f9f7b4afdf70584bbd57ebb6f4a86f8c4ed"
+  },
+  "metadata_sha256": {
+    "cohort.tsv": "511aeddb292d9ecbaa1c8983bac5d8d66c67258e984a254eaa6f8476401bc073",
+    "RESERVATION.json": "dfde6cecd9fd5d48fa5d5fe170062067f729200d92aaf6851526d40cf471ec27",
+    "GRAPH_SOURCE_AUDIT.json": "506ab7df7d5e81e0b9b78e76bf0a3fba1a00538fec0a53695994177fcdd531f3",
+    "PROTOCOL.md": "01ff1c6192e0a1afa9ab2626d61741db24c3f412d9f1dd0aef39431c8cd27973"
+  },
+  "truth_source_sha256": {
+    "hla-analysis/source/HGSVCv3_HLA_alleles.fasta.gz": "c6aa133c4b609d5d246d07356c163e2bcf56c382520460224ac1358a95727872",
+    "hla-analysis/source/HGSVCv3_HLA_alleles.README.txt": "87bde3fe3cd9b67db6029284ec3ecaf320de33070abe5da137796a5f23c8c67c",
+    "hla-analysis/source/imgt/release_version.txt": "32fb45c144d3edbdeba6f9240fe97195cd741beabff849ba35b91b33799969d6",
+    "hla-analysis/source/imgt/manifest.json": "75dda5cf5d585c998e19c8ec24753b54eb4d7894711bda8ecad8eb519241aa37",
+    "hla-analysis/source/imgt/fasta/A_gen.fasta": "006a13f261e3bcee9397600b6d3890aa4a8e38f1d08c6144e3c9efc691ed5d13",
+    "hla-analysis/source/imgt/fasta/B_gen.fasta": "3b00324109b2d1df8a7e05a5307ac66f7d7c7701b4b3f33d67c2a79621cb5bdc",
+    "hla-analysis/source/imgt/fasta/C_gen.fasta": "ddaeab84c4f54b4efa69fde8198ab761be112c12432b10e5176a2837108deee5",
+    "hla-analysis/source/imgt/fasta/DPA1_gen.fasta": "0eb401d2bc16a418f10f0596f91879ec612ee434a55a1f7050a45f934344f73f",
+    "hla-analysis/source/imgt/fasta/DPB1_gen.fasta": "5d8d463290ac79395b84e2349856da8d23cf7d4375d8ea3cae807cfa29aa74ed",
+    "hla-analysis/source/imgt/fasta/DQA1_gen.fasta": "8624a3e88e0d8b84aa038af76a43283c372e757d2c8fcdbdcce334d27df5839a",
+    "hla-analysis/source/imgt/fasta/DQB1_gen.fasta": "7bb3d52ebbea299f68ab59e06cd6e4421b04b0e1151619ebb274c768d439f449",
+    "hla-analysis/source/imgt/fasta/DRB1_gen.fasta": "d9e05c13eaca329be69f0c0cb1ecd2cdafd56d23dfd233e0c85a659009250376"
+  },
+  "scope": "Selection without evaluating the 28 held-out donors; complete execution and evaluation freeze still required"
+}
