@@ -1,0 +1,38 @@
+{
+  "status": "endpoint_code_frozen_before_outcome_inspection",
+  "frozen_at": "2026-09-18T16:29:49.275487+00:00",
+  "inference_freeze_sha256": "4afbe16398deefe3e1a26e7a8b974c7d63219eda1220ccd3bf6919f277d272be",
+  "code_sha256": {
+    "hla-bench/names.py": "7edff671f812eb077775fa1f424d3b945281f0991a13b13f1406e9d320a13103",
+    "hla-spechla-pg/score.py": "694f64bdc54a14dcac1453630576f4b2fc5330cbc2695546d54978e6246b784b",
+    "hla-spechla-pg/score_comparators.py": "b330c43d55b8ed6115196b98752e7edc4dd7756d17debdc52bf83aad833e13a3",
+    "t1k-pangenome/decode_t1k.py": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+    "t1k-pangenome/evaluate_hgsvc.py": "f3e9cdf6dae57f652fdfedb959bcb90481ea858082d5322777a2b945355c3958",
+    "t1k-pangenome/hgsvc_truth.py": "20964dfeeef0836ca18603b337d7e6da44e1d3c34ed95d27ede03e1beca9bd0f",
+    "t1k-pangenome/paired_evaluation.py": "493e6e1b20505cdccb00522ea0550f9f7b4afdf70584bbd57ebb6f4a86f8c4ed",
+    "t1k-pangenome/score_linear_controls.py": "011f92cf02c4257c2f8ce75b8cf14c381a4d8493a5e3b4db4599dfe10bc6c296",
+    "t1k-pangenome/t1k_reference.py": "21091a604007befd040e055f5a0409e70b428de8e03d305a469c728567186cbc"
+  },
+  "input_sha256": {
+    "hla-analysis/source/HGSVCv3_HLA_alleles.fasta.gz": "c6aa133c4b609d5d246d07356c163e2bcf56c382520460224ac1358a95727872",
+    "hla-analysis/source/HGSVCv3_HLA_alleles.README.txt": "87bde3fe3cd9b67db6029284ec3ecaf320de33070abe5da137796a5f23c8c67c",
+    "hla-analysis/source/imgt/release_version.txt": "32fb45c144d3edbdeba6f9240fe97195cd741beabff849ba35b91b33799969d6",
+    "hla-analysis/source/imgt/manifest.json": "75dda5cf5d585c998e19c8ec24753b54eb4d7894711bda8ecad8eb519241aa37",
+    "hla-analysis/source/imgt/fasta/A_gen.fasta": "006a13f261e3bcee9397600b6d3890aa4a8e38f1d08c6144e3c9efc691ed5d13",
+    "hla-analysis/source/imgt/fasta/B_gen.fasta": "3b00324109b2d1df8a7e05a5307ac66f7d7c7701b4b3f33d67c2a79621cb5bdc",
+    "hla-analysis/source/imgt/fasta/C_gen.fasta": "ddaeab84c4f54b4efa69fde8198ab761be112c12432b10e5176a2837108deee5",
+    "hla-analysis/source/imgt/fasta/DPA1_gen.fasta": "0eb401d2bc16a418f10f0596f91879ec612ee434a55a1f7050a45f934344f73f",
+    "hla-analysis/source/imgt/fasta/DPB1_gen.fasta": "5d8d463290ac79395b84e2349856da8d23cf7d4375d8ea3cae807cfa29aa74ed",
+    "hla-analysis/source/imgt/fasta/DQA1_gen.fasta": "8624a3e88e0d8b84aa038af76a43283c372e757d2c8fcdbdcce334d27df5839a",
+    "hla-analysis/source/imgt/fasta/DQB1_gen.fasta": "7bb3d52ebbea299f68ab59e06cd6e4421b04b0e1151619ebb274c768d439f449",
+    "hla-analysis/source/imgt/fasta/DRB1_gen.fasta": "d9e05c13eaca329be69f0c0cb1ecd2cdafd56d23dfd233e0c85a659009250376"
+  },
+  "primary": "graph_hprc_asian minus T1K",
+  "secondary_exploratory": [
+    "graph_hprc_asian minus ipd_genome",
+    "graph_hprc_asian minus graph_hprc"
+  ],
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260918,
+  "failure_handling": "Complete four-method donor/gene grid required; terminal failures receive zero credit on identical eligible truth; no missing/pending result omission"
+}

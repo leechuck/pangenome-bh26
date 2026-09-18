@@ -1,0 +1,11 @@
+{
+  "cohort_sha256": "511aeddb292d9ecbaa1c8983bac5d8d66c67258e984a254eaa6f8476401bc073",
+  "preparation_sha256": "31db43448767220f50f892af554d063ffbc9d3d8679058f62748e58b1172bc93",
+  "reservation_sha256": "dfde6cecd9fd5d48fa5d5fe170062067f729200d92aaf6851526d40cf471ec27",
+  "scope": "Independent HGSVC28 execution; predictions remain unscored",
+  "reference_sha256": {
+    "reference.fa": "9202c3d37a89045a8f01f08dfd3ba21c465835b72ac2e9e7a731ef4dfc2c1d6a",
+    "aliases.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd"
+}

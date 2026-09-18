@@ -1,0 +1,9 @@
+{
+  "status": "handoff_frozen_before_outcome_inspection",
+  "frozen_at": "2026-09-18T16:29:49.275487+00:00",
+  "evaluation_freeze_sha256": "3a69e2a1d4842c07e8e45b832e97c49804c8a824d1ff8f14fd2f29e3cf24eb92",
+  "code_sha256": {
+    "hgsvc_handoff.py": "fde2905e07ddfcb7438154e83e117173c9a585f44b892087254855d48a882ab6",
+    "score_hgsvc_snapshot.py": "a1bb010fc300f14d0aa8ef3b7632fe54104451df5292601220c8b5c7f53d82be"
+  }
+}
