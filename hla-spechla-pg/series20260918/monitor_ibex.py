@@ -23,7 +23,8 @@ def development_jobs():
               'all-read-control-launch.json','graph-development-batch-launch.json',
               'validation-baseline-launch.json','graph-pair-refinement-launch.json',
               'graph-pair-batch-launch.json','graph-refinement-diagnostic-launch.json',
-              'graph-internal-refinement-launch.json'):
+              'graph-internal-refinement-launch.json','graph-pairwise-refinement-launch.json',
+              'validation-genomic-launch.json'):
   path=T1K/name
   if not path.exists():continue
   record=json.loads(path.read_text())
@@ -79,6 +80,8 @@ while True:
     subprocess.run([sys.executable,str(T1K/'audit_graph_refinement.py')],check=True,timeout=180)
    if (T1K/'graph-internal-refinement-launch.json').exists():
     subprocess.run([sys.executable,str(T1K/'fetch_internal_refinement.py')],check=True,timeout=180)
+   if (T1K/'graph-pairwise-refinement-launch.json').exists():
+    subprocess.run([sys.executable,str(T1K/'fetch_internal_refinement.py'),'--pair-specific'],check=True,timeout=180)
   cycle+=1
   if terminal:break
  except Exception as e:

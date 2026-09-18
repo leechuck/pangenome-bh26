@@ -567,6 +567,32 @@ results. This is a development gain, not independent proof. The global
 informative-fragment counter still needs a pair-specific discrimination check
 before freezing the validation candidate. No reserved outcome has been inspected.
 
+### Candidate selection and pair-specific support
+
+The pair-specific development check requires at least 20 fragments whose pair
+emissions differ between the proposed and native genotype, and between the
+proposed genotype and its closest competitor. When closest competitors tie, use
+the smallest such count. This prevents unrelated nuisance-candidate variation
+from inflating the count; it does not turn emissions into independent diagnostic
+variant observations. A regression test reproduces that inflation, and all 113
+tests pass.
+
+All 32 comparisons completed with unchanged genotype outcomes. The two
+unsampled-additive DQA1 rescues retain 370 and 385 fragments distinguishing their
+closest competitor. Results are archived in
+`development/completed-graph-pairwise-refinement-v1/`.
+`validation/PRIMARY_CANDIDATE.json` selects this inference version, records its
+hashes and parameters, and retains the original evaluation gates. All 3,515
+observed-reference source occurrences were checked against the immutable
+400-haplotype exclusion list, with zero overlap. The complete validation execution
+driver still needs to be frozen before any outcome inspection.
+
+The reserved genomic-IPD control is submitted behind a pilot gate with pinned
+read, cohort, reservation, reference and wrapper hashes. It decodes predictions
+on IBEX for subsequent inference but does not load truth or score outcomes.
+Monitoring observes its job states only; predictions remain remote. This is a
+control and prerequisite, not the final graph validation run.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122

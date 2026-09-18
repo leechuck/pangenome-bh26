@@ -10,7 +10,8 @@ from build_graph import sha
 from decode_t1k import decode
 
 
-def run(cohort, index, reference, reads_root, output_root, threads):
+def run(cohort, index, reference, reads_root, output_root, threads,
+        scope='Development linear-reference control; no graph alignment'):
     if not os.environ.get('SLURM_CPUS_PER_TASK'):
         raise RuntimeError('Run under Slurm')
     if threads < 1 or threads > int(os.environ['SLURM_CPUS_PER_TASK']):
@@ -35,7 +36,7 @@ def run(cohort, index, reference, reads_root, output_root, threads):
         raise ValueError('Development reads not complete')
     exe = Path('/home/leechuck/hla/mm/envs/typing/bin/run-t1k')
     record = dict(status='running', donor=donor, started=time.time(),
-                  scope='Development linear-reference control; no graph alignment',
+                  scope=scope,
                   reference_manifest_sha256=sha(reference/'COMPLETE.json'),
                   cohort_sha256=sha(cohort), tool_sha256=sha(exe),
                   driver_sha256=sha(Path(__file__)),

@@ -1,0 +1,18 @@
+{
+  "code_sha256": {
+    "run_validation_genomic.py": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca",
+    "run_linear_control.py": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+    "evidence_io.py": "14495b5ddbe02f4514f886424a4c75aa42ca5102fb78c1122ec903858a8b2289",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f",
+    "build_panel.py": "60d51b0276db3d1a6a109bf22bb4f555a7cadb40d4e1f1856758e16b80d238d2",
+    "decode_t1k.py": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+    "t1k_reference.py": "21091a604007befd040e055f5a0409e70b428de8e03d305a469c728567186cbc",
+    "validation-genomic-plan.json": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+    "cohort.tsv": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+    "READ_PREPARATION.json": "350bbbc6adf27f5b963097a8e0f186c026f8d6d9364c3c96cd22a08aed8475dd",
+    "RESERVATION.json": "ae2cde5693a7f78aea7afa910edbe4aec2ce67c734f34db49914d7263ae0dfd2"
+  },
+  "scope": "84 reserved genomic-IPD predictions; no outcome fetch or scoring",
+  "pilot_job": "52051337",
+  "array_job": "52051341"
+}

@@ -49,7 +49,7 @@ def candidate_metadata(gene,records,seqs,pair,insert):
     return paths,[candidates[k] for k in sorted(candidates)]
 
 
-def run(baseline,joined,reference,calibration,output,internal_pairs=False):
+def run(baseline,joined,reference,calibration,output,internal_pairs=False,pair_specific=False):
     if not os.environ.get('SLURM_CPUS_PER_TASK'):raise ValueError('Run under Slurm')
     if output.exists():raise FileExistsError(output)
     bm=json.loads((baseline/'COMPLETE.json').read_text())
@@ -98,7 +98,7 @@ def run(baseline,joined,reference,calibration,output,internal_pairs=False):
                 calibration_sha256=sha(calibration),driver_sha256=sha(Path(__file__)),
                 model_sha256=sha(Path(__file__).with_name('graph_pair_refinement.py')),
                 parameters=dict(temperature=10,locus_margin=10,minimum_fragments=20,minimum_gap=10,noise=.01,
-                                internal_pairs=internal_pairs),
+                                internal_pairs=internal_pairs,pair_specific=pair_specific),
                 scope='Development graph four-field refinement; native two-field calls and unresolved fallbacks retained')
     def save():(output/'manifest.json').write_text(json.dumps(record,indent=2)+'\n')
     save()
@@ -119,7 +119,7 @@ def run(baseline,joined,reference,calibration,output,internal_pairs=False):
                 counts[gene]+=1
         updated=copy.deepcopy(calls);decisions={}
         for gene in GENES:
-            result=refine_gene(pairs[gene],candidates[gene],rows[gene]);decisions[gene]=result
+            result=refine_gene(pairs[gene],candidates[gene],rows[gene],pair_specific=pair_specific);decisions[gene]=result
             if not result['changed']:continue
             pair=result['pair'];old=pairs[gene]
             if [coarse(a) for a in pair]!=[coarse(a) for a in old]:pair=list(reversed(pair))
@@ -143,4 +143,5 @@ if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     for name in ('baseline','joined','reference','calibration','output'):p.add_argument('--'+name,type=Path,required=True)
     p.add_argument('--internal-pairs',action='store_true')
-    a=p.parse_args();run(a.baseline,a.joined,a.reference,a.calibration,a.output,a.internal_pairs)
+    p.add_argument('--pair-specific',action='store_true')
+    a=p.parse_args();run(a.baseline,a.joined,a.reference,a.calibration,a.output,a.internal_pairs,a.pair_specific)

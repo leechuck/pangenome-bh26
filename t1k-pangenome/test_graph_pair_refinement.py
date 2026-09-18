@@ -29,6 +29,17 @@ class GraphRefinementTests(unittest.TestCase):
         r=refine_gene([self.a,self.b],self.candidates,[[.001,1]]*100)
         self.assertTrue(r['changed']);self.assertEqual(r['pair'],[self.b,self.b])
 
+    def test_nuisance_variation_cannot_inflate_pair_specific_fragment_count(self):
+        candidates=self.candidates+[dict(label=None,families=['DQA1*01:04'])]
+        rows=[[1,1,0]]*100+[[.001,1,0]]*16
+        self.assertTrue(refine_gene([self.a,self.b],candidates,rows)['changed'])
+        strict=refine_gene([self.a,self.b],candidates,rows,pair_specific=True)
+        self.assertFalse(strict['changed'])
+        self.assertEqual(strict['native_pair_discriminating_fragments'],16)
+        self.assertEqual(strict['closest_pair_discriminating_fragments'],16)
+        enough=refine_gene([self.a,self.b],candidates,rows+[[.001,1,0]]*10,pair_specific=True)
+        self.assertTrue(enough['changed'])
+
     def test_missing_native_candidate_keeps_ipd_fallback(self):
         r=refine_gene([self.a,self.b],self.candidates[:1],[[1]]*100)
         self.assertFalse(r['changed']);self.assertIn('fallback',r['reason'])

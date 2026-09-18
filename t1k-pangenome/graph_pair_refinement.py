@@ -36,7 +36,7 @@ def internal_fragment(record, paths, gene):
 
 
 def refine_gene(native_pair, candidates, rows, minimum_fragments=20, minimum_gap=10,
-                noise=.01, tolerance=1e-8):
+                noise=.01, tolerance=1e-8, pair_specific=False):
     """Candidate entries carry label (or None) and possible two-field families."""
     if len(native_pair)!=2 or any(not a or len(a.split(':'))!=4 for a in native_pair):
         return dict(changed=False,reason='Native four-field pair unresolved')
@@ -74,6 +74,18 @@ def refine_gene(native_pair, candidates, rows, minimum_fragments=20, minimum_gap
     inferior=[s for s,p in scored if p!=pair]
     gap=best-max(inferior) if inferior else math.inf
     if gap<minimum_gap:return dict(result,reason='Competing graph pair remains close',score_gap=gap)
+    if pair_specific:
+        # Count fragments distinguishing the actual pairs, not other candidates.
+        proposed=(x[:,pair[0]]+x[:,pair[1]])*.5
+        native=(x[:,labels[native_pair[0]]]+x[:,labels[native_pair[1]]])*.5
+        native_count=int(np.sum(np.abs(proposed-native)>tolerance))
+        closest=[p for s,p in scored if p!=pair and max(inferior)-s<=tolerance] if inferior else []
+        competitor_count=min((int(np.sum(np.abs(proposed-(x[:,p[0]]+x[:,p[1]])*.5)>tolerance))
+                              for p in closest),default=len(x))
+        result.update(native_pair_discriminating_fragments=native_count,
+                      closest_pair_discriminating_fragments=competitor_count)
+        if min(native_count,competitor_count)<minimum_fragments:
+            return dict(result,reason='Insufficient pair-specific graph fragments',score_gap=gap)
     pair_x=x[:,list(pair)];totals=pair_x.sum(axis=1)
     support=np.divide(pair_x,totals[:,None],out=np.zeros_like(pair_x),where=totals[:,None]>0).sum(axis=0)
     if np.any(support<5):return dict(result,reason='Insufficient support for a proposed allele')
