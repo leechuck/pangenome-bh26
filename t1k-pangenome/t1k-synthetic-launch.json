@@ -1,0 +1,71 @@
+{
+  "baseline": {
+    "job": "52043568",
+    "command": [
+      "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+      "-1",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/r1.fq",
+      "-2",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/r2.fq",
+      "--preset",
+      "hla-wgs",
+      "-f",
+      "/home/leechuck/hla/hla-typer/t1kdb/hla365_dna_seq.fa",
+      "-t",
+      "4",
+      "--alleleDigitUnits",
+      "4",
+      "--alleleDelimiter",
+      ":",
+      "-o",
+      "/home/leechuck/hla/t1k-pangenome/smoke/t1k-v1/baseline/synthetic"
+    ],
+    "scope": "Synthetic training-path integration only; not independent typing accuracy"
+  },
+  "hprc": {
+    "job": "52043570",
+    "command": [
+      "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+      "-1",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/r1.fq",
+      "-2",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/r2.fq",
+      "--preset",
+      "hla-wgs",
+      "-f",
+      "/home/leechuck/hla/t1k-pangenome/t1k-references/v1/hprc/reference.fa",
+      "-t",
+      "4",
+      "--alleleDigitUnits",
+      "4",
+      "--alleleDelimiter",
+      ":",
+      "-o",
+      "/home/leechuck/hla/t1k-pangenome/smoke/t1k-v1/hprc/synthetic"
+    ],
+    "scope": "Synthetic training-path integration only; not independent typing accuracy"
+  },
+  "hprc_asian": {
+    "job": "52043572",
+    "command": [
+      "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+      "-1",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/r1.fq",
+      "-2",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/r2.fq",
+      "--preset",
+      "hla-wgs",
+      "-f",
+      "/home/leechuck/hla/t1k-pangenome/t1k-references/v1/hprc_asian/reference.fa",
+      "-t",
+      "4",
+      "--alleleDigitUnits",
+      "4",
+      "--alleleDelimiter",
+      ":",
+      "-o",
+      "/home/leechuck/hla/t1k-pangenome/smoke/t1k-v1/hprc_asian/synthetic"
+    ],
+    "scope": "Synthetic training-path integration only; not independent typing accuracy"
+  }
+}

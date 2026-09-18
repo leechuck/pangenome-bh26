@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "panel": "hprc_asian",
+  "driver_sha256": "415a1f371dfdbf5392f3f78e7adc422aa7dc2b5fa0c97a73e44aed231473b845",
+  "source_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+  "ipd_sha256": "024218d8482525bc5227ac8445a7c20ef69a66978a28ac73ff73e3a636297b22",
+  "ipd_records": 29429,
+  "added_contexts": 1163,
+  "skipped": [],
+  "scope": "Linear sequence-information control; no graph alignment or ancestry prior",
+  "limitation": "T1K treats contexts as separate sequence candidates. Its weighting and tie-breaking may depend on reference multiplicity; this is not a calibrated allele-level graph likelihood.",
+  "output_sha256": {
+    "reference.fa": "063f5baa5cd61214702abf8ebc90b9639fc0628af7e1d886a0880b21a103874b",
+    "aliases.json": "ff4bdd6d228d82958eafa641094d9b115e9c447e76723200ea406f92035be98b"
+  }
+}

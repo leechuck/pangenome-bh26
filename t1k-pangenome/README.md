@@ -99,3 +99,19 @@ coverage is approximately `2 * 40 * (150 - 29 + 1) / 150 = 65.07`. The v3
 experiment uses 65 to test the explicit-coverage workflow. This number is known
 from simulation and must not become a fixed assumption for real data. Real-data
 coverage estimation and selection calibration remain unresolved.
+
+`t1k_reference.py` prepares the linear sequence-information control. The complete
+IPD reference is copied byte-for-byte before adding observed full genomic
+contexts. Each added sequence has a short internal `GENE*PG...` identifier and
+a sidecar retaining genomic/CDS label alternatives, original graph path and
+source metadata. These identifiers are not official HLA allele names. The
+resolver never promotes a CDS-only match to four fields and never pads short
+labels. Missing coding annotations, unknown bases and exact duplicates already
+in IPD are recorded as skipped additions; the IPD fallback remains present.
+
+The adapter uses the available coding intervals as T1K coverage annotations;
+these are CDS intervals, not complete transcript exon/UTR annotations. T1K
+treats different contexts as separate candidates, and reference multiplicity
+can affect its weighting and tie-breaking. Consequently this is an explicit
+linear-reference control, not the final allele-level graph inference model.
+Synthetic and development testing must precede any held-out evaluation.

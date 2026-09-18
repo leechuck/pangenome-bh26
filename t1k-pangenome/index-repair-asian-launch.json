@@ -1,0 +1,4 @@
+{
+  "job": "52043378",
+  "command": "export SINGULARITYENV_SLURM_JOB_ID=\"$SLURM_JOB_ID\"; exec bash /ibex/scratch/projects/c2014/rob/dogohla-benchmark/run_ibex.sbatch /home/leechuck/hla/mm/envs/asian50-spechla/bin/python3 /home/leechuck/hla/t1k-pangenome/repair_graph_index.py --source /home/leechuck/hla/t1k-pangenome/graphs/build-v1/hprc_asian/DQA1 --output /home/leechuck/hla/t1k-pangenome/graphs/build-v2/hprc_asian/DQA1 --threads 8"
+}

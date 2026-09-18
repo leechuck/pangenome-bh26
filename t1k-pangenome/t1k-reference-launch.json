@@ -1,0 +1,32 @@
+{
+  "hprc": {
+    "job": "52043487",
+    "command": [
+      "python3",
+      "/home/leechuck/hla/t1k-pangenome/t1k_reference.py",
+      "--reference",
+      "/home/leechuck/hla/t1k-pangenome/references/observed-v2",
+      "--panel",
+      "hprc",
+      "--ipd",
+      "/home/leechuck/hla/hla-typer/t1kdb/hla365_dna_seq.fa",
+      "--output",
+      "/home/leechuck/hla/t1k-pangenome/t1k-references/v1/hprc"
+    ]
+  },
+  "hprc_asian": {
+    "job": "52043488",
+    "command": [
+      "python3",
+      "/home/leechuck/hla/t1k-pangenome/t1k_reference.py",
+      "--reference",
+      "/home/leechuck/hla/t1k-pangenome/references/observed-v2",
+      "--panel",
+      "hprc_asian",
+      "--ipd",
+      "/home/leechuck/hla/hla-typer/t1kdb/hla365_dna_seq.fa",
+      "--output",
+      "/home/leechuck/hla/t1k-pangenome/t1k-references/v1/hprc_asian"
+    ]
+  }
+}
