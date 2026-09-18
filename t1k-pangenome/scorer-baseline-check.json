@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "rows": 1024,
+  "metrics": [
+    "eligible",
+    "called",
+    "correct",
+    "allele_matches"
+  ],
+  "sha256": {
+    "hla-spechla-pg/series20260918/analysis/gene_scores.tsv": "cbeaa8950bfba421861ee481747392d0f422e1a3797176aa9ee38054a9e50d02",
+    "t1k-pangenome/work/scorer-check/gene_scores.tsv": "2c8648edbd3b25cb2557ac3f02c4bf9423f01633393d69976276dad4dc203a1d",
+    "t1k-pangenome/score_linear_controls.py": "a2a955b9cffec3dfa8e14c7f6d8081ed95cdc7efeb15c5ce0dd137ed53a14820"
+  },
+  "baseline": {
+    "two_field": [
+      495,
+      509
+    ],
+    "four_field": [
+      163,
+      323
+    ]
+  },
+  "scope": "Baseline scoring parity; no new method results"
+}

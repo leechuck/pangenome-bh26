@@ -1,0 +1,27 @@
+{
+  "scope": "Matched-64 development only; native T1K with observed sequence additions",
+  "dependencies": [
+    "52039862",
+    "52040469",
+    "52040014",
+    "52044803"
+  ],
+  "dependency_policy": "afterany: retain failed benchmark samples",
+  "code_sha256": {
+    "run_linear_control.py": "9d213d1bb3dc750d3a3ddc3fc11688b81cd07bdb2949e668b91b126295f605a2",
+    "decode_t1k.py": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+    "t1k_reference.py": "21091a604007befd040e055f5a0409e70b428de8e03d305a469c728567186cbc",
+    "build_panel.py": "60d51b0276db3d1a6a109bf22bb4f555a7cadb40d4e1f1856758e16b80d238d2",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f"
+  },
+  "jobs": {
+    "hprc": {
+      "pilot": "52044863",
+      "array": "52044864"
+    },
+    "hprc_asian": {
+      "pilot": "52044865",
+      "array": "52044866"
+    }
+  }
+}

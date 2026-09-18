@@ -111,6 +111,15 @@ with added observed sequences. It retains raw genotype tables, decodes internal
 context identifiers to explicit two-/four-field alternatives, hashes inputs and
 records failures. These controls use native T1K alignment, not graph alignment.
 
+The matched-64 controls are queued behind the remaining legacy benchmark jobs
+(linear-control-launch.json). Each panel has a one-donor execution pilot followed
+by 63 samples conditional on pilot success. The scorer reproduces all 1,024
+baseline donor/locus/resolution rows, including eligibility, called genotypes,
+correct genotypes and allele matches. Baseline totals remain 495/509 at two fields
+and 163/323 at four fields. All predicted alternatives must agree with truth;
+unknown alternatives cannot be silently removed. These samples remain development
+data, irrespective of the resulting improvements or regressions.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
