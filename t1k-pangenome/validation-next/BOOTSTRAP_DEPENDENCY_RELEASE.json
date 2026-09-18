@@ -1,0 +1,408 @@
+{
+  "parent": "52062901",
+  "child": "52062902",
+  "started": "2026-09-18 16:38:58.559636",
+  "actions": [
+    {
+      "job": "52062902_181",
+      "parent": "52062901_181",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_182",
+      "parent": "52062901_182",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_184",
+      "parent": "52062901_184",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_185",
+      "parent": "52062901_185",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_186",
+      "parent": "52062901_186",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_187",
+      "parent": "52062901_187",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_188",
+      "parent": "52062901_188",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_189",
+      "parent": "52062901_189",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_190",
+      "parent": "52062901_190",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_192",
+      "parent": "52062901_192",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_193",
+      "parent": "52062901_193",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_194",
+      "parent": "52062901_194",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_195",
+      "parent": "52062901_195",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_196",
+      "parent": "52062901_196",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_197",
+      "parent": "52062901_197",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_198",
+      "parent": "52062901_198",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_200",
+      "parent": "52062901_200",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_201",
+      "parent": "52062901_201",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_202",
+      "parent": "52062901_202",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_203",
+      "parent": "52062901_203",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_204",
+      "parent": "52062901_204",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_205",
+      "parent": "52062901_205",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_206",
+      "parent": "52062901_206",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_207",
+      "parent": "52062901_207",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_208",
+      "parent": "52062901_208",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_209",
+      "parent": "52062901_209",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_210",
+      "parent": "52062901_210",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_211",
+      "parent": "52062901_211",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_212",
+      "parent": "52062901_212",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_213",
+      "parent": "52062901_213",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_214",
+      "parent": "52062901_214",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_215",
+      "parent": "52062901_215",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_216",
+      "parent": "52062901_216",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_217",
+      "parent": "52062901_217",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_218",
+      "parent": "52062901_218",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_219",
+      "parent": "52062901_219",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_220",
+      "parent": "52062901_220",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_221",
+      "parent": "52062901_221",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_222",
+      "parent": "52062901_222",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52062902_223",
+      "parent": "52062901_223",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52062901_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "finished": "2026-09-18 16:40:31.308051"
+}

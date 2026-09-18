@@ -87,3 +87,11 @@ at the initial check. Dependent arrays are queued behind their prerequisites.
 The monitor remains active and will release calibrated mapping and subsequent
 stages. This is execution status, not evidence of accuracy; no predictions or
 held-out truth have been scored.
+
+A scheduling check found projection tasks still pending on wildcard `aftercorr`
+dependencies even though their exact matching bootstrap tasks had completed with
+exit 0:0. `release_hgsvc_bootstrap_dependencies.py` rechecked each pending task's
+current dependency and released **40** such tasks, leaving every unfinished
+parent dependency intact. All updates succeeded. The complete per-task audit is
+`BOOTSTRAP_DEPENDENCY_RELEASE.json`, also saved remotely before acknowledgement.
+This changes scheduling only, not inference inputs, parameters or scoring.
