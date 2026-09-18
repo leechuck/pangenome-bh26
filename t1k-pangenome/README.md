@@ -71,3 +71,11 @@ A failed topology/index step is a failed build, with no full-graph fallback.
 Successful preprocessing does not yet prove sample-specific selection or typing
 accuracy. The graph remains a locus preparation artifact without a complete
 paralog/decoy reference.
+
+`smoke_personalization.py` tests the integrated vg k-mer counting, haplotype
+sampling and paired-read mapping workflow using deterministic synthetic reads
+from two training paths. It copies graph artifacts to an isolated directory,
+records source/tool/read hashes, and requires one alignment record per read and
+at least 95% mapped reads. This gate checks execution and output completeness;
+it does not test correct placements, HLA genotype accuracy or held-out
+generalization. Validation donors and their truth are not consumed.
