@@ -23,6 +23,11 @@ def smoke(graph, reference, output, threads):
     if output.exists():
         raise FileExistsError(output)
     graph, reference = graph.resolve(), reference.resolve()
+    os.environ['OMP_NUM_THREADS'] = str(threads)
+    os.environ['PATH'] = '/home/leechuck/hla/t1k-pangenome/tools/kmc-3.2.4:' + os.environ['PATH']
+    kmc = shutil.which('kmc')
+    if not kmc:
+        raise FileNotFoundError('KMC is required by vg integrated k-mer counting')
     manifest = json.loads((graph/'COMPLETE.json').read_text())
     if manifest['status'] != 'complete' or manifest['source_sha256'] != sha(reference):
         raise ValueError('Graph/reference mismatch')
@@ -58,6 +63,7 @@ def smoke(graph, reference, output, threads):
                   scope='Synthetic training-path integration test; not typing accuracy',
                   graph_manifest_sha256=sha(graph/'COMPLETE.json'),
                   driver_sha256=sha(Path(__file__)), vg_sha256=sha(Path(vg)),
+                  kmc_sha256=sha(Path(kmc)),
                   selected_training_paths=chosen, pairs=pair_count, seed=20260918,
                   reads_sha256={p:sha(output/p) for p in ('r1.fq','r2.fq')})
 

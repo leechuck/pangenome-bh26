@@ -1,0 +1,6 @@
+{
+  "url": "https://github.com/refresh-bio/KMC/releases/download/v3.2.4/KMC3.2.4.linux.x64.tar.gz",
+  "archive_sha256": "158f2084f8d928b3f33b8aaf7d1220fee4183bf46837787e5e6b16bbdf54d31d",
+  "member": "bin/kmc",
+  "binary_sha256": "89e59edde1e8324493f81f93b310a3fb3f1b1cee9c53460ccec3eb725e8f9abb"
+}

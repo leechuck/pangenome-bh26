@@ -50,8 +50,9 @@ Current references preserve 86 HPRC/reference source haplotypes per locus and
 These counts are smaller than the old benchmark panels because the new reserved
 test families and previously exposed development families are all excluded.
 
-Remaining implementation: graph construction and topology validation, competing
-paralog/decoy references, sample-specific k-mer selection, T1K reference adapter,
+Graph construction and topology validation passed for the HPRC HLA-A pilot;
+the remaining 15 panel/locus builds are scheduled. Remaining implementation:
+competing paralog/decoy references, sample-specific k-mer selection, T1K reference adapter,
 graph-based candidate-pair refinement, and frozen independent evaluation.
 The existing eight target loci alone are not a complete mapping decoy set.
 
@@ -79,3 +80,9 @@ records source/tool/read hashes, and requires one alignment record per read and
 at least 95% mapped reads. This gate checks execution and output completeness;
 it does not test correct placements, HLA genotype accuracy or held-out
 generalization. Validation donors and their truth are not consumed.
+
+The installed vg 1.76.1 integrated workflow still executes external `kmc`.
+KMC 3.2.4 is staged separately under `tools/kmc-3.2.4`; its upstream archive and
+binary hashes are in `kmc-provenance.json`. The smoke driver sets
+`OMP_NUM_THREADS` to its allocated thread count, overriding the benchmark
+container's one-thread default for this subprocess only.
