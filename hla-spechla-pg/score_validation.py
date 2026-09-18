@@ -37,7 +37,8 @@ def write_tsv(path, rows):
     if not rows:
         return
     with open(path, 'w') as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0]), delimiter='\t', lineterminator='\n')
+        fields = list(dict.fromkeys(k for row in rows for k in row))
+        w = csv.DictWriter(f, fieldnames=fields, delimiter='\t', lineterminator='\n')
         w.writeheader(); w.writerows(rows)
 
 

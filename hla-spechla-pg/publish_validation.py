@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 import json
 from pathlib import Path
 import subprocess
+import time
 
 ROOT=Path(__file__).resolve().parent.parent
 REPORT='hla-spechla-pg/results/validation-20260918'
@@ -13,7 +14,12 @@ def git(*args):
 
 
 def main():
-    record=json.loads((ROOT/REPORT/'monitor.json').read_text())
+    for attempt in range(31):
+        record=json.loads((ROOT/REPORT/'monitor.json').read_text())
+        if record['complete'] or record['deadline_reached']:
+            break
+        if attempt < 30:
+            time.sleep(10)
     if not record['complete'] and not record['deadline_reached']:
         raise RuntimeError('Monitor has not produced a terminal report')
     if git('branch','--show-current') != 'hla-experiments':
