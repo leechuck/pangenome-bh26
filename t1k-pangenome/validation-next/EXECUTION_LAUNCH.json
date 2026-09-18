@@ -47,7 +47,11 @@
     "bootstrap": "52062901",
     "bootstrap_evidence": "52062902",
     "calibration": "52062917",
-    "mapping": "52063958"
+    "mapping": "52063958",
+    "evidence": "52064459",
+    "join": "52065065",
+    "refine": "52065234",
+    "anchor": "52065325"
   },
   "pending_submission": null,
   "scope": "All 28 reserved donors; no truth or typing output inspection"

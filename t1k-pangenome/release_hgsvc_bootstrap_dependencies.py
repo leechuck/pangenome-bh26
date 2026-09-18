@@ -1,4 +1,5 @@
-"""Release only projection tasks whose exact bootstrap parent succeeded."""
+"""Release only projection tasks whose exact mapping parent succeeded."""
+import argparse
 import json
 import shlex
 from pathlib import Path
@@ -6,7 +7,10 @@ from launch_development_evidence import B,remote
 
 HERE=Path(__file__).resolve().parent
 ledger=json.loads((HERE/'validation-next/EXECUTION_LAUNCH.json').read_text())
-parent=ledger['jobs']['bootstrap'];child=ledger['jobs']['bootstrap_evidence']
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--phase',choices=('bootstrap','mapping'),default='bootstrap')
+phase=parser.parse_args().phase
+parent=ledger['jobs'][phase];child=ledger['jobs']['bootstrap_evidence' if phase=='bootstrap' else 'evidence']
 script='''import subprocess,json,pathlib,datetime
 parent=PARENT_LITERAL;child=CHILD_LITERAL
 output=pathlib.Path(OUTPUT_LITERAL)
@@ -31,7 +35,7 @@ for row in queue.splitlines():
  item.update(status='released' if result.returncode==0 else 'update_failed',returncode=result.returncode,stderr=result.stderr);save()
 record['finished']=str(datetime.datetime.utcnow());save()
 print(json.dumps(record))
-'''.replace('PARENT_LITERAL',repr(parent)).replace('CHILD_LITERAL',repr(child)).replace('OUTPUT_LITERAL',repr(B+'/hla/t1k-pangenome/hgsvc-validation-v1/bootstrap-dependency-release.json'))
+'''.replace('PARENT_LITERAL',repr(parent)).replace('CHILD_LITERAL',repr(child)).replace('OUTPUT_LITERAL',repr(B+'/hla/t1k-pangenome/hgsvc-validation-v1/'+phase+'-dependency-release.json'))
 record=json.loads(remote('python3 -c '+shlex.quote(script)))
-(HERE/'validation-next/BOOTSTRAP_DEPENDENCY_RELEASE.json').write_text(json.dumps(record,indent=2)+'\n')
+(HERE/'validation-next'/(phase.upper()+'_DEPENDENCY_RELEASE.json')).write_text(json.dumps(record,indent=2)+'\n')
 print(json.dumps(dict(checked_successful_parents=len(record['actions']),released=sum(r['status']=='released' for r in record['actions']))))

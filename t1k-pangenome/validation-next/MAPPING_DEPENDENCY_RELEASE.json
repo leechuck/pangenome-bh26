@@ -1,0 +1,107 @@
+{
+  "parent": "52063958",
+  "child": "52064459",
+  "started": "2026-09-18 16:49:06.071762",
+  "actions": [
+    {
+      "job": "52064459_182",
+      "parent": "52063958_182",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52063958_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52064459_183",
+      "parent": "52063958_183",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52063958_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52064459_184",
+      "parent": "52063958_184",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52063958_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52064459_185",
+      "parent": "52063958_185",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52063958_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52064459_186",
+      "parent": "52063958_186",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52063958_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52064459_187",
+      "parent": "52063958_187",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52063958_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52064459_188",
+      "parent": "52063958_188",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52063958_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52064459_189",
+      "parent": "52063958_189",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52063958_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52064459_190",
+      "parent": "52063958_190",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52063958_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "job": "52064459_191",
+      "parent": "52063958_191",
+      "parent_state": "COMPLETED",
+      "parent_exit": "0:0",
+      "previous_dependency": "aftercorr:52063958_*(unfulfilled)",
+      "status": "released",
+      "returncode": 0,
+      "stderr": ""
+    }
+  ]
+}

@@ -101,3 +101,15 @@ T1K reference, coverage, native evidence and calibration, plus 224 bootstrap
 mappings and 224 projections. The dispatcher submitted calibrated two-panel
 mapping as **52063958** (448 tasks, concurrency limit 200). Downstream projection,
 refinement and independent scoring remain outstanding.
+
+All 448 calibrated mappings and all 448 projections completed with exit 0:0.
+The same verified-parent dependency release was applied to this projection array:
+ten updates were acknowledged and persisted remotely. The helper subsequently
+exited nonzero before its final acknowledgement; its underlying stderr was not
+preserved by the SSH wrapper. The remote incremental audit was recovered, every
+recorded update was confirmed acknowledged, and all 896 tasks were independently
+verified complete. No job or release operation was repeated. See
+`MAPPING_DEPENDENCY_RELEASE.json` and `MAPPING_EXECUTION_RECONCILIATION.json`.
+
+Evidence joins **52065065** completed all 56 tasks successfully. Guarded genotype
+refinement has been submitted as **52065234**. Accuracy remains unscored.

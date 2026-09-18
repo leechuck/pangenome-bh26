@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-18T16:57:12.744191+00:00",
+  "release_helper_exit": "Nonzero before final acknowledgement; underlying SSH stderr not preserved",
+  "recorded_releases": 10,
+  "all_recorded_updates_acknowledged": true,
+  "mapping_tasks_completed": 448,
+  "projection_tasks_completed": 448,
+  "all_exit_codes": "0:0",
+  "recovery": "Recovered remote incremental audit; no job restarted and no release operation repeated"
+}
