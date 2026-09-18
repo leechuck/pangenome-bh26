@@ -147,10 +147,12 @@ without accepting a change of samples or input reads.
 The HG00658 execution pilot completed for both observed-sequence controls
 (development-linear-pilot-result.json). Frozen T1K scored 8/8 two-field and 2/5
 four-field eligible genotypes; HPRC additions scored 7/8 and 3/5; HPRC-plus-Asian
-additions scored 8/8 and 4/5. This is one already-observed development donor and
+additions scored 8/8 and 4/5. Full-genomic-IPD substitution scored 8/8 and 5/5.
+Thus the stronger genomic control explains more of this donor's four-field gain;
+the Asian graph must also be assessed against that control. This is one already-observed development donor and
 uses native T1K alignment. It cannot establish independent improvement or an
-effect of graph alignment. The full-genomic-IPD control and the remaining 63
-development donors are still required to interpret these preliminary gains.
+effect of graph alignment. The remaining 63 development donors are still required
+to interpret these preliminary gains.
 
 The isolated native-evidence exporter modifies only T1K 1.0.6's two assignment
 printing sites. It appends the existing weight, qual and adjustWeight fields
@@ -208,6 +210,8 @@ The synthetic integration retains exactly 2,004 fragments: 708 with both sources
 and 1,296 with graph-only support. Scores are not combined as independent reads.
 The first real native-evidence pilot reuses frozen T1K candidate FASTQs and must
 reproduce its genotype table byte-for-byte before its evidence is accepted.
+It passed for HG00658 in 156.6 seconds: native-evidence-development-result.json
+records identical genotypes and hashes for the instrumented assignment export.
 
 The full-genomic-IPD control reference contains the same 29,429 candidate IDs as
 the frozen database: 26,745 genomic substitutions and 2,684 retained fallback

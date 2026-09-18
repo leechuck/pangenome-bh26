@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "started": 1789732551.5069795,
+  "donor": "HG00658",
+  "baseline_manifest_sha256": "66aaeb16b04e97fac7b6feeb791e73838aba699bcac31073f7edc90b2a4cb84f",
+  "baseline_completion_sha256": "7e37d6c47b3842ea63263af3cc29b02c1c08b097931a9a7e72aee6aed9da43fe",
+  "instrumented_build_sha256": "b0bd72b9f856eb60576285015cc9add6c831916ee6da47ba7ad2f4602aeeaa1f",
+  "input_sha256": {
+    "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+    "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+  },
+  "candidate_reads_sha256": {
+    "/home/leechuck/hla/dogohla-series20260918/t1k4/HG00658/HG00658_candidate_1.fq": "35110fbb809f4c9bfb63fb5c1cd174c01f4e87e0e6a6313730214c1beee17c95",
+    "/home/leechuck/hla/dogohla-series20260918/t1k4/HG00658/HG00658_candidate_2.fq": "45a8fc9953e1df180faa3c124031d64e24b66c66943b2305f9d8769b8bf90f70"
+  },
+  "driver_sha256": "158a7ed3a3466cf1b7b0e7193177454b83342f466a9f95ae28291e8aef616504",
+  "reference_sha256": "024218d8482525bc5227ac8445a7c20ef69a66978a28ac73ff73e3a636297b22",
+  "scope": "Native assignment export; baseline genotype preservation required",
+  "command": [
+    "/home/leechuck/hla/t1k-pangenome/tools/t1k-evidence-v1/export/genotyper",
+    "-s",
+    "0.97",
+    "--alleleDigitUnits",
+    "4",
+    "--alleleDelimiter",
+    ":",
+    "--outputReadAssignment",
+    "-f",
+    "/home/leechuck/hla/hla-typer/t1kdb/hla365_dna_seq.fa",
+    "-1",
+    "/home/leechuck/hla/dogohla-series20260918/t1k4/HG00658/HG00658_candidate_1.fq",
+    "-2",
+    "/home/leechuck/hla/dogohla-series20260918/t1k4/HG00658/HG00658_candidate_2.fq",
+    "-t",
+    "4",
+    "-o",
+    "/home/leechuck/hla/t1k-pangenome/development/native-evidence-v1/HG00658/HG00658"
+  ],
+  "finished": 1789732708.05966,
+  "genotype_unchanged": true,
+  "output_sha256": {
+    "HG00658_genotype.tsv": "e610308ca65aa5ecd2a1699658ab519cafca68c722db7de6e33c8b77a993cc12",
+    "HG00658_assign.tsv": "45e565992d250ac3999e74b271c2f1fd14f7b2ef6be41ec7b69d3e72cb8fb02c",
+    "evidence-audit.json": "9a649bc0ad6bbd8832b82896838ef950aa6857b4ed36a974715360bc73441963"
+  }
+}
