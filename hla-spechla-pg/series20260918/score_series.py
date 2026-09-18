@@ -11,6 +11,12 @@ from score_validation import write_tsv
 ROOT=HERE/'snapshot';OUT=HERE/'analysis'
 METHODS=['SpecHLA-IPD365-noFreq','SpecHLA-IPD365-long-noFreq','T1K-four-field']+[f'{a}:{m}' for a in ('full','hprc','asian_matched') for m in ('DogoHLA','DogoHLA-no-graph')]
 
+def terminal_failure(path):
+ marker=path/'TERMINAL_FAILURE.json'
+ if not marker.exists():return False
+ record=json.loads(marker.read_text())
+ return record['manifest_sha256']==sha(path/'manifest.json') and json.loads((path/'manifest.json').read_text())['status']=='failed'
+
 def locate(d,m):
  if m=='T1K-four-field':return ROOT/'t1k4'/d
  if m.startswith('SpecHLA'):return ROOT/'arms/full/runs'/d/('native-long' if '-long-' in m else 'native')

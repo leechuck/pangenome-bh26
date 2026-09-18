@@ -137,3 +137,10 @@ The 946-sample T1K run produced 945 validated completions and one analyzer
 segmentation fault (NA10846); the failed attempt is preserved and the same
 four-thread, four-field configuration is retried separately. No failed sample
 is removed from scoring denominators.
+
+The identical T1K retry reproduced the analyzer segmentation fault. NA10846 is
+recorded as a final failed call using a marker bound to the failed manifest hash;
+its five eligible genotype pairs remain in the denominator with zero credit.
+The first complete T1K outcome is therefore 945 successful donors plus one
+reproducible failure, with 4,437/4,723 two-field experimental genotype pairs
+correct. The audit of both attempts is included in the result provenance.

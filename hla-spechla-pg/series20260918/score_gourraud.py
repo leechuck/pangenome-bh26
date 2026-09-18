@@ -27,13 +27,16 @@ def main():
     donors=list(csv.DictReader((HERE/'cohort.gourraud.tsv').open(),delimiter='\t'))
     methods=[m for m in matched.METHODS if '-long-' not in m]
     nom=Nomenclature();truth,reasons=gourraud('two_field',nom)
-    rows=[];states=[];hashes={}
+    rows=[];states=[];hashes={};failure_audits={}
     for d in donors:
         for method in methods:
             p=matched.locate(d['donor'],method);state='not_started';names={}
             if (p/'manifest.json').exists():
                 try:
                     manifest=json.loads((p/'manifest.json').read_text());state=manifest['status']
+                    if state=='failed' and matched.terminal_failure(p):
+                        state='failed_final'
+                        failure_audits[method+'/'+d['donor']]=json.loads((p/'TERMINAL_FAILURE.json').read_text())
                     if completed(p,manifest['configuration']):
                         state='complete';f=p/(d['donor']+'_genotype.tsv' if method=='T1K-four-field' else 'hla.result.txt')
                         names=t1k_calls(f) if method=='T1K-four-field' else read_result(f)
@@ -50,11 +53,12 @@ def main():
         for stratum in ('ALL','EAS','EUR','AFR','AMR'):
             ds={d['donor'] for d in donors if stratum=='ALL' or d['stratum']==stratum}
             rs=[r for r in rows if r['method']==method and r['donor'] in ds]
-            summary.append(dict(method=method,stratum=stratum,planned=len(ds),complete=sum(s['state']=='complete' for s in states if s['method']==method and s['donor'] in ds),**{k:sum(r[k] for r in rs) for k in ('eligible','called','correct','allele_matches')}))
+            summary.append(dict(method=method,stratum=stratum,planned=len(ds),complete=sum(s['state']=='complete' for s in states if s['method']==method and s['donor'] in ds),failed_final=sum(s['state']=='failed_final' for s in states if s['method']==method and s['donor'] in ds),**{k:sum(r[k] for r in rs) for k in ('eligible','called','correct','allele_matches')}))
     write_tsv(out/'gene_scores.tsv',rows);write_tsv(out/'summary.tsv',summary);write_tsv(out/'status.tsv',states)
-    # Until both methods complete the whole planned cohort, withhold intervals:
+    # Until both methods have terminal outcomes for the whole planned cohort,
+    # withhold intervals:
     # scheduling speed must not determine which families enter a comparison.
-    finished={s['method'] for s in summary if s['stratum']=='ALL' and s['complete']==len(donors)}
+    finished={s['method'] for s in summary if s['stratum']=='ALL' and s['complete']+s['failed_final']==len(donors)}
     index={(r['method'],r['donor'],r['gene']):r for r in rows};intervals={}
     target='full:DogoHLA'
     if target in finished:
@@ -66,11 +70,11 @@ def main():
                 groups[r['family']][0]+=r['correct']-b['correct'];groups[r['family']][1]+=1
             intervals[baseline]=family_interval(groups)
     (out/'bootstrap.json').write_text(json.dumps(intervals,indent=2)+'\n')
-    (out/'provenance.json').write_text(json.dumps(dict(cohort_sha256=sha(HERE/'cohort.gourraud.tsv'),output_sha256=hashes,truth='Gourraud 2014 experimental exon typing, ambiguity-aware two-field; no four-field truth',bootstrap='Paired family clusters; fixed seed; 10000 replicates; exploratory, no multiplicity adjustment'),indent=2)+'\n')
-    report=['# Gourraud experimental-truth benchmark','','946 donors; 660 family groups; graph-donor and known-family overlap zero. Four-field calls are retained, but this truth supports two-field scoring only.','','| Method | Complete | Two-field genotype pairs |','|---|---:|---:|']
+    (out/'provenance.json').write_text(json.dumps(dict(cohort_sha256=sha(HERE/'cohort.gourraud.tsv'),output_sha256=hashes,failure_audits=failure_audits,truth='Gourraud 2014 experimental exon typing, ambiguity-aware two-field; no four-field truth',bootstrap='Paired family clusters; fixed seed; 10000 replicates; exploratory, no multiplicity adjustment'),indent=2)+'\n')
+    report=['# Gourraud experimental-truth benchmark','','946 donors; 660 family groups; graph-donor and known-family overlap zero. Four-field calls are retained, but this truth supports two-field scoring only.','','| Method | Successful | Final failures | Two-field genotype pairs |','|---|---:|---:|---:|']
     for s in summary:
-        if s['stratum']=='ALL':report.append(f"| {s['method']} | {s['complete']}/946 | "+(f"{s['correct']}/{s['eligible']}" if s['complete']==946 else 'pending')+' |')
-    report+=['','Pending/failed calls retain planned eligible denominators. Summary TSV includes ancestry strata. Intervals appear only after both compared methods complete the entire cohort.','']
+        if s['stratum']=='ALL':report.append(f"| {s['method']} | {s['complete']}/946 | {s['failed_final']} | "+(f"{s['correct']}/{s['eligible']}" if s['method'] in finished else 'pending')+' |')
+    report+=['','Pending/failed calls retain planned eligible denominators. A final failure requires a hash-bound audit record after investigation/retry; it receives zero correct credit. Summary TSV includes ancestry strata. Intervals appear only after all planned samples have successful or final-failure outcomes in both compared methods.','']
     (out/'REPORT.md').write_text('\n'.join(report));print('\n'.join(report))
 
 if __name__=='__main__':main()

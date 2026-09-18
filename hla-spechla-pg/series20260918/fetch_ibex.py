@@ -16,7 +16,7 @@ with tarfile.open(fileobj=sys.stdout.buffer,mode='w|gz') as tar:
   d=r['donor'];paths=[root/'t1k4'/d,root/'arms/full/runs'/d/'native',root/'arms/full/runs'/d/'native-long']
   paths += [root/'arms'/a/'final/runs'/d/m for a in ('full','hprc','asian_matched') for m in ('DogoHLA','DogoHLA-no-graph')]
   for p in paths:
-   for n in ('manifest.json','COMPLETE'):
+   for n in ('manifest.json','COMPLETE','TERMINAL_FAILURE.json'):
     if (p/n).exists():tar.add(p/n,arcname=str((p/n).relative_to(root)))
    if (p/'COMPLETE').exists():
     m=json.loads((p/'COMPLETE').read_text())
