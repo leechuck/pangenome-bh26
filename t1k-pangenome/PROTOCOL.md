@@ -1,7 +1,8 @@
 # T1K plus an Asian-enriched personalized graph
 
-Status: preparation. No improvement established. Existing benchmark runs remain
-frozen and finish before new improvement experiments are launched.
+Status: development experiments running. Independent improvement is not yet
+established. The frozen matched-64 and Gourraud-946 benchmarks have finished,
+including reproducible-failure accounting.
 
 ## Scope and controls
 
@@ -9,6 +10,17 @@ Complete the matched-64 and Gourraud-946 benchmark and its existing comparators,
 including final failure accounting, per-ancestry output, and panel ablations.
 HLA-HD is postponed indefinitely at Robert's request on 18 September 2026.
 It is outside the current benchmark completion requirements and has no results.
+
+The completed Gourraud benchmark scored full/additive DogoHLA at 3255/4723,
+HPRC-only DogoHLA at 3246/4723, and frozen T1K at 4437/4723 eligible two-field
+genotypes. Full minus HPRC was +0.19 percentage points (paired family-bootstrap
+95% interval −0.32 to +0.71), so this benchmark does not establish an additive
+graph advantage. Full minus T1K was −25.03 percentage points (−26.11 to −23.98).
+The final full-panel NA20790 phasing failure reproduced with identical log hashes
+and unchanged configuration; its eligible genotypes remain in the denominator.
+See ../hla-spechla-pg/series20260918/analysis/gourraud/ for complete per-ancestry
+tables, intervals and provenance. This experimental truth supports two fields;
+the separate matched-64 results also evaluate exact genomic four-field truth.
 
 The new inference pipeline retains T1K's joint allele competition. It uses read
 k-mers to select local paths from HPRC plus Asian haplotypes, aligns reads to the
@@ -124,6 +136,22 @@ and 163/323 at four fields. All predicted alternatives must agree with truth;
 unknown alternatives cannot be silently removed. These samples remain development
 data, irrespective of the resulting improvements or regressions.
 
+The scorer archives IBEX's execution-cohort.tsv separately from the original
+selection table: only CRAM locations differ (public URLs replace DDBJ-local
+paths). It verifies identical donor order and every non-location metadata field,
+requires each control to hash to that exact execution table, and still checks
+paired-read hashes against the frozen baseline. A changed donor, family, fold or
+selection record is rejected. This resolves the execution-table byte-hash mismatch
+without accepting a change of samples or input reads.
+
+The HG00658 execution pilot completed for both observed-sequence controls
+(development-linear-pilot-result.json). Frozen T1K scored 8/8 two-field and 2/5
+four-field eligible genotypes; HPRC additions scored 7/8 and 3/5; HPRC-plus-Asian
+additions scored 8/8 and 4/5. This is one already-observed development donor and
+uses native T1K alignment. It cannot establish independent improvement or an
+effect of graph alignment. The full-genomic-IPD control and the remaining 63
+development donors are still required to interpret these preliminary gains.
+
 The isolated native-evidence exporter modifies only T1K 1.0.6's two assignment
 printing sites. It appends the existing weight, qual and adjustWeight fields
 before read assignments are coalesced. Those values encode T1K's own heuristics;
@@ -164,6 +192,13 @@ haplotype preprocessing is insufficient for giraffe. Both sampled and unsampled
 synthetic mapping retained and mapped all 4,008 reads. HG00658 HLA-A mapping pilots
 for both panels and both selection settings are queued after the remaining
 legacy benchmark. These outputs are evidence inputs, not complete HLA calls.
+
+The real HLA-A pilots completed in 68–79 seconds each and retained all 1,477,842
+input reads (development-map-pilot-result.json). HPRC mapped 12,478 reads without
+selection and 8,734 with selection; HPRC-plus-Asian mapped 12,950 and 8,639,
+respectively. Mapping counts do not establish specificity or genotype accuracy.
+The selection effect must be assessed using concordant fragment support and
+development genotypes, while keeping all-IPD alternatives available.
 
 join_evidence.py verifies native/graph input read hashes and the mapping-to-path-
 support-to-fragment evidence chain. A disk-backed join retains one row per

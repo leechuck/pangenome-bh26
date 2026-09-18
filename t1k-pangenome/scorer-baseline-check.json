@@ -9,8 +9,8 @@
   ],
   "sha256": {
     "hla-spechla-pg/series20260918/analysis/gene_scores.tsv": "cbeaa8950bfba421861ee481747392d0f422e1a3797176aa9ee38054a9e50d02",
-    "t1k-pangenome/work/scorer-check/gene_scores.tsv": "7d2da2c2db67dadf89bcd3f4d2b502b8cc89c9665b114bfe14da0ec97cb2e1d2",
-    "t1k-pangenome/score_linear_controls.py": "6446aa1239298f196f65457a905fe48751dc717fc94981313b8f9c44976ab505"
+    "t1k-pangenome/development/linear-analysis/gene_scores.tsv": "69adcfa35ef6a9a4057c06e9b7e99221650a33e0ee05643e6ada1423c4270c9d",
+    "t1k-pangenome/score_linear_controls.py": "281b6ac9bac68467e787f0d68b63d6c7739750690c1d04ea4f255d3cc3c97037"
   },
   "baseline": {
     "two_field": [
@@ -22,5 +22,5 @@
       323
     ]
   },
-  "scope": "Baseline scoring parity; no new method results"
+  "scope": "Baseline scoring parity after execution-cohort verification fix; no independent improvement claim"
 }

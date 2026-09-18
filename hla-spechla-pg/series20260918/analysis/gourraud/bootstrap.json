@@ -1,1 +1,51 @@
-{}
+{
+  "SpecHLA-IPD365-noFreq": {
+    "difference": 0.03430023290281601,
+    "lower_95": 0.025225225225225224,
+    "upper_95": 0.04341119435874835,
+    "families": 660,
+    "replicates": 10000
+  },
+  "T1K-four-field": {
+    "difference": -0.2502646622909168,
+    "lower_95": -0.2610647851186658,
+    "upper_95": -0.23982093370283522,
+    "families": 660,
+    "replicates": 10000
+  },
+  "asian_matched:DogoHLA": {
+    "difference": 0.004234596654668642,
+    "lower_95": -0.0004114379757251594,
+    "upper_95": 0.008847600088476001,
+    "families": 660,
+    "replicates": 10000
+  },
+  "asian_matched:DogoHLA-no-graph": {
+    "difference": 0.0031759474910014822,
+    "lower_95": -0.001683147485798443,
+    "upper_95": 0.007950150408250967,
+    "families": 660,
+    "replicates": 10000
+  },
+  "full:DogoHLA-no-graph": {
+    "difference": -0.0010586491636671606,
+    "lower_95": -0.0035328345802161263,
+    "upper_95": 0.001451077943615257,
+    "families": 660,
+    "replicates": 10000
+  },
+  "hprc:DogoHLA": {
+    "difference": 0.0019055684946008892,
+    "lower_95": -0.003234152652005175,
+    "upper_95": 0.0070952483336916795,
+    "families": 660,
+    "replicates": 10000
+  },
+  "hprc:DogoHLA-no-graph": {
+    "difference": 0.002117298327334321,
+    "lower_95": -0.00301140030114003,
+    "upper_95": 0.007267441860465116,
+    "families": 660,
+    "replicates": 10000
+  }
+}

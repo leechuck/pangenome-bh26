@@ -1,0 +1,276 @@
+{
+  "hprc/unsampled": {
+    "status": "complete",
+    "started": 1789732555.2866538,
+    "gene": "A",
+    "threads": 4,
+    "graph_manifest_sha256": "ecfc9a608bb1ecdaf627b99c4370497101d0027c7d43bbb67b4b63b041d04e1b",
+    "coverage_sha256": "7a8b67003b4923502c90d37fd4b33b81f024e1c2312bda6027f84359a723d38a",
+    "reads_sha256": {
+      "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+      "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+    },
+    "driver_sha256": "34279270c88913405c12b11b5b531061cd83fcf91ddd14cd885add8851b38c7c",
+    "vg_sha256": "5390a894bde3b1d39bd7df389ff68aa2db9b6f319cba2304eec8da6e2dae3549",
+    "measured_kmer_coverage": null,
+    "selection_disabled": true,
+    "sampling_fallback": "selection_disabled_control",
+    "commands": [
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "index",
+        "-j",
+        "mapping.dist",
+        "-t",
+        "4",
+        "-P",
+        "PGffac2673e4a826e6225940434ed8211c6c1ee13e1ba0e1a525028d735c12362f",
+        "graph.gbz"
+      ],
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "giraffe",
+        "-Z",
+        "graph.gbz",
+        "-f",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz",
+        "-f",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz",
+        "-t",
+        "4",
+        "-d",
+        "mapping.dist"
+      ],
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "view",
+        "-aj",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v1/HG00658/hprc/unsampled/A/mapping.gam"
+      ]
+    ],
+    "scope": "Per-locus alignment evidence only; retain all-IPD and competing-locus evidence",
+    "finished": 1789732626.3451986,
+    "alignments": 1477842,
+    "mapped": 12478,
+    "output_sha256": {
+      "mapping.gam": "2e64fa12851fd004d0da72be15a95e7d23127b07821fae3475bd649502a04325",
+      "alignments.jsonl": "e718f1e603c5cb2720ddb6909f800495937a0efb839e6e2ec7f1cf0a5f9e0ea9",
+      "graph.gbz": "9355be1f25a8b7b53eba122cdcd67d04f170c41b615ac8d235d810f099951964"
+    }
+  },
+  "hprc/sampled": {
+    "status": "complete",
+    "started": 1789732551.307091,
+    "gene": "A",
+    "threads": 4,
+    "graph_manifest_sha256": "ecfc9a608bb1ecdaf627b99c4370497101d0027c7d43bbb67b4b63b041d04e1b",
+    "coverage_sha256": "7a8b67003b4923502c90d37fd4b33b81f024e1c2312bda6027f84359a723d38a",
+    "reads_sha256": {
+      "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+      "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+    },
+    "driver_sha256": "34279270c88913405c12b11b5b531061cd83fcf91ddd14cd885add8851b38c7c",
+    "vg_sha256": "5390a894bde3b1d39bd7df389ff68aa2db9b6f319cba2304eec8da6e2dae3549",
+    "measured_kmer_coverage": 37,
+    "selection_disabled": false,
+    "sampling_fallback": null,
+    "commands": [
+      [
+        "/home/leechuck/hla/t1k-pangenome/tools/kmc-3.2.4/kmc",
+        "-k29",
+        "-m4",
+        "-okff",
+        "-t4",
+        "-hp",
+        "@reads.list",
+        "counts",
+        "tmp"
+      ],
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "haplotypes",
+        "-v",
+        "2",
+        "-t",
+        "4",
+        "--coverage",
+        "37",
+        "--num-haplotypes",
+        "8",
+        "--include-reference",
+        "-i",
+        "graph.hapl",
+        "-k",
+        "counts.kff",
+        "-g",
+        "sampled.gbz",
+        "graph.gbz"
+      ],
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "giraffe",
+        "-Z",
+        "sampled.gbz",
+        "-f",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz",
+        "-f",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz",
+        "-t",
+        "4"
+      ],
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "view",
+        "-aj",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v1/HG00658/hprc/sampled/A/mapping.gam"
+      ]
+    ],
+    "scope": "Per-locus alignment evidence only; retain all-IPD and competing-locus evidence",
+    "kmc_sha256": "89e59edde1e8324493f81f93b310a3fb3f1b1cee9c53460ccec3eb725e8f9abb",
+    "finished": 1789732630.675652,
+    "alignments": 1477842,
+    "mapped": 8734,
+    "output_sha256": {
+      "mapping.gam": "3c001451f5a2d1424bdcef69caf75ff297f8f9ad13ac12b861ad2620e2a6158c",
+      "alignments.jsonl": "aff66069a9a98ff3113e1a38ecaaeadebbeecee9355596f41894b9aff68a40a7",
+      "sampled.gbz": "31ec0c2d112f7468664f5e49fa9e983d48813362eff9afba3bfaacd2c698648a"
+    }
+  },
+  "hprc_asian/unsampled": {
+    "status": "complete",
+    "started": 1789732564.5344567,
+    "gene": "A",
+    "threads": 4,
+    "graph_manifest_sha256": "2e8a0ddae6ceb95b884c4ee8cdd0b0d58e4c0a56b2a138ec3ce80a6be900d1de",
+    "coverage_sha256": "7a8b67003b4923502c90d37fd4b33b81f024e1c2312bda6027f84359a723d38a",
+    "reads_sha256": {
+      "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+      "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+    },
+    "driver_sha256": "34279270c88913405c12b11b5b531061cd83fcf91ddd14cd885add8851b38c7c",
+    "vg_sha256": "5390a894bde3b1d39bd7df389ff68aa2db9b6f319cba2304eec8da6e2dae3549",
+    "measured_kmer_coverage": null,
+    "selection_disabled": true,
+    "sampling_fallback": "selection_disabled_control",
+    "commands": [
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "index",
+        "-j",
+        "mapping.dist",
+        "-t",
+        "4",
+        "-P",
+        "PGffac2673e4a826e6225940434ed8211c6c1ee13e1ba0e1a525028d735c12362f",
+        "graph.gbz"
+      ],
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "giraffe",
+        "-Z",
+        "graph.gbz",
+        "-f",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz",
+        "-f",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz",
+        "-t",
+        "4",
+        "-d",
+        "mapping.dist"
+      ],
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "view",
+        "-aj",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v1/HG00658/hprc_asian/unsampled/A/mapping.gam"
+      ]
+    ],
+    "scope": "Per-locus alignment evidence only; retain all-IPD and competing-locus evidence",
+    "finished": 1789732632.6595957,
+    "alignments": 1477842,
+    "mapped": 12950,
+    "output_sha256": {
+      "mapping.gam": "c63d49c253b5838a09ee127e421c24b4cc240159e81ba559bfb674bbaf02c122",
+      "alignments.jsonl": "ee8b8b85204a05169373ebf619bc197b39f2050fb67060f3eb08836d2df71562",
+      "graph.gbz": "9a5b26d5a60ce4829028436942b88b720e033158c5e98d1edb9dd7bf7e2ffad5"
+    }
+  },
+  "hprc_asian/sampled": {
+    "status": "complete",
+    "started": 1789732557.320909,
+    "gene": "A",
+    "threads": 4,
+    "graph_manifest_sha256": "2e8a0ddae6ceb95b884c4ee8cdd0b0d58e4c0a56b2a138ec3ce80a6be900d1de",
+    "coverage_sha256": "7a8b67003b4923502c90d37fd4b33b81f024e1c2312bda6027f84359a723d38a",
+    "reads_sha256": {
+      "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+      "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+    },
+    "driver_sha256": "34279270c88913405c12b11b5b531061cd83fcf91ddd14cd885add8851b38c7c",
+    "vg_sha256": "5390a894bde3b1d39bd7df389ff68aa2db9b6f319cba2304eec8da6e2dae3549",
+    "measured_kmer_coverage": 37,
+    "selection_disabled": false,
+    "sampling_fallback": null,
+    "commands": [
+      [
+        "/home/leechuck/hla/t1k-pangenome/tools/kmc-3.2.4/kmc",
+        "-k29",
+        "-m4",
+        "-okff",
+        "-t4",
+        "-hp",
+        "@reads.list",
+        "counts",
+        "tmp"
+      ],
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "haplotypes",
+        "-v",
+        "2",
+        "-t",
+        "4",
+        "--coverage",
+        "37",
+        "--num-haplotypes",
+        "8",
+        "--include-reference",
+        "-i",
+        "graph.hapl",
+        "-k",
+        "counts.kff",
+        "-g",
+        "sampled.gbz",
+        "graph.gbz"
+      ],
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "giraffe",
+        "-Z",
+        "sampled.gbz",
+        "-f",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r1.fq.gz",
+        "-f",
+        "/home/leechuck/hla/hla-typer/reads/HG00658/r2.fq.gz",
+        "-t",
+        "4"
+      ],
+      [
+        "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+        "view",
+        "-aj",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v1/HG00658/hprc_asian/sampled/A/mapping.gam"
+      ]
+    ],
+    "scope": "Per-locus alignment evidence only; retain all-IPD and competing-locus evidence",
+    "kmc_sha256": "89e59edde1e8324493f81f93b310a3fb3f1b1cee9c53460ccec3eb725e8f9abb",
+    "finished": 1789732633.7986856,
+    "alignments": 1477842,
+    "mapped": 8639,
+    "output_sha256": {
+      "mapping.gam": "90db6b4c8930a6bc1f98d1a7a5e64f354972a82c5221a4614e9a66041ac00c06",
+      "alignments.jsonl": "c2ea096194a1f18f0c854882f57ee3cef52430f1a2a07fd4fa002183ab2cd4dc",
+      "sampled.gbz": "2b7ba8c7ab31734d4193cde848cc24f6bad7d0ef65d1851483f5be0edb5f83b2"
+    }
+  }
+}

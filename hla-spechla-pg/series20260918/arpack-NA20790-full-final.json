@@ -1,0 +1,20 @@
+{
+  "donor": "NA20790",
+  "arm": "full",
+  "reason": "ARPACK error -9: Starting vector is zero.",
+  "identical_configuration": true,
+  "attempts": [
+    {
+      "path": "/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/dogohla-series20260918/gourraud/attempts/arpack-NA20790-full/A",
+      "manifest_sha256": "0813742934ff8d6f4093887d4c223fbf62042972f0b7e4650f2292683e6937db",
+      "log_sha256": "e75aaaab6e125219ebaf5ac6bc47229f3adf4b3a315ff7f95fa165f14fe52dc1"
+    },
+    {
+      "path": "/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/dogohla-series20260918/gourraud/arms/full/runs/NA20790/A",
+      "manifest_sha256": "b3b4abeede7cdd177f42a2d62a961e82dcf719e84cccb67d1cec6651668435b1",
+      "log_sha256": "e75aaaab6e125219ebaf5ac6bc47229f3adf4b3a315ff7f95fa165f14fe52dc1"
+    }
+  ],
+  "retry_job": "52045970",
+  "scoring_policy": "Zero credit for every eligible planned genotype; retain denominator"
+}
