@@ -1,0 +1,29 @@
+{
+  "status": "endpoint_code_frozen_before_outcome_inspection",
+  "frozen_at": "2026-09-18T14:21:36.448800+00:00",
+  "inference_freeze_sha256": "7f02a7845a017f72eb098ed3c6b21f7f1681f60e66d0887d14755069fd598e85",
+  "code_sha256": {
+    "t1k-pangenome/evaluate_reserved.py": "a8568a17ab38c153d3faa9eed6aa93534e02f9236cf0c4467de45d4ff41ae1db",
+    "t1k-pangenome/paired_evaluation.py": "493e6e1b20505cdccb00522ea0550f9f7b4afdf70584bbd57ebb6f4a86f8c4ed",
+    "t1k-pangenome/score_linear_controls.py": "011f92cf02c4257c2f8ce75b8cf14c381a4d8493a5e3b4db4599dfe10bc6c296",
+    "t1k-pangenome/decode_t1k.py": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+    "t1k-pangenome/t1k_reference.py": "21091a604007befd040e055f5a0409e70b428de8e03d305a469c728567186cbc",
+    "hla-spechla-pg/score.py": "694f64bdc54a14dcac1453630576f4b2fc5330cbc2695546d54978e6246b784b",
+    "hla-spechla-pg/score_comparators.py": "b330c43d55b8ed6115196b98752e7edc4dd7756d17debdc52bf83aad833e13a3",
+    "hla-bench/names.py": "7edff671f812eb077775fa1f424d3b945281f0991a13b13f1406e9d320a13103"
+  },
+  "input_sha256": {
+    "hla-analysis/results/sequence_catalogue.tsv": "f0b19828e7ade7b7344021b29b694881209238074761508cf5fb2da90a04a356",
+    "hla-analysis/source/imgt/wmda/hla_nom_g.txt": "e7c964d1aac67979c71debf2144df01dbac3476344de94773cce1a8794556d6c",
+    "hla-bench/source/imgt/Allelelist_history.txt": "8b0c78173907fbbe981d7e70d176515c50550fb8e3395467a61ee0f044b46255"
+  },
+  "primary": "graph_hprc_asian minus T1K",
+  "secondary_exploratory": [
+    "graph_hprc_asian minus ipd_genome",
+    "graph_hprc_asian minus graph_hprc"
+  ],
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260918,
+  "failure_handling": "Complete four-method donor/gene grid required; terminal failures receive zero credit on identical eligible truth; no missing/pending result omission",
+  "scope": "Endpoint computation only; snapshot/provenance handoff must be verified before passing reserved outcomes to this function"
+}

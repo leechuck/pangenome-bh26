@@ -622,6 +622,19 @@ sets do not release their successors. An uncertain submission is recorded for
 reconciliation rather than blindly retried. This scheduling adjustment changes
 neither the frozen inference nor the endpoint. The suite now has 115 passing tests.
 
+### Frozen endpoint implementation
+
+`validation/EVALUATION_FREEZE.json` pins the endpoint code, truth catalogue and
+nomenclature inputs before outcome inspection. `evaluate_reserved.py` accepts an
+explicit, complete four-method result grid; importing it does not read reserved
+calls or truth. It preserves failed donors as zero-credit eligible results,
+rejects missing/pending results, reports ineligible truth separately, and runs
+the existing family-paired bootstrap with 10,000 replicates and seed 20260918.
+Only the original-T1K contrast carries the primary protocol decision; genomic-IPD
+and HPRC contrasts are explicitly exploratory. Tests exercise failed-donor
+denominators and incomplete-grid rejection. All 117 tests pass. Provenance
+verification and the final snapshot handoff remain necessary before unblinding.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122

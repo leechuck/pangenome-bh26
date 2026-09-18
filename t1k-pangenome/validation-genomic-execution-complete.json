@@ -1,0 +1,3787 @@
+{
+  "status": "complete",
+  "donors": 84,
+  "scope": "Completion and file-integrity metadata only; prediction contents not fetched or scored",
+  "runs": [
+    {
+      "donor": "HG00290",
+      "manifest_sha256": "f363fd99bd6a1e374db8c78b03b316fbc66f8b55823ecd9767dd969fa110ccb5",
+      "record": {
+        "status": "complete",
+        "donor": "HG00290",
+        "started": 1789740325.8348284,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "b4c8724b01ca1e3ce19c372ca3a53bb1d1f3189e29677bda6ec2cec1e3e649cb",
+          "2": "361d30808267592b0be46153383d54126f05c4fa25ddd3f9e3111d1534af5814"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG00290/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG00290/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG00290/HG00290"
+        ],
+        "finished": 1789740576.8508322,
+        "output_sha256": {
+          "HG00290_genotype.tsv": "a7c84133cb433ee75483af853504d021f9d1935ec9bff4ea44959716db2452a8",
+          "calls.json": "9e0b8999c2e5935d01928be39bcecc42dd8a8c44575f52d061095b9a30c34969"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01433",
+      "manifest_sha256": "a8c2d50de2e66b826c1bb8435b7e22e0e05c699486f861ba9ec0e1621e025ac2",
+      "record": {
+        "status": "complete",
+        "donor": "HG01433",
+        "started": 1789740580.394718,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "a7b8791ace64dbb1832db2ce0824dfc94c5e4d063daf4ad3d3e596df0f31cf73",
+          "2": "bf2e3329984977b715c3637b21ccff15f9ed0e123af3182e0515215e98d57a83"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01433/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01433/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01433/HG01433"
+        ],
+        "finished": 1789740947.0364795,
+        "output_sha256": {
+          "HG01433_genotype.tsv": "5c0bcbea7a5c52e5cecac0d4cf76cda0f8ee83c4d8d2f2e1c22d674f9b262bb4",
+          "calls.json": "9da01594e435fe8c0d001e400d298e2a68326fd8c00c6b7a45fe6d01a5a4b640"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01884",
+      "manifest_sha256": "781eda6a41548722f233cfa5766455331e165e82817bfa493f5c5086a275a521",
+      "record": {
+        "status": "complete",
+        "donor": "HG01884",
+        "started": 1789740580.1795523,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "41b9b66137461e80132df0f5d0272a1db39c5f137c940a2049ee490b449e97f4",
+          "2": "360cc557a715bbb1691ecca6d8496dad08b68fce0046ec806dc59477599817d3"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01884/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01884/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01884/HG01884"
+        ],
+        "finished": 1789740820.0248947,
+        "output_sha256": {
+          "HG01884_genotype.tsv": "6269619802a5befe95d5eb8b0e7f0a577047b99ca30e91beedfbb3c3936b1295",
+          "calls.json": "27b659dc2763004615f593beefba16d95be3a85c19a1a2b850ec4679bd911dde"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01891",
+      "manifest_sha256": "5cbad9ea7a50b54c6a17f429150ba66710968482e75fd816827578b46b4140e8",
+      "record": {
+        "status": "complete",
+        "donor": "HG01891",
+        "started": 1789740580.3784285,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "f144ec5c6cb9dca28bab2b25e52475e0349c6bca9de7cb85c6ea0d3fd140db05",
+          "2": "84b9cece4674266b34356471fa6793dc4b47c3c0fe30b46e726876646d682982"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01891/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01891/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01891/HG01891"
+        ],
+        "finished": 1789740818.1497707,
+        "output_sha256": {
+          "HG01891_genotype.tsv": "26c1f45df41a0711d8279bdcbdb096daed322564bd9d174b5209fbd5dfc97d2d",
+          "calls.json": "130145da42453fa6068338b3e181445dc90351534adb418bc4e717611ddbb43b"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01928",
+      "manifest_sha256": "adc30803b5dca689485615a692e596a557c80dd2324b2a554a018853c125db04",
+      "record": {
+        "status": "complete",
+        "donor": "HG01928",
+        "started": 1789740580.2852201,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "7249d1e54fe076ced64d07d4b1c8ca654433568fec475159641ffaff49674006",
+          "2": "a09dba9bfabcb2e8fecf691779a0d161e79e55f610a22feaef2386730e21a2ba"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01928/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01928/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01928/HG01928"
+        ],
+        "finished": 1789740772.3572001,
+        "output_sha256": {
+          "HG01928_genotype.tsv": "eb973cafd08f8a25c2237d3ebfa44191d8d8f2f31c1674b68c672287a7d015bc",
+          "calls.json": "7a9d7b087a715dae5652444b2d60267788a966fba3db706eeda49b7d52eaf2e9"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01934",
+      "manifest_sha256": "807a79c7336102d588c2badaccefff5fdced72a73461718dd232af245ea07a5d",
+      "record": {
+        "status": "complete",
+        "donor": "HG01934",
+        "started": 1789740580.458203,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "b53aa051232cf29c1a3b8a3dfb89832b82c2164357f814098093e966d8b5a13c",
+          "2": "5ec9ac7630efdd67e4f8fa33a1bc1e55db9e08b0470acd6af55b125478d5e345"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01934/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01934/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01934/HG01934"
+        ],
+        "finished": 1789740819.4173782,
+        "output_sha256": {
+          "HG01934_genotype.tsv": "19131f759d9c0726132d9ca9bdde7db73a8ec9c394940425af543a5d2a2ce27e",
+          "calls.json": "886e62eda1618a3517afaefe95238911c538dffe40dec48275b36c1800fad8db"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01940",
+      "manifest_sha256": "7337484dd4eae17082b8e15db56bea2316d0dd587f05193b9b9c5739f27cc5b7",
+      "record": {
+        "status": "complete",
+        "donor": "HG01940",
+        "started": 1789740585.6576777,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "861d012c47bc63af73f32a2a4c4b3dca10f0259c087b70256f1cc871b2f95594",
+          "2": "0141c46f92cb98d98cd0174664e828b5cfcd19409190423d9cb1f9f340cea25e"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01940/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01940/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01940/HG01940"
+        ],
+        "finished": 1789740863.8457122,
+        "output_sha256": {
+          "HG01940_genotype.tsv": "40e03d399098d0c41b94338b35450fb20282f46de3b862ccc4cf033bea3c671e",
+          "calls.json": "7ad5d5a05b06c8c931c6dd67a68be8a938c6564c45681376f248c160e906f2c3"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01943",
+      "manifest_sha256": "15fbbd5a56654ce320a00367e0882b381e27ff44aa1c881ce50481c2e222c57c",
+      "record": {
+        "status": "complete",
+        "donor": "HG01943",
+        "started": 1789740585.6157248,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "d70f4e3cd809edd5ed04a4e2569e7db053395fea3b16bff01960e88148dfbe58",
+          "2": "c0012f3c7c144b19f0cdf69f014555041b14bb020087349e3ccceb8a28f6763a"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01943/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01943/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01943/HG01943"
+        ],
+        "finished": 1789740784.228683,
+        "output_sha256": {
+          "HG01943_genotype.tsv": "04f1eb4f3dc33e2d1a67080d0e5a8b97a31f82e95e39bc47f9bc91df00e642e5",
+          "calls.json": "0b5266f67df2939a752e5d28a2b895c945a5f1bb7e109607719b0f36839f09d1"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01952",
+      "manifest_sha256": "7c80d668841d7571fa6ebed83e1b64acf000c80b0ac48262a70f891f14f2a15f",
+      "record": {
+        "status": "complete",
+        "donor": "HG01952",
+        "started": 1789740580.212133,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "26b787260b529fc1ce940b27d6d57234972145378f518bb0454a0039cce4952d",
+          "2": "032b2cc3138b2283e551103f11d151433273d263ac2de57643bc69e29e91a948"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01952/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01952/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01952/HG01952"
+        ],
+        "finished": 1789740790.6203527,
+        "output_sha256": {
+          "HG01952_genotype.tsv": "ebe45d6d6a171e93f92104a18f8a872064b88074e609d3afd3b138c921511a8d",
+          "calls.json": "ef342d63c7ea72d569c789a97cb05795af9799862d515b8457f9821733db2a9e"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01969",
+      "manifest_sha256": "605cac47d1ff11d1ec852ee7f68798db0f16981287998d5502425d0980b38d00",
+      "record": {
+        "status": "complete",
+        "donor": "HG01969",
+        "started": 1789740581.5477893,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "bed0e71b723ff0acea244bea994cafc380ee078cddb041cb8a745db4875af9e1",
+          "2": "99e117c932338d0c73b053543a8bb8994ecf4e555dc9f18a5ccff7e4317a586d"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01969/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01969/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01969/HG01969"
+        ],
+        "finished": 1789740946.4949722,
+        "output_sha256": {
+          "HG01969_genotype.tsv": "a03a0e5a0aa3f886b79c26ee3fce1adfc3fbdfe7cff7cff47d625859dd84715f",
+          "calls.json": "a17b6477d1194a2505026e79d55ac2cdddcb4718f73960cad755c5731e8391f8"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01975",
+      "manifest_sha256": "75423aff18ac2d1d003a28c14ac10a86bc28c052ac0b6c114c102ab307d9a7c9",
+      "record": {
+        "status": "complete",
+        "donor": "HG01975",
+        "started": 1789740581.548068,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "d7c947314f21575a2b16e3f9774d7ba6cfccb4e124efa5d03e0265ed949fb9d4",
+          "2": "b6a7e44a486258a4283a6786f401a02aa27035d39d6b6c402c50f90a355a9101"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01975/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01975/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01975/HG01975"
+        ],
+        "finished": 1789741015.1781707,
+        "output_sha256": {
+          "HG01975_genotype.tsv": "99564574421702d568ee7fcde2d7f087d09537f97cb489f9aa889ec83ca392fe",
+          "calls.json": "38425034904abdfe38b708a8577c0b3f52d5aa6cf38f5d443528da270681bead"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01978",
+      "manifest_sha256": "445390a4f0db42f063b92a322c1fd58a3d2b298f6d9726093eeb86ab092d52da",
+      "record": {
+        "status": "complete",
+        "donor": "HG01978",
+        "started": 1789740581.4994795,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "8006f45ee97c72a66645d8501d6aff10e26a014d5e4f5c186e5fdfa4e43a452a",
+          "2": "e99f69ce7e111572e1ac2082a6e86d4353c176af8b806de51a62e51c322165a9"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01978/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01978/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01978/HG01978"
+        ],
+        "finished": 1789741036.1557062,
+        "output_sha256": {
+          "HG01978_genotype.tsv": "cf6441bdc9d4965bfcecaaecdf97eca65d8b59a98063b6a3aaa83e68b45711cb",
+          "calls.json": "dec698addf1caa3d507c828de4f267e62c857d42d0fee5fca339d3113ad7a0ae"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01981",
+      "manifest_sha256": "a9226cae60069328362bffbee5873c2e59f204fa46181f976a14df30e4835b96",
+      "record": {
+        "status": "complete",
+        "donor": "HG01981",
+        "started": 1789740581.4914832,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "61e7a4c513b5dcf5a7488d8ab5489cc1a08753f7c757cdde898a02d8ceb4266c",
+          "2": "acd41d1d4f4de42a9e5da8689496acc4783ad8c1ee1f59ff68fca491d686f37d"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01981/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01981/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01981/HG01981"
+        ],
+        "finished": 1789740984.1968143,
+        "output_sha256": {
+          "HG01981_genotype.tsv": "e9e376361e08e0d813c01880a298f1a5c0cc39bfe02ad7c3315487748b553a62",
+          "calls.json": "8af0837e8582deb74e072c064c6a2b68937d710dd64b5b419a6b62c4e09e90cd"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG01993",
+      "manifest_sha256": "1a29071fab790d83c28988dcc50905c0c20065f345394ad55e38e0f0071a111f",
+      "record": {
+        "status": "complete",
+        "donor": "HG01993",
+        "started": 1789740581.5925708,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "9a2eb290ecc97017123f2fca8336884e52994ec4a658b7f8a0fc7cefbb40c42d",
+          "2": "5241de7b92623febbe5c897d53f7335988b8536659da76ad1afd9a68974df651"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01993/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG01993/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG01993/HG01993"
+        ],
+        "finished": 1789740996.0024557,
+        "output_sha256": {
+          "HG01993_genotype.tsv": "1b13a347a337a5f7b8a142ee7d6c3d8f01ce0a1de639c1660cf6cc8f8a52bc02",
+          "calls.json": "4df93a4fbd2b1826915c4f0b6c25f8d827d9b1c7173c75b734a080837232f9b6"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02004",
+      "manifest_sha256": "52ee7ec5811c2440a898d3f0eabca50edcc0f36725e85709b28981509ea7d685",
+      "record": {
+        "status": "complete",
+        "donor": "HG02004",
+        "started": 1789740581.4405575,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "135edd70569677e54a5344f2ece97a77166d62fca38a795adc8b71098637bcc2",
+          "2": "df2f3d97acdc7f582406318a7eebac5f1f6ac06ea8939130acbfde986e2e02d5"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02004/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02004/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02004/HG02004"
+        ],
+        "finished": 1789740941.8756454,
+        "output_sha256": {
+          "HG02004_genotype.tsv": "953863a3b7e38f35ec5e9b59aefe78bbafa20a872e1bd5abaf173009537fbfb2",
+          "calls.json": "4214ed4ef217b6eb658a58ec02ced7f3f94ac401d8e0937e3b1d137cb68d679a"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02015",
+      "manifest_sha256": "46c9e90cda04049d5382d63f34f63fed5a245f4c0dbae9056bc1e459ab1641ab",
+      "record": {
+        "status": "complete",
+        "donor": "HG02015",
+        "started": 1789740586.5487733,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "6ee60e768392c0a01eeb6d0b3f8187ed980bb8ceef7652d8e808120e5d49f0af",
+          "2": "8f8df9799644bb0694256a4e32265e8caede24fc85c0a3897f0c15dd2f3c7071"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02015/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02015/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02015/HG02015"
+        ],
+        "finished": 1789741002.0286095,
+        "output_sha256": {
+          "HG02015_genotype.tsv": "6264327c3c804553b55303efdc994db269e8e06f4959890aebff17145a55dd40",
+          "calls.json": "91b87714f59f63cb902c0f8bfca422ee301d2101246493bfb830266cbd4d0033"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02040",
+      "manifest_sha256": "dcc73b573b5abba8c1f101802686cc1f42ef0fd30a7848e164c1e957407b95ca",
+      "record": {
+        "status": "complete",
+        "donor": "HG02040",
+        "started": 1789740586.498569,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "b25815c6938a78b02f043cd3bea51619063e5263aad69f3dc85b67f7bba63bff",
+          "2": "9aa8b36552e6a68bf4fd95294e53435481aa5bcd2816a2b7767f24b91fb20c12"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02040/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02040/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02040/HG02040"
+        ],
+        "finished": 1789740949.5352643,
+        "output_sha256": {
+          "HG02040_genotype.tsv": "801068f8c6921fba7ad8059a392928321efd5623a4001363d380ee493b8fb8a9",
+          "calls.json": "87c637136debc717fe6e36a6b5e9722c31ffadfa34544c36b7eefe8fc8722f3f"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02055",
+      "manifest_sha256": "77df4edbd6fed3fcb6f58408cbae6488f64cb077233ce8e02ea18a02426e3c58",
+      "record": {
+        "status": "complete",
+        "donor": "HG02055",
+        "started": 1789740581.4797404,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "1430598bd6555f5d5e1b4c60eb5aaae9988145708d1f4ca8220d2226c3389e87",
+          "2": "34d0f2ca261faf05bed9d8326b02691c07383453183ff7778bcd1339efb5295a"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02055/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02055/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02055/HG02055"
+        ],
+        "finished": 1789740964.530223,
+        "output_sha256": {
+          "HG02055_genotype.tsv": "1672fb46b72e982a49587a186bed5fd4bbfdeebf4bcc9907288826c81e1af717",
+          "calls.json": "75505f5fd87be2f18e2461eca8a97fe1037d50c58cb963792b1893ff24515de5"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02056",
+      "manifest_sha256": "6e14b93ac52928db5b9535940308e138e437e52f4144dbd256de4d557eab82a9",
+      "record": {
+        "status": "complete",
+        "donor": "HG02056",
+        "started": 1789740581.311521,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "c9380f7603d20f4675e150f33e1c9440be47634714e669e85159e1e85e6cb2d1",
+          "2": "d5f93a67c8715905b5d4843a4a9f13bb8ff625c01b73e94506ea0f8e94cfa8b6"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02056/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02056/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02056/HG02056"
+        ],
+        "finished": 1789740978.2771082,
+        "output_sha256": {
+          "HG02056_genotype.tsv": "e6df25100efe60c04f192e7c7e7c6d2297b714868a7c68a179a013bfd3a79268",
+          "calls.json": "d1c988076666e8988f008c34a2586c7d3e7d06ff9a85799d80e2476dafd832a3"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02071",
+      "manifest_sha256": "0ea8687156b98556aecb56653aedee0d4f0c9f4b90d9d456427fa8f4f919227f",
+      "record": {
+        "status": "complete",
+        "donor": "HG02071",
+        "started": 1789740581.3116124,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "e875fb463a34ad7b9fb0b991e6a558f12557fe48551b7d16075ca254ea4a3144",
+          "2": "c0f3320594c7e531c3bf847697f2a2b0e333d084fd37588fa2f5a1d9a5190bbc"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02071/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02071/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02071/HG02071"
+        ],
+        "finished": 1789740945.3717158,
+        "output_sha256": {
+          "HG02071_genotype.tsv": "eb5bef09547dec94a346b6a5919a631fece6da303d0a3e4f93b48f9fbbaab77a",
+          "calls.json": "c0f7980c75dd7de452da0dd93ebe883744501420984d6a6f1ed1f6d692de61ab"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02080",
+      "manifest_sha256": "b5c0665b57068eca43ccec181048126bb25568fa31703756dcc457ff1ff1ed4d",
+      "record": {
+        "status": "complete",
+        "donor": "HG02080",
+        "started": 1789740582.4468584,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "e21be92aed700c91c85dead8f30b23567f4d8f03f4b75b1e4029edf3c4d5f2cb",
+          "2": "7ebe4a210a51642e404608b52675242368406e34b906955c11cccd3b97114dc1"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02080/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02080/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02080/HG02080"
+        ],
+        "finished": 1789741001.5894353,
+        "output_sha256": {
+          "HG02080_genotype.tsv": "68e673b80e39ca062dfa779a78d485ff71bb2095d0a72e2956ebf50929c79752",
+          "calls.json": "891df3fe6a01fe8359e0bb2ab8515bd04a2fe1dd370cbcaaa2b268b93fc4841a"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02083",
+      "manifest_sha256": "3e3c4c82bf77c7bc88495d25279ebeced0668dce4496cfd4040bd5d88d175dcb",
+      "record": {
+        "status": "complete",
+        "donor": "HG02083",
+        "started": 1789740582.4468594,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "a910d623c0fe8dcfbb3706be27072dcdfed8503320ede3f9303b2ede2009b151",
+          "2": "a3769268fbf1ac39b61a6f73bda930cf2153cf3b4c89f88c2b3ddd9f6f40e173"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02083/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02083/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02083/HG02083"
+        ],
+        "finished": 1789740958.4630425,
+        "output_sha256": {
+          "HG02083_genotype.tsv": "1398114c4ca62e6181c185d7e1dfd514a0c91aa7bb2020e1d876df987087a4be",
+          "calls.json": "8b213e4c12416c3479b5b9ff3b0113b7261974e8a1a00e7b3fba072283ae509e"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02129",
+      "manifest_sha256": "237aaed26ba9d32cc5f5b682197d5e1bb4bfa405e86e21d33e8a714d49cfd421",
+      "record": {
+        "status": "complete",
+        "donor": "HG02129",
+        "started": 1789740582.2434392,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "b322531cdda075f732b477ed7f78a5d40cf2c455d98e8ccc92d4a6cc8388ce3a",
+          "2": "f30ae46cc255ecde289633c9958623f5387db1188563b8de619aee8d9b6818ad"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02129/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02129/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02129/HG02129"
+        ],
+        "finished": 1789740962.7192101,
+        "output_sha256": {
+          "HG02129_genotype.tsv": "06364832fd57de0517e93c358e6741516c8ed14ae301a9f54581cda6a5026c86",
+          "calls.json": "e50ff2eacebd1b4de1ff04fb25bc1d79dbf82e087ca9612fa9554d39c0f311cc"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02135",
+      "manifest_sha256": "db162b8693abf21eeedda4613f7ae37a4e2c6dd4cf5aa8fccb9dfe481949fca1",
+      "record": {
+        "status": "complete",
+        "donor": "HG02135",
+        "started": 1789740582.2450466,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "1e1f17ea00980899928cf6601ca6f87b979d184ff4a3235a9abd33c27b2d29c8",
+          "2": "7e4407184798e9d544d91f4ed07f5095dba617023ecb5b82b3d1458e26aef5c4"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02135/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02135/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02135/HG02135"
+        ],
+        "finished": 1789740959.8607147,
+        "output_sha256": {
+          "HG02135_genotype.tsv": "324dcaae9e7591dc74eef3c049030fc127a94322f700c94c4ce75a40e4631178",
+          "calls.json": "b53f4b91c53da03cad018741d596bb17a0819de425865a585043529b31bf892d"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02148",
+      "manifest_sha256": "c19e400190f806ddb2a7f70e2ffef08eb6d5ec02f9f25965e450c9b0f96e4fce",
+      "record": {
+        "status": "complete",
+        "donor": "HG02148",
+        "started": 1789740583.0645947,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "c624d33291c1c07321a954c3ad72cfa574e2ae432eb621736544022932d5b6f8",
+          "2": "14344e91c23d06a1c5d22c5e141e4ab17b915da5c72aa104783bdae4f82d9799"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02148/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02148/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02148/HG02148"
+        ],
+        "finished": 1789740930.146969,
+        "output_sha256": {
+          "HG02148_genotype.tsv": "f14caab54f3f43fdf978233a8c015462bc3f05dce6c0e5803567051a4d8be300",
+          "calls.json": "494d7fb94a437de2a2cb1538bdfbb65e8cc3713b55f8f0d6197c739f8d877bfe"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02257",
+      "manifest_sha256": "db484e5d96146a8ea25dcfa1b239cd1a01a3d90eb615d9237883a4584d66be9d",
+      "record": {
+        "status": "complete",
+        "donor": "HG02257",
+        "started": 1789740583.0643027,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "4d35818397d6ffb3fb18f5e2d9117d89f1ba22604121a966e8bf0ed278dddfb6",
+          "2": "b8ea9399618349f83f0f11927f50e62db582e6286e6b11babf44f5b669eeb0b7"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02257/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02257/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02257/HG02257"
+        ],
+        "finished": 1789740959.616552,
+        "output_sha256": {
+          "HG02257_genotype.tsv": "1086e3cba948c2ccb29d4efee45d25d9b0760f4fd019be8e1bb08411e9d553ca",
+          "calls.json": "9650f09d3047fa7a181002921974b5f2382b8e26ec4f3f25dfe0a5d2e604fda3"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02258",
+      "manifest_sha256": "8d53c7a442c5061a0bac0efa14070dc4b86577575de27298af83049f6b837c6b",
+      "record": {
+        "status": "complete",
+        "donor": "HG02258",
+        "started": 1789740582.2049623,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "59b8b08c4c6b65148ad2d9131219ca7541b760070f1a859bd9b8c6f176827e92",
+          "2": "d7b15764af64cb530a7b4cd05ac486012f91f4018e955076dd8294a66937ffe7"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02258/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02258/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02258/HG02258"
+        ],
+        "finished": 1789740975.3491716,
+        "output_sha256": {
+          "HG02258_genotype.tsv": "447b8aa18704a0c0e0ffdbd70be98d3b040d593f4d14696235c3a16731b8f693",
+          "calls.json": "c6dd75108df21da5e5fdc3ed9f87ab96fbd6cc89d671a5a2856bcb7d6043fc69"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02273",
+      "manifest_sha256": "fc8db2555b5c0234b515c2d76c1e2bd14348ce717d826ced4043dada3649cd1d",
+      "record": {
+        "status": "complete",
+        "donor": "HG02273",
+        "started": 1789740582.2053986,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "3b09c8ba321f35eb166390e6d42478c81991422481f0b1d513a2349b332afeda",
+          "2": "df7e154ebff76fd6326216e84ae0754a4ba43cf3c87a007220af1e0a7205249f"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02273/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02273/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02273/HG02273"
+        ],
+        "finished": 1789740937.8788116,
+        "output_sha256": {
+          "HG02273_genotype.tsv": "aa4a4783b4f3fab63b0859b3dcba1add93c5304c982ffa8a0fa021ae85196be6",
+          "calls.json": "35e41b33f9782f025bc5d4d9714e4db95aa47570a3b47c6d52d93d514d638ffb"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02280",
+      "manifest_sha256": "752d8fd584a38b7e9aae7c13fd402cb9c725fa1989918693a1a412c1fab95e6f",
+      "record": {
+        "status": "complete",
+        "donor": "HG02280",
+        "started": 1789740582.2820575,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "1b8359942a59060491c735246544d5654efcc2a01d24febedbd5bfc3d06c3fb5",
+          "2": "4009d94ade4ffe14fd4ad2005aeee4d1b7639aa4d45447d88f3fda54a84df3d6"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02280/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02280/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02280/HG02280"
+        ],
+        "finished": 1789740984.9272046,
+        "output_sha256": {
+          "HG02280_genotype.tsv": "44f9b0370495ae7f524ba3670659aec86ddcaf01753288fd906727302a0f5101",
+          "calls.json": "d408bb67eabd054e35e31c4c1b57aba66553520040108ea24fffe5bcde07a295"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02293",
+      "manifest_sha256": "5c4011b3120284f9eb88ede8e297f939444e82ddf0de1ff3ce5c64717f7a6168",
+      "record": {
+        "status": "complete",
+        "donor": "HG02293",
+        "started": 1789740582.4366024,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "8f43432f73408630e5d0debe4635a621980ccad940565eb75fa97bc38ebec9b1",
+          "2": "1c6ed0b9a814e233b75d6d849eaa255e37f040911de06cc372293caf824096ec"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02293/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02293/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02293/HG02293"
+        ],
+        "finished": 1789740980.518865,
+        "output_sha256": {
+          "HG02293_genotype.tsv": "5edf3b1bd8ba7ee7c12ee8f218e50f5c375c90b303d2404493d322aad3b2c47f",
+          "calls.json": "600026c8c2bb13700264650c8bfea95de20235d7aaa6444afede518c63ce9622"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02300",
+      "manifest_sha256": "ba1a59f0fc1ed8b894b4797a7e8e9e53af3c6dcaaa24a0a7473ef7247c405ec4",
+      "record": {
+        "status": "complete",
+        "donor": "HG02300",
+        "started": 1789740582.4364474,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "f7bf8fc8cedc25e94a507012a84ed0a1bef0a972170cbb862f757b5905ee1404",
+          "2": "4e77193c7f7a859e8a325fa8d313828239e8a9cad75c054eb54acfc91ba5c58d"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02300/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02300/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02300/HG02300"
+        ],
+        "finished": 1789740998.2185178,
+        "output_sha256": {
+          "HG02300_genotype.tsv": "22907b80a55e2fd660899bcefb2c4c10c71cc46c21c39a4442011c6b1dc02254",
+          "calls.json": "3bca19815c3bf72df08605694538eba1364c323c996192849fea528ac726c914"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02392",
+      "manifest_sha256": "8475c6a7f897978660ffea96b1d14cd93bc5d0a300bb685cdfec79f018cf23c3",
+      "record": {
+        "status": "complete",
+        "donor": "HG02392",
+        "started": 1789740582.4364386,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "ea07dc8a7d7c9a59f7526216046c7ec5d7418165ef4e1d50dd02404e07d1c4d1",
+          "2": "f6b12ca273252996072856cd6124a56951c0ccaffcdee2cbdd1a4b785fd1ec6c"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02392/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02392/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02392/HG02392"
+        ],
+        "finished": 1789740954.2119749,
+        "output_sha256": {
+          "HG02392_genotype.tsv": "2853bd6ec398d9e5527358dafe82943414dc7e36a34e9b7e821e4176d7c2dee5",
+          "calls.json": "b3910b8cfe87d18c4cfb3b0ca9fac0535d832151f8440ca870bb652df716327f"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02451",
+      "manifest_sha256": "ecdbde8d97a328af6a267990e360ee752226810614eba70ab21b1972c2d8561b",
+      "record": {
+        "status": "complete",
+        "donor": "HG02451",
+        "started": 1789740582.9261477,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "29632879b36364d2d57dc3ba374b0d8d4b08ab2a05260ba4535b98725c396c53",
+          "2": "cbc4a2cebb0107ec85534969e0fc6031e43bfeb45e22e338f2e6fbc7748b3267"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02451/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02451/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02451/HG02451"
+        ],
+        "finished": 1789740961.75111,
+        "output_sha256": {
+          "HG02451_genotype.tsv": "29a23ef3488a4be74f861b361111ce5bd2cfef204686f1b1e05912df3737aeec",
+          "calls.json": "06668f91cf80773865a28ea488f9dbd60143faa7096a746dd242ae736b1c2192"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02514",
+      "manifest_sha256": "3d6d7b16bbb5bfccd43626ec0f7b003048dd33d00c15ffd75c1e1e0db54b696b",
+      "record": {
+        "status": "complete",
+        "donor": "HG02514",
+        "started": 1789740582.417704,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "acdc94624811c5e9f2e9796dceaab50c2b92dda6a11896e77206d9dd75f1ac69",
+          "2": "70436e16baece9527e36550f8afff2e9ac308b3378814d365394de75985b819d"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02514/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02514/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02514/HG02514"
+        ],
+        "finished": 1789741010.5505242,
+        "output_sha256": {
+          "HG02514_genotype.tsv": "387ff9710fa61f7041a7070eba1849e0505e6b7ba9b7e94df58be0d9d814f877",
+          "calls.json": "fcf3ea2a2a6c988f790a58d94931d29f03021bb834a659717f74fcdc9f82ad68"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02572",
+      "manifest_sha256": "e0aea2c600e6a9ba7e233449363f54874eba5e7495d8f40b96e0e05ebc70b1a2",
+      "record": {
+        "status": "complete",
+        "donor": "HG02572",
+        "started": 1789740582.4177113,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "b9cd114badb4235bd243ecba22324f22c5e76081d19320af803239259fffd1bc",
+          "2": "f5765f6112ed1d5dddf3feada1cf0ddfcfa33ddb8a8d49b873e9b77921102915"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02572/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02572/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02572/HG02572"
+        ],
+        "finished": 1789740990.559403,
+        "output_sha256": {
+          "HG02572_genotype.tsv": "0a50d14e5541331c59082f79112a7336a4b1fa95c8229e4a80a80115e1122675",
+          "calls.json": "5cfa0f7f415aa6394e24e969fbfa34fc1c59a015375ddd85d91811d761de0bdd"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02583",
+      "manifest_sha256": "7ce9cb01cfc715ceadb129285631192dc9db7a39da1877403b9c8a98804002a6",
+      "record": {
+        "status": "complete",
+        "donor": "HG02583",
+        "started": 1789740582.4485478,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "215b57ab4685cf5909378e4522ee190282a31f4d7e19d3212550f6387233de65",
+          "2": "5acbcf28ca0dbdbc9c42913c0a58990cf78df779f0815dad0217c38ff46e894a"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02583/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02583/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02583/HG02583"
+        ],
+        "finished": 1789741057.6225483,
+        "output_sha256": {
+          "HG02583_genotype.tsv": "56ae14dca60f2fe01ea95cd93e423863d1f5e71cd021bc5e1725805019409d5b",
+          "calls.json": "4a3698bd70d0c64487c1cc9a9865b893ec09305a11f08b73228f01093c2dea43"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02615",
+      "manifest_sha256": "4db09d8483364cc737647863cf2090eb4cc6d01cf0b9a86053b7b1030eaabe66",
+      "record": {
+        "status": "complete",
+        "donor": "HG02615",
+        "started": 1789740582.6275651,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "74bb3587696432ab096c407e8b57f01f756f64f5516dd2cdcaf8ea6fec579ca1",
+          "2": "0fe5a1094b04f8a6d51e4f929cfaa7b10a55239e17c84f5860623530f468fe11"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02615/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02615/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02615/HG02615"
+        ],
+        "finished": 1789741010.7309735,
+        "output_sha256": {
+          "HG02615_genotype.tsv": "51b71989292b0e9dff4ef747064cad66084dacc8209d97abeeaf8ffe9b8ed754",
+          "calls.json": "600fafe4cd8bd004335a7add69672104698febac1411df8fd615a16006dd17e3"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02622",
+      "manifest_sha256": "dc41abb3f94a11091fc2614442cfa8b9cf3f25acf83d243377cf740e78f4c68e",
+      "record": {
+        "status": "complete",
+        "donor": "HG02622",
+        "started": 1789740582.6287043,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "9d29ebe4ca5aa90a86a4267195bf5aed34a7612dea23109a59188bb2ff18d2ca",
+          "2": "eee420ed16a62fbf65408ef7940e809b0130d4cfe02190d3d478930106e5707b"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02622/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02622/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02622/HG02622"
+        ],
+        "finished": 1789741033.822939,
+        "output_sha256": {
+          "HG02622_genotype.tsv": "fffc919aba1ab54df53f4dbc2d40a1ce3f2cac6846631da0d10b67b00c18fbab",
+          "calls.json": "af24ac7a3f2c96da5b2fa1d1b17b2f3df30636916c60fd144e78af57dee6310a"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02630",
+      "manifest_sha256": "f4371e94f874e173d1e57baf961cfd2be15ca4bb0bf8ba620e615cee6bcad94a",
+      "record": {
+        "status": "complete",
+        "donor": "HG02630",
+        "started": 1789740582.6272447,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "2797a054a977ef48a58854072d9e141937a79d6e0b19896690b62530786bc1ea",
+          "2": "317cbf5cfbf54ff31124b700766726c286876fe45933597ca813697f8d73ff15"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02630/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02630/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02630/HG02630"
+        ],
+        "finished": 1789741023.8237367,
+        "output_sha256": {
+          "HG02630_genotype.tsv": "1c6c0877c6c3ea4c0abe727c52c1a02544972c4597d705719c374f83cbd6e5a8",
+          "calls.json": "b3ced9f2f96f5c21d14973e9cc48655c9a27b76a23937031aeed85d60e869021"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02647",
+      "manifest_sha256": "c8180d455972e2e561e9c58a194bdd74dbc4043e9a08655c777f3b79f0ac8e82",
+      "record": {
+        "status": "complete",
+        "donor": "HG02647",
+        "started": 1789740582.615748,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "f9a88ff41ade6c10c88e8caa28a0e731713d6895d38654ad45f3cfdb5dfb390d",
+          "2": "b41d7432c4b94ff6f84ffafbf989522e3117d48331af1b1828aca169112d63ee"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02647/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02647/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02647/HG02647"
+        ],
+        "finished": 1789740993.3636367,
+        "output_sha256": {
+          "HG02647_genotype.tsv": "6393e71a192900c035ebe81d81f7754d2b257e9521d57c0dbe0aa397a0eaeacd",
+          "calls.json": "4edd7582b8f27427636f56a9d6ac158ce6387b4ddeeb6b3af924ef1757836ca0"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02668",
+      "manifest_sha256": "4e7233d8dbe36ad312e5fcadbcfdd3a47c98ada3d6bf200dd517ed5f7f344064",
+      "record": {
+        "status": "complete",
+        "donor": "HG02668",
+        "started": 1789740582.586854,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "e7c8f156e00d98bd1f19f6956caa2419bf8ebeccdc85aaf23f71a15a9322f71d",
+          "2": "d903fb312ad7f0a579a75faffaef02ecc828a6efef5d38dbcdfb3438351718db"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02668/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02668/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02668/HG02668"
+        ],
+        "finished": 1789740952.750925,
+        "output_sha256": {
+          "HG02668_genotype.tsv": "c1bec1b23acb16795bd9d3d4f19d8addc752f6972fcc93016c796d92c349aa06",
+          "calls.json": "9a0aeef20dc2ad7fbba63743be77052321c553bfa4ca6c351e5f6bae1c1641e6"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02698",
+      "manifest_sha256": "65ad7a993841ce04b48a9b661ef5fcd36f640b828394a8cdc1a489b36bdd22e9",
+      "record": {
+        "status": "complete",
+        "donor": "HG02698",
+        "started": 1789740582.5345964,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "d136be07514683190ff2ff5f106d4221b1c1170e2aa7e5ce7c22bc0ea79704e6",
+          "2": "9e369685194c39770ed1058dec2208692e1d0fe4d00a945ccff8ceca31187c89"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02698/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02698/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02698/HG02698"
+        ],
+        "finished": 1789741037.716689,
+        "output_sha256": {
+          "HG02698_genotype.tsv": "fa73f9308dc6b03551092e7ee27679cb79b5f74909ed195d8cd3fdbca38a9f04",
+          "calls.json": "aa525d55cf6027b3c78d20b4454c9aea75bf3ad417580b3b0dd4704f75e7b932"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02717",
+      "manifest_sha256": "4095dbd785cac8e196ce9e859eeda1bbb411ad92109f75c988793ef4dfdbe9cb",
+      "record": {
+        "status": "complete",
+        "donor": "HG02717",
+        "started": 1789740582.573542,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "bfb344961fb2be12360831327f70f88fa25f088cc477f5eecb7b345e8a4a1236",
+          "2": "6884fde62908fb7253b01cb68ef645d909feaffb2ffb7ce26ad155e578c7e6fd"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02717/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02717/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02717/HG02717"
+        ],
+        "finished": 1789741066.4570642,
+        "output_sha256": {
+          "HG02717_genotype.tsv": "48e49e7d487c8a11bd23da4cd3f497035c40d499e4101ec07c626740f22d30c0",
+          "calls.json": "b903c2b90f849ab41d80243ca5980ea5ab126bb6901101b1b8309349589996e3"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02723",
+      "manifest_sha256": "6adebe82b8c74e82b0f2fd92e48306b8b797a24892fb461cd678b6c1e6af19a8",
+      "record": {
+        "status": "complete",
+        "donor": "HG02723",
+        "started": 1789740582.5347898,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "af1669726491d31c4bbca4b4db1c9e4b368d0bc2ee8eea77d16328dbf0f0dada",
+          "2": "34279ffa16295c4b8e86e1d71f28df50e4401c4be92da9e0c658b15c6a52007d"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02723/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02723/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02723/HG02723"
+        ],
+        "finished": 1789741063.4408398,
+        "output_sha256": {
+          "HG02723_genotype.tsv": "b794169be59f963155a4932d6a37ad01a8c144d55cc21a639f812c3321be2ca5",
+          "calls.json": "32e2240359605866a11570db5fa701ba0425b9e8cbc2623389bcaba4f5c59a0d"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02735",
+      "manifest_sha256": "d7cdba7d095950c197f1f666487332226fe9cb4ec18ad549f5e9f1fcd6dd11aa",
+      "record": {
+        "status": "complete",
+        "donor": "HG02735",
+        "started": 1789740582.1824498,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "b947bfafcde7b1919e659ecba5ff824e3ac897cb5366a3d2ae19946ea9a7ec42",
+          "2": "5c803f149ed84c72a79ea5766a37a06bc30f54e3571cc75c246ae57a20a3915e"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02735/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02735/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02735/HG02735"
+        ],
+        "finished": 1789740986.2162192,
+        "output_sha256": {
+          "HG02735_genotype.tsv": "d1b5848a1477613eb67a5cd777b927ccd4378e9139fdca5512a0160e151bffa3",
+          "calls.json": "80a73435b6951130867ea946eede70a977e1844a36ffe3005f4ebbfda1b995d7"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02818",
+      "manifest_sha256": "3bbb3d4689dc42ab0ce3286c51b78683e7ddcc2f6adbd8dc0f844d517f6de56b",
+      "record": {
+        "status": "complete",
+        "donor": "HG02818",
+        "started": 1789740582.6472976,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "c58ca67001a59bd63492486c1e9601989225e2f02fb82b9aa0e48158b9fac1bc",
+          "2": "d4e202292870ff7bf702989539f8e031a4ef2fc2ab4080704bac6f2649f6e22e"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02818/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02818/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02818/HG02818"
+        ],
+        "finished": 1789740993.396465,
+        "output_sha256": {
+          "HG02818_genotype.tsv": "a6758824503ccfdaffd06929075f39f8e364033c4635730527d5e83d058e4a2f",
+          "calls.json": "3b611c7690cbb6ae1d70af5597dd77a3562a13dc8a34f2fe22740bef355e2e58"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02841",
+      "manifest_sha256": "6a5a88d2b4aaa3d84382548c68061a83eb917124136e8c97acd325c647efab92",
+      "record": {
+        "status": "complete",
+        "donor": "HG02841",
+        "started": 1789740582.3934174,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "8ce44cb3292e7f3e479644054f9a15654719b1d17137d6d596c66b2e4bf87061",
+          "2": "9b5ac36a611b57d18b31730c89ac9bea957928ef3c55231dd9bb6cff2b5d11a7"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02841/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02841/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02841/HG02841"
+        ],
+        "finished": 1789740987.6527467,
+        "output_sha256": {
+          "HG02841_genotype.tsv": "a9c790571cc89c645ad4a0a781c1b57f083b51738532ed4ae06ddccba99159b4",
+          "calls.json": "c5e793841c156e528fc1175ad0491f79e2ae03f03d94d8bfebec3426a88bf040"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02886",
+      "manifest_sha256": "62edec750ebf4c55c0681966bcfa9f83b376c740944b05b7a6a52247ef6996a5",
+      "record": {
+        "status": "complete",
+        "donor": "HG02886",
+        "started": 1789740582.393402,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "9ce156b274fc3da97ca944fef4016c11744b2e60b640ce090fa4d185c2115d25",
+          "2": "907f6386536689789b9af72f01665b01553b23e49b3ffc29dd2fea38408f4c19"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02886/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02886/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02886/HG02886"
+        ],
+        "finished": 1789741018.8602018,
+        "output_sha256": {
+          "HG02886_genotype.tsv": "324ba8181bc805ead551bba50d2a5acb237986fe618faa448f7ad5d72c072031",
+          "calls.json": "7cf27f9d7f52438d339c1441ef3b54814fa8263f20d39695b9188b38a8bf6d97"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02922",
+      "manifest_sha256": "dfde3856c8624d6068491d7d86eb3ebe7ab4653ea6791a14fbefb8ea489bdaa9",
+      "record": {
+        "status": "complete",
+        "donor": "HG02922",
+        "started": 1789740582.5525808,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "e3d4a9455dff2b0b396750bfee6cabd302985516de33ba55606e3f0f493e6cb3",
+          "2": "12560c236e9c36e3c17f1acffd0fb56143d1926862dfd07a266a934f0d309061"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02922/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02922/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02922/HG02922"
+        ],
+        "finished": 1789740980.1848447,
+        "output_sha256": {
+          "HG02922_genotype.tsv": "91a3a8b737ca0c27ceadc980c79888fc966de59b4b8414a38c228fad462a7120",
+          "calls.json": "f9d789695e4465acb3ad4f29f78e3e2bfa59b5b49fe7d884e12637d46b4e0d6b"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG02965",
+      "manifest_sha256": "c1a7fe5a276a8286fa600f7f6026faeedf78a052725e31f6b1bd613bb76417eb",
+      "record": {
+        "status": "complete",
+        "donor": "HG02965",
+        "started": 1789740582.5577533,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "5e5c6bc2ba7455d85333575c4bb65d2b6495388bdf46fe2834619ff2145becdf",
+          "2": "bd9a7f7174227c530c45319d50fc8ba0705529cce4cb44713c9346b5537c7d7e"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02965/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG02965/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG02965/HG02965"
+        ],
+        "finished": 1789741039.1449928,
+        "output_sha256": {
+          "HG02965_genotype.tsv": "465d30dfa2aefdc8b742ea182b52c3433da44ba586ab7513da2173b97459339b",
+          "calls.json": "7f0251b9c09b59bc3a360ac3d2bdc5078b14281729600eb6167d9d5b5f575273"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03041",
+      "manifest_sha256": "91c609f9e2af5d6e8fcc94809bba771104c7f5289bb4a90ae579dd5662962c58",
+      "record": {
+        "status": "complete",
+        "donor": "HG03041",
+        "started": 1789740582.4760764,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "b1e459b9e2ba0d6bf1c5f23a798b5c7e81d0c5471e8c95b5c695c0a45d6eda3f",
+          "2": "894bdfba8e1075502b194c645393adea88716c6b30a78b4b5501b0f238b2d606"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03041/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03041/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03041/HG03041"
+        ],
+        "finished": 1789740974.1910808,
+        "output_sha256": {
+          "HG03041_genotype.tsv": "dcfe0c3d7731b642acbaf4dffd452738192448f1590f93105c15b7085a591b52",
+          "calls.json": "dc451ecc594100bf25ef590a5ba35595baf2f1ffa1df08063896da2d070f2512"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03050",
+      "manifest_sha256": "35daafa0d16ea596a3087571652ae373defd92d29d18f9e559a356997c03110b",
+      "record": {
+        "status": "complete",
+        "donor": "HG03050",
+        "started": 1789740582.5189817,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "4474de2cc6f965e5587273320455c90ae23513b51c2461e7ff91ee7873e1c9d5",
+          "2": "55117dd5db901be5308f618175a6ecac72486c18f749157d011db8eff87c2e14"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03050/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03050/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03050/HG03050"
+        ],
+        "finished": 1789740968.9746196,
+        "output_sha256": {
+          "HG03050_genotype.tsv": "e113ba4e12a3bdd36f013c613d543fe69261870441951e2d6049f9f6884ea0d9",
+          "calls.json": "072241d28e48b46df9f2a9fe1cf8260cf04900e88a8123da80cb55aaeec20d12"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03098",
+      "manifest_sha256": "cb8e74b7aedb029d7b74e59108fc05da850af35800b89e7aaf18f33c8ec0516e",
+      "record": {
+        "status": "complete",
+        "donor": "HG03098",
+        "started": 1789740582.3936837,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "0f3c23ec99b3fbfb7a071a6955a5d0d215b24755141e623df43bba7a3eb1a2e9",
+          "2": "3b8cd8ee2dea27e2f8a8c54bf3ffd9ed359d02940163e4907b495af726f339f6"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03098/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03098/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03098/HG03098"
+        ],
+        "finished": 1789740994.1041994,
+        "output_sha256": {
+          "HG03098_genotype.tsv": "80a365c26075f08c0ab7f3e2b92ca9a69918315fee6cb16dbb1018a48b861ad3",
+          "calls.json": "e192acad948c8c6943d607693dd5c81c09a4fdad0e412419145c5f80bb6d2e4c"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03130",
+      "manifest_sha256": "9b38442a99e9d887e992fd8471c0453b032602a635463851fcaaf01aed188904",
+      "record": {
+        "status": "complete",
+        "donor": "HG03130",
+        "started": 1789740582.720222,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "33c0ad7369ee8bf311260b4f87908e1d5f18fe4f858af70193615b1ba4d1bf1b",
+          "2": "09b658ff9e5a2116bdf9124d27d165a314cdcb15ea9682da5c6c130d5ed07946"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03130/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03130/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03130/HG03130"
+        ],
+        "finished": 1789741093.0122888,
+        "output_sha256": {
+          "HG03130_genotype.tsv": "9091aa3191b19bd2788a8b1d1b11050d5215b9d1408f02918dd5402f70eb6836",
+          "calls.json": "2e24b520858bb3a68d86d7ff0d31a23a564c65d0ff3884400439f0fccd33ebf1"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03139",
+      "manifest_sha256": "05609151f5af0fc84e10a124f140cc53a44e95506e8955ce10927b2ceb06d6bc",
+      "record": {
+        "status": "complete",
+        "donor": "HG03139",
+        "started": 1789740582.6722846,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "aaa12ce2db5d77f5be3227527fb4097f2504569e18315e7e4c779cac72d2924f",
+          "2": "ff4854e1d50a0b6c596068aecff8eac5b12565d4a3c30d783a414e900a6c813d"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03139/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03139/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03139/HG03139"
+        ],
+        "finished": 1789740978.3444872,
+        "output_sha256": {
+          "HG03139_genotype.tsv": "ed872d92037db8f7264c832f000be405317e39fe0cc02c24e8b7d846292d704d",
+          "calls.json": "b4fa55c9f7bccc7fee1e4aeddc04642bab6786a806b0a037e14596e520e6115d"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03195",
+      "manifest_sha256": "1c323a6c35a5ae305073181491586078872f14065cfa5a365c5cc0260ced983a",
+      "record": {
+        "status": "complete",
+        "donor": "HG03195",
+        "started": 1789740582.6454904,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "2194940b0044594b82f62fae1b076e7756a0367611982bf99c05a07a957cb461",
+          "2": "f8bd8c2c9533fa495478176cf2636690a3cc8b05940ae51c4e0e6f751196189a"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03195/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03195/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03195/HG03195"
+        ],
+        "finished": 1789740970.4660037,
+        "output_sha256": {
+          "HG03195_genotype.tsv": "348161332d46421a3c64ed3f04855f1c88c62a82700851600f081339f3b325a0",
+          "calls.json": "fb884cf2121dcee0f70e487d53605f2f5710359fdd674ca6f18b94c9a2fe107d"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03225",
+      "manifest_sha256": "7731b4a296b6292129723abfaad86b26882dcca6083ba4f461e22d4499ec0c96",
+      "record": {
+        "status": "complete",
+        "donor": "HG03225",
+        "started": 1789740582.6454904,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "017ea88737da542376c86adb185d5c9efb26fb72851cb3d722a3bc53ed4c6de4",
+          "2": "c3775208a059f5c1f6bc657a8f89c7723fe3bd630d18edac39a6e1833ec5304e"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03225/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03225/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03225/HG03225"
+        ],
+        "finished": 1789740981.3864565,
+        "output_sha256": {
+          "HG03225_genotype.tsv": "273c7d816ee452a6867ad42fa3c5d022662b211bb608042500c99d8eabe26eea",
+          "calls.json": "cba3cb5b6b638ae25e02ed03f1333c8ed23891976c5d0587a20db39dd9a834ce"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03270",
+      "manifest_sha256": "b75120cbd47c750b6f564c50b56fdcdfbbbe081531987c61d072063061b61216",
+      "record": {
+        "status": "complete",
+        "donor": "HG03270",
+        "started": 1789740582.8938107,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "a95969a1d65504cd0ae84238708c57be30081a5c956a6ed4b5a50dbc723d3036",
+          "2": "22fbb067b40dc2f697532492ec47763879a3a9c672433c17ef619d526a9c808d"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03270/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03270/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03270/HG03270"
+        ],
+        "finished": 1789741210.1058397,
+        "output_sha256": {
+          "HG03270_genotype.tsv": "64f6ae8e070339a76b78d35157ee490946941ba7ba766bea90352bafdfe0b11f",
+          "calls.json": "4acf68e7411bd60c3e82e246d53678cd78586631ec241ec2ad5e693176820b49"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03470",
+      "manifest_sha256": "92e6a37e2bd48cfd4cc0027edb1c7b5ff6a020a377a0125412fc6d9817581b16",
+      "record": {
+        "status": "complete",
+        "donor": "HG03470",
+        "started": 1789740582.2563543,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "0f71b1fc070938c17417168e73819933793bebdbe06ef07fa45d873aa149a1f6",
+          "2": "a7677bf7dbcf29e036b5d07ce0c17f929da1327d5c1e58196e1a7c77a3724c07"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03470/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03470/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03470/HG03470"
+        ],
+        "finished": 1789740947.3066719,
+        "output_sha256": {
+          "HG03470_genotype.tsv": "fe9f735dcefe1142f8529c0f9cb19c1040edee4aa92b08c874d1d27e8f02327d",
+          "calls.json": "17cb57cf3cf78339a9335a1a628a6522e94be26ede22b0ef641ea3e94d02a46a"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03486",
+      "manifest_sha256": "98a72267e559d48684c762ecc1b5fa30cfe3d656a31d9ac518d917916dcfa13c",
+      "record": {
+        "status": "complete",
+        "donor": "HG03486",
+        "started": 1789740582.3933604,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "e4fe89dff9ad82229811be6a7a7482e641ceb6ea0a2c9c91d8dccc644e09ecd3",
+          "2": "26f97b5d072f9c3d85291d6c05450c3d528fba1cfbd4d38a14d6fc5c74e0a3c4"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03486/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03486/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03486/HG03486"
+        ],
+        "finished": 1789741005.7398958,
+        "output_sha256": {
+          "HG03486_genotype.tsv": "269e15eeaaf42a7772cfd9570dcc50517c77ac7cff98820006b04846fff9dc84",
+          "calls.json": "efa06300a8a6782bc0b3ddc748c1f17b589017f79f88efc2855313f1432c1075"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03521",
+      "manifest_sha256": "0979a22f0fdd043168c7f0538e01a903e6f16f41bf213b1bac95d6cc99ce5587",
+      "record": {
+        "status": "complete",
+        "donor": "HG03521",
+        "started": 1789740582.3906627,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "880b76fffbaaf6b326ba8bbb162b2515f4f4fd6e025b4170a9b6b66e591b9c39",
+          "2": "d256fd8cb51287f211a51eaf0ef7f0891b31bb4ced1d7e485f50b245665c99f3"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03521/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03521/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03521/HG03521"
+        ],
+        "finished": 1789740995.4571822,
+        "output_sha256": {
+          "HG03521_genotype.tsv": "7b3ad255913a9f34b05901f42285ac1e286de29b3787fe2d98de9dfaa1b7f2e2",
+          "calls.json": "ce1f41f9dfaf7c9aef2424bee4bedec488d076edb8f09cef753841a0b9064180"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03540",
+      "manifest_sha256": "c16373ee9b8943321e311f34e5e10b71bafa862dabb7eac51fb712b25cdffc59",
+      "record": {
+        "status": "complete",
+        "donor": "HG03540",
+        "started": 1789740582.322979,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "165025017a00aa3724145f7f1baccb569194840069a82d2ccab6bd3e6ecb6291",
+          "2": "12cb172dabc42e13a2657b5568332805b61de8012abf6b0dba566636cf910a71"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03540/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03540/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03540/HG03540"
+        ],
+        "finished": 1789740990.1147506,
+        "output_sha256": {
+          "HG03540_genotype.tsv": "530440dfe12a01b5b6993df2bdcd91f75c0dacf23e5ca3e756d2356652fe63e6",
+          "calls.json": "86ebd6388109220793d2efadfcbeda342e216f6d96efd1e015ac365ed9e975b9"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03579",
+      "manifest_sha256": "fd70b397e152fd30945c6e96c4d4ad7e73e433b9191b71b7eb633b5d3c07722c",
+      "record": {
+        "status": "complete",
+        "donor": "HG03579",
+        "started": 1789740582.1849363,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "07cada0a1bb03be2d24533ba2ede80138655bb6562743e1a26671769caaff216",
+          "2": "b0ebe51cb01140821ec81cb7748d000f87cdd88922ae4972ab507dbadef19272"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03579/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03579/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03579/HG03579"
+        ],
+        "finished": 1789740938.553418,
+        "output_sha256": {
+          "HG03579_genotype.tsv": "e8b8a463e0823f4cabe9c1d93dba56162649898ca3f749dae0e9c77f7d08c99e",
+          "calls.json": "6a52c3a11792442b69f7303a9afbfd37a9ada4048c78aad490d9fbbbea0c095c"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03583",
+      "manifest_sha256": "7c529d07c3cf7bc447ff8d52127a5d7dd7a89d071dcfb9d4666b54826dd920e8",
+      "record": {
+        "status": "complete",
+        "donor": "HG03583",
+        "started": 1789740582.1921551,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "7be5d68e60310f5ec0ee790e52d6dca1d0bc3902d42cb9781b4fcea173865c0c",
+          "2": "ed6597509d5cffaa11508a56a725c5dc037ac3f4ab5c756cd9b8aad7190c50d1"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03583/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03583/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03583/HG03583"
+        ],
+        "finished": 1789740968.721143,
+        "output_sha256": {
+          "HG03583_genotype.tsv": "99aca0edf831617299fede7e7e59af83ab406813a0f8a8ceb5ac9831b9dd7aa5",
+          "calls.json": "2bdc6129b0aa8bf385d277495efeb95a8d9e8db78b3c3225535f64d6fff0c7f8"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03654",
+      "manifest_sha256": "4c699719e4c88d4fc807e06ababadb5a77a3ff07aec6fedd109d30cc416dd0b7",
+      "record": {
+        "status": "complete",
+        "donor": "HG03654",
+        "started": 1789740582.2573617,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "96c8eb48a5446bb1b6eb12219c141957a039d6b38e7eb7b9787c17afcda74055",
+          "2": "8d3244986e10af316bc20e6353f1568dc23255a3752a6f696b792b9413eab1e2"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03654/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03654/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03654/HG03654"
+        ],
+        "finished": 1789740993.5828016,
+        "output_sha256": {
+          "HG03654_genotype.tsv": "cf37887a0f73620a9c54ccee1e12bca5b80267741afd7cb0816f368bcae61fdd",
+          "calls.json": "53d61cdb1a770ab4bf0556d697f4cda3d32d1cd7edf37716ee1f07e6749883a4"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03669",
+      "manifest_sha256": "d587bcac7a4cec6c13d46d04d76bac15fe7ac4365e287b4b86debbd61e32f20a",
+      "record": {
+        "status": "complete",
+        "donor": "HG03669",
+        "started": 1789740582.6506538,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "b234f6469c04492caf38159b97c8f40ac26ec4d6f2226193502500b61a03376c",
+          "2": "c72d95c1e27621df1735869fe93fee1df029d76941085bbd72874ef2d7dbe064"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03669/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03669/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03669/HG03669"
+        ],
+        "finished": 1789740989.9818113,
+        "output_sha256": {
+          "HG03669_genotype.tsv": "15046c88caa92d9bbb536205714d2549ed5058e8ccdf78f16a02bb07db48a127",
+          "calls.json": "b4452fd45510a35a9eeca1a44d66d11c7780fcbb335a1569b74df3d2f910814d"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03704",
+      "manifest_sha256": "72851ac6ea57a0340bfa1a27558aff2159b56323365f173c7dc1f427dec636f6",
+      "record": {
+        "status": "complete",
+        "donor": "HG03704",
+        "started": 1789740582.6419294,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "062e78fb637e46e6a644dbe99c8c71a01619976451a4d9e69ed2c22cf1388f8e",
+          "2": "4e2fdcd9d2d4f418a8c3f3467a700e9e9be91c04792e26f9e315c65fd3d620bb"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03704/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03704/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03704/HG03704"
+        ],
+        "finished": 1789740989.6911073,
+        "output_sha256": {
+          "HG03704_genotype.tsv": "015740dd19646598d8b3385f731d50e66a4abc5fec128630c3e43736f8be672f",
+          "calls.json": "6a4ae7bd5d500fa284a9da90d3ae0a6ab3b1c20e9abf3841c4ddf6a36fff7cf5"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03710",
+      "manifest_sha256": "cfd90b60e11faa3ade97d360802b32dca3f161851158a53956d7989a1df8d9f9",
+      "record": {
+        "status": "complete",
+        "donor": "HG03710",
+        "started": 1789740582.6434183,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "18919b8dfa56735f2365bb003a77e3ccac57051c6c11c50631cfb2024c81e8f5",
+          "2": "c01a811579b475cbc2e696bd272c234341cf2944f17e77e72d8cdf0de3a501c4"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03710/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03710/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03710/HG03710"
+        ],
+        "finished": 1789741007.0400653,
+        "output_sha256": {
+          "HG03710_genotype.tsv": "c66b19a4143b1b07b96569cedc58cf2b5a6b70f279f1c5d9bd6c959580fd9b92",
+          "calls.json": "65cbe91141fb7d6f0da1be78c249f283a0e2b881e6cbceeeaf6b7f550d42fac9"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03816",
+      "manifest_sha256": "73a6172a416840d94c37c4fc2ef71fcce71f27285fc55168915e4a1fc0f6fac8",
+      "record": {
+        "status": "complete",
+        "donor": "HG03816",
+        "started": 1789740582.7477582,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "3b3be3bba98fb201bea03e37b07d1b2c795104281b64ed5d241f4a36216574a1",
+          "2": "443ac7fa3cb5a831789c97de10b10962579a4d9a5b4c206da81bfc39251328fb"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03816/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03816/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03816/HG03816"
+        ],
+        "finished": 1789741039.0716624,
+        "output_sha256": {
+          "HG03816_genotype.tsv": "fe92e7fb665a4a2cc47db3361e255810567567c4cbf13122c0f8babdab5ababf",
+          "calls.json": "f904095032165853b022d92f4c2c038e32f153ca07109758b4f5a79cfdaba2c1"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03834",
+      "manifest_sha256": "88347db130b3e7154c791e9c78d842a324063a882e320cb1505f01df57158229",
+      "record": {
+        "status": "complete",
+        "donor": "HG03834",
+        "started": 1789740582.7470188,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "d22f08273709fb6dcb60681ac7b9d04d67b0e3b4cde9c31fa4bdbd8e9a1591d4",
+          "2": "84a81185e10188d1a87a6a8469f87e1f16fd3ca98dcc4164662acfb2a1504ea0"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03834/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03834/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03834/HG03834"
+        ],
+        "finished": 1789741056.8792253,
+        "output_sha256": {
+          "HG03834_genotype.tsv": "744babb1e06d11d939e839e6d87006442bccac9a421e0975e892ba19920983b4",
+          "calls.json": "ebe0219c7da81e1e55d1e52a161234f956c941b818061306566f29e7452f1963"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG03942",
+      "manifest_sha256": "f3cca751cf0e8318a979a86a2fa4e815ede127b4387fcbd096da92c616761ae6",
+      "record": {
+        "status": "complete",
+        "donor": "HG03942",
+        "started": 1789740582.7793605,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "92c5023a2f36cf0e84b0e51948251c301214b68faf134c1ea0b7f0db22a03072",
+          "2": "0972bb7d5cdac3e13008bc316be9f3db4aaa083cba5230b5b7811f00257ac09a"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03942/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG03942/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG03942/HG03942"
+        ],
+        "finished": 1789741099.7195437,
+        "output_sha256": {
+          "HG03942_genotype.tsv": "b87e0ba3a209d06d8da8945a256eb8c39bf00ba4eed348cf52d9385d7a6be4f6",
+          "calls.json": "b9dbe0d4c06870dfcb7f5b4ed29fa711779d7d98f6178c12f56a1ede64b46e71"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG04160",
+      "manifest_sha256": "7fbdf36406e584cd010d4e72960a2744879110fe7e76acb89aa74d5d136f8fb3",
+      "record": {
+        "status": "complete",
+        "donor": "HG04160",
+        "started": 1789740582.3983805,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "a215f7e377f045bcfc943b964fabb34740dc74f5441f26d27627ec3c7d9a6c06",
+          "2": "ef84bb4b22b1a8219e813571f70a92125b618675edc21874aa1f600ff51f4c3f"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG04160/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG04160/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG04160/HG04160"
+        ],
+        "finished": 1789741007.3020194,
+        "output_sha256": {
+          "HG04160_genotype.tsv": "c83ccf5e34c71c7a5f9212559f6c0ac6d4ed89ce32324ee80847449c3e2d3c95",
+          "calls.json": "1ada8b0c2ce9372286d3349c9742b0ec847266d96947717eaf188d004347b88d"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG04184",
+      "manifest_sha256": "9307c331bcb16d7b2d910cf0c27884698a8970d45382178b13be90500041c9b9",
+      "record": {
+        "status": "complete",
+        "donor": "HG04184",
+        "started": 1789740582.3983722,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "6e890242f92e36a0504020063f169b80e98d21c8de42f6828d5175c4645115f5",
+          "2": "ecb9d7db43100567eba959d3d3781d3f99e1abe3eceea60fb9c02272bfdbf107"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG04184/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG04184/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG04184/HG04184"
+        ],
+        "finished": 1789740975.9844406,
+        "output_sha256": {
+          "HG04184_genotype.tsv": "de37095e03439857c73531c8f93264a40509ccb0629a8677f8f175167659eced",
+          "calls.json": "1d6dcdeb55f5ef3d975c2f110deefe39405649de8df2d9b25f0f9f125795cbb6"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "HG04228",
+      "manifest_sha256": "613a28df0bdba8c061256a4165e3de6ef51b0f11d7a01b9d9645fd5e5bc2dd51",
+      "record": {
+        "status": "complete",
+        "donor": "HG04228",
+        "started": 1789740583.9435344,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "09c5883435698659d27b0ca55433e3795bac06e5c55e5c1effd947cff9f57128",
+          "2": "f66795e3d36cc7e1cf5b6d64135f9387f556b0e9e986699ba7aa2710ac0c4d9a"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG04228/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/HG04228/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/HG04228/HG04228"
+        ],
+        "finished": 1789740977.3258808,
+        "output_sha256": {
+          "HG04228_genotype.tsv": "a38f7d658cc0c3029d7eb43b26b747cad41242ce8e86176563d83334b5a0c4f1",
+          "calls.json": "b3d8b33c2a7267048a1a2e4986ae1ac21de0b82e818785b2842f80c2c23c86d0"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "NA18565",
+      "manifest_sha256": "7855609c087f181db5912cd915cce61566aca372eab8679db1138d0d1517f473",
+      "record": {
+        "status": "complete",
+        "donor": "NA18565",
+        "started": 1789740584.102307,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "8499f98cf99a0518c1366016a882505d20eb10f1efc5a3c5435b64589f96ad9c",
+          "2": "c6026522cd159f8a9a73946147880f1c85bd69703499170ca690d878d8917750"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA18565/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA18565/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/NA18565/NA18565"
+        ],
+        "finished": 1789741089.9533806,
+        "output_sha256": {
+          "NA18565_genotype.tsv": "fabbcc9c599d5f39b44b6695b5c0d97ddbeeefcad94332926c3f67139af958bf",
+          "calls.json": "951a8ee21484699b1d24db37433cd50573c50c8e673f7c16230ab4e90952fd9d"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "NA18906",
+      "manifest_sha256": "9a86e1f9f06590251c6981f9bc72891775270d5ab421b5268282cbeb26774e58",
+      "record": {
+        "status": "complete",
+        "donor": "NA18906",
+        "started": 1789740583.92968,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "81d5b62fcf5c358117290ffd3f1bd8f3cc731417371a7e4797d0787337c36b38",
+          "2": "85ab3ead91a4432d1aa509f48487c668a40335752816fc8efdea2744990bd321"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA18906/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA18906/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/NA18906/NA18906"
+        ],
+        "finished": 1789740951.6112263,
+        "output_sha256": {
+          "NA18906_genotype.tsv": "4e4fdfc8a396efc861bbd28380a4125a9ae7c40a611073291ed64eafeda5e312",
+          "calls.json": "15fecc235a15c086b67c4e2d69bcf4212a8ff74a9ce66bf780558810cc80359c"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "NA18982",
+      "manifest_sha256": "37196cd6d482b5d70bbcd9b0f376cd78ba350fa104c0028e687e3faaba52d789",
+      "record": {
+        "status": "complete",
+        "donor": "NA18982",
+        "started": 1789740583.9651034,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "5ca690e520232f295c196658173a337afb449e7ba90998c27ce87ca9c716e164",
+          "2": "c7f2c58c1bc7bbf674f3acc26823675795aeb0bcff3ea1a01b6249d6c67c7ff7"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA18982/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA18982/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/NA18982/NA18982"
+        ],
+        "finished": 1789740877.6789327,
+        "output_sha256": {
+          "NA18982_genotype.tsv": "210ef45be1c6717ce1b2e1bd192dba158926b050b03fe92b1aa8b6d1f338f217",
+          "calls.json": "d21ac3240dc3228817c0542c5207baa96fbf621f5b1122c3298324ff56a1f460"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "NA18983",
+      "manifest_sha256": "386a53ed5e9154300b949a5c0fb6cffa0d90d8bb6331d5cd56dc02f093c814a2",
+      "record": {
+        "status": "complete",
+        "donor": "NA18983",
+        "started": 1789740582.7204165,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "f2dc110e5cc55f3c6e5ad189f1e3e6326476819c3ad3ebfc030c9edbf9f4fc30",
+          "2": "96bf465ca7457e6213e88dc82615435e25a431a1a20c1e4967be809359241ad9"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA18983/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA18983/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/NA18983/NA18983"
+        ],
+        "finished": 1789740928.391213,
+        "output_sha256": {
+          "NA18983_genotype.tsv": "faff805d4aac2847d488dff020011be3e2296c1e93c347b7fb0938ddc917a1ef",
+          "calls.json": "fa2d074468330d3d7a62f79797e3159fea3352c06c1f3f7577497754dbd320a9"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "NA19043",
+      "manifest_sha256": "ca059aed58eeb987381f2c80007429e3f9495ed80cf2839ca319a7195d2ba9f4",
+      "record": {
+        "status": "complete",
+        "donor": "NA19043",
+        "started": 1789740582.7855914,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "a6d399377bb492904ce586b7fb186a20b41e3fdefc923de12ce0afdcc5e5a984",
+          "2": "069f0b768defd23a1973608597856667cb3f1f5831a12fc42c4d6f547ac43f8b"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA19043/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA19043/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/NA19043/NA19043"
+        ],
+        "finished": 1789740993.05034,
+        "output_sha256": {
+          "NA19043_genotype.tsv": "eaf7772e3565e8136ed8aec679343d4146a5f65ccea8ca599fa988b490f9a596",
+          "calls.json": "86e914bec048d342184d52e237bd911446880a80232693634240e42939a8f737"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "NA20827",
+      "manifest_sha256": "a295223eaf71a940d06b22824c22893f781b02d3cd476fb6976a5f41d8059e0f",
+      "record": {
+        "status": "complete",
+        "donor": "NA20827",
+        "started": 1789740582.502105,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "7e4c603397cd24a55c2d4d2477ca13bbc5749655fa33f07d4eb2e25a0083fcab",
+          "2": "df4a8b6e42cf09384017a777c66b0a3e24f29e59732f5ed3fa6d795456471aa1"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA20827/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA20827/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/NA20827/NA20827"
+        ],
+        "finished": 1789741042.898444,
+        "output_sha256": {
+          "NA20827_genotype.tsv": "1cba11efe6eafcd48d4dd912913f11e172048b2d674642558e10d49ea70dd115",
+          "calls.json": "63215595c51ab2cf4d68a95c530a9ed2c6ff26c36d1989e970ed146ca25a0883"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "NA20850",
+      "manifest_sha256": "ec19dc14cc78dcde0a62f6a6c19b77175816be29ace9f22d0e796fab20608200",
+      "record": {
+        "status": "complete",
+        "donor": "NA20850",
+        "started": 1789740582.5177925,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "a83a183add4558f7b563ea2bd448618959fdcf9e5077f9f628b4ed4020d61667",
+          "2": "4e3fef35057c3927151421ffdbb985b063230c9b7f1133792625a783f6bba784"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA20850/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA20850/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/NA20850/NA20850"
+        ],
+        "finished": 1789741080.2599628,
+        "output_sha256": {
+          "NA20850_genotype.tsv": "75961107a465348aa57e54ebe814ecbd92041c5c833c7eb591eb7f3abd85d356",
+          "calls.json": "aa67c0f0b4da04cd90b68b5aa0d76685a500ec6e7cdb68ccb3e4c135221589da"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "NA20870",
+      "manifest_sha256": "7cf78150d07078265fd4a2f7a91a1921307fbf6e9a734eeabed57ee1ebe13332",
+      "record": {
+        "status": "complete",
+        "donor": "NA20870",
+        "started": 1789740582.3973582,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "0cb32e30019fc65a27d43381e7521e0213e2194f7ef04e9465e8d1549a513869",
+          "2": "3ff7fd3e6e6590940b585f29d32f36fd304f2e5efdfa5f82db2554119dd8b200"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA20870/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA20870/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/NA20870/NA20870"
+        ],
+        "finished": 1789740934.2889993,
+        "output_sha256": {
+          "NA20870_genotype.tsv": "78e8d4ec1dc205e27489d3092c52bd7ba8b59e715b9be20ba5eab9f4969c5579",
+          "calls.json": "e4cbf8cc2cda643ad01884296b8d7e8f1812c3f35958b15428f17553b0e85060"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "NA21102",
+      "manifest_sha256": "bec486027040c8892d8f1931e182b2b769a314438a9e1cf933269432bba80d9e",
+      "record": {
+        "status": "complete",
+        "donor": "NA21102",
+        "started": 1789740582.7344165,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "cbe8c3dcd4b9286cb5c881485bca47f9b3451340a822f5d341bfc74eaf0654df",
+          "2": "eb047a765a704544f1e4ab4ec4588241d3241d099dd5a5a3ec95e904e0ac6021"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA21102/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA21102/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/NA21102/NA21102"
+        ],
+        "finished": 1789741047.7067895,
+        "output_sha256": {
+          "NA21102_genotype.tsv": "02ab81608f1401d7756bbbdbf801d8d5e3062552b698cebc8a28f02f12c108fe",
+          "calls.json": "7442c81100e2fd97a37e9cfaafe6bf1b3540640b5b0f7e1a2e2ead164905af36"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    },
+    {
+      "donor": "NA21110",
+      "manifest_sha256": "91c1b5bf1a0d3934b8e5bdb674ca0c16ad346a7d33fea6825c11570cfaf6d55f",
+      "record": {
+        "status": "complete",
+        "donor": "NA21110",
+        "started": 1789740582.6699057,
+        "scope": "Reserved genomic-IPD control; no truth loaded or outcomes scored",
+        "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+        "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+        "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+        "driver_sha256": "fc11b8e0d8b9cfd3f3d9bdb975cd84244828d14f3637b12092ff6441828c215f",
+        "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+        "reads_sha256": {
+          "1": "bc297d8e78b3ce7287f3836f00aded1d9d4f100241ce6b1d51ca06d951f64ec3",
+          "2": "d9395f64098593378df83496a1bb1ad7892ff8b126b32e274a59d4962c596033"
+        },
+        "command": [
+          "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+          "-1",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA21110/r1.fq.gz",
+          "-2",
+          "/home/leechuck/hla/t1k-pangenome/validation-reads/NA21110/r2.fq.gz",
+          "--preset",
+          "hla-wgs",
+          "-f",
+          "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+          "-t",
+          "4",
+          "--alleleDigitUnits",
+          "4",
+          "--alleleDelimiter",
+          ":",
+          "-o",
+          "/home/leechuck/hla/t1k-pangenome/validation-runs/genomic-ipd-v1/NA21110/NA21110"
+        ],
+        "finished": 1789741064.1842968,
+        "output_sha256": {
+          "NA21110_genotype.tsv": "65b729889f86bf9450d85854254fbdd23dfa46616b6aeccb788c4ea5d9e7cca2",
+          "calls.json": "f6c505d392d25245e1a05214b6c0a4e5739ed592a7fb895558af38889ecd51e9"
+        },
+        "validation_plan_sha256": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+        "validation_driver_sha256": "0d8ea017c55209ab1a2af7e2a6d2775ec7bb45f2c8aff1bf82540c35ec0dfcca"
+      }
+    }
+  ]
+}
