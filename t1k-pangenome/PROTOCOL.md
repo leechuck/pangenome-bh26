@@ -161,6 +161,19 @@ synthetic mapping retained and mapped all 4,008 reads. HG00658 HLA-A mapping pil
 for both panels and both selection settings are queued after the remaining
 legacy benchmark. These outputs are evidence inputs, not complete HLA calls.
 
+join_evidence.py verifies native/graph input read hashes and the mapping-to-path-
+support-to-fragment evidence chain. A disk-backed join retains one row per
+fragment across native assignments and multiple graph loci. Mate suffix handling
+matches T1K's reader; collisions within an evidence source fail explicitly.
+The synthetic integration retains exactly 2,004 fragments: 708 with both sources
+and 1,296 with graph-only support. Scores are not combined as independent reads.
+The first real native-evidence pilot reuses frozen T1K candidate FASTQs and must
+reproduce its genotype table byte-for-byte before its evidence is accepted.
+
+All 84 reserved donors now have verified read preparation records, archived in
+validation/READ_PREPARATION.json (65,467,081 paired fragments). This archives the
+preparation manifests and read hashes; it does not genotype or unblind them.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122

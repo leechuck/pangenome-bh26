@@ -1,0 +1,764 @@
+{
+  "status": "read_preparation_complete",
+  "cohort_sha256": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+  "donors": [
+    {
+      "donor": "HG00290",
+      "pairs": 938126,
+      "verified_manifest_sha256": "e0aeb8573b4c3cb77e2b6abb3fdf0108bbe93cf0afc351498394dca6f2292bca",
+      "reads_sha256": {
+        "r1.fq.gz": "b4c8724b01ca1e3ce19c372ca3a53bb1d1f3189e29677bda6ec2cec1e3e649cb",
+        "r2.fq.gz": "361d30808267592b0be46153383d54126f05c4fa25ddd3f9e3111d1534af5814"
+      }
+    },
+    {
+      "donor": "HG01433",
+      "pairs": 863136,
+      "verified_manifest_sha256": "20c84402dea8b4f1f5d09acbb4edc0263796cd0501a40a886bea3e4d031ec040",
+      "reads_sha256": {
+        "r1.fq.gz": "a7b8791ace64dbb1832db2ce0824dfc94c5e4d063daf4ad3d3e596df0f31cf73",
+        "r2.fq.gz": "bf2e3329984977b715c3637b21ccff15f9ed0e123af3182e0515215e98d57a83"
+      }
+    },
+    {
+      "donor": "HG01884",
+      "pairs": 746366,
+      "verified_manifest_sha256": "d983f128522dfdde984797981c67c5e3feebede408f3457eb13bc8f3617b4332",
+      "reads_sha256": {
+        "r1.fq.gz": "41b9b66137461e80132df0f5d0272a1db39c5f137c940a2049ee490b449e97f4",
+        "r2.fq.gz": "360cc557a715bbb1691ecca6d8496dad08b68fce0046ec806dc59477599817d3"
+      }
+    },
+    {
+      "donor": "HG01891",
+      "pairs": 712147,
+      "verified_manifest_sha256": "402556631b727370ccfbae9d458a3512d77ac07dac48f75ca375901f2ac6e7c1",
+      "reads_sha256": {
+        "r1.fq.gz": "f144ec5c6cb9dca28bab2b25e52475e0349c6bca9de7cb85c6ea0d3fd140db05",
+        "r2.fq.gz": "84b9cece4674266b34356471fa6793dc4b47c3c0fe30b46e726876646d682982"
+      }
+    },
+    {
+      "donor": "HG01928",
+      "pairs": 790953,
+      "verified_manifest_sha256": "dec0d4890ed22ea61af99adfae4863b5e924e0ee265aae3fedb7cf2772951bcb",
+      "reads_sha256": {
+        "r1.fq.gz": "7249d1e54fe076ced64d07d4b1c8ca654433568fec475159641ffaff49674006",
+        "r2.fq.gz": "a09dba9bfabcb2e8fecf691779a0d161e79e55f610a22feaef2386730e21a2ba"
+      }
+    },
+    {
+      "donor": "HG01934",
+      "pairs": 808340,
+      "verified_manifest_sha256": "c8d5a6cf2a263d02a0a4815aa0a9b42c41fabe2f2044f6566e93e4502837b7dd",
+      "reads_sha256": {
+        "r1.fq.gz": "b53aa051232cf29c1a3b8a3dfb89832b82c2164357f814098093e966d8b5a13c",
+        "r2.fq.gz": "5ec9ac7630efdd67e4f8fa33a1bc1e55db9e08b0470acd6af55b125478d5e345"
+      }
+    },
+    {
+      "donor": "HG01940",
+      "pairs": 733741,
+      "verified_manifest_sha256": "79abe4c42b506a7b6614184f21ec057ee9148696ea9ccc8282debbc0bc729938",
+      "reads_sha256": {
+        "r1.fq.gz": "861d012c47bc63af73f32a2a4c4b3dca10f0259c087b70256f1cc871b2f95594",
+        "r2.fq.gz": "0141c46f92cb98d98cd0174664e828b5cfcd19409190423d9cb1f9f340cea25e"
+      }
+    },
+    {
+      "donor": "HG01943",
+      "pairs": 758947,
+      "verified_manifest_sha256": "97fe9a4df2497bc526f36d919cc109e9fd60b502e87f2de8e9a7306e448d38b7",
+      "reads_sha256": {
+        "r1.fq.gz": "d70f4e3cd809edd5ed04a4e2569e7db053395fea3b16bff01960e88148dfbe58",
+        "r2.fq.gz": "c0012f3c7c144b19f0cdf69f014555041b14bb020087349e3ccceb8a28f6763a"
+      }
+    },
+    {
+      "donor": "HG01952",
+      "pairs": 773635,
+      "verified_manifest_sha256": "fc1c3c0cb648be9d52e8a07f2a48f13fd77ceb65a84b9165149d82f8f7ecdbaf",
+      "reads_sha256": {
+        "r1.fq.gz": "26b787260b529fc1ce940b27d6d57234972145378f518bb0454a0039cce4952d",
+        "r2.fq.gz": "032b2cc3138b2283e551103f11d151433273d263ac2de57643bc69e29e91a948"
+      }
+    },
+    {
+      "donor": "HG01969",
+      "pairs": 715984,
+      "verified_manifest_sha256": "f0db4b45e8d179f151fe7414941b52f9dfa350d51d44977170a821202b0c51a6",
+      "reads_sha256": {
+        "r1.fq.gz": "bed0e71b723ff0acea244bea994cafc380ee078cddb041cb8a745db4875af9e1",
+        "r2.fq.gz": "99e117c932338d0c73b053543a8bb8994ecf4e555dc9f18a5ccff7e4317a586d"
+      }
+    },
+    {
+      "donor": "HG01975",
+      "pairs": 804625,
+      "verified_manifest_sha256": "c0c25ce9abe0086f34dc226fc42783f345a919f3b470a82b6c195fcf4e2ed2f3",
+      "reads_sha256": {
+        "r1.fq.gz": "d7c947314f21575a2b16e3f9774d7ba6cfccb4e124efa5d03e0265ed949fb9d4",
+        "r2.fq.gz": "b6a7e44a486258a4283a6786f401a02aa27035d39d6b6c402c50f90a355a9101"
+      }
+    },
+    {
+      "donor": "HG01978",
+      "pairs": 815858,
+      "verified_manifest_sha256": "d1ed274a0448cbf3d81b0faced14fe2ae32e95d872eaaff461b2a3a53635faa2",
+      "reads_sha256": {
+        "r1.fq.gz": "8006f45ee97c72a66645d8501d6aff10e26a014d5e4f5c186e5fdfa4e43a452a",
+        "r2.fq.gz": "e99f69ce7e111572e1ac2082a6e86d4353c176af8b806de51a62e51c322165a9"
+      }
+    },
+    {
+      "donor": "HG01981",
+      "pairs": 708805,
+      "verified_manifest_sha256": "8be735c4305930c839d60eb189936f3eb0f984fe36244ba6a29fd18b5d94210b",
+      "reads_sha256": {
+        "r1.fq.gz": "61e7a4c513b5dcf5a7488d8ab5489cc1a08753f7c757cdde898a02d8ceb4266c",
+        "r2.fq.gz": "acd41d1d4f4de42a9e5da8689496acc4783ad8c1ee1f59ff68fca491d686f37d"
+      }
+    },
+    {
+      "donor": "HG01993",
+      "pairs": 699779,
+      "verified_manifest_sha256": "ded0b257c5b4752bed716dbe3b62bc58fd5a9afdc8eeef1d4b4302eb1b9b1158",
+      "reads_sha256": {
+        "r1.fq.gz": "9a2eb290ecc97017123f2fca8336884e52994ec4a658b7f8a0fc7cefbb40c42d",
+        "r2.fq.gz": "5241de7b92623febbe5c897d53f7335988b8536659da76ad1afd9a68974df651"
+      }
+    },
+    {
+      "donor": "HG02004",
+      "pairs": 736649,
+      "verified_manifest_sha256": "dbcfafef82da0f265116812c1bc1cee2a8349fb3b0079d7f36ea197b698d0eda",
+      "reads_sha256": {
+        "r1.fq.gz": "135edd70569677e54a5344f2ece97a77166d62fca38a795adc8b71098637bcc2",
+        "r2.fq.gz": "df2f3d97acdc7f582406318a7eebac5f1f6ac06ea8939130acbfde986e2e02d5"
+      }
+    },
+    {
+      "donor": "HG02015",
+      "pairs": 786199,
+      "verified_manifest_sha256": "b7a3c86369af9f13f409022a650b166204db6ee6583f0d63bad1837d3732a41f",
+      "reads_sha256": {
+        "r1.fq.gz": "6ee60e768392c0a01eeb6d0b3f8187ed980bb8ceef7652d8e808120e5d49f0af",
+        "r2.fq.gz": "8f8df9799644bb0694256a4e32265e8caede24fc85c0a3897f0c15dd2f3c7071"
+      }
+    },
+    {
+      "donor": "HG02040",
+      "pairs": 672096,
+      "verified_manifest_sha256": "c7e165e18106c9d78c23069cc2e0a4a65e15467f3a9443a6cc4be4672ffe185f",
+      "reads_sha256": {
+        "r1.fq.gz": "b25815c6938a78b02f043cd3bea51619063e5263aad69f3dc85b67f7bba63bff",
+        "r2.fq.gz": "9aa8b36552e6a68bf4fd95294e53435481aa5bcd2816a2b7767f24b91fb20c12"
+      }
+    },
+    {
+      "donor": "HG02055",
+      "pairs": 766713,
+      "verified_manifest_sha256": "407a283f6651ae4d3fb4338e3b4a3b4bae875352044513609e91f412210235b8",
+      "reads_sha256": {
+        "r1.fq.gz": "1430598bd6555f5d5e1b4c60eb5aaae9988145708d1f4ca8220d2226c3389e87",
+        "r2.fq.gz": "34d0f2ca261faf05bed9d8326b02691c07383453183ff7778bcd1339efb5295a"
+      }
+    },
+    {
+      "donor": "HG02056",
+      "pairs": 707594,
+      "verified_manifest_sha256": "ffa334573bfec66a55e48e3cd26c3a889d73f9c3ed93c226ba896028731fc491",
+      "reads_sha256": {
+        "r1.fq.gz": "c9380f7603d20f4675e150f33e1c9440be47634714e669e85159e1e85e6cb2d1",
+        "r2.fq.gz": "d5f93a67c8715905b5d4843a4a9f13bb8ff625c01b73e94506ea0f8e94cfa8b6"
+      }
+    },
+    {
+      "donor": "HG02071",
+      "pairs": 913444,
+      "verified_manifest_sha256": "68e930e79ff6020046ecaf6ea43009365af8ecdb043b775d8b6244c451b6fd32",
+      "reads_sha256": {
+        "r1.fq.gz": "e875fb463a34ad7b9fb0b991e6a558f12557fe48551b7d16075ca254ea4a3144",
+        "r2.fq.gz": "c0f3320594c7e531c3bf847697f2a2b0e333d084fd37588fa2f5a1d9a5190bbc"
+      }
+    },
+    {
+      "donor": "HG02080",
+      "pairs": 768439,
+      "verified_manifest_sha256": "eddf9707fa11a4cec5745cdf4a6be1fa57fe265466ce3d02ba4a4faf5b4d3dc4",
+      "reads_sha256": {
+        "r1.fq.gz": "e21be92aed700c91c85dead8f30b23567f4d8f03f4b75b1e4029edf3c4d5f2cb",
+        "r2.fq.gz": "7ebe4a210a51642e404608b52675242368406e34b906955c11cccd3b97114dc1"
+      }
+    },
+    {
+      "donor": "HG02083",
+      "pairs": 756779,
+      "verified_manifest_sha256": "6233c015cb8f55995c04cadfb73d3609e50eb9a64d136986e04f2650b0e7d994",
+      "reads_sha256": {
+        "r1.fq.gz": "a910d623c0fe8dcfbb3706be27072dcdfed8503320ede3f9303b2ede2009b151",
+        "r2.fq.gz": "a3769268fbf1ac39b61a6f73bda930cf2153cf3b4c89f88c2b3ddd9f6f40e173"
+      }
+    },
+    {
+      "donor": "HG02129",
+      "pairs": 813748,
+      "verified_manifest_sha256": "8810d891cb65ae725afb5f1f58751d5e286299d9c3276e5c385c8dfa11c37879",
+      "reads_sha256": {
+        "r1.fq.gz": "b322531cdda075f732b477ed7f78a5d40cf2c455d98e8ccc92d4a6cc8388ce3a",
+        "r2.fq.gz": "f30ae46cc255ecde289633c9958623f5387db1188563b8de619aee8d9b6818ad"
+      }
+    },
+    {
+      "donor": "HG02135",
+      "pairs": 808690,
+      "verified_manifest_sha256": "dafbb659cc85a517d863b398b3d51ee674360b624ab45b9d3f783d76c71ab29a",
+      "reads_sha256": {
+        "r1.fq.gz": "1e1f17ea00980899928cf6601ca6f87b979d184ff4a3235a9abd33c27b2d29c8",
+        "r2.fq.gz": "7e4407184798e9d544d91f4ed07f5095dba617023ecb5b82b3d1458e26aef5c4"
+      }
+    },
+    {
+      "donor": "HG02148",
+      "pairs": 784977,
+      "verified_manifest_sha256": "721d772f8183b509fe1bc10f71ab1b9a53c3483d6a2217565a732d021175546b",
+      "reads_sha256": {
+        "r1.fq.gz": "c624d33291c1c07321a954c3ad72cfa574e2ae432eb621736544022932d5b6f8",
+        "r2.fq.gz": "14344e91c23d06a1c5d22c5e141e4ab17b915da5c72aa104783bdae4f82d9799"
+      }
+    },
+    {
+      "donor": "HG02257",
+      "pairs": 740093,
+      "verified_manifest_sha256": "13db20812f9e48f85081c478a3a13e57b8df6a3aa4dbfaf069f0455c78c4f186",
+      "reads_sha256": {
+        "r1.fq.gz": "4d35818397d6ffb3fb18f5e2d9117d89f1ba22604121a966e8bf0ed278dddfb6",
+        "r2.fq.gz": "b8ea9399618349f83f0f11927f50e62db582e6286e6b11babf44f5b669eeb0b7"
+      }
+    },
+    {
+      "donor": "HG02258",
+      "pairs": 736379,
+      "verified_manifest_sha256": "fe1ef253ba5fdc91dcef744217c1e17d439d6c83f7db923beb1dd8acb795cd8a",
+      "reads_sha256": {
+        "r1.fq.gz": "59b8b08c4c6b65148ad2d9131219ca7541b760070f1a859bd9b8c6f176827e92",
+        "r2.fq.gz": "d7b15764af64cb530a7b4cd05ac486012f91f4018e955076dd8294a66937ffe7"
+      }
+    },
+    {
+      "donor": "HG02273",
+      "pairs": 692127,
+      "verified_manifest_sha256": "1892a74bda0e3f295ea94e3f6a7ce747dab9f33d8e05d8587bf66ecac33eb402",
+      "reads_sha256": {
+        "r1.fq.gz": "3b09c8ba321f35eb166390e6d42478c81991422481f0b1d513a2349b332afeda",
+        "r2.fq.gz": "df7e154ebff76fd6326216e84ae0754a4ba43cf3c87a007220af1e0a7205249f"
+      }
+    },
+    {
+      "donor": "HG02280",
+      "pairs": 759323,
+      "verified_manifest_sha256": "10414f531d1c6d25d2b466ab2d71e7ae37d1f715eb5a0ee3d14029869da28b9a",
+      "reads_sha256": {
+        "r1.fq.gz": "1b8359942a59060491c735246544d5654efcc2a01d24febedbd5bfc3d06c3fb5",
+        "r2.fq.gz": "4009d94ade4ffe14fd4ad2005aeee4d1b7639aa4d45447d88f3fda54a84df3d6"
+      }
+    },
+    {
+      "donor": "HG02293",
+      "pairs": 713550,
+      "verified_manifest_sha256": "99605be55d5bff9ffa0f6446602c586c90280c40f87dde28f1b47a06687c793d",
+      "reads_sha256": {
+        "r1.fq.gz": "8f43432f73408630e5d0debe4635a621980ccad940565eb75fa97bc38ebec9b1",
+        "r2.fq.gz": "1c6ed0b9a814e233b75d6d849eaa255e37f040911de06cc372293caf824096ec"
+      }
+    },
+    {
+      "donor": "HG02300",
+      "pairs": 737174,
+      "verified_manifest_sha256": "aaa1586530702e033e323479904059a6806eb29bc3c602361824d6f6748c70cb",
+      "reads_sha256": {
+        "r1.fq.gz": "f7bf8fc8cedc25e94a507012a84ed0a1bef0a972170cbb862f757b5905ee1404",
+        "r2.fq.gz": "4e77193c7f7a859e8a325fa8d313828239e8a9cad75c054eb54acfc91ba5c58d"
+      }
+    },
+    {
+      "donor": "HG02392",
+      "pairs": 716823,
+      "verified_manifest_sha256": "103edac65bd67e3d3cbbb5ea880474cc552033bccc922e1fb727615fe1a57473",
+      "reads_sha256": {
+        "r1.fq.gz": "ea07dc8a7d7c9a59f7526216046c7ec5d7418165ef4e1d50dd02404e07d1c4d1",
+        "r2.fq.gz": "f6b12ca273252996072856cd6124a56951c0ccaffcdee2cbdd1a4b785fd1ec6c"
+      }
+    },
+    {
+      "donor": "HG02451",
+      "pairs": 727551,
+      "verified_manifest_sha256": "867afa356f00030a029dc7b9715a9293265b859237472b49bd0f8a5bcd9269dc",
+      "reads_sha256": {
+        "r1.fq.gz": "29632879b36364d2d57dc3ba374b0d8d4b08ab2a05260ba4535b98725c396c53",
+        "r2.fq.gz": "cbc4a2cebb0107ec85534969e0fc6031e43bfeb45e22e338f2e6fbc7748b3267"
+      }
+    },
+    {
+      "donor": "HG02514",
+      "pairs": 816212,
+      "verified_manifest_sha256": "499d36c3e8b5d314312f31c39079fafbdd3633d322c827f48d35d5ef51de5901",
+      "reads_sha256": {
+        "r1.fq.gz": "acdc94624811c5e9f2e9796dceaab50c2b92dda6a11896e77206d9dd75f1ac69",
+        "r2.fq.gz": "70436e16baece9527e36550f8afff2e9ac308b3378814d365394de75985b819d"
+      }
+    },
+    {
+      "donor": "HG02572",
+      "pairs": 778417,
+      "verified_manifest_sha256": "e8f9ec95211273886e79e7752d6bc1b8b4464d15515d669c3742e50fc47b300a",
+      "reads_sha256": {
+        "r1.fq.gz": "b9cd114badb4235bd243ecba22324f22c5e76081d19320af803239259fffd1bc",
+        "r2.fq.gz": "f5765f6112ed1d5dddf3feada1cf0ddfcfa33ddb8a8d49b873e9b77921102915"
+      }
+    },
+    {
+      "donor": "HG02583",
+      "pairs": 876099,
+      "verified_manifest_sha256": "0e38a91e7af73fdaffb92682d4d7d22235befc260403edb56361f2ae4a09d5b6",
+      "reads_sha256": {
+        "r1.fq.gz": "215b57ab4685cf5909378e4522ee190282a31f4d7e19d3212550f6387233de65",
+        "r2.fq.gz": "5acbcf28ca0dbdbc9c42913c0a58990cf78df779f0815dad0217c38ff46e894a"
+      }
+    },
+    {
+      "donor": "HG02615",
+      "pairs": 752561,
+      "verified_manifest_sha256": "eac0014779cc85b85e10f505adbaf8165de7ac27b8619041bf2d4781e37f9792",
+      "reads_sha256": {
+        "r1.fq.gz": "74bb3587696432ab096c407e8b57f01f756f64f5516dd2cdcaf8ea6fec579ca1",
+        "r2.fq.gz": "0fe5a1094b04f8a6d51e4f929cfaa7b10a55239e17c84f5860623530f468fe11"
+      }
+    },
+    {
+      "donor": "HG02622",
+      "pairs": 771466,
+      "verified_manifest_sha256": "136c3315f6571b5e2ab88b3b4fcfb3375143eea3be022f22c61e56a07793c76f",
+      "reads_sha256": {
+        "r1.fq.gz": "9d29ebe4ca5aa90a86a4267195bf5aed34a7612dea23109a59188bb2ff18d2ca",
+        "r2.fq.gz": "eee420ed16a62fbf65408ef7940e809b0130d4cfe02190d3d478930106e5707b"
+      }
+    },
+    {
+      "donor": "HG02630",
+      "pairs": 776470,
+      "verified_manifest_sha256": "9fa3643c7e1ae8d020bb94e7d1cc2c38b5e760904055e4c9ac1ab04451515a32",
+      "reads_sha256": {
+        "r1.fq.gz": "2797a054a977ef48a58854072d9e141937a79d6e0b19896690b62530786bc1ea",
+        "r2.fq.gz": "317cbf5cfbf54ff31124b700766726c286876fe45933597ca813697f8d73ff15"
+      }
+    },
+    {
+      "donor": "HG02647",
+      "pairs": 815864,
+      "verified_manifest_sha256": "d2fd6fca824116a9d2c74e9572d9625e8f787f8092a948d82a9d71dff81b5ef6",
+      "reads_sha256": {
+        "r1.fq.gz": "f9a88ff41ade6c10c88e8caa28a0e731713d6895d38654ad45f3cfdb5dfb390d",
+        "r2.fq.gz": "b41d7432c4b94ff6f84ffafbf989522e3117d48331af1b1828aca169112d63ee"
+      }
+    },
+    {
+      "donor": "HG02668",
+      "pairs": 697416,
+      "verified_manifest_sha256": "65c2a16fc9d3019536b2b14a876ac7ce6b79d8c059f7a96be3d819c90a3530b9",
+      "reads_sha256": {
+        "r1.fq.gz": "e7c8f156e00d98bd1f19f6956caa2419bf8ebeccdc85aaf23f71a15a9322f71d",
+        "r2.fq.gz": "d903fb312ad7f0a579a75faffaef02ecc828a6efef5d38dbcdfb3438351718db"
+      }
+    },
+    {
+      "donor": "HG02698",
+      "pairs": 740837,
+      "verified_manifest_sha256": "4e47a34680430979a6c7c4a025c7d9588a282a3b1ef2e15f5f2ba98468f986f3",
+      "reads_sha256": {
+        "r1.fq.gz": "d136be07514683190ff2ff5f106d4221b1c1170e2aa7e5ce7c22bc0ea79704e6",
+        "r2.fq.gz": "9e369685194c39770ed1058dec2208692e1d0fe4d00a945ccff8ceca31187c89"
+      }
+    },
+    {
+      "donor": "HG02717",
+      "pairs": 819726,
+      "verified_manifest_sha256": "7b266b234a5b6f1a1a53ccf57ded3f11986a9b4973b7fb35d4e697e837b3fcf5",
+      "reads_sha256": {
+        "r1.fq.gz": "bfb344961fb2be12360831327f70f88fa25f088cc477f5eecb7b345e8a4a1236",
+        "r2.fq.gz": "6884fde62908fb7253b01cb68ef645d909feaffb2ffb7ce26ad155e578c7e6fd"
+      }
+    },
+    {
+      "donor": "HG02723",
+      "pairs": 759963,
+      "verified_manifest_sha256": "4291a0b0890ae301bfffb4dcd976da886cac59a9416847dba98021669e5e8f37",
+      "reads_sha256": {
+        "r1.fq.gz": "af1669726491d31c4bbca4b4db1c9e4b368d0bc2ee8eea77d16328dbf0f0dada",
+        "r2.fq.gz": "34279ffa16295c4b8e86e1d71f28df50e4401c4be92da9e0c658b15c6a52007d"
+      }
+    },
+    {
+      "donor": "HG02735",
+      "pairs": 1009867,
+      "verified_manifest_sha256": "62c0e248d828e615fdf32741ab748389c45d87fd0507ca16c5baed42a497b0f5",
+      "reads_sha256": {
+        "r1.fq.gz": "b947bfafcde7b1919e659ecba5ff824e3ac897cb5366a3d2ae19946ea9a7ec42",
+        "r2.fq.gz": "5c803f149ed84c72a79ea5766a37a06bc30f54e3571cc75c246ae57a20a3915e"
+      }
+    },
+    {
+      "donor": "HG02818",
+      "pairs": 729978,
+      "verified_manifest_sha256": "e38e46789d09b93d7fc0e2b919c210130cbbad6bd8d4f2e3b77a0c5401d7b4dd",
+      "reads_sha256": {
+        "r1.fq.gz": "c58ca67001a59bd63492486c1e9601989225e2f02fb82b9aa0e48158b9fac1bc",
+        "r2.fq.gz": "d4e202292870ff7bf702989539f8e031a4ef2fc2ab4080704bac6f2649f6e22e"
+      }
+    },
+    {
+      "donor": "HG02841",
+      "pairs": 786595,
+      "verified_manifest_sha256": "7094ee18939e1558c20c556c92205376eac50cd2c086e7c9713ec0323c5dfa6a",
+      "reads_sha256": {
+        "r1.fq.gz": "8ce44cb3292e7f3e479644054f9a15654719b1d17137d6d596c66b2e4bf87061",
+        "r2.fq.gz": "9b5ac36a611b57d18b31730c89ac9bea957928ef3c55231dd9bb6cff2b5d11a7"
+      }
+    },
+    {
+      "donor": "HG02886",
+      "pairs": 778236,
+      "verified_manifest_sha256": "3c73806785d1f5a56a802f1f55e8c8bd77670def98626308056bbec5ae094ecd",
+      "reads_sha256": {
+        "r1.fq.gz": "9ce156b274fc3da97ca944fef4016c11744b2e60b640ce090fa4d185c2115d25",
+        "r2.fq.gz": "907f6386536689789b9af72f01665b01553b23e49b3ffc29dd2fea38408f4c19"
+      }
+    },
+    {
+      "donor": "HG02922",
+      "pairs": 689387,
+      "verified_manifest_sha256": "c483b69094ce89d6543c529caffcce20f16fab8e86809e66302102e1e86ad305",
+      "reads_sha256": {
+        "r1.fq.gz": "e3d4a9455dff2b0b396750bfee6cabd302985516de33ba55606e3f0f493e6cb3",
+        "r2.fq.gz": "12560c236e9c36e3c17f1acffd0fb56143d1926862dfd07a266a934f0d309061"
+      }
+    },
+    {
+      "donor": "HG02965",
+      "pairs": 758863,
+      "verified_manifest_sha256": "7dbc1e035a688c85170a9262b0d7ecc4bc0107dbf54669b7fe122acd53d426bf",
+      "reads_sha256": {
+        "r1.fq.gz": "5e5c6bc2ba7455d85333575c4bb65d2b6495388bdf46fe2834619ff2145becdf",
+        "r2.fq.gz": "bd9a7f7174227c530c45319d50fc8ba0705529cce4cb44713c9346b5537c7d7e"
+      }
+    },
+    {
+      "donor": "HG03041",
+      "pairs": 703549,
+      "verified_manifest_sha256": "c015892370fa47602d800582936b036813aa6f1cc6513e726bab7d4cf06e7e93",
+      "reads_sha256": {
+        "r1.fq.gz": "b1e459b9e2ba0d6bf1c5f23a798b5c7e81d0c5471e8c95b5c695c0a45d6eda3f",
+        "r2.fq.gz": "894bdfba8e1075502b194c645393adea88716c6b30a78b4b5501b0f238b2d606"
+      }
+    },
+    {
+      "donor": "HG03050",
+      "pairs": 791530,
+      "verified_manifest_sha256": "58ff43b5e4fddbdad33ed9c00024a647932077ba25b038cf6fcfb353595c5870",
+      "reads_sha256": {
+        "r1.fq.gz": "4474de2cc6f965e5587273320455c90ae23513b51c2461e7ff91ee7873e1c9d5",
+        "r2.fq.gz": "55117dd5db901be5308f618175a6ecac72486c18f749157d011db8eff87c2e14"
+      }
+    },
+    {
+      "donor": "HG03098",
+      "pairs": 748140,
+      "verified_manifest_sha256": "b5ec6518303f247669933bbcb542ae1e0ed365baeb8e82a7a59867a85c6b0353",
+      "reads_sha256": {
+        "r1.fq.gz": "0f3c23ec99b3fbfb7a071a6955a5d0d215b24755141e623df43bba7a3eb1a2e9",
+        "r2.fq.gz": "3b8cd8ee2dea27e2f8a8c54bf3ffd9ed359d02940163e4907b495af726f339f6"
+      }
+    },
+    {
+      "donor": "HG03130",
+      "pairs": 924458,
+      "verified_manifest_sha256": "5501bf253e815b38ab9eb24dc2d0390c6b881d6d6d8cae3f8d9eb620876d63c8",
+      "reads_sha256": {
+        "r1.fq.gz": "33c0ad7369ee8bf311260b4f87908e1d5f18fe4f858af70193615b1ba4d1bf1b",
+        "r2.fq.gz": "09b658ff9e5a2116bdf9124d27d165a314cdcb15ea9682da5c6c130d5ed07946"
+      }
+    },
+    {
+      "donor": "HG03139",
+      "pairs": 749051,
+      "verified_manifest_sha256": "410ff6a9b33e3d7b1095ef0be52666691f684c7bb5035981ee138df6c01cf55a",
+      "reads_sha256": {
+        "r1.fq.gz": "aaa12ce2db5d77f5be3227527fb4097f2504569e18315e7e4c779cac72d2924f",
+        "r2.fq.gz": "ff4854e1d50a0b6c596068aecff8eac5b12565d4a3c30d783a414e900a6c813d"
+      }
+    },
+    {
+      "donor": "HG03195",
+      "pairs": 693937,
+      "verified_manifest_sha256": "fd2a6cc80f8ba11a837bfa9ff378e3a0611e22a73d90a66c725486c11d7727a5",
+      "reads_sha256": {
+        "r1.fq.gz": "2194940b0044594b82f62fae1b076e7756a0367611982bf99c05a07a957cb461",
+        "r2.fq.gz": "f8bd8c2c9533fa495478176cf2636690a3cc8b05940ae51c4e0e6f751196189a"
+      }
+    },
+    {
+      "donor": "HG03225",
+      "pairs": 687745,
+      "verified_manifest_sha256": "dcc7057c51d3c244504fe0879dc74a411380f82715519c7d901b0115e2ae4f84",
+      "reads_sha256": {
+        "r1.fq.gz": "017ea88737da542376c86adb185d5c9efb26fb72851cb3d722a3bc53ed4c6de4",
+        "r2.fq.gz": "c3775208a059f5c1f6bc657a8f89c7723fe3bd630d18edac39a6e1833ec5304e"
+      }
+    },
+    {
+      "donor": "HG03270",
+      "pairs": 1194877,
+      "verified_manifest_sha256": "589ca5963aaf7aeaa7f61e43b215a6febc9c37f2ee33df3f3da1c19500169fad",
+      "reads_sha256": {
+        "r1.fq.gz": "a95969a1d65504cd0ae84238708c57be30081a5c956a6ed4b5a50dbc723d3036",
+        "r2.fq.gz": "22fbb067b40dc2f697532492ec47763879a3a9c672433c17ef619d526a9c808d"
+      }
+    },
+    {
+      "donor": "HG03470",
+      "pairs": 794087,
+      "verified_manifest_sha256": "222e2522c13684db1883554a0712b005128002c9efd976616bf605a94d15fa16",
+      "reads_sha256": {
+        "r1.fq.gz": "0f71b1fc070938c17417168e73819933793bebdbe06ef07fa45d873aa149a1f6",
+        "r2.fq.gz": "a7677bf7dbcf29e036b5d07ce0c17f929da1327d5c1e58196e1a7c77a3724c07"
+      }
+    },
+    {
+      "donor": "HG03486",
+      "pairs": 769213,
+      "verified_manifest_sha256": "1a2280a5cd4b37d01ad0dd44aeb8f8bf02a3326b5e6f400c2eccfd2add153fd8",
+      "reads_sha256": {
+        "r1.fq.gz": "e4fe89dff9ad82229811be6a7a7482e641ceb6ea0a2c9c91d8dccc644e09ecd3",
+        "r2.fq.gz": "26f97b5d072f9c3d85291d6c05450c3d528fba1cfbd4d38a14d6fc5c74e0a3c4"
+      }
+    },
+    {
+      "donor": "HG03521",
+      "pairs": 733994,
+      "verified_manifest_sha256": "6a8f7e0dead700295e3714736bd51838dea914a33964416cb216c82e659c9878",
+      "reads_sha256": {
+        "r1.fq.gz": "880b76fffbaaf6b326ba8bbb162b2515f4f4fd6e025b4170a9b6b66e591b9c39",
+        "r2.fq.gz": "d256fd8cb51287f211a51eaf0ef7f0891b31bb4ced1d7e485f50b245665c99f3"
+      }
+    },
+    {
+      "donor": "HG03540",
+      "pairs": 778228,
+      "verified_manifest_sha256": "bba43185472480a2f6826e3788d2c19d579470679d9a924d5788e2c0a2eb561e",
+      "reads_sha256": {
+        "r1.fq.gz": "165025017a00aa3724145f7f1baccb569194840069a82d2ccab6bd3e6ecb6291",
+        "r2.fq.gz": "12cb172dabc42e13a2657b5568332805b61de8012abf6b0dba566636cf910a71"
+      }
+    },
+    {
+      "donor": "HG03579",
+      "pairs": 681487,
+      "verified_manifest_sha256": "907f600dd4883ad9b3b29f0d5d95263787574fdadfbbe6f9a1fffdecbcd6e279",
+      "reads_sha256": {
+        "r1.fq.gz": "07cada0a1bb03be2d24533ba2ede80138655bb6562743e1a26671769caaff216",
+        "r2.fq.gz": "b0ebe51cb01140821ec81cb7748d000f87cdd88922ae4972ab507dbadef19272"
+      }
+    },
+    {
+      "donor": "HG03583",
+      "pairs": 687502,
+      "verified_manifest_sha256": "8a6ca55d6302cfe5069c0407dc08cb612ec7b6de8a08b8061f7fb88304e40510",
+      "reads_sha256": {
+        "r1.fq.gz": "7be5d68e60310f5ec0ee790e52d6dca1d0bc3902d42cb9781b4fcea173865c0c",
+        "r2.fq.gz": "ed6597509d5cffaa11508a56a725c5dc037ac3f4ab5c756cd9b8aad7190c50d1"
+      }
+    },
+    {
+      "donor": "HG03654",
+      "pairs": 779625,
+      "verified_manifest_sha256": "30044c7328f8a83579606b8b01d93b38bd632595f414a7a439efaf88f4b61d7d",
+      "reads_sha256": {
+        "r1.fq.gz": "96c8eb48a5446bb1b6eb12219c141957a039d6b38e7eb7b9787c17afcda74055",
+        "r2.fq.gz": "8d3244986e10af316bc20e6353f1568dc23255a3752a6f696b792b9413eab1e2"
+      }
+    },
+    {
+      "donor": "HG03669",
+      "pairs": 773011,
+      "verified_manifest_sha256": "5907594f8be1bdaee4cd6b8b6ea1d358dd81c8fab85ecf3bca857f61937a47a5",
+      "reads_sha256": {
+        "r1.fq.gz": "b234f6469c04492caf38159b97c8f40ac26ec4d6f2226193502500b61a03376c",
+        "r2.fq.gz": "c72d95c1e27621df1735869fe93fee1df029d76941085bbd72874ef2d7dbe064"
+      }
+    },
+    {
+      "donor": "HG03704",
+      "pairs": 741065,
+      "verified_manifest_sha256": "aa1e8ff552f156d4e86ebbe0b745eb39f59b6234f15ed4536d39f753b21843c3",
+      "reads_sha256": {
+        "r1.fq.gz": "062e78fb637e46e6a644dbe99c8c71a01619976451a4d9e69ed2c22cf1388f8e",
+        "r2.fq.gz": "4e2fdcd9d2d4f418a8c3f3467a700e9e9be91c04792e26f9e315c65fd3d620bb"
+      }
+    },
+    {
+      "donor": "HG03710",
+      "pairs": 754228,
+      "verified_manifest_sha256": "5b9fb3adba52e54d9d1e21b9429b8c3ca6de660adc4e8b572c9cc4dbae7668bf",
+      "reads_sha256": {
+        "r1.fq.gz": "18919b8dfa56735f2365bb003a77e3ccac57051c6c11c50631cfb2024c81e8f5",
+        "r2.fq.gz": "c01a811579b475cbc2e696bd272c234341cf2944f17e77e72d8cdf0de3a501c4"
+      }
+    },
+    {
+      "donor": "HG03816",
+      "pairs": 654611,
+      "verified_manifest_sha256": "bb2fa20859bc788498c8cf64ec98562f3dbbe304a57c18c69ebf9b9284f13b49",
+      "reads_sha256": {
+        "r1.fq.gz": "3b3be3bba98fb201bea03e37b07d1b2c795104281b64ed5d241f4a36216574a1",
+        "r2.fq.gz": "443ac7fa3cb5a831789c97de10b10962579a4d9a5b4c206da81bfc39251328fb"
+      }
+    },
+    {
+      "donor": "HG03834",
+      "pairs": 695652,
+      "verified_manifest_sha256": "cf3b612c4c4faa3c3be4cfdd96cffc2efcbfe88bfe4ce974c4ab0ba8fe8517dc",
+      "reads_sha256": {
+        "r1.fq.gz": "d22f08273709fb6dcb60681ac7b9d04d67b0e3b4cde9c31fa4bdbd8e9a1591d4",
+        "r2.fq.gz": "84a81185e10188d1a87a6a8469f87e1f16fd3ca98dcc4164662acfb2a1504ea0"
+      }
+    },
+    {
+      "donor": "HG03942",
+      "pairs": 749005,
+      "verified_manifest_sha256": "37c379d4e83ed6e24230fab056a0ba19aed83995da88f682cd912e96d519bc53",
+      "reads_sha256": {
+        "r1.fq.gz": "92c5023a2f36cf0e84b0e51948251c301214b68faf134c1ea0b7f0db22a03072",
+        "r2.fq.gz": "0972bb7d5cdac3e13008bc316be9f3db4aaa083cba5230b5b7811f00257ac09a"
+      }
+    },
+    {
+      "donor": "HG04160",
+      "pairs": 755001,
+      "verified_manifest_sha256": "93a46b6822bf8b32ccd8bf758e68b40f33c1c74cab8debf205c12ca05137b808",
+      "reads_sha256": {
+        "r1.fq.gz": "a215f7e377f045bcfc943b964fabb34740dc74f5441f26d27627ec3c7d9a6c06",
+        "r2.fq.gz": "ef84bb4b22b1a8219e813571f70a92125b618675edc21874aa1f600ff51f4c3f"
+      }
+    },
+    {
+      "donor": "HG04184",
+      "pairs": 691454,
+      "verified_manifest_sha256": "3e9aa54ec63132c957202b1d2ee8fbf7c802046da4ec1ee9498dacd74499d127",
+      "reads_sha256": {
+        "r1.fq.gz": "6e890242f92e36a0504020063f169b80e98d21c8de42f6828d5175c4645115f5",
+        "r2.fq.gz": "ecb9d7db43100567eba959d3d3781d3f99e1abe3eceea60fb9c02272bfdbf107"
+      }
+    },
+    {
+      "donor": "HG04228",
+      "pairs": 798251,
+      "verified_manifest_sha256": "3dd8891a7033500fcdad16c7c9bf35a0ae62d5cb0cdbe4d9afd952338d238fab",
+      "reads_sha256": {
+        "r1.fq.gz": "09c5883435698659d27b0ca55433e3795bac06e5c55e5c1effd947cff9f57128",
+        "r2.fq.gz": "f66795e3d36cc7e1cf5b6d64135f9387f556b0e9e986699ba7aa2710ac0c4d9a"
+      }
+    },
+    {
+      "donor": "NA18565",
+      "pairs": 1114016,
+      "verified_manifest_sha256": "8f039334b3991e94da0eba91724e9944bf33abb589ed9de797ce45445685e38a",
+      "reads_sha256": {
+        "r1.fq.gz": "8499f98cf99a0518c1366016a882505d20eb10f1efc5a3c5435b64589f96ad9c",
+        "r2.fq.gz": "c6026522cd159f8a9a73946147880f1c85bd69703499170ca690d878d8917750"
+      }
+    },
+    {
+      "donor": "NA18906",
+      "pairs": 715166,
+      "verified_manifest_sha256": "380c26ee0c3d101b833a6051baf6f959f332b148161edcf5ab71dfafbe3dec40",
+      "reads_sha256": {
+        "r1.fq.gz": "81d5b62fcf5c358117290ffd3f1bd8f3cc731417371a7e4797d0787337c36b38",
+        "r2.fq.gz": "85ab3ead91a4432d1aa509f48487c668a40335752816fc8efdea2744990bd321"
+      }
+    },
+    {
+      "donor": "NA18982",
+      "pairs": 639558,
+      "verified_manifest_sha256": "20474ac4d7b4e3ceda767ea15bcb8b4937e14ba39d518305e4cc144a28e549d5",
+      "reads_sha256": {
+        "r1.fq.gz": "5ca690e520232f295c196658173a337afb449e7ba90998c27ce87ca9c716e164",
+        "r2.fq.gz": "c7f2c58c1bc7bbf674f3acc26823675795aeb0bcff3ea1a01b6249d6c67c7ff7"
+      }
+    },
+    {
+      "donor": "NA18983",
+      "pairs": 709392,
+      "verified_manifest_sha256": "a8d5ff4346c41934a288270a8bb84d13deb704fb3ed417f11caf6e3dfe38be71",
+      "reads_sha256": {
+        "r1.fq.gz": "f2dc110e5cc55f3c6e5ad189f1e3e6326476819c3ad3ebfc030c9edbf9f4fc30",
+        "r2.fq.gz": "96bf465ca7457e6213e88dc82615435e25a431a1a20c1e4967be809359241ad9"
+      }
+    },
+    {
+      "donor": "NA19043",
+      "pairs": 884807,
+      "verified_manifest_sha256": "d37f072c2b9a369deb7fb1b99b07a89ed4f24943519642bcd5cd36775132dad8",
+      "reads_sha256": {
+        "r1.fq.gz": "a6d399377bb492904ce586b7fb186a20b41e3fdefc923de12ce0afdcc5e5a984",
+        "r2.fq.gz": "069f0b768defd23a1973608597856667cb3f1f5831a12fc42c4d6f547ac43f8b"
+      }
+    },
+    {
+      "donor": "NA20827",
+      "pairs": 906360,
+      "verified_manifest_sha256": "12883a8e06ddd509504eb03203674a96c4fd2c72201654af04437630ba97aebf",
+      "reads_sha256": {
+        "r1.fq.gz": "7e4c603397cd24a55c2d4d2477ca13bbc5749655fa33f07d4eb2e25a0083fcab",
+        "r2.fq.gz": "df4a8b6e42cf09384017a777c66b0a3e24f29e59732f5ed3fa6d795456471aa1"
+      }
+    },
+    {
+      "donor": "NA20850",
+      "pairs": 999602,
+      "verified_manifest_sha256": "035a01bd0e7f1ccee88ea4958e2b837569d3fe8ebfabbbd41b55a00f4db3c6d6",
+      "reads_sha256": {
+        "r1.fq.gz": "a83a183add4558f7b563ea2bd448618959fdcf9e5077f9f628b4ed4020d61667",
+        "r2.fq.gz": "4e3fef35057c3927151421ffdbb985b063230c9b7f1133792625a783f6bba784"
+      }
+    },
+    {
+      "donor": "NA20870",
+      "pairs": 659368,
+      "verified_manifest_sha256": "f2e4656abdfd96aa08241d46660938933e2bcb24f315b7d8e511e92f1cb3ed9c",
+      "reads_sha256": {
+        "r1.fq.gz": "0cb32e30019fc65a27d43381e7521e0213e2194f7ef04e9465e8d1549a513869",
+        "r2.fq.gz": "3ff7fd3e6e6590940b585f29d32f36fd304f2e5efdfa5f82db2554119dd8b200"
+      }
+    },
+    {
+      "donor": "NA21102",
+      "pairs": 919027,
+      "verified_manifest_sha256": "f12be3d162cc2040ccc1511441c1f91945a1f98f86004af5676ff3e8d939d3d8",
+      "reads_sha256": {
+        "r1.fq.gz": "cbe8c3dcd4b9286cb5c881485bca47f9b3451340a822f5d341bfc74eaf0654df",
+        "r2.fq.gz": "eb047a765a704544f1e4ab4ec4588241d3241d099dd5a5a3ec95e904e0ac6021"
+      }
+    },
+    {
+      "donor": "NA21110",
+      "pairs": 1023337,
+      "verified_manifest_sha256": "0cfd2c0349ce8d879fe4b2ad0cab6eaf90edd027205d1fcee16d51721afc4d26",
+      "reads_sha256": {
+        "r1.fq.gz": "bc297d8e78b3ce7287f3836f00aded1d9d4f100241ce6b1d51ca06d951f64ec3",
+        "r2.fq.gz": "d9395f64098593378df83496a1bb1ad7892ff8b126b32e274a59d4962c596033"
+      }
+    }
+  ],
+  "total_pairs": 65467081,
+  "scope": "Prepared reads and original verification manifests; no genotyping or truth access"
+}

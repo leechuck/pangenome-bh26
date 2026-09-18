@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "native_manifest_sha256": "b0bd72b9f856eb60576285015cc9add6c831916ee6da47ba7ad2f4602aeeaa1f",
+  "graph_chains": [
+    {
+      "/home/leechuck/hla/t1k-pangenome/smoke/fragment-support-v2": "6adb10bfc65af0dbd878305e2c086e87549d76819789c6bb85bbddb030751b2d",
+      "/home/leechuck/hla/t1k-pangenome/smoke/path-support-v1": "491816a5baae1bf095adb7072319b78aefda36f466ee6058f17d79fce8b92cb8",
+      "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3": "250472a8211297a04deccd2ef90f877b928a2867e5db324b50a0291f28f37925"
+    }
+  ],
+  "driver_sha256": "ebbf6b77991be3aaa03066479cbcc20df85fda17aba5103cc56fb609463178a3",
+  "fragments": 2004,
+  "support_categories": {
+    "both": 708,
+    "graph_only": 1296
+  },
+  "output_sha256": "5fc63a7a33c2a5307d306df05fc18bd34b09bd3571363d8359c56b7e7cb86fbb",
+  "scope": "One row per fragment; native weights and graph scores remain distinct, uncalibrated evidence"
+}
