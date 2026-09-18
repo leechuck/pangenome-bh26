@@ -1,0 +1,58 @@
+{
+  "donor": "HG02258",
+  "panel": "hprc_asian",
+  "decisions": {
+    "DQA1": {
+      "changed": true,
+      "fragments": 1079,
+      "informative_fragments": 1079,
+      "score_gain_over_native": 16.615091186934023,
+      "tied_pairs": 1,
+      "native_pair_discriminating_fragments": 688,
+      "closest_pair_discriminating_fragments": 20,
+      "reason": "Graph-supported four-field refinement",
+      "pair": [
+        "DQA1*01:02:01:03",
+        "DQA1*01:02:01:03"
+      ],
+      "score_gap": 13.643255018643686,
+      "effective_allele_support": [
+        343.5,
+        343.5
+      ]
+    }
+  },
+  "score_partitions": {
+    "DQA1": {
+      "all": {
+        "fragments": 1079,
+        "frozen_gain": 16.61509118693397,
+        "equal_length_gain": 16.573932154921994
+      },
+      "length_only_pair_difference": {
+        "fragments": 1048,
+        "frozen_gain": -0.03241058416809127,
+        "equal_length_gain": 0.0
+      },
+      "both_native_alleles_represented": {
+        "fragments": 657,
+        "frozen_gain": -0.03241058416809127,
+        "equal_length_gain": 0.0
+      },
+      "native_allele_absent": {
+        "fragments": 422,
+        "frozen_gain": 16.647501771102313,
+        "equal_length_gain": 16.573932154921994
+      },
+      "alignment_pair_difference": {
+        "fragments": 31,
+        "frozen_gain": 16.647501771102313,
+        "equal_length_gain": 16.573932154921994
+      }
+    }
+  },
+  "scope": "Exploratory post-unblinding fixed-pair diagnostics; no new calls or validation claim",
+  "manifest_sha256": "e17b87511c45d469267b8b433e7932c15e6c488dbce49f52dbc7324a137c1a50",
+  "joined_sha256": "c984e229848698b02c913fcdafee9a773b24c00657ed0a8df7e5f160c0b09fa0",
+  "driver_sha256": "efe00cb81395c8eaba391542f3135409776a35dbb0ed3109f81b508d226810ed"
+}

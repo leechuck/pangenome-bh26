@@ -1,0 +1,37 @@
+{
+  "cases": [
+    [
+      "HG01891",
+      "hprc"
+    ],
+    [
+      "HG02080",
+      "hprc_asian"
+    ],
+    [
+      "HG02257",
+      "hprc_asian"
+    ],
+    [
+      "HG02258",
+      "hprc_asian"
+    ],
+    [
+      "HG02615",
+      "hprc"
+    ],
+    [
+      "HG03270",
+      "hprc_asian"
+    ],
+    [
+      "HG03704",
+      "hprc_asian"
+    ]
+  ],
+  "scope": "Post-unblinding diagnostics, all changed graph decisions; no new calls",
+  "initial_job": "52059427",
+  "initial_failure": "Diagnostic noise-term transcription failed exact score replay; corrected and regression-tested against frozen scorer. No inference outputs modified.",
+  "driver_sha256": "efe00cb81395c8eaba391542f3135409776a35dbb0ed3109f81b508d226810ed",
+  "job": "52059510"
+}

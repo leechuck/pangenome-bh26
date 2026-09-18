@@ -1,0 +1,1851 @@
+{
+  "scope": "Exploratory full-cohort ablation after validation unblinding; no independent improvement claim",
+  "change": "Remove observed-path-length normalization from internal fragment emissions; retain frozen native coarse calls, pair-specific evidence counts and all thresholds",
+  "cases": [
+    {
+      "cohort": "development",
+      "donor": "HG00658",
+      "panel": "hprc",
+      "baseline": "development/linear-v1/ipd_genome/HG00658",
+      "joined": "development/join-v3/HG00658/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "development/library-calibration-v1/HG00658/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG00658/hprc/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG00658",
+      "panel": "hprc_asian",
+      "baseline": "development/linear-v1/ipd_genome/HG00658",
+      "joined": "development/join-v3/HG00658/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "development/library-calibration-v1/HG00658/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG00658/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG02132",
+      "panel": "hprc",
+      "baseline": "development/linear-v1/ipd_genome/HG02132",
+      "joined": "development/join-v3/HG02132/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "development/library-calibration-v1/HG02132/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG02132/hprc/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG02132",
+      "panel": "hprc_asian",
+      "baseline": "development/linear-v1/ipd_genome/HG02132",
+      "joined": "development/join-v3/HG02132/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "development/library-calibration-v1/HG02132/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG02132/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG03831",
+      "panel": "hprc",
+      "baseline": "development/linear-v1/ipd_genome/HG03831",
+      "joined": "development/join-v3/HG03831/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "development/library-calibration-v1/HG03831/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG03831/hprc/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG03831",
+      "panel": "hprc_asian",
+      "baseline": "development/linear-v1/ipd_genome/HG03831",
+      "joined": "development/join-v3/HG03831/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "development/library-calibration-v1/HG03831/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG03831/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG03874",
+      "panel": "hprc",
+      "baseline": "development/linear-v1/ipd_genome/HG03874",
+      "joined": "development/join-v3/HG03874/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "development/library-calibration-v1/HG03874/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG03874/hprc/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG03874",
+      "panel": "hprc_asian",
+      "baseline": "development/linear-v1/ipd_genome/HG03874",
+      "joined": "development/join-v3/HG03874/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "development/library-calibration-v1/HG03874/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG03874/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG01530",
+      "panel": "hprc",
+      "baseline": "development/linear-v1/ipd_genome/HG01530",
+      "joined": "development/join-v3/HG01530/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "development/library-calibration-v1/HG01530/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG01530/hprc/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG01530",
+      "panel": "hprc_asian",
+      "baseline": "development/linear-v1/ipd_genome/HG01530",
+      "joined": "development/join-v3/HG01530/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "development/library-calibration-v1/HG01530/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG01530/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "NA20806",
+      "panel": "hprc",
+      "baseline": "development/linear-v1/ipd_genome/NA20806",
+      "joined": "development/join-v3/NA20806/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "development/library-calibration-v1/NA20806/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/NA20806/hprc/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "NA20806",
+      "panel": "hprc_asian",
+      "baseline": "development/linear-v1/ipd_genome/NA20806",
+      "joined": "development/join-v3/NA20806/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "development/library-calibration-v1/NA20806/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/NA20806/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG03516",
+      "panel": "hprc",
+      "baseline": "development/linear-v1/ipd_genome/HG03516",
+      "joined": "development/join-v3/HG03516/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "development/library-calibration-v1/HG03516/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG03516/hprc/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "HG03516",
+      "panel": "hprc_asian",
+      "baseline": "development/linear-v1/ipd_genome/HG03516",
+      "joined": "development/join-v3/HG03516/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "development/library-calibration-v1/HG03516/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/HG03516/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "NA19185",
+      "panel": "hprc",
+      "baseline": "development/linear-v1/ipd_genome/NA19185",
+      "joined": "development/join-v3/NA19185/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "development/library-calibration-v1/NA19185/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/NA19185/hprc/unsampled"
+    },
+    {
+      "cohort": "development",
+      "donor": "NA19185",
+      "panel": "hprc_asian",
+      "baseline": "development/linear-v1/ipd_genome/NA19185",
+      "joined": "development/join-v3/NA19185/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "development/library-calibration-v1/NA19185/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/development/NA19185/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG00290",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG00290",
+      "joined": "validation-runs/graph-v1/join-v3/HG00290/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG00290/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG00290/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG00290",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG00290",
+      "joined": "validation-runs/graph-v1/join-v3/HG00290/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG00290/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG00290/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01433",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01433",
+      "joined": "validation-runs/graph-v1/join-v3/HG01433/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01433/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01433/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01433",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01433",
+      "joined": "validation-runs/graph-v1/join-v3/HG01433/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01433/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01433/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01884",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01884",
+      "joined": "validation-runs/graph-v1/join-v3/HG01884/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01884/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01884/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01884",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01884",
+      "joined": "validation-runs/graph-v1/join-v3/HG01884/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01884/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01884/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01891",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01891",
+      "joined": "validation-runs/graph-v1/join-v3/HG01891/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01891/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01891/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01891",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01891",
+      "joined": "validation-runs/graph-v1/join-v3/HG01891/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01891/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01891/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01928",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01928",
+      "joined": "validation-runs/graph-v1/join-v3/HG01928/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01928/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01928/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01928",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01928",
+      "joined": "validation-runs/graph-v1/join-v3/HG01928/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01928/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01928/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01934",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01934",
+      "joined": "validation-runs/graph-v1/join-v3/HG01934/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01934/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01934/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01934",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01934",
+      "joined": "validation-runs/graph-v1/join-v3/HG01934/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01934/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01934/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01940",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01940",
+      "joined": "validation-runs/graph-v1/join-v3/HG01940/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01940/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01940/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01940",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01940",
+      "joined": "validation-runs/graph-v1/join-v3/HG01940/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01940/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01940/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01943",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01943",
+      "joined": "validation-runs/graph-v1/join-v3/HG01943/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01943/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01943/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01943",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01943",
+      "joined": "validation-runs/graph-v1/join-v3/HG01943/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01943/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01943/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01952",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01952",
+      "joined": "validation-runs/graph-v1/join-v3/HG01952/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01952/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01952/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01952",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01952",
+      "joined": "validation-runs/graph-v1/join-v3/HG01952/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01952/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01952/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01969",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01969",
+      "joined": "validation-runs/graph-v1/join-v3/HG01969/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01969/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01969/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01969",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01969",
+      "joined": "validation-runs/graph-v1/join-v3/HG01969/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01969/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01969/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01975",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01975",
+      "joined": "validation-runs/graph-v1/join-v3/HG01975/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01975/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01975/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01975",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01975",
+      "joined": "validation-runs/graph-v1/join-v3/HG01975/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01975/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01975/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01978",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01978",
+      "joined": "validation-runs/graph-v1/join-v3/HG01978/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01978/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01978/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01978",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01978",
+      "joined": "validation-runs/graph-v1/join-v3/HG01978/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01978/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01978/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01981",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01981",
+      "joined": "validation-runs/graph-v1/join-v3/HG01981/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01981/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01981/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01981",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01981",
+      "joined": "validation-runs/graph-v1/join-v3/HG01981/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01981/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01981/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01993",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01993",
+      "joined": "validation-runs/graph-v1/join-v3/HG01993/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01993/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01993/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG01993",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG01993",
+      "joined": "validation-runs/graph-v1/join-v3/HG01993/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG01993/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG01993/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02004",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02004",
+      "joined": "validation-runs/graph-v1/join-v3/HG02004/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02004/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02004/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02004",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02004",
+      "joined": "validation-runs/graph-v1/join-v3/HG02004/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02004/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02004/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02015",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02015",
+      "joined": "validation-runs/graph-v1/join-v3/HG02015/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02015/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02015/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02015",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02015",
+      "joined": "validation-runs/graph-v1/join-v3/HG02015/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02015/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02015/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02040",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02040",
+      "joined": "validation-runs/graph-v1/join-v3/HG02040/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02040/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02040/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02040",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02040",
+      "joined": "validation-runs/graph-v1/join-v3/HG02040/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02040/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02040/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02055",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02055",
+      "joined": "validation-runs/graph-v1/join-v3/HG02055/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02055/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02055/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02055",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02055",
+      "joined": "validation-runs/graph-v1/join-v3/HG02055/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02055/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02055/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02056",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02056",
+      "joined": "validation-runs/graph-v1/join-v3/HG02056/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02056/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02056/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02056",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02056",
+      "joined": "validation-runs/graph-v1/join-v3/HG02056/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02056/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02056/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02071",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02071",
+      "joined": "validation-runs/graph-v1/join-v3/HG02071/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02071/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02071/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02071",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02071",
+      "joined": "validation-runs/graph-v1/join-v3/HG02071/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02071/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02071/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02080",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02080",
+      "joined": "validation-runs/graph-v1/join-v3/HG02080/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02080/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02080/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02080",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02080",
+      "joined": "validation-runs/graph-v1/join-v3/HG02080/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02080/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02080/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02083",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02083",
+      "joined": "validation-runs/graph-v1/join-v3/HG02083/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02083/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02083/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02083",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02083",
+      "joined": "validation-runs/graph-v1/join-v3/HG02083/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02083/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02083/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02129",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02129",
+      "joined": "validation-runs/graph-v1/join-v3/HG02129/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02129/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02129/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02129",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02129",
+      "joined": "validation-runs/graph-v1/join-v3/HG02129/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02129/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02129/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02135",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02135",
+      "joined": "validation-runs/graph-v1/join-v3/HG02135/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02135/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02135/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02135",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02135",
+      "joined": "validation-runs/graph-v1/join-v3/HG02135/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02135/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02135/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02148",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02148",
+      "joined": "validation-runs/graph-v1/join-v3/HG02148/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02148/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02148/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02148",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02148",
+      "joined": "validation-runs/graph-v1/join-v3/HG02148/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02148/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02148/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02257",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02257",
+      "joined": "validation-runs/graph-v1/join-v3/HG02257/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02257/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02257/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02257",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02257",
+      "joined": "validation-runs/graph-v1/join-v3/HG02257/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02257/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02257/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02258",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02258",
+      "joined": "validation-runs/graph-v1/join-v3/HG02258/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02258/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02258/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02258",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02258",
+      "joined": "validation-runs/graph-v1/join-v3/HG02258/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02258/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02258/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02273",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02273",
+      "joined": "validation-runs/graph-v1/join-v3/HG02273/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02273/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02273/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02273",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02273",
+      "joined": "validation-runs/graph-v1/join-v3/HG02273/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02273/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02273/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02280",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02280",
+      "joined": "validation-runs/graph-v1/join-v3/HG02280/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02280/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02280/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02280",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02280",
+      "joined": "validation-runs/graph-v1/join-v3/HG02280/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02280/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02280/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02293",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02293",
+      "joined": "validation-runs/graph-v1/join-v3/HG02293/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02293/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02293/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02293",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02293",
+      "joined": "validation-runs/graph-v1/join-v3/HG02293/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02293/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02293/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02300",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02300",
+      "joined": "validation-runs/graph-v1/join-v3/HG02300/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02300/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02300/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02300",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02300",
+      "joined": "validation-runs/graph-v1/join-v3/HG02300/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02300/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02300/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02392",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02392",
+      "joined": "validation-runs/graph-v1/join-v3/HG02392/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02392/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02392/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02392",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02392",
+      "joined": "validation-runs/graph-v1/join-v3/HG02392/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02392/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02392/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02451",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02451",
+      "joined": "validation-runs/graph-v1/join-v3/HG02451/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02451/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02451/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02451",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02451",
+      "joined": "validation-runs/graph-v1/join-v3/HG02451/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02451/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02451/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02514",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02514",
+      "joined": "validation-runs/graph-v1/join-v3/HG02514/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02514/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02514/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02514",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02514",
+      "joined": "validation-runs/graph-v1/join-v3/HG02514/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02514/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02514/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02572",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02572",
+      "joined": "validation-runs/graph-v1/join-v3/HG02572/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02572/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02572/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02572",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02572",
+      "joined": "validation-runs/graph-v1/join-v3/HG02572/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02572/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02572/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02583",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02583",
+      "joined": "validation-runs/graph-v1/join-v3/HG02583/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02583/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02583/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02583",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02583",
+      "joined": "validation-runs/graph-v1/join-v3/HG02583/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02583/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02583/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02615",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02615",
+      "joined": "validation-runs/graph-v1/join-v3/HG02615/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02615/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02615/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02615",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02615",
+      "joined": "validation-runs/graph-v1/join-v3/HG02615/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02615/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02615/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02622",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02622",
+      "joined": "validation-runs/graph-v1/join-v3/HG02622/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02622/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02622/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02622",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02622",
+      "joined": "validation-runs/graph-v1/join-v3/HG02622/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02622/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02622/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02630",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02630",
+      "joined": "validation-runs/graph-v1/join-v3/HG02630/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02630/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02630/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02630",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02630",
+      "joined": "validation-runs/graph-v1/join-v3/HG02630/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02630/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02630/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02647",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02647",
+      "joined": "validation-runs/graph-v1/join-v3/HG02647/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02647/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02647/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02647",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02647",
+      "joined": "validation-runs/graph-v1/join-v3/HG02647/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02647/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02647/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02668",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02668",
+      "joined": "validation-runs/graph-v1/join-v3/HG02668/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02668/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02668/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02668",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02668",
+      "joined": "validation-runs/graph-v1/join-v3/HG02668/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02668/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02668/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02698",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02698",
+      "joined": "validation-runs/graph-v1/join-v3/HG02698/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02698/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02698/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02698",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02698",
+      "joined": "validation-runs/graph-v1/join-v3/HG02698/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02698/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02698/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02717",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02717",
+      "joined": "validation-runs/graph-v1/join-v3/HG02717/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02717/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02717/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02717",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02717",
+      "joined": "validation-runs/graph-v1/join-v3/HG02717/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02717/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02717/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02723",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02723",
+      "joined": "validation-runs/graph-v1/join-v3/HG02723/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02723/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02723/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02723",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02723",
+      "joined": "validation-runs/graph-v1/join-v3/HG02723/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02723/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02723/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02735",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02735",
+      "joined": "validation-runs/graph-v1/join-v3/HG02735/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02735/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02735/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02735",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02735",
+      "joined": "validation-runs/graph-v1/join-v3/HG02735/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02735/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02735/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02818",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02818",
+      "joined": "validation-runs/graph-v1/join-v3/HG02818/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02818/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02818/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02818",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02818",
+      "joined": "validation-runs/graph-v1/join-v3/HG02818/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02818/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02818/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02841",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02841",
+      "joined": "validation-runs/graph-v1/join-v3/HG02841/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02841/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02841/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02841",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02841",
+      "joined": "validation-runs/graph-v1/join-v3/HG02841/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02841/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02841/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02886",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02886",
+      "joined": "validation-runs/graph-v1/join-v3/HG02886/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02886/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02886/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02886",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02886",
+      "joined": "validation-runs/graph-v1/join-v3/HG02886/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02886/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02886/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02922",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02922",
+      "joined": "validation-runs/graph-v1/join-v3/HG02922/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02922/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02922/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02922",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02922",
+      "joined": "validation-runs/graph-v1/join-v3/HG02922/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02922/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02922/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02965",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02965",
+      "joined": "validation-runs/graph-v1/join-v3/HG02965/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02965/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02965/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG02965",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG02965",
+      "joined": "validation-runs/graph-v1/join-v3/HG02965/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG02965/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG02965/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03041",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03041",
+      "joined": "validation-runs/graph-v1/join-v3/HG03041/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03041/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03041/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03041",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03041",
+      "joined": "validation-runs/graph-v1/join-v3/HG03041/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03041/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03041/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03050",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03050",
+      "joined": "validation-runs/graph-v1/join-v3/HG03050/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03050/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03050/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03050",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03050",
+      "joined": "validation-runs/graph-v1/join-v3/HG03050/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03050/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03050/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03098",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03098",
+      "joined": "validation-runs/graph-v1/join-v3/HG03098/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03098/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03098/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03098",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03098",
+      "joined": "validation-runs/graph-v1/join-v3/HG03098/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03098/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03098/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03130",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03130",
+      "joined": "validation-runs/graph-v1/join-v3/HG03130/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03130/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03130/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03130",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03130",
+      "joined": "validation-runs/graph-v1/join-v3/HG03130/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03130/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03130/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03139",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03139",
+      "joined": "validation-runs/graph-v1/join-v3/HG03139/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03139/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03139/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03139",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03139",
+      "joined": "validation-runs/graph-v1/join-v3/HG03139/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03139/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03139/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03195",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03195",
+      "joined": "validation-runs/graph-v1/join-v3/HG03195/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03195/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03195/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03195",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03195",
+      "joined": "validation-runs/graph-v1/join-v3/HG03195/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03195/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03195/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03225",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03225",
+      "joined": "validation-runs/graph-v1/join-v3/HG03225/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03225/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03225/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03225",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03225",
+      "joined": "validation-runs/graph-v1/join-v3/HG03225/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03225/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03225/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03270",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03270",
+      "joined": "validation-runs/graph-v1/join-v3/HG03270/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03270/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03270/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03270",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03270",
+      "joined": "validation-runs/graph-v1/join-v3/HG03270/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03270/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03270/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03470",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03470",
+      "joined": "validation-runs/graph-v1/join-v3/HG03470/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03470/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03470/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03470",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03470",
+      "joined": "validation-runs/graph-v1/join-v3/HG03470/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03470/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03470/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03486",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03486",
+      "joined": "validation-runs/graph-v1/join-v3/HG03486/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03486/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03486/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03486",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03486",
+      "joined": "validation-runs/graph-v1/join-v3/HG03486/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03486/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03486/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03521",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03521",
+      "joined": "validation-runs/graph-v1/join-v3/HG03521/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03521/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03521/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03521",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03521",
+      "joined": "validation-runs/graph-v1/join-v3/HG03521/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03521/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03521/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03540",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03540",
+      "joined": "validation-runs/graph-v1/join-v3/HG03540/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03540/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03540/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03540",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03540",
+      "joined": "validation-runs/graph-v1/join-v3/HG03540/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03540/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03540/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03579",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03579",
+      "joined": "validation-runs/graph-v1/join-v3/HG03579/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03579/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03579/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03579",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03579",
+      "joined": "validation-runs/graph-v1/join-v3/HG03579/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03579/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03579/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03583",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03583",
+      "joined": "validation-runs/graph-v1/join-v3/HG03583/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03583/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03583/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03583",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03583",
+      "joined": "validation-runs/graph-v1/join-v3/HG03583/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03583/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03583/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03654",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03654",
+      "joined": "validation-runs/graph-v1/join-v3/HG03654/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03654/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03654/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03654",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03654",
+      "joined": "validation-runs/graph-v1/join-v3/HG03654/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03654/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03654/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03669",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03669",
+      "joined": "validation-runs/graph-v1/join-v3/HG03669/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03669/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03669/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03669",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03669",
+      "joined": "validation-runs/graph-v1/join-v3/HG03669/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03669/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03669/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03704",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03704",
+      "joined": "validation-runs/graph-v1/join-v3/HG03704/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03704/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03704/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03704",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03704",
+      "joined": "validation-runs/graph-v1/join-v3/HG03704/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03704/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03704/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03710",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03710",
+      "joined": "validation-runs/graph-v1/join-v3/HG03710/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03710/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03710/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03710",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03710",
+      "joined": "validation-runs/graph-v1/join-v3/HG03710/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03710/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03710/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03816",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03816",
+      "joined": "validation-runs/graph-v1/join-v3/HG03816/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03816/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03816/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03816",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03816",
+      "joined": "validation-runs/graph-v1/join-v3/HG03816/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03816/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03816/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03834",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03834",
+      "joined": "validation-runs/graph-v1/join-v3/HG03834/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03834/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03834/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03834",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03834",
+      "joined": "validation-runs/graph-v1/join-v3/HG03834/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03834/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03834/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03942",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03942",
+      "joined": "validation-runs/graph-v1/join-v3/HG03942/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03942/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03942/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG03942",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG03942",
+      "joined": "validation-runs/graph-v1/join-v3/HG03942/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG03942/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG03942/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG04160",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG04160",
+      "joined": "validation-runs/graph-v1/join-v3/HG04160/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG04160/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG04160/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG04160",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG04160",
+      "joined": "validation-runs/graph-v1/join-v3/HG04160/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG04160/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG04160/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG04184",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG04184",
+      "joined": "validation-runs/graph-v1/join-v3/HG04184/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG04184/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG04184/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG04184",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG04184",
+      "joined": "validation-runs/graph-v1/join-v3/HG04184/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG04184/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG04184/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG04228",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/HG04228",
+      "joined": "validation-runs/graph-v1/join-v3/HG04228/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG04228/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG04228/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "HG04228",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/HG04228",
+      "joined": "validation-runs/graph-v1/join-v3/HG04228/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/HG04228/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/HG04228/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA18565",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/NA18565",
+      "joined": "validation-runs/graph-v1/join-v3/NA18565/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA18565/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA18565/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA18565",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/NA18565",
+      "joined": "validation-runs/graph-v1/join-v3/NA18565/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA18565/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA18565/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA18906",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/NA18906",
+      "joined": "validation-runs/graph-v1/join-v3/NA18906/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA18906/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA18906/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA18906",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/NA18906",
+      "joined": "validation-runs/graph-v1/join-v3/NA18906/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA18906/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA18906/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA18982",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/NA18982",
+      "joined": "validation-runs/graph-v1/join-v3/NA18982/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA18982/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA18982/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA18982",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/NA18982",
+      "joined": "validation-runs/graph-v1/join-v3/NA18982/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA18982/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA18982/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA18983",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/NA18983",
+      "joined": "validation-runs/graph-v1/join-v3/NA18983/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA18983/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA18983/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA18983",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/NA18983",
+      "joined": "validation-runs/graph-v1/join-v3/NA18983/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA18983/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA18983/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA19043",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/NA19043",
+      "joined": "validation-runs/graph-v1/join-v3/NA19043/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA19043/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA19043/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA19043",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/NA19043",
+      "joined": "validation-runs/graph-v1/join-v3/NA19043/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA19043/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA19043/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA20827",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/NA20827",
+      "joined": "validation-runs/graph-v1/join-v3/NA20827/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA20827/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA20827/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA20827",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/NA20827",
+      "joined": "validation-runs/graph-v1/join-v3/NA20827/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA20827/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA20827/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA20850",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/NA20850",
+      "joined": "validation-runs/graph-v1/join-v3/NA20850/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA20850/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA20850/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA20850",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/NA20850",
+      "joined": "validation-runs/graph-v1/join-v3/NA20850/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA20850/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA20850/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA20870",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/NA20870",
+      "joined": "validation-runs/graph-v1/join-v3/NA20870/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA20870/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA20870/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA20870",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/NA20870",
+      "joined": "validation-runs/graph-v1/join-v3/NA20870/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA20870/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA20870/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA21102",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/NA21102",
+      "joined": "validation-runs/graph-v1/join-v3/NA21102/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA21102/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA21102/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA21102",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/NA21102",
+      "joined": "validation-runs/graph-v1/join-v3/NA21102/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA21102/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA21102/hprc_asian/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA21110",
+      "panel": "hprc",
+      "baseline": "validation-runs/genomic-ipd-v1/NA21110",
+      "joined": "validation-runs/graph-v1/join-v3/NA21110/hprc/unsampled",
+      "reference": "references/observed-v2/hprc",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA21110/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA21110/hprc/unsampled"
+    },
+    {
+      "cohort": "exposed_validation",
+      "donor": "NA21110",
+      "panel": "hprc_asian",
+      "baseline": "validation-runs/genomic-ipd-v1/NA21110",
+      "joined": "validation-runs/graph-v1/join-v3/NA21110/hprc_asian/unsampled",
+      "reference": "references/observed-v2/hprc_asian",
+      "calibration": "validation-runs/graph-v1/library-calibration-v1/NA21110/COMPLETE.json",
+      "output": "alignment-only-ablation-v1/exposed_validation/NA21110/hprc_asian/unsampled"
+    }
+  ],
+  "code_sha256": {
+    "graph_pair_refinement_alignment_only.py": "26fa14c7638801baf3b8bafd51786d542296949fa3fae1e4b4a15cab7ef7f7da",
+    "run_graph_pair_alignment_only.py": "d61000c3c029ede358c4aa62117c01bfdae828e033ff80fd2133831e57b57d3a",
+    "graph_pair_refinement.py": "9652277178484bb4ef0bbaa167f44b2e7b7ee43414edb944a8428e843c65f0bb"
+  }
+}

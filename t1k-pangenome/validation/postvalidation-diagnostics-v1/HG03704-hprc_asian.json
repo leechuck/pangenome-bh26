@@ -1,0 +1,53 @@
+{
+  "donor": "HG03704",
+  "panel": "hprc_asian",
+  "decisions": {
+    "DQA1": {
+      "changed": true,
+      "fragments": 1081,
+      "informative_fragments": 1081,
+      "score_gain_over_native": 10.137325941183462,
+      "tied_pairs": 1,
+      "native_pair_discriminating_fragments": 309,
+      "closest_pair_discriminating_fragments": 309,
+      "reason": "Graph-supported four-field refinement",
+      "pair": [
+        "DQA1*01:03:01:02",
+        "DQA1*02:01:01:02"
+      ],
+      "score_gap": 10.137325941183462,
+      "effective_allele_support": [
+        426.0,
+        303.0
+      ]
+    }
+  },
+  "score_partitions": {
+    "DQA1": {
+      "all": {
+        "fragments": 1081,
+        "frozen_gain": 10.137325941183786,
+        "equal_length_gain": -15.687893345125255
+      },
+      "length_only_pair_difference": {
+        "fragments": 1073,
+        "frozen_gain": 25.82521928630886,
+        "equal_length_gain": 0.0
+      },
+      "native_allele_absent": {
+        "fragments": 1081,
+        "frozen_gain": 10.137325941183786,
+        "equal_length_gain": -15.687893345125255
+      },
+      "alignment_pair_difference": {
+        "fragments": 8,
+        "frozen_gain": -15.687893345125255,
+        "equal_length_gain": -15.687893345125255
+      }
+    }
+  },
+  "scope": "Exploratory post-unblinding fixed-pair diagnostics; no new calls or validation claim",
+  "manifest_sha256": "6dbe1ac0c9536f1a65ae15f80f6632aaed3f3e1e67181736b77692e0fed3cb4d",
+  "joined_sha256": "b7c1dd28f0e94a50902ffe2707ef2b80ea3f7c01415b68f0086b95788a65a080",
+  "driver_sha256": "efe00cb81395c8eaba391542f3135409776a35dbb0ed3109f81b508d226810ed"
+}
