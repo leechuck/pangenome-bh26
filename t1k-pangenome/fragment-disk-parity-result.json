@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "previous_sha256": "a9f3923daf407c329b8b0449ae04af129965c5c00cefe89ab03b36b4bc0bf847",
+  "current_sha256": "a9f3923daf407c329b8b0449ae04af129965c5c00cefe89ab03b36b4bc0bf847",
+  "scope": "Byte-identical fragment evidence on the synthetic integration library"
+}

@@ -208,6 +208,8 @@ ambiguous placement semantics are unchanged. Large evidence files are hashed in
 chunks. Code snapshots and dependencies are recorded in
 development-evidence-launch.json. Native weights and graph scores remain separate
 in these joined outputs: calibration and genotype inference are still required.
+The disk-grouping parity check passed on IBEX (52045886): the output SHA-256
+matches the original 2,004-fragment file exactly (fragment-disk-parity-result.json).
 
 All 84 reserved donors now have verified read preparation records, archived in
 validation/READ_PREPARATION.json (65,467,081 paired fragments). This archives the
