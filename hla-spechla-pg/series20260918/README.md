@@ -121,3 +121,19 @@ records the recovery arrays; the frozen primary inference thresholds and truth
 remain unchanged. Initial failed IBEX job IDs remain in the launch ledger with
 `_initial` suffixes. Scheduler completion alone is insufficient: result manifests
 and expected output files must also validate.
+
+## Missing-make recovery (18 September, 11:30 Riyadh)
+
+The first complete-path execution checks failed because the minimal container
+lacked GNU make, used by FermiKit local assembly. Strict nested-log checks
+rejected these outputs; they never entered accuracy estimates. The exact DDBJ
+`/usr/bin/make` binary was copied with its SHA-256 recorded in
+`portable-binaries.json`; Slurm preflight 52039301 verified it and the assembly
+tools inside the container. `recover_missing_make.py` preserves the failed
+attempts, reuses only completed DogoHLA read bins, and restarts each method gate.
+Dependent arrays are retargeted to the new gates.
+
+The 946-sample T1K run produced 945 validated completions and one analyzer
+segmentation fault (NA10846); the failed attempt is preserved and the same
+four-thread, four-field configuration is retried separately. No failed sample
+is removed from scoring denominators.
