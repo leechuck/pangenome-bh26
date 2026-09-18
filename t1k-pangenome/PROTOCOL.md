@@ -406,6 +406,24 @@ genomic-IPD condition. Its complete eight-method snapshot is archived in
 `development/completed-graph-recruitment-pilot-v2/`. There is no incremental
 recruitment benefit demonstrated on this one donor.
 
+### Endpoint implementation
+
+`paired_evaluation.py` requires the complete fixed donor × eight-locus × two-
+resolution table for both candidate and baseline. It rejects pending results,
+duplicate/missing rows, altered donor metadata, unequal eligibility and credit
+assigned to failed runs. Eligible failed calls stay in the denominator. It reports
+paired gains/losses and ancestry strata and resamples complete known families.
+Families are sorted by identifier before the seeded draws, making results invariant
+to score-table order. It uses 10,000 replicates and seed 20260918. This stable
+ordering explains small Monte Carlo differences from the earlier development
+interval, which used insertion order; the underlying point estimates are unchanged.
+
+The module reports the existing protocol gates literally, without interpreting a
+one-call point difference as meaningful deterioration. It cannot by itself certify
+independence: candidate freeze, untouched outcomes, provenance, exclusions and
+final failure audits remain separate requirements. Its test on the completed
+reference controls is explicitly development-only and does not unblind validation.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122

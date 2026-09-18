@@ -1,0 +1,206 @@
+{
+  "candidate": "ipd_genome",
+  "baseline": "T1K",
+  "contrasts": {
+    "ALL/2": {
+      "interval": {
+        "difference": -0.0019646365422396855,
+        "lower_95": -0.021568627450980392,
+        "upper_95": 0.01764705882352941,
+        "eligible": 509,
+        "families": 64,
+        "replicates": 10000,
+        "seed": 20260918
+      },
+      "gains": 13,
+      "losses": 14,
+      "candidate_correct": 494,
+      "baseline_correct": 495,
+      "failed_donors": {
+        "ipd_genome": 0,
+        "T1K": 0
+      }
+    },
+    "ALL/4": {
+      "interval": {
+        "difference": 0.37770897832817335,
+        "lower_95": 0.3226837060702875,
+        "upper_95": 0.43333333333333335,
+        "eligible": 323,
+        "families": 64,
+        "replicates": 10000,
+        "seed": 20260918
+      },
+      "gains": 131,
+      "losses": 9,
+      "candidate_correct": 285,
+      "baseline_correct": 163,
+      "failed_donors": {
+        "ipd_genome": 0,
+        "T1K": 0
+      }
+    },
+    "AFR/2": {
+      "interval": {
+        "difference": -0.016,
+        "lower_95": -0.07086614173228346,
+        "upper_95": 0.04,
+        "eligible": 125,
+        "families": 16,
+        "replicates": 10000,
+        "seed": 20260918
+      },
+      "gains": 3,
+      "losses": 5,
+      "candidate_correct": 120,
+      "baseline_correct": 122,
+      "failed_donors": {
+        "ipd_genome": 0,
+        "T1K": 0
+      }
+    },
+    "AFR/4": {
+      "interval": {
+        "difference": 0.35384615384615387,
+        "lower_95": 0.23809523809523808,
+        "upper_95": 0.45588235294117646,
+        "eligible": 65,
+        "families": 16,
+        "replicates": 10000,
+        "seed": 20260918
+      },
+      "gains": 25,
+      "losses": 2,
+      "candidate_correct": 54,
+      "baseline_correct": 31,
+      "failed_donors": {
+        "ipd_genome": 0,
+        "T1K": 0
+      }
+    },
+    "EAS/2": {
+      "interval": {
+        "difference": 0.0078125,
+        "lower_95": -0.015625,
+        "upper_95": 0.03125,
+        "eligible": 128,
+        "families": 16,
+        "replicates": 10000,
+        "seed": 20260918
+      },
+      "gains": 3,
+      "losses": 2,
+      "candidate_correct": 125,
+      "baseline_correct": 124,
+      "failed_donors": {
+        "ipd_genome": 0,
+        "T1K": 0
+      }
+    },
+    "EAS/4": {
+      "interval": {
+        "difference": 0.5119047619047619,
+        "lower_95": 0.43209876543209874,
+        "upper_95": 0.5833333333333334,
+        "eligible": 84,
+        "families": 16,
+        "replicates": 10000,
+        "seed": 20260918
+      },
+      "gains": 43,
+      "losses": 0,
+      "candidate_correct": 77,
+      "baseline_correct": 34,
+      "failed_donors": {
+        "ipd_genome": 0,
+        "T1K": 0
+      }
+    },
+    "EUR/2": {
+      "interval": {
+        "difference": -0.0078125,
+        "lower_95": -0.0390625,
+        "upper_95": 0.0234375,
+        "eligible": 128,
+        "families": 16,
+        "replicates": 10000,
+        "seed": 20260918
+      },
+      "gains": 4,
+      "losses": 5,
+      "candidate_correct": 123,
+      "baseline_correct": 124,
+      "failed_donors": {
+        "ipd_genome": 0,
+        "T1K": 0
+      }
+    },
+    "EUR/4": {
+      "interval": {
+        "difference": 0.3225806451612903,
+        "lower_95": 0.2268041237113402,
+        "upper_95": 0.4318181818181818,
+        "eligible": 93,
+        "families": 16,
+        "replicates": 10000,
+        "seed": 20260918
+      },
+      "gains": 33,
+      "losses": 3,
+      "candidate_correct": 81,
+      "baseline_correct": 51,
+      "failed_donors": {
+        "ipd_genome": 0,
+        "T1K": 0
+      }
+    },
+    "SAS/2": {
+      "interval": {
+        "difference": 0.0078125,
+        "lower_95": -0.0234375,
+        "upper_95": 0.0390625,
+        "eligible": 128,
+        "families": 16,
+        "replicates": 10000,
+        "seed": 20260918
+      },
+      "gains": 3,
+      "losses": 2,
+      "candidate_correct": 126,
+      "baseline_correct": 125,
+      "failed_donors": {
+        "ipd_genome": 0,
+        "T1K": 0
+      }
+    },
+    "SAS/4": {
+      "interval": {
+        "difference": 0.32098765432098764,
+        "lower_95": 0.21686746987951808,
+        "upper_95": 0.43037974683544306,
+        "eligible": 81,
+        "families": 16,
+        "replicates": 10000,
+        "seed": 20260918
+      },
+      "gains": 30,
+      "losses": 4,
+      "candidate_correct": 73,
+      "baseline_correct": 47,
+      "failed_donors": {
+        "ipd_genome": 0,
+        "T1K": 0
+      }
+    }
+  },
+  "protocol_checks": {
+    "four_field_lower_bound_positive": true,
+    "two_field_point_not_decreased": false,
+    "two_field_excludes_loss_over_one_point": false
+  },
+  "protocol_pass": false,
+  "interpretation": "Endpoint calculations only. Independent improvement also requires a pre-outcome candidate freeze, untouched cohort, verified run provenance and complete failure accounting.",
+  "scope": "Exposed development cohort only; not confirmatory validation",
+  "source_sha256": "4490738b05e901fe3751b23760a0d75c791ca76f04fc00bd8a54608eb0f14bd2",
+  "evaluator_sha256": "493e6e1b20505cdccb00522ea0550f9f7b4afdf70584bbd57ebb6f4a86f8c4ed"
+}
