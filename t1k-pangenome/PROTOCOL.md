@@ -350,6 +350,21 @@ The full-genomic-IPD native assignment export completed with byte-identical
 baseline genotypes; see native-genome-evidence-result.json. It remains available
 for the separate graph/native evidence refinement work.
 
+The native-only recruitment pilot passed byte-identical genotype parity. It
+retained all 35,192 native candidate pairs from 738,921 input pairs. Graph unions
+added 17,120 (HPRC sampled), 17,917 (HPRC unsampled), 13,069 (additive sampled),
+and 14,259 (additive unsampled) pairs. These counts measure candidate-read recovery,
+not genotype accuracy. All four calibrated graph evidence joins are complete;
+`calibrated-joined-evidence-result.json` records their provenance.
+
+The all-read control is expanded to all 64 fixed development donors, with the
+existing HG00658 pilot retained as index zero. It uses the same code as the pilot,
+with a pinned cohort hash, and the native parity job gates submission execution.
+Scoring was checked against every one of the 2,048 baseline and genomic-IPD
+archived donor/gene/resolution rows. Pending/failed runs retain eligibility and
+are marked explicitly; partial cohort totals must not be interpreted as accuracy
+contrasts. This control does not consume the reserved validation cohort.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122

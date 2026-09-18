@@ -1,0 +1,226 @@
+{
+  "hprc_asian/sampled": {
+    "status": "complete",
+    "native_manifest_sha256": "2ed882c6fff8968cb989f2d360e2668744f362cd02c16b2f76d093fd90418e4a",
+    "graph_chains": [
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/A/fragments": "04e86ac23deea1e4e78636421bbae76e10fe2d99897e867ddbb63c67139bb169",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/A/support": "4ee0b32235d38f30a1e8eb63b1a8415392ddd493f916fa623662037a707a7ffc",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/sampled/A": "9feb7169577b315d23c39d249a7b186246f959e2f7704b748e5e9ac91658d78b"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/B/fragments": "c29ac0a1a51daa7c0a19fbad57536a8cf6242ea3a58bb7325e72494ce87050c6",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/B/support": "7f494773733188b0ce4184ad8acb34f5d75fca321ffe355c02924bae553ccd47",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/sampled/B": "86e4471951c9266b1821d0f3d2a97edaf6bbdf3a035a443a6201be0f46d1e7da"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/C/fragments": "db1dfd88d288988d2cd26e3b03d9853edbf94b6b382f5b027c2d588348105960",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/C/support": "bea5b385ee1831e72d1e83f1aaef1f16fcb08e50bebf11a9d3fb935f11cb120d",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/sampled/C": "437b0e5b4064293dba5fb7d89d1c02b3e189fb9e2ea5b448d4abd7398ba9730a"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/DPA1/fragments": "cf9a47e84993b3f105bce09e73fddc9a0ee10f1dfa52283fdfa4c9cab854c47b",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/DPA1/support": "661586f77d03289b8f692fbc6396dec425373ea12a784eeaf465c503766b1630",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/sampled/DPA1": "82f7f92de549adb968972e36dfecd91453974e57357caa5c24be18f05fb3d4e3"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/DPB1/fragments": "78d43df849bf5167e524174d0e010c64a2c8bb769cc254aa48cfa9e001091320",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/DPB1/support": "326351d861faf6dbe2a7a72b55daa333c0c4373defab246fb042069a228af29a",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/sampled/DPB1": "45d85a36beee5acaa8715e81fafa391105db91125ad6093f75d50ef888b44e11"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/DQA1/fragments": "62c214fd913fe0c54a57ee6fd5e4c3909f97bbb955c4b729dfbdbb271ee4e9f7",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/DQA1/support": "eb4995f2f9b8d7bb2328bc52834064a37a4363371cd068a47d03b546ee9517c8",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/sampled/DQA1": "c1633261384136fa0a397eb64ab65644e9ce8b8831c6a81fe32d8a62fd65e0cf"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/DQB1/fragments": "848c125a4d16b02d94df9ec4d69d6d72f3f50f81785fd4d6150d3c012280dc7b",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/DQB1/support": "a896d67a0109d4ec07bf0a721ed5cda1087c510d70c46302018f77ef3def5863",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/sampled/DQB1": "bdbc365ec7e0346a14bc797a310dbbdc70aa395d172b022ae097b08808d91ccb"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/DRB1/fragments": "6769b0b5761b69e3c7608b76816b1d829f3ad30da6e5bd15805cb8d784fc2a8e",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/sampled/DRB1/support": "8dff51dc68811ac7f833183f1bd0e795f87a763ee03dd4b64f8d87f6bd971808",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/sampled/DRB1": "f708eb33806a415cc78a9bea8f859514b25e2598e9c63b6212aa2e6016b8bfae"
+      }
+    ],
+    "driver_sha256": "e9e9c5ac6bcb0197436fd6403286595814f669261e5d4caf8069a11b467a4930",
+    "fragments": 738921,
+    "support_categories": {
+      "neither": 707152,
+      "graph_only": 22899,
+      "both": 2612,
+      "native_only": 6258
+    },
+    "output_sha256": "a7b09b2d36888a25c75e09c262225177aa15946729765f78193f9caa37f2d874",
+    "scope": "One row per fragment; native weights and graph scores remain distinct, uncalibrated evidence"
+  },
+  "hprc_asian/unsampled": {
+    "status": "complete",
+    "native_manifest_sha256": "2ed882c6fff8968cb989f2d360e2668744f362cd02c16b2f76d093fd90418e4a",
+    "graph_chains": [
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/A/fragments": "b7187d07ec38b0c3dba2dabbbb086bfe94102e983c46a9f7372d8409e2c80369",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/A/support": "a0ca8a18ecf8e7bc327f54b712502a171d9db8732bfd99befa6c2f153703b794",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/unsampled/A": "a1694a85e8a9eb6023579e58ff4d417510b5fbc55157c53c38d5db339a7b271b"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/B/fragments": "aaace17ce4fb55159dbb15de733bd42a2be841a373dcdc61c462dd18f94a070f",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/B/support": "bb4bbf106ba845d0b3470b58ca4d9e8ee04d1c6a2505724a9fd5dcad2ed5a114",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/unsampled/B": "52ad32ad242d20a80566f23791bb3d9df9772cb075fdb1e1ef45ba09586fc79a"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/C/fragments": "96ed91ae74f2561dfc41993e844dad8b60c3172cd011976c085c21711c24d119",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/C/support": "dece1cbd1f962a9c109af7852446aa00c9b48639fc830e42190cfa725beef519",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/unsampled/C": "07bf6dd7f8f8a3ba4c6bb1730065d02152dbe08afd251fb1ff62ecb1b0925101"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/DPA1/fragments": "00e6ddffe99b6589bbc47a8f6d81a9a0bac5a2952e7817442061f4d841609607",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/DPA1/support": "1c308dca601ea340a9bd3ad38236abf957dbb2af851346d964ec8215f1769554",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/unsampled/DPA1": "3e9aba4f5f2ac68c4fd86df2f61ff087282ba63e73d63ea3f324cb912e965f27"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/DPB1/fragments": "4399fbe0039381ba639ce08d57412ac0823647385b9b2099feaefc26a9207665",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/DPB1/support": "bd29b7edc7815afea824e7cbc6bb978c5daf0cbd4b1698cf58fbe0178e431834",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/unsampled/DPB1": "20bded1355275850b8c9e3bfac25f422abee069e8d2677c8d1cf1b63ea347b39"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/DQA1/fragments": "289f23540d67e0f006d3cca7d57c8608c2839f05cf20b318612fe24a0530abd7",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/DQA1/support": "b15cbbd541264fbb1897fab7571f924be05b7cf2ce293b0cdcd6915ecfa4609e",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/unsampled/DQA1": "4b9ed018a0c14e4b37d5144f640b722be3a64f43c2d068a661cfd4e7d4abbd6c"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/DQB1/fragments": "eef26eda781b2d8c8e761c73e78cdb17501040f6af93f36c621b2b4849de2264",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/DQB1/support": "0a40db2bc1e15b839d37e5e388c083376cb22515f1088c40e7f5e457ce8b1846",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/unsampled/DQB1": "1759786b3c7b34d1d91a373a789d16d54e0fc0242e460f2cff11b9d9f23990c0"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/DRB1/fragments": "5609aa9e382c88e944125a736a84851e3c255f0b608bea55045bb4ebf7d98dff",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc_asian/unsampled/DRB1/support": "310f2c140758ea6126e90ae50efa0e7b186cf587667123a91f9d088d32b03063",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc_asian/unsampled/DRB1": "96f499903bcb865568cdc1dba1986e6155ae158b1b35e318aefaf54be9c94aac"
+      }
+    ],
+    "driver_sha256": "e9e9c5ac6bcb0197436fd6403286595814f669261e5d4caf8069a11b467a4930",
+    "fragments": 738921,
+    "support_categories": {
+      "neither": 705781,
+      "graph_only": 24270,
+      "both": 2597,
+      "native_only": 6273
+    },
+    "output_sha256": "37da2a6f14288206b2b6adc20eb76cd04678db3293b26be2d8dbcaf288e07b16",
+    "scope": "One row per fragment; native weights and graph scores remain distinct, uncalibrated evidence"
+  },
+  "hprc/sampled": {
+    "status": "complete",
+    "native_manifest_sha256": "2ed882c6fff8968cb989f2d360e2668744f362cd02c16b2f76d093fd90418e4a",
+    "graph_chains": [
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/A/fragments": "567c7966255774174811db76f837c92b35f874c1456573c188f35f6495ea8152",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/A/support": "5bac0079899be4b47949104895e451c856495570315a6c76519451562ca8ebe4",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/sampled/A": "19ab88243200ee530f7794ae704b73ca4dd20dd60e97a43c0a162eceb04cfe84"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/B/fragments": "2c123fd2ea63a7fb758657694bcf182d3f7f1f24166f71b983f25f8ce9e166b3",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/B/support": "242dbe6f952b7ad62a2893d6f91e0f34eb16e6a2e752edcabd6acce8de0ce1ba",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/sampled/B": "32d09038a5a99343782b32797e05b6436ab5cfecc826d9eceefa7242db1e65ed"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/C/fragments": "73bf9d7f106ed0627e278b7bc941603da7a0230ccf4b6e41749e4a18545ded1f",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/C/support": "300f17919cd7f9131e47c7fe58f95195fcd09be40e281e9deedd8763e6b0e63d",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/sampled/C": "e2ab614f23f77d2ed9b3117dfa6dd16938c9d6ec496c5de0353d5a8f4c8c23cd"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/DPA1/fragments": "22b537f989653e1878b056482926ffc73099e73955dd7f756c194dd157f216f1",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/DPA1/support": "ee2f5b1034c61dc3d9903aa4f2adfa8458fe500a602f610e826857f8dbb50c4c",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/sampled/DPA1": "630083bb2c852d8007b70675da2c24b6a02f0442e2e30cc12f767dfea2dab363"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/DPB1/fragments": "083f7aafb7a1b51b26d7c4f71b79005d6a6e503c32e563eb45db43bf8fc9af85",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/DPB1/support": "0a66c3c834bd9310f5ae15851d2bf065bd56036a687daa49d1a8721b907f0954",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/sampled/DPB1": "087ad0a6917dc0865a4d30b917079eb23ee6c0d1b6de3d160a66305af11a84e8"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/DQA1/fragments": "fbb85022d04b9e1e1ea05867ae726affd258f65886d7dea75bd8fb7825d651a8",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/DQA1/support": "7bc7a1ea9e945723e276ced01269bd9743b310d0f8a897ef4be26c2b5152cdb6",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/sampled/DQA1": "2541be41d9fb6272a3fe92a9fd618215e0fe260824a1ff03ce662e490ea4a7ed"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/DQB1/fragments": "93c986527210b76b03d4ff1f49947960856bf8ce4d3995f7e914830fde5bdab8",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/DQB1/support": "152cacd4540f2d47d18b3e19146699f951eb814adfc650c521668718b50adb04",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/sampled/DQB1": "52855d1f0e66214abd13cefada6c5674dffe50f39b33d7d9bc483811632dad28"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/DRB1/fragments": "09d236366b898bc6df6369ae2968dcb5775b5ec27869f6e2214477f14f1aba36",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/sampled/DRB1/support": "a4e87e8cc3ed9678c553d17c49ed0f1dd855fdd1369091c29b4874c04d51dbd0",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/sampled/DRB1": "3e894d4d48f87e30f9f4e66060c14e32fe3c3982d55359e02d8510a3c33d24b0"
+      }
+    ],
+    "driver_sha256": "e9e9c5ac6bcb0197436fd6403286595814f669261e5d4caf8069a11b467a4930",
+    "fragments": 738921,
+    "support_categories": {
+      "neither": 702801,
+      "graph_only": 27250,
+      "native_only": 6101,
+      "both": 2769
+    },
+    "output_sha256": "bd31581283530e037d2fef8103c8850f8eefc43a1146911d4ccbfe52051eec77",
+    "scope": "One row per fragment; native weights and graph scores remain distinct, uncalibrated evidence"
+  },
+  "hprc/unsampled": {
+    "status": "complete",
+    "native_manifest_sha256": "2ed882c6fff8968cb989f2d360e2668744f362cd02c16b2f76d093fd90418e4a",
+    "graph_chains": [
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/A/fragments": "5a0a14ae27d791bc743b73258a67b6fa96ee5112eb1083c629abfdd31364d553",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/A/support": "bd39805e9128b3187351a821d8b0241cd32f9bc8bb3d58252ea10235d5bd4dc9",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/unsampled/A": "ef2c155ac3d8a62d0ae9911ea2582da315421155b887013267c5b5f4f63b8020"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/B/fragments": "cebbc6de5008c83659839100710f2a64d3204fdcc0fe088b70ea8e153aa9d39a",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/B/support": "f911984b84cc641bdf757d23e9ba0c497bb8ed7f8c73ae67598c1de795ef484f",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/unsampled/B": "b58b82c0cb8785ab42762749e27287a3c2e30b03992ddae981436a9962f23621"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/C/fragments": "5bcce8c846205751266c0ac1dbed1a11f31624fe44bc146d7d22d09e14518f3f",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/C/support": "a95d83c1c1927464231ff4d01604d6bb309e3f8b53cc963105ede06615dc1e9b",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/unsampled/C": "72069565a980d514cc412b00a7e77ba92dfc2790c2f16a670ff812b111d6ead0"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/DPA1/fragments": "3203642045a42a32098c7493c7f23c255afa91a6f854b12ae1a938c6648dc5d5",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/DPA1/support": "a62bfaf1fbd1d43728849bf0613c53e265cb652058d8a5b9f36314542661a0ee",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/unsampled/DPA1": "1f8baf9c12252e5f3d28e8e5ce99d82ccae26258c067c867f9a180cd2e21d18f"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/DPB1/fragments": "11519a6ef700c5284c5fc3ef9c3494053dd9df8194e5108f8ace1bdd4b1ce408",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/DPB1/support": "0a8b84513275a1b65a1e086c2a3cd4dd68af58eb67162dbca1661d77fab18bde",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/unsampled/DPB1": "ffac96b6d0376409d113aaec19d66ffd65dac76257adaf587ad5e9de6d1d0eb3"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/DQA1/fragments": "862f262098dd9e47d9d4239c0f7bbde4d9646d1339fa2f318859a41266f89ccd",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/DQA1/support": "e9c0cc29723813adcfb6d0871484021ed39d79e059398f75a10000caf0071324",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/unsampled/DQA1": "8b7ff2f14ca4bb36239bcee4a606734efb4c6671f0db2467f36133bf58738a67"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/DQB1/fragments": "1a5a359d8a772aa750740a8b5b53dbaf60ceda30c86f5737f2166c8c3fa2ef71",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/DQB1/support": "15378d17ad76d017e3158420de4381548bee872f31f9ad60b4fde19be0b6b121",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/unsampled/DQB1": "dd04b9ce84aba624c0588f4b622528eab1f60066f576a04601bab838aa3116e8"
+      },
+      {
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/DRB1/fragments": "12b2e5370c0de051eb0a01a3bfaf2a57f49c71374686fc6c93424357ba2ed555",
+        "/home/leechuck/hla/t1k-pangenome/development/fragments-v3/HG00658/hprc/unsampled/DRB1/support": "06f4bcef4976e4d477afed3a479dd11b2384777b8115f6c02daba399c9fa5f16",
+        "/home/leechuck/hla/t1k-pangenome/development/mapping-v3/HG00658/hprc/unsampled/DRB1": "d305cfec4a7de50e0d3fd60fc21965a3754972a4c7cbe73f377d449ea2792057"
+      }
+    ],
+    "driver_sha256": "e9e9c5ac6bcb0197436fd6403286595814f669261e5d4caf8069a11b467a4930",
+    "fragments": 738921,
+    "support_categories": {
+      "neither": 701972,
+      "graph_only": 28079,
+      "native_only": 6267,
+      "both": 2603
+    },
+    "output_sha256": "a63ccd607fb01172151169b436d3f6388a8dda8fe0d85b7ef4d9fe5100a86f02",
+    "scope": "One row per fragment; native weights and graph scores remain distinct, uncalibrated evidence"
+  }
+}

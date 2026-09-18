@@ -19,7 +19,8 @@ def development_jobs():
               'native-evidence-development-launch.json','development-evidence-launch.json',
               'development-evidence-v2-launch.json','library-calibration-launch.json',
               'development-map-calibrated-launch.json','development-evidence-v3-launch.json',
-              'native-genome-evidence-launch.json','graph-recruitment-launch.json'):
+              'native-genome-evidence-launch.json','graph-recruitment-launch.json',
+              'all-read-control-launch.json'):
   path=T1K/name
   if not path.exists():continue
   record=json.loads(path.read_text())
@@ -64,6 +65,10 @@ while True:
    subprocess.run([sys.executable,str(HERE/'score_gourraud.py')],check=True,timeout=180)
    if any(key.startswith('t1k_preparation/linear_') for key in pipeline['stages']):
     subprocess.run([sys.executable,str(T1K/'fetch_linear_controls.py')],check=True,timeout=180)
+   if (T1K/'graph-recruitment-launch.json').exists():
+    subprocess.run([sys.executable,str(T1K/'fetch_graph_recruitment.py')],check=True,timeout=180)
+   if (T1K/'all-read-control-launch.json').exists():
+    subprocess.run([sys.executable,str(T1K/'score_all_read_control.py')],check=True,timeout=180)
   cycle+=1
   if terminal:break
  except Exception as e:
