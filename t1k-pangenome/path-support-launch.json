@@ -1,0 +1,13 @@
+{
+  "job": "52043976",
+  "command": [
+    "python3",
+    "/home/leechuck/hla/t1k-pangenome/path_support.py",
+    "--gfa",
+    "/home/leechuck/hla/t1k-pangenome/graphs/pilot-v2/hprc/A/graph.gfa",
+    "--alignments",
+    "/home/leechuck/hla/t1k-pangenome/smoke/personalization-v3/alignments.jsonl",
+    "--output",
+    "/home/leechuck/hla/t1k-pangenome/smoke/path-support-v1"
+  ]
+}

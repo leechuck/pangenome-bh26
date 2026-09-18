@@ -1,0 +1,4416 @@
+{
+  "baseline": {
+    "genotype_sha256": "86af155247ea665bf78be32c57a5c2806fe35a1a5be86ae3f1ef6ad82bd803ee",
+    "aliases_sha256": null,
+    "raw": "HLA-A\t2\tHLA-A*02:01:01:01\t127.421422\t60\tHLA-A*02:06:01:01\t121.050351\t60\t\nHLA-B\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-C\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-E\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-F\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-G\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-H\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-J\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-K\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-L\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-N\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-P\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-R\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-S\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-T\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-U\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-V\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-W\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-Y\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRA\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB3\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB4\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB5\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQA1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQA2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQB1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQB2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPA1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPA2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPB1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPB2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DMA\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DMB\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DOA\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DOB\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-HFE\t0\t.\t0\t-1\t.\t0\t-1\t\nMICA\t0\t.\t0\t-1\t.\t0\t-1\t\nMICB\t0\t.\t0\t-1\t.\t0\t-1\t\nTAP1\t0\t.\t0\t-1\t.\t0\t-1\t\nTAP2\t0\t.\t0\t-1\t.\t0\t-1\t\n",
+    "aliases": {},
+    "calls": {
+      "A": {
+        "copy_count": 2,
+        "resolutions": {
+          "2": [
+            {
+              "raw": "HLA-A*02:01:01:01",
+              "alleles": [
+                "A*02:01"
+              ],
+              "unresolved": false
+            },
+            {
+              "raw": "HLA-A*02:06:01:01",
+              "alleles": [
+                "A*02:06"
+              ],
+              "unresolved": false
+            }
+          ],
+          "4": [
+            {
+              "raw": "HLA-A*02:01:01:01",
+              "alleles": [
+                "A*02:01:01:01"
+              ],
+              "unresolved": false
+            },
+            {
+              "raw": "HLA-A*02:06:01:01",
+              "alleles": [
+                "A*02:06:01:01"
+              ],
+              "unresolved": false
+            }
+          ]
+        }
+      },
+      "B": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "C": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "E": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "F": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "G": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "H": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "J": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "K": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "L": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "N": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "P": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "R": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "S": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "T": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "U": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "V": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "W": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "Y": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB3": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB4": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB5": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQA1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQA2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQB1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQB2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPA1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPA2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPB1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPB2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DMA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DMB": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DOA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DOB": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "HFE": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "MICA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "MICB": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "TAP1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "TAP2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "hprc": {
+    "genotype_sha256": "2bf44f5a0d1b7534004c54a8fe753f84092b48a7d3442e8ab49f3b94affdd6b7",
+    "aliases_sha256": "86c8b4a09d36641dce843b311fb546224db4a68e1dae222f700b27fbf05c1069",
+    "raw": "HLA-A\t2\tHLA-A*PGfc0fb08a619d\t163.255180\t60\tHLA-A*PG00cb7d93ac39\t84.982149\t56\t\nHLA-B\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-C\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-E\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-F\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-G\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-H\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-J\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-K\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-L\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-N\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-P\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-R\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-S\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-T\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-U\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-V\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-W\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-Y\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRA\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB3\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB4\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB5\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQA1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQA2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQB1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQB2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPA1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPA2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPB1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPB2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DMA\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DMB\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DOA\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DOB\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-HFE\t0\t.\t0\t-1\t.\t0\t-1\t\nMICA\t0\t.\t0\t-1\t.\t0\t-1\t\nMICB\t0\t.\t0\t-1\t.\t0\t-1\t\nTAP1\t0\t.\t0\t-1\t.\t0\t-1\t\nTAP2\t0\t.\t0\t-1\t.\t0\t-1\t\n",
+    "aliases": {
+      "HLA-A*PG00cb7d93ac39": {
+        "path": "PG00cb7d93ac39b1f255145bb7f4101d678f4660f6970ef48954c9a5c01677441c#0#HLA_A",
+        "sequence_sha256": "00cb7d93ac39b1f255145bb7f4101d678f4660f6970ef48954c9a5c01677441c",
+        "sources": [
+          "HG00438#2#HLA-A",
+          "HG00673#1#HLA-A"
+        ],
+        "genomic_labels": [
+          "A*02:06:01:01"
+        ],
+        "cds_labels": [
+          "A*02:06:01:01",
+          "A*02:06:01:02",
+          "A*02:06:01:03",
+          "A*02:06:01:04",
+          "A*02:06:01:05",
+          "A*02:06:01:06",
+          "A*02:06:01:07",
+          "A*02:06:01:08",
+          "A*02:06:01:09",
+          "A*02:06:01:10",
+          "A*02:06:01:11",
+          "A*02:06:01:12",
+          "A*02:06:01:13",
+          "A*02:06:01:14",
+          "A*02:06:01:15",
+          "A*02:06:01:16",
+          "A*02:06:01:17"
+        ],
+        "exons": [
+          [
+            2300,
+            2373
+          ],
+          [
+            2503,
+            2773
+          ],
+          [
+            3014,
+            3290
+          ],
+          [
+            3890,
+            4166
+          ],
+          [
+            4265,
+            4382
+          ],
+          [
+            4820,
+            4853
+          ],
+          [
+            4995,
+            5043
+          ],
+          [
+            5212,
+            5217
+          ]
+        ],
+        "n_unknown": 0,
+        "gene": "A",
+        "internal_identifier": true
+      },
+      "HLA-A*PGfc0fb08a619d": {
+        "path": "PGfc0fb08a619da17726e2f18f635f649382d33ce94118efac8252037f7397f9f9#0#HLA_A",
+        "sequence_sha256": "fc0fb08a619da17726e2f18f635f649382d33ce94118efac8252037f7397f9f9",
+        "sources": [
+          "HG00639#1#HLA-A",
+          "HG01361#2#HLA-A",
+          "HG01496#1#HLA-A"
+        ],
+        "genomic_labels": [
+          "A*02:01:01:01"
+        ],
+        "cds_labels": [
+          "A*02:01:01:01",
+          "A*02:01:01:02L",
+          "A*02:01:01:03",
+          "A*02:01:01:04",
+          "A*02:01:01:05",
+          "A*02:01:01:06",
+          "A*02:01:01:07",
+          "A*02:01:01:08",
+          "A*02:01:01:09",
+          "A*02:01:01:10",
+          "A*02:01:01:100",
+          "A*02:01:01:101",
+          "A*02:01:01:102",
+          "A*02:01:01:103",
+          "A*02:01:01:104",
+          "A*02:01:01:105",
+          "A*02:01:01:106",
+          "A*02:01:01:107",
+          "A*02:01:01:108",
+          "A*02:01:01:109",
+          "A*02:01:01:11",
+          "A*02:01:01:110",
+          "A*02:01:01:111",
+          "A*02:01:01:112",
+          "A*02:01:01:113",
+          "A*02:01:01:114",
+          "A*02:01:01:115",
+          "A*02:01:01:116",
+          "A*02:01:01:117",
+          "A*02:01:01:118",
+          "A*02:01:01:119",
+          "A*02:01:01:12",
+          "A*02:01:01:120",
+          "A*02:01:01:121",
+          "A*02:01:01:122",
+          "A*02:01:01:123",
+          "A*02:01:01:124",
+          "A*02:01:01:125",
+          "A*02:01:01:126",
+          "A*02:01:01:127",
+          "A*02:01:01:128",
+          "A*02:01:01:129",
+          "A*02:01:01:13",
+          "A*02:01:01:130",
+          "A*02:01:01:131",
+          "A*02:01:01:132",
+          "A*02:01:01:133",
+          "A*02:01:01:134Q",
+          "A*02:01:01:135",
+          "A*02:01:01:136",
+          "A*02:01:01:137",
+          "A*02:01:01:138",
+          "A*02:01:01:139",
+          "A*02:01:01:14",
+          "A*02:01:01:140",
+          "A*02:01:01:141",
+          "A*02:01:01:142",
+          "A*02:01:01:143",
+          "A*02:01:01:144",
+          "A*02:01:01:145",
+          "A*02:01:01:146",
+          "A*02:01:01:147",
+          "A*02:01:01:148",
+          "A*02:01:01:149",
+          "A*02:01:01:15",
+          "A*02:01:01:150",
+          "A*02:01:01:151",
+          "A*02:01:01:152",
+          "A*02:01:01:153",
+          "A*02:01:01:154",
+          "A*02:01:01:155",
+          "A*02:01:01:156",
+          "A*02:01:01:157",
+          "A*02:01:01:158",
+          "A*02:01:01:159",
+          "A*02:01:01:16",
+          "A*02:01:01:160",
+          "A*02:01:01:161",
+          "A*02:01:01:162",
+          "A*02:01:01:163",
+          "A*02:01:01:164",
+          "A*02:01:01:165",
+          "A*02:01:01:166",
+          "A*02:01:01:167",
+          "A*02:01:01:168",
+          "A*02:01:01:169",
+          "A*02:01:01:17",
+          "A*02:01:01:170",
+          "A*02:01:01:171",
+          "A*02:01:01:172",
+          "A*02:01:01:173",
+          "A*02:01:01:174",
+          "A*02:01:01:175",
+          "A*02:01:01:176",
+          "A*02:01:01:177",
+          "A*02:01:01:178",
+          "A*02:01:01:179",
+          "A*02:01:01:18",
+          "A*02:01:01:180",
+          "A*02:01:01:181",
+          "A*02:01:01:182",
+          "A*02:01:01:183",
+          "A*02:01:01:184",
+          "A*02:01:01:185",
+          "A*02:01:01:186",
+          "A*02:01:01:187",
+          "A*02:01:01:188",
+          "A*02:01:01:189",
+          "A*02:01:01:19",
+          "A*02:01:01:190",
+          "A*02:01:01:191",
+          "A*02:01:01:192",
+          "A*02:01:01:193",
+          "A*02:01:01:194",
+          "A*02:01:01:195",
+          "A*02:01:01:196",
+          "A*02:01:01:197",
+          "A*02:01:01:198",
+          "A*02:01:01:199",
+          "A*02:01:01:20",
+          "A*02:01:01:200",
+          "A*02:01:01:201",
+          "A*02:01:01:202",
+          "A*02:01:01:203",
+          "A*02:01:01:204",
+          "A*02:01:01:205",
+          "A*02:01:01:206",
+          "A*02:01:01:207",
+          "A*02:01:01:208",
+          "A*02:01:01:209",
+          "A*02:01:01:21",
+          "A*02:01:01:210",
+          "A*02:01:01:211",
+          "A*02:01:01:212",
+          "A*02:01:01:213",
+          "A*02:01:01:214",
+          "A*02:01:01:215",
+          "A*02:01:01:216",
+          "A*02:01:01:217",
+          "A*02:01:01:218",
+          "A*02:01:01:219",
+          "A*02:01:01:22",
+          "A*02:01:01:220",
+          "A*02:01:01:221",
+          "A*02:01:01:222",
+          "A*02:01:01:223",
+          "A*02:01:01:224",
+          "A*02:01:01:225",
+          "A*02:01:01:226",
+          "A*02:01:01:227",
+          "A*02:01:01:228",
+          "A*02:01:01:229",
+          "A*02:01:01:23",
+          "A*02:01:01:230",
+          "A*02:01:01:231",
+          "A*02:01:01:232",
+          "A*02:01:01:233",
+          "A*02:01:01:234",
+          "A*02:01:01:235",
+          "A*02:01:01:236",
+          "A*02:01:01:237",
+          "A*02:01:01:238",
+          "A*02:01:01:239",
+          "A*02:01:01:24",
+          "A*02:01:01:240",
+          "A*02:01:01:241",
+          "A*02:01:01:242",
+          "A*02:01:01:243",
+          "A*02:01:01:244",
+          "A*02:01:01:245",
+          "A*02:01:01:246",
+          "A*02:01:01:247",
+          "A*02:01:01:248",
+          "A*02:01:01:249",
+          "A*02:01:01:25",
+          "A*02:01:01:250",
+          "A*02:01:01:251",
+          "A*02:01:01:252Q",
+          "A*02:01:01:253",
+          "A*02:01:01:254",
+          "A*02:01:01:255",
+          "A*02:01:01:256",
+          "A*02:01:01:257",
+          "A*02:01:01:258",
+          "A*02:01:01:259",
+          "A*02:01:01:26",
+          "A*02:01:01:260",
+          "A*02:01:01:261",
+          "A*02:01:01:262",
+          "A*02:01:01:263",
+          "A*02:01:01:264",
+          "A*02:01:01:265",
+          "A*02:01:01:266",
+          "A*02:01:01:267",
+          "A*02:01:01:268",
+          "A*02:01:01:269",
+          "A*02:01:01:27",
+          "A*02:01:01:270",
+          "A*02:01:01:271",
+          "A*02:01:01:272",
+          "A*02:01:01:273",
+          "A*02:01:01:274",
+          "A*02:01:01:28",
+          "A*02:01:01:29",
+          "A*02:01:01:30",
+          "A*02:01:01:31",
+          "A*02:01:01:32",
+          "A*02:01:01:33",
+          "A*02:01:01:34",
+          "A*02:01:01:35",
+          "A*02:01:01:36",
+          "A*02:01:01:37",
+          "A*02:01:01:38",
+          "A*02:01:01:39",
+          "A*02:01:01:40",
+          "A*02:01:01:41",
+          "A*02:01:01:42",
+          "A*02:01:01:43",
+          "A*02:01:01:44",
+          "A*02:01:01:45",
+          "A*02:01:01:46",
+          "A*02:01:01:47",
+          "A*02:01:01:48",
+          "A*02:01:01:49",
+          "A*02:01:01:50",
+          "A*02:01:01:51",
+          "A*02:01:01:52",
+          "A*02:01:01:53",
+          "A*02:01:01:54",
+          "A*02:01:01:55",
+          "A*02:01:01:56",
+          "A*02:01:01:57",
+          "A*02:01:01:58",
+          "A*02:01:01:59",
+          "A*02:01:01:60",
+          "A*02:01:01:61",
+          "A*02:01:01:62",
+          "A*02:01:01:63",
+          "A*02:01:01:64",
+          "A*02:01:01:65",
+          "A*02:01:01:66",
+          "A*02:01:01:67",
+          "A*02:01:01:68",
+          "A*02:01:01:69",
+          "A*02:01:01:70",
+          "A*02:01:01:71",
+          "A*02:01:01:72",
+          "A*02:01:01:73",
+          "A*02:01:01:74",
+          "A*02:01:01:75",
+          "A*02:01:01:76",
+          "A*02:01:01:77",
+          "A*02:01:01:78",
+          "A*02:01:01:79",
+          "A*02:01:01:80",
+          "A*02:01:01:81",
+          "A*02:01:01:82",
+          "A*02:01:01:83",
+          "A*02:01:01:84",
+          "A*02:01:01:85",
+          "A*02:01:01:86",
+          "A*02:01:01:87",
+          "A*02:01:01:88",
+          "A*02:01:01:89",
+          "A*02:01:01:90",
+          "A*02:01:01:91",
+          "A*02:01:01:92",
+          "A*02:01:01:93",
+          "A*02:01:01:94",
+          "A*02:01:01:95",
+          "A*02:01:01:96",
+          "A*02:01:01:97",
+          "A*02:01:01:98",
+          "A*02:01:01:99"
+        ],
+        "exons": [
+          [
+            2300,
+            2373
+          ],
+          [
+            2503,
+            2773
+          ],
+          [
+            3014,
+            3290
+          ],
+          [
+            3890,
+            4166
+          ],
+          [
+            4265,
+            4382
+          ],
+          [
+            4820,
+            4853
+          ],
+          [
+            4995,
+            5043
+          ],
+          [
+            5212,
+            5217
+          ]
+        ],
+        "n_unknown": 0,
+        "gene": "A",
+        "internal_identifier": true
+      }
+    },
+    "calls": {
+      "A": {
+        "copy_count": 2,
+        "resolutions": {
+          "2": [
+            {
+              "raw": "HLA-A*PGfc0fb08a619d",
+              "alleles": [
+                "A*02:01"
+              ],
+              "unresolved": false
+            },
+            {
+              "raw": "HLA-A*PG00cb7d93ac39",
+              "alleles": [
+                "A*02:06"
+              ],
+              "unresolved": false
+            }
+          ],
+          "4": [
+            {
+              "raw": "HLA-A*PGfc0fb08a619d",
+              "alleles": [
+                "A*02:01:01:01"
+              ],
+              "unresolved": false
+            },
+            {
+              "raw": "HLA-A*PG00cb7d93ac39",
+              "alleles": [
+                "A*02:06:01:01"
+              ],
+              "unresolved": false
+            }
+          ]
+        }
+      },
+      "B": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "C": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "E": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "F": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "G": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "H": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "J": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "K": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "L": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "N": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "P": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "R": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "S": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "T": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "U": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "V": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "W": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "Y": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB3": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB4": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB5": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQA1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQA2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQB1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQB2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPA1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPA2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPB1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPB2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DMA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DMB": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DOA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DOB": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "HFE": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "MICA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "MICB": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "TAP1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "TAP2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "hprc_asian": {
+    "genotype_sha256": "ac8ea8d1445731c478a0d322deddf78aba63f2cec4ce1eddcb516cd65c74859f",
+    "aliases_sha256": "f6b50d07b91aac9f7b51cb717cbc2c5e49971c333b7407b04dc55122090a9bbb",
+    "raw": "HLA-A\t2\tHLA-A*PG9964e98ecfa2\t143.201750\t60\tHLA-A*PG4ebff93a7e70\t52.500161\t31\tHLA-A*PG00cb7d93ac39;38.713411;21\nHLA-B\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-C\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-E\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-F\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-G\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-H\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-J\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-K\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-L\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-N\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-P\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-R\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-S\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-T\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-U\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-V\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-W\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-Y\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRA\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB3\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB4\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DRB5\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQA1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQA2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQB1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DQB2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPA1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPA2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPB1\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DPB2\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DMA\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DMB\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DOA\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-DOB\t0\t.\t0\t-1\t.\t0\t-1\t\nHLA-HFE\t0\t.\t0\t-1\t.\t0\t-1\t\nMICA\t0\t.\t0\t-1\t.\t0\t-1\t\nMICB\t0\t.\t0\t-1\t.\t0\t-1\t\nTAP1\t0\t.\t0\t-1\t.\t0\t-1\t\nTAP2\t0\t.\t0\t-1\t.\t0\t-1\t\n",
+    "aliases": {
+      "HLA-A*PG4ebff93a7e70": {
+        "path": "PG4ebff93a7e70bcbc6c886d8dfbd522922ee8971d45383168a3e18e80a16f9031#0#HLA_A",
+        "sequence_sha256": "4ebff93a7e70bcbc6c886d8dfbd522922ee8971d45383168a3e18e80a16f9031",
+        "sources": [
+          "HIFI032501D#1#HLA-A",
+          "KPanRef-078#1#HLA-A"
+        ],
+        "genomic_labels": [
+          "A*02:06:01:01"
+        ],
+        "cds_labels": [
+          "A*02:06:01:01",
+          "A*02:06:01:02",
+          "A*02:06:01:03",
+          "A*02:06:01:04",
+          "A*02:06:01:05",
+          "A*02:06:01:06",
+          "A*02:06:01:07",
+          "A*02:06:01:08",
+          "A*02:06:01:09",
+          "A*02:06:01:10",
+          "A*02:06:01:11",
+          "A*02:06:01:12",
+          "A*02:06:01:13",
+          "A*02:06:01:14",
+          "A*02:06:01:15",
+          "A*02:06:01:16",
+          "A*02:06:01:17"
+        ],
+        "exons": [
+          [
+            2300,
+            2373
+          ],
+          [
+            2503,
+            2773
+          ],
+          [
+            3014,
+            3290
+          ],
+          [
+            3890,
+            4166
+          ],
+          [
+            4265,
+            4382
+          ],
+          [
+            4820,
+            4853
+          ],
+          [
+            4995,
+            5043
+          ],
+          [
+            5212,
+            5217
+          ]
+        ],
+        "n_unknown": 0,
+        "gene": "A",
+        "internal_identifier": true
+      },
+      "HLA-A*PG9964e98ecfa2": {
+        "path": "PG9964e98ecfa2c296d956a08fbcb5620eb741f1dd852d6f2e0212bec1c4661586#0#HLA_A",
+        "sequence_sha256": "9964e98ecfa2c296d956a08fbcb5620eb741f1dd852d6f2e0212bec1c4661586",
+        "sources": [
+          "apr015#2#HLA-A"
+        ],
+        "genomic_labels": [
+          "A*02:01:01:01"
+        ],
+        "cds_labels": [
+          "A*02:01:01:01",
+          "A*02:01:01:02L",
+          "A*02:01:01:03",
+          "A*02:01:01:04",
+          "A*02:01:01:05",
+          "A*02:01:01:06",
+          "A*02:01:01:07",
+          "A*02:01:01:08",
+          "A*02:01:01:09",
+          "A*02:01:01:10",
+          "A*02:01:01:100",
+          "A*02:01:01:101",
+          "A*02:01:01:102",
+          "A*02:01:01:103",
+          "A*02:01:01:104",
+          "A*02:01:01:105",
+          "A*02:01:01:106",
+          "A*02:01:01:107",
+          "A*02:01:01:108",
+          "A*02:01:01:109",
+          "A*02:01:01:11",
+          "A*02:01:01:110",
+          "A*02:01:01:111",
+          "A*02:01:01:112",
+          "A*02:01:01:113",
+          "A*02:01:01:114",
+          "A*02:01:01:115",
+          "A*02:01:01:116",
+          "A*02:01:01:117",
+          "A*02:01:01:118",
+          "A*02:01:01:119",
+          "A*02:01:01:12",
+          "A*02:01:01:120",
+          "A*02:01:01:121",
+          "A*02:01:01:122",
+          "A*02:01:01:123",
+          "A*02:01:01:124",
+          "A*02:01:01:125",
+          "A*02:01:01:126",
+          "A*02:01:01:127",
+          "A*02:01:01:128",
+          "A*02:01:01:129",
+          "A*02:01:01:13",
+          "A*02:01:01:130",
+          "A*02:01:01:131",
+          "A*02:01:01:132",
+          "A*02:01:01:133",
+          "A*02:01:01:134Q",
+          "A*02:01:01:135",
+          "A*02:01:01:136",
+          "A*02:01:01:137",
+          "A*02:01:01:138",
+          "A*02:01:01:139",
+          "A*02:01:01:14",
+          "A*02:01:01:140",
+          "A*02:01:01:141",
+          "A*02:01:01:142",
+          "A*02:01:01:143",
+          "A*02:01:01:144",
+          "A*02:01:01:145",
+          "A*02:01:01:146",
+          "A*02:01:01:147",
+          "A*02:01:01:148",
+          "A*02:01:01:149",
+          "A*02:01:01:15",
+          "A*02:01:01:150",
+          "A*02:01:01:151",
+          "A*02:01:01:152",
+          "A*02:01:01:153",
+          "A*02:01:01:154",
+          "A*02:01:01:155",
+          "A*02:01:01:156",
+          "A*02:01:01:157",
+          "A*02:01:01:158",
+          "A*02:01:01:159",
+          "A*02:01:01:16",
+          "A*02:01:01:160",
+          "A*02:01:01:161",
+          "A*02:01:01:162",
+          "A*02:01:01:163",
+          "A*02:01:01:164",
+          "A*02:01:01:165",
+          "A*02:01:01:166",
+          "A*02:01:01:167",
+          "A*02:01:01:168",
+          "A*02:01:01:169",
+          "A*02:01:01:17",
+          "A*02:01:01:170",
+          "A*02:01:01:171",
+          "A*02:01:01:172",
+          "A*02:01:01:173",
+          "A*02:01:01:174",
+          "A*02:01:01:175",
+          "A*02:01:01:176",
+          "A*02:01:01:177",
+          "A*02:01:01:178",
+          "A*02:01:01:179",
+          "A*02:01:01:18",
+          "A*02:01:01:180",
+          "A*02:01:01:181",
+          "A*02:01:01:182",
+          "A*02:01:01:183",
+          "A*02:01:01:184",
+          "A*02:01:01:185",
+          "A*02:01:01:186",
+          "A*02:01:01:187",
+          "A*02:01:01:188",
+          "A*02:01:01:189",
+          "A*02:01:01:19",
+          "A*02:01:01:190",
+          "A*02:01:01:191",
+          "A*02:01:01:192",
+          "A*02:01:01:193",
+          "A*02:01:01:194",
+          "A*02:01:01:195",
+          "A*02:01:01:196",
+          "A*02:01:01:197",
+          "A*02:01:01:198",
+          "A*02:01:01:199",
+          "A*02:01:01:20",
+          "A*02:01:01:200",
+          "A*02:01:01:201",
+          "A*02:01:01:202",
+          "A*02:01:01:203",
+          "A*02:01:01:204",
+          "A*02:01:01:205",
+          "A*02:01:01:206",
+          "A*02:01:01:207",
+          "A*02:01:01:208",
+          "A*02:01:01:209",
+          "A*02:01:01:21",
+          "A*02:01:01:210",
+          "A*02:01:01:211",
+          "A*02:01:01:212",
+          "A*02:01:01:213",
+          "A*02:01:01:214",
+          "A*02:01:01:215",
+          "A*02:01:01:216",
+          "A*02:01:01:217",
+          "A*02:01:01:218",
+          "A*02:01:01:219",
+          "A*02:01:01:22",
+          "A*02:01:01:220",
+          "A*02:01:01:221",
+          "A*02:01:01:222",
+          "A*02:01:01:223",
+          "A*02:01:01:224",
+          "A*02:01:01:225",
+          "A*02:01:01:226",
+          "A*02:01:01:227",
+          "A*02:01:01:228",
+          "A*02:01:01:229",
+          "A*02:01:01:23",
+          "A*02:01:01:230",
+          "A*02:01:01:231",
+          "A*02:01:01:232",
+          "A*02:01:01:233",
+          "A*02:01:01:234",
+          "A*02:01:01:235",
+          "A*02:01:01:236",
+          "A*02:01:01:237",
+          "A*02:01:01:238",
+          "A*02:01:01:239",
+          "A*02:01:01:24",
+          "A*02:01:01:240",
+          "A*02:01:01:241",
+          "A*02:01:01:242",
+          "A*02:01:01:243",
+          "A*02:01:01:244",
+          "A*02:01:01:245",
+          "A*02:01:01:246",
+          "A*02:01:01:247",
+          "A*02:01:01:248",
+          "A*02:01:01:249",
+          "A*02:01:01:25",
+          "A*02:01:01:250",
+          "A*02:01:01:251",
+          "A*02:01:01:252Q",
+          "A*02:01:01:253",
+          "A*02:01:01:254",
+          "A*02:01:01:255",
+          "A*02:01:01:256",
+          "A*02:01:01:257",
+          "A*02:01:01:258",
+          "A*02:01:01:259",
+          "A*02:01:01:26",
+          "A*02:01:01:260",
+          "A*02:01:01:261",
+          "A*02:01:01:262",
+          "A*02:01:01:263",
+          "A*02:01:01:264",
+          "A*02:01:01:265",
+          "A*02:01:01:266",
+          "A*02:01:01:267",
+          "A*02:01:01:268",
+          "A*02:01:01:269",
+          "A*02:01:01:27",
+          "A*02:01:01:270",
+          "A*02:01:01:271",
+          "A*02:01:01:272",
+          "A*02:01:01:273",
+          "A*02:01:01:274",
+          "A*02:01:01:28",
+          "A*02:01:01:29",
+          "A*02:01:01:30",
+          "A*02:01:01:31",
+          "A*02:01:01:32",
+          "A*02:01:01:33",
+          "A*02:01:01:34",
+          "A*02:01:01:35",
+          "A*02:01:01:36",
+          "A*02:01:01:37",
+          "A*02:01:01:38",
+          "A*02:01:01:39",
+          "A*02:01:01:40",
+          "A*02:01:01:41",
+          "A*02:01:01:42",
+          "A*02:01:01:43",
+          "A*02:01:01:44",
+          "A*02:01:01:45",
+          "A*02:01:01:46",
+          "A*02:01:01:47",
+          "A*02:01:01:48",
+          "A*02:01:01:49",
+          "A*02:01:01:50",
+          "A*02:01:01:51",
+          "A*02:01:01:52",
+          "A*02:01:01:53",
+          "A*02:01:01:54",
+          "A*02:01:01:55",
+          "A*02:01:01:56",
+          "A*02:01:01:57",
+          "A*02:01:01:58",
+          "A*02:01:01:59",
+          "A*02:01:01:60",
+          "A*02:01:01:61",
+          "A*02:01:01:62",
+          "A*02:01:01:63",
+          "A*02:01:01:64",
+          "A*02:01:01:65",
+          "A*02:01:01:66",
+          "A*02:01:01:67",
+          "A*02:01:01:68",
+          "A*02:01:01:69",
+          "A*02:01:01:70",
+          "A*02:01:01:71",
+          "A*02:01:01:72",
+          "A*02:01:01:73",
+          "A*02:01:01:74",
+          "A*02:01:01:75",
+          "A*02:01:01:76",
+          "A*02:01:01:77",
+          "A*02:01:01:78",
+          "A*02:01:01:79",
+          "A*02:01:01:80",
+          "A*02:01:01:81",
+          "A*02:01:01:82",
+          "A*02:01:01:83",
+          "A*02:01:01:84",
+          "A*02:01:01:85",
+          "A*02:01:01:86",
+          "A*02:01:01:87",
+          "A*02:01:01:88",
+          "A*02:01:01:89",
+          "A*02:01:01:90",
+          "A*02:01:01:91",
+          "A*02:01:01:92",
+          "A*02:01:01:93",
+          "A*02:01:01:94",
+          "A*02:01:01:95",
+          "A*02:01:01:96",
+          "A*02:01:01:97",
+          "A*02:01:01:98",
+          "A*02:01:01:99"
+        ],
+        "exons": [
+          [
+            2300,
+            2373
+          ],
+          [
+            2503,
+            2773
+          ],
+          [
+            3014,
+            3290
+          ],
+          [
+            3890,
+            4166
+          ],
+          [
+            4265,
+            4382
+          ],
+          [
+            4820,
+            4853
+          ],
+          [
+            4995,
+            5043
+          ],
+          [
+            5212,
+            5217
+          ]
+        ],
+        "n_unknown": 0,
+        "gene": "A",
+        "internal_identifier": true
+      }
+    },
+    "calls": {
+      "A": {
+        "copy_count": 2,
+        "resolutions": {
+          "2": [
+            {
+              "raw": "HLA-A*PG9964e98ecfa2",
+              "alleles": [
+                "A*02:01"
+              ],
+              "unresolved": false
+            },
+            {
+              "raw": "HLA-A*PG4ebff93a7e70",
+              "alleles": [
+                "A*02:06"
+              ],
+              "unresolved": false
+            }
+          ],
+          "4": [
+            {
+              "raw": "HLA-A*PG9964e98ecfa2",
+              "alleles": [
+                "A*02:01:01:01"
+              ],
+              "unresolved": false
+            },
+            {
+              "raw": "HLA-A*PG4ebff93a7e70",
+              "alleles": [
+                "A*02:06:01:01"
+              ],
+              "unresolved": false
+            }
+          ]
+        }
+      },
+      "B": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "C": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "E": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "F": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "G": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "H": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "J": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "K": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "L": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "N": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "P": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "R": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "S": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "T": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "U": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "V": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "W": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "Y": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB3": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB4": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DRB5": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQA1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQA2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQB1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DQB2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPA1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPA2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPB1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DPB2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DMA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DMB": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DOA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "DOB": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "HFE": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "MICA": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "MICB": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "TAP1": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      },
+      "TAP2": {
+        "copy_count": 0,
+        "resolutions": {
+          "2": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ],
+          "4": [
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            },
+            {
+              "raw": ".",
+              "alleles": [],
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "synthetic_sources": [
+    {
+      "path": "PG00cb7d93ac39b1f255145bb7f4101d678f4660f6970ef48954c9a5c01677441c#0#HLA_A",
+      "genomic_labels": [
+        "A*02:06:01:01"
+      ]
+    },
+    {
+      "path": "PG0981f91d0ae911228effc294e057503f7c9aee7fbd401cb1c0e429a6e530d029#0#HLA_A",
+      "genomic_labels": [
+        "A*02:01:01:01"
+      ]
+    }
+  ],
+  "scope": "Synthetic integration only; training paths included in references; no independent improvement claim"
+}

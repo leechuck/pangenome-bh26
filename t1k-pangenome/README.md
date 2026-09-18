@@ -122,3 +122,11 @@ any candidate lacks the requested resolution, preserves homozygous copy
 assignments, and rejects cross-gene labels. These JSON calls require the same
 conservative ambiguity handling during evaluation; a matching member of an
 unresolved set is not a resolved correct call.
+
+`path_support.py` connects graph alignments to observed path candidates. It
+projects each contiguous alignment walk in either orientation onto all
+compatible named paths, retaining repeated placements, offsets, mapping scores
+and mate metadata. Shared sequence does not force a single allele assignment;
+walks absent from the observed paths stay explicitly unsupported. The adapter
+checks that alignment node IDs belong to the input graph. Fragment likelihoods,
+paralog competition and allele-level inference still need integration.
