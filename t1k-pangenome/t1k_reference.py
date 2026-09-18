@@ -25,6 +25,14 @@ def header(alias, intervals, length):
     return '>'+alias+' '+str(len(intervals))+' '+' '.join(map(str, positions))+'\n'
 
 
+def gene_namespace(gene, names):
+    matches = {name.split('*')[0] for name in names
+               if '*' in name and name.split('*')[0].removeprefix('HLA-') == gene}
+    if len(matches) != 1:
+        raise ValueError('Missing or ambiguous IPD gene namespace: '+gene)
+    return matches.pop()
+
+
 def resolve_alias(alias, aliases, fields):
     """Return numeric-field alternatives and an explicit unresolved flag.
 
@@ -61,6 +69,7 @@ def build(reference, panel, ipd, output):
     existing_sequences = set(ipd_sequences.values())
     aliases, skipped, additions = {}, [], []
     for gene in GENES:
+        namespace = gene_namespace(gene, ipd_sequences)
         fa, sidecar = f'{panel}/HLA-{gene}.fa', f'{panel}/HLA-{gene}.json'
         for name in (fa, sidecar):
             if sha(reference/name) != manifest['output_sha256'][name]:
@@ -79,7 +88,7 @@ def build(reference, panel, ipd, output):
                       'sequence_already_in_ipd' if seq in existing_sequences else None)
             if reason:
                 skipped.append(dict(path=record['path'], reason=reason));continue
-            alias = gene+'*PG'+digest[:12]
+            alias = namespace+'*PG'+digest[:12]
             if alias in aliases or alias in ipd_sequences:
                 raise ValueError('Internal candidate identifier collision: '+alias)
             aliases[alias] = dict(record, gene=gene, internal_identifier=True)

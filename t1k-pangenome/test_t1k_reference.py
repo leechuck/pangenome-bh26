@@ -1,8 +1,15 @@
 import unittest
-from t1k_reference import header, resolve_alias
+from t1k_reference import header, resolve_alias, gene_namespace
 
 
 class ReferenceAdapterTests(unittest.TestCase):
+    def test_existing_gene_namespace_is_preserved(self):
+        self.assertEqual(gene_namespace('A',['HLA-A*01:01','HLA-B*01:01']), 'HLA-A')
+
+    def test_conflicting_gene_namespace_rejected(self):
+        with self.assertRaises(ValueError):
+            gene_namespace('A',['HLA-A*01:01','A*02:01'])
+
     def test_t1k_inclusive_coordinates(self):
         self.assertEqual(header('A*PGabc', [[2,5],[7,9]], 10), '>A*PGabc 2 2 4 7 8\n')
 

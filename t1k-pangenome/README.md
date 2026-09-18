@@ -52,8 +52,8 @@ test families and previously exposed development families are all excluded.
 
 Graph construction and topology validation passed for the HPRC HLA-A pilot;
 the remaining 15 panel/locus builds are scheduled. Remaining implementation:
-competing paralog/decoy references, sample-specific k-mer selection, T1K reference adapter,
-graph-based candidate-pair refinement, and frozen independent evaluation.
+competing paralog/decoy references, real-sample k-mer selection, graph-based
+candidate-pair refinement, and frozen independent evaluation.
 The existing eight target loci alone are not a complete mapping decoy set.
 
 The upstream [vg haplotype sampling documentation](https://github.com/vgteam/vg/wiki/Haplotype-Sampling)
@@ -115,3 +115,10 @@ treats different contexts as separate candidates, and reference multiplicity
 can affect its weighting and tie-breaking. Consequently this is an explicit
 linear-reference control, not the final allele-level graph inference model.
 Synthetic and development testing must precede any held-out evaluation.
+
+`decode_t1k.py` translates genotype tables into explicit two- and four-field
+alternative sets using the context sidecar. It retains an unresolved flag when
+any candidate lacks the requested resolution, preserves homozygous copy
+assignments, and rejects cross-gene labels. These JSON calls require the same
+conservative ambiguity handling during evaluation; a matching member of an
+unresolved set is not a resolved correct call.
