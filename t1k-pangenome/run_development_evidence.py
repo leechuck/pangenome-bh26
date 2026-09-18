@@ -24,9 +24,9 @@ def smoke():
     (output/'PARITY.json').write_text(json.dumps(report, indent=2)+'\n')
 
 
-def run(panel, selection, index):
+def run(panel, selection, index, version='v2'):
     gene = GENES[index]
-    mapping = ROOT/'development/mapping-v2/HG00658'/panel/selection/gene
+    mapping = ROOT/'development'/('mapping-'+version)/'HG00658'/panel/selection/gene
     graph = graph_path(panel, gene)
     mm = json.loads((mapping/'COMPLETE.json').read_text())
     gm = json.loads((graph/'COMPLETE.json').read_text())
@@ -41,7 +41,7 @@ def run(panel, selection, index):
     reference = ROOT/'references/observed-v2'/panel/('HLA-'+gene+'.fa')
     if sha(reference) != gm['source_sha256']:
         raise ValueError('Observed reference changed')
-    output = ROOT/'development/fragments-v2/HG00658'/panel/selection/gene
+    output = ROOT/'development'/('fragments-'+version)/'HG00658'/panel/selection/gene
     output.mkdir(parents=True,exist_ok=False)
     record = dict(status='running',started=time.time(),graph_manifest_sha256=sha(graph/'COMPLETE.json'),
                   mapping_manifest_sha256=sha(mapping/'COMPLETE.json'),driver_sha256=sha(Path(__file__)))
@@ -73,6 +73,7 @@ if __name__ == '__main__':
     parser.add_argument('--panel', choices=('hprc','hprc_asian'))
     parser.add_argument('--selection', choices=('sampled','unsampled'))
     parser.add_argument('--index', type=int, choices=range(len(GENES)))
+    parser.add_argument('--version', choices=('v2','v3'), default='v2')
     args = parser.parse_args()
     if not os.environ.get('SLURM_CPUS_PER_TASK'):
         parser.error('Evidence processing requires Slurm')
@@ -81,4 +82,4 @@ if __name__ == '__main__':
     elif args.panel is None or args.selection is None or args.index is None:
         parser.error('Panel, selection and index required for development evidence')
     else:
-        run(args.panel,args.selection,args.index)
+        run(args.panel,args.selection,args.index,args.version)

@@ -311,6 +311,19 @@ selection conditions; read hashes must match calibration. Earlier mapping output
 remain preserved. This controls failed per-locus insert learning; it is not a
 claim of improved genotype accuracy.
 
+Calibrated alignments feed the same sequence-verified projection and paired-fragment
+pipeline under `fragments-v3` and `join-v3`. Each completed condition can proceed
+independently; any unfinished mapping condition gates its extraction through a
+live Slurm dependency. The initial launch waited for complete manifests and found
+two Asian DRB1 mappings still running; neither was failed or restarted.
+
+Native assignment export now also accepts completed linear-reference controls.
+The genomic-IPD development export verifies reference, reads, completion records
+and output hashes, then requires byte-identical genotypes to that control. It
+retains native alternatives for subsequent refinement; exported weights and graph
+alignment scores are not treated as independent read observations. The original
+native-evidence export remains preserved for the original-baseline comparison.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122

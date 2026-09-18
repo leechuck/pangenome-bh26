@@ -18,7 +18,8 @@ def development_jobs():
               'development-map-launch.json','development-map-all-loci-launch.json',
               'native-evidence-development-launch.json','development-evidence-launch.json',
               'development-evidence-v2-launch.json','library-calibration-launch.json',
-              'development-map-calibrated-launch.json'):
+              'development-map-calibrated-launch.json','development-evidence-v3-launch.json',
+              'native-genome-evidence-launch.json'):
   path=T1K/name
   if not path.exists():continue
   record=json.loads(path.read_text())

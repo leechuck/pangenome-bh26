@@ -1,0 +1,25 @@
+{
+  "job": "52047324",
+  "code_sha256": {
+    "run_native_evidence.py": "0f056b6c16587496695cf007a7099e5297fb5524749e3aaf651f2d13d3e27466",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f",
+    "t1k_evidence.py": "b79c8cdf6708bf8f0401adb4a0aa9a73b8251da3543b5d6343382ac02a06b9b6"
+  },
+  "command": [
+    "python3",
+    "/home/leechuck/hla/t1k-pangenome/native-genome-evidence-v1-code/run_native_evidence.py",
+    "--baseline",
+    "/home/leechuck/hla/t1k-pangenome/development/linear-v1/ipd_genome/HG00658",
+    "--reads",
+    "/home/leechuck/hla/hla-typer/reads/HG00658",
+    "--tool",
+    "/home/leechuck/hla/t1k-pangenome/tools/t1k-evidence-v1",
+    "--reference",
+    "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+    "--output",
+    "/home/leechuck/hla/t1k-pangenome/development/native-genome-evidence-v1/HG00658",
+    "--threads",
+    "4"
+  ],
+  "scope": "Export full genomic IPD assignments with byte-identical baseline genotype requirement"
+}

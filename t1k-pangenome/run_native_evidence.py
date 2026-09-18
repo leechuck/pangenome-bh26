@@ -16,21 +16,40 @@ def run(baseline, reads, tool, reference, output, threads):
     if output.exists():
         raise FileExistsError(output)
     original = json.loads((baseline/'manifest.json').read_text())
-    config = original['configuration']
-    donor = config['donor']
-    marker = json.loads((baseline/'COMPLETE').read_text())
+    raw = {str(i):sha(reads/('r'+str(i)+'.fq.gz')) for i in (1,2)}
+    if 'configuration' in original:
+        config = original['configuration']
+        donor = config['donor']
+        completion = baseline/'COMPLETE'
+        marker = json.loads(completion.read_text())
+        if marker['configuration_sha256']!=hashlib.sha256(json.dumps(config,sort_keys=True).encode()).hexdigest():
+            raise ValueError('Baseline configuration changed')
+        if config['alleleDigitUnits']!=4 or config['alleleDelimiter']!=':' or config['preset']!='hla-wgs':
+            raise ValueError('Unsupported baseline configuration')
+        outputs = marker['outputs']
+        if raw!=config['reads'] or sha(reference)!=config['database_sha256']:
+            raise ValueError('Baseline input mismatch')
+    else:
+        donor = original['donor']
+        completion = baseline/'COMPLETE.json'
+        marker = json.loads(completion.read_text())
+        if marker != original:
+            raise ValueError('Control completion differs from manifest')
+        command = original['command']
+        for option,value in (('--alleleDigitUnits','4'),('--alleleDelimiter',':'),('--preset','hla-wgs'),('-f',str(reference))):
+            if command.count(option)!=1 or command[command.index(option)+1]!=value:
+                raise ValueError('Unsupported control command: '+option)
+        ref = json.loads((reference.parent/'COMPLETE.json').read_text())
+        if (ref['status']!='complete' or
+            sha(reference.parent/'COMPLETE.json')!=original['reference_manifest_sha256'] or
+            sha(reference)!=ref['output_sha256']['reference.fa'] or raw!=original['reads_sha256']):
+            raise ValueError('Control reference or read inputs changed')
+        outputs = original['output_sha256']
     if original['status']!='complete':
         raise ValueError('Baseline incomplete')
-    if marker['configuration_sha256']!=hashlib.sha256(json.dumps(config,sort_keys=True).encode()).hexdigest():
-        raise ValueError('Baseline configuration changed')
-    if config['alleleDigitUnits']!=4 or config['alleleDelimiter']!=':' or config['preset']!='hla-wgs':
-        raise ValueError('Unsupported baseline configuration')
-    for name,digest in marker['outputs'].items():
+    for name,digest in outputs.items():
         if sha(baseline/name)!=digest:
             raise ValueError('Baseline output changed')
-    raw = {str(i):sha(reads/('r'+str(i)+'.fq.gz')) for i in (1,2)}
-    if raw!=config['reads'] or sha(reference)!=config['database_sha256']:
-        raise ValueError('Baseline input mismatch')
     build = json.loads((tool/'COMPLETE.json').read_text())
     exe = tool/'export/genotyper'
     if build['status']!='complete' or sha(exe)!=build['output_sha256']['export/genotyper']:
@@ -39,7 +58,7 @@ def run(baseline, reads, tool, reference, output, threads):
     output.mkdir(parents=True)
     record = dict(status='running',started=time.time(),donor=donor,
                   baseline_manifest_sha256=sha(baseline/'manifest.json'),
-                  baseline_completion_sha256=sha(baseline/'COMPLETE'),
+                  baseline_completion_sha256=sha(completion),
                   instrumented_build_sha256=sha(tool/'COMPLETE.json'),
                   input_sha256={str(reads/('r'+str(i)+'.fq.gz')):raw[str(i)] for i in (1,2)},
                   candidate_reads_sha256={str(p):sha(p) for p in candidates},
