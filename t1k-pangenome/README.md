@@ -27,6 +27,24 @@ input and output hashes only after successful preparation. Downloaded/generated
 reference FASTAs are local artifacts, excluded from Git; `reference-build.json`
 records the latest verified build.
 
+`audit_reads.py` resolves reserved donors through the public 1000 Genomes CRAM
+manifest and checks both CRAM and CRAI objects with HTTP HEAD requests. It verifies
+the reserved cohort hash and rejects conflicting donor/source mappings. The
+2026-09-18 audit in `validation/read-availability.json` found both objects
+accessible for all 84 donors. This establishes availability, not successful
+decoding; recruitment must still validate the index and extracted paired reads.
+The original reservation is unchanged and no outcome files enter this check.
+
+```sh
+python3 t1k-pangenome/audit_reads.py \
+  --reservation t1k-pangenome/validation \
+  --public-manifest hla-targeted/source/C4Investigator/resources/1000Genomes_resources/tgp_full_30x.tsv \
+  --output t1k-pangenome/validation/read-availability.json
+```
+
+An audit refuses to overwrite an existing report; use a new output name to
+record a later availability check.
+
 Current references preserve 86 HPRC/reference source haplotypes per locus and
 351–354 source haplotypes in the additive set (some assemblies lack a locus).
 These counts are smaller than the old benchmark panels because the new reserved

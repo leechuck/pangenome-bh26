@@ -5,9 +5,9 @@ from launch_ibex import remote
 
 SCRIPT=r'''
 from pathlib import Path
-import collections,datetime,json,subprocess
+import collections,datetime,hashlib,json,subprocess
 r=Path('/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/dogohla-series20260918')
-report=dict(observed_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),stages={},failures=[])
+report=dict(observed_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),stages={},failures=[],final_failures=[])
 patterns={'reconstruction':'runs/*/A/manifest.json','native':'runs/*/native/manifest.json','native_long':'runs/*/native-long/manifest.json','phasing':'phase/runs/*/AE-ipd365-pairing/manifest.json','no_graph':'final/runs/*/DogoHLA-no-graph/manifest.json','graph':'final/runs/*/DogoHLA/manifest.json'}
 for cohort in ('','gourraud'):
  for arm in ('full','hprc','asian_matched'):
@@ -17,8 +17,13 @@ for cohort in ('','gourraud'):
    counts=collections.Counter()
    for p in root.glob(pattern):
     try:
-     m=json.loads(p.read_text());counts[m['status']]+=1
-     if m['status']=='failed':report['failures'].append(dict(path=str(p),error=m.get('error','UNKNOWN')))
+     m=json.loads(p.read_text());state=m['status'];marker=p.parent/'TERMINAL_FAILURE.json'
+     if state=='failed' and marker.exists():
+      audit=json.loads(marker.read_text())
+      if audit.get('manifest_sha256')==hashlib.sha256(p.read_bytes()).hexdigest():state='failed_final'
+     counts[state]+=1
+     if state=='failed':report['failures'].append(dict(path=str(p),error=m.get('error','UNKNOWN')))
+     if state=='failed_final':report['final_failures'].append(dict(path=str(p),error=m.get('error','UNKNOWN')))
     except (OSError,ValueError):counts['unreadable_manifest']+=1
    if counts:report['stages']['/'.join((cohort or 'matched',arm,stage))]=dict(counts)
 q=subprocess.check_output(['squeue','-r','-h','-u','hohndor','-t','R','-o','%C'],text=True)
