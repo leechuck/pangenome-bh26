@@ -1,0 +1,68 @@
+{
+  "job": "52043087",
+  "tasks": [
+    [
+      "hprc",
+      "B"
+    ],
+    [
+      "hprc",
+      "C"
+    ],
+    [
+      "hprc",
+      "DPA1"
+    ],
+    [
+      "hprc",
+      "DPB1"
+    ],
+    [
+      "hprc",
+      "DQA1"
+    ],
+    [
+      "hprc",
+      "DQB1"
+    ],
+    [
+      "hprc",
+      "DRB1"
+    ],
+    [
+      "hprc_asian",
+      "A"
+    ],
+    [
+      "hprc_asian",
+      "B"
+    ],
+    [
+      "hprc_asian",
+      "C"
+    ],
+    [
+      "hprc_asian",
+      "DPA1"
+    ],
+    [
+      "hprc_asian",
+      "DPB1"
+    ],
+    [
+      "hprc_asian",
+      "DQA1"
+    ],
+    [
+      "hprc_asian",
+      "DQB1"
+    ],
+    [
+      "hprc_asian",
+      "DRB1"
+    ]
+  ],
+  "command": "export SINGULARITYENV_SLURM_JOB_ID=\"$SLURM_JOB_ID\"; exec bash /ibex/scratch/projects/c2014/rob/dogohla-benchmark/run_ibex.sbatch /home/leechuck/hla/mm/envs/asian50-spechla/bin/python3 -c 'import sys,os; from pathlib import Path; sys.path.insert(0,'\"'\"'/home/leechuck/hla/t1k-pangenome'\"'\"'); from build_graph import build; panel,gene=[('\"'\"'hprc'\"'\"', '\"'\"'B'\"'\"'), ('\"'\"'hprc'\"'\"', '\"'\"'C'\"'\"'), ('\"'\"'hprc'\"'\"', '\"'\"'DPA1'\"'\"'), ('\"'\"'hprc'\"'\"', '\"'\"'DPB1'\"'\"'), ('\"'\"'hprc'\"'\"', '\"'\"'DQA1'\"'\"'), ('\"'\"'hprc'\"'\"', '\"'\"'DQB1'\"'\"'), ('\"'\"'hprc'\"'\"', '\"'\"'DRB1'\"'\"'), ('\"'\"'hprc_asian'\"'\"', '\"'\"'A'\"'\"'), ('\"'\"'hprc_asian'\"'\"', '\"'\"'B'\"'\"'), ('\"'\"'hprc_asian'\"'\"', '\"'\"'C'\"'\"'), ('\"'\"'hprc_asian'\"'\"', '\"'\"'DPA1'\"'\"'), ('\"'\"'hprc_asian'\"'\"', '\"'\"'DPB1'\"'\"'), ('\"'\"'hprc_asian'\"'\"', '\"'\"'DQA1'\"'\"'), ('\"'\"'hprc_asian'\"'\"', '\"'\"'DQB1'\"'\"'), ('\"'\"'hprc_asian'\"'\"', '\"'\"'DRB1'\"'\"')][int(os.environ[\"SLURM_ARRAY_TASK_ID\"])]; build(Path('\"'\"'/home/leechuck/hla/t1k-pangenome/references/observed-v2'\"'\"'),panel,gene,Path('\"'\"'/home/leechuck/hla/t1k-pangenome/graphs/build-v1'\"'\"')/panel/gene,8)'",
+  "existing_hprc_A": "/home/leechuck/hla/t1k-pangenome/graphs/pilot-v2/hprc/A",
+  "scope": "Reference graph preparation only; no sample inference"
+}

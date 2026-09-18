@@ -26,6 +26,17 @@ for cohort in ('','gourraud'):
      if state=='failed_final':report['final_failures'].append(dict(path=str(p),error=m.get('error','UNKNOWN')))
     except (OSError,ValueError):counts['unreadable_manifest']+=1
    if counts:report['stages']['/'.join((cohort or 'matched',arm,stage))]=dict(counts)
+prep=r.parent/'t1k-pangenome'
+for stage,pattern in [('reference_graphs','graphs/build-v1/*/*/manifest.json'),
+                      ('graph_pilot','graphs/pilot-v2/*/*/manifest.json'),
+                      ('personalization_smoke','smoke/*/manifest.json')]:
+ counts=collections.Counter()
+ for p in prep.glob(pattern):
+  try:
+   m=json.loads(p.read_text());state=m['status'];counts[state]+=1
+   if state=='failed':report['failures'].append(dict(path=str(p),error=m.get('error','UNKNOWN')))
+  except (OSError,ValueError):counts['unreadable_manifest']+=1
+ if counts:report['stages']['t1k_preparation/'+stage]=dict(counts)
 q=subprocess.check_output(['squeue','-r','-h','-u','hohndor','-t','R','-o','%C'],text=True)
 report['running_allocations']=len(q.splitlines());report['allocated_cpus']=sum(map(int,q.split()))
 print(json.dumps(report,indent=2))
