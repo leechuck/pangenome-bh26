@@ -6,6 +6,7 @@ HERE=Path(__file__).resolve().parent
 HOST='hohndor@ilogin.ibex.kaust.edu.sa'
 B='/ibex/scratch/projects/c2014/rob/dogohla-benchmark'
 cycle=0
+previous_failures=set()
 while True:
  try:
   launch=json.loads((HERE/'ibex-launch.json').read_text())
@@ -25,6 +26,12 @@ while True:
   record=dict(observed_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),jobs=jobs,states=counts,records=rows,queue=queue)
   tmp=HERE/'ibex-status.tmp';tmp.write_text(json.dumps(record,indent=2)+'\n');tmp.replace(HERE/'ibex-status.json')
   print(record['observed_at'],counts,flush=True)
+  progress=subprocess.run([sys.executable,str(HERE/'inspect_ibex.py')],capture_output=True,text=True,check=True,timeout=55)
+  pipeline=json.loads(progress.stdout)
+  tmp=HERE/'pipeline-status.tmp';tmp.write_text(json.dumps(pipeline,indent=2)+'\n');tmp.replace(HERE/'pipeline-status.json')
+  failures={json.dumps(f,sort_keys=True) for f in pipeline['failures']}
+  for failure in sorted(failures-previous_failures):print('NEW_PIPELINE_FAILURE',failure,flush=True)
+  previous_failures=failures
   if cycle%3==0:
    subprocess.run([sys.executable,str(HERE/'fetch_ibex.py')],check=True,timeout=110)
    subprocess.run([sys.executable,str(HERE/'score_series.py')],check=True,timeout=120)
@@ -32,7 +39,7 @@ while True:
    subprocess.run([sys.executable,str(HERE/'fetch_ibex.py'),'--gourraud'],check=True,timeout=110)
    subprocess.run([sys.executable,str(HERE/'score_gourraud.py')],check=True,timeout=180)
   cycle+=1
-  if rows and not queue and all(x['state'] in ('COMPLETED','FAILED','CANCELLED','TIMEOUT','OUT_OF_MEMORY','NODE_FAIL') for x in rows):break
+  if rows and not queue and all(x['state'].split()[0] in ('COMPLETED','FAILED','CANCELLED','TIMEOUT','OUT_OF_MEMORY','NODE_FAIL') for x in rows):break
  except Exception as e:
   print(datetime.datetime.now(datetime.timezone.utc).isoformat(),'MONITOR_ERROR',repr(e),flush=True)
  time.sleep(60)

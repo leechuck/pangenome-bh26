@@ -7,3 +7,5 @@ custom-transfer-complete.json
 ibex-status.json
 ibex-status.tmp
 snapshot/
+pipeline-status.json
+pipeline-status.tmp
