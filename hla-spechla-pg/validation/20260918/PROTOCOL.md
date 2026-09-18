@@ -91,3 +91,21 @@ so it survives the interactive session. A separate deadline publisher runs
 analysis tables and the timestamped monitor record, and refuses to commit if
 the branch changed or unrelated work is staged. No raw reads or alignments
 are published. The generated report explicitly labels incomplete runs.
+
+## Long-indel feasibility gate passed
+
+Pilot HG02155 completed native `-v True` in approximately 11 minutes, with
+valid sequence/naming outputs. ScanIndel reports three fully processed genes
+and five explicit no-soft-clipped/unmapped-read exits; these latter exits use
+code 1 upstream but are its expected no-candidate path, not hidden tool errors.
+Consequently the prespecified supplemental **native-long** arm is included for
+all 32 donors. It runs the complete native workflow on identical FASTQs.
+
+Its isolated wrapper fixes two installation issues: invalid TCP ports and an
+absent `db/ref/HLA_G.fa` phase-reference path (redirected to the installed
+`db/HLA/HLA_G/HLA_G.fa`). It also makes ScanIndel's hardcoded eight BWA threads
+respect the four allocated CPUs. Allele databases, thresholds, phasing and
+variant inference remain native. The wrapper rejects nested tool errors and
+requires a recognised terminal outcome for each of the eight ScanIndel stages.
+This is labelled a compatibility-corrected native long-indel control, separately
+from untouched native default SpecHLA. DōgoHLA's frozen inference is unchanged.

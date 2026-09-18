@@ -10,7 +10,7 @@ from score_experiment import gene_score, verify_run
 from score import GENES, REPO, Nomenclature, compare, pred_pair, read_fasta, read_result, truth_a, truth_slots
 from truth import gourraud
 
-ARMS = ('native', 'DogoHLA-no-graph', 'DogoHLA')
+ARMS = ('native', 'native-long', 'DogoHLA-no-graph', 'DogoHLA')
 
 
 def locate(root, donor, arm):
@@ -100,7 +100,7 @@ def evaluate(root, cohort, out):
             a['edit_evaluable_pairs'] += int(row['global_edits'] is not None)
     summaries = [dict(arm=a, stratum=s, gene=g, **v) for (a,s,g),v in sorted(aggregate.items())]
     paired = []
-    for baseline in ('native', 'DogoHLA-no-graph'):
+    for baseline in ('native', 'native-long', 'DogoHLA-no-graph'):
         for d in donors:
             donor = d['donor']
             arms = {a: [r for r in rows if r['donor']==donor and r['arm']==a] for a in (baseline,'DogoHLA')}
@@ -111,7 +111,7 @@ def evaluate(root, cohort, out):
                 two_field_gain=sum(r['two_field_correct'] for r in arms['DogoHLA'])-sum(r['two_field_correct'] for r in arms[baseline]),
                 experimental_gain=sum(r['experimental_correct'] for r in arms['DogoHLA'])-sum(r['experimental_correct'] for r in arms[baseline])))
     intervals = {}
-    for baseline in ('native','DogoHLA-no-graph'):
+    for baseline in ('native','native-long','DogoHLA-no-graph'):
         for stratum in ('ALL','EAS','SAS'):
             rs=[r for r in paired if r['baseline']==baseline and (stratum=='ALL' or r['stratum']==stratum)]
             intervals[baseline+'/'+stratum]={k:bootstrap([r[k] for r in rs if r[k] is not None])

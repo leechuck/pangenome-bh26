@@ -18,8 +18,9 @@
     "1000g_ground_truth/1000G_2014/20140702_hla_diversity.txt": "0455d0302ac12a29ab87091cab5e3e557416f6301e89fb122eef8d49cd5644ec",
     "hla-spechla-pg/score.py": "694f64bdc54a14dcac1453630576f4b2fc5330cbc2695546d54978e6246b784b",
     "hla-spechla-pg/score_experiment.py": "3b25b572f6d095f367ee5dad90396989df80a01309e8805a79870b96b7cfa76f",
-    "hla-spechla-pg/score_validation.py": "7f027c79ea7e2887a646ee547dfa37798ed61f434102aa2e6db1fa9c379a5e25",
+    "hla-spechla-pg/score_validation.py": "9402a912ee42d3a6d97badcdb1e7a498fe786fdab7f7781af3923d7ca936ec6f",
     "hla-bench/names.py": "7edff671f812eb077775fa1f424d3b945281f0991a13b13f1406e9d320a13103",
     "hla-bench/truth.py": "935be7ca0dddd1938fdffb92338f284846a1de91617ece7227448e53f489c3b0"
-  }
+  },
+  "supplemental_arm_note": "Prespecified native-long arm included after pilot feasibility passed; no primary scoring rules changed."
 }
