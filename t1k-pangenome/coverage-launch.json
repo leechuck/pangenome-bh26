@@ -1,0 +1,9 @@
+{
+  "marker_job": "52045249",
+  "scope": "Reference screening, synthetic check and development coverage only; no genotype calls",
+  "synthetic_job": "52045250",
+  "development_pilot": {
+    "donor": "HG00658",
+    "job": "52045301"
+  }
+}

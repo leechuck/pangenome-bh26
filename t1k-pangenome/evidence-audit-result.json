@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "source_sha256": "1fcd7098808beb92b660361f4503e3bec74f48a67acde6c57a52ee10a4081f86",
+  "parser_sha256": "b79c8cdf6708bf8f0401adb4a0aa9a73b8251da3543b5d6343382ac02a06b9b6",
+  "fragments": 708,
+  "assignments": 883433,
+  "cross_gene_fragments": 0,
+  "fragments_by_gene": {
+    "HLA-A": 708
+  },
+  "scope": "Native assignments before coalescing; weights are not posterior probabilities"
+}

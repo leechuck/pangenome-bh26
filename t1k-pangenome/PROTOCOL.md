@@ -130,6 +130,26 @@ or queued linear-control executable is replaced. The build compares original
 and instrumented genotype tables and the first four assignment columns on the
 synthetic library. Real-data preservation and graph integration remain required.
 
+The synthetic export preservation check passed (evidence-build-result.json):
+883,433 assignment rows preserved, with identical genotype tables. The parser
+retains 708 assigned fragments from the 2,004-pair training library; the graph
+adapter supports all 2,004. This is a difference in available reference-context
+evidence on synthetic data, not a demonstrated typing improvement.
+
+kmer_coverage.py prepares canonical 29-mer markers conserved in at least 90% of
+the distinct additive-panel sequences, excludes markers repeated within any
+path, and removes cross-gene matches in all supplied panel and IPD sequences.
+Coverage uses the median across all markers, including zero-count markers. The
+initial development gate requires 100 markers, median k-mer depth at least 20,
+and at most 25% zero-count markers. These thresholds are uncalibrated development
+parameters. Low support must trigger unsampled-graph/native fallback rather than
+force a path selection. Marker specificity has not yet been screened against
+the entire genome. No validation outcome is used to choose markers or thresholds.
+The first synthetic coverage check measured HLA-A median k-mer depth 69 from
+1,321 markers (nominal expectation approximately 65); all seven absent loci had
+zero depth and failed the personalization gate. A development-donor coverage
+pilot is queued separately from genotype inference.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
