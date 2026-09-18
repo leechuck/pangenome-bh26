@@ -84,3 +84,10 @@ inside that output directory. Bootstrap units are donors (each from a distinct
 family); positive gains favour DōgoHLA. Exact/name gains retain failures in the
 planned denominator. Edit reductions are explicitly conditional on both arms
 completing. These exploratory intervals do not adjust for multiple endpoints.
+
+The monitor runs as the local user service `dogohla-validation-20260918.service`
+so it survives the interactive session. A separate deadline publisher runs
+`publish_validation.py` after the terminal snapshot: it pushes only compact
+analysis tables and the timestamped monitor record, and refuses to commit if
+the branch changed or unrelated work is staged. No raw reads or alignments
+are published. The generated report explicitly labels incomplete runs.
