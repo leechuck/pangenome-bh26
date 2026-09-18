@@ -43,7 +43,8 @@
     "gourraud_packed_native": "52040469",
     "gourraud_hprc_HG00611_arpack_retry": "52042583",
     "gourraud_hprc_NA20790_arpack_retry": "52043374",
-    "gourraud_asian_NA20790_arpack_retry": "52044803"
+    "gourraud_asian_NA20790_arpack_retry": "52044803",
+    "gourraud_full_NA20790_arpack_retry": "52045970"
   },
   "scope": "Matched 64 and graph/family-excluded Gourraud 946; no deadline; pending tasks packed eight per 32-CPU allocation.",
   "custom_sha256": "dd119be6e9e066a82bf729a318b9cbb7088e9e87ce225bc3de3a4a1cc92e6ae7"

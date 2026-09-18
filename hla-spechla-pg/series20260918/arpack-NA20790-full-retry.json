@@ -1,0 +1,6 @@
+{
+  "archived": "/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/dogohla-series20260918/gourraud/attempts/arpack-NA20790-full/A",
+  "manifest_sha256": "0813742934ff8d6f4093887d4c223fbf62042972f0b7e4650f2292683e6937db",
+  "job": "52045970",
+  "reason": "Retry upstream ARPACK failure once with unchanged inference configuration"
+}
