@@ -30,7 +30,8 @@ prep=r.parent/'t1k-pangenome'
 for stage,pattern in [('reference_graphs','graphs/build-v1/*/*/manifest.json'),
                       ('reference_graphs_repaired','graphs/build-v2/*/*/manifest.json'),
                       ('graph_pilot','graphs/pilot-v2/*/*/manifest.json'),
-                      ('personalization_smoke','smoke/personalization-v[23]/manifest.json')]:
+                      ('personalization_smoke','smoke/personalization-v[23]/manifest.json'),
+                      ('reserved_reads','validation-reads/*/manifest.json')]:
  counts=collections.Counter()
  for p in prep.glob(pattern):
   try:

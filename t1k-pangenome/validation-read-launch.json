@@ -1,0 +1,12 @@
+{
+  "pilot_job": "52044370",
+  "command": [
+    "python3",
+    "/home/leechuck/hla/t1k-pangenome/prepare_validation_reads.py",
+    "--root",
+    "/home/leechuck/hla/t1k-pangenome"
+  ],
+  "scope": "Reserved read preparation only; no typing and no truth access",
+  "cohort_size": 84,
+  "array_job": "52044371"
+}

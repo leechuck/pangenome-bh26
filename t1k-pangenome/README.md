@@ -138,3 +138,18 @@ gene namespaces; v2 derives its namespace from the unchanged IPD reference and
 the decoder rejects duplicate normalized gene rows. These training-path tests
 establish integration, not improvement. The first graph-evidence projection
 also retained compatible observed-path placements for all 4,008 reads.
+
+`fragment_support.py` joins mate-linked graph placements into one evidence record
+per fragment. It retains all concordant shared paths, keeps only the best score
+for duplicate placements, and explicitly records missing mates and unsupported
+pairs. The insert-size limit is configurable (1,000 bp for the synthetic smoke),
+not a learned library distribution. All 2,004 synthetic fragments had concordant
+placements; this remains an integration check rather than genotype validation.
+
+`prepare_validation_reads.py` prepares the 84 reserved donors in an isolated
+`validation-reads/` directory. The input list is bound to the immutable cohort
+and public-source audit. Recruitment uses the existing benchmark's region and
+mate policy, followed by CRAM sample-ID, complete FASTQ syntax/pair-name/count,
+and output checksum verification. It does not load genotype truth or run a
+typer. A successful pilot gates the remaining array, capped at eight concurrent
+four-CPU tasks. The existing monitor records preparation failures.

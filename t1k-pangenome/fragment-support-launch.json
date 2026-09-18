@@ -1,0 +1,11 @@
+{
+  "job": "52044159",
+  "command": [
+    "python3",
+    "/home/leechuck/hla/t1k-pangenome/fragment_support.py",
+    "--source",
+    "/home/leechuck/hla/t1k-pangenome/smoke/path-support-v1",
+    "--output",
+    "/home/leechuck/hla/t1k-pangenome/smoke/fragment-support-v1"
+  ]
+}
