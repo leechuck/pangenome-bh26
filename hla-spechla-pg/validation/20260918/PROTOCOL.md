@@ -55,3 +55,32 @@ At the deadline, report all completed, failed and pending donors. Do not claim
 or early stopping. Native long-indel feasibility is an execution gate, not an
 accuracy-based selection. This short validation can support further study;
 it cannot establish general superiority or clinical validity.
+
+## Launch record
+
+Frozen method/documentation: `3f791b8`; isolated execution wrapper: `9a6c7d7`.
+DDBJ release: `/home/leechuck/hla/spechla-pg/validations/dogohla-v0.1.0-20260918`.
+Slurm jobs: preparation **20663742**, graph array **20663743_[1-4]**, paired
+validation **20663744_[0-31]**, native long-indel feasibility **20663769**.
+Preparation succeeded. The long-indel feasibility job uses pilot HG02155,
+not a new validation donor. Its only upstream execution patch replaces the
+invalid random TCP-port generator with an OS-selected valid free port;
+its exact command and patched-script hash are recorded on DDBJ.
+
+Truth-only audit before inference: all **256 diploid gene pairs / 512
+haplotypes** have assembly truth; all 256 have eligible two-field truth.
+Independent experimental truth is available for 29 gene pairs.
+
+A local monitor fetches compact snapshots every three minutes and automatically
+scores the fixed cohort on completion or at the deadline. Reproduce with:
+
+```sh
+python3 hla-spechla-pg/monitor_validation.py dogohla-v0.1.0-20260918 \
+  --out hla-spechla-pg/results/validation-20260918
+```
+
+Read `analysis/REPORT.md`, `status.tsv`, `paired_donors.tsv` and `bootstrap.json`
+inside that output directory. Bootstrap units are donors (each from a distinct
+family); positive gains favour DōgoHLA. Exact/name gains retain failures in the
+planned denominator. Edit reductions are explicitly conditional on both arms
+completing. These exploratory intervals do not adjust for multiple endpoints.

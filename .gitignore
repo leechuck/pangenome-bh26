@@ -56,3 +56,5 @@ hackathon-wrapup/*.nav
 hackathon-wrapup/*.out
 hackathon-wrapup/*.snm
 hackathon-wrapup/*.toc
+hla-spechla-pg/results/validation-*/snapshot/
+hla-spechla-pg/results/validation-*/monitor.log
