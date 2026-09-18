@@ -1,0 +1,102 @@
+[
+  {
+    "donor": "HG02080",
+    "population": "EAS",
+    "gene": "C",
+    "outcome": "loss",
+    "decision": {
+      "changed": true,
+      "fragments": 585,
+      "informative_fragments": 585,
+      "score_gain_over_native": 15.201866621717613,
+      "tied_pairs": 1,
+      "native_pair_discriminating_fragments": 249,
+      "closest_pair_discriminating_fragments": 249,
+      "reason": "Graph-supported four-field refinement",
+      "pair": [
+        "C*03:02:02:05",
+        "C*06:02:01:47"
+      ],
+      "score_gap": 15.201866621717613,
+      "effective_allele_support": [
+        233.9878831919155,
+        234.0121168080845
+      ]
+    }
+  },
+  {
+    "donor": "HG02257",
+    "population": "AFR",
+    "gene": "A",
+    "outcome": "loss",
+    "decision": {
+      "changed": true,
+      "fragments": 522,
+      "informative_fragments": 522,
+      "score_gain_over_native": 19.71050493346013,
+      "tied_pairs": 1,
+      "native_pair_discriminating_fragments": 27,
+      "closest_pair_discriminating_fragments": 27,
+      "reason": "Graph-supported four-field refinement",
+      "pair": [
+        "A*32:01:01:01",
+        "A*68:01:02:01"
+      ],
+      "score_gap": 19.71050493346013,
+      "effective_allele_support": [
+        197.4981946400532,
+        217.5018053599468
+      ]
+    }
+  },
+  {
+    "donor": "HG02258",
+    "population": "AFR",
+    "gene": "DQA1",
+    "outcome": "rescue",
+    "decision": {
+      "changed": true,
+      "fragments": 1079,
+      "informative_fragments": 1079,
+      "score_gain_over_native": 16.615091186934023,
+      "tied_pairs": 1,
+      "native_pair_discriminating_fragments": 688,
+      "closest_pair_discriminating_fragments": 20,
+      "reason": "Graph-supported four-field refinement",
+      "pair": [
+        "DQA1*01:02:01:03",
+        "DQA1*01:02:01:03"
+      ],
+      "score_gap": 13.643255018643686,
+      "effective_allele_support": [
+        343.5,
+        343.5
+      ]
+    }
+  },
+  {
+    "donor": "HG03704",
+    "population": "SAS",
+    "gene": "DQA1",
+    "outcome": "loss",
+    "decision": {
+      "changed": true,
+      "fragments": 1081,
+      "informative_fragments": 1081,
+      "score_gain_over_native": 10.137325941183462,
+      "tied_pairs": 1,
+      "native_pair_discriminating_fragments": 309,
+      "closest_pair_discriminating_fragments": 309,
+      "reason": "Graph-supported four-field refinement",
+      "pair": [
+        "DQA1*01:03:01:02",
+        "DQA1*02:01:01:02"
+      ],
+      "score_gap": 10.137325941183462,
+      "effective_allele_support": [
+        426.0,
+        303.0
+      ]
+    }
+  }
+]

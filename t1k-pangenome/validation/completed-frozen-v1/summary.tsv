@@ -1,0 +1,9 @@
+method	fields	donors	failed_donors	ineligible_genotypes	eligible	called	correct	allele_matches
+T1K	2	84	0	2	670	670	646	1315
+T1K	4	84	0	285	387	383	199	521
+ipd_genome	2	84	0	2	670	670	645	1315
+ipd_genome	4	84	0	285	387	381	335	716
+graph_hprc	2	84	0	2	670	670	645	1315
+graph_hprc	4	84	0	285	387	381	336	717
+graph_hprc_asian	2	84	0	2	670	670	645	1315
+graph_hprc_asian	4	84	0	285	387	381	333	714

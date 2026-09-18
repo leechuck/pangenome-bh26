@@ -46,7 +46,8 @@
       "calibration": "52052012",
       "mapping": "52055293",
       "evidence": "52056935",
-      "join": "52058649"
+      "join": "52058649",
+      "refine": "52059017"
     }
   },
   "scope": "84 reserved donors; two unsampled panels; no prediction fetch or truth scoring",
@@ -60,7 +61,8 @@
     "evidence": [
       "--dependency=aftercorr:52055293"
     ],
-    "join": []
+    "join": [],
+    "refine": []
   },
   "join_submission_reconciliation": {
     "checked_at": "2026-09-18T15:14:54.987352+00:00",

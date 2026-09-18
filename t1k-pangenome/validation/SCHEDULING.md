@@ -78,3 +78,11 @@ Slurm accounting's `SubmitLine` verified the exact stage, index range and frozen
 inference digest. The existing job was adopted into the ledger; no duplicate
 was submitted. The monitor now allows the dispatcher 300 seconds to finish
 submission and record its result. Its unknown-submission guard is retained.
+
+## Complete frozen evaluation
+
+All 166 cohort joins and all 166 refinements (job 52059017) completed with exit
+code 0:0. The metadata handoff verified all 336 method/donor outputs, then
+predictions were fetched and scored under the unchanged endpoint freeze. See
+`completed-frozen-v1/REPORT.md` for the result and limitations. The combined
+acceptance gate failed; this result must not be presented as an Asian-graph gain.

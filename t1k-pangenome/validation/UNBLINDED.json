@@ -1,0 +1,7 @@
+{
+  "started": "2026-09-18T15:24:05.192859+00:00",
+  "execution_ready_sha256": "5b858d16061f504742f940037e09de7f9f86902040703bbbb95b318816a8b932",
+  "evaluation_freeze_sha256": "03be2e85d946d0cf62c2db2bdb3632c65732d2ca5fbddf02a2626b7a6380195f",
+  "handoff_freeze_sha256": "325ee1ad59281b02a465e524c2d6d6c6d2fbd3710af7123997cc0a5cf767afd4",
+  "scope": "Reserved predictions and truth first evaluated after complete verified handoff"
+}
