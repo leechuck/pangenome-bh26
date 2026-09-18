@@ -1,0 +1,25 @@
+{
+  "job": "52045097",
+  "upstream_commit": "f37aa80a78c23b9bb809717f39a89e7ffbc064a0",
+  "source_sha256": {
+    "BarcodeSummary.hpp": "9a0d534bb7c2d896fff45843badfcbc8e7fe1ea4ea00b105ab2abb03a335616e",
+    "SimpleVector.hpp": "1ccbb221fa7bd5ab9faeb275cdf7f6629b670cecdfc36e3ce3afaadcfa2a18e9",
+    "SeqSet.hpp": "3d43f46cb7516f3d33953fdd2a8123d66c93cf873f6fa39be3baa1a5f8d5210f",
+    "ReadFiles.hpp": "a718e7b429ed26305007cfa8eb4c1b855ffba47b6a9bc2d6a86f6373a9072612",
+    "kseq.h": "d59316193c257240c6b8bc87de5ec2791e7e57178f2eaf9313ac9c93a537e2dd",
+    "KmerCode.hpp": "5ca91bcfefe043f5ae08910ea2beeee022d784724cd0f2ec483385c6971792f0",
+    "AlignAlgo.hpp": "9b1c7108bd97fa0ee7ce6726819f4b5676dafb0ee59af6033dbbbef9e2f4094d",
+    "KmerCount.hpp": "5f2f3509c80d6b582bae73e883e4413c2adc2ebc32e72ff201690683f6086bed",
+    "Genotyper.hpp": "418dbe585c4be4d94b79c940e25d24ddd47060012460f74a010831a77f36f103",
+    "BarcodeCorrector.hpp": "9b5e6a5c18a319e0b9517dd14fdb74916930953fbd599c05dc2104c338d2bf3b",
+    "defs.h": "0b7f0522a93b88b4e40f2153d785b29488f585dfae9c6deb6c6f6eb05b8f3eea",
+    "KmerIndex.hpp": "1cbd02740a52ab6b5be87d91fef539a91be8a4afcfaf114e0ecf0210a8fc9a23",
+    "alignments.hpp": "32e04b842f23734faba600125a752c4ae8f0798e89362a4270e337358ad7ac93",
+    "LICENSE": "864ef14e20473e0b8db350c1da7ca4034fdee6248890675e7e7343aa2e6e39ab",
+    "Genotyper.cpp": "b45577d98f93383ab769cd18a5e6a6d623b63273a67e0841df0c5ca3c9098c85",
+    "VariantCaller.hpp": "5d7aa489cbb7598aa567f80b9edd60dcdb52c410459f3a03b984dced01119073"
+  },
+  "initial_job": "52045092",
+  "build_environment": "IBEX compute-node host compiler; container lacks g++",
+  "audit_job": "52045156"
+}

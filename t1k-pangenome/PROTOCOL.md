@@ -120,6 +120,16 @@ and 163/323 at four fields. All predicted alternatives must agree with truth;
 unknown alternatives cannot be silently removed. These samples remain development
 data, irrespective of the resulting improvements or regressions.
 
+The isolated native-evidence exporter modifies only T1K 1.0.6's two assignment
+printing sites. It appends the existing weight, qual and adjustWeight fields
+before read assignments are coalesced. Those values encode T1K's own heuristics;
+they are not posterior probabilities and must not be multiplied by graph scores
+as though the same reads were independent observations. Native filtering still
+applies, including the maximum assignments per fragment. No baseline executable
+or queued linear-control executable is replaced. The build compares original
+and instrumented genotype tables and the first four assignment columns on the
+synthetic library. Real-data preservation and graph integration remain required.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
