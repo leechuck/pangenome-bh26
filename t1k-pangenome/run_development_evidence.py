@@ -30,6 +30,13 @@ def run(panel, selection, index, version='v2', donor='HG00658'):
     gene = GENES[index]
     mapping = ROOT/'development'/('mapping-'+version)/donor/panel/selection/gene
     graph = graph_path(panel, gene)
+    reference = ROOT/'references/observed-v2'/panel/('HLA-'+gene+'.fa')
+    output = ROOT/'development'/('fragments-'+version)/donor/panel/selection/gene
+    return run_paths(mapping,graph,reference,output)
+
+
+def run_paths(mapping,graph,reference,output):
+    """Use the same projection algorithm with explicit, independently checked paths."""
     mm = json.loads((mapping/'COMPLETE.json').read_text())
     gm = json.loads((graph/'COMPLETE.json').read_text())
     if mm['status'] != 'complete' or gm['status'] != 'complete':
@@ -40,10 +47,8 @@ def run(panel, selection, index, version='v2', donor='HG00658'):
         raise ValueError('Path source and mapping graph differ')
     if sha(mapping/'alignments.jsonl') != mm['output_sha256']['alignments.jsonl']:
         raise ValueError('Alignment evidence changed')
-    reference = ROOT/'references/observed-v2'/panel/('HLA-'+gene+'.fa')
     if sha(reference) != gm['source_sha256']:
         raise ValueError('Observed reference changed')
-    output = ROOT/'development'/('fragments-'+version)/donor/panel/selection/gene
     output.mkdir(parents=True,exist_ok=False)
     record = dict(status='running',started=time.time(),graph_manifest_sha256=sha(graph/'COMPLETE.json'),
                   mapping_manifest_sha256=sha(mapping/'COMPLETE.json'),driver_sha256=sha(Path(__file__)))

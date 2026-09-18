@@ -1,0 +1,56 @@
+{
+  "freeze_sha256": "7f02a7845a017f72eb098ed3c6b21f7f1681f60e66d0887d14755069fd598e85",
+  "transferred_sha256": {
+    "run_validation_graph.py": "0dfe42b90904ca690911982ebf4ee2379322b033a2ed86e28048f2badec89197",
+    "run_development_evidence.py": "ca5dcb213be4e0079f3da10ab2acce1375a7f1d40f1bfe3a935306bab842fd00",
+    "run_development_mapping.py": "99aba1d84b1c8a812af9a48ab50644b83e40f7969a3f05b6e831d9dfdfe8f0db",
+    "map_personalized.py": "2e4d21abb575cca82bf202271eccf986fca26a89674897b8b1e4c4c40a073ff6",
+    "kmer_coverage.py": "6f9fe1b8e9ba4a0ef0bfffade4bc5fcd9fba6dbb98dac8109cf7597027b0ceb6",
+    "library_calibration.py": "876d7535423022b5b79522ddca44da039aa683c7955abab25b972ff1bd18f953",
+    "run_native_evidence.py": "0f056b6c16587496695cf007a7099e5297fb5524749e3aaf651f2d13d3e27466",
+    "join_evidence.py": "e9e9c5ac6bcb0197436fd6403286595814f669261e5d4caf8069a11b467a4930",
+    "evidence_io.py": "14495b5ddbe02f4514f886424a4c75aa42ca5102fb78c1122ec903858a8b2289",
+    "fragment_support.py": "bbfd8943563acccbb6b5ebda723d4c7cef44ef88a2dd508439cbae28cf52856f",
+    "path_support.py": "84d0537093dd0d7ba6e10974826a7271bc1922980e2d73087e1ff0b350a7672a",
+    "projection_graph.py": "1f5198d398fd22cad158f6d2eef43cbf633138002a765dcde10173f4e848f5e3",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f",
+    "build_panel.py": "60d51b0276db3d1a6a109bf22bb4f555a7cadb40d4e1f1856758e16b80d238d2",
+    "t1k_evidence.py": "b79c8cdf6708bf8f0401adb4a0aa9a73b8251da3543b5d6343382ac02a06b9b6",
+    "run_graph_pair_refinement.py": "01954c6f5f963a1428ed448d5441e88fe9ba1a40985668f753959ddbe961b26e",
+    "graph_pair_refinement.py": "9652277178484bb4ef0bbaa167f44b2e7b7ee43414edb944a8428e843c65f0bb",
+    "t1k_reference.py": "21091a604007befd040e055f5a0409e70b428de8e03d305a469c728567186cbc",
+    "cohort.tsv": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+    "READ_PREPARATION.json": "350bbbc6adf27f5b963097a8e0f186c026f8d6d9364c3c96cd22a08aed8475dd",
+    "RESERVATION.json": "ae2cde5693a7f78aea7afa910edbe4aec2ce67c734f34db49914d7263ae0dfd2",
+    "PRIMARY_CANDIDATE.json": "0fd954327e665f2027193c0889bb90cede2e3aaac16824c270851fb06cb2a2a7",
+    "validation-genomic-plan.json": "9ef69cc07bea4d9f028e262bbb617cca0bb14d43b20eece1466d108932270a4a",
+    "FROZEN_VALIDATION.json": "7f02a7845a017f72eb098ed3c6b21f7f1681f60e66d0887d14755069fd598e85"
+  },
+  "jobs": {
+    "pilot": {
+      "coverage": "52051845",
+      "native": "52051852",
+      "bootstrap": "52051857",
+      "bootstrap_evidence": "52051864",
+      "calibration": "52051882",
+      "mapping": "52051887",
+      "evidence": "52051901",
+      "join": "52051921",
+      "refine": "52051925"
+    },
+    "cohort": {
+      "coverage": "52051941",
+      "native": "52051947",
+      "bootstrap": "52051978",
+      "bootstrap_evidence": "52051990",
+      "calibration": "52052012"
+    }
+  },
+  "scope": "84 reserved donors; two unsampled panels; no prediction fetch or truth scoring",
+  "initial_submission_limit": {
+    "stage": "cohort/mapping",
+    "reason": "QOSMaxSubmitJobPerUserLimit",
+    "effect": "Slurm rejected submission; no mapping job created. Existing pilot and cohort preparation jobs retained."
+  },
+  "dispatch_policy": "Remaining stages submitted automatically after verified predecessor completion; fixed inference unchanged"
+}

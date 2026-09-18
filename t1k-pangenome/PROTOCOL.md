@@ -593,6 +593,35 @@ on IBEX for subsequent inference but does not load truth or score outcomes.
 Monitoring observes its job states only; predictions remain remote. This is a
 control and prerequisite, not the final graph validation run.
 
+### Frozen independent graph execution
+
+`validation/FROZEN_VALIDATION.json` fixes the inference workflow before outcome
+inspection: 84 reserved donors, original T1K and genomic-IPD controls, unsampled
+HPRC and HPRC-plus-Asian graphs, gene-internal paired evidence, pair-specific
+20-fragment support and the existing score thresholds. It pins 18 code files,
+input metadata and 20 reference/index manifests. Each stage checks the freeze
+digest, code, assets and the donor's actual read hashes. The reserved genomic-IPD
+control is a prerequisite for native evidence and final refinement.
+
+The validation projection adapter calls the same explicit-path implementation
+as development; no mapping or inference parameters change. Stage-coordinate
+tests cover all 84 donors, eight loci and both panels exactly once. All 114 tests
+pass. A complete one-donor pilot gates the remaining cohort, with arrays capped
+at 300 simultaneous tasks and both batch/debug partitions available. Outcome
+predictions stay remote and unscored; the monitor reads scheduler state only for
+the reserved jobs. The primary four-field and literal two-field gates are
+unchanged, and graph-versus-IPD and additive-versus-HPRC contrasts stay separate.
+
+IBEX rejected advance submission of the 1,328-task cohort mapping array with
+`QOSMaxSubmitJobPerUserLimit`. No mapping job was created by that request. The
+pilot and cohort preparation jobs were retained. `advance_validation_graph.py`
+now submits mapping, evidence, joins and refinement only after every predecessor
+task has completed successfully, keeping one large remaining stage queued at a
+time. The persistent monitor calls this dispatcher; incomplete or failed task
+sets do not release their successors. An uncertain submission is recorded for
+reconciliation rather than blindly retried. This scheduling adjustment changes
+neither the frozen inference nor the endpoint. The suite now has 115 passing tests.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122

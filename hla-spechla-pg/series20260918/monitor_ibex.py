@@ -24,7 +24,7 @@ def development_jobs():
               'validation-baseline-launch.json','graph-pair-refinement-launch.json',
               'graph-pair-batch-launch.json','graph-refinement-diagnostic-launch.json',
               'graph-internal-refinement-launch.json','graph-pairwise-refinement-launch.json',
-              'validation-genomic-launch.json'):
+              'validation-genomic-launch.json','validation-graph-launch.json'):
   path=T1K/name
   if not path.exists():continue
   record=json.loads(path.read_text())
@@ -36,6 +36,8 @@ cycle=0
 previous_failures=set()
 while True:
  try:
+  if (T1K/'validation-graph-launch.json').exists():
+   subprocess.run([sys.executable,str(T1K/'advance_validation_graph.py')],check=True,timeout=55)
   launch=json.loads((HERE/'ibex-launch.json').read_text())
   jobs={k:v for k,v in launch['jobs'].items() if not k.endswith('_initial')}
   jobs['recruit']=(HERE/'ibex-recruit-job.txt').read_text().strip()
@@ -61,6 +63,8 @@ while True:
   for failure in sorted(failures-previous_failures):print('NEW_PIPELINE_FAILURE',failure,flush=True)
   previous_failures=failures
   terminal=bool(rows) and not queue and all(x['state'].split()[0] in ('COMPLETED','FAILED','CANCELLED','TIMEOUT','OUT_OF_MEMORY','NODE_FAIL') for x in rows)
+  if (T1K/'validation-graph-launch.json').exists():
+   terminal=terminal and 'refine' in json.loads((T1K/'validation-graph-launch.json').read_text())['jobs'].get('cohort',{})
   if cycle%3==0 or terminal:
    subprocess.run([sys.executable,str(HERE/'fetch_ibex.py')],check=True,timeout=110)
    subprocess.run([sys.executable,str(HERE/'score_series.py')],check=True,timeout=120)
