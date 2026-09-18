@@ -37,7 +37,8 @@ for stage,pattern in [('reference_graphs','graphs/build-v1/*/*/manifest.json'),
                       ('development_mapping','development/mapping-v1/*/*/*/*/manifest.json'),
                       ('development_native_evidence','development/native-evidence-v1/*/manifest.json'),
                       ('linear_hprc','development/linear-v1/hprc/*/manifest.json'),
-                      ('linear_hprc_asian','development/linear-v1/hprc_asian/*/manifest.json')]:
+                      ('linear_hprc_asian','development/linear-v1/hprc_asian/*/manifest.json'),
+                      ('linear_ipd_genome','development/linear-v1/ipd_genome/*/manifest.json')]:
  counts=collections.Counter()
  for p in prep.glob(pattern):
   try:

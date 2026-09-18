@@ -7,8 +7,8 @@ frozen and finish before new improvement experiments are launched.
 
 Complete the matched-64 and Gourraud-946 benchmark and its existing comparators,
 including final failure accounting, per-ancestry output, and panel ablations.
-HLA-HD remains unavailable until an authorized installer is obtained; this must
-not be described as a completed HLA-HD comparison.
+HLA-HD is postponed indefinitely at Robert's request on 18 September 2026.
+It is outside the current benchmark completion requirements and has no results.
 
 The new inference pipeline retains T1K's joint allele competition. It uses read
 k-mers to select local paths from HPRC plus Asian haplotypes, aligns reads to the
@@ -21,6 +21,10 @@ Compare these stages on identical read recruitment and IPD 3.65:
 
 1. Frozen T1K 1.0.6, explicit four-field output (current baseline).
 2. Graph-derived sequence references with T1K's existing alignment/inference.
+   Include a full-genomic-IPD control: substitute available, valid genomic
+   entries while retaining every original candidate and all partial-reference
+   fallbacks. This tests whether any gain comes from restoring intronic sequence
+   that T1K's default DNA database truncates, independent of Asian graph content.
 3. T1K candidates plus graph-supported candidates, personalized graph alignment
    and joint candidate-pair refinement.
 4. The same refinement with HPRC alone versus HPRC plus Asian haplotypes.
@@ -169,6 +173,14 @@ The synthetic integration retains exactly 2,004 fragments: 708 with both sources
 and 1,296 with graph-only support. Scores are not combined as independent reads.
 The first real native-evidence pilot reuses frozen T1K candidate FASTQs and must
 reproduce its genotype table byte-for-byte before its evidence is accepted.
+
+The full-genomic-IPD control reference contains the same 29,429 candidate IDs as
+the frozen database: 26,745 genomic substitutions and 2,684 retained fallback
+entries. The input audit found 27 inherited baseline exon-coordinate exceptions;
+they are recorded rather than silently corrected. All genomic replacements pass
+coordinate validation. Its matched-64 pilot and array are queued behind the
+legacy benchmark. Marker specificity is also being rechecked against the fuller
+IPD sequences, which expose intronic paralog matches absent from truncated entries.
 
 All 84 reserved donors now have verified read preparation records, archived in
 validation/READ_PREPARATION.json (65,467,081 paired fragments). This archives the

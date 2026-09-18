@@ -9,8 +9,8 @@
   ],
   "sha256": {
     "hla-spechla-pg/series20260918/analysis/gene_scores.tsv": "cbeaa8950bfba421861ee481747392d0f422e1a3797176aa9ee38054a9e50d02",
-    "t1k-pangenome/work/scorer-check/gene_scores.tsv": "2c8648edbd3b25cb2557ac3f02c4bf9423f01633393d69976276dad4dc203a1d",
-    "t1k-pangenome/score_linear_controls.py": "a2a955b9cffec3dfa8e14c7f6d8081ed95cdc7efeb15c5ce0dd137ed53a14820"
+    "t1k-pangenome/work/scorer-check/gene_scores.tsv": "7d2da2c2db67dadf89bcd3f4d2b502b8cc89c9665b114bfe14da0ec97cb2e1d2",
+    "t1k-pangenome/score_linear_controls.py": "6446aa1239298f196f65457a905fe48751dc717fc94981313b8f9c44976ab505"
   },
   "baseline": {
     "two_field": [

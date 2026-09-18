@@ -71,7 +71,8 @@ Running tasks are preserved; only held pending tasks are replaced. `packed/`
 records exact donor/index membership and cohort hashes. Experimental truth is
 two-field; four-field predictions do not create four-field experimental truth.
 Family groups must be resampled together in uncertainty estimates.
-HLA-HD still requires an authorized installation/download package.
+HLA-HD is postponed indefinitely at Robert's request (18 September 2026) and is
+outside the current benchmark completion requirements.
 
 ## Execution and recovery
 

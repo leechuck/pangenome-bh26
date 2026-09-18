@@ -1,0 +1,10 @@
+{
+  "reference_job": "52045677",
+  "parser_sha256": "8dc86688ebf55827679cbcccdbbe98849db3b12e3ffdc5f88f7ebc190f002983",
+  "upstream_commit": "f37aa80a78c23b9bb809717f39a89e7ffbc064a0",
+  "scope": "Full genomic IPD information control preparation; original candidates retained",
+  "initial_reference_job": "52045646",
+  "repair": "Retain and report inherited baseline annotation errors; reject invalid genomic replacements",
+  "pilot_job": "52045723",
+  "array_job": "52045724"
+}

@@ -9,6 +9,7 @@ from decode_t1k import decode
 
 HERE = Path(__file__).resolve().parent
 SERIES = HERE.parent/'hla-spechla-pg/series20260918'
+PANELS = ('hprc','hprc_asian','ipd_genome')
 sys.path.insert(0,str(SERIES.parent))
 from score_comparators import genomic_truth
 from score import GENES, REPO, Nomenclature, compare, pred_pair, truth_a, truth_slots
@@ -48,7 +49,7 @@ def main(snapshot, output):
         hashes[str(table)] = sha(table)
         baseline_calls = decode(table.read_text(),{})
         methods = {'T1K':('complete',baseline_calls)}
-        for panel in ('hprc','hprc_asian'):
+        for panel in PANELS:
             folder = snapshot/panel/donor
             state, calls = 'not_started', {}
             if (folder/'manifest.json').exists():
@@ -80,7 +81,7 @@ def main(snapshot, output):
                                      called=called,correct=correct,allele_matches=matches))
     reference = {(r['donor'],r['gene'],r['fields']):r for r in rows if r['method']=='T1K'}
     summary = []
-    for method in ('T1K','hprc','hprc_asian'):
+    for method in ('T1K',*PANELS):
         for stratum in ('ALL',*sorted({d['stratum'] for d in donors})):
             donor_ids = {d['donor'] for d in donors if stratum=='ALL' or d['stratum']==stratum}
             for fields in (2,4):
