@@ -32,14 +32,15 @@ while True:
   failures={json.dumps(f,sort_keys=True) for f in pipeline['failures']}
   for failure in sorted(failures-previous_failures):print('NEW_PIPELINE_FAILURE',failure,flush=True)
   previous_failures=failures
-  if cycle%3==0:
+  terminal=bool(rows) and not queue and all(x['state'].split()[0] in ('COMPLETED','FAILED','CANCELLED','TIMEOUT','OUT_OF_MEMORY','NODE_FAIL') for x in rows)
+  if cycle%3==0 or terminal:
    subprocess.run([sys.executable,str(HERE/'fetch_ibex.py')],check=True,timeout=110)
    subprocess.run([sys.executable,str(HERE/'score_series.py')],check=True,timeout=120)
-  if cycle%10==0:
+  if cycle%3==0 or terminal:
    subprocess.run([sys.executable,str(HERE/'fetch_ibex.py'),'--gourraud'],check=True,timeout=110)
    subprocess.run([sys.executable,str(HERE/'score_gourraud.py')],check=True,timeout=180)
   cycle+=1
-  if rows and not queue and all(x['state'].split()[0] in ('COMPLETED','FAILED','CANCELLED','TIMEOUT','OUT_OF_MEMORY','NODE_FAIL') for x in rows):break
+  if terminal:break
  except Exception as e:
   print(datetime.datetime.now(datetime.timezone.utc).isoformat(),'MONITOR_ERROR',repr(e),flush=True)
  time.sleep(60)
