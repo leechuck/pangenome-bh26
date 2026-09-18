@@ -1,0 +1,17 @@
+{
+  "job": "52046513",
+  "diagnostic_script_sha256": "5abca25602a9a51601c557f04e72ee3ef2e6c388c246afaeadda7b8ea928108d",
+  "log_sha256": "ae09a2a614aaa2e7db4eb77340e2e513c367dde3f472e2143ecd20c76b494218",
+  "observations": [
+    "GRAPH hprc DRB1 nodes 3872 max_id 3872 max_length 2131",
+    "MISSING {\"node\": 3875, \"position\": {\"node_id\": \"3875\"}, \"mapping_keys\": [\"edit\", \"position\", \"rank\"], \"alignment_keys\": [\"annotation\", \"fragment_next\", \"identity\", \"mapping_quality\", \"name\", \"path\", \"quality\", \"score\", \"sequence\", \"time_used\"], \"score\": 134, \"mapping_quality\": 60}",
+    "MISSING {\"node\": 3875, \"position\": {\"node_id\": \"3875\"}, \"mapping_keys\": [\"edit\", \"position\", \"rank\"], \"alignment_keys\": [\"annotation\", \"fragment_next\", \"identity\", \"mapping_quality\", \"name\", \"path\", \"quality\", \"score\", \"sequence\", \"time_used\"], \"score\": 82, \"mapping_quality\": 31}",
+    "MISSING {\"node\": 3878, \"position\": {\"is_reverse\": true, \"node_id\": \"3878\"}, \"mapping_keys\": [\"edit\", \"position\"], \"alignment_keys\": [\"annotation\", \"fragment_prev\", \"identity\", \"mapping_quality\", \"name\", \"path\", \"quality\", \"score\", \"sequence\", \"time_used\"], \"score\": 109, \"mapping_quality\": 6}",
+    "GRAPH hprc_asian DQB1 nodes 2962 max_id 2962 max_length 1167",
+    "MISSING {\"node\": 2963, \"position\": {\"node_id\": \"2963\"}, \"mapping_keys\": [\"edit\", \"position\", \"rank\"], \"alignment_keys\": [\"annotation\", \"fragment_prev\", \"identity\", \"mapping_quality\", \"name\", \"path\", \"quality\", \"score\", \"sequence\", \"time_used\"], \"score\": 49, \"mapping_quality\": 30}",
+    "MISSING {\"node\": 2963, \"position\": {\"node_id\": \"2963\"}, \"mapping_keys\": [\"edit\", \"position\", \"rank\"], \"alignment_keys\": [\"annotation\", \"fragment_next\", \"identity\", \"mapping_quality\", \"name\", \"path\", \"quality\", \"score\", \"sequence\", \"time_used\"], \"score\": 45, \"mapping_quality\": 19}",
+    "MISSING {\"node\": 2963, \"position\": {\"node_id\": \"2963\"}, \"mapping_keys\": [\"edit\", \"position\", \"rank\"], \"alignment_keys\": [\"annotation\", \"fragment_prev\", \"identity\", \"mapping_quality\", \"name\", \"path\", \"quality\", \"score\", \"sequence\", \"time_used\"], \"score\": 58, \"mapping_quality\": 38}"
+  ],
+  "cause": "GBZ node splitting changes coordinates relative to the source GFA; export directly with vg convert -f -W --vg-algorithm and verify complete path sequences before projection",
+  "separate_issue": "Some per-locus mappings cannot estimate insert distribution from unbinned reads and fall back to single-end mapping; still requires library calibration"
+}

@@ -3,10 +3,13 @@ import argparse
 import json
 import os
 from pathlib import Path
+import subprocess
+import time
 from evidence_io import sha
 from fragment_support import build
 from path_support import project
 from run_development_mapping import GENES, ROOT, graph_path
+from projection_graph import normalize
 
 
 def smoke():
@@ -31,16 +34,37 @@ def run(panel, selection, index):
         raise ValueError('Incomplete mapping or graph')
     if mm['graph_manifest_sha256'] != sha(graph/'COMPLETE.json'):
         raise ValueError('Mapping graph provenance changed')
-    source = Path(gm['previous_attempt']) if 'previous_attempt' in gm else graph
-    if source != graph and sha(source/'manifest.json') != gm['previous_manifest_sha256']:
-        raise ValueError('Original graph construction manifest changed')
-    if sha(source/'graph.gbz') != gm['output_sha256']['graph.gbz']:
+    if sha(graph/'graph.gbz') != gm['output_sha256']['graph.gbz']:
         raise ValueError('Path source and mapping graph differ')
     if sha(mapping/'alignments.jsonl') != mm['output_sha256']['alignments.jsonl']:
         raise ValueError('Alignment evidence changed')
-    output = ROOT/'development/fragments-v1/HG00658'/panel/selection/gene
-    project(source/'graph.gfa', mapping/'alignments.jsonl', output/'support')
-    build(output/'support', output/'fragments', 1000)
+    reference = ROOT/'references/observed-v2'/panel/('HLA-'+gene+'.fa')
+    if sha(reference) != gm['source_sha256']:
+        raise ValueError('Observed reference changed')
+    output = ROOT/'development/fragments-v2/HG00658'/panel/selection/gene
+    output.mkdir(parents=True,exist_ok=False)
+    record = dict(status='running',started=time.time(),graph_manifest_sha256=sha(graph/'COMPLETE.json'),
+                  mapping_manifest_sha256=sha(mapping/'COMPLETE.json'),driver_sha256=sha(Path(__file__)))
+    def save():
+        (output/'manifest.json').write_text(json.dumps(record,indent=2)+'\n')
+    save()
+    try:
+        vg = Path('/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg')
+        if sha(vg) != mm['vg_sha256']:
+            raise ValueError('Mapping/export vg versions differ')
+        command = [str(vg),'convert','-f','-W','--vg-algorithm','-t','1',str(graph/'graph.gbz')]
+        record['export_command'] = command;save()
+        with (output/'export.gfa').open('w') as stream, (output/'export.log').open('w') as log:
+            subprocess.run(command,stdout=stream,stderr=log,check=True)
+        record['projection_graph'] = normalize(output/'export.gfa',output/'projection.gfa',reference)
+        save()
+        project(output/'projection.gfa', mapping/'alignments.jsonl', output/'support')
+        build(output/'support', output/'fragments', 1000)
+        record.update(status='complete',finished=time.time());save()
+        (output/'COMPLETE.json').write_text(json.dumps(record,indent=2)+'\n')
+    except BaseException as error:
+        record.update(status='failed',finished=time.time(),error=repr(error));save()
+        raise
 
 
 if __name__ == '__main__':

@@ -9,7 +9,7 @@ from decode_t1k import decode
 
 HERE = Path(__file__).resolve().parent
 SERIES = HERE.parent/'hla-spechla-pg/series20260918'
-PANELS = ('hprc','hprc_asian','ipd_genome')
+PANELS = ('hprc','hprc_asian','ipd_genome','genome_hprc','genome_hprc_asian')
 sys.path.insert(0,str(SERIES.parent))
 from score_comparators import genomic_truth
 from score import GENES, REPO, Nomenclature, compare, pred_pair, truth_a, truth_slots

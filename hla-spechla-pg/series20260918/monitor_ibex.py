@@ -14,13 +14,14 @@ def development_jobs():
    for key,item in value.items():add(prefix+'/'+key,item)
   elif isinstance(value,str) and value.isdigit():
    result['t1k/'+prefix]=value
- for name in ('linear-control-launch.json','genome-control-launch.json',
+ for name in ('linear-control-launch.json','genome-control-launch.json','genomic-context-control-launch.json',
               'development-map-launch.json','development-map-all-loci-launch.json',
-              'native-evidence-development-launch.json','development-evidence-launch.json'):
+              'native-evidence-development-launch.json','development-evidence-launch.json',
+              'development-evidence-v2-launch.json'):
   path=T1K/name
   if not path.exists():continue
   record=json.loads(path.read_text())
-  for key in ('jobs','job','smoke','pilot_job','array_job','reference_job'):
+  for key in ('jobs','job','smoke','pilot','pilot_job','array_job','reference_job'):
    if key in record:add(name+'/'+key,record[key])
  return result
 

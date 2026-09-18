@@ -37,6 +37,11 @@ Compare these stages on identical read recruitment and IPD 3.65:
    entries while retaining every original candidate and all partial-reference
    fallbacks. This tests whether any gain comes from restoring intronic sequence
    that T1K's default DNA database truncates, independent of Asian graph content.
+   Also add each observed panel to this full-genomic-IPD control. Comparing long
+   observed contexts only against truncated IPD entries confounds panel content
+   with the sequence available to competing alleles. These additional controls
+   retain every full-genomic/fallback IPD entry and use unchanged native T1K;
+   reference/pilot/array jobs are in genomic-context-control-launch.json.
 3. T1K candidates plus graph-supported candidates, personalized graph alignment
    and joint candidate-pair refinement.
 4. The same refinement with HPRC alone versus HPRC plus Asian haplotypes.
@@ -253,6 +258,41 @@ matches the original 2,004-fragment file exactly (fragment-disk-parity-result.js
 All 84 reserved donors now have verified read preparation records, archived in
 validation/READ_PREPARATION.json (65,467,081 paired fragments). This archives the
 preparation manifests and read hashes; it does not genotype or unblind them.
+
+## Completed development controls and integration repairs
+
+Both observed-context controls completed all 64 development donors. Original
+T1K scored 495/509 at two fields and 163/323 at four fields; HPRC additions scored
+389/509 and 165/323; HPRC-plus-Asian additions scored 465/509 and 232/323. The
+four-field gain from Asian context is accompanied by a two-field regression and
+does not satisfy the success criterion. These are exploratory development results,
+not held-out validation. Full-genomic-IPD and genomic-IPD-plus-context controls
+are separate experiments needed to distinguish reference completeness from panel
+content. They keep the same reads, candidates, caller and scoring rules.
+
+Full-genomic-IPD substitution subsequently completed all 64 donors at 494/509
+two-field and 285/323 four-field genotypes, versus original T1K's 495/509 and
+163/323. This is the strongest reference control but still fails the requirement
+that two-field point accuracy not decrease. Its gains cannot be attributed to
+the Asian graph. Completed donor/gene results and ancestry summaries are archived
+in development/completed-reference-controls-v1/. Reserved outcomes remain unscored.
+
+Three initial fragment projections failed because GBZ import splits long source
+GFA nodes: mapping coordinates therefore cannot always index the original GFA.
+The repair exports P-line paths directly from the full mapping GBZ using
+`vg convert -f -W --vg-algorithm`, verifies every complete path sequence against
+the observed reference and normalizes only the previously documented path-name
+aliases. Revised outputs use fragments-v2/join-v2; earlier attempts are retained.
+The GBZ-repair pilot gates all 32 revised projections. Unit tests cover split-node
+coordinates, reverse path sequence and rejection of changed sequences.
+The repaired HPRC DRB1 pilot completed with all 63 full path sequences verified,
+738,921 fragments retained and 5,396 concordant supported fragments
+(projection-repair-pilot-result.json). This validates projection, not genotyping.
+
+Mapping logs separately show failed insert-distribution learning at some loci
+when supplied unbinned reads, followed by single-end mapping. The coordinate fix
+does not solve this calibration issue. It remains a requirement before the final
+graph inference method is frozen. No validation truth has been used.
 
 ## References
 
