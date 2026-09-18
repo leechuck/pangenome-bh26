@@ -113,3 +113,20 @@ verified complete. No job or release operation was repeated. See
 
 Evidence joins **52065065** completed all 56 tasks successfully. Guarded genotype
 refinement has been submitted as **52065234**. Accuracy remains unscored.
+
+## Final execution and evaluation
+
+Guarded refinement completed all 56 tasks. Coarse anchoring **52065325** completed
+all 84 tasks. `EXECUTION_COMPLETE.json` verifies all **1,680 inference tasks** in
+all 12 stages ended COMPLETED with exit 0:0. The final handoff verified all 196
+output-chain records before fetching predictions. The transient monitor exited
+after successful completion.
+
+The original evaluation exposed a two-field truth-name representation bug. Its
+outputs are retained as superseded; a documented scoring-only correction yields
+142/144 two-field accuracy for every method and preserves every four-field row.
+The corrected four-field result is 120/138 versus original T1K's 71/138, with a
++35.51 percentage-point paired-family difference (95% interval +28.46 to +42.64).
+All predeclared gates pass. Genomic-IPD, HPRC and HPRC+Asian have identical target
+calls: no additional graph benefit was found. See the corrected report and
+`../COMPLETION_AUDIT.md` for scope, limits and the complete evidence trail.

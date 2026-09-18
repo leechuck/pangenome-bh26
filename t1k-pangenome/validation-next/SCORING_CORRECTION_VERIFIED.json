@@ -1,0 +1,9 @@
+{
+  "status": "scoring_correction_verified",
+  "original_gene_scores_sha256": "a29c81ece7d0b90d4f7878937ed82bfe7312ac9d2d648221443b5a98ea7d6da3",
+  "corrected_gene_scores_sha256": "4ef457b21c08d1ecf88216d570066c133da38ae5dfb1226e3255261fc5304495",
+  "rows": 1792,
+  "four_field_rows_identical": true,
+  "eligibility_calls_states_and_cohort_identical": true,
+  "inference_freeze_unchanged": true
+}

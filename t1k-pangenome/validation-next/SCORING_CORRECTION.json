@@ -1,0 +1,22 @@
+{
+  "status": "post_unblinding_scoring_representation_correction",
+  "recorded_at": "2026-09-18T17:01:15.775549+00:00",
+  "original_evaluation_freeze_sha256": "3a69e2a1d4842c07e8e45b832e97c49804c8a824d1ff8f14fd2f29e3cf24eb92",
+  "original_inference_freeze_sha256": "4afbe16398deefe3e1a26e7a8b974c7d63219eda1220ccd3bf6919f277d272be",
+  "original_report_sha256": "07b7c5cd89c4b1264261fda8a13feaac408ec83b33f4a1241eb55f1161a8604e",
+  "bug": "Two-field truth used gene-prefixed names such as A*01:01, whereas the unchanged prediction parser yields 01:01. Consequently every eligible two-field comparison scored zero, including synthetic exact matches.",
+  "correction": "Strip the gene prefix from two-field truth slots only; retain all alternatives and existing eligibility. Leave four-field truth, predictions, comparison algorithm, bootstrap and gate unchanged.",
+  "corrected_code_sha256": {
+    "evaluate_hgsvc_corrected.py": "4ac3ed947f06d3754062310a701e16ea7b7c3d68a7f5c7220e8cd430083aa309",
+    "score_hgsvc_snapshot_corrected.py": "d3f0a6d8087bc24fac63ee57ee7074efbe3ee692f491862e7a5fc748691cbfbd"
+  },
+  "regression_test_sha256": "c0864b58b0ec00701b094ac35e9a7836967435063ad53ae26922797fe83d7e5f",
+  "validation": "Two tests reproduce the original perfect-call failure and verify corrected exact/wrong calls, unchanged four-field rows, ambiguity and missing-truth eligibility.",
+  "constraints": [
+    "No inference change or candidate reselection",
+    "Retain the original erroneous report",
+    "Score the exact same verified snapshot",
+    "Check all four-field rows and all eligibility flags agree with the original output",
+    "Report the correction explicitly; do not describe the corrected evaluator as frozen before unblinding"
+  ]
+}

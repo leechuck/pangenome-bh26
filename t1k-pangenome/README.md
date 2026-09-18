@@ -1,7 +1,31 @@
-# T1K with personalized Asian-enriched graph references
+# DogoHLA: T1K follow-up and Asian-enriched graph experiments
 
-Development preparation; no demonstrated improvement over T1K yet.
-The evaluation conditions and controls are in [PROTOCOL.md](PROTOCOL.md).
+The independent 28-donor HGSVC follow-up demonstrates a **four-field improvement
+over original T1K**: 120/138 (87.0%) versus 71/138 (51.4%), a +35.5 percentage-point
+difference (family-bootstrap 95% interval +28.5 to +42.6). Two-field accuracy is
+unchanged at 142/144, with per-gene prediction identity verified.
+
+**The improvement is attributable to the full-genomic IPD reference and coarse
+anchoring, not an incremental Asian-graph gain.** The anchored genomic-IPD,
+HPRC-only and HPRC+Asian methods have identical target-locus calls on these donors.
+Both graph panels were actually mapped and evaluated. The selected follow-up uses
+unsampled graphs; path sampling was tested during development and not selected.
+
+See the [corrected independent report](validation-next/completed-scoring-correction-v2/REPORT.md),
+[fixed protocol](validation-next/PROTOCOL.md), and
+[scoring correction](validation-next/SCORING_CORRECTION.json). A post-unblinding
+representation fix was necessary for two-field truth names; all inference outputs,
+eligibility and four-field scores were unchanged. The original erroneous report
+is retained. Four-field truth is exact genomic assembly-derived naming accuracy;
+86/224 genotypes were ineligible. These results do not establish an advantage at
+every locus or ancestry, or an incremental graph benefit.
+
+The earlier independent 84-donor combined gate failed and remains documented in
+[its report](validation/completed-frozen-v1/REPORT.md). Subsequent model development
+on those exposed donors is exploratory. The matched-64 and Gourraud-946
+benchmarks are complete, including final failure accounting. HLA-HD is postponed
+indefinitely at the user's request. General evaluation conditions and development
+history are in [PROTOCOL.md](PROTOCOL.md).
 
 `build_panel.py` builds observed HLA sequences for HPRC-only and HPRC-plus-Asian
 references. It verifies the validation reservation, removes excluded donor/family
@@ -51,10 +75,11 @@ These counts are smaller than the old benchmark panels because the new reserved
 test families and previously exposed development families are all excluded.
 
 All 16 panel/locus graphs completed construction and sampling-index preparation;
-four needed an explicit backbone when building the distance index. Remaining implementation:
-competing paralog/decoy references, real-sample k-mer selection, graph-based
-candidate-pair refinement, and frozen independent evaluation.
-The existing eight target loci alone are not a complete mapping decoy set.
+four needed an explicit backbone when building the distance index. Graph-based
+candidate-pair refinement, read-based path-selection experiments and independent
+evaluation have now completed. The selected refinement uses native T1K evidence
+to veto fragments assigned exclusively to other loci/paralogs. The eight target
+graph loci alone are not a complete mapping decoy set.
 
 The upstream [vg haplotype sampling documentation](https://github.com/vgteam/vg/wiki/Haplotype-Sampling)
 requires a compatible chain structure; do not silently replace a failed sampling

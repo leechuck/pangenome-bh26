@@ -1,8 +1,12 @@
 # T1K plus an Asian-enriched personalized graph
 
-Status: development experiments running. Independent improvement is not yet
-established. The frozen matched-64 and Gourraud-946 benchmarks have finished,
-including reproducible-failure accounting.
+Status: the matched-64, Gourraud-946, original 84-donor validation and independent
+28-donor HGSVC follow-up have finished. The original 84-donor combined gate failed.
+The revised follow-up passes the four-field improvement and two-field preservation
+gate, with a documented scoring-only correction after unblinding. Its gain is
+shared by the genomic-IPD control; no incremental graph benefit was found. See
+[the follow-up report](validation-next/completed-scoring-correction-v2/REPORT.md).
+The sections below retain the original experimental plan and development history.
 
 ## Scope and controls
 

@@ -1,0 +1,7 @@
+{
+  "started": "2026-09-18T16:59:25.097636+00:00",
+  "execution_ready_sha256": "82544d58b832938923e5ba2fad0e40445162d6c22956762cf73823b4960827ef",
+  "evaluation_freeze_sha256": "3a69e2a1d4842c07e8e45b832e97c49804c8a824d1ff8f14fd2f29e3cf24eb92",
+  "handoff_freeze_sha256": "7a7bd620b8f519f0b8e028a78fa8e7c6c56c3cc578507e06fdfe2ebf4451fe7a",
+  "scope": "First evaluation of reserved predictions and genomic truth"
+}

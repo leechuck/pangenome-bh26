@@ -1,0 +1,81 @@
+{
+  "checked_at": "2026-09-18T17:03:49.031571+00:00",
+  "status": "all_execution_tasks_completed",
+  "task_count": 1680,
+  "stages": {
+    "baseline": {
+      "job": "52062787",
+      "tasks": 28,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "genomic": {
+      "job": "52062822",
+      "tasks": 28,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "coverage": {
+      "job": "52062857",
+      "tasks": 28,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "native": {
+      "job": "52062887",
+      "tasks": 28,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "bootstrap": {
+      "job": "52062901",
+      "tasks": 224,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "bootstrap_evidence": {
+      "job": "52062902",
+      "tasks": 224,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "calibration": {
+      "job": "52062917",
+      "tasks": 28,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "mapping": {
+      "job": "52063958",
+      "tasks": 448,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "evidence": {
+      "job": "52064459",
+      "tasks": 448,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "join": {
+      "job": "52065065",
+      "tasks": 56,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "refine": {
+      "job": "52065234",
+      "tasks": 56,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    "anchor": {
+      "job": "52065325",
+      "tasks": 84,
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    }
+  },
+  "launch_sha256": "50aa15db65d03707939421a0ea12da8dd4a88ceb60e79891e11ce708261504e4",
+  "inference_freeze_sha256": "4afbe16398deefe3e1a26e7a8b974c7d63219eda1220ccd3bf6919f277d272be"
+}

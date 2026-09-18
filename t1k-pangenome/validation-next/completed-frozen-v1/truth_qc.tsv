@@ -1,0 +1,449 @@
+donor	gene	haplotype	status	core_length	exact_genomic_alleles
+HG00864	A	1	exact_genomic	3503	A*11:01:01:01
+HG00864	A	2	exact_genomic	3517	A*26:01:01:01
+HG00864	B	1	exact_genomic	4094	B*46:01:01:01
+HG00864	B	2	exact_genomic	3855	B*52:01:01:01
+HG00864	C	1	exact_genomic	4304	C*01:02:01:01
+HG00864	C	2	exact_genomic	4318	C*07:02:01:01
+HG00864	DPA1	1	no_exact_genomic_match	9692	
+HG00864	DPA1	2	exact_genomic	9757	DPA1*01:03:01:15
+HG00864	DPB1	1	exact_genomic	11534	DPB1*02:02:01:03
+HG00864	DPB1	2	exact_genomic	11516	DPB1*04:02:01:02
+HG00864	DQA1	1	exact_genomic	6484	DQA1*01:04:01:01
+HG00864	DQA1	2	exact_genomic	6437	DQA1*03:01:01:01
+HG00864	DQB1	1	exact_genomic	7086	DQB1*05:02:01:01
+HG00864	DQB1	2	exact_genomic	7126	DQB1*03:02:01:01
+HG00864	DRB1	1	exact_genomic	13259	DRB1*14:54:01:10
+HG00864	DRB1	2	no_exact_genomic_match	14501	
+HG01505	A	1	exact_genomic	3517	A*25:01:01:01
+HG01505	A	2	exact_genomic	3503	A*01:01:01:01
+HG01505	B	1	exact_genomic	4085	B*51:01:01:01
+HG01505	B	2	exact_genomic	4081	B*07:02:01:01
+HG01505	C	1	exact_genomic	4304	C*03:03:01:01
+HG01505	C	2	exact_genomic	4318	C*07:02:01:03
+HG01505	DPA1	1	exact_genomic	9775	DPA1*01:03:01:03
+HG01505	DPA1	2	exact_genomic	9775	DPA1*01:03:01:03
+HG01505	DPB1	1	exact_genomic	11461	DPB1*03:01:01:01
+HG01505	DPB1	2	exact_genomic	11461	DPB1*06:01:01:01
+HG01505	DQA1	1	exact_genomic	6403	DQA1*02:01:01:01
+HG01505	DQA1	2	exact_genomic	6492	DQA1*01:01:01:01
+HG01505	DQB1	1	exact_genomic	7477	DQB1*02:02:01:01
+HG01505	DQB1	2	exact_genomic	7090	DQB1*05:01:01:03
+HG01505	DRB1	1	no_exact_genomic_match	16106	
+HG01505	DRB1	2	exact_genomic	10956	DRB1*01:03:01:01
+HG01573	A	1	exact_genomic	3517	A*02:01:01:01
+HG01573	A	2	exact_genomic	3517	A*02:05:01:01
+HG01573	B	1	exact_genomic	4081	B*48:01:01:01
+HG01573	B	2	exact_genomic	4098	B*50:01:01:01
+HG01573	C	1	exact_genomic	4303	C*08:01:01:01
+HG01573	C	2	exact_genomic	4303	C*06:02:01:02
+HG01573	DPA1	1	no_exact_genomic_match	9757	
+HG01573	DPA1	2	exact_genomic	9775	DPA1*01:03:01:34
+HG01573	DPB1	1	exact_genomic	11516	DPB1*04:02:01:02
+HG01573	DPB1	2	exact_genomic	11466	DPB1*104:01:01:05
+HG01573	DQA1	1	exact_genomic	6437	DQA1*03:02:01:01
+HG01573	DQA1	2	exact_genomic	6403	DQA1*02:01:01:01
+HG01573	DQB1	1	exact_genomic	7086	DQB1*03:03:02:04
+HG01573	DQB1	2	exact_genomic	7477	DQB1*02:02:01:01
+HG01573	DRB1	1	no_exact_genomic_match	15395	
+HG01573	DRB1	2	exact_genomic	16110	DRB1*07:01:01:01
+HG01596	A	1	exact_genomic	3503	A*11:01:01:01
+HG01596	A	2	exact_genomic	3503	A*11:02:01:01
+HG01596	B	1	no_exact_genomic_match	3325	
+HG01596	B	2	exact_genomic	4083	B*27:04:01:01
+HG01596	C	1	exact_genomic	4304	C*03:04:01:02
+HG01596	C	2	no_exact_genomic_match	4303	
+HG01596	DPA1	1	no_exact_genomic_match	9692	
+HG01596	DPA1	2	no_exact_genomic_match	9692	
+HG01596	DPB1	1	exact_genomic	11534	DPB1*02:02:01:10
+HG01596	DPB1	2	no_exact_genomic_match	11460	
+HG01596	DQA1	1	exact_genomic	6484	DQA1*01:04:01:01
+HG01596	DQA1	2	exact_genomic	5658	DQA1*01:03:01:04
+HG01596	DQB1	1	exact_genomic	7089	DQB1*05:03:01:02
+HG01596	DQB1	2	exact_genomic	7111	DQB1*06:01:01:01
+HG01596	DRB1	1	no_exact_genomic_match	13835	
+HG01596	DRB1	2	no_exact_genomic_match	13826	
+HG02011	A	1	exact_genomic	3518	A*31:01:02:01
+HG02011	A	2	exact_genomic	3517	A*34:02:01:01
+HG02011	B	1	exact_genomic	4081	B*40:01:02:04
+HG02011	B	2	no_exact_genomic_match	3986	
+HG02011	C	1	exact_genomic	4304	C*03:04:01:01
+HG02011	C	2	exact_genomic	4304	C*04:01:01:14
+HG02011	DPA1	1	no_exact_genomic_match	9692	
+HG02011	DPA1	2	exact_genomic	5734	DPA1*03:01:01:05
+HG02011	DPB1	1	exact_genomic	11466	DPB1*05:01:01:05
+HG02011	DPB1	2	exact_genomic	11520	DPB1*105:01:01:18
+HG02011	DQA1	1	exact_genomic	6437	DQA1*03:01:01:01
+HG02011	DQA1	2	exact_genomic	6485	DQA1*01:02:01:02
+HG02011	DQB1	1	exact_genomic	7126	DQB1*03:02:01:02
+HG02011	DQB1	2	exact_genomic	7102	DQB1*06:02:01:01
+HG02011	DRB1	1	exact_genomic	14520	DRB1*04:04:01:04
+HG02011	DRB1	2	exact_genomic	11567	DRB1*15:03:01:01
+HG02018	A	1	exact_genomic	3503	A*11:01:01:01
+HG02018	A	2	exact_genomic	3503	A*11:01:01:01
+HG02018	B	1	exact_genomic	4094	B*46:01:01:01
+HG02018	B	2	no_exact_genomic_match	3323	
+HG02018	C	1	exact_genomic	4304	C*01:02:01:01
+HG02018	C	2	exact_genomic	4318	C*07:02:01:01
+HG02018	DPA1	1	no_exact_genomic_match	9692	
+HG02018	DPA1	2	exact_genomic	9775	DPA1*01:03:01:01
+HG02018	DPB1	1	exact_genomic	11466	DPB1*05:01:01:01
+HG02018	DPB1	2	exact_genomic	11532	DPB1*02:01:02:01
+HG02018	DQA1	1	exact_genomic	6484	DQA1*01:04:01:01
+HG02018	DQA1	2	exact_genomic	6560	DQA1*06:01:01:02
+HG02018	DQB1	1	exact_genomic	7086	DQB1*05:02:01:01
+HG02018	DQB1	2	exact_genomic	7233	DQB1*03:01:01:22
+HG02018	DRB1	1	no_exact_genomic_match	13263	
+HG02018	DRB1	2	no_exact_genomic_match	13858	
+HG02059	A	1	exact_genomic	3517	A*02:01:01:01
+HG02059	A	2	exact_genomic	3503	A*11:01:01:01
+HG02059	B	1	exact_genomic	3591	B*15:11:01:01
+HG02059	B	2	exact_genomic	4070	B*38:02:01:01
+HG02059	C	1	exact_genomic	4304	C*03:03:01:01
+HG02059	C	2	exact_genomic	4318	C*07:02:01:01
+HG02059	DPA1	1	no_exact_genomic_match	9692	
+HG02059	DPA1	2	no_exact_genomic_match	9692	
+HG02059	DPB1	1	exact_genomic	11466	DPB1*05:01:01:01
+HG02059	DPB1	2	exact_genomic	11462	DPB1*13:01:01:17
+HG02059	DQA1	1	exact_genomic	5621	DQA1*03:02:01:04
+HG02059	DQA1	2	no_exact_genomic_match	5677	
+HG02059	DQB1	1	exact_genomic	7126	DQB1*03:03:02:02
+HG02059	DQB1	2	exact_genomic	7005	DQB1*05:01:24:01
+HG02059	DRB1	1	no_exact_genomic_match	15395	
+HG02059	DRB1	2	no_exact_genomic_match	11484	
+HG02106	A	1	exact_genomic	3517	A*02:01:01:01
+HG02106	A	2	exact_genomic	3517	A*02:01:01:01
+HG02106	B	1	exact_genomic	4083	B*40:04:01:01
+HG02106	B	2	exact_genomic	4094	B*15:04:01:02
+HG02106	C	1	exact_genomic	4304	C*03:04:01:02
+HG02106	C	2	exact_genomic	4304	C*01:02:01:01
+HG02106	DPA1	1	exact_genomic	9757	DPA1*01:03:01:15
+HG02106	DPA1	2	exact_genomic	9757	DPA1*01:03:01:15
+HG02106	DPB1	1	exact_genomic	11516	DPB1*04:02:01:02
+HG02106	DPB1	2	exact_genomic	11516	DPB1*04:02:01:02
+HG02106	DQA1	1	exact_genomic	6437	DQA1*03:01:01:01
+HG02106	DQA1	2	exact_genomic	6437	DQA1*03:02:01:01
+HG02106	DQB1	1	exact_genomic	7126	DQB1*03:02:01:01
+HG02106	DQB1	2	exact_genomic	7126	DQB1*03:03:02:02
+HG02106	DRB1	1	no_exact_genomic_match	15159	
+HG02106	DRB1	2	no_exact_genomic_match	15395	
+HG02282	A	1	exact_genomic	3517	A*68:01:01:02
+HG02282	A	2	exact_genomic	3502	A*03:01:01:05
+HG02282	B	1	no_exact_genomic_match	2723	
+HG02282	B	2	no_exact_genomic_match	4070	
+HG02282	C	1	no_exact_genomic_match	4257	
+HG02282	C	2	exact_genomic	4304	C*04:01:01:14
+HG02282	DPA1	1	exact_genomic	5718	DPA1*02:12:01
+HG02282	DPA1	2	exact_genomic	9775	DPA1*01:03:01:35
+HG02282	DPB1	1	exact_genomic	11461	DPB1*85:01:01:01
+HG02282	DPB1	2	exact_genomic	11529	DPB1*02:01:02:09
+HG02282	DQA1	1	exact_genomic	6031	DQA1*01:03:01:10
+HG02282	DQA1	2	exact_genomic	6485	DQA1*01:02:01:03
+HG02282	DQB1	1	exact_genomic	7103	DQB1*06:02:01:03
+HG02282	DQB1	2	exact_genomic	7102	DQB1*06:02:01:04
+HG02282	DRB1	1	no_exact_genomic_match	13931	
+HG02282	DRB1	2	no_exact_genomic_match	13636	
+HG02492	A	1	exact_genomic	3518	A*32:01:01:01
+HG02492	A	2	exact_genomic	3517	A*02:11:01:01
+HG02492	B	1	no_exact_genomic_match	3853	
+HG02492	B	2	no_exact_genomic_match	3986	
+HG02492	C	1	exact_genomic	4303	C*15:02:01:01
+HG02492	C	2	exact_genomic	4295	C*02:02:02:01
+HG02492	DPA1	1	exact_genomic	9775	DPA1*01:03:01:01
+HG02492	DPA1	2	no_exact_genomic_match	9775	
+HG02492	DPB1	1	exact_genomic	11528	DPB1*02:01:02:04
+HG02492	DPB1	2	exact_genomic	11532	DPB1*02:01:02:52
+HG02492	DQA1	1	exact_genomic	6437	DQA1*03:02:01:01
+HG02492	DQA1	2	exact_genomic	5615	DQA1*06:01:01:03
+HG02492	DQB1	1	exact_genomic	7126	DQB1*03:03:04
+HG02492	DQB1	2	exact_genomic	7224	DQB1*03:01:01:17
+HG02492	DRB1	1	no_exact_genomic_match	15395	
+HG02492	DRB1	2	no_exact_genomic_match	11328	
+HG02554	A	1	exact_genomic	3518	A*74:01:01:01
+HG02554	A	2	exact_genomic	3315	A*31:01:02:07
+HG02554	B	1	exact_genomic	3538	B*07:13
+HG02554	B	2	no_exact_genomic_match	3864	
+HG02554	C	1	exact_genomic	4318	C*07:02:01:01
+HG02554	C	2	no_exact_genomic_match	4257	
+HG02554	DPA1	1	exact_genomic	9775	DPA1*01:03:01:35
+HG02554	DPA1	2	no_exact_genomic_match	9553	
+HG02554	DPB1	1	exact_genomic	11525	DPB1*02:01:02:02
+HG02554	DPB1	2	exact_genomic	11461	DPB1*11:01:01:01
+HG02554	DQA1	1	exact_genomic	6485	DQA1*01:02:01:03
+HG02554	DQA1	2	exact_genomic	5616	DQA1*04:01:01:05
+HG02554	DQB1	1	exact_genomic	7102	DQB1*06:02:01:01
+HG02554	DQB1	2	exact_genomic	7023	DQB1*04:02:01:08
+HG02554	DRB1	1	no_exact_genomic_match	10851	
+HG02554	DRB1	2	no_exact_genomic_match	13210	
+HG02587	A	1	exact_genomic	3518	A*33:03:01:01
+HG02587	A	2	exact_genomic	3517	A*02:01:01:01
+HG02587	B	1	no_exact_genomic_match	3855	
+HG02587	B	2	exact_genomic	4080	B*08:01:01:01
+HG02587	C	1	exact_genomic	4303	C*06:02:01:01
+HG02587	C	2	exact_genomic	4304	C*03:04:01:13
+HG02587	DPA1	1	exact_genomic	9775	DPA1*01:03:01:03
+HG02587	DPA1	2	no_exact_genomic_match	9775	
+HG02587	DPB1	1	no_exact_genomic_match	11461	
+HG02587	DPB1	2	exact_genomic	11516	DPB1*02:01:19:01
+HG02587	DQA1	1	exact_genomic	6437	DQA1*03:03:01:01
+HG02587	DQA1	2	no_exact_genomic_match	6102	
+HG02587	DQB1	1	exact_genomic	7427	DQB1*02:02:01:02
+HG02587	DQB1	2	exact_genomic	7231	DQB1*03:19:01:01
+HG02587	DRB1	1	no_exact_genomic_match	15400	
+HG02587	DRB1	2	no_exact_genomic_match	13253	
+HG02769	A	1	exact_genomic	3502	A*03:01:01:05
+HG02769	A	2	exact_genomic	3503	A*01:02:01:01
+HG02769	B	1	exact_genomic	4081	B*07:02:01:01
+HG02769	B	2	exact_genomic	3853	B*08:01:01:16
+HG02769	C	1	exact_genomic	4318	C*07:01:01:16
+HG02769	C	2	exact_genomic	4318	C*07:02:01:01
+HG02769	DPA1	1	no_exact_genomic_match	5708	
+HG02769	DPA1	2	no_exact_genomic_match	9553	
+HG02769	DPB1	1	exact_genomic	11465	DPB1*131:01:01:01
+HG02769	DPB1	2	no_exact_genomic_match	11517	
+HG02769	DQA1	1	no_exact_genomic_match	6102	
+HG02769	DQA1	2	exact_genomic	6485	DQA1*01:02:01:03
+HG02769	DQB1	1	exact_genomic	7231	DQB1*03:19:01:01
+HG02769	DQB1	2	exact_genomic	7102	DQB1*06:02:01:04
+HG02769	DRB1	1	exact_genomic	13251	DRB1*13:04
+HG02769	DRB1	2	no_exact_genomic_match	13640	
+HG02953	A	1	exact_genomic	3517	A*02:02:01:01
+HG02953	A	2	exact_genomic	3517	A*34:02:01:01
+HG02953	B	1	no_exact_genomic_match	3855	
+HG02953	B	2	no_exact_genomic_match	3323	
+HG02953	C	1	exact_genomic	4304	C*04:01:01:75
+HG02953	C	2	exact_genomic	3347	C*02:10:01:02
+HG02953	DPA1	1	no_exact_genomic_match	9553	
+HG02953	DPA1	2	exact_genomic	5734	DPA1*03:01:01:05
+HG02953	DPB1	1	exact_genomic	11517	DPB1*17:01:01:01
+HG02953	DPB1	2	exact_genomic	11540	DPB1*105:01:01:01
+HG02953	DQA1	1	exact_genomic	6403	DQA1*02:01:01:01
+HG02953	DQA1	2	exact_genomic	6485	DQA1*01:02:01:03
+HG02953	DQB1	1	exact_genomic	7477	DQB1*02:02:01:01
+HG02953	DQB1	2	exact_genomic	7102	DQB1*06:02:01:04
+HG02953	DRB1	1	no_exact_genomic_match	13650	
+HG02953	DRB1	2	no_exact_genomic_match	13636	
+HG03009	A	1	exact_genomic	3502	A*24:17:01:01
+HG03009	A	2	exact_genomic	3517	A*02:03:01:01
+HG03009	B	1	exact_genomic	4095	B*57:01:01:01
+HG03009	B	2	exact_genomic	4070	B*38:02:01:01
+HG03009	C	1	exact_genomic	4303	C*06:02:01:01
+HG03009	C	2	no_exact_genomic_match	4318	
+HG03009	DPA1	1	no_exact_genomic_match	9775	
+HG03009	DPA1	2	no_exact_genomic_match	9753	
+HG03009	DPB1	1	exact_genomic	11522	DPB1*04:01:01:04
+HG03009	DPB1	2	no_exact_genomic_match	11466	
+HG03009	DQA1	1	exact_genomic	6560	DQA1*06:01:01:02
+HG03009	DQA1	2	no_exact_genomic_match	5658	
+HG03009	DQB1	1	exact_genomic	7233	DQB1*03:01:01:22
+HG03009	DQB1	2	exact_genomic	7089	DQB1*05:03:01:01
+HG03009	DRB1	1	no_exact_genomic_match	13241	
+HG03009	DRB1	2	no_exact_genomic_match	13924	
+HG03065	A	1	exact_genomic	3503	A*30:01:01:01
+HG03065	A	2	exact_genomic	3503	A*30:01:01:01
+HG03065	B	1	exact_genomic	4080	B*42:01:01:01
+HG03065	B	2	exact_genomic	3854	B*07:02:01:14
+HG03065	C	1	exact_genomic	4325	C*17:01:01:02
+HG03065	C	2	no_exact_genomic_match	4278	
+HG03065	DPA1	1	no_exact_genomic_match	5622	
+HG03065	DPA1	2	no_exact_genomic_match	5734	
+HG03065	DPB1	1	exact_genomic	11468	DPB1*01:01:01:02
+HG03065	DPB1	2	exact_genomic	11540	DPB1*105:01:01:01
+HG03065	DQA1	1	exact_genomic	5616	DQA1*04:01:01:05
+HG03065	DQA1	2	exact_genomic	6110	DQA1*05:05:01:35
+HG03065	DQB1	1	exact_genomic	7023	DQB1*04:02:01:08
+HG03065	DQB1	2	exact_genomic	7231	DQB1*03:19:01:01
+HG03065	DRB1	1	no_exact_genomic_match	13210	
+HG03065	DRB1	2	no_exact_genomic_match	13638	
+HG03248	A	1	exact_genomic	3518	A*33:03:01:01
+HG03248	A	2	exact_genomic	3518	A*33:01:01:01
+HG03248	B	1	no_exact_genomic_match	4070	
+HG03248	B	2	no_exact_genomic_match	3850	
+HG03248	C	1	exact_genomic	4304	C*04:01:01:14
+HG03248	C	2	exact_genomic	4325	C*17:01:01:30
+HG03248	DPA1	1	no_exact_genomic_match	9787	
+HG03248	DPA1	2	exact_genomic	9775	DPA1*03:01:02:02
+HG03248	DPB1	1	exact_genomic	11525	DPB1*40:01:01:03
+HG03248	DPB1	2	exact_genomic	11540	DPB1*105:01:01:11
+HG03248	DQA1	1	exact_genomic	6485	DQA1*01:02:01:03
+HG03248	DQA1	2	exact_genomic	6437	DQA1*03:03:01:01
+HG03248	DQB1	1	exact_genomic	7102	DQB1*06:02:01:01
+HG03248	DQB1	2	exact_genomic	7427	DQB1*02:02:01:02
+HG03248	DRB1	1	no_exact_genomic_match	13644	
+HG03248	DRB1	2	no_exact_genomic_match	15402	
+HG03456	A	1	exact_genomic	3503	A*30:01:01:01
+HG03456	A	2	exact_genomic	3517	A*68:02:01:01
+HG03456	B	1	exact_genomic	4080	B*42:01:01:01
+HG03456	B	2	no_exact_genomic_match	3855	
+HG03456	C	1	exact_genomic	4325	C*17:01:01:02
+HG03456	C	2	exact_genomic	4304	C*04:01:01:75
+HG03456	DPA1	1	no_exact_genomic_match	5622	
+HG03456	DPA1	2	no_exact_genomic_match	9300	
+HG03456	DPB1	1	exact_genomic	11468	DPB1*01:01:01:02
+HG03456	DPB1	2	exact_genomic	11462	DPB1*13:01:01:01
+HG03456	DQA1	1	exact_genomic	5616	DQA1*04:01:01:05
+HG03456	DQA1	2	exact_genomic	6589	DQA1*05:05:01:09
+HG03456	DQB1	1	exact_genomic	7023	DQB1*04:02:01:08
+HG03456	DQB1	2	exact_genomic	7231	DQB1*03:01:01:03
+HG03456	DRB1	1	no_exact_genomic_match	13210	
+HG03456	DRB1	2	no_exact_genomic_match	13822	
+HG03683	A	1	exact_genomic	3518	A*32:01:01:01
+HG03683	A	2	exact_genomic	3503	A*01:01:01:01
+HG03683	B	1	exact_genomic	4085	B*35:01:01:05
+HG03683	B	2	exact_genomic	4095	B*57:01:01:01
+HG03683	C	1	exact_genomic	4304	C*04:01:01:177
+HG03683	C	2	exact_genomic	4303	C*06:02:01:01
+HG03683	DPA1	1	no_exact_genomic_match	9753	
+HG03683	DPA1	2	exact_genomic	9775	DPA1*01:03:01:02
+HG03683	DPB1	1	exact_genomic	11466	DPB1*09:01:01:01
+HG03683	DPB1	2	exact_genomic	11526	DPB1*04:01:01:01
+HG03683	DQA1	1	exact_genomic	6403	DQA1*02:01:01:01
+HG03683	DQA1	2	exact_genomic	6403	DQA1*02:01:01:01
+HG03683	DQB1	1	exact_genomic	7126	DQB1*03:03:02:01
+HG03683	DQB1	2	exact_genomic	7126	DQB1*03:03:02:01
+HG03683	DRB1	1	exact_genomic	16120	DRB1*07:01:01:02
+HG03683	DRB1	2	exact_genomic	16120	DRB1*07:01:01:02
+HG03732	A	1	exact_genomic	3503	A*01:01:01:01
+HG03732	A	2	exact_genomic	3517	A*02:11:01:01
+HG03732	B	1	exact_genomic	4081	B*07:02:01:01
+HG03732	B	2	exact_genomic	2724	B*55:01:01:05
+HG03732	C	1	exact_genomic	4318	C*07:02:01:03
+HG03732	C	2	no_exact_genomic_match	4299	
+HG03732	DPA1	1	exact_genomic	9775	DPA1*01:03:01:03
+HG03732	DPA1	2	exact_genomic	9775	DPA1*01:03:01:01
+HG03732	DPB1	1	exact_genomic	11461	DPB1*03:01:01:01
+HG03732	DPB1	2	exact_genomic	11532	DPB1*02:01:02:01
+HG03732	DQA1	1	exact_genomic	6403	DQA1*02:01:01:01
+HG03732	DQA1	2	no_exact_genomic_match	6492	
+HG03732	DQB1	1	exact_genomic	7477	DQB1*02:02:01:01
+HG03732	DQB1	2	exact_genomic	7103	DQB1*06:03:01:01
+HG03732	DRB1	1	no_exact_genomic_match	15384	
+HG03732	DRB1	2	no_exact_genomic_match	13931	
+HG03807	A	1	exact_genomic	3503	A*11:01:01:01
+HG03807	A	2	exact_genomic	3502	A*24:17:01:01
+HG03807	B	1	exact_genomic	3995	B*15:32:01
+HG03807	B	2	no_exact_genomic_match	4079	
+HG03807	C	1	no_exact_genomic_match	4298	
+HG03807	C	2	exact_genomic	4303	C*08:01:01:01
+HG03807	DPA1	1	no_exact_genomic_match	5742	
+HG03807	DPA1	2	no_exact_genomic_match	5708	
+HG03807	DPB1	1	exact_genomic	11472	DPB1*296:01
+HG03807	DPB1	2	exact_genomic	11468	DPB1*26:01:02:01
+HG03807	DQA1	1	exact_genomic	5616	DQA1*06:01:01:04
+HG03807	DQA1	2	exact_genomic	6485	DQA1*01:03:01:01
+HG03807	DQB1	1	exact_genomic	7233	DQB1*03:01:01:22
+HG03807	DQB1	2	exact_genomic	7111	DQB1*06:01:01:01
+HG03807	DRB1	1	no_exact_genomic_match	13212	
+HG03807	DRB1	2	exact_genomic	11494	DRB1*15:02:01:03
+HG04036	A	1	exact_genomic	3502	A*24:02:01:01
+HG04036	A	2	exact_genomic	3503	A*01:01:01:01
+HG04036	B	1	no_exact_genomic_match	3324	
+HG04036	B	2	exact_genomic	3855	B*52:01:01:01
+HG04036	C	1	exact_genomic	4303	C*15:02:01:01
+HG04036	C	2	exact_genomic	4303	C*12:02:02:01
+HG04036	DPA1	1	exact_genomic	9775	DPA1*01:03:01:02
+HG04036	DPA1	2	no_exact_genomic_match	9775	
+HG04036	DPB1	1	exact_genomic	11530	DPB1*04:01:01:06
+HG04036	DPB1	2	exact_genomic	11532	DPB1*02:01:02:52
+HG04036	DQA1	1	exact_genomic	5766	DQA1*06:01:01:05
+HG04036	DQA1	2	exact_genomic	6485	DQA1*01:05:01:01
+HG04036	DQB1	1	exact_genomic	7224	DQB1*03:01:01:17
+HG04036	DQB1	2	exact_genomic	7090	DQB1*05:01:01:05
+HG04036	DRB1	1	no_exact_genomic_match	13837	
+HG04036	DRB1	2	exact_genomic	13800	DRB1*10:01:01:03
+HG04217	A	1	exact_genomic	3502	A*24:02:01:01
+HG04217	A	2	exact_genomic	3518	A*31:01:02:01
+HG04217	B	1	no_exact_genomic_match	3983	
+HG04217	B	2	exact_genomic	4085	B*51:01:01:01
+HG04217	C	1	exact_genomic	4318	C*07:01:01:16
+HG04217	C	2	exact_genomic	4304	C*14:02:01:01
+HG04217	DPA1	1	exact_genomic	9775	DPA1*01:03:01:01
+HG04217	DPA1	2	exact_genomic	9775	DPA1*01:03:01:03
+HG04217	DPB1	1	exact_genomic	11532	DPB1*02:01:02:96
+HG04217	DPB1	2	exact_genomic	11461	DPB1*03:01:01:01
+HG04217	DQA1	1	exact_genomic	6031	DQA1*01:03:01:10
+HG04217	DQA1	2	exact_genomic	6492	DQA1*01:03:01:02
+HG04217	DQB1	1	exact_genomic	7103	DQB1*06:03:01:02
+HG04217	DQB1	2	exact_genomic	7103	DQB1*06:03:01:01
+HG04217	DRB1	1	no_exact_genomic_match	13941	
+HG04217	DRB1	2	no_exact_genomic_match	13939	
+NA12329	A	1	exact_genomic	3503	A*01:01:01:01
+NA12329	A	2	exact_genomic	3517	A*02:01:01:01
+NA12329	B	1	exact_genomic	4095	B*57:01:01:01
+NA12329	B	2	exact_genomic	4094	B*15:01:01:01
+NA12329	C	1	exact_genomic	4303	C*06:02:01:01
+NA12329	C	2	exact_genomic	4303	C*05:01:01:02
+NA12329	DPA1	1	exact_genomic	9775	DPA1*01:03:01:02
+NA12329	DPA1	2	exact_genomic	9775	DPA1*01:03:01:03
+NA12329	DPB1	1	exact_genomic	11526	DPB1*04:01:01:01
+NA12329	DPB1	2	exact_genomic	11461	DPB1*03:01:01:01
+NA12329	DQA1	1	exact_genomic	6403	DQA1*02:01:01:01
+NA12329	DQA1	2	exact_genomic	6437	DQA1*03:01:01:01
+NA12329	DQB1	1	exact_genomic	7126	DQB1*03:03:02:01
+NA12329	DQB1	2	exact_genomic	7126	DQB1*03:02:01:01
+NA12329	DRB1	1	no_exact_genomic_match	16124	
+NA12329	DRB1	2	no_exact_genomic_match	14954	
+NA18989	A	1	exact_genomic	3518	A*33:03:01:01
+NA18989	A	2	exact_genomic	3517	A*02:06:01:01
+NA18989	B	1	exact_genomic	4090	B*55:02:01:04
+NA18989	B	2	exact_genomic	4083	B*40:06:01:12
+NA18989	C	1	exact_genomic	4156	C*08:01:01:19
+NA18989	C	2	exact_genomic	4303	C*08:01:01:01
+NA18989	DPA1	1	no_exact_genomic_match	9753	
+NA18989	DPA1	2	no_exact_genomic_match	9692	
+NA18989	DPB1	1	exact_genomic	11466	DPB1*09:01:01:01
+NA18989	DPB1	2	exact_genomic	11467	DPB1*03:01:01:08
+NA18989	DQA1	1	exact_genomic	6561	DQA1*04:01:01:02
+NA18989	DQA1	2	no_exact_genomic_match	5662	
+NA18989	DQB1	1	exact_genomic	7126	DQB1*03:02:01:01
+NA18989	DQB1	2	exact_genomic	7086	DQB1*05:02:01:01
+NA18989	DRB1	1	exact_genomic	13841	DRB1*08:02:01:01
+NA18989	DRB1	2	exact_genomic	11454	DRB1*16:02:01:03
+NA19331	A	1	exact_genomic	3503	A*01:01:01:01
+NA19331	A	2	exact_genomic	3373	A*23:17:01:01
+NA19331	B	1	exact_genomic	4098	B*49:01:01:01
+NA19331	B	2	exact_genomic	3324	B*40:12:01
+NA19331	C	1	exact_genomic	4318	C*07:01:01:16
+NA19331	C	2	exact_genomic	3904	C*04:04:01:01
+NA19331	DPA1	1	exact_genomic	9775	DPA1*01:03:01:29
+NA19331	DPA1	2	no_exact_genomic_match	9553	
+NA19331	DPB1	1	exact_genomic	11461	DPB1*03:01:01:01
+NA19331	DPB1	2	no_exact_genomic_match	11517	
+NA19331	DQA1	1	exact_genomic	6485	DQA1*01:05:01:01
+NA19331	DQA1	2	exact_genomic	6485	DQA1*01:02:01:03
+NA19331	DQB1	1	exact_genomic	7090	DQB1*05:01:01:05
+NA19331	DQB1	2	exact_genomic	7102	DQB1*06:02:23
+NA19331	DRB1	1	exact_genomic	13800	DRB1*10:01:01:03
+NA19331	DRB1	2	no_exact_genomic_match	10850	
+NA20355	A	1	exact_genomic	3518	A*32:01:01:01
+NA20355	A	2	exact_genomic	3517	A*26:01:01:01
+NA20355	B	1	exact_genomic	3851	B*81:01:01:01
+NA20355	B	2	exact_genomic	4081	B*07:02:01:01
+NA20355	C	1	no_exact_genomic_match	4303	
+NA20355	C	2	exact_genomic	4318	C*07:02:01:03
+NA20355	DPA1	1	exact_genomic	5877	DPA1*04:02:01:02
+NA20355	DPA1	2	exact_genomic	9775	DPA1*01:03:01:02
+NA20355	DPB1	1	exact_genomic	11514	DPB1*665:01:01
+NA20355	DPB1	2	exact_genomic	11526	DPB1*04:01:01:01
+NA20355	DQA1	1	exact_genomic	6485	DQA1*01:05:01:01
+NA20355	DQA1	2	exact_genomic	6492	DQA1*01:01:01:01
+NA20355	DQB1	1	exact_genomic	7090	DQB1*05:01:01:02
+NA20355	DQB1	2	exact_genomic	7090	DQB1*05:01:01:03
+NA20355	DRB1	1	exact_genomic	13220	DRB1*12:01:01:01
+NA20355	DRB1	2	no_exact_genomic_match	11101	
+NA20847	A	1	exact_genomic	3503	A*01:01:01:01
+NA20847	A	2	exact_genomic	3517	A*02:01:01:01
+NA20847	B	1	exact_genomic	3851	B*44:03:02:04
+NA20847	B	2	no_exact_genomic_match	4070	
+NA20847	C	1	exact_genomic	4278	C*07:06:01:01
+NA20847	C	2	exact_genomic	4303	C*16:02:01:01
+NA20847	DPA1	1	exact_genomic	9775	DPA1*01:03:01:04
+NA20847	DPA1	2	no_exact_genomic_match	9692	
+NA20847	DPB1	1	exact_genomic	11522	DPB1*04:01:01:04
+NA20847	DPB1	2	exact_genomic	11466	DPB1*05:01:01:01
+NA20847	DQA1	1	no_exact_genomic_match	5570	
+NA20847	DQA1	2	exact_genomic	6437	DQA1*03:01:01:01
+NA20847	DQB1	1	exact_genomic	7377	DQB1*02:02:01:07
+NA20847	DQB1	2	exact_genomic	7126	DQB1*03:02:01:01
+NA20847	DRB1	1	no_exact_genomic_match	15380	
+NA20847	DRB1	2	no_exact_genomic_match	14506	

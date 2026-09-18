@@ -1,0 +1,826 @@
+{
+  "summary": [
+    {
+      "method": "T1K",
+      "fields": 2,
+      "donors": 28,
+      "failed_donors": 0,
+      "ineligible_genotypes": 80,
+      "eligible": 144,
+      "called": 144,
+      "correct": 0,
+      "allele_matches": 0
+    },
+    {
+      "method": "T1K",
+      "fields": 4,
+      "donors": 28,
+      "failed_donors": 0,
+      "ineligible_genotypes": 86,
+      "eligible": 138,
+      "called": 135,
+      "correct": 71,
+      "allele_matches": 189
+    },
+    {
+      "method": "ipd_genome",
+      "fields": 2,
+      "donors": 28,
+      "failed_donors": 0,
+      "ineligible_genotypes": 80,
+      "eligible": 144,
+      "called": 144,
+      "correct": 0,
+      "allele_matches": 0
+    },
+    {
+      "method": "ipd_genome",
+      "fields": 4,
+      "donors": 28,
+      "failed_donors": 0,
+      "ineligible_genotypes": 86,
+      "eligible": 138,
+      "called": 135,
+      "correct": 120,
+      "allele_matches": 255
+    },
+    {
+      "method": "graph_hprc",
+      "fields": 2,
+      "donors": 28,
+      "failed_donors": 0,
+      "ineligible_genotypes": 80,
+      "eligible": 144,
+      "called": 144,
+      "correct": 0,
+      "allele_matches": 0
+    },
+    {
+      "method": "graph_hprc",
+      "fields": 4,
+      "donors": 28,
+      "failed_donors": 0,
+      "ineligible_genotypes": 86,
+      "eligible": 138,
+      "called": 135,
+      "correct": 120,
+      "allele_matches": 255
+    },
+    {
+      "method": "graph_hprc_asian",
+      "fields": 2,
+      "donors": 28,
+      "failed_donors": 0,
+      "ineligible_genotypes": 80,
+      "eligible": 144,
+      "called": 144,
+      "correct": 0,
+      "allele_matches": 0
+    },
+    {
+      "method": "graph_hprc_asian",
+      "fields": 4,
+      "donors": 28,
+      "failed_donors": 0,
+      "ineligible_genotypes": 86,
+      "eligible": 138,
+      "called": 135,
+      "correct": 120,
+      "allele_matches": 255
+    }
+  ],
+  "contrasts": {
+    "T1K": {
+      "candidate": "graph_hprc_asian",
+      "baseline": "T1K",
+      "contrasts": {
+        "ALL/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 144,
+            "families": 28,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "ALL/4": {
+          "interval": {
+            "difference": 0.35507246376811596,
+            "lower_95": 0.2846153846153846,
+            "upper_95": 0.4263565891472868,
+            "eligible": 138,
+            "families": 28,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 51,
+          "losses": 2,
+          "candidate_correct": 120,
+          "baseline_correct": 71,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "AFR/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 53,
+            "families": 11,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "AFR/4": {
+          "interval": {
+            "difference": 0.42857142857142855,
+            "lower_95": 0.3269230769230769,
+            "upper_95": 0.5283018867924528,
+            "eligible": 49,
+            "families": 11,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 21,
+          "losses": 0,
+          "candidate_correct": 40,
+          "baseline_correct": 19,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "AMR/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 13,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "AMR/4": {
+          "interval": {
+            "difference": 0.38461538461538464,
+            "lower_95": 0.3333333333333333,
+            "upper_95": 0.42857142857142855,
+            "eligible": 13,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 5,
+          "losses": 0,
+          "candidate_correct": 11,
+          "baseline_correct": 6,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "EAS/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 25,
+            "families": 5,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "EAS/4": {
+          "interval": {
+            "difference": 0.36,
+            "lower_95": 0.2,
+            "upper_95": 0.5384615384615384,
+            "eligible": 25,
+            "families": 5,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 9,
+          "losses": 0,
+          "candidate_correct": 23,
+          "baseline_correct": 14,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "EUR/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 14,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "EUR/4": {
+          "interval": {
+            "difference": 0.21428571428571427,
+            "lower_95": 0.14285714285714285,
+            "upper_95": 0.2857142857142857,
+            "eligible": 14,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 3,
+          "losses": 0,
+          "candidate_correct": 14,
+          "baseline_correct": 11,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "SAS/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 39,
+            "families": 8,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        },
+        "SAS/4": {
+          "interval": {
+            "difference": 0.2972972972972973,
+            "lower_95": 0.12121212121212122,
+            "upper_95": 0.42857142857142855,
+            "eligible": 37,
+            "families": 8,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 13,
+          "losses": 2,
+          "candidate_correct": 32,
+          "baseline_correct": 21,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "T1K": 0
+          }
+        }
+      },
+      "protocol_checks": {
+        "four_field_lower_bound_positive": true,
+        "two_field_point_not_decreased": true,
+        "two_field_excludes_loss_over_one_point": true
+      },
+      "protocol_pass": true,
+      "interpretation": "Endpoint calculations only. Independent improvement also requires a pre-outcome candidate freeze, untouched cohort, verified run provenance and complete failure accounting."
+    },
+    "ipd_genome": {
+      "candidate": "graph_hprc_asian",
+      "baseline": "ipd_genome",
+      "contrasts": {
+        "ALL/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 144,
+            "families": 28,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "ALL/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 138,
+            "families": 28,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 120,
+          "baseline_correct": 120,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "AFR/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 53,
+            "families": 11,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "AFR/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 49,
+            "families": 11,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 40,
+          "baseline_correct": 40,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "AMR/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 13,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "AMR/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 13,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 11,
+          "baseline_correct": 11,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "EAS/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 25,
+            "families": 5,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "EAS/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 25,
+            "families": 5,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 23,
+          "baseline_correct": 23,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "EUR/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 14,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "EUR/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 14,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 14,
+          "baseline_correct": 14,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "SAS/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 39,
+            "families": 8,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        },
+        "SAS/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 37,
+            "families": 8,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 32,
+          "baseline_correct": 32,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "ipd_genome": 0
+          }
+        }
+      },
+      "interpretation": "Exploratory incremental contrast; primary protocol_pass does not apply to this comparator"
+    },
+    "graph_hprc": {
+      "candidate": "graph_hprc_asian",
+      "baseline": "graph_hprc",
+      "contrasts": {
+        "ALL/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 144,
+            "families": 28,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "ALL/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 138,
+            "families": 28,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 120,
+          "baseline_correct": 120,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "AFR/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 53,
+            "families": 11,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "AFR/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 49,
+            "families": 11,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 40,
+          "baseline_correct": 40,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "AMR/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 13,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "AMR/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 13,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 11,
+          "baseline_correct": 11,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "EAS/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 25,
+            "families": 5,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "EAS/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 25,
+            "families": 5,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 23,
+          "baseline_correct": 23,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "EUR/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 14,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "EUR/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 14,
+            "families": 2,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 14,
+          "baseline_correct": 14,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "SAS/2": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 39,
+            "families": 8,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 0,
+          "baseline_correct": 0,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        },
+        "SAS/4": {
+          "interval": {
+            "difference": 0.0,
+            "lower_95": 0.0,
+            "upper_95": 0.0,
+            "eligible": 37,
+            "families": 8,
+            "replicates": 10000,
+            "seed": 20260918
+          },
+          "gains": 0,
+          "losses": 0,
+          "candidate_correct": 32,
+          "baseline_correct": 32,
+          "failed_donors": {
+            "graph_hprc_asian": 0,
+            "graph_hprc": 0
+          }
+        }
+      },
+      "interpretation": "Exploratory incremental contrast; primary protocol_pass does not apply to this comparator"
+    }
+  },
+  "interpretation": "Independent proof additionally requires verified frozen execution, exclusion audit and complete failure accounting",
+  "anchor_decisions": {
+    "ipd_genome/Compatible four-field refinement within original T1K pair": 730,
+    "ipd_genome/Candidate four-field pair unresolved; retain original call": 282,
+    "ipd_genome/Original two-field pair unresolved; retain original call": 121,
+    "ipd_genome/Candidate conflicts with original two-field pair; retain original call": 15,
+    "graph_hprc/Compatible four-field refinement within original T1K pair": 730,
+    "graph_hprc/Candidate four-field pair unresolved; retain original call": 282,
+    "graph_hprc/Original two-field pair unresolved; retain original call": 121,
+    "graph_hprc/Candidate conflicts with original two-field pair; retain original call": 15,
+    "graph_hprc_asian/Compatible four-field refinement within original T1K pair": 730,
+    "graph_hprc_asian/Candidate four-field pair unresolved; retain original call": 282,
+    "graph_hprc_asian/Original two-field pair unresolved; retain original call": 121,
+    "graph_hprc_asian/Candidate conflicts with original two-field pair; retain original call": 15
+  },
+  "coarse_prediction_identity_verified": true,
+  "inference_freeze_sha256": "4afbe16398deefe3e1a26e7a8b974c7d63219eda1220ccd3bf6919f277d272be",
+  "evaluation_freeze_sha256": "3a69e2a1d4842c07e8e45b832e97c49804c8a824d1ff8f14fd2f29e3cf24eb92",
+  "handoff_freeze_sha256": "7a7bd620b8f519f0b8e028a78fa8e7c6c56c3cc578507e06fdfe2ebf4451fe7a",
+  "execution_ready_sha256": "82544d58b832938923e5ba2fad0e40445162d6c22956762cf73823b4960827ef",
+  "truth_scope": "Exact whole genomic HGSVC gene cores against IPD 3.65; two-field truth also genomic-derived"
+}
