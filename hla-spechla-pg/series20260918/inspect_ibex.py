@@ -29,7 +29,7 @@ for cohort in ('','gourraud'):
 prep=r.parent/'t1k-pangenome'
 for stage,pattern in [('reference_graphs','graphs/build-v1/*/*/manifest.json'),
                       ('graph_pilot','graphs/pilot-v2/*/*/manifest.json'),
-                      ('personalization_smoke','smoke/*/manifest.json')]:
+                      ('personalization_smoke','smoke/personalization-v2/manifest.json')]:
  counts=collections.Counter()
  for p in prep.glob(pattern):
   try:

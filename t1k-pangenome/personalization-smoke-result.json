@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "started": 1789725825.321607,
+  "command": [
+    "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+    "giraffe",
+    "--haplotype-sampling",
+    "--no-diploid-sampling",
+    "--num-haplotypes",
+    "8",
+    "-Z",
+    "graph.gbz",
+    "--haplotype-name",
+    "graph.hapl",
+    "-f",
+    "r1.fq",
+    "-f",
+    "r2.fq",
+    "-t",
+    "8",
+    "-N",
+    "synthetic"
+  ],
+  "scope": "Synthetic training-path integration test; not typing accuracy",
+  "graph_manifest_sha256": "ecfc9a608bb1ecdaf627b99c4370497101d0027c7d43bbb67b4b63b041d04e1b",
+  "driver_sha256": "8367600aed64bde7347562417e80205eb9c2f72d84bba4836a501518f84f6b7c",
+  "vg_sha256": "5390a894bde3b1d39bd7df389ff68aa2db9b6f319cba2304eec8da6e2dae3549",
+  "kmc_sha256": "89e59edde1e8324493f81f93b310a3fb3f1b1cee9c53460ccec3eb725e8f9abb",
+  "selected_training_paths": [
+    "PG00cb7d93ac39b1f255145bb7f4101d678f4660f6970ef48954c9a5c01677441c#0#HLA_A",
+    "PG0981f91d0ae911228effc294e057503f7c9aee7fbd401cb1c0e429a6e530d029#0#HLA_A"
+  ],
+  "pairs": 2004,
+  "seed": 20260918,
+  "reads_sha256": {
+    "r1.fq": "e115dfe3062853d1805f125ee0e9d49ad41ba5bb76ed44420324c30720a1a43a",
+    "r2.fq": "50d848bf49ae560972b8e86a674e6423c3f6cbb8d30740beb5f74da1a8735481"
+  },
+  "alignments": 4008,
+  "mapped": 4008,
+  "finished": 1789725828.1829321,
+  "gam_sha256": "ee4650b4902d7de00d30bda29144697d81e61f0ed8cda05da2662b4e5238dc6c"
+}
