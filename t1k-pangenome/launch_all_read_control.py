@@ -4,11 +4,14 @@ import json
 import shlex
 import subprocess
 from launch_development_evidence import HERE,B,HOST,remote,submit
+from run_all_read_control import COHORT_SHA
 
 
 if __name__=='__main__':
     ledger=HERE/'all-read-control-launch.json'
     if ledger.exists():raise FileExistsError('Inspect existing jobs first')
+    if remote('sha256sum '+B+'/hla/dogohla-series20260918/cohort.tsv').split()[0]!=COHORT_SHA:
+        raise ValueError('Development cohort path or contents changed')
     previous=json.loads((HERE/'graph-recruitment-launch.json').read_text())
     directory=B+'/hla/t1k-pangenome/all-read-control-v1-code'
     files=(*previous['code_sha256'],'run_all_read_control.py')
@@ -29,7 +32,7 @@ if __name__=='__main__':
         extra+=['--dependency=afterok:'+pilot]
     job=submit('t1k-all-read-development',4,'12G','02:00:00',
                ['python3',root+'/all-read-control-v1-code/run_all_read_control.py','--index','$SLURM_ARRAY_TASK_ID',
-                '--cohort','/home/leechuck/hla/dogohla-series20260918/series/cohort.tsv'],extra)
+                '--cohort','/home/leechuck/hla/dogohla-series20260918/cohort.tsv'],extra)
     ledger.write_text(json.dumps(dict(job=job,pilot_job=previous['jobs']['all'],code_sha256=hashes,
                       scope='All 64 fixed development donors; index zero uses existing pilot; no validation donors'),indent=2)+'\n')
     print(ledger.read_text())

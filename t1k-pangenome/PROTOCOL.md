@@ -365,6 +365,11 @@ archived donor/gene/resolution rows. Pending/failed runs retain eligibility and
 are marked explicitly; partial cohort totals must not be interpreted as accuracy
 contrasts. This control does not consume the reserved validation cohort.
 
+The first all-read cohort array used an incorrect `series/cohort.tsv` path and
+all 63 tasks exited before read processing. The corrected retry uses `cohort.tsv`
+at the run root; its exact SHA was verified before submission. The initial job
+and repair are retained in all-read-control-launch.json. The pilot was unaffected.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122

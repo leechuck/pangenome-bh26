@@ -1,5 +1,5 @@
 {
-  "job": "52047625",
+  "job": "52047791",
   "pilot_job": "52047542",
   "code_sha256": {
     "graph_recruitment.py": "903404b6c93136dd05ab8cd442cc9994a933da9cf9161e893bfd2854632db752",
@@ -12,5 +12,8 @@
     "build_panel.py": "60d51b0276db3d1a6a109bf22bb4f555a7cadb40d4e1f1856758e16b80d238d2",
     "run_all_read_control.py": "ab050456450a4a3c966469b34b4f8afe3e423e4d93b6e6b3c3d402317ad2a43e"
   },
-  "scope": "All 64 fixed development donors; index zero uses existing pilot; no validation donors"
+  "scope": "All 64 fixed development donors; index zero uses existing pilot; no validation donors",
+  "initial_job": "52047625",
+  "repair": "Correct cohort path; all 63 initial tasks failed before any typing; verified cohort SHA before retry",
+  "cohort_sha256": "b378e30b28ea4b934dc8eed1c6d5c6c13336504bb6e80dd2f90870d73cad8c9d"
 }
