@@ -8,8 +8,8 @@
     "additive_retains_all_hprc": true,
     "added_haplotypes": 282,
     "added_sources": {
-      "CPC-Chinese": 116,
       "APR": 106,
+      "CPC-Chinese": 116,
       "JaSaPaGe-Japanese": 14,
       "JaSaPaGe-Saudi": 18,
       "KPanRef-Korean": 28

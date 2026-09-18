@@ -1,0 +1,7 @@
+{
+  "archived": "/ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla/dogohla-series20260918/gourraud/attempts/arpack-HG00611-hprc/A",
+  "manifest_sha256": "08e334157cc0c2ec51c23810b45717c19c46b5a351e444ce557e40fff6150377",
+  "job": "52042583",
+  "reason": "Original phase_unlinked_block.py eigsh failed: ARPACK -9 starting vector zero",
+  "configuration": "Unchanged inference, reads, database and four threads; retry before adjudicating final failure"
+}

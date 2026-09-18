@@ -24,7 +24,7 @@ def audit_membership(members, metadata, excluded):
         raise ValueError('Unexpected source among added haplotypes')
     return dict(counts={k: len(v) for k, v in panels.items()},
                 additive_retains_all_hprc=True, added_haplotypes=len(added),
-                added_sources=dict(collections.Counter(metadata[p]['cohort'] for p in added)),
+                added_sources=dict(sorted(collections.Counter(metadata[p]['cohort'] for p in added).items())),
                 replacement_removes_hprc=len(hprc - asian), excluded_overlap=0)
 
 

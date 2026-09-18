@@ -1,0 +1,250 @@
+{
+  "status": "complete",
+  "exclusion_count": 400,
+  "builder_sha256": "60d51b0276db3d1a6a109bf22bb4f555a7cadb40d4e1f1856758e16b80d238d2",
+  "flank_bases": 2000,
+  "observation_policy": "Assembly sequences only; no imputed bases; N positions remain unknown.",
+  "labels": "Exact genomic and exact CDS labels kept separate; no new allele names assigned.",
+  "input_sha256": {
+    "hla-typer/source/haplotype_donors.tsv": "5014f14d9db1afa3776b695df0ed9eb1a04723764bda88219ad02e9ec1a2f7ca",
+    "hla-analysis/results/sequence_catalogue.tsv": "f0b19828e7ade7b7344021b29b694881209238074761508cf5fb2da90a04a356",
+    "hla-spechla-pg/source/exons.tsv": "210783fc82a3ef9875b857024aaad6369f467852101551ba8e7015802d2a56b9",
+    "t1k-pangenome/validation/RESERVATION.json": "ae2cde5693a7f78aea7afa910edbe4aec2ce67c734f34db49914d7263ae0dfd2",
+    "hla-analysis/source/HLA-A.fa": "33f32b808fe3cfd6e4fa3e3a8bcbb002b814c87fbc86001aa6366265b4cbf55f",
+    "hla-analysis/source/HLA-B.fa": "fa8a7bb0aeb6b83e81806cceb4c448d7708332cd83b9039dbf8255a572d90ceb",
+    "hla-analysis/source/HLA-C.fa": "8a5e60379d58442d1c5e0e591b4ffa4cc00c86c0c6b01471a1b975cf6df91bc6",
+    "hla-analysis/source/HLA-DPA1.fa": "2dbf38dc6d33c452b145f02616a9348b2432f017ffebb693e18cfc07313e8c6c",
+    "hla-analysis/source/HLA-DPB1.fa": "2811e2363ef93a13f0926b3849eca25f18b556faafa073ea781f2963a529bc37",
+    "hla-analysis/source/HLA-DQA1.fa": "630dc2ce0d83c25ad402832982490fe35e66bc70f7d25b26eaae2937f5c369d4",
+    "hla-analysis/source/HLA-DQB1.fa": "992b27381973d955af7c6e02f5594bbe1db2e41818d066680b26332287d2edb4",
+    "hla-analysis/source/HLA-DRB1.fa": "b222140f834e8d1df8e713b19ac213acfd6f9eb7b68104ea3372f920f585f100"
+  },
+  "genes": {
+    "hprc/A": {
+      "source_paths": 86,
+      "unique_sequences": 38,
+      "source_cohorts": {
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "REF": 2
+      }
+    },
+    "hprc_asian/A": {
+      "source_paths": 353,
+      "unique_sequences": 115,
+      "source_cohorts": {
+        "APR": 106,
+        "CPC-Chinese": 115,
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "JaSaPaGe-Saudi": 18,
+        "KPanRef-Korean": 28,
+        "REF": 2
+      }
+    },
+    "hprc/B": {
+      "source_paths": 86,
+      "unique_sequences": 66,
+      "source_cohorts": {
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "REF": 2
+      }
+    },
+    "hprc_asian/B": {
+      "source_paths": 354,
+      "unique_sequences": 196,
+      "source_cohorts": {
+        "APR": 106,
+        "CPC-Chinese": 116,
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "JaSaPaGe-Saudi": 18,
+        "KPanRef-Korean": 28,
+        "REF": 2
+      }
+    },
+    "hprc/C": {
+      "source_paths": 86,
+      "unique_sequences": 57,
+      "source_cohorts": {
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "REF": 2
+      }
+    },
+    "hprc_asian/C": {
+      "source_paths": 354,
+      "unique_sequences": 163,
+      "source_cohorts": {
+        "APR": 106,
+        "CPC-Chinese": 116,
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "JaSaPaGe-Saudi": 18,
+        "KPanRef-Korean": 28,
+        "REF": 2
+      }
+    },
+    "hprc/DPA1": {
+      "source_paths": 86,
+      "unique_sequences": 29,
+      "source_cohorts": {
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "REF": 2
+      }
+    },
+    "hprc_asian/DPA1": {
+      "source_paths": 354,
+      "unique_sequences": 96,
+      "source_cohorts": {
+        "APR": 106,
+        "CPC-Chinese": 116,
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "JaSaPaGe-Saudi": 18,
+        "KPanRef-Korean": 28,
+        "REF": 2
+      }
+    },
+    "hprc/DPB1": {
+      "source_paths": 86,
+      "unique_sequences": 46,
+      "source_cohorts": {
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "REF": 2
+      }
+    },
+    "hprc_asian/DPB1": {
+      "source_paths": 354,
+      "unique_sequences": 145,
+      "source_cohorts": {
+        "APR": 106,
+        "CPC-Chinese": 116,
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "JaSaPaGe-Saudi": 18,
+        "KPanRef-Korean": 28,
+        "REF": 2
+      }
+    },
+    "hprc/DQA1": {
+      "source_paths": 86,
+      "unique_sequences": 42,
+      "source_cohorts": {
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "REF": 2
+      }
+    },
+    "hprc_asian/DQA1": {
+      "source_paths": 353,
+      "unique_sequences": 102,
+      "source_cohorts": {
+        "APR": 106,
+        "CPC-Chinese": 115,
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "JaSaPaGe-Saudi": 18,
+        "KPanRef-Korean": 28,
+        "REF": 2
+      }
+    },
+    "hprc/DQB1": {
+      "source_paths": 86,
+      "unique_sequences": 44,
+      "source_cohorts": {
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "REF": 2
+      }
+    },
+    "hprc_asian/DQB1": {
+      "source_paths": 351,
+      "unique_sequences": 105,
+      "source_cohorts": {
+        "APR": 105,
+        "CPC-Chinese": 115,
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "JaSaPaGe-Saudi": 18,
+        "KPanRef-Korean": 27,
+        "REF": 2
+      }
+    },
+    "hprc/DRB1": {
+      "source_paths": 86,
+      "unique_sequences": 63,
+      "source_cohorts": {
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "REF": 2
+      }
+    },
+    "hprc_asian/DRB1": {
+      "source_paths": 354,
+      "unique_sequences": 241,
+      "source_cohorts": {
+        "APR": 106,
+        "CPC-Chinese": 116,
+        "HPRC-EastAsian": 16,
+        "HPRC-Jewish": 2,
+        "HPRC-Rest": 66,
+        "JaSaPaGe-Saudi": 18,
+        "KPanRef-Korean": 28,
+        "REF": 2
+      }
+    }
+  },
+  "output_sha256": {
+    "hprc/HLA-A.fa": "b2cf59e6c0f757e810d5d0ff68e93237bf7e6d488917580172a209715f60d5ae",
+    "hprc/HLA-A.json": "e18ef06d3cee6d51417362069b2cb3c0e6419e1b21dc8021b41df798170cde90",
+    "hprc_asian/HLA-A.fa": "7b2634cce06138035bb62ed7bb311fef28559d830d6f81f5257b60c55e04c459",
+    "hprc_asian/HLA-A.json": "fabe006873c2924ddd329bf7a19bc58e60a9b9dbb059d0ea07a477106f06427c",
+    "hprc/HLA-B.fa": "19ea34cf9696694360606ec4928c2901ae1c5893c96c25bb800bf4bc1a503871",
+    "hprc/HLA-B.json": "7fdd45fcbe96a743fc72a1ad825633df0e9d880bc33f9e00e96586105115aa69",
+    "hprc_asian/HLA-B.fa": "130f74eb1e43ad33147be8e9375437bf53a0ae4a147ab1f52f7aab108baa05d0",
+    "hprc_asian/HLA-B.json": "e2e37a44ad2e6bb024287c8e4f720fba3dd12c7450797bb501ddbdef03164209",
+    "hprc/HLA-C.fa": "b7ab66e9b6801056bfb2214bee2938f41b3c0051234928856bce182fba6e2163",
+    "hprc/HLA-C.json": "8f1a5a6c27d81794ab91e97c85a8002dfbb3f4129be4e50b97054ba0feca4026",
+    "hprc_asian/HLA-C.fa": "c91bb74c4e2f28b3b5706ddb259356d83df27498edda501d01a61963965429c9",
+    "hprc_asian/HLA-C.json": "938a6e56bfaf8fe05af810040854694f329559a016f9ece8e7e1feed0bad186c",
+    "hprc/HLA-DPA1.fa": "c18202e6d611b07eba08d04bb8ff6be55f3d823eb1792842be57b14a6ea3acf5",
+    "hprc/HLA-DPA1.json": "3d0a2c7bdec8fc1fe15922df22013d83b5c454dac40539f2a0a911c819399307",
+    "hprc_asian/HLA-DPA1.fa": "a2c08b93cb7431c5893022aa905cde663b4497abc7c4d14db9cd80871fe7a5a3",
+    "hprc_asian/HLA-DPA1.json": "8679a3093564110ffaf5e3914388ee802e1a8d539be96d546a0756822c73ad64",
+    "hprc/HLA-DPB1.fa": "e1e61b072fffaa16d23b5a82ba00a29893a8c1177bcd3019fc50d3a747f346c6",
+    "hprc/HLA-DPB1.json": "c0fd116321862fd7e1144d9d447c09751a3f7b034742ea68a815ea318e54c3c7",
+    "hprc_asian/HLA-DPB1.fa": "bd8e86a2ce60e3e8932576f50d2181c33c067fa0786f30ccc14ebfe11a3c0294",
+    "hprc_asian/HLA-DPB1.json": "2ef2b94c6cf695b0e15092c76a02ecc05ee3887b74b1112f27a40a33807e86bd",
+    "hprc/HLA-DQA1.fa": "bca5848877fff924c5402556bc176375be6dd4e305228d747d7bd66ae01d956b",
+    "hprc/HLA-DQA1.json": "389bb845457985aac6a0a34f93a615ecbaa9d2e557f103c0300deb766fa19a0e",
+    "hprc_asian/HLA-DQA1.fa": "e5673ed96c06a7a67a9d7e2562fd7da0c4de6c5b790d972e0a7a74b6c63a190c",
+    "hprc_asian/HLA-DQA1.json": "116c291b82a685e2cf1f49a7716fceff4a594880d61af047fd060713223b7046",
+    "hprc/HLA-DQB1.fa": "0683b4f9877ef6df66050d53d28be0d32713ca45011b45599ae473a56d33e578",
+    "hprc/HLA-DQB1.json": "3e5237162ec761afb6b7947a5e899fc71ba1f628b4d43d4a7437c5063698bd45",
+    "hprc_asian/HLA-DQB1.fa": "4a7dd04b9e42ae42006b0baec577d0c90bffcab92f99417bfa72763a723885b3",
+    "hprc_asian/HLA-DQB1.json": "b6537ed280a1bcd2c45b4ae0407286b047415f8cfc5be2fe82901e1d9d3284c3",
+    "hprc/HLA-DRB1.fa": "95b9df889eb290283bea77225d60c43d4a25eb95b44aa2e01b6a198ea382dc5f",
+    "hprc/HLA-DRB1.json": "1ca7f0ce6166faea5d2a58bc95c2c37f0e5bc74738b5bad5616a660aad30e99c",
+    "hprc_asian/HLA-DRB1.fa": "81b937a01fe977772b749ad5afa6340007f8f65cedac15317abec1b1166f26cb",
+    "hprc_asian/HLA-DRB1.json": "e16bb41172bcafbed7d2614e88b3ceb313d6cdfdda7dfd44356922a48ba3a661"
+  }
+}

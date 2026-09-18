@@ -1,6 +1,6 @@
 # Additive and replacement panel comparisons
 
-Full = HPRC/reference (340 haplotypes) + 282 additional haplotypes ({'CPC-Chinese': 116, 'APR': 106, 'JaSaPaGe-Japanese': 14, 'JaSaPaGe-Saudi': 18, 'KPanRef-Korean': 28}). All HPRC members are retained; excluded donor/family paths are absent.
+Full = HPRC/reference (340 haplotypes) + 282 additional haplotypes ({'APR': 106, 'CPC-Chinese': 116, 'JaSaPaGe-Japanese': 14, 'JaSaPaGe-Saudi': 18, 'KPanRef-Korean': 28}). All HPRC members are retained; excluded donor/family paths are absent.
 
 The size-matched Asian arm replaces 282 HPRC haplotypes. It is a replacement experiment, not an additive experiment.
 
