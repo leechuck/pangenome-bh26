@@ -1,0 +1,32 @@
+{
+  "code_sha256": {
+    "run_graph_pair_refinement.py": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+    "graph_pair_refinement.py": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+    "evidence_io.py": "14495b5ddbe02f4514f886424a4c75aa42ca5102fb78c1122ec903858a8b2289",
+    "build_graph.py": "a0cc43a651c4cc1edff6600da633948efb5ab9959a278495a4d631ed0227541f",
+    "build_panel.py": "60d51b0276db3d1a6a109bf22bb4f555a7cadb40d4e1f1856758e16b80d238d2",
+    "t1k_reference.py": "21091a604007befd040e055f5a0409e70b428de8e03d305a469c728567186cbc",
+    "run_development_mapping.py": "99aba1d84b1c8a812af9a48ab50644b83e40f7969a3f05b6e831d9dfdfe8f0db",
+    "map_personalized.py": "2e4d21abb575cca82bf202271eccf986fca26a89674897b8b1e4c4c40a073ff6"
+  },
+  "jobs": {
+    "hprc_asian/unsampled": "52048899",
+    "hprc/sampled": "52048900",
+    "hprc/unsampled": "52048901",
+    "hprc_asian/sampled": "52048902"
+  },
+  "scope": "HG00658 development graph four-field refinement; no validation outcomes",
+  "partition_update": {
+    "partitions": [
+      "batch",
+      "debug"
+    ],
+    "pending_jobs": [
+      "52048899",
+      "52048900",
+      "52048901",
+      "52048902"
+    ],
+    "reason": "Single-CPU pilots may use either partition; large development arrays stay in batch"
+  }
+}

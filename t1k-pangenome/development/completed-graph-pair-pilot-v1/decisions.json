@@ -1,0 +1,202 @@
+{
+  "hprc/unsampled": {
+    "A": {
+      "changed": false,
+      "fragments": 1682,
+      "informative_fragments": 1682,
+      "score_gain_over_native": 0.0,
+      "tied_pairs": 1,
+      "reason": "Graph agrees with native pair"
+    },
+    "B": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "C": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "DPA1": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "DPB1": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "DQA1": {
+      "changed": false,
+      "fragments": 2592,
+      "informative_fragments": 2592,
+      "score_gain_over_native": 0.0,
+      "tied_pairs": 1,
+      "reason": "Graph agrees with native pair"
+    },
+    "DQB1": {
+      "changed": false,
+      "fragments": 3556,
+      "informative_fragments": 3556,
+      "score_gain_over_native": 3618.6316825503527,
+      "tied_pairs": 1,
+      "reason": "Best graph pair includes an unlabelled path"
+    },
+    "DRB1": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    }
+  },
+  "hprc/sampled": {
+    "A": {
+      "changed": false,
+      "fragments": 1803,
+      "informative_fragments": 1803,
+      "score_gain_over_native": 252.98294397508744,
+      "tied_pairs": 1,
+      "reason": "Best graph pair includes an unlabelled path"
+    },
+    "B": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "C": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "DPA1": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "DPB1": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "DQA1": {
+      "changed": false,
+      "fragments": 1749,
+      "informative_fragments": 1749,
+      "score_gain_over_native": 6871.8640752697775,
+      "tied_pairs": 1,
+      "reason": "Best graph pair includes an unlabelled path"
+    },
+    "DQB1": {
+      "changed": false,
+      "fragments": 3338,
+      "informative_fragments": 3338,
+      "score_gain_over_native": 7571.979977584933,
+      "tied_pairs": 1,
+      "reason": "Best graph pair includes an unlabelled path"
+    },
+    "DRB1": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    }
+  },
+  "hprc_asian/unsampled": {
+    "A": {
+      "changed": false,
+      "fragments": 1844,
+      "informative_fragments": 1844,
+      "score_gain_over_native": 0.0,
+      "tied_pairs": 1,
+      "reason": "Graph agrees with native pair"
+    },
+    "B": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "C": {
+      "changed": false,
+      "fragments": 1209,
+      "informative_fragments": 1209,
+      "score_gain_over_native": 0.0,
+      "tied_pairs": 1,
+      "reason": "Graph agrees with native pair"
+    },
+    "DPA1": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "DPB1": {
+      "changed": false,
+      "fragments": 1904,
+      "informative_fragments": 1904,
+      "score_gain_over_native": 0.0,
+      "tied_pairs": 1,
+      "reason": "Graph agrees with native pair"
+    },
+    "DQA1": {
+      "changed": false,
+      "fragments": 2676,
+      "informative_fragments": 2676,
+      "score_gain_over_native": 0.0,
+      "tied_pairs": 1,
+      "reason": "Graph agrees with native pair"
+    },
+    "DQB1": {
+      "changed": false,
+      "fragments": 3446,
+      "informative_fragments": 3446,
+      "score_gain_over_native": 1490.2984500781567,
+      "tied_pairs": 1,
+      "reason": "Best graph pair includes an unlabelled path"
+    },
+    "DRB1": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    }
+  },
+  "hprc_asian/sampled": {
+    "A": {
+      "changed": false,
+      "fragments": 1964,
+      "informative_fragments": 1964,
+      "score_gain_over_native": 24.685085662854817,
+      "tied_pairs": 2,
+      "reason": "Graph genotype is tied"
+    },
+    "B": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "C": {
+      "changed": false,
+      "fragments": 1174,
+      "informative_fragments": 1174,
+      "score_gain_over_native": 3095.4736371287727,
+      "tied_pairs": 1,
+      "reason": "Best graph pair includes an unlabelled path"
+    },
+    "DPA1": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    },
+    "DPB1": {
+      "changed": false,
+      "fragments": 2054,
+      "informative_fragments": 2054,
+      "score_gain_over_native": 0.0,
+      "tied_pairs": 1,
+      "reason": "Graph agrees with native pair"
+    },
+    "DQA1": {
+      "changed": false,
+      "fragments": 2205,
+      "informative_fragments": 2205,
+      "score_gain_over_native": 1400.8710851760188,
+      "tied_pairs": 1,
+      "reason": "Best graph pair includes an unlabelled path"
+    },
+    "DQB1": {
+      "changed": false,
+      "fragments": 2300,
+      "informative_fragments": 2300,
+      "score_gain_over_native": 8132.708196986131,
+      "tied_pairs": 1,
+      "reason": "Best graph pair includes an unlabelled path"
+    },
+    "DRB1": {
+      "changed": false,
+      "reason": "Native allele absent from observed graph; retain IPD fallback"
+    }
+  }
+}

@@ -458,7 +458,7 @@ validated caller. It retains the native two-field pair, assigns each qualifying
 fragment to at most one locus, takes maximum support across redundant contexts,
 and considers diploid allele pairs. Native alleles absent from the graph retain
 IPD fallback; ties or an unlabelled winning path also retain the native call.
-Refinement requires at least 20 discriminating fragments and score gaps of at
+Refinement requires at least 20 fragments with candidate-dependent emissions and score gaps of at
 least 10 against both the native and next-best pair, using noise 0.01 and score
 temperature 10. These are development thresholds, not calibrated probabilities.
 Unlabelled and incompatible context paths must remain nuisance alternatives in
@@ -466,6 +466,34 @@ the real-data adapter, rather than being discarded before normalization. The cor
 passes synthetic tests for false-heterozygosity correction, fallback, ambiguity,
 coarse-label preservation and competing loci. Real-data integration and evaluation
 remain necessary before any candidate freeze or improvement claim.
+
+### Real-data graph pair adapter
+
+The real-data adapter now consumes all-locus joined paired evidence, native
+full-genomic-IPD calls, verified observed reference labels and the same measured
+insert calibration used for mapping. It checks every provenance chain, exact path
+sequence/label hashes and graph-panel identity. Every path remains represented:
+unknown or incompatible labels become nuisance alternatives. Only genomic labels
+can support four fields; CDS identity cannot create a four-field call. Duplicate
+contexts contribute through maximum support, not summed path counts. Fragment IDs
+must be sorted and unique, and native two-field calls are checked unchanged.
+
+Four HG00658 development refinement jobs are submitted, with the additive
+unsampled pilot gating the other conditions. Calls and per-gene decisions are
+scored separately from native T1K tables; no artificial T1K abundance or quality
+columns are generated. The development scorer checks unchanged native coarse calls
+and requires every changed gene to have a recorded refinement decision. Independent
+validation remains unscored. Real-data performance is pending; passing adapter
+unit tests is not an improvement claim.
+
+The real-data pilot completed all four conditions without changing any native
+call (8/8 two-field, 5/5 four-field). Complete decisions and scores are archived in
+`development/completed-graph-pair-pilot-v1/`. The same code and parameters are
+submitted for the fixed seven additional development donors, after their evidence
+joins. This remains characterization; no primary candidate has been frozen.
+The current informative-fragment counter measures variation across all candidate
+columns, not specifically between the native and proposed pair. It is not a count
+of independently diagnostic variant observations or calibrated confidence.
 
 ## References
 

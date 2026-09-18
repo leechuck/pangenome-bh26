@@ -21,7 +21,8 @@ def development_jobs():
               'development-map-calibrated-launch.json','development-evidence-v3-launch.json',
               'native-genome-evidence-launch.json','graph-recruitment-launch.json',
               'all-read-control-launch.json','graph-development-batch-launch.json',
-              'validation-baseline-launch.json'):
+              'validation-baseline-launch.json','graph-pair-refinement-launch.json',
+              'graph-pair-batch-launch.json'):
   path=T1K/name
   if not path.exists():continue
   record=json.loads(path.read_text())
@@ -72,6 +73,8 @@ while True:
     subprocess.run([sys.executable,str(T1K/'score_all_read_control.py')],check=True,timeout=180)
    if (T1K/'graph-development-batch-launch.json').exists():
     subprocess.run([sys.executable,str(T1K/'score_graph_development_batch.py')],check=True,timeout=180)
+   if (T1K/'graph-pair-refinement-launch.json').exists():
+    subprocess.run([sys.executable,str(T1K/'fetch_graph_pair_refinement.py')],check=True,timeout=180)
   cycle+=1
   if terminal:break
  except Exception as e:

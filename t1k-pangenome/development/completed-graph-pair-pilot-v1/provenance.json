@@ -1,0 +1,170 @@
+{
+  "scope": "Exposed development only; partial comparisons are not accuracy claims",
+  "runs": {
+    "HG00658/hprc/sampled": {
+      "status": "complete",
+      "started": 1789738138.1863446,
+      "donor": "HG00658",
+      "reads_sha256": {
+        "1": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "2": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "baseline_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+      "joined_sha256": "869ebdf3310bbf430221875dba7a75b0a56a581b464e08cee9950203b7171e1c",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "cb6f26f463cba6d7ff50ae929d06dff0ad6a5d3ec42d7b2e74e5338d1873db1a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789738150.251037,
+      "fragment_counts": {
+        "input_fragments": 738921,
+        "DRB1": 16399,
+        "A": 1803,
+        "DQB1": 3338,
+        "C": 1038,
+        "DPB1": 2066,
+        "DPA1": 1417,
+        "DQA1": 1749,
+        "B": 1443
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "994402d6ad743a841a967826b8dfe62403061481576bc6bd5e2f71d863d60084",
+        "decisions.json": "37cecc72151410ed19cd43651a8eba2f1d922da926ec12cd99b276cff32eb457"
+      }
+    },
+    "HG00658/hprc/unsampled": {
+      "status": "complete",
+      "started": 1789738144.1364403,
+      "donor": "HG00658",
+      "reads_sha256": {
+        "1": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "2": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "baseline_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+      "joined_sha256": "678161393a6417570ef9635de3fe7afd91f5c8f91382bbad670f4f0540890af4",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc",
+      "calibration_sha256": "cb6f26f463cba6d7ff50ae929d06dff0ad6a5d3ec42d7b2e74e5338d1873db1a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789738156.1253877,
+      "fragment_counts": {
+        "input_fragments": 738921,
+        "DRB1": 16290,
+        "A": 1682,
+        "DQB1": 3556,
+        "DQA1": 2592,
+        "C": 1226,
+        "DPB1": 1950,
+        "DPA1": 1424,
+        "B": 1185
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "994402d6ad743a841a967826b8dfe62403061481576bc6bd5e2f71d863d60084",
+        "decisions.json": "da5ae3717e052c80296310f1e8a9737db8a6e298b015e90c9e31a3ce619e8837"
+      }
+    },
+    "HG00658/hprc_asian/sampled": {
+      "status": "complete",
+      "started": 1789738156.4936652,
+      "donor": "HG00658",
+      "reads_sha256": {
+        "1": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "2": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "baseline_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+      "joined_sha256": "51021dd9666c7ff11c62794a4f292c2db9f5962f325e3cdfdbb37868699d84e3",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "cb6f26f463cba6d7ff50ae929d06dff0ad6a5d3ec42d7b2e74e5338d1873db1a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789738170.5317068,
+      "fragment_counts": {
+        "input_fragments": 738921,
+        "DRB1": 12519,
+        "A": 1964,
+        "C": 1174,
+        "DPB1": 2054,
+        "DQB1": 2300,
+        "DPA1": 1416,
+        "DQA1": 2205,
+        "B": 1121
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "994402d6ad743a841a967826b8dfe62403061481576bc6bd5e2f71d863d60084",
+        "decisions.json": "0dc8ac2555ba7b1e22ec0f0354cb6032d7616ced9bd7fb8526e8a77287f9dc01"
+      }
+    },
+    "HG00658/hprc_asian/unsampled": {
+      "status": "complete",
+      "started": 1789738118.8238657,
+      "donor": "HG00658",
+      "reads_sha256": {
+        "1": "e3876a50764c6019adbf6cd277e58297b132026f2009426a25fb3a7d57142cdd",
+        "2": "332ca81981a63653894cfb9814b93d638bce2d49471c86be4410128b54837cae"
+      },
+      "baseline_sha256": "af0f0109e4dd0c80ad62f6e194c71085df568792dc71848f9d3578623467a6f0",
+      "joined_sha256": "fa18110dfe2da7b87d25ae35d078988c9f6d99d988d57ac7f325c7a95ec5e05e",
+      "reference_manifest_sha256": "8e9b7ff296b05ab863ce185885237b99b0bc42a6165cce0c8c2ced5c9c13ed8a",
+      "panel": "hprc_asian",
+      "calibration_sha256": "cb6f26f463cba6d7ff50ae929d06dff0ad6a5d3ec42d7b2e74e5338d1873db1a",
+      "driver_sha256": "525501b3a315f501a1194a049bc7a5becd9c1d67f51c31a5a6ab8b803da40378",
+      "model_sha256": "13a590ddde403fc09cecfd9bc5252adef1a403f86df0ea11456d87871f603949",
+      "parameters": {
+        "temperature": 10,
+        "locus_margin": 10,
+        "minimum_fragments": 20,
+        "minimum_gap": 10,
+        "noise": 0.01
+      },
+      "scope": "Development graph four-field refinement; native two-field calls and unresolved fallbacks retained",
+      "finished": 1789738132.6606724,
+      "fragment_counts": {
+        "input_fragments": 738921,
+        "DRB1": 12592,
+        "A": 1844,
+        "C": 1209,
+        "DPB1": 1904,
+        "DQB1": 3446,
+        "DPA1": 1417,
+        "DQA1": 2676,
+        "B": 1149
+      },
+      "changed_genes": [],
+      "output_sha256": {
+        "calls.json": "994402d6ad743a841a967826b8dfe62403061481576bc6bd5e2f71d863d60084",
+        "decisions.json": "3a4ace2545f160ae79155133caf6aa4832b6f017d6611bfd32b08601aedf0a4b"
+      }
+    }
+  },
+  "scorer_sha256": "8ad6bd95261103ecd8ed35af89169cf22489e9c3ba2e74a5ebcea84c3a2554c6"
+}
