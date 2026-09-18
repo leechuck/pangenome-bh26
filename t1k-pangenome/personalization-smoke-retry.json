@@ -1,0 +1,7 @@
+{
+  "job": "52043166",
+  "command": "export SINGULARITYENV_SLURM_JOB_ID=\"$SLURM_JOB_ID\"; exec bash /ibex/scratch/projects/c2014/rob/dogohla-benchmark/run_ibex.sbatch /home/leechuck/hla/mm/envs/asian50-spechla/bin/python3 /home/leechuck/hla/t1k-pangenome/smoke_personalization.py --graph /home/leechuck/hla/t1k-pangenome/graphs/pilot-v2/hprc/A --reference /home/leechuck/hla/t1k-pangenome/references/observed-v2/hprc/HLA-A.fa --output /home/leechuck/hla/t1k-pangenome/smoke/personalization-v2 --threads 8",
+  "scope": "Synthetic training-path integration only; no validation reads",
+  "previous_job": "52043073",
+  "reason": "Install required KMC 3.2.4 and use allocated OpenMP threads"
+}
