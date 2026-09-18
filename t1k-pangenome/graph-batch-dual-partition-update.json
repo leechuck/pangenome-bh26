@@ -1,0 +1,31 @@
+{
+  "time": "2026-09-18T13:40:48.052078+00:00",
+  "reason": "Allow pending short jobs on either batch or debug; no restart or inference changes",
+  "updates": [
+    {
+      "job": "52047973",
+      "result": "Parent update reported completed tasks, but pending tasks 138-223 successfully started on debug; verified with squeue"
+    },
+    {
+      "job": "52047986",
+      "command": "scontrol update JobId=52047986 Partition=batch,debug",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52047988",
+      "command": "scontrol update JobId=52047988 Partition=batch,debug",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "job": "52049171",
+      "command": "scontrol update JobId=52049171 Partition=batch,debug",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

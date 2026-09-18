@@ -495,6 +495,17 @@ The current informative-fragment counter measures variation across all candidate
 columns, not specifically between the native and proposed pair. It is not a count
 of independently diagnostic variant observations or calibrated confidence.
 
+### Scheduling follow-up (18 September)
+
+After 138 of 224 calibrated evidence tasks completed, the remaining 86 were
+waiting on batch priority while debug had idle capacity. Pending evidence,
+join, recruitment and pair-refinement jobs were permitted on either batch or
+debug. All 86 remaining evidence tasks were subsequently observed running
+concurrently on debug. No inference inputs, parameters or dependencies changed,
+and no running task was restarted. The update audit is
+`graph-batch-dual-partition-update.json`; later completion must still be verified
+from the individual output manifests.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
