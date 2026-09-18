@@ -38,10 +38,20 @@ def sequences(path):
 
 
 def verify_paths(expected, actual):
-    # Names must survive as well as bases: downstream allele sidecars use names.
-    if expected != actual:
+    # GBZ exports haplotype paths with an additional phase-block field (#0).
+    # Accept only that explicit representation change, with a bijective map.
+    aliases = {}
+    normalized = {}
+    for name, sequence in actual.items():
+        target = name if name in expected else name[:-2] if name.endswith('#0') else name
+        if target not in expected or target in normalized:
+            raise ValueError('Unknown or duplicate exported path: ' + name)
+        aliases[name] = target
+        normalized[target] = sequence
+    if expected != normalized:
         raise ValueError('Graph path names/sequences differ from input: '
                          f'{len(expected)} expected, {len(actual)} observed')
+    return aliases
 
 
 def build(reference, panel, gene, output, threads):
@@ -118,7 +128,7 @@ def build(reference, panel, gene, output, threads):
         run(['vg', 'gbwt', '-Z', 'raw.gbz', '--set-reference', backbone,
              '--gbz-format', '-g', 'graph.gbz'])
         run(['vg', 'paths', '-x', 'graph.gbz', '-F'], 'paths.fa')
-        verify_paths(expected, sequences(output/'paths.fa'))
+        record['exported_path_names'] = verify_paths(expected, sequences(output/'paths.fa'))
         run(['vg', 'index', '-j', 'graph.dist', '--no-nested-distance', '-t', threads, 'graph.gbz'])
         run(['vg', 'gbwt', '-p', '--num-threads', threads, '-r', 'graph.ri', '-Z', 'graph.gbz'])
         run(['vg', 'haplotypes', '-v', 2, '-t', threads, '-H', 'graph.hapl', 'graph.gbz'])

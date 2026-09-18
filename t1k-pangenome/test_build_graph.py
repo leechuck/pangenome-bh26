@@ -5,6 +5,19 @@ from build_graph import sequences, verify_paths
 
 
 class PathPreservationTest(unittest.TestCase):
+    def test_gbz_phase_block_suffix(self):
+        self.assertEqual(verify_paths({'PGabc#0#HLA_A':'ACGT'},
+                                     {'PGabc#0#HLA_A#0':'ACGT'}),
+                         {'PGabc#0#HLA_A#0':'PGabc#0#HLA_A'})
+
+    def test_phase_block_suffix_does_not_hide_sequence_change(self):
+        with self.assertRaises(ValueError):
+            verify_paths({'p':'ACGT'}, {'p#0':'ACGA'})
+
+    def test_duplicated_alias_rejected(self):
+        with self.assertRaises(ValueError):
+            verify_paths({'p':'ACGT'}, {'p':'ACGT','p#0':'ACGT'})
+
     def test_changed_base_is_rejected(self):
         with self.assertRaises(ValueError):
             verify_paths({'p':'ACGT'}, {'p':'ACGA'})
