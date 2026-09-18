@@ -4,7 +4,7 @@ from run_graph_pair_refinement import candidate_metadata,native_pair
 
 
 def record(path,genomic,cds):
-    return dict(path=path,sequence_sha256=hashlib.sha256(('A'*500).encode()).hexdigest(),genomic_labels=genomic,cds_labels=cds)
+    return dict(path=path,sequence_sha256=hashlib.sha256(('A'*500).encode()).hexdigest(),genomic_labels=genomic,cds_labels=cds,exons=[[100,200],[300,400]])
 
 
 class AdapterTests(unittest.TestCase):

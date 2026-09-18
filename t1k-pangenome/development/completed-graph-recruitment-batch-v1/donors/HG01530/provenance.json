@@ -1,0 +1,293 @@
+{
+  "scope": "One exposed development donor; no independent accuracy claim",
+  "donor": "HG01530",
+  "baseline_genotype_sha256": "2881c5a13746f09050c104371225824cbfad256a8f29754b880a7a1f2df0f62d",
+  "catalogue_sha256": "f0b19828e7ade7b7344021b29b694881209238074761508cf5fb2da90a04a356",
+  "scorer_sha256": "09b1049a4d6997dc5de95c94a24f4a9e463838c7af40e1bfbce10b48b88eab37",
+  "methods": {
+    "ipd_genome": {
+      "status": "complete",
+      "donor": "HG01530",
+      "started": 1789733157.3325703,
+      "scope": "Development linear-reference control; no graph alignment",
+      "reference_manifest_sha256": "bb8cb1c8a051bf06e95970a7f66bb84cd3ae20b10acbfe7f49cf5e42b29fd547",
+      "cohort_sha256": "b378e30b28ea4b934dc8eed1c6d5c6c13336504bb6e80dd2f90870d73cad8c9d",
+      "tool_sha256": "3e6394f8f7ca8a1dc6d2a61d44311d85a1f029af356fd84d7b9d309da3705bcd",
+      "driver_sha256": "9d213d1bb3dc750d3a3ddc3fc11688b81cd07bdb2949e668b91b126295f605a2",
+      "decoder_sha256": "01f2af8a0f44c8095839b7ca53f9d0d3703420031afa3a11b73f4a275a69e0c7",
+      "reads_sha256": {
+        "1": "1e26d363799c4fe297a854743ecd6996500514608f476e7cd03fd9f571ae5cc3",
+        "2": "b215ba7922ce7db5028d16d9409cfd2e617d2ef3b69fcf3831dac8f9c2bb0261"
+      },
+      "command": [
+        "/home/leechuck/hla/mm/envs/typing/bin/run-t1k",
+        "-1",
+        "/home/leechuck/hla/hla-typer/reads/HG01530/r1.fq.gz",
+        "-2",
+        "/home/leechuck/hla/hla-typer/reads/HG01530/r2.fq.gz",
+        "--preset",
+        "hla-wgs",
+        "-f",
+        "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+        "-t",
+        "4",
+        "--alleleDigitUnits",
+        "4",
+        "--alleleDelimiter",
+        ":",
+        "-o",
+        "/home/leechuck/hla/t1k-pangenome/development/linear-v1/ipd_genome/HG01530/HG01530"
+      ],
+      "finished": 1789733354.1015546,
+      "output_sha256": {
+        "HG01530_genotype.tsv": "719f5f2d37c841b0fd17a7dfff69b9c1ed92255792863b6ca0dcc7f9572194e3",
+        "calls.json": "af72802d1ddb7e92d8cabbd12135557dcb61596529895976e7d800d1f28c4a20"
+      }
+    },
+    "all": {
+      "status": "complete",
+      "started": 1789736026.3321135,
+      "donor": "HG01530",
+      "mode": "all",
+      "baseline_sha256": "2f903e0001f3155f5e3b3735f451e065aca1c8df6e84f391435bcfe6b3d60c25",
+      "reads_sha256": {
+        "1": "1e26d363799c4fe297a854743ecd6996500514608f476e7cd03fd9f571ae5cc3",
+        "2": "b215ba7922ce7db5028d16d9409cfd2e617d2ef3b69fcf3831dac8f9c2bb0261"
+      },
+      "reference_sha256": "9202c3d37a89045a8f01f08dfd3ba21c465835b72ac2e9e7a731ef4dfc2c1d6a",
+      "tool_sha256": "8db60074de8f3c0417bfce34c35787b7073f2fd831b4022d6092bc73b4c03aa8",
+      "driver_sha256": "903404b6c93136dd05ab8cd442cc9994a933da9cf9161e893bfd2854632db752",
+      "graph_manifest_sha256": null,
+      "scope": "Graph-assisted recruitment with unchanged native T1K allele inference; no genotype truth",
+      "selection": {
+        "native_pairs": 33564,
+        "graph_supported_pairs": 0,
+        "input_pairs": 690741,
+        "output_pairs": 690741,
+        "added_pairs": 657177
+      },
+      "command": [
+        "/home/leechuck/hla/t1k-pangenome/tools/t1k-evidence-v1/original/genotyper",
+        "-s",
+        "0.97",
+        "--alleleDigitUnits",
+        "4",
+        "--alleleDelimiter",
+        ":",
+        "-f",
+        "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+        "-1",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/all/r1.fq",
+        "-2",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/all/r2.fq",
+        "-t",
+        "4",
+        "-o",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/all/HG01530"
+      ],
+      "finished": 1789736578.733391,
+      "output_sha256": {
+        "HG01530_genotype.tsv": "940e4e8ac05d98c85bbd6efa576d6825254c31e686741ff274cd3047a40bd374",
+        "calls.json": "feaf1260cde3ffd5f5831d66e03a5a25c2d3a735784a45129d74a9d5a376f35d",
+        "r1.fq": "7e7e3c002e88dff709fd0bdef29ba38b6030fa5f7ddb40d72aab514db50948a0",
+        "r2.fq": "55265004f4effcb8cd7755324b1d903d3815a0ba937796afe2d713ea1737d264"
+      }
+    },
+    "hprc/sampled": {
+      "status": "complete",
+      "started": 1789739172.8040035,
+      "donor": "HG01530",
+      "mode": "graph",
+      "baseline_sha256": "2f903e0001f3155f5e3b3735f451e065aca1c8df6e84f391435bcfe6b3d60c25",
+      "reads_sha256": {
+        "1": "1e26d363799c4fe297a854743ecd6996500514608f476e7cd03fd9f571ae5cc3",
+        "2": "b215ba7922ce7db5028d16d9409cfd2e617d2ef3b69fcf3831dac8f9c2bb0261"
+      },
+      "reference_sha256": "9202c3d37a89045a8f01f08dfd3ba21c465835b72ac2e9e7a731ef4dfc2c1d6a",
+      "tool_sha256": "8db60074de8f3c0417bfce34c35787b7073f2fd831b4022d6092bc73b4c03aa8",
+      "driver_sha256": "903404b6c93136dd05ab8cd442cc9994a933da9cf9161e893bfd2854632db752",
+      "graph_manifest_sha256": "8c865a33901ba2bca0cc6011d704b4d4ba42665aa20c0af357d0f5dfc4809f51",
+      "scope": "Graph-assisted recruitment with unchanged native T1K allele inference; no genotype truth",
+      "selection": {
+        "native_pairs": 33564,
+        "graph_supported_pairs": 28465,
+        "input_pairs": 690741,
+        "output_pairs": 49671,
+        "added_pairs": 16107
+      },
+      "command": [
+        "/home/leechuck/hla/t1k-pangenome/tools/t1k-evidence-v1/original/genotyper",
+        "-s",
+        "0.97",
+        "--alleleDigitUnits",
+        "4",
+        "--alleleDelimiter",
+        ":",
+        "-f",
+        "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+        "-1",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc/sampled/r1.fq",
+        "-2",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc/sampled/r2.fq",
+        "-t",
+        "4",
+        "-o",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc/sampled/HG01530"
+      ],
+      "finished": 1789739469.881363,
+      "output_sha256": {
+        "HG01530_genotype.tsv": "dcebf4dbc73e737735714f4f52f28f2be8b6c93f4ba769d2114e651dedc511aa",
+        "calls.json": "af72802d1ddb7e92d8cabbd12135557dcb61596529895976e7d800d1f28c4a20",
+        "r1.fq": "98bba0a9b0d738f0e3613b4fffe5756624455612c30bd98a7b562526092b40c3",
+        "r2.fq": "55b2e4cba16a1add9e2e9352bd2e7c25efeb0c66eed04ec58c418ecd9ea26c06"
+      }
+    },
+    "hprc/unsampled": {
+      "status": "complete",
+      "started": 1789739245.8884885,
+      "donor": "HG01530",
+      "mode": "graph",
+      "baseline_sha256": "2f903e0001f3155f5e3b3735f451e065aca1c8df6e84f391435bcfe6b3d60c25",
+      "reads_sha256": {
+        "1": "1e26d363799c4fe297a854743ecd6996500514608f476e7cd03fd9f571ae5cc3",
+        "2": "b215ba7922ce7db5028d16d9409cfd2e617d2ef3b69fcf3831dac8f9c2bb0261"
+      },
+      "reference_sha256": "9202c3d37a89045a8f01f08dfd3ba21c465835b72ac2e9e7a731ef4dfc2c1d6a",
+      "tool_sha256": "8db60074de8f3c0417bfce34c35787b7073f2fd831b4022d6092bc73b4c03aa8",
+      "driver_sha256": "903404b6c93136dd05ab8cd442cc9994a933da9cf9161e893bfd2854632db752",
+      "graph_manifest_sha256": "fa35d554313107b92671b5d148ccf2b43a662c0bf7c20230bd9e9e19d507f1c1",
+      "scope": "Graph-assisted recruitment with unchanged native T1K allele inference; no genotype truth",
+      "selection": {
+        "native_pairs": 33564,
+        "graph_supported_pairs": 28689,
+        "input_pairs": 690741,
+        "output_pairs": 50232,
+        "added_pairs": 16668
+      },
+      "command": [
+        "/home/leechuck/hla/t1k-pangenome/tools/t1k-evidence-v1/original/genotyper",
+        "-s",
+        "0.97",
+        "--alleleDigitUnits",
+        "4",
+        "--alleleDelimiter",
+        ":",
+        "-f",
+        "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+        "-1",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc/unsampled/r1.fq",
+        "-2",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc/unsampled/r2.fq",
+        "-t",
+        "4",
+        "-o",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc/unsampled/HG01530"
+      ],
+      "finished": 1789739546.108086,
+      "output_sha256": {
+        "HG01530_genotype.tsv": "702328bc75060b0fba5acd7cf9fcdf46d10b38c1a5b99baae425d398b51f912d",
+        "calls.json": "af72802d1ddb7e92d8cabbd12135557dcb61596529895976e7d800d1f28c4a20",
+        "r1.fq": "d1198519f29b11ab91e722c4fb62dbb027007ac22d4a39c85585a2d6db972936",
+        "r2.fq": "1d30d546fbe4e205a0566fce6a6dfcbab7c140fa332d5f5eb6e8dbaf5b045b3e"
+      }
+    },
+    "hprc_asian/sampled": {
+      "status": "complete",
+      "started": 1789739176.7487864,
+      "donor": "HG01530",
+      "mode": "graph",
+      "baseline_sha256": "2f903e0001f3155f5e3b3735f451e065aca1c8df6e84f391435bcfe6b3d60c25",
+      "reads_sha256": {
+        "1": "1e26d363799c4fe297a854743ecd6996500514608f476e7cd03fd9f571ae5cc3",
+        "2": "b215ba7922ce7db5028d16d9409cfd2e617d2ef3b69fcf3831dac8f9c2bb0261"
+      },
+      "reference_sha256": "9202c3d37a89045a8f01f08dfd3ba21c465835b72ac2e9e7a731ef4dfc2c1d6a",
+      "tool_sha256": "8db60074de8f3c0417bfce34c35787b7073f2fd831b4022d6092bc73b4c03aa8",
+      "driver_sha256": "903404b6c93136dd05ab8cd442cc9994a933da9cf9161e893bfd2854632db752",
+      "graph_manifest_sha256": "8bb3aaa2c4d3ced91f8b124808c4efe318dda0f6a4a908aeb2271b2d635ef3e3",
+      "scope": "Graph-assisted recruitment with unchanged native T1K allele inference; no genotype truth",
+      "selection": {
+        "native_pairs": 33564,
+        "graph_supported_pairs": 24069,
+        "input_pairs": 690741,
+        "output_pairs": 45806,
+        "added_pairs": 12242
+      },
+      "command": [
+        "/home/leechuck/hla/t1k-pangenome/tools/t1k-evidence-v1/original/genotyper",
+        "-s",
+        "0.97",
+        "--alleleDigitUnits",
+        "4",
+        "--alleleDelimiter",
+        ":",
+        "-f",
+        "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+        "-1",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc_asian/sampled/r1.fq",
+        "-2",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc_asian/sampled/r2.fq",
+        "-t",
+        "4",
+        "-o",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc_asian/sampled/HG01530"
+      ],
+      "finished": 1789739471.2546651,
+      "output_sha256": {
+        "HG01530_genotype.tsv": "6e67c64b51c26d1e0fcde030e9b7493d6989ad98863ff1a865ebde3b31417e30",
+        "calls.json": "af72802d1ddb7e92d8cabbd12135557dcb61596529895976e7d800d1f28c4a20",
+        "r1.fq": "7321cee80349a206dbd2326600273308bfcbe34cc9ba538f3fe01227b5dc8de1",
+        "r2.fq": "6e3ad7759d4dc28cd8d4497acb298ded3b99d7454622ea9e5ed4ac900616d657"
+      }
+    },
+    "hprc_asian/unsampled": {
+      "status": "complete",
+      "started": 1789739179.6011662,
+      "donor": "HG01530",
+      "mode": "graph",
+      "baseline_sha256": "2f903e0001f3155f5e3b3735f451e065aca1c8df6e84f391435bcfe6b3d60c25",
+      "reads_sha256": {
+        "1": "1e26d363799c4fe297a854743ecd6996500514608f476e7cd03fd9f571ae5cc3",
+        "2": "b215ba7922ce7db5028d16d9409cfd2e617d2ef3b69fcf3831dac8f9c2bb0261"
+      },
+      "reference_sha256": "9202c3d37a89045a8f01f08dfd3ba21c465835b72ac2e9e7a731ef4dfc2c1d6a",
+      "tool_sha256": "8db60074de8f3c0417bfce34c35787b7073f2fd831b4022d6092bc73b4c03aa8",
+      "driver_sha256": "903404b6c93136dd05ab8cd442cc9994a933da9cf9161e893bfd2854632db752",
+      "graph_manifest_sha256": "bc1c67cb935042381ef946cfa67ac3f527fd5d1c31843b2d9d534e56ddfa725d",
+      "scope": "Graph-assisted recruitment with unchanged native T1K allele inference; no genotype truth",
+      "selection": {
+        "native_pairs": 33564,
+        "graph_supported_pairs": 25134,
+        "input_pairs": 690741,
+        "output_pairs": 46950,
+        "added_pairs": 13386
+      },
+      "command": [
+        "/home/leechuck/hla/t1k-pangenome/tools/t1k-evidence-v1/original/genotyper",
+        "-s",
+        "0.97",
+        "--alleleDigitUnits",
+        "4",
+        "--alleleDelimiter",
+        ":",
+        "-f",
+        "/home/leechuck/hla/t1k-pangenome/t1k-references/genome-v2/reference.fa",
+        "-1",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc_asian/unsampled/r1.fq",
+        "-2",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc_asian/unsampled/r2.fq",
+        "-t",
+        "4",
+        "-o",
+        "/home/leechuck/hla/t1k-pangenome/development/graph-recruitment-v1/HG01530/hprc_asian/unsampled/HG01530"
+      ],
+      "finished": 1789739478.788946,
+      "output_sha256": {
+        "HG01530_genotype.tsv": "c2045eac29052dee03e0f10eb81d2362e9f58012c654755e0f0ba5ed93d32543",
+        "calls.json": "af72802d1ddb7e92d8cabbd12135557dcb61596529895976e7d800d1f28c4a20",
+        "r1.fq": "845abbae6ae9f5bd89b5ee60a4e7a4c5a3336ea1e32db8271b596f6a5df9be13",
+        "r2.fq": "2344a2d0f9944176f1e35cf891e7db5d0943782ed1f6ad23dfdd2df272422955"
+      }
+    }
+  }
+}

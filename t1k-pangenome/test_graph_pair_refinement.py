@@ -1,8 +1,26 @@
 import unittest
-from graph_pair_refinement import refine_gene,assign_fragment
+from graph_pair_refinement import refine_gene,assign_fragment,internal_fragment
 
 
 class GraphRefinementTests(unittest.TestCase):
+    def test_internal_pair_rejects_flanking_mate_even_if_other_mate_overlaps(self):
+        paths={'p':dict(gene='A',gene_span=[100,1000])}
+        placement=dict(first_start=150,first_end=250,second_start=950,second_end=1050)
+        record=dict(graph_sources={'g':dict(candidates={'p':[placement]})})
+        self.assertFalse(internal_fragment(record,paths,'A'))
+        placement.update(second_start=700,second_end=800)
+        self.assertTrue(internal_fragment(record,paths,'A'))
+
+    def test_boundary_ambiguity_rejects_whole_fragment_without_deleting_candidates(self):
+        paths={p:dict(gene='A',gene_span=[100,1000]) for p in ('p','q')}
+        inside=dict(first_start=150,first_end=250,second_start=700,second_end=800)
+        outside=dict(inside,first_start=50)
+        record=dict(graph_sources={'g':dict(candidates={'p':[inside],'q':[outside]})})
+        self.assertFalse(internal_fragment(record,paths,'A'))
+        self.assertEqual(set(record['graph_sources']['g']['candidates']),{'p','q'})
+        paths['q']['gene']='B'
+        self.assertTrue(internal_fragment(record,paths,'A'))
+
     def setUp(self):
         self.a='DQA1*01:04:01:01';self.b='DQA1*01:04:01:02'
         self.candidates=[dict(label=a,families=['DQA1*01:04']) for a in (self.a,self.b)]

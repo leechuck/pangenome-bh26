@@ -11,7 +11,7 @@ from evidence_io import sha
 from build_graph import sequences
 from build_panel import GENES
 from t1k_reference import resolve_alias
-from graph_pair_refinement import coarse,assign_fragment,refine_gene
+from graph_pair_refinement import coarse,assign_fragment,refine_gene,internal_fragment
 from run_development_mapping import graph_path
 
 
@@ -43,11 +43,13 @@ def candidate_metadata(gene,records,seqs,pair,insert):
             unknown='UNKNOWN:'+path
             candidates[unknown]=dict(id=unknown,label=None,families=families)
             ids.append(unknown)
-        paths[path]=dict(gene=gene,effective_length=len(sequence)-insert+1,candidates=ids)
+        exons=record['exons']
+        span=[min(a for a,b in exons),max(b for a,b in exons)] if exons else None
+        paths[path]=dict(gene=gene,effective_length=len(sequence)-insert+1,candidates=ids,gene_span=span)
     return paths,[candidates[k] for k in sorted(candidates)]
 
 
-def run(baseline,joined,reference,calibration,output):
+def run(baseline,joined,reference,calibration,output,internal_pairs=False):
     if not os.environ.get('SLURM_CPUS_PER_TASK'):raise ValueError('Run under Slurm')
     if output.exists():raise FileExistsError(output)
     bm=json.loads((baseline/'COMPLETE.json').read_text())
@@ -95,7 +97,8 @@ def run(baseline,joined,reference,calibration,output):
                 reference_manifest_sha256=sha(reference.parent/'COMPLETE.json'),panel=reference.name,
                 calibration_sha256=sha(calibration),driver_sha256=sha(Path(__file__)),
                 model_sha256=sha(Path(__file__).with_name('graph_pair_refinement.py')),
-                parameters=dict(temperature=10,locus_margin=10,minimum_fragments=20,minimum_gap=10,noise=.01),
+                parameters=dict(temperature=10,locus_margin=10,minimum_fragments=20,minimum_gap=10,noise=.01,
+                                internal_pairs=internal_pairs),
                 scope='Development graph four-field refinement; native two-field calls and unresolved fallbacks retained')
     def save():(output/'manifest.json').write_text(json.dumps(record,indent=2)+'\n')
     save()
@@ -109,6 +112,9 @@ def run(baseline,joined,reference,calibration,output):
                 assigned=assign_fragment(item,paths)
                 if assigned is None:continue
                 gene,values=assigned
+                if internal_pairs and not internal_fragment(item,paths,gene):
+                    counts['excluded_boundary_fragments']+=1
+                    continue
                 rows[gene].append([values.get(c['id'],0) for c in candidates[gene]])
                 counts[gene]+=1
         updated=copy.deepcopy(calls);decisions={}
@@ -136,4 +142,5 @@ def run(baseline,joined,reference,calibration,output):
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     for name in ('baseline','joined','reference','calibration','output'):p.add_argument('--'+name,type=Path,required=True)
-    a=p.parse_args();run(a.baseline,a.joined,a.reference,a.calibration,a.output)
+    p.add_argument('--internal-pairs',action='store_true')
+    a=p.parse_args();run(a.baseline,a.joined,a.reference,a.calibration,a.output,a.internal_pairs)

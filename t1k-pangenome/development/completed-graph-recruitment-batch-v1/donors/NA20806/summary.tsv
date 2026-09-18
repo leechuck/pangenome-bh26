@@ -1,0 +1,15 @@
+donor	method	state	fields	eligible	called	correct	allele_matches
+NA20806	T1K	complete	2	8	8	8	16
+NA20806	T1K	complete	4	8	8	4	11
+NA20806	ipd_genome	complete	2	8	8	8	16
+NA20806	ipd_genome	complete	4	8	8	6	13
+NA20806	all	complete	2	8	8	8	16
+NA20806	all	complete	4	8	8	6	13
+NA20806	hprc/sampled	complete	2	8	8	8	16
+NA20806	hprc/sampled	complete	4	8	8	6	13
+NA20806	hprc/unsampled	complete	2	8	8	8	16
+NA20806	hprc/unsampled	complete	4	8	8	6	13
+NA20806	hprc_asian/sampled	complete	2	8	8	8	16
+NA20806	hprc_asian/sampled	complete	4	8	8	6	13
+NA20806	hprc_asian/unsampled	complete	2	8	8	8	16
+NA20806	hprc_asian/unsampled	complete	4	8	8	6	13

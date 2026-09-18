@@ -13,6 +13,28 @@ def coarse(allele):
     return ':'.join(allele.removeprefix('HLA-').split(':')[:2])
 
 
+def internal_fragment(record, paths, gene):
+    """Require both mates inside the exon envelope at every winning-locus placement.
+
+    Reject the whole fragment on ambiguous boundary placement, rather than
+    deleting individual candidate placements and creating artificial absences.
+    Locus competition must already have used all unfiltered evidence.
+    """
+    seen=False
+    for source in record['graph_sources'].values():
+        for path,placements in source['candidates'].items():
+            meta=paths[path]
+            if meta['gene']!=gene:continue
+            for placement in placements:
+                seen=True
+                span=meta.get('gene_span')
+                if span is None:return False
+                for mate in ('first','second'):
+                    start,end=placement[mate+'_start'],placement[mate+'_end']
+                    if not span[0]<=start<end<=span[1]:return False
+    return seen
+
+
 def refine_gene(native_pair, candidates, rows, minimum_fragments=20, minimum_gap=10,
                 noise=.01, tolerance=1e-8):
     """Candidate entries carry label (or None) and possible two-field families."""

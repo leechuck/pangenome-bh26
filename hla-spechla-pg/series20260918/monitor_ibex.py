@@ -22,7 +22,8 @@ def development_jobs():
               'native-genome-evidence-launch.json','graph-recruitment-launch.json',
               'all-read-control-launch.json','graph-development-batch-launch.json',
               'validation-baseline-launch.json','graph-pair-refinement-launch.json',
-              'graph-pair-batch-launch.json','graph-refinement-diagnostic-launch.json'):
+              'graph-pair-batch-launch.json','graph-refinement-diagnostic-launch.json',
+              'graph-internal-refinement-launch.json'):
   path=T1K/name
   if not path.exists():continue
   record=json.loads(path.read_text())
@@ -76,6 +77,8 @@ while True:
    if (T1K/'graph-pair-refinement-launch.json').exists():
     subprocess.run([sys.executable,str(T1K/'fetch_graph_pair_refinement.py')],check=True,timeout=180)
     subprocess.run([sys.executable,str(T1K/'audit_graph_refinement.py')],check=True,timeout=180)
+   if (T1K/'graph-internal-refinement-launch.json').exists():
+    subprocess.run([sys.executable,str(T1K/'fetch_internal_refinement.py')],check=True,timeout=180)
   cycle+=1
   if terminal:break
  except Exception as e:

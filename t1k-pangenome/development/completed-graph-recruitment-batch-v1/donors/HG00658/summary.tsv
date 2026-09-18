@@ -1,0 +1,15 @@
+donor	method	state	fields	eligible	called	correct	allele_matches
+HG00658	T1K	complete	2	8	8	8	16
+HG00658	T1K	complete	4	5	5	2	7
+HG00658	ipd_genome	complete	2	8	8	8	16
+HG00658	ipd_genome	complete	4	5	5	5	10
+HG00658	all	complete	2	8	8	8	16
+HG00658	all	complete	4	5	5	5	10
+HG00658	hprc/sampled	complete	2	8	8	8	16
+HG00658	hprc/sampled	complete	4	5	5	5	10
+HG00658	hprc/unsampled	complete	2	8	8	8	16
+HG00658	hprc/unsampled	complete	4	5	5	5	10
+HG00658	hprc_asian/sampled	complete	2	8	8	8	16
+HG00658	hprc_asian/sampled	complete	4	5	5	5	10
+HG00658	hprc_asian/unsampled	complete	2	8	8	8	16
+HG00658	hprc_asian/unsampled	complete	4	5	5	5	10

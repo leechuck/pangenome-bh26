@@ -538,6 +538,26 @@ and no running task was restarted. The update audit is
 `graph-batch-dual-partition-update.json`; later completion must still be verified
 from the individual output manifests.
 
+### Gene-internal refinement development comparison
+
+The completed recruitment comparison is archived in
+`development/completed-graph-recruitment-batch-v1/`. All eight donors completed
+all conditions; graph recruitment scored 40–41/47 four-field genotypes versus
+41/47 for genomic IPD. This provides no incremental gain on this development set.
+
+The next refinement version retains the same pair scoring and thresholds, but
+admits a fragment only when both mates lie wholly inside the annotated exon
+envelope (including introns) at every placement at the selected gene. A boundary
+placement rejects the whole fragment rather than deleting only some candidate
+placements. Unfiltered competing-locus evidence still determines locus
+assignment. This deliberately excludes terminal UTRs as well as flanks; extending
+the interval would require explicit annotation. It is a development restriction,
+not a calibrated diagnostic-variant likelihood or a validation candidate freeze.
+
+The same eight donors and four conditions run under a new code snapshot and
+output directory. Version-one outputs remain intact. Tests cover a flanking mate,
+alternative boundary placement, and non-destructive filtering; all 112 tests pass.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122

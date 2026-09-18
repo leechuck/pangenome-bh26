@@ -31,7 +31,8 @@ def load(folder,baseline):
     return report['status'],calls,report
 
 
-def run():
+def run(snapshot=None,output=None):
+    snapshot=Path(snapshot) if snapshot is not None else HERE/'work/graph-pair-refinement-snapshot'
     plan=json.loads((HERE/'graph-development-batch.json').read_text())
     donors=[plan['existing_pilot'],*plan['donors']]
     exposed={r['donor'] for r in csv.DictReader((HERE/'execution-cohort.tsv').open(),delimiter='\t')}
@@ -45,7 +46,7 @@ def run():
     for donor in donors:
         d=donor['donor'];baseline=HERE/'work/linear-snapshot/ipd_genome'/d
         for condition in CONDITIONS:
-            state,calls,report=load(HERE/'work/graph-pair-refinement-snapshot'/d/condition,baseline)
+            state,calls,report=load(snapshot/d/condition,baseline)
             if report:provenance[d+'/'+condition]=report
             for gene in GENES:
                 records=truth.get((d,gene))
@@ -61,7 +62,7 @@ def run():
             summary.append(dict(method=method,fields=fields,planned_donors=len(donors),
                                 completed_donors=len({r['donor'] for r in subset if r['state']=='complete'}),
                                 **{k:sum(r[k] for r in subset) for k in ('eligible','called','correct','allele_matches')}))
-    out=HERE/'development/graph-pair-refinement';out.mkdir(parents=True,exist_ok=True)
+    out=Path(output) if output is not None else HERE/'development/graph-pair-refinement';out.mkdir(parents=True,exist_ok=True)
     write_tsv(out/'gene_scores.tsv',rows);write_tsv(out/'summary.tsv',summary)
     (out/'provenance.json').write_text(json.dumps(dict(scope='Exposed development only; partial comparisons are not accuracy claims',runs=provenance,scorer_sha256=sha(Path(__file__))),indent=2)+'\n')
     print(json.dumps(summary,indent=2))
