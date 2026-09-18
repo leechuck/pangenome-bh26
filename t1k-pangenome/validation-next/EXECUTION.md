@@ -62,3 +62,28 @@ freeze is written. They are not invoked automatically by the monitor.
 Eleven HGSVC tests now pass, including rejection of altered parent links,
 swapped reads, missing native-locus guards and incomplete provenance grids.
 The scorer has not yet been run on held-out predictions or truth.
+
+## Frozen launch, 18 September 2026
+
+All 28 read jobs completed successfully, yielding **20,772,142 verified pairs**.
+The execution freeze is
+`4afbe16398deefe3e1a26e7a8b974c7d63219eda1220ccd3bf6919f277d272be`.
+Local freeze consistency checks passed before recording this launch.
+
+The first seven arrays are submitted (588 tasks total):
+
+| Stage | Slurm job |
+|---|---|
+| Original T1K | 52062787 |
+| Genomic-IPD T1K | 52062822 |
+| Coverage | 52062857 |
+| Native evidence | 52062887 |
+| Bootstrap mapping | 52062901 |
+| Bootstrap projection | 52062902 |
+| Library calibration | 52062917 |
+
+All 28 original-T1K, 28 genomic-IPD and 28 coverage tasks were confirmed RUNNING
+at the initial check. Dependent arrays are queued behind their prerequisites.
+The monitor remains active and will release calibrated mapping and subsequent
+stages. This is execution status, not evidence of accuracy; no predictions or
+held-out truth have been scored.
