@@ -635,6 +635,20 @@ and HPRC contrasts are explicitly exploratory. Tests exercise failed-donor
 denominators and incomplete-grid rejection. All 117 tests pass. Provenance
 verification and the final snapshot handoff remain necessary before unblinding.
 
+### Provenance handoff before unblinding
+
+`validation_handoff.py` checks the complete 84-by-four-method execution grid,
+read pairing, frozen baseline recipes, genomic-reference identity, graph model
+hashes/parameters, baseline linkage and output digests without returning any
+prediction text. `--fetch` is rejected while runs are incomplete; failed runs
+require explicit audit rather than omission. `score_reserved_snapshot.py` checks
+every fetched manifest/output against that handoff before decoding calls or
+loading truth, then records `validation/UNBLINDED.json` and invokes the frozen
+endpoint implementation. `validation/HANDOFF_FREEZE.json` pins this handoff code
+before prediction fetch. Tests cover missing/duplicate/pending execution records
+and verify that an unready snapshot cannot open truth or create an unblinding
+marker. All 119 tests pass. No reserved predictions have yet been fetched.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122

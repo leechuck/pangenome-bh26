@@ -1,0 +1,12 @@
+{
+  "status": "handoff_code_frozen_before_prediction_fetch",
+  "frozen_at": "2026-09-18T14:29:11.080959+00:00",
+  "evaluation_freeze_sha256": "03be2e85d946d0cf62c2db2bdb3632c65732d2ca5fbddf02a2626b7a6380195f",
+  "code_sha256": {
+    "t1k-pangenome/validation_handoff.py": "131fc5b48ee9fcc760fc005781b0e2ae6e864f1d691a09cfa3b68c65a8fba5ea",
+    "t1k-pangenome/score_reserved_snapshot.py": "53812e40fcef4f8dd958fa49f47d2a897630c9bec0c88d8e68fd64dd3327a17c",
+    "t1k-pangenome/score_graph_pair_refinement.py": "00e173281e97e502dd96f900602fd9d0bcb5263998f4660455adbb39c130ab7e",
+    "hla-spechla-pg/score_validation.py": "9402a912ee42d3a6d97badcdb1e7a498fe786fdab7f7781af3923d7ca936ec6f"
+  },
+  "policy": "Fetch only after complete metadata/provenance grid; validate all snapshot hashes before decoding predictions or loading truth; record unblinding persistently. Terminal failures require an explicit audit, never omission."
+}
