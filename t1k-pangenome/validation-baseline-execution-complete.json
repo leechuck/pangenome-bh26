@@ -1,0 +1,1099 @@
+{
+  "scope": "Execution metadata only; genotype contents not fetched or scored",
+  "status": "complete",
+  "plan_sha256": "4333e38da37c2ebc56fdc404ffee3e365caf38347c1b7804e270ef0c268d691b",
+  "donors": [
+    {
+      "donor": "HG02300",
+      "status": "complete",
+      "started": 1789736945.0651166,
+      "finished": 1789737086.3636167,
+      "reads_sha256": {
+        "r1.fq.gz": "f7bf8fc8cedc25e94a507012a84ed0a1bef0a972170cbb862f757b5905ee1404",
+        "r2.fq.gz": "4e77193c7f7a859e8a325fa8d313828239e8a9cad75c054eb54acfc91ba5c58d"
+      },
+      "output_sha256": {
+        "HG02300_genotype.tsv": "9c4af89afdee0fe008cdafa5dc26d043414ecb6fce7df3ed3ff52843bcb54c3e"
+      }
+    },
+    {
+      "donor": "HG02056",
+      "status": "complete",
+      "started": 1789736944.9593537,
+      "finished": 1789737083.7093227,
+      "reads_sha256": {
+        "r1.fq.gz": "c9380f7603d20f4675e150f33e1c9440be47634714e669e85159e1e85e6cb2d1",
+        "r2.fq.gz": "d5f93a67c8715905b5d4843a4a9f13bb8ff625c01b73e94506ea0f8e94cfa8b6"
+      },
+      "output_sha256": {
+        "HG02056_genotype.tsv": "a133e0e222444a4f1b8924184cc55f09d34a3448f7b871011f5eac3e0a08b51c"
+      }
+    },
+    {
+      "donor": "NA19043",
+      "status": "complete",
+      "started": 1789737078.0358663,
+      "finished": 1789737216.1762915,
+      "reads_sha256": {
+        "r1.fq.gz": "a6d399377bb492904ce586b7fb186a20b41e3fdefc923de12ce0afdcc5e5a984",
+        "r2.fq.gz": "069f0b768defd23a1973608597856667cb3f1f5831a12fc42c4d6f547ac43f8b"
+      },
+      "output_sha256": {
+        "NA19043_genotype.tsv": "52de7a4d636bc87eedbc9e819f310fba1c872b52d9e83d15f4b27604dfb86b75"
+      }
+    },
+    {
+      "donor": "HG02965",
+      "status": "complete",
+      "started": 1789736945.2933376,
+      "finished": 1789737083.6828609,
+      "reads_sha256": {
+        "r1.fq.gz": "5e5c6bc2ba7455d85333575c4bb65d2b6495388bdf46fe2834619ff2145becdf",
+        "r2.fq.gz": "bd9a7f7174227c530c45319d50fc8ba0705529cce4cb44713c9346b5537c7d7e"
+      },
+      "output_sha256": {
+        "HG02965_genotype.tsv": "d556c4025d059be65cee44389854c481c9d3b165b54dc79b6d73cb4a6dc29971"
+      }
+    },
+    {
+      "donor": "HG02818",
+      "status": "complete",
+      "started": 1789736945.3171577,
+      "finished": 1789737078.7705848,
+      "reads_sha256": {
+        "r1.fq.gz": "c58ca67001a59bd63492486c1e9601989225e2f02fb82b9aa0e48158b9fac1bc",
+        "r2.fq.gz": "d4e202292870ff7bf702989539f8e031a4ef2fc2ab4080704bac6f2649f6e22e"
+      },
+      "output_sha256": {
+        "HG02818_genotype.tsv": "91f19a69f7392c9bbca79d6a2f2f5ea14fdd813df24a8e64b5a3710a9d4b6e4e"
+      }
+    },
+    {
+      "donor": "HG02647",
+      "status": "complete",
+      "started": 1789736944.4107926,
+      "finished": 1789737082.9203362,
+      "reads_sha256": {
+        "r1.fq.gz": "f9a88ff41ade6c10c88e8caa28a0e731713d6895d38654ad45f3cfdb5dfb390d",
+        "r2.fq.gz": "b41d7432c4b94ff6f84ffafbf989522e3117d48331af1b1828aca169112d63ee"
+      },
+      "output_sha256": {
+        "HG02647_genotype.tsv": "e73815690ced23cfe37565aee0992c8cb4dc4cb672d7dbe13605e849eb41e168"
+      }
+    },
+    {
+      "donor": "HG02083",
+      "status": "complete",
+      "started": 1789736944.9611025,
+      "finished": 1789737077.2741346,
+      "reads_sha256": {
+        "r1.fq.gz": "a910d623c0fe8dcfbb3706be27072dcdfed8503320ede3f9303b2ede2009b151",
+        "r2.fq.gz": "a3769268fbf1ac39b61a6f73bda930cf2153cf3b4c89f88c2b3ddd9f6f40e173"
+      },
+      "output_sha256": {
+        "HG02083_genotype.tsv": "d94cd614f2781588280a6509319b2cc70ad4d468dc244bcf1c85c0983e55ab6a"
+      }
+    },
+    {
+      "donor": "HG02040",
+      "status": "complete",
+      "started": 1789736944.662095,
+      "finished": 1789737068.9606805,
+      "reads_sha256": {
+        "r1.fq.gz": "b25815c6938a78b02f043cd3bea51619063e5263aad69f3dc85b67f7bba63bff",
+        "r2.fq.gz": "9aa8b36552e6a68bf4fd95294e53435481aa5bcd2816a2b7767f24b91fb20c12"
+      },
+      "output_sha256": {
+        "HG02040_genotype.tsv": "18cc17f29a552ccc0402856c426d4fcc81f04d5ddce52d9f4f981cd8bc659bf4"
+      }
+    },
+    {
+      "donor": "HG02698",
+      "status": "complete",
+      "started": 1789736944.629864,
+      "finished": 1789737072.686861,
+      "reads_sha256": {
+        "r1.fq.gz": "d136be07514683190ff2ff5f106d4221b1c1170e2aa7e5ce7c22bc0ea79704e6",
+        "r2.fq.gz": "9e369685194c39770ed1058dec2208692e1d0fe4d00a945ccff8ceca31187c89"
+      },
+      "output_sha256": {
+        "HG02698_genotype.tsv": "9d50026c0a697d7a6e1c5f6680a23e7769c07aea5a8423c97129c165c097d792"
+      }
+    },
+    {
+      "donor": "HG04160",
+      "status": "complete",
+      "started": 1789737077.8101523,
+      "finished": 1789737211.372153,
+      "reads_sha256": {
+        "r1.fq.gz": "a215f7e377f045bcfc943b964fabb34740dc74f5441f26d27627ec3c7d9a6c06",
+        "r2.fq.gz": "ef84bb4b22b1a8219e813571f70a92125b618675edc21874aa1f600ff51f4c3f"
+      },
+      "output_sha256": {
+        "HG04160_genotype.tsv": "61d33b523980b703d0c041b48b7d2c7cbf23398fe4ddc857323b7bcb13a9b02c"
+      }
+    },
+    {
+      "donor": "HG03540",
+      "status": "complete",
+      "started": 1789737077.885435,
+      "finished": 1789737226.0753832,
+      "reads_sha256": {
+        "r1.fq.gz": "165025017a00aa3724145f7f1baccb569194840069a82d2ccab6bd3e6ecb6291",
+        "r2.fq.gz": "12cb172dabc42e13a2657b5568332805b61de8012abf6b0dba566636cf910a71"
+      },
+      "output_sha256": {
+        "HG03540_genotype.tsv": "90b8454fc01c62244914431858abe63b4c7ebdade0245462f7d633c401ac004b"
+      }
+    },
+    {
+      "donor": "NA21102",
+      "status": "complete",
+      "started": 1789737078.8927183,
+      "finished": 1789737223.6339004,
+      "reads_sha256": {
+        "r1.fq.gz": "cbe8c3dcd4b9286cb5c881485bca47f9b3451340a822f5d341bfc74eaf0654df",
+        "r2.fq.gz": "eb047a765a704544f1e4ab4ec4588241d3241d099dd5a5a3ec95e904e0ac6021"
+      },
+      "output_sha256": {
+        "NA21102_genotype.tsv": "5f5eaa0d4a2bbd1b06320f3c30fd47d140a29ecfea51b64ea5f8e25a3d17d8be"
+      }
+    },
+    {
+      "donor": "HG02015",
+      "status": "complete",
+      "started": 1789736944.7251396,
+      "finished": 1789737090.3031335,
+      "reads_sha256": {
+        "r1.fq.gz": "6ee60e768392c0a01eeb6d0b3f8187ed980bb8ceef7652d8e808120e5d49f0af",
+        "r2.fq.gz": "8f8df9799644bb0694256a4e32265e8caede24fc85c0a3897f0c15dd2f3c7071"
+      },
+      "output_sha256": {
+        "HG02015_genotype.tsv": "98743c24f6ed80577b495f23a1a2f9cd526a1afd273ad72ac277856ae7f224eb"
+      }
+    },
+    {
+      "donor": "HG02257",
+      "status": "complete",
+      "started": 1789736945.2570214,
+      "finished": 1789737086.673867,
+      "reads_sha256": {
+        "r1.fq.gz": "4d35818397d6ffb3fb18f5e2d9117d89f1ba22604121a966e8bf0ed278dddfb6",
+        "r2.fq.gz": "b8ea9399618349f83f0f11927f50e62db582e6286e6b11babf44f5b669eeb0b7"
+      },
+      "output_sha256": {
+        "HG02257_genotype.tsv": "997f980dd5d5314f4ef3f538087532d84aa45c19d68b51b02aba97f1d4e65c62"
+      }
+    },
+    {
+      "donor": "HG02392",
+      "status": "complete",
+      "started": 1789736944.7344353,
+      "finished": 1789737067.2607281,
+      "reads_sha256": {
+        "r1.fq.gz": "ea07dc8a7d7c9a59f7526216046c7ec5d7418165ef4e1d50dd02404e07d1c4d1",
+        "r2.fq.gz": "f6b12ca273252996072856cd6124a56951c0ccaffcdee2cbdd1a4b785fd1ec6c"
+      },
+      "output_sha256": {
+        "HG02392_genotype.tsv": "89eb1a199110c9a8f4b4519e7a808fe08551e0173dae9ff4e34bb4d457d3b56d"
+      }
+    },
+    {
+      "donor": "HG03583",
+      "status": "complete",
+      "started": 1789737078.581266,
+      "finished": 1789737219.1536384,
+      "reads_sha256": {
+        "r1.fq.gz": "7be5d68e60310f5ec0ee790e52d6dca1d0bc3902d42cb9781b4fcea173865c0c",
+        "r2.fq.gz": "ed6597509d5cffaa11508a56a725c5dc037ac3f4ab5c756cd9b8aad7190c50d1"
+      },
+      "output_sha256": {
+        "HG03583_genotype.tsv": "a06dd852eead42a9c05b9cda1e65676a0f986ca29e57f428ef12f8585518d406"
+      }
+    },
+    {
+      "donor": "NA20850",
+      "status": "complete",
+      "started": 1789737078.0312746,
+      "finished": 1789737232.9854374,
+      "reads_sha256": {
+        "r1.fq.gz": "a83a183add4558f7b563ea2bd448618959fdcf9e5077f9f628b4ed4020d61667",
+        "r2.fq.gz": "4e3fef35057c3927151421ffdbb985b063230c9b7f1133792625a783f6bba784"
+      },
+      "output_sha256": {
+        "NA20850_genotype.tsv": "f669eb9fe520f67383509dbe4480ece7f5aa811afb8a930480e54a71d03e3613"
+      }
+    },
+    {
+      "donor": "HG03470",
+      "status": "complete",
+      "started": 1789737077.882043,
+      "finished": 1789737210.4274337,
+      "reads_sha256": {
+        "r1.fq.gz": "0f71b1fc070938c17417168e73819933793bebdbe06ef07fa45d873aa149a1f6",
+        "r2.fq.gz": "a7677bf7dbcf29e036b5d07ce0c17f929da1327d5c1e58196e1a7c77a3724c07"
+      },
+      "output_sha256": {
+        "HG03470_genotype.tsv": "312253eb5d3b3b00ae0ac265e2497d0d504e383740018bc86275a3f9ce3b3d42"
+      }
+    },
+    {
+      "donor": "HG03486",
+      "status": "complete",
+      "started": 1789737077.9525132,
+      "finished": 1789737214.3977652,
+      "reads_sha256": {
+        "r1.fq.gz": "e4fe89dff9ad82229811be6a7a7482e641ceb6ea0a2c9c91d8dccc644e09ecd3",
+        "r2.fq.gz": "26f97b5d072f9c3d85291d6c05450c3d528fba1cfbd4d38a14d6fc5c74e0a3c4"
+      },
+      "output_sha256": {
+        "HG03486_genotype.tsv": "540409fea34bc94ef61517971fed83d0333d37b12f2fc6ae6001a8f0eb174739"
+      }
+    },
+    {
+      "donor": "NA20870",
+      "status": "complete",
+      "started": 1789737078.3538048,
+      "finished": 1789737185.1785498,
+      "reads_sha256": {
+        "r1.fq.gz": "0cb32e30019fc65a27d43381e7521e0213e2194f7ef04e9465e8d1549a513869",
+        "r2.fq.gz": "3ff7fd3e6e6590940b585f29d32f36fd304f2e5efdfa5f82db2554119dd8b200"
+      },
+      "output_sha256": {
+        "NA20870_genotype.tsv": "ed646da74d3fe8aa128f9c91654ed2f6b7304008181669c7aabba7ba58ca8b3e"
+      }
+    },
+    {
+      "donor": "HG02514",
+      "status": "complete",
+      "started": 1789736944.427318,
+      "finished": 1789737078.5275722,
+      "reads_sha256": {
+        "r1.fq.gz": "acdc94624811c5e9f2e9796dceaab50c2b92dda6a11896e77206d9dd75f1ac69",
+        "r2.fq.gz": "70436e16baece9527e36550f8afff2e9ac308b3378814d365394de75985b819d"
+      },
+      "output_sha256": {
+        "HG02514_genotype.tsv": "aec589ce99defe5cb935891d6af713adea86dc2760a62bada76d3de24c94c035"
+      }
+    },
+    {
+      "donor": "HG02841",
+      "status": "complete",
+      "started": 1789736945.3872423,
+      "finished": 1789737094.4908347,
+      "reads_sha256": {
+        "r1.fq.gz": "8ce44cb3292e7f3e479644054f9a15654719b1d17137d6d596c66b2e4bf87061",
+        "r2.fq.gz": "9b5ac36a611b57d18b31730c89ac9bea957928ef3c55231dd9bb6cff2b5d11a7"
+      },
+      "output_sha256": {
+        "HG02841_genotype.tsv": "7396ba1ed61927a2afcb3a106c94d04c353d74dfed04da88e41fd2c4dc5a018e"
+      }
+    },
+    {
+      "donor": "HG02886",
+      "status": "complete",
+      "started": 1789736945.4237795,
+      "finished": 1789737084.3674574,
+      "reads_sha256": {
+        "r1.fq.gz": "9ce156b274fc3da97ca944fef4016c11744b2e60b640ce090fa4d185c2115d25",
+        "r2.fq.gz": "907f6386536689789b9af72f01665b01553b23e49b3ffc29dd2fea38408f4c19"
+      },
+      "output_sha256": {
+        "HG02886_genotype.tsv": "bad9f2ef29d162e365e70a9cf8fbb904bcbc03c2a5cb967dd23ab12266ac51f0"
+      }
+    },
+    {
+      "donor": "HG03942",
+      "status": "complete",
+      "started": 1789737078.5289743,
+      "finished": 1789737244.54386,
+      "reads_sha256": {
+        "r1.fq.gz": "92c5023a2f36cf0e84b0e51948251c301214b68faf134c1ea0b7f0db22a03072",
+        "r2.fq.gz": "0972bb7d5cdac3e13008bc316be9f3db4aaa083cba5230b5b7811f00257ac09a"
+      },
+      "output_sha256": {
+        "HG03942_genotype.tsv": "cea348e6e650ade3a274079855f4de86b7a5b7ea7ceb0620fe6918bf9722053d"
+      }
+    },
+    {
+      "donor": "HG01981",
+      "status": "complete",
+      "started": 1789736944.728783,
+      "finished": 1789737072.718541,
+      "reads_sha256": {
+        "r1.fq.gz": "61e7a4c513b5dcf5a7488d8ab5489cc1a08753f7c757cdde898a02d8ceb4266c",
+        "r2.fq.gz": "acd41d1d4f4de42a9e5da8689496acc4783ad8c1ee1f59ff68fca491d686f37d"
+      },
+      "output_sha256": {
+        "HG01981_genotype.tsv": "bd86ff35d2fde8da527ed09c4baf31dbf3a60a900b30ab7a9e568a70beeeb235"
+      }
+    },
+    {
+      "donor": "HG03041",
+      "status": "complete",
+      "started": 1789736945.393622,
+      "finished": 1789737071.077561,
+      "reads_sha256": {
+        "r1.fq.gz": "b1e459b9e2ba0d6bf1c5f23a798b5c7e81d0c5471e8c95b5c695c0a45d6eda3f",
+        "r2.fq.gz": "894bdfba8e1075502b194c645393adea88716c6b30a78b4b5501b0f238b2d606"
+      },
+      "output_sha256": {
+        "HG03041_genotype.tsv": "0f1b720e180eea92f1b8df373a835ca5c21f8f27d69d5fc248f7d7e812b91216"
+      }
+    },
+    {
+      "donor": "HG02735",
+      "status": "complete",
+      "started": 1789736945.3799753,
+      "finished": 1789737101.3173804,
+      "reads_sha256": {
+        "r1.fq.gz": "b947bfafcde7b1919e659ecba5ff824e3ac897cb5366a3d2ae19946ea9a7ec42",
+        "r2.fq.gz": "5c803f149ed84c72a79ea5766a37a06bc30f54e3571cc75c246ae57a20a3915e"
+      },
+      "output_sha256": {
+        "HG02735_genotype.tsv": "1c020b5fd46a4d655af7bd543e571c1c5e3282dc60db6187dbe7c3eb65855e4f"
+      }
+    },
+    {
+      "donor": "HG02615",
+      "status": "complete",
+      "started": 1789736944.5530553,
+      "finished": 1789737066.975839,
+      "reads_sha256": {
+        "r1.fq.gz": "74bb3587696432ab096c407e8b57f01f756f64f5516dd2cdcaf8ea6fec579ca1",
+        "r2.fq.gz": "0fe5a1094b04f8a6d51e4f929cfaa7b10a55239e17c84f5860623530f468fe11"
+      },
+      "output_sha256": {
+        "HG02615_genotype.tsv": "c098cd7b1a4272fb2625b8673cc6f5c8dbd3687e2fbec13f9fd3ef4cfbf19e43"
+      }
+    },
+    {
+      "donor": "HG02572",
+      "status": "complete",
+      "started": 1789736944.9348698,
+      "finished": 1789737072.0277295,
+      "reads_sha256": {
+        "r1.fq.gz": "b9cd114badb4235bd243ecba22324f22c5e76081d19320af803239259fffd1bc",
+        "r2.fq.gz": "f5765f6112ed1d5dddf3feada1cf0ddfcfa33ddb8a8d49b873e9b77921102915"
+      },
+      "output_sha256": {
+        "HG02572_genotype.tsv": "edc8e7ffbda2086f4f90a1d83065116c1a5e8f9f21c2660e1d77bb8ae1ca0c9d"
+      }
+    },
+    {
+      "donor": "HG02273",
+      "status": "complete",
+      "started": 1789736945.275919,
+      "finished": 1789737078.9235857,
+      "reads_sha256": {
+        "r1.fq.gz": "3b09c8ba321f35eb166390e6d42478c81991422481f0b1d513a2349b332afeda",
+        "r2.fq.gz": "df7e154ebff76fd6326216e84ae0754a4ba43cf3c87a007220af1e0a7205249f"
+      },
+      "output_sha256": {
+        "HG02273_genotype.tsv": "44cb7cfbff0cce7e19eed96ed58dd255699e4a3b2bf1275bd9550d8005461023"
+      }
+    },
+    {
+      "donor": "NA18906",
+      "status": "complete",
+      "started": 1789737077.9509058,
+      "finished": 1789737194.0437362,
+      "reads_sha256": {
+        "r1.fq.gz": "81d5b62fcf5c358117290ffd3f1bd8f3cc731417371a7e4797d0787337c36b38",
+        "r2.fq.gz": "85ab3ead91a4432d1aa509f48487c668a40335752816fc8efdea2744990bd321"
+      },
+      "output_sha256": {
+        "NA18906_genotype.tsv": "1b955c5a0ae06130afc5b7b298fcd83244c0ba0a6e75a6df98b853d31597c8fa"
+      }
+    },
+    {
+      "donor": "HG01952",
+      "status": "complete",
+      "started": 1789736944.6486866,
+      "finished": 1789737088.6997736,
+      "reads_sha256": {
+        "r1.fq.gz": "26b787260b529fc1ce940b27d6d57234972145378f518bb0454a0039cce4952d",
+        "r2.fq.gz": "032b2cc3138b2283e551103f11d151433273d263ac2de57643bc69e29e91a948"
+      },
+      "output_sha256": {
+        "HG01952_genotype.tsv": "6fc8b64c8a1084323af0fa7161f307ab8fbbe18333f2198b8f7f514310af14fa"
+      }
+    },
+    {
+      "donor": "HG01884",
+      "status": "complete",
+      "started": 1789736944.6158328,
+      "finished": 1789737099.58555,
+      "reads_sha256": {
+        "r1.fq.gz": "41b9b66137461e80132df0f5d0272a1db39c5f137c940a2049ee490b449e97f4",
+        "r2.fq.gz": "360cc557a715bbb1691ecca6d8496dad08b68fce0046ec806dc59477599817d3"
+      },
+      "output_sha256": {
+        "HG01884_genotype.tsv": "6bb9cf7034a47017bf1fcbc031eebec0528fa9d5dff957ed5c1c6173289687c1"
+      }
+    },
+    {
+      "donor": "NA21110",
+      "status": "complete",
+      "started": 1789737078.8965306,
+      "finished": 1789737234.5163612,
+      "reads_sha256": {
+        "r1.fq.gz": "bc297d8e78b3ce7287f3836f00aded1d9d4f100241ce6b1d51ca06d951f64ec3",
+        "r2.fq.gz": "d9395f64098593378df83496a1bb1ad7892ff8b126b32e274a59d4962c596033"
+      },
+      "output_sha256": {
+        "NA21110_genotype.tsv": "8ad4d0c651cfd8c7823cd48d50d61750a5d41b12e3cdb7d05b6bc5dd8e0d3641"
+      }
+    },
+    {
+      "donor": "HG03050",
+      "status": "complete",
+      "started": 1789736945.4129398,
+      "finished": 1789737090.2242002,
+      "reads_sha256": {
+        "r1.fq.gz": "4474de2cc6f965e5587273320455c90ae23513b51c2461e7ff91ee7873e1c9d5",
+        "r2.fq.gz": "55117dd5db901be5308f618175a6ecac72486c18f749157d011db8eff87c2e14"
+      },
+      "output_sha256": {
+        "HG03050_genotype.tsv": "c7132fc74b5f88dbce78d39243135e91b935b6e99d87584406dd321077db2bbc"
+      }
+    },
+    {
+      "donor": "HG03139",
+      "status": "complete",
+      "started": 1789736945.110682,
+      "finished": 1789737078.0494049,
+      "reads_sha256": {
+        "r1.fq.gz": "aaa12ce2db5d77f5be3227527fb4097f2504569e18315e7e4c779cac72d2924f",
+        "r2.fq.gz": "ff4854e1d50a0b6c596068aecff8eac5b12565d4a3c30d783a414e900a6c813d"
+      },
+      "output_sha256": {
+        "HG03139_genotype.tsv": "c00f6461f1715c6e833fc18523031d408a867c746c0e802622691b18b98aaa13"
+      }
+    },
+    {
+      "donor": "HG01993",
+      "status": "complete",
+      "started": 1789736944.7123291,
+      "finished": 1789737069.9393399,
+      "reads_sha256": {
+        "r1.fq.gz": "9a2eb290ecc97017123f2fca8336884e52994ec4a658b7f8a0fc7cefbb40c42d",
+        "r2.fq.gz": "5241de7b92623febbe5c897d53f7335988b8536659da76ad1afd9a68974df651"
+      },
+      "output_sha256": {
+        "HG01993_genotype.tsv": "92cc709d41c966f06e8f6c3352db3cefbffef242e30721162e9d5529bcad726f"
+      }
+    },
+    {
+      "donor": "HG03579",
+      "status": "complete",
+      "started": 1789737077.902193,
+      "finished": 1789737197.3230214,
+      "reads_sha256": {
+        "r1.fq.gz": "07cada0a1bb03be2d24533ba2ede80138655bb6562743e1a26671769caaff216",
+        "r2.fq.gz": "b0ebe51cb01140821ec81cb7748d000f87cdd88922ae4972ab507dbadef19272"
+      },
+      "output_sha256": {
+        "HG03579_genotype.tsv": "c7b584045395a54f08fa502ddcd8219521065806e16f7c5db69354be6bc89d82"
+      }
+    },
+    {
+      "donor": "HG02293",
+      "status": "complete",
+      "started": 1789736944.7132475,
+      "finished": 1789737081.2473288,
+      "reads_sha256": {
+        "r1.fq.gz": "8f43432f73408630e5d0debe4635a621980ccad940565eb75fa97bc38ebec9b1",
+        "r2.fq.gz": "1c6ed0b9a814e233b75d6d849eaa255e37f040911de06cc372293caf824096ec"
+      },
+      "output_sha256": {
+        "HG02293_genotype.tsv": "c4bb8cf33674310b71dec91cc56308fc380939f5c761e7828f16feb0af5fbe86"
+      }
+    },
+    {
+      "donor": "HG01433",
+      "status": "complete",
+      "started": 1789736944.6223352,
+      "finished": 1789737134.0672765,
+      "reads_sha256": {
+        "r1.fq.gz": "a7b8791ace64dbb1832db2ce0824dfc94c5e4d063daf4ad3d3e596df0f31cf73",
+        "r2.fq.gz": "bf2e3329984977b715c3637b21ccff15f9ed0e123af3182e0515215e98d57a83"
+      },
+      "output_sha256": {
+        "HG01433_genotype.tsv": "de2910f843c1a1d1c2867b47529009df11fcaaca1e2cf52fcda8ef9a9da2277d"
+      }
+    },
+    {
+      "donor": "HG01891",
+      "status": "complete",
+      "started": 1789736944.6258914,
+      "finished": 1789737075.445281,
+      "reads_sha256": {
+        "r1.fq.gz": "f144ec5c6cb9dca28bab2b25e52475e0349c6bca9de7cb85c6ea0d3fd140db05",
+        "r2.fq.gz": "84b9cece4674266b34356471fa6793dc4b47c3c0fe30b46e726876646d682982"
+      },
+      "output_sha256": {
+        "HG01891_genotype.tsv": "bd7669f49fa58e1e0a2bb923cea7a2936009c1d54b95115192482c20b23fa6d1"
+      }
+    },
+    {
+      "donor": "HG02129",
+      "status": "complete",
+      "started": 1789736945.1691487,
+      "finished": 1789737086.5716963,
+      "reads_sha256": {
+        "r1.fq.gz": "b322531cdda075f732b477ed7f78a5d40cf2c455d98e8ccc92d4a6cc8388ce3a",
+        "r2.fq.gz": "f30ae46cc255ecde289633c9958623f5387db1188563b8de619aee8d9b6818ad"
+      },
+      "output_sha256": {
+        "HG02129_genotype.tsv": "d40d66140ae5ade416efdc96a848794f7408afad35cbde580d048b56c6eea627"
+      }
+    },
+    {
+      "donor": "NA20827",
+      "status": "complete",
+      "started": 1789737077.818606,
+      "finished": 1789737232.3447216,
+      "reads_sha256": {
+        "r1.fq.gz": "7e4c603397cd24a55c2d4d2477ca13bbc5749655fa33f07d4eb2e25a0083fcab",
+        "r2.fq.gz": "df4a8b6e42cf09384017a777c66b0a3e24f29e59732f5ed3fa6d795456471aa1"
+      },
+      "output_sha256": {
+        "NA20827_genotype.tsv": "98760806b86f17ed02780cd6f69a1467e0af2cbfbca8caf30b816064fba66659"
+      }
+    },
+    {
+      "donor": "HG04184",
+      "status": "complete",
+      "started": 1789737077.797753,
+      "finished": 1789737209.1641989,
+      "reads_sha256": {
+        "r1.fq.gz": "6e890242f92e36a0504020063f169b80e98d21c8de42f6828d5175c4645115f5",
+        "r2.fq.gz": "ecb9d7db43100567eba959d3d3781d3f99e1abe3eceea60fb9c02272bfdbf107"
+      },
+      "output_sha256": {
+        "HG04184_genotype.tsv": "4acb2d0d3e814853b14eb2262379e93bd14174c14200f0cc79b0155644517812"
+      }
+    },
+    {
+      "donor": "HG02583",
+      "status": "complete",
+      "started": 1789736944.589045,
+      "finished": 1789737095.0095837,
+      "reads_sha256": {
+        "r1.fq.gz": "215b57ab4685cf5909378e4522ee190282a31f4d7e19d3212550f6387233de65",
+        "r2.fq.gz": "5acbcf28ca0dbdbc9c42913c0a58990cf78df779f0815dad0217c38ff46e894a"
+      },
+      "output_sha256": {
+        "HG02583_genotype.tsv": "ca93c3554f3431d6ba9dfb5c86765781c88e2b36912363209e439483bafa15e6"
+      }
+    },
+    {
+      "donor": "HG03669",
+      "status": "complete",
+      "started": 1789737078.5614686,
+      "finished": 1789737203.3456879,
+      "reads_sha256": {
+        "r1.fq.gz": "b234f6469c04492caf38159b97c8f40ac26ec4d6f2226193502500b61a03376c",
+        "r2.fq.gz": "c72d95c1e27621df1735869fe93fee1df029d76941085bbd72874ef2d7dbe064"
+      },
+      "output_sha256": {
+        "HG03669_genotype.tsv": "2c811869e213672cb48a7c66e5f10384d4c38a61b0480fd2e7dc320a1b420ee6"
+      }
+    },
+    {
+      "donor": "HG01943",
+      "status": "complete",
+      "started": 1789736944.6178253,
+      "finished": 1789737081.4810362,
+      "reads_sha256": {
+        "r1.fq.gz": "d70f4e3cd809edd5ed04a4e2569e7db053395fea3b16bff01960e88148dfbe58",
+        "r2.fq.gz": "c0012f3c7c144b19f0cdf69f014555041b14bb020087349e3ccceb8a28f6763a"
+      },
+      "output_sha256": {
+        "HG01943_genotype.tsv": "753c712bf053934fabf3a6f0535d532b594fdd33fdf57121bf50d2bec6c40ff0"
+      }
+    },
+    {
+      "donor": "HG04228",
+      "status": "complete",
+      "started": 1789737077.799111,
+      "finished": 1789737206.1371696,
+      "reads_sha256": {
+        "r1.fq.gz": "09c5883435698659d27b0ca55433e3795bac06e5c55e5c1effd947cff9f57128",
+        "r2.fq.gz": "f66795e3d36cc7e1cf5b6d64135f9387f556b0e9e986699ba7aa2710ac0c4d9a"
+      },
+      "output_sha256": {
+        "HG04228_genotype.tsv": "2ef77872e4b87560e0db01395757fa938bdc5fbb91d570f422e6ea19f7d532c6"
+      }
+    },
+    {
+      "donor": "HG01928",
+      "status": "complete",
+      "started": 1789736944.609001,
+      "finished": 1789737103.9959161,
+      "reads_sha256": {
+        "r1.fq.gz": "7249d1e54fe076ced64d07d4b1c8ca654433568fec475159641ffaff49674006",
+        "r2.fq.gz": "a09dba9bfabcb2e8fecf691779a0d161e79e55f610a22feaef2386730e21a2ba"
+      },
+      "output_sha256": {
+        "HG01928_genotype.tsv": "479d6eab5aecadae8f6427a337b7d3901db4a9c5279d42ed78024ded103a7360"
+      }
+    },
+    {
+      "donor": "HG03654",
+      "status": "complete",
+      "started": 1789737078.6121824,
+      "finished": 1789737278.702933,
+      "reads_sha256": {
+        "r1.fq.gz": "96c8eb48a5446bb1b6eb12219c141957a039d6b38e7eb7b9787c17afcda74055",
+        "r2.fq.gz": "8d3244986e10af316bc20e6353f1568dc23255a3752a6f696b792b9413eab1e2"
+      },
+      "output_sha256": {
+        "HG03654_genotype.tsv": "c23810267cd4a1ddc8f261843a2b7d65235c4e62c4cc7440c3af0fabcdb72235"
+      }
+    },
+    {
+      "donor": "HG01934",
+      "status": "complete",
+      "started": 1789736944.608559,
+      "finished": 1789737082.3314905,
+      "reads_sha256": {
+        "r1.fq.gz": "b53aa051232cf29c1a3b8a3dfb89832b82c2164357f814098093e966d8b5a13c",
+        "r2.fq.gz": "5ec9ac7630efdd67e4f8fa33a1bc1e55db9e08b0470acd6af55b125478d5e345"
+      },
+      "output_sha256": {
+        "HG01934_genotype.tsv": "5853f83f0884a9b3d41f4054ce54494d90686665edeffd5fc09d05e9ccb6a22c"
+      }
+    },
+    {
+      "donor": "HG01969",
+      "status": "complete",
+      "started": 1789736944.9943984,
+      "finished": 1789737079.3660982,
+      "reads_sha256": {
+        "r1.fq.gz": "bed0e71b723ff0acea244bea994cafc380ee078cddb041cb8a745db4875af9e1",
+        "r2.fq.gz": "99e117c932338d0c73b053543a8bb8994ecf4e555dc9f18a5ccff7e4317a586d"
+      },
+      "output_sha256": {
+        "HG01969_genotype.tsv": "1160f292d9ff38dcfccc9a54af8e39ce10a97b042b99e8f9c714606077cdf893"
+      }
+    },
+    {
+      "donor": "HG03130",
+      "status": "complete",
+      "started": 1789736945.111333,
+      "finished": 1789737115.7603633,
+      "reads_sha256": {
+        "r1.fq.gz": "33c0ad7369ee8bf311260b4f87908e1d5f18fe4f858af70193615b1ba4d1bf1b",
+        "r2.fq.gz": "09b658ff9e5a2116bdf9124d27d165a314cdcb15ea9682da5c6c130d5ed07946"
+      },
+      "output_sha256": {
+        "HG03130_genotype.tsv": "63d52e299002eba3d0ad3ed6cafd58df195925a299dbadc5568f5740a566b2be"
+      }
+    },
+    {
+      "donor": "HG02004",
+      "status": "complete",
+      "started": 1789736944.7040777,
+      "finished": 1789737085.4331148,
+      "reads_sha256": {
+        "r1.fq.gz": "135edd70569677e54a5344f2ece97a77166d62fca38a795adc8b71098637bcc2",
+        "r2.fq.gz": "df2f3d97acdc7f582406318a7eebac5f1f6ac06ea8939130acbfde986e2e02d5"
+      },
+      "output_sha256": {
+        "HG02004_genotype.tsv": "ebcae6460bfdb71e42754a135823040dbf718586930e8be3b580bbb2062772a7"
+      }
+    },
+    {
+      "donor": "HG02622",
+      "status": "complete",
+      "started": 1789736944.6231499,
+      "finished": 1789737079.3815675,
+      "reads_sha256": {
+        "r1.fq.gz": "9d29ebe4ca5aa90a86a4267195bf5aed34a7612dea23109a59188bb2ff18d2ca",
+        "r2.fq.gz": "eee420ed16a62fbf65408ef7940e809b0130d4cfe02190d3d478930106e5707b"
+      },
+      "output_sha256": {
+        "HG02622_genotype.tsv": "817ad4443380f428005153882754abaadeac237fe0ffad660d17f2fbe23fc782"
+      }
+    },
+    {
+      "donor": "HG02055",
+      "status": "complete",
+      "started": 1789736944.6836538,
+      "finished": 1789737073.781974,
+      "reads_sha256": {
+        "r1.fq.gz": "1430598bd6555f5d5e1b4c60eb5aaae9988145708d1f4ca8220d2226c3389e87",
+        "r2.fq.gz": "34d0f2ca261faf05bed9d8326b02691c07383453183ff7778bcd1339efb5295a"
+      },
+      "output_sha256": {
+        "HG02055_genotype.tsv": "5848e52cd5392d8a86088dfdb47c403e3e45fb178347934008a5faf89bbdd53a"
+      }
+    },
+    {
+      "donor": "HG02723",
+      "status": "complete",
+      "started": 1789736945.0145118,
+      "finished": 1789737086.5217602,
+      "reads_sha256": {
+        "r1.fq.gz": "af1669726491d31c4bbca4b4db1c9e4b368d0bc2ee8eea77d16328dbf0f0dada",
+        "r2.fq.gz": "34279ffa16295c4b8e86e1d71f28df50e4401c4be92da9e0c658b15c6a52007d"
+      },
+      "output_sha256": {
+        "HG02723_genotype.tsv": "7ec108d727c723acba37635ebf3402c4d8970ef731de4d84f825f821fc40f070"
+      }
+    },
+    {
+      "donor": "HG02258",
+      "status": "complete",
+      "started": 1789736945.22877,
+      "finished": 1789737088.7639735,
+      "reads_sha256": {
+        "r1.fq.gz": "59b8b08c4c6b65148ad2d9131219ca7541b760070f1a859bd9b8c6f176827e92",
+        "r2.fq.gz": "d7b15764af64cb530a7b4cd05ac486012f91f4018e955076dd8294a66937ffe7"
+      },
+      "output_sha256": {
+        "HG02258_genotype.tsv": "9dccd22b332c9984222cca3532a136b8b72a84c703f76092c8065bdd5c5ea00d"
+      }
+    },
+    {
+      "donor": "HG03521",
+      "status": "complete",
+      "started": 1789737077.880039,
+      "finished": 1789737214.6410499,
+      "reads_sha256": {
+        "r1.fq.gz": "880b76fffbaaf6b326ba8bbb162b2515f4f4fd6e025b4170a9b6b66e591b9c39",
+        "r2.fq.gz": "d256fd8cb51287f211a51eaf0ef7f0891b31bb4ced1d7e485f50b245665c99f3"
+      },
+      "output_sha256": {
+        "HG03521_genotype.tsv": "cc6cc68937f76dee79104fa4219c430b08d8ca3501f1a076d5005da7bf5c3e21"
+      }
+    },
+    {
+      "donor": "NA18982",
+      "status": "complete",
+      "started": 1789737077.8602748,
+      "finished": 1789737188.7973778,
+      "reads_sha256": {
+        "r1.fq.gz": "5ca690e520232f295c196658173a337afb449e7ba90998c27ce87ca9c716e164",
+        "r2.fq.gz": "c7f2c58c1bc7bbf674f3acc26823675795aeb0bcff3ea1a01b6249d6c67c7ff7"
+      },
+      "output_sha256": {
+        "NA18982_genotype.tsv": "2758810752023d346b4df3f4f83860e9f8ddcfceef53228c466c5e4f49e489fe"
+      }
+    },
+    {
+      "donor": "HG02451",
+      "status": "complete",
+      "started": 1789736944.9054232,
+      "finished": 1789737061.978178,
+      "reads_sha256": {
+        "r1.fq.gz": "29632879b36364d2d57dc3ba374b0d8d4b08ab2a05260ba4535b98725c396c53",
+        "r2.fq.gz": "cbc4a2cebb0107ec85534969e0fc6031e43bfeb45e22e338f2e6fbc7748b3267"
+      },
+      "output_sha256": {
+        "HG02451_genotype.tsv": "cf363d1f2883a2fd48a62f0d1e56fb664e44306021c786f582f02ef262bf97b0"
+      }
+    },
+    {
+      "donor": "NA18983",
+      "status": "complete",
+      "started": 1789737077.9748046,
+      "finished": 1789737190.8879173,
+      "reads_sha256": {
+        "r1.fq.gz": "f2dc110e5cc55f3c6e5ad189f1e3e6326476819c3ad3ebfc030c9edbf9f4fc30",
+        "r2.fq.gz": "96bf465ca7457e6213e88dc82615435e25a431a1a20c1e4967be809359241ad9"
+      },
+      "output_sha256": {
+        "NA18983_genotype.tsv": "e7fa9e99aba67cb8b828548038dcee9c6434ae5540437657b021ccfdcee4b9a6"
+      }
+    },
+    {
+      "donor": "HG03195",
+      "status": "complete",
+      "started": 1789736945.124254,
+      "finished": 1789737066.6935303,
+      "reads_sha256": {
+        "r1.fq.gz": "2194940b0044594b82f62fae1b076e7756a0367611982bf99c05a07a957cb461",
+        "r2.fq.gz": "f8bd8c2c9533fa495478176cf2636690a3cc8b05940ae51c4e0e6f751196189a"
+      },
+      "output_sha256": {
+        "HG03195_genotype.tsv": "338786ac279532878c56ce2e50224ca96382e35cc12c081cd819b2699f0b4b26"
+      }
+    },
+    {
+      "donor": "HG02630",
+      "status": "complete",
+      "started": 1789736944.4208012,
+      "finished": 1789737084.2114396,
+      "reads_sha256": {
+        "r1.fq.gz": "2797a054a977ef48a58854072d9e141937a79d6e0b19896690b62530786bc1ea",
+        "r2.fq.gz": "317cbf5cfbf54ff31124b700766726c286876fe45933597ca813697f8d73ff15"
+      },
+      "output_sha256": {
+        "HG02630_genotype.tsv": "a2ad8c98bcabda708856876403199a65959070ba6a4a8ff962601a2e2f8c6c51"
+      }
+    },
+    {
+      "donor": "HG01978",
+      "status": "complete",
+      "started": 1789736944.975852,
+      "finished": 1789737089.3123205,
+      "reads_sha256": {
+        "r1.fq.gz": "8006f45ee97c72a66645d8501d6aff10e26a014d5e4f5c186e5fdfa4e43a452a",
+        "r2.fq.gz": "e99f69ce7e111572e1ac2082a6e86d4353c176af8b806de51a62e51c322165a9"
+      },
+      "output_sha256": {
+        "HG01978_genotype.tsv": "85e16275b72808bf64db3e62cdefe4c3ef841edc09ee335939c5e9e1b7b870a0"
+      }
+    },
+    {
+      "donor": "HG03225",
+      "status": "complete",
+      "started": 1789737077.5992107,
+      "finished": 1789737198.203151,
+      "reads_sha256": {
+        "r1.fq.gz": "017ea88737da542376c86adb185d5c9efb26fb72851cb3d722a3bc53ed4c6de4",
+        "r2.fq.gz": "c3775208a059f5c1f6bc657a8f89c7723fe3bd630d18edac39a6e1833ec5304e"
+      },
+      "output_sha256": {
+        "HG03225_genotype.tsv": "a852307095ffce081bdcf980707c4dd4175d4900334cf936e0b1943ce08e563a"
+      }
+    },
+    {
+      "donor": "HG02080",
+      "status": "complete",
+      "started": 1789736944.7106245,
+      "finished": 1789737099.0709546,
+      "reads_sha256": {
+        "r1.fq.gz": "e21be92aed700c91c85dead8f30b23567f4d8f03f4b75b1e4029edf3c4d5f2cb",
+        "r2.fq.gz": "7ebe4a210a51642e404608b52675242368406e34b906955c11cccd3b97114dc1"
+      },
+      "output_sha256": {
+        "HG02080_genotype.tsv": "1bd04348ba725296f08a4213f25ad6ddcfe161a816b7b528a938aa788045e3dc"
+      }
+    },
+    {
+      "donor": "HG02922",
+      "status": "complete",
+      "started": 1789736945.2929108,
+      "finished": 1789737066.0682929,
+      "reads_sha256": {
+        "r1.fq.gz": "e3d4a9455dff2b0b396750bfee6cabd302985516de33ba55606e3f0f493e6cb3",
+        "r2.fq.gz": "12560c236e9c36e3c17f1acffd0fb56143d1926862dfd07a266a934f0d309061"
+      },
+      "output_sha256": {
+        "HG02922_genotype.tsv": "0149d9a337d0f867a8fed837c2806da4d7b06f54ce6f62c6de7b36ec9983db72"
+      }
+    },
+    {
+      "donor": "HG00290",
+      "status": "complete",
+      "started": 1789736679.1054044,
+      "finished": 1789736836.9441874,
+      "reads_sha256": {
+        "r1.fq.gz": "b4c8724b01ca1e3ce19c372ca3a53bb1d1f3189e29677bda6ec2cec1e3e649cb",
+        "r2.fq.gz": "361d30808267592b0be46153383d54126f05c4fa25ddd3f9e3111d1534af5814"
+      },
+      "output_sha256": {
+        "HG00290_genotype.tsv": "ff7104197b5ba2441f4b6a43d4353628b6e270af75a984793a3bad222edbf118"
+      }
+    },
+    {
+      "donor": "HG03270",
+      "status": "complete",
+      "started": 1789737077.9785705,
+      "finished": 1789737286.463909,
+      "reads_sha256": {
+        "r1.fq.gz": "a95969a1d65504cd0ae84238708c57be30081a5c956a6ed4b5a50dbc723d3036",
+        "r2.fq.gz": "22fbb067b40dc2f697532492ec47763879a3a9c672433c17ef619d526a9c808d"
+      },
+      "output_sha256": {
+        "HG03270_genotype.tsv": "1f9b0c6199f9854e013284ea27fcc4172983fd1468c6aea55c7b134a7b8196be"
+      }
+    },
+    {
+      "donor": "HG03098",
+      "status": "complete",
+      "started": 1789736945.4153323,
+      "finished": 1789737105.8961413,
+      "reads_sha256": {
+        "r1.fq.gz": "0f3c23ec99b3fbfb7a071a6955a5d0d215b24755141e623df43bba7a3eb1a2e9",
+        "r2.fq.gz": "3b8cd8ee2dea27e2f8a8c54bf3ffd9ed359d02940163e4907b495af726f339f6"
+      },
+      "output_sha256": {
+        "HG03098_genotype.tsv": "16bfb42132894c29fc84bd901be2fbfc557f92292c79e1d6d41bc095ef88adfb"
+      }
+    },
+    {
+      "donor": "HG03816",
+      "status": "complete",
+      "started": 1789737078.4486418,
+      "finished": 1789737219.0125563,
+      "reads_sha256": {
+        "r1.fq.gz": "3b3be3bba98fb201bea03e37b07d1b2c795104281b64ed5d241f4a36216574a1",
+        "r2.fq.gz": "443ac7fa3cb5a831789c97de10b10962579a4d9a5b4c206da81bfc39251328fb"
+      },
+      "output_sha256": {
+        "HG03816_genotype.tsv": "4b15ce76b38f08ca0c2ac73ab2d825fef1424ca253021f2ad8080f7f91571051"
+      }
+    },
+    {
+      "donor": "HG02135",
+      "status": "complete",
+      "started": 1789736945.1822417,
+      "finished": 1789737083.6042411,
+      "reads_sha256": {
+        "r1.fq.gz": "1e1f17ea00980899928cf6601ca6f87b979d184ff4a3235a9abd33c27b2d29c8",
+        "r2.fq.gz": "7e4407184798e9d544d91f4ed07f5095dba617023ecb5b82b3d1458e26aef5c4"
+      },
+      "output_sha256": {
+        "HG02135_genotype.tsv": "325b99d1dc3a17f1252fe48148a7a572b10fbee878ab4ffb36751b82117f28b1"
+      }
+    },
+    {
+      "donor": "HG02717",
+      "status": "complete",
+      "started": 1789736944.6769254,
+      "finished": 1789737085.018431,
+      "reads_sha256": {
+        "r1.fq.gz": "bfb344961fb2be12360831327f70f88fa25f088cc477f5eecb7b345e8a4a1236",
+        "r2.fq.gz": "6884fde62908fb7253b01cb68ef645d909feaffb2ffb7ce26ad155e578c7e6fd"
+      },
+      "output_sha256": {
+        "HG02717_genotype.tsv": "360ad5e1d53988463e3e067da8acf27b1dd123369b4129e13c8603acfa63cf08"
+      }
+    },
+    {
+      "donor": "HG03704",
+      "status": "complete",
+      "started": 1789737078.380081,
+      "finished": 1789737222.3416271,
+      "reads_sha256": {
+        "r1.fq.gz": "062e78fb637e46e6a644dbe99c8c71a01619976451a4d9e69ed2c22cf1388f8e",
+        "r2.fq.gz": "4e2fdcd9d2d4f418a8c3f3467a700e9e9be91c04792e26f9e315c65fd3d620bb"
+      },
+      "output_sha256": {
+        "HG03704_genotype.tsv": "0e048e77436d9474cbe24eaecbcad91dbbc0608986f4d03f809f6129ce7b8829"
+      }
+    },
+    {
+      "donor": "HG03710",
+      "status": "complete",
+      "started": 1789737078.379385,
+      "finished": 1789737229.0225263,
+      "reads_sha256": {
+        "r1.fq.gz": "18919b8dfa56735f2365bb003a77e3ccac57051c6c11c50631cfb2024c81e8f5",
+        "r2.fq.gz": "c01a811579b475cbc2e696bd272c234341cf2944f17e77e72d8cdf0de3a501c4"
+      },
+      "output_sha256": {
+        "HG03710_genotype.tsv": "0b92492675e254cad889cc4db6297b39201af35c088eb714516fbdca787eeec9"
+      }
+    },
+    {
+      "donor": "HG02071",
+      "status": "complete",
+      "started": 1789736944.5242808,
+      "finished": 1789737065.094633,
+      "reads_sha256": {
+        "r1.fq.gz": "e875fb463a34ad7b9fb0b991e6a558f12557fe48551b7d16075ca254ea4a3144",
+        "r2.fq.gz": "c0f3320594c7e531c3bf847697f2a2b0e333d084fd37588fa2f5a1d9a5190bbc"
+      },
+      "output_sha256": {
+        "HG02071_genotype.tsv": "0c4d5d817eb72e0e7ffe3fc74158fe3f32dfc9437d1cc451f8297fbc844d9b39"
+      }
+    },
+    {
+      "donor": "NA18565",
+      "status": "complete",
+      "started": 1789737077.8677459,
+      "finished": 1789737262.9937747,
+      "reads_sha256": {
+        "r1.fq.gz": "8499f98cf99a0518c1366016a882505d20eb10f1efc5a3c5435b64589f96ad9c",
+        "r2.fq.gz": "c6026522cd159f8a9a73946147880f1c85bd69703499170ca690d878d8917750"
+      },
+      "output_sha256": {
+        "NA18565_genotype.tsv": "6085666cd2359e3859dbfc43d5325273c20a7895b5b8a62c22990e833177e8e3"
+      }
+    },
+    {
+      "donor": "HG02668",
+      "status": "complete",
+      "started": 1789736944.436358,
+      "finished": 1789737071.958936,
+      "reads_sha256": {
+        "r1.fq.gz": "e7c8f156e00d98bd1f19f6956caa2419bf8ebeccdc85aaf23f71a15a9322f71d",
+        "r2.fq.gz": "d903fb312ad7f0a579a75faffaef02ecc828a6efef5d38dbcdfb3438351718db"
+      },
+      "output_sha256": {
+        "HG02668_genotype.tsv": "f57f26b788b1f3a17447144a9707a32d56d584dc4be427fd8095efd3a51f6826"
+      }
+    },
+    {
+      "donor": "HG02280",
+      "status": "complete",
+      "started": 1789736945.184821,
+      "finished": 1789737080.0851748,
+      "reads_sha256": {
+        "r1.fq.gz": "1b8359942a59060491c735246544d5654efcc2a01d24febedbd5bfc3d06c3fb5",
+        "r2.fq.gz": "4009d94ade4ffe14fd4ad2005aeee4d1b7639aa4d45447d88f3fda54a84df3d6"
+      },
+      "output_sha256": {
+        "HG02280_genotype.tsv": "575b6f986fd5920f134ef54e98144bc4d562a7dc3e93ce8e1b2ca94627cbf5a9"
+      }
+    },
+    {
+      "donor": "HG03834",
+      "status": "complete",
+      "started": 1789737078.5179267,
+      "finished": 1789737225.611671,
+      "reads_sha256": {
+        "r1.fq.gz": "d22f08273709fb6dcb60681ac7b9d04d67b0e3b4cde9c31fa4bdbd8e9a1591d4",
+        "r2.fq.gz": "84a81185e10188d1a87a6a8469f87e1f16fd3ca98dcc4164662acfb2a1504ea0"
+      },
+      "output_sha256": {
+        "HG03834_genotype.tsv": "3c1eb918f966e48f887a60aa4724430e3a553365212e11466ddf7dceaa9167ae"
+      }
+    },
+    {
+      "donor": "HG01940",
+      "status": "complete",
+      "started": 1789736944.6172552,
+      "finished": 1789737087.1900785,
+      "reads_sha256": {
+        "r1.fq.gz": "861d012c47bc63af73f32a2a4c4b3dca10f0259c087b70256f1cc871b2f95594",
+        "r2.fq.gz": "0141c46f92cb98d98cd0174664e828b5cfcd19409190423d9cb1f9f340cea25e"
+      },
+      "output_sha256": {
+        "HG01940_genotype.tsv": "d0a2b9fb9f1334d192f2f0374a044191e2e7119003f7dc41c1d2c0a0819ebf3a"
+      }
+    },
+    {
+      "donor": "HG01975",
+      "status": "complete",
+      "started": 1789736944.6775389,
+      "finished": 1789737090.4657865,
+      "reads_sha256": {
+        "r1.fq.gz": "d7c947314f21575a2b16e3f9774d7ba6cfccb4e124efa5d03e0265ed949fb9d4",
+        "r2.fq.gz": "b6a7e44a486258a4283a6786f401a02aa27035d39d6b6c402c50f90a355a9101"
+      },
+      "output_sha256": {
+        "HG01975_genotype.tsv": "bc4ec776b2e68a53a55e07c0f2d2af851a0b52ccbce56306c6e1823db29a8c5b"
+      }
+    },
+    {
+      "donor": "HG02148",
+      "status": "complete",
+      "started": 1789736945.1627092,
+      "finished": 1789737071.6917632,
+      "reads_sha256": {
+        "r1.fq.gz": "c624d33291c1c07321a954c3ad72cfa574e2ae432eb621736544022932d5b6f8",
+        "r2.fq.gz": "14344e91c23d06a1c5d22c5e141e4ab17b915da5c72aa104783bdae4f82d9799"
+      },
+      "output_sha256": {
+        "HG02148_genotype.tsv": "029815f432146016590e15d39c041b1f985ce7b2d57acf412383faa0fbb1a93f"
+      }
+    }
+  ]
+}

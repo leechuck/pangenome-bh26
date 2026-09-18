@@ -1,0 +1,47 @@
+{
+  "scope": "Exposed development errors only; graph label availability is not proof of read-level identifiability or rescue",
+  "errors": 38,
+  "by_gene": {
+    "B": 6,
+    "DQA1": 19,
+    "A": 1,
+    "DRB1": 4,
+    "C": 1,
+    "DPB1": 4,
+    "DPA1": 2,
+    "DQB1": 1
+  },
+  "two_field_correct": 33,
+  "disjoint_truth_but_homozygous_call": 0,
+  "graph_representation": {
+    "hprc": {
+      "0": 6,
+      "1": 14,
+      "2": 18
+    },
+    "hprc_asian": {
+      "2": 32,
+      "1": 6
+    }
+  },
+  "source_sha256": "4490738b05e901fe3751b23760a0d75c791ca76f04fc00bd8a54608eb0f14bd2",
+  "metadata_sha256": {
+    "references/observed-v2/hprc/HLA-B.json": "7fdd45fcbe96a743fc72a1ad825633df0e9d880bc33f9e00e96586105115aa69",
+    "references/observed-v2/hprc/HLA-DPA1.json": "3d0a2c7bdec8fc1fe15922df22013d83b5c454dac40539f2a0a911c819399307",
+    "references/observed-v2/hprc/HLA-DRB1.json": "1ca7f0ce6166faea5d2a58bc95c2c37f0e5bc74738b5bad5616a660aad30e99c",
+    "references/observed-v2/hprc/HLA-A.json": "e18ef06d3cee6d51417362069b2cb3c0e6419e1b21dc8021b41df798170cde90",
+    "references/observed-v2/hprc/HLA-DQB1.json": "3e5237162ec761afb6b7947a5e899fc71ba1f628b4d43d4a7437c5063698bd45",
+    "references/observed-v2/hprc/HLA-DQA1.json": "389bb845457985aac6a0a34f93a615ecbaa9d2e557f103c0300deb766fa19a0e",
+    "references/observed-v2/hprc/HLA-C.json": "8f1a5a6c27d81794ab91e97c85a8002dfbb3f4129be4e50b97054ba0feca4026",
+    "references/observed-v2/hprc/HLA-DPB1.json": "c0fd116321862fd7e1144d9d447c09751a3f7b034742ea68a815ea318e54c3c7",
+    "references/observed-v2/hprc_asian/HLA-B.json": "e2e37a44ad2e6bb024287c8e4f720fba3dd12c7450797bb501ddbdef03164209",
+    "references/observed-v2/hprc_asian/HLA-DPA1.json": "8679a3093564110ffaf5e3914388ee802e1a8d539be96d546a0756822c73ad64",
+    "references/observed-v2/hprc_asian/HLA-DRB1.json": "e16bb41172bcafbed7d2614e88b3ceb313d6cdfdda7dfd44356922a48ba3a661",
+    "references/observed-v2/hprc_asian/HLA-A.json": "fabe006873c2924ddd329bf7a19bc58e60a9b9dbb059d0ea07a477106f06427c",
+    "references/observed-v2/hprc_asian/HLA-DQB1.json": "b6537ed280a1bcd2c45b4ae0407286b047415f8cfc5be2fe82901e1d9d3284c3",
+    "references/observed-v2/hprc_asian/HLA-DQA1.json": "116c291b82a685e2cf1f49a7716fceff4a594880d61af047fd060713223b7046",
+    "references/observed-v2/hprc_asian/HLA-C.json": "938a6e56bfaf8fe05af810040854694f329559a016f9ece8e7e1feed0bad186c",
+    "references/observed-v2/hprc_asian/HLA-DPB1.json": "2ef2b94c6cf695b0e15092c76a02ecc05ee3887b74b1112f27a40a33807e86bd"
+  },
+  "driver_sha256": "c30f77d896ad0382cec77dd2a3b73c50c03d85fac212187d0be53d9b7c5760ce"
+}

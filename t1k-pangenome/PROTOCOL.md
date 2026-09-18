@@ -437,6 +437,36 @@ The reserved baseline execution pilot completed successfully in about 158 second
 only its completion metadata was fetched, not genotype contents. Its execution
 manifest is validation-baseline-pilot-execution.json. No reserved outcome was scored.
 
+### Completed all-read control and residual-error direction
+
+All 64 all-read controls completed at 493/509 two-field and 285/323 four-field
+correct genotypes, versus 494/509 and 285/323 for genomic IPD with native candidate
+extraction. The four-field contrast comprises one gain and one loss, with paired
+95% interval approximately −0.92 to +0.92 percentage points. This does not support
+bypassing read extraction as the source of further four-field gains. Complete
+results are in development/completed-all-read-control-v1/.
+
+An audit of all 38 residual genomic-IPD four-field errors found 19 at DQA1;
+33 already had correct two-field calls. Both truth haplotypes have exact genomic
+labels in the additive training graph for 32 errors, versus 18 in HPRC alone.
+This is label availability, not evidence that short reads distinguish the paths.
+The audit reads exposed development truth only and does not filter the independent
+validation cohort or redefine its endpoint. See development/residual-error-audit/.
+
+`graph_pair_refinement.py` implements an exploratory refinement core, not yet a
+validated caller. It retains the native two-field pair, assigns each qualifying
+fragment to at most one locus, takes maximum support across redundant contexts,
+and considers diploid allele pairs. Native alleles absent from the graph retain
+IPD fallback; ties or an unlabelled winning path also retain the native call.
+Refinement requires at least 20 discriminating fragments and score gaps of at
+least 10 against both the native and next-best pair, using noise 0.01 and score
+temperature 10. These are development thresholds, not calibrated probabilities.
+Unlabelled and incompatible context paths must remain nuisance alternatives in
+the real-data adapter, rather than being discarded before normalization. The core
+passes synthetic tests for false-heterozygosity correction, fallback, ambiguity,
+coarse-label preservation and competing loci. Real-data integration and evaluation
+remain necessary before any candidate freeze or improvement claim.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
