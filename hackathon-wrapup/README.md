@@ -1,50 +1,70 @@
 # BioHackathon wrap-up
 
-Three slides for a short spoken wrap-up: **the build → the payoff → the surprise**.
+Three slides: reference construction, variant recovery and the preliminary
+DogoHLA method. DogoHLA is included in this presentation; the manuscript
+currently focuses on the Asian HLA graph and variant/typing comparisons.
 
-## Review and edit
+[Presentation](slides.pdf) · [Editable source](slides.tex) · [Speaker notes](speaker-notes.md)
 
-[Open the presentation](slides.pdf) · [Edit the slide source](slides.tex) · [Edit the talk track](speaker-notes.md)
-
-The shared version is on the [`hla-experiments` branch](https://github.com/leechuck/pangenome-bh26/tree/hla-experiments/hackathon-wrapup).
-Edit `slides.tex` for slide text, layout and diagrams; edit `speaker-notes.md` for
-the spoken story. The deck is self-contained: the supporting plotting script and
-research datasets are not needed to build it. Please keep numerical changes tied
-to the evidence below and include the rebuilt PDF and previews with slide edits.
-
-With TeX Live (Beamer/TikZ) and Poppler installed, run `make -C hackathon-wrapup`.
-This rebuilds the PDF and all three previews. The PDF can also be downloaded for
-review without installing anything.
-
-![Slide 1: Whose HLA is in your reference?](render/slide-1.png)
-![Slide 2: More haplotypes. Better SV calls.](render/slide-2.png)
-![Slide 3: Better sequences. Same names.](render/slide-3.png)
-
-## Files
-
-- `slides.pdf`: presentation, 16:9, vector graphics and selectable text.
-- `slides.tex`: editable Beamer/TikZ source; numbers explicitly set from the sources below.
-- `render/slide-*.png`: slide previews.
-- `speaker-notes.md`: short talk track and evidence details.
-- `previous/`: deck and README before the audience-focused redesign.
-- `make_figures.py`: detailed supporting plots, retained for deeper discussion. Its T1K scoring now uses the same JaSaPaGe fallback as Stage B, restoring NA19088 to the comparison. These supporting PNGs are not embedded in the new slides.
-
-Build from the repository root (two LaTeX passes are required for page-relative coordinates):
+Build the PDF and all three previews with TeX Live and Poppler:
 
 ```sh
-pdflatex -interaction=nonstopmode -halt-on-error -output-directory hackathon-wrapup hackathon-wrapup/slides.tex
-pdflatex -interaction=nonstopmode -halt-on-error -output-directory hackathon-wrapup hackathon-wrapup/slides.tex
-pdftoppm -png -r 140 hackathon-wrapup/slides.pdf hackathon-wrapup/render/slide
+make -C hackathon-wrapup
 ```
+
+The deck is self-contained. Supporting plots and datasets are unnecessary for
+building it. The `previous/` directory retains an earlier presentation;
+`make_figures.py` generates historical supporting plots outside this deck.
+
+![Slide 1: reference construction](render/slide-1.png)
+![Slide 2: variant recovery](render/slide-2.png)
+![Slide 3: DogoHLA](render/slide-3.png)
 
 ## Evidence
 
-1. Cohorts: `hla-typer/source/haplotype_donors.tsv`; 754 total, 390 in the specified Asian/Arab cohorts. The graph drawing is a conceptual schematic, explicitly labelled, not a locus topology plot.
-2. PanGenie: `hla-asian50/refined/results/variant_summary.tsv` and `variant_paired.tsv`, universe `all_truth`, class `truth_SV_length`, endpoint `all`. EAS: HPRC 1060/1465, full 1117/1465; SAS: HPRC 1188/1577, full 1219/1577. EAS delta 3.89 pp (95% interval 2.40–5.29); SAS 1.97 pp (0.32–3.47). This differs intentionally from the previous deck's frozen-HPRC-site plot, to align the displayed rates and intervals to one endpoint. Donors: 20 EAS, 20 SAS. Donor bootstrap intervals; assembly-derived graph truth; test families excluded from panels but test assemblies retained in graph topology. Panel size and ancestry are confounded.
-3. SpecHLA: `hla-spechla-pg/results/sequence_scores.tsv` and `REPORT.md`. Native vs mode A (pangenome added to read-extraction/binning database): 41 vs 51 exact sequences of 128, in eight fold-0 development donors. Native designation gives 61/63 two-field genotypes in both arms. Excluded panel donors include fold relatives. Exact sequence matching uses edlib infix alignment, with N counted as a mismatch; see report for its scope.
-4. Separate Locityper Stage B experiment: `hla-typer/results/stageB/scores.tsv`, 40 development donors. Full panel classical genes 295/319 (92.5%), DRB3/4/5 111/113 (98.2%). Corrected T1K comparison: 314/319 (98.4%), DRB3/4/5 48/113 (42.5%). T1K does not report the copy-number endpoint, so its DRB3/4/5 score is omitted from the main slide. These are Stage B scores before grafting or T1K candidate integration.
+1. **Construction counts:** `hla-typer/source/haplotype_donors.tsv` and
+   `hla/results/tables/hprc_r2_populations.tsv`. Source sample counts are APR 53,
+   HPRC 232, JaSaPaGe 19, K-PanRef 14 and CPC 58. They contribute 752 donor
+   haplotype entries; GRCh38 and CHM13 bring the total to 754. Five duplicated
+   donor identities across projects give 371 distinct donors. East Asian
+   entries total 266, South Asian 72, and Arab 124: 462 combined. Counts are
+   haplotype entries and preserve construction duplicates. The prior 390
+   figure covered East Asian and Arab strata but omitted South Asian HPRC.
+2. **Variant counts:** `hla-asian50/refined/results/variant_per_donor.tsv`,
+   repaired full panel, all-truth universe. All 40 donors have 79,844 eligible
+   SNV sites and 298 SV-containing graph sites. These are site counts per
+   donor. An SV-bearing truth genotype is a separate subset defined by that
+   donor's alleles. Its pooled denominators are 1,465 EAS and 1,577 SAS.
+   The fixed three-way shared-SNV comparison has 1,007,636 donor-site
+   comparisons in each ancestry stratum.
+3. **Variant recovery:** `hla-asian50/refined/results/variant_summary.tsv` and
+   `variant_paired.tsv`, all-truth universe, truth-SV-length class, all endpoint.
+   EAS: HPRC 1,060/1,465; full 1,117/1,465. SAS: HPRC 1,188/1,577; full
+   1,219/1,577. Paired gains are 3.89 points (95% donor bootstrap interval
+   2.40–5.29) and 1.97 (0.32–3.47). Reads and caller are held fixed. Panel size
+   and population composition change together; test assemblies contribute to
+   the shared graph topology. The two closely spaced SAS rate labels use
+   outward horizontal offsets for legibility.
+4. **DogoHLA development:** `hla-spechla-pg/RESULTS-2026-09-18.md`,
+   `results/native-rescore-20260918/comparison.json` and
+   `results/experiments/20260918-hybrid-v4/paired-score/summary.tsv`.
+   Same eight donors, global whole-gene metric: native 36/128 exact sequences,
+   selected candidate 57/128; total edits 97,965 to 75,634 (22.8% reduction);
+   two-field genotypes 61/63 to 62/63. These replace the earlier infix metric
+   and earlier candidate. They are selected development results requiring
+   further independent evaluation. No live validation scores are included.
 
-The 228 leave-one-out / 946 experimentally typed donor validation is future work.
-This deck uses the checkpoints cited above. Subsequent typing experiments are
-tracked separately in `hla-spechla-pg/IMPLEMENTATION.md` and
-`hla-typer/results/status-2026-09-18/STATUS.md`.
+## Follow-up after the ongoing analysis
+
+Add non-Asian donor counts, eligible SNV/SV counts and paired results only after
+the analysis completes and its outputs and truth denominators are verified.
+This deck deliberately retains the completed 40-donor Asian comparison.
+
+## Vector artwork
+
+The deck embeds vector PDF panels from manuscript Figure 1: the Asian cohort
+map, MHC structural backbone and class II/DRB bundle graph. Matching SVGs
+are in `figures/paper-panels/`. These remain sharp when enlarged; the PNG
+slide previews are for browsing. Regenerate the panels with
+`scripts/plot_graph_figure.py` in the manuscript repository and copy the
+contents of `paper/figures/slide_panels/` here.
