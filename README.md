@@ -14,3 +14,7 @@ run on the NIG supercomputer BioHackathon node.
   `hla/` pipeline calls: Gourraud et al. 2014 Sanger typing of 1,267 1000
   Genomes samples, and Lai et al. 2024 4-field HPRC labels for 44 samples.
   See `1000g_ground_truth/README.md`.
+
+- **[DōgoHLA](hla-spechla-pg/README.md)**: an AsianHLA pangenome extension of
+  SpecHLA, named for Matsuyama’s Dōgo Onsen. Repaired phasing, guarded graph
+  reconstruction, reproducible development results and 1000 Genomes validation.

@@ -1,49 +1,56 @@
-# hla-spechla-pg: SpecHLA with pangenome references
+# DōgoHLA — population-enriched HLA reconstruction
 
-An independent short-read HLA typer that keeps SpecHLA's architecture (Wang et al. 2023, Figure 1 steps A-F)
-and substitutes our Asian MHC pangenome at steps A (read extraction database), D (graph alignment for variant
-calling), E (block-linking allele database) and F (designation database + frequency prior). Steps B and C
-are SpecHLA's own scripts. See `DESIGN.md` for the step-by-step mapping and `REPORT.md` for results.
+**DōgoHLA** (`dogohla`, version **0.1.0**) combines SpecHLA's read-based phasing
+with the AsianHLA pangenome. Named after [Dōgo Onsen in Matsuyama](https://dogo.jp/en/),
+where this BioHackathon work came together.
 
-Cluster root: `/home/leechuck/hla/spechla-pg` (NIG/DDBJ, partition `asianhla-c32`). Local = scripting, scoring.
+DōgoHLA is an experimental **extension of SpecHLA**, not an independently
+validated replacement. Please cite Wang et al. (2023),
+[SpecHLA](https://doi.org/10.1016/j.crmeth.2023.100589), and acknowledge the
+underlying pangenome projects. The original `hla-spechla-pg` directory and old
+experiment names remain to preserve reproducibility.
 
-## Layout
+## What is frozen in 0.1.0
 
-| Path | Purpose |
-|---|---|
-| `remote.py` | two-hop ssh transport (`ssh ddbj` -> `a001`); `--upload FILE --dest PATH`, `--download PATH --dest FILE`, or a command |
-| `push.sh` | upload every `*.py`, `*.sh` and `jobs/*` to `scripts/` and `jobs/` on the cluster |
-| `fetch_runs.sh` | download the small per-run result files into `results/runs/<donor>/<mode>/` |
-| `build_refs.py` | (cluster) build the five fold-specific, leakage-free references: binning db + bowtie2 index, E/F allele db + blast db, graph input FASTAs |
-| `jobs/build_refs.sbatch` | Slurm wrapper for `build_refs.py` |
-| `jobs/build_graph_pggb.sbatch` | array job: per fold x gene PGGB graph + giraffe indexes (`graphs/fold{k}/HLA_<gene>.pggb.*`) |
-| `jobs/build_graph_mc.sbatch` | array job: the Minigraph-Cactus alternative (`*.mc.*`) used for the builder comparison |
-| `jobs/recruit.sbatch` | array job over `source/donors_folds.tsv`: HLA read recruitment from the 1000G S3 CRAM (same logic as `hla-typer/stageA/recruit.sbatch`) |
-| `spechla_pg.sh` | (cluster) the pipeline driver: `-m A|AD|ADEF`, `-g pggb|mc`, `-k fold` |
-| `designate.py` | (cluster) step F with the pangenome database and frequency prior |
-| `jobs/run_donor.sbatch` | array job: native SpecHLA baseline + modes A, AD, ADEF for one donor (`MODES`, `GRAPH` env overrides) |
-| `jobs/redesignate.sbatch` | re-run step F only (`designate.py`) over every existing run directory, after a change to the designation logic or database |
-| `score.py` | (local) predictions/scores/summary/errors against Truth A (assembly catalogue) and Truth B (Gourraud 2014) |
-| `test_designate.py`, `test_score.py` | unit tests: `python3 -m unittest` |
-| `source/` | fold definitions, donor list with CRAM URLs, IPD-IMGT/HLA 3.65.0 genomic FASTAs + nomenclature, slim catalogue |
-| `results/` | `predictions.tsv`, `scores.tsv`, `summary.tsv`, `sequence_scores.tsv`, `errors.tsv` (one row per wrong or missing call), fetched run outputs |
+- AsianHLA-panel-augmented read collection with donor/family exclusions.
+- SpecHLA alignment and small-variant calling.
+- Corrected phase-block scoring and complementary-haplotype pairing; IPD 3.65
+  phase references. Adding panel sequences at this stage is not enabled because
+  it did not improve the pilot.
+- Path-preserving DRB1 graph alignment and represented-allele genotyping.
+- Guarded reconstruction of confident homozygous noncoding long indels, keeping
+  read-phased coding differences. Low-confidence, heterozygous and ambiguous
+  boundary calls are withheld. Thresholds are frozen in `structural_overlay.py`.
+- Native allele naming with the fixed DRB1 query-length restriction removed.
 
-## Running
+Eight-donor development results: **36 → 57 exact whole genes out of 128**,
+**61 → 62 correct two-field genotypes out of 63**, and **22.8% fewer total
+sequence edits**, compared with the saved native SpecHLA baseline. These are
+selected development results. The earlier 43/128 reference was an already
+panel-augmented control, not vanilla SpecHLA.
 
+[Results and limitations](RESULTS-2026-09-18.md) ·
+[Implementation and reproducibility](IMPLEMENTATION.md) ·
+[Workflow review](review-2026-09-18/REVIEW.md) ·
+[Earlier experimental workflow](LEGACY-WORKFLOW.md)
+
+## Validation
+
+The next run freezes the method before evaluating the other 32 1000 Genomes
+samples (16 EAS, 16 SAS), with family-excluded references and a native SpecHLA
+comparator. All donors and outcomes, including failures, must be reported.
+This is a prospective extension of the development cohort, not the untouched
+228/946 locked validation. See `validation/20260918/PROTOCOL.md` for the
+prespecified design, deadlines and scoring rules.
+
+## Tests
+
+```sh
+python3 -m unittest discover -s hla-spechla-pg -p 'test_*.py' -v
 ```
-./push.sh                                                    # upload scripts
-python3 remote.py 'cd /home/leechuck/hla/spechla-pg && sbatch jobs/build_refs.sbatch'
-python3 remote.py 'cd /home/leechuck/hla/spechla-pg && sbatch --array=0-39%2 jobs/build_graph_pggb.sbatch'
-python3 remote.py 'cd /home/leechuck/hla/spechla-pg && sbatch --array=0-39%2 jobs/recruit.sbatch'     # index = data line of source/donors_folds.tsv
-python3 remote.py 'cd /home/leechuck/hla/spechla-pg && sbatch --array=0-39%2 jobs/run_donor.sbatch'
-python3 remote.py 'cd /home/leechuck/hla/spechla-pg && sbatch jobs/redesignate.sbatch'   # step F only, after a designate.py change
-./fetch_runs.sh && python3 score.py                          # -> results/*.tsv
-```
 
-Cluster outputs: `reads/<donor>/`, `runs/<donor>/{bin,native,A,AD,ADEF}/` (`hla.result.txt` = native designation,
-`hla.result.g.group.txt`, `hla.result.pg.txt` = pangenome designation, `hla.allele.{1,2}.HLA_<gene>.fasta`
-reconstructed haplotypes, `timing.tsv`, `time.log`), logs in `logs/`.
-
-Environments: `asian50-spechla` (SpecHLA 1.0.12, bowtie2, bwa, freebayes, fermi2, blast, SpecHap, edlib),
-`pggb053` (pggb 0.5.3 with pinned wfmash 0.10, seqwish 0.7, smoothxg 0.7, odgi 0.8; the unpinned bioconda solve pairs pggb 0.5.3 with wfmash 0.24 whose CLI is incompatible), Cactus 3.3.0 bundle (vg 1.76.1, cactus-pangenome).
-Package versions: `source/*.packages.json`.
+The implementation uses SpecHLA 1.0.12, vg 1.76.1, IPD-IMGT/HLA 3.65 genomic
+phase references and the pinned AsianHLA panel. Alignment/phasing runs belong
+on Slurm; the supplied deployment and job scripts target DDBJ. Bulk read and
+sequence data are kept outside Git. This release is for research evaluation;
+heterozygous structural phasing and generalisation remain open work.
