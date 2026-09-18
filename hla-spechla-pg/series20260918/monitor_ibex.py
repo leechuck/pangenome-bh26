@@ -75,6 +75,7 @@ while True:
     subprocess.run([sys.executable,str(T1K/'score_graph_development_batch.py')],check=True,timeout=180)
    if (T1K/'graph-pair-refinement-launch.json').exists():
     subprocess.run([sys.executable,str(T1K/'fetch_graph_pair_refinement.py')],check=True,timeout=180)
+    subprocess.run([sys.executable,str(T1K/'audit_graph_refinement.py')],check=True,timeout=180)
   cycle+=1
   if terminal:break
  except Exception as e:

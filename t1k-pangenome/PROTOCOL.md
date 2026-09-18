@@ -495,6 +495,13 @@ The current informative-fragment counter measures variation across all candidate
 columns, not specifically between the native and proposed pair. It is not a count
 of independently diagnostic variant observations or calibrated confidence.
 
+`audit_graph_refinement.py` revalidates the development outputs and joins each
+four-field decision to its genomic-IPD baseline outcome. It reports rescues,
+losses, changed calls and reasons for remaining errors for each graph condition,
+with completed-donor counts for partial batches. The monitor refreshes this audit
+after fetching refinement calls. It neither reads reserved outcomes nor selects
+parameters from them.
+
 ### Scheduling follow-up (18 September)
 
 After 138 of 224 calibrated evidence tasks completed, the remaining 86 were
