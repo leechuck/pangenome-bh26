@@ -1,0 +1,50 @@
+{
+  "donor": "HG02132",
+  "condition": "hprc_asian/sampled",
+  "decisions": {
+    "DPB1": {
+      "changed": true,
+      "fragments": 2067,
+      "informative_fragments": 2067,
+      "score_gain_over_native": 22.665844516471225,
+      "tied_pairs": 1,
+      "reason": "Graph-supported four-field refinement",
+      "pair": [
+        "DPB1*05:01:01:05",
+        "DPB1*13:01:01:12"
+      ],
+      "score_gap": 19.002232439717773,
+      "effective_allele_support": [
+        964.9515210808747,
+        968.0484789191253
+      ]
+    }
+  },
+  "score_partitions": {
+    "DPB1": {
+      "all": {
+        "fragments": 2067,
+        "score_gain": 22.665844516471243
+      },
+      "overlaps_gene_span": {
+        "fragments": 1608,
+        "score_gain": 22.665844516471243
+      },
+      "both_native_alleles_supported": {
+        "fragments": 795,
+        "score_gain": -45.75634500989557
+      },
+      "outside_gene_span": {
+        "fragments": 459,
+        "score_gain": 0.0
+      },
+      "some_native_allele_unsupported": {
+        "fragments": 1272,
+        "score_gain": 68.42218952636681
+      }
+    }
+  },
+  "scope": "Development diagnostics; gene span means envelope of annotated exons, including introns but excluding terminal UTRs",
+  "manifest_sha256": "cf91a66e03d7932bc063873cd8e7b6099a7c35216c94dea8e716065ec6233c97",
+  "driver_sha256": "d1d75d0282a6902451ce240fc661dcc21387ad59256ecc5c97988dfd1b290a97"
+}
