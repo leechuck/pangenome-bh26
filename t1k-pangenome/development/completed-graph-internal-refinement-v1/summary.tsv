@@ -1,0 +1,13 @@
+method	fields	planned_donors	completed_donors	eligible	called	correct	allele_matches
+T1K	2	8	8	63	63	63	126
+T1K	4	8	8	47	47	21	60
+ipd_genome	2	8	8	63	63	62	125
+ipd_genome	4	8	8	47	47	41	86
+hprc/sampled	2	8	8	63	63	62	125
+hprc/sampled	4	8	8	47	47	41	86
+hprc/unsampled	2	8	8	63	63	62	125
+hprc/unsampled	4	8	8	47	47	41	87
+hprc_asian/sampled	2	8	8	63	63	62	125
+hprc_asian/sampled	4	8	8	47	47	40	85
+hprc_asian/unsampled	2	8	8	63	63	62	125
+hprc_asian/unsampled	4	8	8	47	47	43	89

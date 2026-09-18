@@ -558,6 +558,15 @@ The same eight donors and four conditions run under a new code snapshot and
 output directory. Version-one outputs remain intact. Tests cover a flanking mate,
 alternative boundary placement, and non-destructive filtering; all 112 tests pass.
 
+All 32 gene-internal comparisons completed. The unsampled additive graph scores
+43/47 four-field genotypes, correcting DQA1 in HG03516 and NA19185 without losing
+another correct genotype. HPRC remains 41/47; sampled additive remains 40/47.
+The unsampled HLA-A error is removed, while the sampled DPB1 error persists.
+`development/completed-graph-internal-refinement-v1/` archives the checked
+results. This is a development gain, not independent proof. The global
+informative-fragment counter still needs a pair-specific discrimination check
+before freezing the validation candidate. No reserved outcome has been inspected.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
