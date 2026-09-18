@@ -86,3 +86,16 @@ KMC 3.2.4 is staged separately under `tools/kmc-3.2.4`; its upstream archive and
 binary hashes are in `kmc-provenance.json`. The smoke driver sets
 `OMP_NUM_THREADS` to its allocated thread count, overriding the benchmark
 container's one-thread default for this subprocess only.
+
+`repair_graph_index.py` handles the diagnosed top-level-loop failure by rebuilding
+the distance index with `vg index -P` and the original deterministic indexing
+backbone. It copies the graph unchanged, verifies the vg binary, preserves the
+failed attempt, and records the old manifest hash. Successful repairs do not
+replace failed files in place.
+
+The synthetic smoke supports explicit `--kmer-coverage`. For the generated
+40-fold coverage per haplotype and 150 bp reads, the expected shared 29-mer
+coverage is approximately `2 * 40 * (150 - 29 + 1) / 150 = 65.07`. The v3
+experiment uses 65 to test the explicit-coverage workflow. This number is known
+from simulation and must not become a fixed assumption for real data. Real-data
+coverage estimation and selection calibration remain unresolved.

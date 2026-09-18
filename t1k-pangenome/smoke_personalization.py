@@ -17,7 +17,7 @@ def reverse_complement(sequence):
     return sequence.translate(str.maketrans('ACGTN', 'TGCAN'))[::-1]
 
 
-def smoke(graph, reference, output, threads):
+def smoke(graph, reference, output, threads, kmer_coverage=None):
     if not os.environ.get('SLURM_JOB_ID'):
         raise RuntimeError('Smoke test requires a Slurm allocation')
     if output.exists():
@@ -40,6 +40,8 @@ def smoke(graph, reference, output, threads):
         raise ValueError('Need two unambiguous training sequences')
     output.mkdir(parents=True)
     output = output.resolve()
+    (output/'tmp').mkdir()
+    os.environ['TMPDIR'] = str(output/'tmp')
     rng = random.Random(20260918)
     pair_count = 0
     with (output/'r1.fq').open('w') as r1, (output/'r2.fq').open('w') as r2:
@@ -59,6 +61,16 @@ def smoke(graph, reference, output, threads):
     command = [vg, 'giraffe', '--haplotype-sampling', '--no-diploid-sampling',
                '--num-haplotypes', '8', '-Z', 'graph.gbz', '--haplotype-name', 'graph.hapl',
                '-f', 'r1.fq', '-f', 'r2.fq', '-t', str(threads), '-N', 'synthetic']
+    preparation = []
+    if kmer_coverage is not None:
+        (output/'read_files.txt').write_text(str(output/'r1.fq')+'\n'+str(output/'r2.fq')+'\n')
+        preparation = [[kmc,'-k29','-m8','-okff','-t'+str(threads),'-hp',
+                        '@read_files.txt','counts','tmp'],
+                       [vg,'haplotypes','-v','2','-t',str(threads),'--coverage',str(kmer_coverage),
+                        '--num-haplotypes','8','--include-reference','-i','graph.hapl',
+                        '-k','counts.kff','-g','sampled.gbz','graph.gbz']]
+        command = [vg,'giraffe','-Z','sampled.gbz','-f','r1.fq','-f','r2.fq',
+                   '-t',str(threads),'-N','synthetic']
     record = dict(status='running', started=time.time(), command=command,
                   scope='Synthetic training-path integration test; not typing accuracy',
                   graph_manifest_sha256=sha(graph/'COMPLETE.json'),
@@ -66,12 +78,16 @@ def smoke(graph, reference, output, threads):
                   kmc_sha256=sha(Path(kmc)),
                   selected_training_paths=chosen, pairs=pair_count, seed=20260918,
                   reads_sha256={p:sha(output/p) for p in ('r1.fq','r2.fq')})
+    record.update(preparation_commands=preparation, explicit_kmer_coverage=kmer_coverage)
 
     def save():
         (output/'manifest.json').write_text(json.dumps(record, indent=2)+'\n')
 
     save()
     try:
+        for step in preparation:
+            with (output/'preparation.log').open('ab') as log:
+                subprocess.run(step, cwd=output, stdout=log, stderr=log, check=True)
         with (output/'mapping.gam').open('wb') as gam, (output/'mapping.log').open('wb') as log:
             subprocess.run(command, cwd=output, stdout=gam, stderr=log, check=True)
         with (output/'alignments.jsonl').open('wb') as stream:
@@ -100,5 +116,8 @@ if __name__ == '__main__':
     p.add_argument('--reference', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--threads', type=int, default=8)
+    p.add_argument('--kmer-coverage', type=int)
     a = p.parse_args()
-    smoke(a.graph, a.reference, a.output, a.threads)
+    if a.kmer_coverage is not None and a.kmer_coverage < 1:
+        p.error('--kmer-coverage must be positive')
+    smoke(a.graph, a.reference, a.output, a.threads, a.kmer_coverage)

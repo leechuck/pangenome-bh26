@@ -28,12 +28,19 @@ for cohort in ('','gourraud'):
    if counts:report['stages']['/'.join((cohort or 'matched',arm,stage))]=dict(counts)
 prep=r.parent/'t1k-pangenome'
 for stage,pattern in [('reference_graphs','graphs/build-v1/*/*/manifest.json'),
+                      ('reference_graphs_repaired','graphs/build-v2/*/*/manifest.json'),
                       ('graph_pilot','graphs/pilot-v2/*/*/manifest.json'),
-                      ('personalization_smoke','smoke/personalization-v2/manifest.json')]:
+                      ('personalization_smoke','smoke/personalization-v[23]/manifest.json')]:
  counts=collections.Counter()
  for p in prep.glob(pattern):
   try:
-   m=json.loads(p.read_text());state=m['status'];counts[state]+=1
+   m=json.loads(p.read_text());state=m['status']
+   if state=='failed' and stage=='reference_graphs':
+    repaired=prep/'graphs/build-v2'/p.parent.parent.name/p.parent.name/'COMPLETE.json'
+    if repaired.exists():
+     audit=json.loads(repaired.read_text())
+     if audit.get('status')=='complete' and audit.get('previous_manifest_sha256')==hashlib.sha256(p.read_bytes()).hexdigest():state='repaired'
+   counts[state]+=1
    if state=='failed':report['failures'].append(dict(path=str(p),error=m.get('error','UNKNOWN')))
   except (OSError,ValueError):counts['unreadable_manifest']+=1
  if counts:report['stages']['t1k_preparation/'+stage]=dict(counts)
