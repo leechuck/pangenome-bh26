@@ -58,3 +58,12 @@ The dispatcher regression checks passed (2 tests), including a check that
 projection submission supplies the matching-task dependency and that an
 incomplete projection cohort cannot release the join stage. Frozen inference,
 read inputs, and endpoint scoring are unchanged.
+
+The controller initially retained the `aftercorr` dependency even for matching
+mappings already recorded complete. An accounting-verified release was therefore
+started: only pending projection task IDs whose exact mapping ID was COMPLETED
+with exit code 0:0 were passed to `scontrol update ... Dependency=`. This produced
+actual overlap (47 projection tasks running while 10 mappings were still running).
+The release command is still in progress; its full response will be retained as
+`validation-calibrated-projection-release.json` on IBEX and locally. No task was
+restarted. Final completion is checked independently by the dispatcher.
