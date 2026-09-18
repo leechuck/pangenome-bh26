@@ -1,0 +1,27 @@
+# Matched T1K comparison and four-field performance
+
+Supplemental analysis requested after the first six outcomes were available. Primary frozen scoring is unchanged. Figures are diploid genotype accuracy, not individual alleles.
+
+## first_six: 6 donors
+
+| Method | Completed | Two-field correct | Four-field correct | Four-field resolved |
+|---|---:|---:|---:|---:|
+| native | 6/6 | 42/48 | 12/33 | 27/33 |
+| native-long | 0/6 | 0/48 | Pending | 0/33 |
+| DogoHLA-no-graph | 6/6 | 46/48 | 14/33 | 27/33 |
+| DogoHLA | 6/6 | 46/48 | 14/33 | 27/33 |
+| T1K | 6/6 | 47/48 | Not resolved | 0/33 |
+
+## completed_matched: 12 donors
+
+| Method | Completed | Two-field correct | Four-field correct | Four-field resolved |
+|---|---:|---:|---:|---:|
+| native | 12/12 | 86/96 | 23/63 | 56/63 |
+| native-long | 0/12 | 0/96 | Pending | 0/63 |
+| DogoHLA-no-graph | 12/12 | 91/96 | 25/63 | 56/63 |
+| DogoHLA | 12/12 | 91/96 | 25/63 | 56/63 |
+| T1K | 12/12 | 95/96 | Not resolved | 0/63 |
+
+Four-field truth requires an exact genomic match for both haplotypes. Unmatched/novel truth sequences are excluded for every method and are counted in the separate whole-gene endpoint. Shorter allele names are not silently expanded. T1K's archived output may stop at three fields; that is an output-resolution limit, not proof its reconstructed sequence is wrong.
+
+T1K uses IPD 3.65 whereas native/DōgoHLA allele naming uses IPD 3.38. These are comparisons of the deployed configurations, not an isolated algorithm comparison. No matched OptiType, HLA*LA or other established short-read caller outputs were found in the local project.

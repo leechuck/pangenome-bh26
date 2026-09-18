@@ -7,6 +7,7 @@ from pathlib import Path
 import time
 from fetch_validation import fetch
 from score_validation import evaluate
+from score_comparators import evaluate as evaluate_comparators
 
 
 def main():
@@ -24,6 +25,7 @@ def main():
         try:
             fetch(a.release,a.out/'snapshot')
             evaluate(a.out/'snapshot',cohort,a.out/'analysis')
+            evaluate_comparators(a.out/'snapshot',cohort,a.out/'analysis')
             record=json.loads((a.out/'analysis/analysis.json').read_text())
             record.update(observed_at=now.isoformat(),deadline=deadline.isoformat(),deadline_reached=at_deadline)
             (a.out/'monitor.json').write_text(json.dumps(record,indent=2)+'\n')

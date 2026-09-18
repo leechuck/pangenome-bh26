@@ -1,0 +1,2561 @@
+donor	stratum	method	gene	level	status	eligible	called	correct	allele_matches	allele1	allele2
+HG00658	EAS	native	A	two_field	complete	1	1	1	2	A*11:01:01:01	A*11:01:01:01
+HG00658	EAS	native	A	four_field	complete	1	1	1	2	A*11:01:01:01	A*11:01:01:01
+HG00658	EAS	native	B	two_field	complete	1	1	1	2	B*39:01:01:02L	B*51:01:02:01
+HG00658	EAS	native	B	four_field	complete	1	1	0	1	B*39:01:01:02L	B*51:01:02:01
+HG00658	EAS	native	C	two_field	complete	1	1	1	2	C*14:02:01:01	C*07:02:01:01
+HG00658	EAS	native	C	four_field	complete	1	1	0	1	C*14:02:01:01	C*07:02:01:01
+HG00658	EAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG00658	EAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG00658	EAS	native	DPB1	two_field	complete	1	1	0	1	DPB1*22:01:01:01	DPB1*02:02:01:02
+HG00658	EAS	native	DPB1	four_field	complete	0	0	0	0	DPB1*22:01:01:01	DPB1*02:02:01:02
+HG00658	EAS	native	DQA1	two_field	complete	1	1	0	1	DQA1*01:01:01:01	DQA1*01:03:01:01
+HG00658	EAS	native	DQA1	four_field	complete	1	1	0	0	DQA1*01:01:01:01	DQA1*01:03:01:01
+HG00658	EAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*05:03:01:01	DQB1*06:01:01:01
+HG00658	EAS	native	DQB1	four_field	complete	1	1	1	2	DQB1*05:03:01:01	DQB1*06:01:01:01
+HG00658	EAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*08:03:02:01	DRB1*14:04:01:01
+HG00658	EAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*08:03:02:01	DRB1*14:04:01:01
+HG00658	EAS	native-long	A	two_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	A	four_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	B	two_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	B	four_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	C	two_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	C	four_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG00658	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	DPB1	four_field	not_started	0	0	0	0		
+HG00658	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG00658	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG00658	EAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*11:01:01:01	A*11:01:01:01
+HG00658	EAS	DogoHLA-no-graph	A	four_field	complete	1	1	1	2	A*11:01:01:01	A*11:01:01:01
+HG00658	EAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*51:01:02:01	B*39:01:01:02L
+HG00658	EAS	DogoHLA-no-graph	B	four_field	complete	1	1	0	1	B*51:01:02:01	B*39:01:01:02L
+HG00658	EAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*14:02:01:01	C*07:02:01:01
+HG00658	EAS	DogoHLA-no-graph	C	four_field	complete	1	1	0	1	C*14:02:01:01	C*07:02:01:01
+HG00658	EAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG00658	EAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG00658	EAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*05:01:01:01	DPB1*02:02:01:02
+HG00658	EAS	DogoHLA-no-graph	DPB1	four_field	complete	0	0	0	0	DPB1*05:01:01:01	DPB1*02:02:01:02
+HG00658	EAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*01:03:01:01	DQA1*01:04:01:01
+HG00658	EAS	DogoHLA-no-graph	DQA1	four_field	complete	1	1	0	1	DQA1*01:03:01:01	DQA1*01:04:01:01
+HG00658	EAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*05:03:01:01
+HG00658	EAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*05:03:01:01
+HG00658	EAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*14:04:01:01	DRB1*08:03:02:01
+HG00658	EAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*14:04:01:01	DRB1*08:03:02:01
+HG00658	EAS	DogoHLA	A	two_field	complete	1	1	1	2	A*11:01:01:01	A*11:01:01:01
+HG00658	EAS	DogoHLA	A	four_field	complete	1	1	1	2	A*11:01:01:01	A*11:01:01:01
+HG00658	EAS	DogoHLA	B	two_field	complete	1	1	1	2	B*51:01:02:01	B*39:01:01:02L
+HG00658	EAS	DogoHLA	B	four_field	complete	1	1	0	1	B*51:01:02:01	B*39:01:01:02L
+HG00658	EAS	DogoHLA	C	two_field	complete	1	1	1	2	C*14:02:01:01	C*07:02:01:01
+HG00658	EAS	DogoHLA	C	four_field	complete	1	1	0	1	C*14:02:01:01	C*07:02:01:01
+HG00658	EAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG00658	EAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG00658	EAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*05:01:01:01	DPB1*02:02:01:02
+HG00658	EAS	DogoHLA	DPB1	four_field	complete	0	0	0	0	DPB1*05:01:01:01	DPB1*02:02:01:02
+HG00658	EAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*01:03:01:01	DQA1*01:04:01:01
+HG00658	EAS	DogoHLA	DQA1	four_field	complete	1	1	0	1	DQA1*01:03:01:01	DQA1*01:04:01:01
+HG00658	EAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*05:03:01:01
+HG00658	EAS	DogoHLA	DQB1	four_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*05:03:01:01
+HG00658	EAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*14:04:01:01	DRB1*08:03:02:01
+HG00658	EAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*14:04:01:01	DRB1*08:03:02:01
+HG00658	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*11:01:01	A*11:01:01
+HG00658	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*11:01:01	A*11:01:01
+HG00658	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*51:01:02	B*39:01:01
+HG00658	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*51:01:02	B*39:01:01
+HG00658	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*14:02:01	C*07:02:01
+HG00658	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*14:02:01	C*07:02:01
+HG00658	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*02:02:02
+HG00658	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*02:02:02
+HG00658	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*05:01:01	DPB1*02:02:01
+HG00658	EAS	T1K	DPB1	four_field	archived_output	0	0	0	0	DPB1*05:01:01	DPB1*02:02:01
+HG00658	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:03:01	DQA1*01:04:01
+HG00658	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:03:01	DQA1*01:04:01
+HG00658	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*05:03:01	DQB1*06:01:01
+HG00658	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*05:03:01	DQB1*06:01:01
+HG00658	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*08:03:02	DRB1*14:04:01
+HG00658	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*08:03:02	DRB1*14:04:01
+HG02132	EAS	native	A	two_field	complete	1	1	1	2	A*26:01:58	A*29:01:01:01
+HG02132	EAS	native	A	four_field	complete	1	0	0	1	A*26:01:58	A*29:01:01:01
+HG02132	EAS	native	B	two_field	complete	1	1	0	1	B*15:11:01	B*55:01:01:01
+HG02132	EAS	native	B	four_field	complete	1	0	0	0	B*15:11:01	B*55:01:01:01
+HG02132	EAS	native	C	two_field	complete	1	1	1	2	C*01:02:01:23	C*03:03:01:01
+HG02132	EAS	native	C	four_field	complete	1	1	0	1	C*01:02:01:23	C*03:03:01:01
+HG02132	EAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG02132	EAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG02132	EAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*13:01:01:01	DPB1*05:01:01:01
+HG02132	EAS	native	DPB1	four_field	complete	1	1	0	0	DPB1*13:01:01:01	DPB1*05:01:01:01
+HG02132	EAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*03:02:01:01	DQA1*03:03:01:01
+HG02132	EAS	native	DQA1	four_field	complete	1	1	0	1	DQA1*03:02:01:01	DQA1*03:03:01:01
+HG02132	EAS	native	DQB1	two_field	complete	1	1	0	1	DQB1*03:02:01:01	DQB1*04:01:01:02
+HG02132	EAS	native	DQB1	four_field	complete	1	1	0	0	DQB1*03:02:01:01	DQB1*04:01:01:02
+HG02132	EAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*09:01:02:01	DRB1*04:05:01:01
+HG02132	EAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*09:01:02:01	DRB1*04:05:01:01
+HG02132	EAS	native-long	A	two_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	A	four_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	B	two_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	B	four_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	C	two_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	C	four_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG02132	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG02132	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG02132	EAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*26:01:58	A*29:01:01:01
+HG02132	EAS	DogoHLA-no-graph	A	four_field	complete	1	0	0	1	A*26:01:58	A*29:01:01:01
+HG02132	EAS	DogoHLA-no-graph	B	two_field	complete	1	1	0	1	B*15:11:01	B*55:01:01:01
+HG02132	EAS	DogoHLA-no-graph	B	four_field	complete	1	0	0	0	B*15:11:01	B*55:01:01:01
+HG02132	EAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*03:03:01:01	C*01:02:01:01
+HG02132	EAS	DogoHLA-no-graph	C	four_field	complete	1	1	1	2	C*03:03:01:01	C*01:02:01:01
+HG02132	EAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG02132	EAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG02132	EAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*13:01:01:01	DPB1*05:01:01:01
+HG02132	EAS	DogoHLA-no-graph	DPB1	four_field	complete	1	1	0	0	DPB1*13:01:01:01	DPB1*05:01:01:01
+HG02132	EAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*03:02:01:01	DQA1*03:03:01:01
+HG02132	EAS	DogoHLA-no-graph	DQA1	four_field	complete	1	1	0	1	DQA1*03:02:01:01	DQA1*03:03:01:01
+HG02132	EAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*04:01:01:02
+HG02132	EAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	0	0	DQB1*03:03:02:01	DQB1*04:01:01:02
+HG02132	EAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*04:05:01:01	DRB1*09:01:02:01
+HG02132	EAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*04:05:01:01	DRB1*09:01:02:01
+HG02132	EAS	DogoHLA	A	two_field	complete	1	1	1	2	A*26:01:58	A*29:01:01:01
+HG02132	EAS	DogoHLA	A	four_field	complete	1	0	0	1	A*26:01:58	A*29:01:01:01
+HG02132	EAS	DogoHLA	B	two_field	complete	1	1	0	1	B*15:11:01	B*55:01:01:01
+HG02132	EAS	DogoHLA	B	four_field	complete	1	0	0	0	B*15:11:01	B*55:01:01:01
+HG02132	EAS	DogoHLA	C	two_field	complete	1	1	1	2	C*03:03:01:01	C*01:02:01:01
+HG02132	EAS	DogoHLA	C	four_field	complete	1	1	1	2	C*03:03:01:01	C*01:02:01:01
+HG02132	EAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG02132	EAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG02132	EAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*13:01:01:01	DPB1*05:01:01:01
+HG02132	EAS	DogoHLA	DPB1	four_field	complete	1	1	0	0	DPB1*13:01:01:01	DPB1*05:01:01:01
+HG02132	EAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*03:02:01:01	DQA1*03:03:01:01
+HG02132	EAS	DogoHLA	DQA1	four_field	complete	1	1	0	1	DQA1*03:02:01:01	DQA1*03:03:01:01
+HG02132	EAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*04:01:01:02
+HG02132	EAS	DogoHLA	DQB1	four_field	complete	1	1	0	0	DQB1*03:03:02:01	DQB1*04:01:01:02
+HG02132	EAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*04:05:01:01	DRB1*09:01:02:01
+HG02132	EAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*04:05:01:01	DRB1*09:01:02:01
+HG02132	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*26:01:01	A*29:01:01
+HG02132	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*26:01:01	A*29:01:01
+HG02132	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*15:11:01	B*55:02:01
+HG02132	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*15:11:01	B*55:02:01
+HG02132	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*03:03:01	C*01:02:01
+HG02132	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*03:03:01	C*01:02:01
+HG02132	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*02:02:02
+HG02132	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*02:02:02
+HG02132	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*05:01:01	DPB1*13:01:01
+HG02132	EAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*05:01:01	DPB1*13:01:01
+HG02132	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*03:03:01	DQA1*03:02:01
+HG02132	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*03:03:01	DQA1*03:02:01
+HG02132	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*04:01:01	DQB1*03:03:02
+HG02132	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*04:01:01	DQB1*03:03:02
+HG02132	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*04:05:01	DRB1*09:01:02
+HG02132	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*04:05:01	DRB1*09:01:02
+HG02178	EAS	native	A	two_field	complete	1	1	1	2	A*11:02:01:01	A*11:01:01:25
+HG02178	EAS	native	A	four_field	complete	1	1	1	2	A*11:02:01:01	A*11:01:01:25
+HG02178	EAS	native	B	two_field	complete	1	1	1	2	B*46:01:01:01	B*52:01:01:01
+HG02178	EAS	native	B	four_field	complete	1	1	1	2	B*46:01:01:01	B*52:01:01:01
+HG02178	EAS	native	C	two_field	complete	1	1	1	2	C*01:02:01:01	C*07:02:01:01
+HG02178	EAS	native	C	four_field	complete	1	1	1	2	C*01:02:01:01	C*07:02:01:01
+HG02178	EAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*02:02:02:01
+HG02178	EAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*02:02:02:01
+HG02178	EAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*13:01:01:01	DPB1*05:01:01:01
+HG02178	EAS	native	DPB1	four_field	complete	1	1	0	0	DPB1*13:01:01:01	DPB1*05:01:01:01
+HG02178	EAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*03:02:01:01	DQA1*01:01:01:07
+HG02178	EAS	native	DQA1	four_field	complete	1	1	0	1	DQA1*03:02:01:01	DQA1*01:01:01:07
+HG02178	EAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*05:01:24:01	DQB1*03:03:02:01
+HG02178	EAS	native	DQB1	four_field	complete	1	1	0	1	DQB1*05:01:24:01	DQB1*03:03:02:01
+HG02178	EAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*09:01:02:01	DRB1*15:02:01:01
+HG02178	EAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*09:01:02:01	DRB1*15:02:01:01
+HG02178	EAS	native-long	A	two_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	A	four_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	B	two_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	B	four_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	C	two_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	C	four_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG02178	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG02178	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG02178	EAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*11:02:01:01	A*11:01:01:25
+HG02178	EAS	DogoHLA-no-graph	A	four_field	complete	1	1	1	2	A*11:02:01:01	A*11:01:01:25
+HG02178	EAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*46:01:01:01	B*52:01:01:01
+HG02178	EAS	DogoHLA-no-graph	B	four_field	complete	1	1	1	2	B*46:01:01:01	B*52:01:01:01
+HG02178	EAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*01:02:01:01	C*07:02:01:01
+HG02178	EAS	DogoHLA-no-graph	C	four_field	complete	1	1	1	2	C*01:02:01:01	C*07:02:01:01
+HG02178	EAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*02:01:01:01
+HG02178	EAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*02:01:01:01
+HG02178	EAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*05:01:01:01	DPB1*13:01:01:01
+HG02178	EAS	DogoHLA-no-graph	DPB1	four_field	complete	1	1	0	0	DPB1*05:01:01:01	DPB1*13:01:01:01
+HG02178	EAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*03:02:01:01	DQA1*01:01:01:07
+HG02178	EAS	DogoHLA-no-graph	DQA1	four_field	complete	1	1	0	1	DQA1*03:02:01:01	DQA1*01:01:01:07
+HG02178	EAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*05:01:24:01	DQB1*03:03:02:01
+HG02178	EAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	0	1	DQB1*05:01:24:01	DQB1*03:03:02:01
+HG02178	EAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*15:02:01:01	DRB1*09:01:02:01
+HG02178	EAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*15:02:01:01	DRB1*09:01:02:01
+HG02178	EAS	DogoHLA	A	two_field	complete	1	1	1	2	A*11:02:01:01	A*11:01:01:25
+HG02178	EAS	DogoHLA	A	four_field	complete	1	1	1	2	A*11:02:01:01	A*11:01:01:25
+HG02178	EAS	DogoHLA	B	two_field	complete	1	1	1	2	B*46:01:01:01	B*52:01:01:01
+HG02178	EAS	DogoHLA	B	four_field	complete	1	1	1	2	B*46:01:01:01	B*52:01:01:01
+HG02178	EAS	DogoHLA	C	two_field	complete	1	1	1	2	C*01:02:01:01	C*07:02:01:01
+HG02178	EAS	DogoHLA	C	four_field	complete	1	1	1	2	C*01:02:01:01	C*07:02:01:01
+HG02178	EAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*02:01:01:01
+HG02178	EAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*02:01:01:01
+HG02178	EAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*05:01:01:01	DPB1*13:01:01:01
+HG02178	EAS	DogoHLA	DPB1	four_field	complete	1	1	0	0	DPB1*05:01:01:01	DPB1*13:01:01:01
+HG02178	EAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*03:02:01:01	DQA1*01:01:01:07
+HG02178	EAS	DogoHLA	DQA1	four_field	complete	1	1	0	1	DQA1*03:02:01:01	DQA1*01:01:01:07
+HG02178	EAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*05:01:24:01	DQB1*03:03:02:01
+HG02178	EAS	DogoHLA	DQB1	four_field	complete	1	1	0	1	DQB1*05:01:24:01	DQB1*03:03:02:01
+HG02178	EAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*15:02:01:01	DRB1*09:01:02:01
+HG02178	EAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*15:02:01:01	DRB1*09:01:02:01
+HG02178	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*11:02:01	A*11:01:01
+HG02178	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*11:02:01	A*11:01:01
+HG02178	EAS	T1K	B	two_field	archived_output	1	1	0	1	B*46:01:01,HLA-B*46:99	B*52:01:01
+HG02178	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*46:01:01,HLA-B*46:99	B*52:01:01
+HG02178	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*07:02:01	C*01:02:01
+HG02178	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*07:02:01	C*01:02:01
+HG02178	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:01:01	DPA1*02:02:02
+HG02178	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:01:01	DPA1*02:02:02
+HG02178	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*05:01:01	DPB1*13:01:01
+HG02178	EAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*05:01:01	DPB1*13:01:01
+HG02178	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:01:01	DQA1*03:02:01
+HG02178	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:01:01	DQA1*03:02:01
+HG02178	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*05:01:24	DQB1*03:03:02
+HG02178	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*05:01:24	DQB1*03:03:02
+HG02178	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*15:02:01	DRB1*09:01:02
+HG02178	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*15:02:01	DRB1*09:01:02
+HG03831	SAS	native	A	two_field	complete	1	1	1	2	A*33:03:01:01	A*31:01:02:01
+HG03831	SAS	native	A	four_field	complete	1	1	1	2	A*33:03:01:01	A*31:01:02:01
+HG03831	SAS	native	B	two_field	complete	1	1	1	2	B*15:08:01	B*52:01:01:02
+HG03831	SAS	native	B	four_field	complete	1	0	0	1	B*15:08:01	B*52:01:01:02
+HG03831	SAS	native	C	two_field	complete	1	1	1	2	C*01:02:01:01	C*12:02:02:01
+HG03831	SAS	native	C	four_field	complete	1	1	1	2	C*01:02:01:01	C*12:02:02:01
+HG03831	SAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03831	SAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03831	SAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*14:01:01:01	DPB1*26:01:02
+HG03831	SAS	native	DPB1	four_field	complete	1	0	0	1	DPB1*14:01:01:01	DPB1*26:01:02
+HG03831	SAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*01:02:01:01	DQA1*01:03:01:01
+HG03831	SAS	native	DQA1	four_field	complete	1	1	0	1	DQA1*01:02:01:01	DQA1*01:03:01:01
+HG03831	SAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*05:02:01:01	DQB1*06:01:01:01
+HG03831	SAS	native	DQB1	four_field	complete	1	1	1	2	DQB1*05:02:01:01	DQB1*06:01:01:01
+HG03831	SAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*15:02:02	DRB1*15:06:01
+HG03831	SAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*15:02:02	DRB1*15:06:01
+HG03831	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	B	four_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG03831	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG03831	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG03831	SAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*31:01:02:01	A*33:03:01:01
+HG03831	SAS	DogoHLA-no-graph	A	four_field	complete	1	1	1	2	A*31:01:02:01	A*33:03:01:01
+HG03831	SAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*15:08:01	B*52:01:01:02
+HG03831	SAS	DogoHLA-no-graph	B	four_field	complete	1	0	0	1	B*15:08:01	B*52:01:01:02
+HG03831	SAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*01:02:01:01	C*12:02:02:01
+HG03831	SAS	DogoHLA-no-graph	C	four_field	complete	1	1	1	2	C*01:02:01:01	C*12:02:02:01
+HG03831	SAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03831	SAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03831	SAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*14:01:01:01	DPB1*26:01:02
+HG03831	SAS	DogoHLA-no-graph	DPB1	four_field	complete	1	0	0	1	DPB1*14:01:01:01	DPB1*26:01:02
+HG03831	SAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*01:02:01:01	DQA1*01:03:01:01
+HG03831	SAS	DogoHLA-no-graph	DQA1	four_field	complete	1	1	0	1	DQA1*01:02:01:01	DQA1*01:03:01:01
+HG03831	SAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*05:02:01:01
+HG03831	SAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*05:02:01:01
+HG03831	SAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*15:02:02	DRB1*15:06:01
+HG03831	SAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*15:02:02	DRB1*15:06:01
+HG03831	SAS	DogoHLA	A	two_field	complete	1	1	1	2	A*31:01:02:01	A*33:03:01:01
+HG03831	SAS	DogoHLA	A	four_field	complete	1	1	1	2	A*31:01:02:01	A*33:03:01:01
+HG03831	SAS	DogoHLA	B	two_field	complete	1	1	1	2	B*15:08:01	B*52:01:01:02
+HG03831	SAS	DogoHLA	B	four_field	complete	1	0	0	1	B*15:08:01	B*52:01:01:02
+HG03831	SAS	DogoHLA	C	two_field	complete	1	1	1	2	C*01:02:01:01	C*12:02:02:01
+HG03831	SAS	DogoHLA	C	four_field	complete	1	1	1	2	C*01:02:01:01	C*12:02:02:01
+HG03831	SAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03831	SAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03831	SAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*14:01:01:01	DPB1*26:01:02
+HG03831	SAS	DogoHLA	DPB1	four_field	complete	1	0	0	1	DPB1*14:01:01:01	DPB1*26:01:02
+HG03831	SAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*01:02:01:01	DQA1*01:03:01:01
+HG03831	SAS	DogoHLA	DQA1	four_field	complete	1	1	0	1	DQA1*01:02:01:01	DQA1*01:03:01:01
+HG03831	SAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*05:02:01:01
+HG03831	SAS	DogoHLA	DQB1	four_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*05:02:01:01
+HG03831	SAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*15:02:02	DRB1*15:06:01
+HG03831	SAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*15:02:02	DRB1*15:06:01
+HG03831	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*31:01:02	A*33:03:01
+HG03831	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*31:01:02	A*33:03:01
+HG03831	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*52:01:01	B*15:08:01
+HG03831	SAS	T1K	B	four_field	archived_output	1	0	0	0	B*52:01:01	B*15:08:01
+HG03831	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*12:02:02	C*01:02:01
+HG03831	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*12:02:02	C*01:02:01
+HG03831	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:01:01	DPA1*02:01:01
+HG03831	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:01:01	DPA1*02:01:01
+HG03831	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*26:01:02	DPB1*14:01:01
+HG03831	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*26:01:02	DPB1*14:01:01
+HG03831	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:02:01	DQA1*01:03:01
+HG03831	SAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:02:01	DQA1*01:03:01
+HG03831	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*05:02:01	DQB1*06:01:01
+HG03831	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*05:02:01	DQB1*06:01:01
+HG03831	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*15:02:02	DRB1*15:06:01
+HG03831	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*15:02:02	DRB1*15:06:01
+HG03874	SAS	native	A	two_field	complete	1	1	1	2	A*01:01:01:01	A*01:01:01:01
+HG03874	SAS	native	A	four_field	complete	1	1	1	2	A*01:01:01:01	A*01:01:01:01
+HG03874	SAS	native	B	two_field	complete	1	1	1	2	B*57:01:01:01	B*44:02:01:01
+HG03874	SAS	native	B	four_field	complete	1	1	1	2	B*57:01:01:01	B*44:02:01:01
+HG03874	SAS	native	C	two_field	complete	1	1	1	2	C*05:01:01:11	C*06:02:01:21
+HG03874	SAS	native	C	four_field	complete	1	1	0	0	C*05:01:01:11	C*06:02:01:21
+HG03874	SAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03874	SAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03874	SAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*09:01:01	DPB1*26:01:02
+HG03874	SAS	native	DPB1	four_field	complete	1	0	0	0	DPB1*09:01:01	DPB1*26:01:02
+HG03874	SAS	native	DQA1	two_field	complete	1	1	0	1	DQA1*02:01:01:01	DQA1*05:05:02
+HG03874	SAS	native	DQA1	four_field	complete	0	0	0	0	DQA1*02:01:01:01	DQA1*05:05:02
+HG03874	SAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*03:01:01:03
+HG03874	SAS	native	DQB1	four_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*03:01:01:03
+HG03874	SAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*11:01:01:01	DRB1*07:01:01:01
+HG03874	SAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*11:01:01:01	DRB1*07:01:01:01
+HG03874	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	B	four_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG03874	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	DQA1	four_field	not_started	0	0	0	0		
+HG03874	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG03874	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG03874	SAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*01:01:01:01	A*01:01:01:01
+HG03874	SAS	DogoHLA-no-graph	A	four_field	complete	1	1	1	2	A*01:01:01:01	A*01:01:01:01
+HG03874	SAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*57:01:01:01	B*44:02:01:01
+HG03874	SAS	DogoHLA-no-graph	B	four_field	complete	1	1	1	2	B*57:01:01:01	B*44:02:01:01
+HG03874	SAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*06:02:01:01	C*05:01:01:02
+HG03874	SAS	DogoHLA-no-graph	C	four_field	complete	1	1	1	2	C*06:02:01:01	C*05:01:01:02
+HG03874	SAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03874	SAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03874	SAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*09:01:01	DPB1*26:01:02
+HG03874	SAS	DogoHLA-no-graph	DPB1	four_field	complete	1	0	0	0	DPB1*09:01:01	DPB1*26:01:02
+HG03874	SAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	0	1	DQA1*02:01:01:01	DQA1*05:05:01:01
+HG03874	SAS	DogoHLA-no-graph	DQA1	four_field	complete	0	0	0	0	DQA1*02:01:01:01	DQA1*05:05:01:01
+HG03874	SAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*03:01:01:03
+HG03874	SAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*03:01:01:03
+HG03874	SAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*07:01:01:01	DRB1*11:01:01:01
+HG03874	SAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*07:01:01:01	DRB1*11:01:01:01
+HG03874	SAS	DogoHLA	A	two_field	complete	1	1	1	2	A*01:01:01:01	A*01:01:01:01
+HG03874	SAS	DogoHLA	A	four_field	complete	1	1	1	2	A*01:01:01:01	A*01:01:01:01
+HG03874	SAS	DogoHLA	B	two_field	complete	1	1	1	2	B*57:01:01:01	B*44:02:01:01
+HG03874	SAS	DogoHLA	B	four_field	complete	1	1	1	2	B*57:01:01:01	B*44:02:01:01
+HG03874	SAS	DogoHLA	C	two_field	complete	1	1	1	2	C*06:02:01:01	C*05:01:01:02
+HG03874	SAS	DogoHLA	C	four_field	complete	1	1	1	2	C*06:02:01:01	C*05:01:01:02
+HG03874	SAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03874	SAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG03874	SAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*09:01:01	DPB1*26:01:02
+HG03874	SAS	DogoHLA	DPB1	four_field	complete	1	0	0	0	DPB1*09:01:01	DPB1*26:01:02
+HG03874	SAS	DogoHLA	DQA1	two_field	complete	1	1	0	1	DQA1*02:01:01:01	DQA1*05:05:01:01
+HG03874	SAS	DogoHLA	DQA1	four_field	complete	0	0	0	0	DQA1*02:01:01:01	DQA1*05:05:01:01
+HG03874	SAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*03:01:01:03
+HG03874	SAS	DogoHLA	DQB1	four_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*03:01:01:03
+HG03874	SAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*07:01:01:01	DRB1*11:01:01:01
+HG03874	SAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*07:01:01:01	DRB1*11:01:01:01
+HG03874	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*01:01:01	A*01:01:01
+HG03874	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*01:01:01	A*01:01:01
+HG03874	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*57:01:01	B*44:02:01
+HG03874	SAS	T1K	B	four_field	archived_output	1	0	0	0	B*57:01:01	B*44:02:01
+HG03874	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*05:01:01	C*06:02:01
+HG03874	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*05:01:01	C*06:02:01
+HG03874	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:01:01	DPA1*02:01:01
+HG03874	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:01:01	DPA1*02:01:01
+HG03874	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*26:01:02	DPB1*09:01:01
+HG03874	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*26:01:02	DPB1*09:01:01
+HG03874	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*02:01:01	DQA1*05:09:01
+HG03874	SAS	T1K	DQA1	four_field	archived_output	0	0	0	0	DQA1*02:01:01	DQA1*05:09:01
+HG03874	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:03:02	DQB1*03:01:01
+HG03874	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:03:02	DQB1*03:01:01
+HG03874	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*07:01:01	DRB1*11:01:01
+HG03874	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*07:01:01	DRB1*11:01:01
+HG04199	SAS	native	A	two_field	complete	1	1	1	2	A*03:01:01:01	A*33:03:01:01
+HG04199	SAS	native	A	four_field	complete	1	1	1	2	A*03:01:01:01	A*33:03:01:01
+HG04199	SAS	native	B	two_field	complete	1	1	1	2	B*07:02:01:01	B*58:01:01:03
+HG04199	SAS	native	B	four_field	complete	0	0	0	0	B*07:02:01:01	B*58:01:01:03
+HG04199	SAS	native	C	two_field	complete	1	1	1	2	C*03:02:02:01	C*07:02:01:03
+HG04199	SAS	native	C	four_field	complete	1	1	0	1	C*03:02:02:01	C*07:02:01:03
+HG04199	SAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG04199	SAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG04199	SAS	native	DPB1	two_field	complete	1	1	0	1	DPB1*01:01:01:01	DPB1*03:01:01:02
+HG04199	SAS	native	DPB1	four_field	complete	1	1	0	0	DPB1*01:01:01:01	DPB1*03:01:01:02
+HG04199	SAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*01:01:01:01	DQA1*03:01:01
+HG04199	SAS	native	DQA1	four_field	complete	1	0	0	1	DQA1*01:01:01:01	DQA1*03:01:01
+HG04199	SAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*03:02:01:01	DQB1*05:01:01:01
+HG04199	SAS	native	DQB1	four_field	complete	1	1	0	1	DQB1*03:02:01:01	DQB1*05:01:01:01
+HG04199	SAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*01:01:01:01	DRB1*04:03:01:01
+HG04199	SAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*01:01:01:01	DRB1*04:03:01:01
+HG04199	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	B	four_field	not_started	0	0	0	0		
+HG04199	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG04199	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG04199	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG04199	SAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*33:03:01:01	A*03:01:01:01
+HG04199	SAS	DogoHLA-no-graph	A	four_field	complete	1	1	1	2	A*33:03:01:01	A*03:01:01:01
+HG04199	SAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*07:02:01:01	B*58:01:01:03
+HG04199	SAS	DogoHLA-no-graph	B	four_field	complete	0	0	0	0	B*07:02:01:01	B*58:01:01:03
+HG04199	SAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*03:02:02:01	C*07:02:01:03
+HG04199	SAS	DogoHLA-no-graph	C	four_field	complete	1	1	0	1	C*03:02:02:01	C*07:02:01:03
+HG04199	SAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG04199	SAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG04199	SAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*01:01:01:01	DPB1*104:01:01:01
+HG04199	SAS	DogoHLA-no-graph	DPB1	four_field	complete	1	1	0	0	DPB1*01:01:01:01	DPB1*104:01:01:01
+HG04199	SAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*01:01:01:01	DQA1*03:01:01
+HG04199	SAS	DogoHLA-no-graph	DQA1	four_field	complete	1	0	0	1	DQA1*01:01:01:01	DQA1*03:01:01
+HG04199	SAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*03:02:01:01	DQB1*05:01:01:01
+HG04199	SAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	0	1	DQB1*03:02:01:01	DQB1*05:01:01:01
+HG04199	SAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*04:03:01:01	DRB1*01:01:01:01
+HG04199	SAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*04:03:01:01	DRB1*01:01:01:01
+HG04199	SAS	DogoHLA	A	two_field	complete	1	1	1	2	A*33:03:01:01	A*03:01:01:01
+HG04199	SAS	DogoHLA	A	four_field	complete	1	1	1	2	A*33:03:01:01	A*03:01:01:01
+HG04199	SAS	DogoHLA	B	two_field	complete	1	1	1	2	B*07:02:01:01	B*58:01:01:03
+HG04199	SAS	DogoHLA	B	four_field	complete	0	0	0	0	B*07:02:01:01	B*58:01:01:03
+HG04199	SAS	DogoHLA	C	two_field	complete	1	1	1	2	C*03:02:02:01	C*07:02:01:03
+HG04199	SAS	DogoHLA	C	four_field	complete	1	1	0	1	C*03:02:02:01	C*07:02:01:03
+HG04199	SAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG04199	SAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG04199	SAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*01:01:01:01	DPB1*104:01:01:01
+HG04199	SAS	DogoHLA	DPB1	four_field	complete	1	1	0	0	DPB1*01:01:01:01	DPB1*104:01:01:01
+HG04199	SAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*01:01:01:01	DQA1*03:01:01
+HG04199	SAS	DogoHLA	DQA1	four_field	complete	1	0	0	1	DQA1*01:01:01:01	DQA1*03:01:01
+HG04199	SAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*03:02:01:01	DQB1*05:01:01:01
+HG04199	SAS	DogoHLA	DQB1	four_field	complete	1	1	0	1	DQB1*03:02:01:01	DQB1*05:01:01:01
+HG04199	SAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*04:03:01:01	DRB1*01:01:01:01
+HG04199	SAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*04:03:01:01	DRB1*01:01:01:01
+HG04199	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*33:03:01	A*03:01:01
+HG04199	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*33:03:01	A*03:01:01
+HG04199	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*07:02:01	B*58:01:01
+HG04199	SAS	T1K	B	four_field	archived_output	0	0	0	0	B*07:02:01	B*58:01:01
+HG04199	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*07:02:01	C*03:02:02
+HG04199	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*07:02:01	C*03:02:02
+HG04199	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:01	DPA1*02:02:02
+HG04199	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*01:03:01	DPA1*02:02:02
+HG04199	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*01:01:01	DPB1*104:01:01
+HG04199	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*01:01:01	DPB1*104:01:01
+HG04199	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*03:01:01	DQA1*01:01:01
+HG04199	SAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*03:01:01	DQA1*01:01:01
+HG04199	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*05:01:01	DQB1*03:02:01
+HG04199	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*05:01:01	DQB1*03:02:01
+HG04199	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*01:01:01	DRB1*04:03:01
+HG04199	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*01:01:01	DRB1*04:03:01
+NA18608	EAS	native	A	two_field	complete	1	1	1	2	A*24:02:01:01	A*31:01:02:01
+NA18608	EAS	native	A	four_field	complete	1	1	1	2	A*24:02:01:01	A*31:01:02:01
+NA18608	EAS	native	B	two_field	complete	1	1	1	2	B*51:01:01:04	B*48:01:01:02
+NA18608	EAS	native	B	four_field	complete	1	1	0	1	B*51:01:01:04	B*48:01:01:02
+NA18608	EAS	native	C	two_field	complete	1	1	1	2	C*08:01:01:01	C*15:02:01:01
+NA18608	EAS	native	C	four_field	complete	1	1	1	2	C*08:01:01:01	C*15:02:01:01
+NA18608	EAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*01:03:01:01
+NA18608	EAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*01:03:01:01
+NA18608	EAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*05:01:01:01	DPB1*02:01:02:01
+NA18608	EAS	native	DPB1	four_field	complete	1	1	1	2	DPB1*05:01:01:01	DPB1*02:01:02:01
+NA18608	EAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*01:04:01:01	DQA1*01:04:01:01
+NA18608	EAS	native	DQA1	four_field	complete	1	1	0	0	DQA1*01:04:01:01	DQA1*01:04:01:01
+NA18608	EAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*05:03:01:01	DQB1*05:03:01:01
+NA18608	EAS	native	DQB1	four_field	complete	0	0	0	0	DQB1*05:03:01:01	DQB1*05:03:01:01
+NA18608	EAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*14:07:01	DRB1*14:05:01:01
+NA18608	EAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*14:07:01	DRB1*14:05:01:01
+NA18608	EAS	native-long	A	two_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	A	four_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	B	two_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	B	four_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	C	two_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	C	four_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+NA18608	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	DQB1	four_field	not_started	0	0	0	0		
+NA18608	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+NA18608	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+NA18608	EAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*31:01:02:01	A*24:02:01:01
+NA18608	EAS	DogoHLA-no-graph	A	four_field	complete	1	1	1	2	A*31:01:02:01	A*24:02:01:01
+NA18608	EAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*48:01:01:02	B*51:01:01:04
+NA18608	EAS	DogoHLA-no-graph	B	four_field	complete	1	1	0	1	B*48:01:01:02	B*51:01:01:04
+NA18608	EAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*08:01:01:01	C*15:02:01:01
+NA18608	EAS	DogoHLA-no-graph	C	four_field	complete	1	1	1	2	C*08:01:01:01	C*15:02:01:01
+NA18608	EAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*01:03:01:01
+NA18608	EAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*01:03:01:01
+NA18608	EAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*02:01:02:01	DPB1*05:01:01:01
+NA18608	EAS	DogoHLA-no-graph	DPB1	four_field	complete	1	1	1	2	DPB1*02:01:02:01	DPB1*05:01:01:01
+NA18608	EAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*01:04:01:01	DQA1*01:04:01:01
+NA18608	EAS	DogoHLA-no-graph	DQA1	four_field	complete	1	1	0	0	DQA1*01:04:01:01	DQA1*01:04:01:01
+NA18608	EAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*05:03:01:01	DQB1*05:03:01:01
+NA18608	EAS	DogoHLA-no-graph	DQB1	four_field	complete	0	0	0	0	DQB1*05:03:01:01	DQB1*05:03:01:01
+NA18608	EAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*14:07:01	DRB1*14:05:01:01
+NA18608	EAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*14:07:01	DRB1*14:05:01:01
+NA18608	EAS	DogoHLA	A	two_field	complete	1	1	1	2	A*31:01:02:01	A*24:02:01:01
+NA18608	EAS	DogoHLA	A	four_field	complete	1	1	1	2	A*31:01:02:01	A*24:02:01:01
+NA18608	EAS	DogoHLA	B	two_field	complete	1	1	1	2	B*48:01:01:02	B*51:01:01:04
+NA18608	EAS	DogoHLA	B	four_field	complete	1	1	0	1	B*48:01:01:02	B*51:01:01:04
+NA18608	EAS	DogoHLA	C	two_field	complete	1	1	1	2	C*08:01:01:01	C*15:02:01:01
+NA18608	EAS	DogoHLA	C	four_field	complete	1	1	1	2	C*08:01:01:01	C*15:02:01:01
+NA18608	EAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*01:03:01:01
+NA18608	EAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*01:03:01:01
+NA18608	EAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*02:01:02:01	DPB1*05:01:01:01
+NA18608	EAS	DogoHLA	DPB1	four_field	complete	1	1	1	2	DPB1*02:01:02:01	DPB1*05:01:01:01
+NA18608	EAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*01:04:01:01	DQA1*01:04:01:01
+NA18608	EAS	DogoHLA	DQA1	four_field	complete	1	1	0	0	DQA1*01:04:01:01	DQA1*01:04:01:01
+NA18608	EAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*05:03:01:01	DQB1*05:03:01:01
+NA18608	EAS	DogoHLA	DQB1	four_field	complete	0	0	0	0	DQB1*05:03:01:01	DQB1*05:03:01:01
+NA18608	EAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*14:07:01	DRB1*14:05:01:01
+NA18608	EAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*14:07:01	DRB1*14:05:01:01
+NA18608	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*24:02:01	A*31:01:02
+NA18608	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*24:02:01	A*31:01:02
+NA18608	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*48:01:01	B*51:01:01,HLA-B*51:01:64
+NA18608	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*48:01:01	B*51:01:01,HLA-B*51:01:64
+NA18608	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*15:02:01	C*08:01:01
+NA18608	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*15:02:01	C*08:01:01
+NA18608	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*01:03:01
+NA18608	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*01:03:01
+NA18608	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*02:01:02	DPB1*05:01:01
+NA18608	EAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*02:01:02	DPB1*05:01:01
+NA18608	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:04:01	DQA1*01:04:01
+NA18608	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:04:01	DQA1*01:04:01
+NA18608	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*05:03:01	DQB1*05:03:01
+NA18608	EAS	T1K	DQB1	four_field	archived_output	0	0	0	0	DQB1*05:03:01	DQB1*05:03:01
+NA18608	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*14:05:01	DRB1*14:07:01
+NA18608	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*14:05:01	DRB1*14:07:01
+NA20905	SAS	native	A	two_field	complete	1	1	1	2	A*32:01:01:09	A*11:01:01:01
+NA20905	SAS	native	A	four_field	complete	1	1	1	2	A*32:01:01:09	A*11:01:01:01
+NA20905	SAS	native	B	two_field	complete	1	1	1	2	B*40:06:19	B*49:01:15
+NA20905	SAS	native	B	four_field	complete	0	0	0	0	B*40:06:19	B*49:01:15
+NA20905	SAS	native	C	two_field	complete	1	1	1	2	C*15:02:01:01	C*07:01:01:01
+NA20905	SAS	native	C	four_field	complete	1	1	0	1	C*15:02:01:01	C*07:01:01:01
+NA20905	SAS	native	DPA1	two_field	complete	1	1	0	1	DPA1*01:03:01:02	DPA1*02:02:02:01
+NA20905	SAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:02:02:01
+NA20905	SAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*04:01:01:41	DPB1*04:01:01:01
+NA20905	SAS	native	DPB1	four_field	complete	1	1	0	0	DPB1*04:01:01:41	DPB1*04:01:01:01
+NA20905	SAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*01:03:01:01	DQA1*05:05:01:23
+NA20905	SAS	native	DQA1	four_field	complete	1	1	0	1	DQA1*01:03:01:01	DQA1*05:05:01:23
+NA20905	SAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*03:01:01:03
+NA20905	SAS	native	DQB1	four_field	complete	1	1	0	1	DQB1*06:01:01:01	DQB1*03:01:01:03
+NA20905	SAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*15:02:01:01	DRB1*11:01:01:01
+NA20905	SAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*15:02:01:01	DRB1*11:01:01:01
+NA20905	SAS	native-long	A	two_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	A	four_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	B	two_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	B	four_field	not_started	0	0	0	0		
+NA20905	SAS	native-long	C	two_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	C	four_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+NA20905	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+NA20905	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+NA20905	SAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*32:01:01:09	A*11:01:01:01
+NA20905	SAS	DogoHLA-no-graph	A	four_field	complete	1	1	1	2	A*32:01:01:09	A*11:01:01:01
+NA20905	SAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*49:01:01:04	B*40:06:01:02
+NA20905	SAS	DogoHLA-no-graph	B	four_field	complete	0	0	0	0	B*49:01:01:04	B*40:06:01:02
+NA20905	SAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*15:02:01:01	C*07:01:01:01
+NA20905	SAS	DogoHLA-no-graph	C	four_field	complete	1	1	0	1	C*15:02:01:01	C*07:01:01:01
+NA20905	SAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	0	1	DPA1*01:03:01:02	DPA1*02:02:02:01
+NA20905	SAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:02:02:01
+NA20905	SAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*04:01:01:01	DPB1*04:01:01:41
+NA20905	SAS	DogoHLA-no-graph	DPB1	four_field	complete	1	1	0	0	DPB1*04:01:01:01	DPB1*04:01:01:41
+NA20905	SAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*01:03:01:01	DQA1*05:05:01:23
+NA20905	SAS	DogoHLA-no-graph	DQA1	four_field	complete	1	1	0	1	DQA1*01:03:01:01	DQA1*05:05:01:23
+NA20905	SAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*03:01:01:03
+NA20905	SAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	0	1	DQB1*06:01:01:01	DQB1*03:01:01:03
+NA20905	SAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*11:01:01:01	DRB1*15:02:01:01
+NA20905	SAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*11:01:01:01	DRB1*15:02:01:01
+NA20905	SAS	DogoHLA	A	two_field	complete	1	1	1	2	A*32:01:01:09	A*11:01:01:01
+NA20905	SAS	DogoHLA	A	four_field	complete	1	1	1	2	A*32:01:01:09	A*11:01:01:01
+NA20905	SAS	DogoHLA	B	two_field	complete	1	1	1	2	B*49:01:01:04	B*40:06:01:02
+NA20905	SAS	DogoHLA	B	four_field	complete	0	0	0	0	B*49:01:01:04	B*40:06:01:02
+NA20905	SAS	DogoHLA	C	two_field	complete	1	1	1	2	C*15:02:01:01	C*07:01:01:01
+NA20905	SAS	DogoHLA	C	four_field	complete	1	1	0	1	C*15:02:01:01	C*07:01:01:01
+NA20905	SAS	DogoHLA	DPA1	two_field	complete	1	1	0	1	DPA1*01:03:01:02	DPA1*02:02:02:01
+NA20905	SAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:02:02:01
+NA20905	SAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*04:01:01:01	DPB1*04:01:01:41
+NA20905	SAS	DogoHLA	DPB1	four_field	complete	1	1	0	0	DPB1*04:01:01:01	DPB1*04:01:01:41
+NA20905	SAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*01:03:01:01	DQA1*05:05:01:23
+NA20905	SAS	DogoHLA	DQA1	four_field	complete	1	1	0	1	DQA1*01:03:01:01	DQA1*05:05:01:23
+NA20905	SAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*06:01:01:01	DQB1*03:01:01:03
+NA20905	SAS	DogoHLA	DQB1	four_field	complete	1	1	0	1	DQB1*06:01:01:01	DQB1*03:01:01:03
+NA20905	SAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*11:01:01:01	DRB1*15:02:01:01
+NA20905	SAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*11:01:01:01	DRB1*15:02:01:01
+NA20905	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*11:01:01	A*32:01:01
+NA20905	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*11:01:01	A*32:01:01
+NA20905	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*49:01:01	B*40:06:01
+NA20905	SAS	T1K	B	four_field	archived_output	0	0	0	0	B*49:01:01	B*40:06:01
+NA20905	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*07:01:01	C*15:02:01
+NA20905	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*07:01:01	C*15:02:01
+NA20905	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:07:01	DPA1*01:03:01
+NA20905	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:07:01	DPA1*01:03:01
+NA20905	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*04:01:01	DPB1*04:01:01
+NA20905	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*04:01:01	DPB1*04:01:01
+NA20905	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:03:01	DQA1*05:05:01
+NA20905	SAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:03:01	DQA1*05:05:01
+NA20905	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*06:01:01	DQB1*03:01:01
+NA20905	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*06:01:01	DQB1*03:01:01
+NA20905	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*11:01:01	DRB1*15:02:01
+NA20905	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*11:01:01	DRB1*15:02:01
+HG02027	EAS	native	A	two_field	complete	1	1	1	2	A*02:03:01	A*11:01:01:01
+HG02027	EAS	native	A	four_field	complete	1	0	0	1	A*02:03:01	A*11:01:01:01
+HG02027	EAS	native	B	two_field	complete	1	1	1	2	B*15:25:01:01	B*15:02:01:01
+HG02027	EAS	native	B	four_field	complete	0	0	0	0	B*15:25:01:01	B*15:02:01:01
+HG02027	EAS	native	C	two_field	complete	1	1	1	2	C*08:01:01:01	C*04:03:01:01
+HG02027	EAS	native	C	four_field	complete	1	1	1	2	C*08:01:01:01	C*04:03:01:01
+HG02027	EAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG02027	EAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG02027	EAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*21:01	DPB1*05:01:01:01
+HG02027	EAS	native	DPB1	four_field	complete	0	0	0	0	DPB1*21:01	DPB1*05:01:01:01
+HG02027	EAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*06:01:01:01	DQA1*06:01:01:01
+HG02027	EAS	native	DQA1	four_field	complete	1	1	0	0	DQA1*06:01:01:01	DQA1*06:01:01:01
+HG02027	EAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*03:01:01:07	DQB1*03:01:01:07
+HG02027	EAS	native	DQB1	four_field	complete	1	1	0	0	DQB1*03:01:01:07	DQB1*03:01:01:07
+HG02027	EAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*12:02:01:01	DRB1*12:02:01:01
+HG02027	EAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*12:02:01:01	DRB1*12:02:01:01
+HG02027	EAS	native-long	A	two_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	A	four_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	B	two_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	B	four_field	not_started	0	0	0	0		
+HG02027	EAS	native-long	C	two_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	C	four_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG02027	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	DPB1	four_field	not_started	0	0	0	0		
+HG02027	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG02027	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG02027	EAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*02:03:01	A*11:01:01:01
+HG02027	EAS	DogoHLA-no-graph	A	four_field	complete	1	0	0	1	A*02:03:01	A*11:01:01:01
+HG02027	EAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*15:25:01:01	B*15:02:01:01
+HG02027	EAS	DogoHLA-no-graph	B	four_field	complete	0	0	0	0	B*15:25:01:01	B*15:02:01:01
+HG02027	EAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*08:01:01:01	C*04:03:01:01
+HG02027	EAS	DogoHLA-no-graph	C	four_field	complete	1	1	1	2	C*08:01:01:01	C*04:03:01:01
+HG02027	EAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG02027	EAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG02027	EAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*21:01	DPB1*05:01:01:01
+HG02027	EAS	DogoHLA-no-graph	DPB1	four_field	complete	0	0	0	0	DPB1*21:01	DPB1*05:01:01:01
+HG02027	EAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*06:01:01:01	DQA1*06:01:01:01
+HG02027	EAS	DogoHLA-no-graph	DQA1	four_field	complete	1	1	0	0	DQA1*06:01:01:01	DQA1*06:01:01:01
+HG02027	EAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*03:01:01:07	DQB1*03:01:01:07
+HG02027	EAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	0	0	DQB1*03:01:01:07	DQB1*03:01:01:07
+HG02027	EAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*12:02:01:01	DRB1*12:02:01:01
+HG02027	EAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*12:02:01:01	DRB1*12:02:01:01
+HG02027	EAS	DogoHLA	A	two_field	complete	1	1	1	2	A*02:03:01	A*11:01:01:01
+HG02027	EAS	DogoHLA	A	four_field	complete	1	0	0	1	A*02:03:01	A*11:01:01:01
+HG02027	EAS	DogoHLA	B	two_field	complete	1	1	1	2	B*15:25:01:01	B*15:02:01:01
+HG02027	EAS	DogoHLA	B	four_field	complete	0	0	0	0	B*15:25:01:01	B*15:02:01:01
+HG02027	EAS	DogoHLA	C	two_field	complete	1	1	1	2	C*08:01:01:01	C*04:03:01:01
+HG02027	EAS	DogoHLA	C	four_field	complete	1	1	1	2	C*08:01:01:01	C*04:03:01:01
+HG02027	EAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG02027	EAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:02:02:01
+HG02027	EAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*21:01	DPB1*05:01:01:01
+HG02027	EAS	DogoHLA	DPB1	four_field	complete	0	0	0	0	DPB1*21:01	DPB1*05:01:01:01
+HG02027	EAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*06:01:01:01	DQA1*06:01:01:01
+HG02027	EAS	DogoHLA	DQA1	four_field	complete	1	1	0	0	DQA1*06:01:01:01	DQA1*06:01:01:01
+HG02027	EAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*03:01:01:07	DQB1*03:01:01:07
+HG02027	EAS	DogoHLA	DQB1	four_field	complete	1	1	0	0	DQB1*03:01:01:07	DQB1*03:01:01:07
+HG02027	EAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*12:02:01:01	DRB1*12:02:01:01
+HG02027	EAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*12:02:01:01	DRB1*12:02:01:01
+HG02027	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*02:03:01	A*11:01:01
+HG02027	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*02:03:01	A*11:01:01
+HG02027	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*15:25:01	B*15:02:01
+HG02027	EAS	T1K	B	four_field	archived_output	0	0	0	0	B*15:25:01	B*15:02:01
+HG02027	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*08:01:01	C*04:03:01
+HG02027	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*08:01:01	C*04:03:01
+HG02027	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*01:03:01
+HG02027	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*01:03:01
+HG02027	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*21:01:01	DPB1*05:01:01
+HG02027	EAS	T1K	DPB1	four_field	archived_output	0	0	0	0	DPB1*21:01:01	DPB1*05:01:01
+HG02027	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*06:01:01	DQA1*06:01:01
+HG02027	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*06:01:01	DQA1*06:01:01
+HG02027	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:01:01	DQB1*03:01:01
+HG02027	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:01:01	DQB1*03:01:01
+HG02027	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*12:02:01	DRB1*12:02:01
+HG02027	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*12:02:01	DRB1*12:02:01
+HG02391	EAS	native	A	two_field	complete	1	1	1	2	A*11:01:01:01	A*11:02:01:01
+HG02391	EAS	native	A	four_field	complete	1	1	1	2	A*11:01:01:01	A*11:02:01:01
+HG02391	EAS	native	B	two_field	complete	1	1	1	2	B*13:01:01:01	B*40:01:02:01
+HG02391	EAS	native	B	four_field	complete	1	1	0	1	B*13:01:01:01	B*40:01:02:01
+HG02391	EAS	native	C	two_field	complete	1	1	1	2	C*03:04:01:01	C*07:02:01:01
+HG02391	EAS	native	C	four_field	complete	1	1	0	1	C*03:04:01:01	C*07:02:01:01
+HG02391	EAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*01:03:01:01
+HG02391	EAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*01:03:01:01
+HG02391	EAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*02:01:02:01	DPB1*02:02:01:02
+HG02391	EAS	native	DPB1	four_field	complete	1	1	0	1	DPB1*02:01:02:01	DPB1*02:02:01:02
+HG02391	EAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*01:02:02:01	DQA1*01:02:01:01
+HG02391	EAS	native	DQA1	four_field	complete	0	0	0	0	DQA1*01:02:02:01	DQA1*01:02:01:01
+HG02391	EAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*05:02:01:01	DQB1*05:02:01:01
+HG02391	EAS	native	DQB1	four_field	complete	1	1	1	2	DQB1*05:02:01:01	DQB1*05:02:01:01
+HG02391	EAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*16:02:01:01	DRB1*15:01:01:01
+HG02391	EAS	native	DRB1	four_field	complete	1	1	0	0	DRB1*16:02:01:01	DRB1*15:01:01:01
+HG02391	EAS	native-long	A	two_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	A	four_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	B	two_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	B	four_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	C	two_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	C	four_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG02391	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	DQA1	four_field	not_started	0	0	0	0		
+HG02391	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG02391	EAS	native-long	DRB1	four_field	not_started	1	0	0	0		
+HG02391	EAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*11:01:01:01	A*11:02:01:01
+HG02391	EAS	DogoHLA-no-graph	A	four_field	complete	1	1	1	2	A*11:01:01:01	A*11:02:01:01
+HG02391	EAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*13:01:01:01	B*40:01:02:01
+HG02391	EAS	DogoHLA-no-graph	B	four_field	complete	1	1	0	1	B*13:01:01:01	B*40:01:02:01
+HG02391	EAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*03:04:01:01	C*07:02:01:01
+HG02391	EAS	DogoHLA-no-graph	C	four_field	complete	1	1	0	1	C*03:04:01:01	C*07:02:01:01
+HG02391	EAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*01:03:01:01
+HG02391	EAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*01:03:01:01
+HG02391	EAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*02:02:01:02	DPB1*02:01:02:01
+HG02391	EAS	DogoHLA-no-graph	DPB1	four_field	complete	1	1	0	1	DPB1*02:02:01:02	DPB1*02:01:02:01
+HG02391	EAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*01:02:01:01	DQA1*01:02:02:01
+HG02391	EAS	DogoHLA-no-graph	DQA1	four_field	complete	0	0	0	0	DQA1*01:02:01:01	DQA1*01:02:02:01
+HG02391	EAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*05:02:01:01	DQB1*05:02:01:01
+HG02391	EAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	1	2	DQB1*05:02:01:01	DQB1*05:02:01:01
+HG02391	EAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*15:01:01:01	DRB1*16:02:01:01
+HG02391	EAS	DogoHLA-no-graph	DRB1	four_field	complete	1	1	0	0	DRB1*15:01:01:01	DRB1*16:02:01:01
+HG02391	EAS	DogoHLA	A	two_field	complete	1	1	1	2	A*11:01:01:01	A*11:02:01:01
+HG02391	EAS	DogoHLA	A	four_field	complete	1	1	1	2	A*11:01:01:01	A*11:02:01:01
+HG02391	EAS	DogoHLA	B	two_field	complete	1	1	1	2	B*13:01:01:01	B*40:01:02:01
+HG02391	EAS	DogoHLA	B	four_field	complete	1	1	0	1	B*13:01:01:01	B*40:01:02:01
+HG02391	EAS	DogoHLA	C	two_field	complete	1	1	1	2	C*03:04:01:01	C*07:02:01:01
+HG02391	EAS	DogoHLA	C	four_field	complete	1	1	0	1	C*03:04:01:01	C*07:02:01:01
+HG02391	EAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*01:03:01:01
+HG02391	EAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*01:03:01:01
+HG02391	EAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*02:02:01:02	DPB1*02:01:02:01
+HG02391	EAS	DogoHLA	DPB1	four_field	complete	1	1	0	1	DPB1*02:02:01:02	DPB1*02:01:02:01
+HG02391	EAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*01:02:01:01	DQA1*01:02:02:01
+HG02391	EAS	DogoHLA	DQA1	four_field	complete	0	0	0	0	DQA1*01:02:01:01	DQA1*01:02:02:01
+HG02391	EAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*05:02:01:01	DQB1*05:02:01:01
+HG02391	EAS	DogoHLA	DQB1	four_field	complete	1	1	1	2	DQB1*05:02:01:01	DQB1*05:02:01:01
+HG02391	EAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*15:01:01:01	DRB1*16:02:01:01
+HG02391	EAS	DogoHLA	DRB1	four_field	complete	1	1	0	0	DRB1*15:01:01:01	DRB1*16:02:01:01
+HG02391	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*11:02:01	A*11:01:01
+HG02391	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*11:02:01	A*11:01:01
+HG02391	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*40:01:02	B*13:01:01
+HG02391	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*40:01:02	B*13:01:01
+HG02391	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*07:02:01	C*03:04:01
+HG02391	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*07:02:01	C*03:04:01
+HG02391	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*01:03:01
+HG02391	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*01:03:01
+HG02391	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*02:02:01	DPB1*02:01:34
+HG02391	EAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*02:02:01	DPB1*02:01:34
+HG02391	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:02:02	DQA1*01:02:01
+HG02391	EAS	T1K	DQA1	four_field	archived_output	0	0	0	0	DQA1*01:02:02	DQA1*01:02:01
+HG02391	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*05:02:01	DQB1*05:02:01
+HG02391	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*05:02:01	DQB1*05:02:01
+HG02391	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*16:02:01	DRB1*15:01:01
+HG02391	EAS	T1K	DRB1	four_field	archived_output	1	0	0	0	DRB1*16:02:01	DRB1*15:01:01
+HG02602	SAS	native	A	two_field	complete	1	1	1	2	A*68:01:02:01	A*02:05:01:01
+HG02602	SAS	native	A	four_field	complete	1	1	1	2	A*68:01:02:01	A*02:05:01:01
+HG02602	SAS	native	B	two_field	complete	1	1	1	2	B*44:02:01:01	B*49:01:01:04
+HG02602	SAS	native	B	four_field	complete	1	1	1	2	B*44:02:01:01	B*49:01:01:04
+HG02602	SAS	native	C	two_field	complete	1	1	1	2	C*05:01:01:02	C*07:01:01:01
+HG02602	SAS	native	C	four_field	complete	1	1	0	0	C*05:01:01:02	C*07:01:01:01
+HG02602	SAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:01	DPA1*01:03:01:01
+HG02602	SAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:01	DPA1*01:03:01:01
+HG02602	SAS	native	DPB1	two_field	complete	1	1	0	1	DPB1*16:01:01:01	DPB1*02:01:02:01
+HG02602	SAS	native	DPB1	four_field	complete	1	1	0	0	DPB1*16:01:01:01	DPB1*02:01:02:01
+HG02602	SAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*01:04:02	DQA1*02:01:01:01
+HG02602	SAS	native	DQA1	four_field	complete	0	0	0	0	DQA1*01:04:02	DQA1*02:01:01:01
+HG02602	SAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*05:03:01:01
+HG02602	SAS	native	DQB1	four_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*05:03:01:01
+HG02602	SAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*07:01:01:01	DRB1*14:04:01:01
+HG02602	SAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*07:01:01:01	DRB1*14:04:01:01
+HG02602	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	B	four_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG02602	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	DQA1	four_field	not_started	0	0	0	0		
+HG02602	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG02602	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG02602	SAS	DogoHLA-no-graph	A	two_field	complete	1	1	1	2	A*68:01:02:01	A*02:05:01:01
+HG02602	SAS	DogoHLA-no-graph	A	four_field	complete	1	1	1	2	A*68:01:02:01	A*02:05:01:01
+HG02602	SAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*44:02:01:01	B*49:01:01:04
+HG02602	SAS	DogoHLA-no-graph	B	four_field	complete	1	1	1	2	B*44:02:01:01	B*49:01:01:04
+HG02602	SAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*07:01:01:01	C*05:01:01:02
+HG02602	SAS	DogoHLA-no-graph	C	four_field	complete	1	1	0	0	C*07:01:01:01	C*05:01:01:02
+HG02602	SAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:01	DPA1*01:03:01:01
+HG02602	SAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:01	DPA1*01:03:01:01
+HG02602	SAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	0	1	DPB1*16:01:01:01	DPB1*02:01:02:01
+HG02602	SAS	DogoHLA-no-graph	DPB1	four_field	complete	1	1	0	0	DPB1*16:01:01:01	DPB1*02:01:02:01
+HG02602	SAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*01:04:02	DQA1*02:01:01:01
+HG02602	SAS	DogoHLA-no-graph	DQA1	four_field	complete	0	0	0	0	DQA1*01:04:02	DQA1*02:01:01:01
+HG02602	SAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*05:03:01:01
+HG02602	SAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*05:03:01:01
+HG02602	SAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*07:01:01:01	DRB1*14:04:01:01
+HG02602	SAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*07:01:01:01	DRB1*14:04:01:01
+HG02602	SAS	DogoHLA	A	two_field	complete	1	1	1	2	A*68:01:02:01	A*02:05:01:01
+HG02602	SAS	DogoHLA	A	four_field	complete	1	1	1	2	A*68:01:02:01	A*02:05:01:01
+HG02602	SAS	DogoHLA	B	two_field	complete	1	1	1	2	B*44:02:01:01	B*49:01:01:04
+HG02602	SAS	DogoHLA	B	four_field	complete	1	1	1	2	B*44:02:01:01	B*49:01:01:04
+HG02602	SAS	DogoHLA	C	two_field	complete	1	1	1	2	C*07:01:01:01	C*05:01:01:02
+HG02602	SAS	DogoHLA	C	four_field	complete	1	1	0	0	C*07:01:01:01	C*05:01:01:02
+HG02602	SAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:01	DPA1*01:03:01:01
+HG02602	SAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:01	DPA1*01:03:01:01
+HG02602	SAS	DogoHLA	DPB1	two_field	complete	1	1	0	1	DPB1*16:01:01:01	DPB1*02:01:02:01
+HG02602	SAS	DogoHLA	DPB1	four_field	complete	1	1	0	0	DPB1*16:01:01:01	DPB1*02:01:02:01
+HG02602	SAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*01:04:02	DQA1*02:01:01:01
+HG02602	SAS	DogoHLA	DQA1	four_field	complete	0	0	0	0	DQA1*01:04:02	DQA1*02:01:01:01
+HG02602	SAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*05:03:01:01
+HG02602	SAS	DogoHLA	DQB1	four_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*05:03:01:01
+HG02602	SAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*07:01:01:01	DRB1*14:04:01:01
+HG02602	SAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*07:01:01:01	DRB1*14:04:01:01
+HG02602	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*68:01:02	A*02:05:01
+HG02602	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*68:01:02	A*02:05:01
+HG02602	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*49:01:01	B*44:02:01
+HG02602	SAS	T1K	B	four_field	archived_output	1	0	0	0	B*49:01:01	B*44:02:01
+HG02602	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*05:01:01	C*07:01:01
+HG02602	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*05:01:01	C*07:01:01
+HG02602	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:07	DPA1*01:03:01
+HG02602	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*01:03:07	DPA1*01:03:01
+HG02602	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*414:01:01	DPB1*02:01:02
+HG02602	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*414:01:01	DPB1*02:01:02
+HG02602	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:04:02	DQA1*02:01:01
+HG02602	SAS	T1K	DQA1	four_field	archived_output	0	0	0	0	DQA1*01:04:02	DQA1*02:01:01
+HG02602	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:03:02	DQB1*05:03:01
+HG02602	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:03:02	DQB1*05:03:01
+HG02602	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*07:01:01	DRB1*14:04:01
+HG02602	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*07:01:01	DRB1*14:04:01
+HG04115	SAS	native	A	two_field	complete	1	1	0	1	A*11:01:01:01	A*74:01:01:01
+HG04115	SAS	native	A	four_field	complete	1	1	0	1	A*11:01:01:01	A*74:01:01:01
+HG04115	SAS	native	B	two_field	complete	1	1	1	2	B*57:01:26	B*40:06:19
+HG04115	SAS	native	B	four_field	complete	0	0	0	0	B*57:01:26	B*40:06:19
+HG04115	SAS	native	C	two_field	complete	1	1	1	2	C*15:02:01:04	C*06:02:01:21
+HG04115	SAS	native	C	four_field	complete	1	1	0	0	C*15:02:01:04	C*06:02:01:21
+HG04115	SAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*01:03:01:16
+HG04115	SAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*01:03:01:16
+HG04115	SAS	native	DPB1	two_field	complete	1	1	0	1	DPB1*03:01:01:02	DPB1*13:01:01:01
+HG04115	SAS	native	DPB1	four_field	complete	1	1	0	1	DPB1*03:01:01:02	DPB1*13:01:01:01
+HG04115	SAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*01:05:01:01	DQA1*02:01:01:01
+HG04115	SAS	native	DQA1	four_field	complete	1	1	1	2	DQA1*01:05:01:01	DQA1*02:01:01:01
+HG04115	SAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*05:01:01:02
+HG04115	SAS	native	DQB1	four_field	complete	1	1	0	1	DQB1*03:03:02:01	DQB1*05:01:01:02
+HG04115	SAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*07:01:01:01	DRB1*10:01:01:01
+HG04115	SAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*07:01:01:01	DRB1*10:01:01:01
+HG04115	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	B	four_field	not_started	0	0	0	0		
+HG04115	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG04115	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG04115	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG04115	SAS	DogoHLA-no-graph	A	two_field	complete	1	1	0	1	A*11:01:01:01	A*74:01:01:01
+HG04115	SAS	DogoHLA-no-graph	A	four_field	complete	1	1	0	1	A*11:01:01:01	A*74:01:01:01
+HG04115	SAS	DogoHLA-no-graph	B	two_field	complete	1	1	1	2	B*57:01:01:01	B*40:06:01:02
+HG04115	SAS	DogoHLA-no-graph	B	four_field	complete	0	0	0	0	B*57:01:01:01	B*40:06:01:02
+HG04115	SAS	DogoHLA-no-graph	C	two_field	complete	1	1	1	2	C*06:02:01:01	C*15:02:01:01
+HG04115	SAS	DogoHLA-no-graph	C	four_field	complete	1	1	1	2	C*06:02:01:01	C*15:02:01:01
+HG04115	SAS	DogoHLA-no-graph	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*01:03:01:12
+HG04115	SAS	DogoHLA-no-graph	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*01:03:01:12
+HG04115	SAS	DogoHLA-no-graph	DPB1	two_field	complete	1	1	1	2	DPB1*104:01:01:01	DPB1*13:01:01:01
+HG04115	SAS	DogoHLA-no-graph	DPB1	four_field	complete	1	1	0	1	DPB1*104:01:01:01	DPB1*13:01:01:01
+HG04115	SAS	DogoHLA-no-graph	DQA1	two_field	complete	1	1	1	2	DQA1*01:05:01:01	DQA1*02:01:01:02
+HG04115	SAS	DogoHLA-no-graph	DQA1	four_field	complete	1	1	0	1	DQA1*01:05:01:01	DQA1*02:01:01:02
+HG04115	SAS	DogoHLA-no-graph	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*05:01:01:02
+HG04115	SAS	DogoHLA-no-graph	DQB1	four_field	complete	1	1	0	1	DQB1*03:03:02:01	DQB1*05:01:01:02
+HG04115	SAS	DogoHLA-no-graph	DRB1	two_field	complete	1	1	1	2	DRB1*10:01:01:01	DRB1*07:01:01:01
+HG04115	SAS	DogoHLA-no-graph	DRB1	four_field	complete	0	0	0	0	DRB1*10:01:01:01	DRB1*07:01:01:01
+HG04115	SAS	DogoHLA	A	two_field	complete	1	1	0	1	A*11:01:01:01	A*74:01:01:01
+HG04115	SAS	DogoHLA	A	four_field	complete	1	1	0	1	A*11:01:01:01	A*74:01:01:01
+HG04115	SAS	DogoHLA	B	two_field	complete	1	1	1	2	B*57:01:01:01	B*40:06:01:02
+HG04115	SAS	DogoHLA	B	four_field	complete	0	0	0	0	B*57:01:01:01	B*40:06:01:02
+HG04115	SAS	DogoHLA	C	two_field	complete	1	1	1	2	C*06:02:01:01	C*15:02:01:01
+HG04115	SAS	DogoHLA	C	four_field	complete	1	1	1	2	C*06:02:01:01	C*15:02:01:01
+HG04115	SAS	DogoHLA	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*01:03:01:12
+HG04115	SAS	DogoHLA	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*01:03:01:12
+HG04115	SAS	DogoHLA	DPB1	two_field	complete	1	1	1	2	DPB1*104:01:01:01	DPB1*13:01:01:01
+HG04115	SAS	DogoHLA	DPB1	four_field	complete	1	1	0	1	DPB1*104:01:01:01	DPB1*13:01:01:01
+HG04115	SAS	DogoHLA	DQA1	two_field	complete	1	1	1	2	DQA1*01:05:01:01	DQA1*02:01:01:02
+HG04115	SAS	DogoHLA	DQA1	four_field	complete	1	1	0	1	DQA1*01:05:01:01	DQA1*02:01:01:02
+HG04115	SAS	DogoHLA	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*05:01:01:02
+HG04115	SAS	DogoHLA	DQB1	four_field	complete	1	1	0	1	DQB1*03:03:02:01	DQB1*05:01:01:02
+HG04115	SAS	DogoHLA	DRB1	two_field	complete	1	1	1	2	DRB1*10:01:01:01	DRB1*07:01:01:01
+HG04115	SAS	DogoHLA	DRB1	four_field	complete	0	0	0	0	DRB1*10:01:01:01	DRB1*07:01:01:01
+HG04115	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*74:02:01	A*11:01:01
+HG04115	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*74:02:01	A*11:01:01
+HG04115	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*57:01:01	B*40:06:01
+HG04115	SAS	T1K	B	four_field	archived_output	0	0	0	0	B*57:01:01	B*40:06:01
+HG04115	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*15:02:01	C*06:02:01
+HG04115	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*15:02:01	C*06:02:01
+HG04115	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:01:01	DPA1*01:03:01
+HG04115	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:01:01	DPA1*01:03:01
+HG04115	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*13:01:01	DPB1*104:01:01
+HG04115	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*13:01:01	DPB1*104:01:01
+HG04115	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:05:01	DQA1*02:01:01
+HG04115	SAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:05:01	DQA1*02:01:01
+HG04115	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:03:02	DQB1*05:01:01
+HG04115	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:03:02	DQB1*05:01:01
+HG04115	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*10:01:01	DRB1*07:01:01
+HG04115	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*10:01:01	DRB1*07:01:01
+HG04187	SAS	native	A	two_field	complete	1	1	1	2	A*33:03:01:01	A*32:01:01:01
+HG04187	SAS	native	A	four_field	complete	1	1	1	2	A*33:03:01:01	A*32:01:01:01
+HG04187	SAS	native	B	two_field	complete	1	1	1	2	B*35:03:01:01	B*08:01:01:02
+HG04187	SAS	native	B	four_field	complete	1	1	1	2	B*35:03:01:01	B*08:01:01:02
+HG04187	SAS	native	C	two_field	complete	1	1	1	2	C*04:01:01:01	C*07:02:01:01
+HG04187	SAS	native	C	four_field	complete	1	1	0	1	C*04:01:01:01	C*07:02:01:01
+HG04187	SAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG04187	SAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*02:01:01:01	DPA1*02:01:01:01
+HG04187	SAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*17:01:01:01	DPB1*09:01:01
+HG04187	SAS	native	DPB1	four_field	complete	1	0	0	1	DPB1*17:01:01:01	DPB1*09:01:01
+HG04187	SAS	native	DQA1	two_field	complete	1	1	0	1	DQA1*05:01:01:02	DQA1*05:05:01:01
+HG04187	SAS	native	DQA1	four_field	complete	0	0	0	0	DQA1*05:01:01:02	DQA1*05:05:01:01
+HG04187	SAS	native	DQB1	two_field	complete	1	1	0	1	DQB1*03:01:01:03	DQB1*02:01:01
+HG04187	SAS	native	DQB1	four_field	complete	0	0	0	0	DQB1*03:01:01:03	DQB1*02:01:01
+HG04187	SAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*03:01:01:01	DRB1*11:01:01:01
+HG04187	SAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*03:01:01:01	DRB1*11:01:01:01
+HG04187	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	B	four_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG04187	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	DQA1	four_field	not_started	0	0	0	0		
+HG04187	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	DQB1	four_field	not_started	0	0	0	0		
+HG04187	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG04187	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	DQA1	four_field	not_started	0	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	DQB1	four_field	not_started	0	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG04187	SAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG04187	SAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	DQA1	four_field	not_started	0	0	0	0		
+HG04187	SAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	DQB1	four_field	not_started	0	0	0	0		
+HG04187	SAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG04187	SAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG04187	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*32:01:01	A*33:03:01
+HG04187	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*32:01:01	A*33:03:01
+HG04187	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*08:01:01	B*35:03:01
+HG04187	SAS	T1K	B	four_field	archived_output	1	0	0	0	B*08:01:01	B*35:03:01
+HG04187	SAS	T1K	C	two_field	archived_output	1	1	0	1	C*07:02:01	C*04:01:01,HLA-C*04:01:109,HLA-C*04:09L,HLA-C*04:409,HLA-C*04:470,HLA-C*04:502,HLA-C*04:521
+HG04187	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*07:02:01	C*04:01:01,HLA-C*04:01:109,HLA-C*04:09L,HLA-C*04:409,HLA-C*04:470,HLA-C*04:502,HLA-C*04:521
+HG04187	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:01:01	DPA1*02:01:01
+HG04187	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:01:01	DPA1*02:01:01
+HG04187	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*17:01:01	DPB1*09:01:01
+HG04187	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*17:01:01	DPB1*09:01:01
+HG04187	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*05:01:01	DQA1*05:09:01
+HG04187	SAS	T1K	DQA1	four_field	archived_output	0	0	0	0	DQA1*05:01:01	DQA1*05:09:01
+HG04187	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*02:07:01	DQB1*03:01:01
+HG04187	SAS	T1K	DQB1	four_field	archived_output	0	0	0	0	DQB1*02:07:01	DQB1*03:01:01
+HG04187	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*03:01:01	DRB1*11:01:01
+HG04187	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*03:01:01	DRB1*11:01:01
+NA18570	EAS	native	A	two_field	complete	1	1	1	2	A*02:01:01:01	A*02:06:01:01
+NA18570	EAS	native	A	four_field	complete	1	1	1	2	A*02:01:01:01	A*02:06:01:01
+NA18570	EAS	native	B	two_field	complete	1	1	1	2	B*15:01:01:01	B*15:11:01
+NA18570	EAS	native	B	four_field	complete	1	0	0	1	B*15:01:01:01	B*15:11:01
+NA18570	EAS	native	C	two_field	complete	1	1	1	2	C*03:03:01:01	C*03:03:01:01
+NA18570	EAS	native	C	four_field	complete	1	1	1	2	C*03:03:01:01	C*03:03:01:01
+NA18570	EAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:02	DPA1*02:02:02:01
+NA18570	EAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:02:02:01
+NA18570	EAS	native	DPB1	two_field	complete	1	1	0	0	DPB1*16:01:01:01	DPB1*17:01:01:01
+NA18570	EAS	native	DPB1	four_field	complete	0	0	0	0	DPB1*16:01:01:01	DPB1*17:01:01:01
+NA18570	EAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*03:01:05	DQA1*05:05:02
+NA18570	EAS	native	DQA1	four_field	complete	1	0	0	0	DQA1*03:01:05	DQA1*05:05:02
+NA18570	EAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*03:02:01:01	DQB1*03:01:01:03
+NA18570	EAS	native	DQB1	four_field	complete	1	1	1	2	DQB1*03:02:01:01	DQB1*03:01:01:03
+NA18570	EAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*04:04:01	DRB1*11:01:01:01
+NA18570	EAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*04:04:01	DRB1*11:01:01:01
+NA18570	EAS	native-long	A	two_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	A	four_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	B	two_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	B	four_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	C	two_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	C	four_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+NA18570	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	DPB1	four_field	not_started	0	0	0	0		
+NA18570	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+NA18570	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	DPB1	four_field	not_started	0	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+NA18570	EAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+NA18570	EAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	DPB1	four_field	not_started	0	0	0	0		
+NA18570	EAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+NA18570	EAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+NA18570	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*02:06:01	A*02:01:01
+NA18570	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*02:06:01	A*02:01:01
+NA18570	EAS	T1K	B	two_field	archived_output	1	1	0	1	B*15:11:01	B*15:542
+NA18570	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*15:11:01	B*15:542
+NA18570	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*03:03:01	C*03:03:01
+NA18570	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*03:03:01	C*03:03:01
+NA18570	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:01	DPA1*02:02:02
+NA18570	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*01:03:01	DPA1*02:02:02
+NA18570	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*03:01:01	DPB1*02:01:02
+NA18570	EAS	T1K	DPB1	four_field	archived_output	0	0	0	0	DPB1*03:01:01	DPB1*02:01:02
+NA18570	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*03:01:01	DQA1*05:05:01
+NA18570	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*03:01:01	DQA1*05:05:01
+NA18570	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:02:01	DQB1*03:01:01
+NA18570	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:02:01	DQB1*03:01:01
+NA18570	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*11:01:01	DRB1*04:04:01
+NA18570	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*11:01:01	DRB1*04:04:01
+NA18940	EAS	native	A	two_field	complete	1	1	1	2	A*24:02:01:01	A*24:02:01:01
+NA18940	EAS	native	A	four_field	complete	1	1	1	2	A*24:02:01:01	A*24:02:01:01
+NA18940	EAS	native	B	two_field	complete	1	1	1	2	B*46:01:01:01	B*52:01:01:02
+NA18940	EAS	native	B	four_field	complete	1	1	1	2	B*46:01:01:01	B*52:01:01:02
+NA18940	EAS	native	C	two_field	complete	1	1	1	2	C*01:03	C*12:02:02:01
+NA18940	EAS	native	C	four_field	complete	0	0	0	0	C*01:03	C*12:02:02:01
+NA18940	EAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:01	DPA1*01:03:01:02
+NA18940	EAS	native	DPA1	four_field	complete	1	1	0	0	DPA1*01:03:01:01	DPA1*01:03:01:02
+NA18940	EAS	native	DPB1	two_field	complete	1	1	0	1	DPB1*105:01:01:01	DPB1*04:02:01:01
+NA18940	EAS	native	DPB1	four_field	complete	0	0	0	0	DPB1*105:01:01:01	DPB1*04:02:01:01
+NA18940	EAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*01:03:01:01	DQA1*04:01:01:02
+NA18940	EAS	native	DQA1	four_field	complete	1	1	1	2	DQA1*01:03:01:01	DQA1*04:01:01:02
+NA18940	EAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*04:02:01:07	DQB1*06:01:01:01
+NA18940	EAS	native	DQB1	four_field	complete	1	1	1	2	DQB1*04:02:01:07	DQB1*06:01:01:01
+NA18940	EAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*15:02:01:01	DRB1*08:02:01:01
+NA18940	EAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*15:02:01:01	DRB1*08:02:01:01
+NA18940	EAS	native-long	A	two_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	A	four_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	B	two_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	B	four_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	C	two_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	C	four_field	not_started	0	0	0	0		
+NA18940	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	DPA1	four_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	DPB1	four_field	not_started	0	0	0	0		
+NA18940	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+NA18940	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	C	four_field	not_started	0	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	DPA1	four_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	DPB1	four_field	not_started	0	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+NA18940	EAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	C	four_field	not_started	0	0	0	0		
+NA18940	EAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	DPA1	four_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	DPB1	four_field	not_started	0	0	0	0		
+NA18940	EAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+NA18940	EAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+NA18940	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*24:02:01	A*24:02:01
+NA18940	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*24:02:01	A*24:02:01
+NA18940	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*46:01:01	B*52:01:01
+NA18940	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*46:01:01	B*52:01:01
+NA18940	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*01:03:01	C*12:02:02
+NA18940	EAS	T1K	C	four_field	archived_output	0	0	0	0	C*01:03:01	C*12:02:02
+NA18940	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:01	DPA1*01:03:01
+NA18940	EAS	T1K	DPA1	four_field	archived_output	1	0	0	0	DPA1*01:03:01	DPA1*01:03:01
+NA18940	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*02:01:02	DPB1*04:02:01
+NA18940	EAS	T1K	DPB1	four_field	archived_output	0	0	0	0	DPB1*02:01:02	DPB1*04:02:01
+NA18940	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:03:01	DQA1*04:01:01
+NA18940	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:03:01	DQA1*04:01:01
+NA18940	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*06:01:01	DQB1*04:02:01
+NA18940	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*06:01:01	DQB1*04:02:01
+NA18940	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*08:02:01	DRB1*15:02:01
+NA18940	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*08:02:01	DRB1*15:02:01
+NA21144	SAS	native	A	two_field	complete	1	1	1	2	A*02:01:01:01	A*33:03:01:01
+NA21144	SAS	native	A	four_field	complete	1	1	1	2	A*02:01:01:01	A*33:03:01:01
+NA21144	SAS	native	B	two_field	complete	1	1	1	2	B*58:01:01:03	B*57:01:01:01
+NA21144	SAS	native	B	four_field	complete	0	0	0	0	B*58:01:01:03	B*57:01:01:01
+NA21144	SAS	native	C	two_field	complete	1	1	1	2	C*06:02:01:01	C*03:02:02:01
+NA21144	SAS	native	C	four_field	complete	1	1	0	1	C*06:02:01:01	C*03:02:02:01
+NA21144	SAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*01:03:01:02	DPA1*02:01:01:01
+NA21144	SAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*01:03:01:02	DPA1*02:01:01:01
+NA21144	SAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*04:01:01:40	DPB1*09:01:01
+NA21144	SAS	native	DPB1	four_field	complete	1	0	0	0	DPB1*04:01:01:40	DPB1*09:01:01
+NA21144	SAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*05:01:01:02	DQA1*02:01:01:01
+NA21144	SAS	native	DQA1	four_field	complete	0	0	0	0	DQA1*05:01:01:02	DQA1*02:01:01:01
+NA21144	SAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*02:01:01	DQB1*03:03:02:01
+NA21144	SAS	native	DQB1	four_field	complete	1	0	0	1	DQB1*02:01:01	DQB1*03:03:02:01
+NA21144	SAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*03:01:01:01	DRB1*07:01:01:01
+NA21144	SAS	native	DRB1	four_field	complete	1	1	0	0	DRB1*03:01:01:01	DRB1*07:01:01:01
+NA21144	SAS	native-long	A	two_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	A	four_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	B	two_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	B	four_field	not_started	0	0	0	0		
+NA21144	SAS	native-long	C	two_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	C	four_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+NA21144	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	DQA1	four_field	not_started	0	0	0	0		
+NA21144	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+NA21144	SAS	native-long	DRB1	four_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	B	four_field	not_started	0	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	DQA1	four_field	not_started	0	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA-no-graph	DRB1	four_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	B	four_field	not_started	0	0	0	0		
+NA21144	SAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+NA21144	SAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	DQA1	four_field	not_started	0	0	0	0		
+NA21144	SAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+NA21144	SAS	DogoHLA	DRB1	four_field	not_started	1	0	0	0		
+NA21144	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*33:03:01	A*02:01:01
+NA21144	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*33:03:01	A*02:01:01
+NA21144	SAS	T1K	B	two_field	archived_output	1	1	0	1	B*57:01:01	B*58:01:01,HLA-B*58:120
+NA21144	SAS	T1K	B	four_field	archived_output	0	0	0	0	B*57:01:01	B*58:01:01,HLA-B*58:120
+NA21144	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*03:02:02	C*06:02:01
+NA21144	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*03:02:02	C*06:02:01
+NA21144	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:01	DPA1*02:01:01
+NA21144	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*01:03:01	DPA1*02:01:01
+NA21144	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*04:01:01	DPB1*09:01:01
+NA21144	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*04:01:01	DPB1*09:01:01
+NA21144	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*05:01:01	DQA1*02:01:01
+NA21144	SAS	T1K	DQA1	four_field	archived_output	0	0	0	0	DQA1*05:01:01	DQA1*02:01:01
+NA21144	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:03:02	DQB1*02:01:01
+NA21144	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:03:02	DQB1*02:01:01
+NA21144	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*07:01:01	DRB1*03:01:01
+NA21144	SAS	T1K	DRB1	four_field	archived_output	1	0	0	0	DRB1*07:01:01	DRB1*03:01:01
+HG00558	EAS	native	A	two_field	complete	1	1	1	2	A*01:01:01:01	A*02:01:01:01
+HG00558	EAS	native	A	four_field	complete	1	1	1	2	A*01:01:01:01	A*02:01:01:01
+HG00558	EAS	native	B	two_field	complete	1	1	1	2	B*40:01:02:01	B*37:01:01:01
+HG00558	EAS	native	B	four_field	complete	1	1	0	1	B*40:01:02:01	B*37:01:01:01
+HG00558	EAS	native	C	two_field	complete	1	1	1	2	C*06:02:01:01	C*07:02:01:01
+HG00558	EAS	native	C	four_field	complete	1	1	0	1	C*06:02:01:01	C*07:02:01:01
+HG00558	EAS	native	DPA1	two_field	complete	1	1	1	2	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG00558	EAS	native	DPA1	four_field	complete	0	0	0	0	DPA1*02:02:02:01	DPA1*02:02:02:01
+HG00558	EAS	native	DPB1	two_field	complete	1	1	1	2	DPB1*02:01:02:29	DPB1*05:01:01:01
+HG00558	EAS	native	DPB1	four_field	complete	1	1	1	2	DPB1*02:01:02:29	DPB1*05:01:01:01
+HG00558	EAS	native	DQA1	two_field	complete	1	1	1	2	DQA1*01:05:01:01	DQA1*03:02:01:01
+HG00558	EAS	native	DQA1	four_field	complete	1	1	0	1	DQA1*01:05:01:01	DQA1*03:02:01:01
+HG00558	EAS	native	DQB1	two_field	complete	1	1	1	2	DQB1*03:03:02:01	DQB1*05:01:01:02
+HG00558	EAS	native	DQB1	four_field	complete	1	1	0	0	DQB1*03:03:02:01	DQB1*05:01:01:02
+HG00558	EAS	native	DRB1	two_field	complete	1	1	1	2	DRB1*09:01:02:01	DRB1*10:01:01:01
+HG00558	EAS	native	DRB1	four_field	complete	0	0	0	0	DRB1*09:01:02:01	DRB1*10:01:01:01
+HG00558	EAS	native-long	A	two_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	A	four_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	B	two_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	B	four_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	C	two_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	C	four_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG00558	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG00558	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG00558	EAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG00558	EAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG00558	EAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG00558	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*01:01:01	A*02:01:01
+HG00558	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*01:01:01	A*02:01:01
+HG00558	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*40:01:02	B*37:01:01
+HG00558	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*40:01:02	B*37:01:01
+HG00558	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*06:02:01	C*07:02:01
+HG00558	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*06:02:01	C*07:02:01
+HG00558	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*02:02:02
+HG00558	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*02:02:02
+HG00558	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*05:01:01	DPB1*02:01:02
+HG00558	EAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*05:01:01	DPB1*02:01:02
+HG00558	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:05:01	DQA1*03:02:01
+HG00558	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:05:01	DQA1*03:02:01
+HG00558	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*05:01:01	DQB1*03:03:02
+HG00558	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*05:01:01	DQB1*03:03:02
+HG00558	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*09:01:02	DRB1*10:01:01
+HG00558	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*09:01:02	DRB1*10:01:01
+HG02165	EAS	native	A	two_field	running	1	0	0	0		
+HG02165	EAS	native	A	four_field	running	1	0	0	0		
+HG02165	EAS	native	B	two_field	running	1	0	0	0		
+HG02165	EAS	native	B	four_field	running	1	0	0	0		
+HG02165	EAS	native	C	two_field	running	1	0	0	0		
+HG02165	EAS	native	C	four_field	running	0	0	0	0		
+HG02165	EAS	native	DPA1	two_field	running	1	0	0	0		
+HG02165	EAS	native	DPA1	four_field	running	0	0	0	0		
+HG02165	EAS	native	DPB1	two_field	running	1	0	0	0		
+HG02165	EAS	native	DPB1	four_field	running	1	0	0	0		
+HG02165	EAS	native	DQA1	two_field	running	1	0	0	0		
+HG02165	EAS	native	DQA1	four_field	running	1	0	0	0		
+HG02165	EAS	native	DQB1	two_field	running	1	0	0	0		
+HG02165	EAS	native	DQB1	four_field	running	1	0	0	0		
+HG02165	EAS	native	DRB1	two_field	running	1	0	0	0		
+HG02165	EAS	native	DRB1	four_field	running	1	0	0	0		
+HG02165	EAS	native-long	A	two_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	A	four_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	B	two_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	B	four_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	C	two_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	C	four_field	not_started	0	0	0	0		
+HG02165	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG02165	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG02165	EAS	native-long	DRB1	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	C	four_field	not_started	0	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA-no-graph	DRB1	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	C	four_field	not_started	0	0	0	0		
+HG02165	EAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG02165	EAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG02165	EAS	DogoHLA	DRB1	four_field	not_started	1	0	0	0		
+HG02165	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*11:02:01	A*02:07:01
+HG02165	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*11:02:01	A*02:07:01
+HG02165	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*27:04:01	B*46:01:01
+HG02165	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*27:04:01	B*46:01:01
+HG02165	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*01:02:01	C*12:02:02
+HG02165	EAS	T1K	C	four_field	archived_output	0	0	0	0	C*01:02:01	C*12:02:02
+HG02165	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*02:02:02
+HG02165	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*02:02:02
+HG02165	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*05:01:01	DPB1*02:02:01
+HG02165	EAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*05:01:01	DPB1*02:02:01
+HG02165	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:04:01	DQA1*01:04:01
+HG02165	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:04:01	DQA1*01:04:01
+HG02165	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*05:02:01	DQB1*05:02:01
+HG02165	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*05:02:01	DQB1*05:02:01
+HG02165	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*14:54:01	DRB1*14:54:01
+HG02165	EAS	T1K	DRB1	four_field	archived_output	1	0	0	0	DRB1*14:54:01	DRB1*14:54:01
+HG02523	EAS	native	A	two_field	not_started	1	0	0	0		
+HG02523	EAS	native	A	four_field	not_started	1	0	0	0		
+HG02523	EAS	native	B	two_field	not_started	1	0	0	0		
+HG02523	EAS	native	B	four_field	not_started	1	0	0	0		
+HG02523	EAS	native	C	two_field	not_started	1	0	0	0		
+HG02523	EAS	native	C	four_field	not_started	0	0	0	0		
+HG02523	EAS	native	DPA1	two_field	not_started	1	0	0	0		
+HG02523	EAS	native	DPA1	four_field	not_started	0	0	0	0		
+HG02523	EAS	native	DPB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	native	DPB1	four_field	not_started	1	0	0	0		
+HG02523	EAS	native	DQA1	two_field	not_started	1	0	0	0		
+HG02523	EAS	native	DQA1	four_field	not_started	1	0	0	0		
+HG02523	EAS	native	DQB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	native	DQB1	four_field	not_started	1	0	0	0		
+HG02523	EAS	native	DRB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	native	DRB1	four_field	not_started	0	0	0	0		
+HG02523	EAS	native-long	A	two_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	A	four_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	B	two_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	B	four_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	C	two_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	C	four_field	not_started	0	0	0	0		
+HG02523	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG02523	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	C	four_field	not_started	0	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG02523	EAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	C	four_field	not_started	0	0	0	0		
+HG02523	EAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG02523	EAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG02523	EAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG02523	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*11:01:01	A*02:07:01
+HG02523	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*11:01:01	A*02:07:01
+HG02523	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*07:05:01	B*46:01:01
+HG02523	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*07:05:01	B*46:01:01
+HG02523	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*01:02:01	C*15:05:02
+HG02523	EAS	T1K	C	four_field	archived_output	0	0	0	0	C*01:02:01	C*15:05:02
+HG02523	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*01:03:01
+HG02523	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*01:03:01
+HG02523	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*05:01:01	DPB1*04:01:01
+HG02523	EAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*05:01:01	DPB1*04:01:01
+HG02523	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:05:01	DQA1*03:02:01
+HG02523	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:05:01	DQA1*03:02:01
+HG02523	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:03:02	DQB1*05:01:01
+HG02523	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:03:02	DQB1*05:01:01
+HG02523	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*09:01:02	DRB1*10:01:01
+HG02523	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*09:01:02	DRB1*10:01:01
+HG02738	SAS	native	A	two_field	not_started	1	0	0	0		
+HG02738	SAS	native	A	four_field	not_started	1	0	0	0		
+HG02738	SAS	native	B	two_field	not_started	1	0	0	0		
+HG02738	SAS	native	B	four_field	not_started	1	0	0	0		
+HG02738	SAS	native	C	two_field	not_started	1	0	0	0		
+HG02738	SAS	native	C	four_field	not_started	1	0	0	0		
+HG02738	SAS	native	DPA1	two_field	not_started	1	0	0	0		
+HG02738	SAS	native	DPA1	four_field	not_started	0	0	0	0		
+HG02738	SAS	native	DPB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	native	DPB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	native	DQA1	two_field	not_started	1	0	0	0		
+HG02738	SAS	native	DQA1	four_field	not_started	0	0	0	0		
+HG02738	SAS	native	DQB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	native	DQB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	native	DRB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	native	DRB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	B	four_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG02738	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	DQA1	four_field	not_started	0	0	0	0		
+HG02738	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	native-long	DRB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	DQA1	four_field	not_started	0	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA-no-graph	DRB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG02738	SAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	DQA1	four_field	not_started	0	0	0	0		
+HG02738	SAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG02738	SAS	DogoHLA	DRB1	four_field	not_started	1	0	0	0		
+HG02738	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*26:01:01	A*23:01:01
+HG02738	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*26:01:01	A*23:01:01
+HG02738	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*08:01:01	B*50:01:01
+HG02738	SAS	T1K	B	four_field	archived_output	1	0	0	0	B*08:01:01	B*50:01:01
+HG02738	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*06:02:01	C*07:02:01
+HG02738	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*06:02:01	C*07:02:01
+HG02738	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:01	DPA1*02:01:01
+HG02738	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*01:03:01	DPA1*02:01:01
+HG02738	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*14:01:01	DPB1*04:02:01
+HG02738	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*14:01:01	DPB1*04:02:01
+HG02738	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*05:01:01	DQA1*05:01:01
+HG02738	SAS	T1K	DQA1	four_field	archived_output	0	0	0	0	DQA1*05:01:01	DQA1*05:01:01
+HG02738	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*02:01:01	DQB1*02:01:01
+HG02738	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*02:01:01	DQB1*02:01:01
+HG02738	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*03:01:01	DRB1*03:01:01
+HG02738	SAS	T1K	DRB1	four_field	archived_output	1	0	0	0	DRB1*03:01:01	DRB1*03:01:01
+HG03688	SAS	native	A	two_field	not_started	1	0	0	0		
+HG03688	SAS	native	A	four_field	not_started	1	0	0	0		
+HG03688	SAS	native	B	two_field	not_started	1	0	0	0		
+HG03688	SAS	native	B	four_field	not_started	1	0	0	0		
+HG03688	SAS	native	C	two_field	not_started	1	0	0	0		
+HG03688	SAS	native	C	four_field	not_started	1	0	0	0		
+HG03688	SAS	native	DPA1	two_field	not_started	1	0	0	0		
+HG03688	SAS	native	DPA1	four_field	not_started	1	0	0	0		
+HG03688	SAS	native	DPB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	native	DPB1	four_field	not_started	1	0	0	0		
+HG03688	SAS	native	DQA1	two_field	not_started	1	0	0	0		
+HG03688	SAS	native	DQA1	four_field	not_started	1	0	0	0		
+HG03688	SAS	native	DQB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	native	DQB1	four_field	not_started	1	0	0	0		
+HG03688	SAS	native	DRB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	native	DRB1	four_field	not_started	0	0	0	0		
+HG03688	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	B	four_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	DPA1	four_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	DPA1	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG03688	SAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	DPA1	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG03688	SAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG03688	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*68:01:02	A*02:11:01
+HG03688	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*68:01:02	A*02:11:01
+HG03688	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*35:01:01	B*52:01:01
+HG03688	SAS	T1K	B	four_field	archived_output	1	0	0	0	B*35:01:01	B*52:01:01
+HG03688	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*04:01:01	C*05:01:01
+HG03688	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*04:01:01	C*05:01:01
+HG03688	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:07:01	DPA1*01:03:01
+HG03688	SAS	T1K	DPA1	four_field	archived_output	1	0	0	0	DPA1*02:07:01	DPA1*01:03:01
+HG03688	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*04:01:01	DPB1*04:02:01
+HG03688	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*04:01:01	DPB1*04:02:01
+HG03688	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:03:01	DQA1*03:01:01
+HG03688	SAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:03:01	DQA1*03:01:01
+HG03688	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:02:01	DQB1*06:01:01
+HG03688	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:02:01	DQB1*06:01:01
+HG03688	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*15:01:01	DRB1*04:03:01
+HG03688	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*15:01:01	DRB1*04:03:01
+HG03927	SAS	native	A	two_field	not_started	1	0	0	0		
+HG03927	SAS	native	A	four_field	not_started	1	0	0	0		
+HG03927	SAS	native	B	two_field	not_started	1	0	0	0		
+HG03927	SAS	native	B	four_field	not_started	1	0	0	0		
+HG03927	SAS	native	C	two_field	not_started	1	0	0	0		
+HG03927	SAS	native	C	four_field	not_started	1	0	0	0		
+HG03927	SAS	native	DPA1	two_field	not_started	1	0	0	0		
+HG03927	SAS	native	DPA1	four_field	not_started	1	0	0	0		
+HG03927	SAS	native	DPB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	native	DPB1	four_field	not_started	1	0	0	0		
+HG03927	SAS	native	DQA1	two_field	not_started	1	0	0	0		
+HG03927	SAS	native	DQA1	four_field	not_started	0	0	0	0		
+HG03927	SAS	native	DQB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	native	DQB1	four_field	not_started	1	0	0	0		
+HG03927	SAS	native	DRB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	native	DRB1	four_field	not_started	0	0	0	0		
+HG03927	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	B	four_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	DPA1	four_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	DQA1	four_field	not_started	0	0	0	0		
+HG03927	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	DPA1	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	DQA1	four_field	not_started	0	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG03927	SAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	DPA1	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	DQA1	four_field	not_started	0	0	0	0		
+HG03927	SAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG03927	SAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG03927	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*24:02:01	A*31:01:02
+HG03927	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*24:02:01	A*31:01:02
+HG03927	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*52:01:01	B*15:08:01
+HG03927	SAS	T1K	B	four_field	archived_output	1	0	0	0	B*52:01:01	B*15:08:01
+HG03927	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*12:02:02	C*01:02:01
+HG03927	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*12:02:02	C*01:02:01
+HG03927	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:01	DPA1*01:03:01
+HG03927	SAS	T1K	DPA1	four_field	archived_output	1	0	0	0	DPA1*01:03:01	DPA1*01:03:01
+HG03927	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*04:02:01	DPB1*02:01:02
+HG03927	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*04:02:01	DPB1*02:01:02
+HG03927	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:04:02	DQA1*02:01:01
+HG03927	SAS	T1K	DQA1	four_field	archived_output	0	0	0	0	DQA1*01:04:02	DQA1*02:01:01
+HG03927	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:03:02	DQB1*05:03:01
+HG03927	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:03:02	DQB1*05:03:01
+HG03927	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*07:01:01	DRB1*14:04:01
+HG03927	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*07:01:01	DRB1*14:04:01
+NA18952	EAS	native	A	two_field	not_started	1	0	0	0		
+NA18952	EAS	native	A	four_field	not_started	1	0	0	0		
+NA18952	EAS	native	B	two_field	not_started	1	0	0	0		
+NA18952	EAS	native	B	four_field	not_started	1	0	0	0		
+NA18952	EAS	native	C	two_field	not_started	1	0	0	0		
+NA18952	EAS	native	C	four_field	not_started	1	0	0	0		
+NA18952	EAS	native	DPA1	two_field	not_started	1	0	0	0		
+NA18952	EAS	native	DPA1	four_field	not_started	0	0	0	0		
+NA18952	EAS	native	DPB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	native	DPB1	four_field	not_started	0	0	0	0		
+NA18952	EAS	native	DQA1	two_field	not_started	1	0	0	0		
+NA18952	EAS	native	DQA1	four_field	not_started	1	0	0	0		
+NA18952	EAS	native	DQB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	native	DQB1	four_field	not_started	1	0	0	0		
+NA18952	EAS	native	DRB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	native	DRB1	four_field	not_started	0	0	0	0		
+NA18952	EAS	native-long	A	two_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	A	four_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	B	two_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	B	four_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	C	two_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	C	four_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+NA18952	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	DPB1	four_field	not_started	0	0	0	0		
+NA18952	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	DPB1	four_field	not_started	0	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+NA18952	EAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+NA18952	EAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	DPB1	four_field	not_started	0	0	0	0		
+NA18952	EAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+NA18952	EAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+NA18952	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*31:01:02	A*24:02:01
+NA18952	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*31:01:02	A*24:02:01
+NA18952	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*51:01:01	B*07:02:01
+NA18952	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*51:01:01	B*07:02:01
+NA18952	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*14:02:01	C*07:02:01
+NA18952	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*14:02:01	C*07:02:01
+NA18952	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*02:01:01
+NA18952	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*02:01:01
+NA18952	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*05:01:01	DPB1*05:01:01
+NA18952	EAS	T1K	DPB1	four_field	archived_output	0	0	0	0	DPB1*05:01:01	DPB1*05:01:01
+NA18952	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:04:01	DQA1*03:02:01
+NA18952	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:04:01	DQA1*03:02:01
+NA18952	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*05:03:01	DQB1*03:03:02
+NA18952	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*05:03:01	DQB1*03:03:02
+NA18952	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*09:01:02	DRB1*14:54:01
+NA18952	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*09:01:02	DRB1*14:54:01
+NA21106	SAS	native	A	two_field	not_started	1	0	0	0		
+NA21106	SAS	native	A	four_field	not_started	1	0	0	0		
+NA21106	SAS	native	B	two_field	not_started	1	0	0	0		
+NA21106	SAS	native	B	four_field	not_started	1	0	0	0		
+NA21106	SAS	native	C	two_field	not_started	1	0	0	0		
+NA21106	SAS	native	C	four_field	not_started	1	0	0	0		
+NA21106	SAS	native	DPA1	two_field	not_started	1	0	0	0		
+NA21106	SAS	native	DPA1	four_field	not_started	1	0	0	0		
+NA21106	SAS	native	DPB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	native	DPB1	four_field	not_started	0	0	0	0		
+NA21106	SAS	native	DQA1	two_field	not_started	1	0	0	0		
+NA21106	SAS	native	DQA1	four_field	not_started	1	0	0	0		
+NA21106	SAS	native	DQB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	native	DQB1	four_field	not_started	1	0	0	0		
+NA21106	SAS	native	DRB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	native	DRB1	four_field	not_started	0	0	0	0		
+NA21106	SAS	native-long	A	two_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	A	four_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	B	two_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	B	four_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	C	two_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	C	four_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	DPA1	four_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	DPB1	four_field	not_started	0	0	0	0		
+NA21106	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	DPA1	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	DPB1	four_field	not_started	0	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+NA21106	SAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	DPA1	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	DPB1	four_field	not_started	0	0	0	0		
+NA21106	SAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+NA21106	SAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+NA21106	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*11:01:01	A*32:01:01
+NA21106	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*11:01:01	A*32:01:01
+NA21106	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*57:01:01	B*52:01:01
+NA21106	SAS	T1K	B	four_field	archived_output	1	0	0	0	B*57:01:01	B*52:01:01
+NA21106	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*06:02:01	C*12:02:02
+NA21106	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*06:02:01	C*12:02:02
+NA21106	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:01	DPA1*01:03:01
+NA21106	SAS	T1K	DPA1	four_field	archived_output	1	0	0	0	DPA1*01:03:01	DPA1*01:03:01
+NA21106	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*02:01:02	DPB1*02:01:02
+NA21106	SAS	T1K	DPB1	four_field	archived_output	0	0	0	0	DPB1*02:01:02	DPB1*02:01:02
+NA21106	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:03:01	DQA1*01:03:01
+NA21106	SAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:03:01	DQA1*01:03:01
+NA21106	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*06:01:01	DQB1*06:01:01
+NA21106	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*06:01:01	DQB1*06:01:01
+NA21106	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*15:01:01	DRB1*15:02:01
+NA21106	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*15:01:01	DRB1*15:02:01
+HG00609	EAS	native	A	two_field	not_started	1	0	0	0		
+HG00609	EAS	native	A	four_field	not_started	1	0	0	0		
+HG00609	EAS	native	B	two_field	not_started	1	0	0	0		
+HG00609	EAS	native	B	four_field	not_started	1	0	0	0		
+HG00609	EAS	native	C	two_field	not_started	1	0	0	0		
+HG00609	EAS	native	C	four_field	not_started	1	0	0	0		
+HG00609	EAS	native	DPA1	two_field	not_started	1	0	0	0		
+HG00609	EAS	native	DPA1	four_field	not_started	0	0	0	0		
+HG00609	EAS	native	DPB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	native	DPB1	four_field	not_started	0	0	0	0		
+HG00609	EAS	native	DQA1	two_field	not_started	1	0	0	0		
+HG00609	EAS	native	DQA1	four_field	not_started	1	0	0	0		
+HG00609	EAS	native	DQB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	native	DQB1	four_field	not_started	1	0	0	0		
+HG00609	EAS	native	DRB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	native	DRB1	four_field	not_started	0	0	0	0		
+HG00609	EAS	native-long	A	two_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	A	four_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	B	two_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	B	four_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	C	two_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	C	four_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG00609	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	DPB1	four_field	not_started	0	0	0	0		
+HG00609	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	DPB1	four_field	not_started	0	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG00609	EAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG00609	EAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	DPB1	four_field	not_started	0	0	0	0		
+HG00609	EAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG00609	EAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG00609	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*24:02:01	A*26:01:01
+HG00609	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*24:02:01	A*26:01:01
+HG00609	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*40:01:02	B*40:01:02
+HG00609	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*40:01:02	B*40:01:02
+HG00609	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*07:02:01	C*03:04:01
+HG00609	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*07:02:01	C*03:04:01
+HG00609	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*02:02:02
+HG00609	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*02:02:02
+HG00609	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*05:01:01	DPB1*02:01:02
+HG00609	EAS	T1K	DPB1	four_field	archived_output	0	0	0	0	DPB1*05:01:01	DPB1*02:01:02
+HG00609	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:02:01	DQA1*03:02:01
+HG00609	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:02:01	DQA1*03:02:01
+HG00609	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:03:02	DQB1*06:02:01
+HG00609	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:03:02	DQB1*06:02:01
+HG00609	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*09:01:02	DRB1*15:01:01
+HG00609	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*09:01:02	DRB1*15:01:01
+HG02074	EAS	native	A	two_field	not_started	1	0	0	0		
+HG02074	EAS	native	A	four_field	not_started	0	0	0	0		
+HG02074	EAS	native	B	two_field	not_started	1	0	0	0		
+HG02074	EAS	native	B	four_field	not_started	0	0	0	0		
+HG02074	EAS	native	C	two_field	not_started	1	0	0	0		
+HG02074	EAS	native	C	four_field	not_started	1	0	0	0		
+HG02074	EAS	native	DPA1	two_field	not_started	1	0	0	0		
+HG02074	EAS	native	DPA1	four_field	not_started	0	0	0	0		
+HG02074	EAS	native	DPB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	native	DPB1	four_field	not_started	1	0	0	0		
+HG02074	EAS	native	DQA1	two_field	not_started	1	0	0	0		
+HG02074	EAS	native	DQA1	four_field	not_started	1	0	0	0		
+HG02074	EAS	native	DQB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	native	DQB1	four_field	not_started	1	0	0	0		
+HG02074	EAS	native	DRB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	native	DRB1	four_field	not_started	0	0	0	0		
+HG02074	EAS	native-long	A	two_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	A	four_field	not_started	0	0	0	0		
+HG02074	EAS	native-long	B	two_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	B	four_field	not_started	0	0	0	0		
+HG02074	EAS	native-long	C	two_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	C	four_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG02074	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	A	four_field	not_started	0	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	B	four_field	not_started	0	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG02074	EAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	A	four_field	not_started	0	0	0	0		
+HG02074	EAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	B	four_field	not_started	0	0	0	0		
+HG02074	EAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG02074	EAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG02074	EAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG02074	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*11:01:01	A*02:07:01
+HG02074	EAS	T1K	A	four_field	archived_output	0	0	0	0	A*11:01:01	A*02:07:01
+HG02074	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*46:01:01	B*15:12:01
+HG02074	EAS	T1K	B	four_field	archived_output	0	0	0	0	B*46:01:01	B*15:12:01
+HG02074	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*03:03:01	C*01:02:01
+HG02074	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*03:03:01	C*01:02:01
+HG02074	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*02:02:02
+HG02074	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*02:02:02
+HG02074	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*05:01:01	DPB1*05:01:01
+HG02074	EAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*05:01:01	DPB1*05:01:01
+HG02074	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*03:02:01	DQA1*01:04:01
+HG02074	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*03:02:01	DQA1*01:04:01
+HG02074	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:03:02	DQB1*05:02:01
+HG02074	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:03:02	DQB1*05:02:01
+HG02074	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*09:01:02	DRB1*14:54:01
+HG02074	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*09:01:02	DRB1*14:54:01
+HG03017	SAS	native	A	two_field	not_started	1	0	0	0		
+HG03017	SAS	native	A	four_field	not_started	1	0	0	0		
+HG03017	SAS	native	B	two_field	not_started	1	0	0	0		
+HG03017	SAS	native	B	four_field	not_started	0	0	0	0		
+HG03017	SAS	native	C	two_field	not_started	1	0	0	0		
+HG03017	SAS	native	C	four_field	not_started	1	0	0	0		
+HG03017	SAS	native	DPA1	two_field	not_started	1	0	0	0		
+HG03017	SAS	native	DPA1	four_field	not_started	0	0	0	0		
+HG03017	SAS	native	DPB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	native	DPB1	four_field	not_started	0	0	0	0		
+HG03017	SAS	native	DQA1	two_field	not_started	1	0	0	0		
+HG03017	SAS	native	DQA1	four_field	not_started	1	0	0	0		
+HG03017	SAS	native	DQB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	native	DQB1	four_field	not_started	1	0	0	0		
+HG03017	SAS	native	DRB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	native	DRB1	four_field	not_started	0	0	0	0		
+HG03017	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	B	four_field	not_started	0	0	0	0		
+HG03017	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG03017	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	DPB1	four_field	not_started	0	0	0	0		
+HG03017	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	B	four_field	not_started	0	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	DPB1	four_field	not_started	0	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG03017	SAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	B	four_field	not_started	0	0	0	0		
+HG03017	SAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG03017	SAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	DPB1	four_field	not_started	0	0	0	0		
+HG03017	SAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG03017	SAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG03017	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*24:02:01	A*11:01:01
+HG03017	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*24:02:01	A*11:01:01
+HG03017	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*15:08:01	B*15:02:01
+HG03017	SAS	T1K	B	four_field	archived_output	0	0	0	0	B*15:08:01	B*15:02:01
+HG03017	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*01:02:01	C*08:01:01
+HG03017	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*01:02:01	C*08:01:01
+HG03017	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*04:01:01	DPA1*01:03:01
+HG03017	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*04:01:01	DPA1*01:03:01
+HG03017	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*04:02:01	DPB1*296:01
+HG03017	SAS	T1K	DPB1	four_field	archived_output	0	0	0	0	DPB1*04:02:01	DPB1*296:01
+HG03017	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:02:01	DQA1*04:01:01
+HG03017	SAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:02:01	DQA1*04:01:01
+HG03017	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*06:01:01	DQB1*04:02:01
+HG03017	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*06:01:01	DQB1*04:02:01
+HG03017	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*08:02:01	DRB1*15:01:01
+HG03017	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*08:02:01	DRB1*15:01:01
+HG03784	SAS	native	A	two_field	not_started	1	0	0	0		
+HG03784	SAS	native	A	four_field	not_started	0	0	0	0		
+HG03784	SAS	native	B	two_field	not_started	1	0	0	0		
+HG03784	SAS	native	B	four_field	not_started	1	0	0	0		
+HG03784	SAS	native	C	two_field	not_started	1	0	0	0		
+HG03784	SAS	native	C	four_field	not_started	1	0	0	0		
+HG03784	SAS	native	DPA1	two_field	not_started	1	0	0	0		
+HG03784	SAS	native	DPA1	four_field	not_started	0	0	0	0		
+HG03784	SAS	native	DPB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	native	DPB1	four_field	not_started	0	0	0	0		
+HG03784	SAS	native	DQA1	two_field	not_started	1	0	0	0		
+HG03784	SAS	native	DQA1	four_field	not_started	0	0	0	0		
+HG03784	SAS	native	DQB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	native	DQB1	four_field	not_started	1	0	0	0		
+HG03784	SAS	native	DRB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	native	DRB1	four_field	not_started	0	0	0	0		
+HG03784	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	A	four_field	not_started	0	0	0	0		
+HG03784	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	B	four_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG03784	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	DPB1	four_field	not_started	0	0	0	0		
+HG03784	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	DQA1	four_field	not_started	0	0	0	0		
+HG03784	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	A	four_field	not_started	0	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	DPB1	four_field	not_started	0	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	DQA1	four_field	not_started	0	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG03784	SAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	A	four_field	not_started	0	0	0	0		
+HG03784	SAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG03784	SAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	DPB1	four_field	not_started	0	0	0	0		
+HG03784	SAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	DQA1	four_field	not_started	0	0	0	0		
+HG03784	SAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG03784	SAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG03784	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*02:09:01	A*02:11:01
+HG03784	SAS	T1K	A	four_field	archived_output	0	0	0	0	A*02:09:01	A*02:11:01
+HG03784	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*35:03:01	B*35:01:01
+HG03784	SAS	T1K	B	four_field	archived_output	1	0	0	0	B*35:03:01	B*35:01:01
+HG03784	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*03:04:01	C*04:01:01
+HG03784	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*03:04:01	C*04:01:01
+HG03784	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:01	DPA1*01:03:01
+HG03784	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*01:03:01	DPA1*01:03:01
+HG03784	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*02:01:02	DPB1*04:02:01
+HG03784	SAS	T1K	DPB1	four_field	archived_output	0	0	0	0	DPB1*02:01:02	DPB1*04:02:01
+HG03784	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:04:02	DQA1*05:05:01
+HG03784	SAS	T1K	DQA1	four_field	archived_output	0	0	0	0	DQA1*01:04:02	DQA1*05:05:01
+HG03784	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:01:01	DQB1*05:03:01
+HG03784	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:01:01	DQB1*05:03:01
+HG03784	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*12:01:01	DRB1*14:04:01
+HG03784	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*12:01:01	DRB1*14:04:01
+HG04157	SAS	native	A	two_field	not_started	1	0	0	0		
+HG04157	SAS	native	A	four_field	not_started	1	0	0	0		
+HG04157	SAS	native	B	two_field	not_started	1	0	0	0		
+HG04157	SAS	native	B	four_field	not_started	0	0	0	0		
+HG04157	SAS	native	C	two_field	not_started	1	0	0	0		
+HG04157	SAS	native	C	four_field	not_started	1	0	0	0		
+HG04157	SAS	native	DPA1	two_field	not_started	1	0	0	0		
+HG04157	SAS	native	DPA1	four_field	not_started	0	0	0	0		
+HG04157	SAS	native	DPB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	native	DPB1	four_field	not_started	1	0	0	0		
+HG04157	SAS	native	DQA1	two_field	not_started	1	0	0	0		
+HG04157	SAS	native	DQA1	four_field	not_started	1	0	0	0		
+HG04157	SAS	native	DQB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	native	DQB1	four_field	not_started	1	0	0	0		
+HG04157	SAS	native	DRB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	native	DRB1	four_field	not_started	0	0	0	0		
+HG04157	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	B	four_field	not_started	0	0	0	0		
+HG04157	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	C	four_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG04157	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	B	four_field	not_started	0	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG04157	SAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	B	four_field	not_started	0	0	0	0		
+HG04157	SAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG04157	SAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG04157	SAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG04157	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*33:03:01	A*01:01:01
+HG04157	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*33:03:01	A*01:01:01
+HG04157	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*44:03:02	B*40:06:01
+HG04157	SAS	T1K	B	four_field	archived_output	0	0	0	0	B*44:03:02	B*40:06:01
+HG04157	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*07:06:01	C*06:02:01
+HG04157	SAS	T1K	C	four_field	archived_output	1	0	0	0	C*07:06:01	C*06:02:01
+HG04157	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:01:01	DPA1*01:03:01
+HG04157	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:01:01	DPA1*01:03:01
+HG04157	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*13:01:01	DPB1*16:01:01
+HG04157	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*13:01:01	DPB1*16:01:01
+HG04157	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:03:01	DQA1*02:01:01
+HG04157	SAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:03:01	DQA1*02:01:01
+HG04157	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*02:02:01	DQB1*06:01:01
+HG04157	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*02:02:01	DQB1*06:01:01
+HG04157	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*07:01:01	DRB1*15:02:01
+HG04157	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*07:01:01	DRB1*15:02:01
+HG04204	SAS	native	A	two_field	not_started	1	0	0	0		
+HG04204	SAS	native	A	four_field	not_started	1	0	0	0		
+HG04204	SAS	native	B	two_field	not_started	1	0	0	0		
+HG04204	SAS	native	B	four_field	not_started	0	0	0	0		
+HG04204	SAS	native	C	two_field	not_started	1	0	0	0		
+HG04204	SAS	native	C	four_field	not_started	0	0	0	0		
+HG04204	SAS	native	DPA1	two_field	not_started	1	0	0	0		
+HG04204	SAS	native	DPA1	four_field	not_started	0	0	0	0		
+HG04204	SAS	native	DPB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	native	DPB1	four_field	not_started	1	0	0	0		
+HG04204	SAS	native	DQA1	two_field	not_started	1	0	0	0		
+HG04204	SAS	native	DQA1	four_field	not_started	1	0	0	0		
+HG04204	SAS	native	DQB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	native	DQB1	four_field	not_started	1	0	0	0		
+HG04204	SAS	native	DRB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	native	DRB1	four_field	not_started	0	0	0	0		
+HG04204	SAS	native-long	A	two_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	A	four_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	B	two_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	B	four_field	not_started	0	0	0	0		
+HG04204	SAS	native-long	C	two_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	C	four_field	not_started	0	0	0	0		
+HG04204	SAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+HG04204	SAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	B	four_field	not_started	0	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	C	four_field	not_started	0	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+HG04204	SAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	B	four_field	not_started	0	0	0	0		
+HG04204	SAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	C	four_field	not_started	0	0	0	0		
+HG04204	SAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+HG04204	SAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+HG04204	SAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+HG04204	SAS	T1K	A	two_field	archived_output	1	1	1	2	A*01:01:01	A*24:02:01
+HG04204	SAS	T1K	A	four_field	archived_output	1	0	0	0	A*01:01:01	A*24:02:01
+HG04204	SAS	T1K	B	two_field	archived_output	1	1	1	2	B*44:03:02	B*56:01:01
+HG04204	SAS	T1K	B	four_field	archived_output	0	0	0	0	B*44:03:02	B*56:01:01
+HG04204	SAS	T1K	C	two_field	archived_output	1	1	1	2	C*07:06:01	C*03:03:01
+HG04204	SAS	T1K	C	four_field	archived_output	0	0	0	0	C*07:06:01	C*03:03:01
+HG04204	SAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:01	DPA1*02:01:01
+HG04204	SAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*01:03:01	DPA1*02:01:01
+HG04204	SAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*14:01:01	DPB1*04:01:01
+HG04204	SAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*14:01:01	DPB1*04:01:01
+HG04204	SAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:03:01	DQA1*02:01:01
+HG04204	SAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:03:01	DQA1*02:01:01
+HG04204	SAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*02:02:01	DQB1*06:01:01
+HG04204	SAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*02:02:01	DQB1*06:01:01
+HG04204	SAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*07:01:01	DRB1*15:02:01
+HG04204	SAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*07:01:01	DRB1*15:02:01
+NA18747	EAS	native	A	two_field	not_started	1	0	0	0		
+NA18747	EAS	native	A	four_field	not_started	1	0	0	0		
+NA18747	EAS	native	B	two_field	not_started	1	0	0	0		
+NA18747	EAS	native	B	four_field	not_started	1	0	0	0		
+NA18747	EAS	native	C	two_field	not_started	1	0	0	0		
+NA18747	EAS	native	C	four_field	not_started	1	0	0	0		
+NA18747	EAS	native	DPA1	two_field	not_started	1	0	0	0		
+NA18747	EAS	native	DPA1	four_field	not_started	0	0	0	0		
+NA18747	EAS	native	DPB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	native	DPB1	four_field	not_started	1	0	0	0		
+NA18747	EAS	native	DQA1	two_field	not_started	1	0	0	0		
+NA18747	EAS	native	DQA1	four_field	not_started	1	0	0	0		
+NA18747	EAS	native	DQB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	native	DQB1	four_field	not_started	1	0	0	0		
+NA18747	EAS	native	DRB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	native	DRB1	four_field	not_started	0	0	0	0		
+NA18747	EAS	native-long	A	two_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	A	four_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	B	two_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	B	four_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	C	two_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	C	four_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	DPA1	four_field	not_started	0	0	0	0		
+NA18747	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	DPB1	four_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	B	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	DPA1	four_field	not_started	0	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	DPB1	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+NA18747	EAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	B	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	DPA1	four_field	not_started	0	0	0	0		
+NA18747	EAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	DPB1	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+NA18747	EAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+NA18747	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*01:01:01	A*02:01:01
+NA18747	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*01:01:01	A*02:01:01
+NA18747	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*15:27:01	B*35:03:01
+NA18747	EAS	T1K	B	four_field	archived_output	1	0	0	0	B*15:27:01	B*35:03:01
+NA18747	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*04:01:01	C*04:01:01
+NA18747	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*04:01:01	C*04:01:01
+NA18747	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*02:02:02	DPA1*02:02:02
+NA18747	EAS	T1K	DPA1	four_field	archived_output	0	0	0	0	DPA1*02:02:02	DPA1*02:02:02
+NA18747	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*05:01:01	DPB1*02:01:02
+NA18747	EAS	T1K	DPB1	four_field	archived_output	1	0	0	0	DPB1*05:01:01	DPB1*02:01:02
+NA18747	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*01:04:01	DQA1*01:02:01
+NA18747	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*01:04:01	DQA1*01:02:01
+NA18747	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*05:03:01	DQB1*06:02:01
+NA18747	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*05:03:01	DQB1*06:02:01
+NA18747	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*15:01:01	DRB1*14:05:01
+NA18747	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*15:01:01	DRB1*14:05:01
+NA19088	EAS	native	A	two_field	not_started	1	0	0	0		
+NA19088	EAS	native	A	four_field	not_started	1	0	0	0		
+NA19088	EAS	native	B	two_field	not_started	1	0	0	0		
+NA19088	EAS	native	B	four_field	not_started	0	0	0	0		
+NA19088	EAS	native	C	two_field	not_started	1	0	0	0		
+NA19088	EAS	native	C	four_field	not_started	1	0	0	0		
+NA19088	EAS	native	DPA1	two_field	not_started	1	0	0	0		
+NA19088	EAS	native	DPA1	four_field	not_started	1	0	0	0		
+NA19088	EAS	native	DPB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	native	DPB1	four_field	not_started	0	0	0	0		
+NA19088	EAS	native	DQA1	two_field	not_started	1	0	0	0		
+NA19088	EAS	native	DQA1	four_field	not_started	1	0	0	0		
+NA19088	EAS	native	DQB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	native	DQB1	four_field	not_started	1	0	0	0		
+NA19088	EAS	native	DRB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	native	DRB1	four_field	not_started	0	0	0	0		
+NA19088	EAS	native-long	A	two_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	A	four_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	B	two_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	B	four_field	not_started	0	0	0	0		
+NA19088	EAS	native-long	C	two_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	C	four_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	DPA1	two_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	DPA1	four_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	DPB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	DPB1	four_field	not_started	0	0	0	0		
+NA19088	EAS	native-long	DQA1	two_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	DQA1	four_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	DQB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	DQB1	four_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	DRB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	native-long	DRB1	four_field	not_started	0	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	A	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	A	four_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	B	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	B	four_field	not_started	0	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	C	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	C	four_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	DPA1	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	DPA1	four_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	DPB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	DPB1	four_field	not_started	0	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	DQA1	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	DQA1	four_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	DQB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	DQB1	four_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	DRB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA-no-graph	DRB1	four_field	not_started	0	0	0	0		
+NA19088	EAS	DogoHLA	A	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	A	four_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	B	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	B	four_field	not_started	0	0	0	0		
+NA19088	EAS	DogoHLA	C	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	C	four_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	DPA1	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	DPA1	four_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	DPB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	DPB1	four_field	not_started	0	0	0	0		
+NA19088	EAS	DogoHLA	DQA1	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	DQA1	four_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	DQB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	DQB1	four_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	DRB1	two_field	not_started	1	0	0	0		
+NA19088	EAS	DogoHLA	DRB1	four_field	not_started	0	0	0	0		
+NA19088	EAS	T1K	A	two_field	archived_output	1	1	1	2	A*26:03:01	A*24:02:01
+NA19088	EAS	T1K	A	four_field	archived_output	1	0	0	0	A*26:03:01	A*24:02:01
+NA19088	EAS	T1K	B	two_field	archived_output	1	1	1	2	B*15:01:01	B*15:07:01
+NA19088	EAS	T1K	B	four_field	archived_output	0	0	0	0	B*15:01:01	B*15:07:01
+NA19088	EAS	T1K	C	two_field	archived_output	1	1	1	2	C*03:03:01	C*03:03:01
+NA19088	EAS	T1K	C	four_field	archived_output	1	0	0	0	C*03:03:01	C*03:03:01
+NA19088	EAS	T1K	DPA1	two_field	archived_output	1	1	1	2	DPA1*01:03:01	DPA1*01:03:01
+NA19088	EAS	T1K	DPA1	four_field	archived_output	1	0	0	0	DPA1*01:03:01	DPA1*01:03:01
+NA19088	EAS	T1K	DPB1	two_field	archived_output	1	1	1	2	DPB1*02:01:02	DPB1*02:01:02
+NA19088	EAS	T1K	DPB1	four_field	archived_output	0	0	0	0	DPB1*02:01:02	DPB1*02:01:02
+NA19088	EAS	T1K	DQA1	two_field	archived_output	1	1	1	2	DQA1*03:01:01	DQA1*05:03:01
+NA19088	EAS	T1K	DQA1	four_field	archived_output	1	0	0	0	DQA1*03:01:01	DQA1*05:03:01
+NA19088	EAS	T1K	DQB1	two_field	archived_output	1	1	1	2	DQB1*03:02:01	DQB1*03:01:01
+NA19088	EAS	T1K	DQB1	four_field	archived_output	1	0	0	0	DQB1*03:02:01	DQB1*03:01:01
+NA19088	EAS	T1K	DRB1	two_field	archived_output	1	1	1	2	DRB1*04:03:01	DRB1*14:03:01
+NA19088	EAS	T1K	DRB1	four_field	archived_output	0	0	0	0	DRB1*04:03:01	DRB1*14:03:01

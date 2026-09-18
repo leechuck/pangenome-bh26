@@ -109,3 +109,36 @@ variant inference remain native. The wrapper rejects nested tool errors and
 requires a recognised terminal outcome for each of the eight ScanIndel stages.
 This is labelled a compatibility-corrected native long-indel control, separately
 from untouched native default SpecHLA. DōgoHLA's frozen inference is unchanged.
+
+## User-requested supplemental T1K and four-field analysis
+
+Added after viewing the first six outcomes, at the user's request; this is
+supplemental and does not replace or alter the frozen primary endpoints.
+`score_comparators.py` compares matched donors with T1K 1.0.6 (`hla-wgs`, IPD
+3.65) archived in `hla-typer/results/comparators/t1k`. All 32 local genotype
+files match completed DDBJ outputs by SHA256; see `t1k-provenance.json`.
+The T1K job script uses the same shared recruited-read directory. Its legacy
+completion markers lack per-run FASTQ hashes, so exact historical input
+identity is supported by the workflow, not independently hash-certified.
+
+Four-field scoring uses **exact_genomic_alleles**, not CDS-compatible labels.
+Both truth haplotypes must have exact genomic matches with four numeric fields.
+Missing/novel genomic labels and shorter truth labels are excluded equally for
+all methods; eligible denominators are reported. Predictions with fewer than
+four fields are unresolved, never padded or expanded into correct calls.
+Comma/semicolon ambiguity must be compatible for every listed alternative.
+The endpoint is unordered diploid genotype correctness; expression suffixes
+are not additional numeric fields. Whole-gene accuracy remains separate.
+
+Reports retain the original first-six cohort, the growing matched completed
+cohort and the fixed planned 32-donor cohort, including per-gene scores.
+T1K's archived calls do not provide four-field resolution on the eligible
+completed cases; this is reported as unresolved, not evidence that DōgoHLA
+has better sequence reconstruction. Native/DōgoHLA naming uses IPD 3.38,
+whereas T1K uses 3.65, so this compares deployed configurations rather than
+isolating algorithm effects. No superiority over other established short-read
+callers is claimed without matched runs.
+
+The persistent monitor now also writes `analysis/COMPARATORS.md`,
+`comparator_summary.tsv`, `comparator_gene_scores.tsv` and
+`comparator_metadata.json`; these are included in the deadline publication.
