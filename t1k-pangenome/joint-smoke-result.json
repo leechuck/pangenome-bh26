@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "result": {
+    "converged": true,
+    "iterations": 2,
+    "genes": {
+      "A": {
+        "gene_fraction": 1.0,
+        "score_gap": 65.15574097268183,
+        "path_pairs": [
+          [
+            "PG00cb7d93ac39b1f255145bb7f4101d678f4660f6970ef48954c9a5c01677441c#0#HLA_A",
+            "PG0981f91d0ae911228effc294e057503f7c9aee7fbd401cb1c0e429a6e530d029#0#HLA_A"
+          ]
+        ],
+        "genomic_label_pairs": [
+          [
+            [
+              "A*02:06:01:01"
+            ],
+            [
+              "A*02:01:01:01"
+            ]
+          ]
+        ]
+      }
+    },
+    "unassigned_fragments": 0,
+    "objective_trace": [
+      -203.48829545520215,
+      -203.48829545520215
+    ],
+    "limitations": "Coordinate-ascent local solution; score gaps are not calibrated confidence. Candidate completeness and all-IPD fallback are caller responsibilities."
+  },
+  "fragments": 2004,
+  "candidate_paths": 38,
+  "effective_insert": 350,
+  "temperature": 10.0,
+  "source_manifest_sha256": "6adb10bfc65af0dbd878305e2c086e87549d76819789c6bb85bbddb030751b2d",
+  "reference_sha256": "b2cf59e6c0f757e810d5d0ff68e93237bf7e6d488917580172a209715f60d5ae",
+  "metadata_sha256": "e18ef06d3cee6d51417362069b2cb3c0e6419e1b21dc8021b41df798170cde90",
+  "model_sha256": "c2279fd29e12f215e23fdd148fe7a6794b70fe8221d639c69c55e1ae6f87b5e4",
+  "driver_sha256": "88564fbf3fc1fe9a78c20c80ad2a2d65f58df7aeca4a2fa978b5b58a93ebf008",
+  "scope": "Synthetic training-path integration only; no all-IPD fallback or cross-locus decoys"
+}

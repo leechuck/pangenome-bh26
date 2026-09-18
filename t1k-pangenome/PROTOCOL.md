@@ -92,6 +92,25 @@ with modal sequence. Keep observed assembly sequence, uncertain sequence and
 imputed sequence distinct. Deduplicate identical paths so representation counts
 do not masquerade as independent read evidence or measured allele frequencies.
 
+## Implementation checkpoint, 18 September
+
+The experimental joint model consumes paired-fragment graph placements and fits
+diploid pairs under a shared mixture over competing genes. Duplicate placements
+do not add evidence; tied candidate pairs remain explicit. Alignment scores are
+converted to relative emissions, not calibrated probabilities. Coordinate ascent
+can find a local optimum; its score gap is not a confidence measure.
+
+The synthetic training-path integration recovered A*02:01:01:01 plus
+A*02:06:01:01 from 2,004 pairs (IBEX job 52044705; joint-smoke-result.json).
+This single-locus, error-free test verifies integration only. All-IPD fallback,
+real library calibration, cross-locus/decoy evidence and independent validation
+are still required before this becomes the proposed refinement method.
+
+run_linear_control.py prepares the separate native-T1K development experiment
+with added observed sequences. It retains raw genotype tables, decodes internal
+context identifiers to explicit two-/four-field alternatives, hashes inputs and
+records failures. These controls use native T1K alignment, not graph alignment.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
