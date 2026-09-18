@@ -20,7 +20,8 @@ def development_jobs():
               'development-evidence-v2-launch.json','library-calibration-launch.json',
               'development-map-calibrated-launch.json','development-evidence-v3-launch.json',
               'native-genome-evidence-launch.json','graph-recruitment-launch.json',
-              'all-read-control-launch.json','graph-development-batch-launch.json'):
+              'all-read-control-launch.json','graph-development-batch-launch.json',
+              'validation-baseline-launch.json'):
   path=T1K/name
   if not path.exists():continue
   record=json.loads(path.read_text())

@@ -1,0 +1,13 @@
+{
+  "code_sha256": {
+    "run_validation_baseline.py": "a8ee9028ba0005b79cafd79373641df7e2469841c247eb2bc80d8eae2e508460",
+    "evidence_io.py": "14495b5ddbe02f4514f886424a4c75aa42ca5102fb78c1122ec903858a8b2289",
+    "validation-baseline-plan.json": "4333e38da37c2ebc56fdc404ffee3e365caf38347c1b7804e270ef0c268d691b",
+    "cohort.tsv": "d0f9215813d18157aa2d98876efafdadd363199dc2f9f5d9acc1aba44e143425",
+    "READ_PREPARATION.json": "350bbbc6adf27f5b963097a8e0f186c026f8d6d9364c3c96cd22a08aed8475dd",
+    "RESERVATION.json": "ae2cde5693a7f78aea7afa910edbe4aec2ce67c734f34db49914d7263ae0dfd2"
+  },
+  "scope": "84 reserved baseline predictions only; no truth or scoring; candidate not yet frozen",
+  "pilot_job": "52048096",
+  "array_job": "52048099"
+}

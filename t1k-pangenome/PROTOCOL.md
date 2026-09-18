@@ -389,6 +389,23 @@ and runs the graph-assisted native T1K call. All native candidate pairs remain.
 Dependency arrays prevent downstream work from consuming incomplete upstream
 outputs. Reserved validation donors remain excluded and unscored.
 
+### Reserved baseline execution without outcome inspection
+
+The original T1K reference, preset and explicit four-field recipe are frozen in
+validation-baseline-plan.json. Baseline typing for all 84 reserved donors can
+proceed while development finishes: output genotype files remain remote and are
+not fetched or scored before the primary candidate is frozen. The runner consumes
+only cohort metadata and verified read-preparation hashes, never truth or assembly
+catalogue rows. It rehashes reads under Slurm, checks the frozen wrapper/reference,
+and verifies the exact reservation and preparation manifests. An execution pilot
+gates the remaining 83 jobs. Monitoring observes job state only. This advances
+baseline computation without changing the locked evaluation protocol.
+
+The all-read HG00658 pilot also completed at 8/8 and 5/5, matching every other
+genomic-IPD condition. Its complete eight-method snapshot is archived in
+`development/completed-graph-recruitment-pilot-v2/`. There is no incremental
+recruitment benefit demonstrated on this one donor.
+
 ## References
 
 - Song et al. (2023), https://doi.org/10.1101/gr.277585.122
