@@ -11,7 +11,8 @@ class ValidationReportingTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'summary.tsv'
             write_tsv(p,[dict(arm='failed',completed=0),dict(arm='valid',completed=1,global_edits=12)])
-            rows=list(csv.DictReader(open(p),delimiter='\t'))
+            with p.open() as stream:
+                rows=list(csv.DictReader(stream,delimiter='\t'))
             self.assertEqual(rows[0]['global_edits'],'')
             self.assertEqual(rows[1]['global_edits'],'12')
 
