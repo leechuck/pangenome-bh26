@@ -21,8 +21,9 @@ run on the NIG supercomputer BioHackathon node.
 
 ## Latest results: six-step route (2026-11-17)
 
-Plain-language summary with re-runnable checks:
-[`scientist/evidence/route-20261114/README.md`](scientist/evidence/route-20261114/README.md)
+Public repository with all six experiments and a plain-language results page:
+[Asian-HLA-Consortium/DogoHLA-experiments](https://github.com/Asian-HLA-Consortium/DogoHLA-experiments).
+Local copy of the page: [`scientist/evidence/route-20261114/README.md`](scientist/evidence/route-20261114/README.md)
 (made with [showboat](https://github.com/simonw/showboat); `uvx showboat verify` re-runs every block).
 
 - On 66 real Asian genomes, a small Asian haplotype panel, our gene builder and re-fetching reads the standard
