@@ -1,0 +1,85 @@
+Step 2b: pre-registered test of the rule-2 re-pull on the 66 T-real donors (stage reads-repull-20261114)
+=========================================================================================================
+
+Design by the supervisor (2026-11-15); implementation details by the step-2 implementer. Written and hashed into
+FREEZE_TEST.json before any T-real3 job is submitted. No code change after FREEZE_TEST.json.
+
+1. Exposure statement
+---------------------
+The 66 T-real donors (real HPRC Asian WGS, 1000 Genomes / NYGC CRAMs) have been scored several times before:
+the frozen arms of mosaic-typer, the DRB1 builder test (mosaic-drb1-20261113) and the all-gene builder test
+(mosaic-allgenes-20261114, results/score_rows_test.tsv). This is the first analysis of these donors on re-pulled
+reads. Rule 2 was chosen on the 20 development donors only (step 2, D-real3); no T-real donor was opened while
+choosing or checking it.
+
+2. Read set T-real3 (rule 2, unchanged from step 2)
+---------------------------------------------------
+T-real3 = old T-real regional pull (chr6:28.5-33.5 Mb + all chr6_* alt + all HLA-* contigs, with mates; the r1/r2
+of the existing arm-A T-real run) UNION every whole-genome read pair in which either mate carries >= 3 bait 31-mers
+among the 31-mers starting at every 4th position (either strand, canonical k-mers).
+Bait 31-mers: work/bait/bait_kmers.txt (888,049 k-mers, sha256 50b3b732...; IPD genomic alleles of all genes
+minus 31-mers found anywhere in GRCh38 outside the MHC, decoys/unplaced/EBV included, alt/HLA contigs left out).
+The whole-genome pairs are scanned through T1K's own full-WGS candidate set (fastq-extractor -s 0.97 against
+genomic.fa over all primary pairs of the CRAM); this prefilter is part of rule 2.
+- 40 donors: candidate files of the existing baseline run baselines/results/wgs.<donor>/t1k/t1k_genomic_ipd.
+- 26 donors (remaining26 batch) without such a run: src/wgsx.sbatch = samtools collate -u -O + samtools fastq
+  -F 0x900 -n of the CRAM (as baselines/prepared/wgs.<donor>), then the same fastq-extractor call; temporaries in
+  this stage (tmp/), deleted after use; the CRAM sha256 is checked against its download receipt.
+Code: src/select_rule2.py (imports the step-2 rule from src/select3.py).
+
+3. Pipeline (all on IBEX through sbatch, account pi-hohndor, job prefix s2b-, arrays %12)
+-----------------------------------------------------------------------------------------
+- Arm A: T1K, IPD genomic.fa, same command as mosaic-typer run_donor.t1k (src/t1k_arm.py T-real3 <d> A).
+- Arm B: T1K with the donor's existing fold reference genomic_core_hprc_asian (same FASTA file as the donor's old
+  arm-B run, sha256 checked; its aliases.json), same command (src/t1k_arm.py T-real3 <d> B).
+- Arms C and D: the FROZEN step-4 builder mosaic-allgenes-20261114/src/ag_run.py (all 8 genes; sha256 of every file
+  checked against its FREEZE.json at every start, src/frozen4.py), imported unchanged through src/ag3_run.py,
+  --confounded-dir mosaic-allgenes-20261114/inputs/confounded_v1. Variants C4/C4R4n/C4R1n/D4/D4R4n/D4R1n.
+- Scoring: frozen ag_score.py through src/sc3.py (redirects truth copies of T-real3 to those of T-real and the
+  arm tables to this stage; scoring logic unchanged). Truth-free tables: ag_proposals_table.py and
+  ag_test_summary.py copied as src/*_s2b.py with only the output root changed. Endpoints: src/end3.py.
+- The scorer wrapper reproduces the frozen T-real results row by row on the OLD outputs (8,448/8,448 rows
+  identical; TEST_SUMMARY T-real section byte-identical: C4R4n gene body 12 of 134, D4R4n 38 of 134, four-field
+  A 861 and B 844 of 914).
+- Dry run of the whole pipeline on the 20 development donors (D-real3): 20/20 arm A (tables identical to step 2),
+  20/20 arm B, 40/40 builder tasks complete, 0 fallbacks; old D-real rows reproduced row by row (2,560/2,560).
+
+4. Execution rules
+------------------
+- 264 tasks: 66 donors x {A, B, C, D}. Time limits: T1K 06:00:00, builder 01:00:00 (as step 4). Pre-processing
+  (26 wgsx extractions, 66 selections) is not part of the 264 but must complete; a failed pre-processing task makes
+  that donor's four tasks failures.
+- A task that times out (Slurm TIMEOUT, killed without a record, or for the builder a task- or gene-level
+  failure_kind=timeout) is resubmitted once on another node (src/resub3.sh, first node excluded). A second timeout is
+  not retried: its fallback is scored and counted as a failure. Other failures are not retried.
+  Fallback for builder tasks: the pass-1 calls of the arm (frozen rule). A T1K arm that does not complete has no
+  table; the donor's builder arm on it cannot run; both count as failures.
+- Truth sequences stay on IBEX; only counts, names, positions and scores are copied to the workstation.
+
+5. Pre-registered endpoints
+---------------------------
+All paired within donor x gene x haplotype, T-real3 versus the existing T-real results of step 4
+(mosaic-allgenes-20261114/results/score_rows_test.tsv), same arm; 95% family-clustered bootstrap and sign-flip
+p as in the frozen scorer (score.uncertainty, FOLDS family components).
+P1 (primary): gene bodies recovered among IPD-absent copies, all 8 genes, C4R4n on T-real3 minus C4R4n on T-real
+    (old: 12 of 134). Pass = 95% interval above 0.
+P2 (safety, pass/fail): (i) arm A four-field named total on T-real3 not below old T-real and no gene down by more
+    than 1 copy; same for arm B; (ii) novel final calls on IPD-present copies <= 1 each for C4R4n and D4R4n
+    (T-real3); (iii) <= 2 of 264 tasks in fallback.
+P3: D4R4n T-real3 minus D4R4n T-real (old 38 of 134), with interval.
+P4: C4R4n minus A and D4R4n minus B within T-real3 (gene body; four-field named), with intervals.
+P5: novel final calls on IPD-absent copies, right gene body / not, per gene, old vs new (DRB1 old C4R4n: 4 right,
+    14 not).
+P6: DRB1 only, and DR53-group carriers separately (donors whose old arm-A DRB1 call has *04, *07 or *09 in a slot):
+    gene body, byte-exact final, mean wrong bases (edlib global distance of the final call's gene body to the true
+    gene body, frozen scorer column ed_final); number of blind regions old vs new (truth-free haplotype tables);
+    pairs added per donor.
+Also: arm A 2-field and 3-field accuracy (decoded and strict) per gene, old vs new.
+
+6. Checks done on development donors before the freeze (reported only)
+---------------------------------------------------------------------
+- Prefilter check (HG00558, HG00438): rule 2 applied directly to all read pairs of the whole-genome data (no T1K
+  prefilter); pairs the prefilter misses are counted (see FREEZE_TEST.json "prefilter_check"). The rule stays as
+  defined.
+- wgsx check (HG00438): the 26-donor extraction path re-run on a development donor and compared with the existing
+  baseline candidate files (see FREEZE_TEST.json "wgsx_check").

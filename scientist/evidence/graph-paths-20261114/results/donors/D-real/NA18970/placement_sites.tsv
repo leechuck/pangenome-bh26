@@ -1,0 +1,11 @@
+readset	donor	gene	variant	copy	cls	ipd_absent	called_row	col_start	col_end	named	kind	len_true	len_called	testable	true_in_stored_path	true_is_walk	reads_true	reads_true_exact	reads_true_edit	reads_true_unmapped	reads_called	window_in_stored_path	window_is_walk	reads_given_to_giraffe	reads_mapped	giraffe_seconds
+D-real	NA18970	DRB1	ipd	1	mosaic	True	526	5394	5394	-	length	31	30	True	True	True	12	12	0	0	0	True	True	68	68	5.2
+D-real	NA18970	DRB1	ipd	1	mosaic	True	526	11918	11919	intron2_repeat	length	30	32	True	True	True	10	10	0	0	0	True	True	68	68	5.2
+D-real	NA18970	DRB1	ipd	2	mosaic	True	110	11911	11911	intron2_repeat	length	31	29	True	True	True	13	13	0	0	0	True	True	68	68	5.2
+D-real	NA18970	DRB1	ipd	2	mosaic	True	110	11940	11940	intron2_repeat	length	31	29	True	True	True	13	13	0	0	0	True	True	68	68	5.2
+D-real	NA18970	DRB1	ipd_cohort	1	mosaic	True	526	5394	5394	-	length	31	30	True	True	True	12	12	0	0	0	True	True	68	68	3.2
+D-real	NA18970	DRB1	ipd_cohort	1	mosaic	True	526	11918	11919	intron2_repeat	length	30	32	True	True	True	10	10	0	0	0	True	True	68	68	3.2
+D-real	NA18970	DRB1	ipd_cohort	2	mosaic	True	110	11911	11911	intron2_repeat	length	31	29	True	True	True	13	13	0	0	0	True	True	68	68	3.2
+D-real	NA18970	DRB1	ipd_cohort	2	mosaic	True	110	11940	11940	intron2_repeat	length	31	29	True	True	True	13	13	0	0	0	True	True	68	68	3.2
+D-real	NA18970	DQA1	ipd	1	exact	False	130	4258	4258	-	length	30	31	True	True	True	20	20	0	0	0	True	True	40	40	1.2
+D-real	NA18970	DQA1	ipd_cohort	1	exact	False	130	4258	4258	-	length	30	31	True	True	True	20	20	0	0	0	True	True	40	40	1.2

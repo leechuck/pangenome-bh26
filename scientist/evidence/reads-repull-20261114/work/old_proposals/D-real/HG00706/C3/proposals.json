@@ -1,0 +1,56 @@
+{
+  "donor": "HG00706",
+  "readset": "D-real",
+  "arm": "C3",
+  "panel_arm": "C",
+  "params": {
+    "max_edit": 2,
+    "sup_share": 0.25,
+    "min_sup": 3,
+    "cur_ratio": 0.25,
+    "het_share": 0.3,
+    "pile": 2.5,
+    "max_indel_cols": 150,
+    "hom_ratio": 1.5,
+    "blind_min_run": 100,
+    "blind_near": 150,
+    "blind_max_nm": 2,
+    "n_max": 4,
+    "family_theta": 0.01
+  },
+  "expected_depth": 33.0,
+  "pass1": [
+    "HLA-DRB1*15:01:01:04",
+    "HLA-DRB1*15:01:01:02"
+  ],
+  "same_family": true,
+  "reads_assigned": 6708,
+  "reads_used": 6303,
+  "haplotypes": [
+    {
+      "pass1_allele": "HLA-DRB1*15:01:01:04",
+      "family_rows": 94,
+      "events": 99,
+      "resolvable": 98,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [],
+      "decision": "no_patch"
+    },
+    {
+      "pass1_allele": "HLA-DRB1*15:01:01:02",
+      "family_rows": 94,
+      "events": 99,
+      "resolvable": 98,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [],
+      "decision": "no_patch"
+    }
+  ],
+  "confounded_windows_loaded": 13
+}

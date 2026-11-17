@@ -1,0 +1,25 @@
+{
+  "donor": "HG02080",
+  "col_range": [
+    3300,
+    5638
+  ],
+  "copies": [
+    {
+      "hap": "1",
+      "copy_start": 2973,
+      "copy_end": 3499,
+      "kmers": 491
+    },
+    {
+      "hap": "2",
+      "copy_start": 3175,
+      "copy_end": 5503,
+      "kmers": 2293
+    }
+  ],
+  "patterns": 2062,
+  "patterns_before_repeat_filter": 5568,
+  "repeat_patterns_removed": 3506,
+  "repeat_filter": "k-mers (either orientation) seen in reads aligned to chr1:1-60,000,000 of the same CRAM"
+}

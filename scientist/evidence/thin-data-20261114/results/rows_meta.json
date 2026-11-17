@@ -1,0 +1,14 @@
+{
+  "rows": 141752,
+  "missing_tables": [],
+  "seconds": 57.569873571395874,
+  "code_sha256": {
+    "check_nested.py": "f763b001ef9f67edd665ade1e78edd743915fc547ac95f2cea42f35cb4398e06",
+    "tabulate.py": "058efd7cbd931d632f832f0b907366ab2c93f773a861640c20a9808e08f9575d",
+    "lib.py": "f4d921e78981ac7275be7ed764b9e123e41ae5622724142c7e72f96f08948830",
+    "thin_donor.py": "d1f10b0cc9faf0948815ae3f561214cc4e6274833cfdd536ade27bbf10ecb524",
+    "check_scorer.py": "b241ea4828d32b49461ffcc343b0ed666ec5d24c1deaf9c06e297dfa3e981d0a",
+    "score_thin.py": "9cd5312d47a096bf2d454b99bad87ad089ae1fdc9e1a121246f02fe31d0e7eae",
+    "summ_thin.py": "2d571485bf747d1a3344e15ceb703fba1b13b3cc35781675d44a14a97d90b602"
+  }
+}

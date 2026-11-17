@@ -1,0 +1,851 @@
+{
+  "donor": "HG02602",
+  "readset": "D-real2",
+  "arm": "C3",
+  "panel_arm": "C",
+  "params": {
+    "max_edit": 2,
+    "sup_share": 0.25,
+    "min_sup": 3,
+    "cur_ratio": 0.25,
+    "het_share": 0.3,
+    "pile": 2.5,
+    "max_indel_cols": 150,
+    "hom_ratio": 1.5,
+    "blind_min_run": 100,
+    "blind_near": 150,
+    "blind_max_nm": 2,
+    "n_max": 4,
+    "family_theta": 0.01
+  },
+  "expected_depth": 20.0,
+  "pass1": [
+    "HLA-DRB1*07:01:01:12",
+    "HLA-DRB1*09:01:02:11"
+  ],
+  "same_family": false,
+  "reads_assigned": 7061880,
+  "reads_used": 6366228,
+  "haplotypes": [
+    {
+      "pass1_allele": "HLA-DRB1*07:01:01:12",
+      "family_rows": 41,
+      "events": 136,
+      "resolvable": 135,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 2,
+      "patches": [
+        {
+          "event": 5,
+          "cl": 1843,
+          "cr": 1875,
+          "len_cur": 30,
+          "len_new": 32,
+          "n_new": 13,
+          "fwd_rev": [
+            7,
+            6
+          ],
+          "cur_total": 0,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "f988884585035d8e",
+          "cur_sha": "a970aa8ef1d211b8",
+          "n_rows_new": 10,
+          "n_rows_cur": 31,
+          "thr": 3,
+          "shared": false,
+          "kind": "own_version_unsupported",
+          "donor_row": 1
+        },
+        {
+          "event": 42,
+          "cl": 9076,
+          "cr": 9107,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 10,
+          "fwd_rev": [
+            3,
+            7
+          ],
+          "cur_total": 0,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "582ada68532ccba6",
+          "cur_sha": "726a1a1fadcb493a",
+          "n_rows_new": 4,
+          "n_rows_cur": 37,
+          "thr": 3,
+          "shared": true,
+          "kind": "shared_with_partner",
+          "donor_row": 1
+        }
+      ],
+      "notes": [
+        {
+          "event": 14,
+          "cl": 3715,
+          "cr": 3745,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 474,
+          "fwd_rev": [
+            282,
+            192
+          ],
+          "cur_total": 60,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "8056b5e411e4cc86",
+          "cur_sha": "8ce4aa90724ed445",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 15,
+          "cl": 3804,
+          "cr": 3834,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 130,
+          "fwd_rev": [
+            64,
+            66
+          ],
+          "cur_total": 3371,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "c3d15bd9df01efc4",
+          "cur_sha": "675b33b5f1cbc190",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 16,
+          "cl": 3862,
+          "cr": 3892,
+          "len_cur": 30,
+          "len_new": 31,
+          "n_new": 43,
+          "fwd_rev": [
+            18,
+            25
+          ],
+          "cur_total": 2211,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "5426945c0e5ce5a8",
+          "cur_sha": "12e1af3465fecd6d",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 18,
+          "cl": 4109,
+          "cr": 4139,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 33496,
+          "fwd_rev": [
+            16914,
+            16582
+          ],
+          "cur_total": 458,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "c9d3fa73074d6240",
+          "cur_sha": "85670cf5c6de32d1",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 19,
+          "cl": 4300,
+          "cr": 4330,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 1292,
+          "fwd_rev": [
+            663,
+            629
+          ],
+          "cur_total": 27,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "6949390bb77bd63e",
+          "cur_sha": "b56ab6f792d37e9f",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 20,
+          "cl": 4595,
+          "cr": 4625,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 55912,
+          "fwd_rev": [
+            26784,
+            29128
+          ],
+          "cur_total": 604,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "79b2c45883b2bf58",
+          "cur_sha": "5a81cfeaaf9352c5",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 21,
+          "cl": 4912,
+          "cr": 4944,
+          "len_cur": 33,
+          "len_new": 33,
+          "n_new": 7317,
+          "fwd_rev": [
+            3653,
+            3664
+          ],
+          "cur_total": 58522,
+          "exp_h": 7.8,
+          "n_versions": 3,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "36fd1a8848acb02d",
+          "cur_sha": "60a2b32ae36f955b",
+          "n_rows_new": 38,
+          "n_rows_cur": 1,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 22,
+          "cl": 4930,
+          "cr": 4960,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 192,
+          "fwd_rev": [
+            96,
+            96
+          ],
+          "cur_total": 57800,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "64ce108a8c39eef8",
+          "cur_sha": "e2b65ee65cde8ba4",
+          "n_rows_new": 1,
+          "n_rows_cur": 40,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 23,
+          "cl": 5206,
+          "cr": 5236,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 26,
+          "fwd_rev": [
+            14,
+            12
+          ],
+          "cur_total": 3216,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "40f5bef34909895c",
+          "cur_sha": "950f0eae664af65f",
+          "n_rows_new": 1,
+          "n_rows_cur": 40,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 24,
+          "cl": 5288,
+          "cr": 5318,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 184,
+          "fwd_rev": [
+            98,
+            86
+          ],
+          "cur_total": 20160,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "b95ed73976f29de6",
+          "cur_sha": "d1ee8a83849355b1",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3,
+          "kind": "pile_up"
+        }
+      ],
+      "decision": "proposed",
+      "sha256": "7e5a25d0e489c128dd41b3d235a7e4619175dc3b057ea63fbb10c1c5347cd95a",
+      "length": 15364,
+      "spell_mismatch": 0,
+      "spell_switches": 3,
+      "kinds": [
+        "own_version_unsupported",
+        "shared_with_partner"
+      ],
+      "name": "HLA-DRB1*MOS_7e5a25d0e489",
+      "exons": [
+        [
+          145,
+          245
+        ],
+        [
+          10528,
+          10798
+        ],
+        [
+          13012,
+          13294
+        ],
+        [
+          13990,
+          14101
+        ],
+        [
+          14576,
+          14600
+        ],
+        [
+          15314,
+          15328
+        ]
+      ]
+    },
+    {
+      "pass1_allele": "HLA-DRB1*09:01:02:11",
+      "family_rows": 17,
+      "events": 73,
+      "resolvable": 73,
+      "blind_regions": [
+        [
+          1937,
+          2261
+        ],
+        [
+          2398,
+          2516
+        ],
+        [
+          2668,
+          3081
+        ],
+        [
+          4351,
+          4463
+        ],
+        [
+          5662,
+          6127
+        ],
+        [
+          6279,
+          6400
+        ],
+        [
+          6623,
+          6770
+        ],
+        [
+          7003,
+          8816
+        ],
+        [
+          10012,
+          10252
+        ],
+        [
+          10606,
+          10734
+        ],
+        [
+          10986,
+          12212
+        ],
+        [
+          12363,
+          12532
+        ],
+        [
+          12690,
+          14097
+        ],
+        [
+          14261,
+          14408
+        ],
+        [
+          14602,
+          15170
+        ],
+        [
+          15760,
+          15932
+        ],
+        [
+          16183,
+          16658
+        ],
+        [
+          16922,
+          18114
+        ]
+      ],
+      "n_blind": 18,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [
+        {
+          "event": 25,
+          "cl": 3324,
+          "cr": 3354,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 483,
+          "fwd_rev": [
+            242,
+            241
+          ],
+          "cur_total": 16,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "d01cb75d2ad0d692",
+          "cur_sha": "7f0d7da2573cc93a",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 27,
+          "cl": 3692,
+          "cr": 3722,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 496,
+          "fwd_rev": [
+            281,
+            215
+          ],
+          "cur_total": 104771,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "7a505a7457ed102d",
+          "cur_sha": "fdc4209568b9921c",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 28,
+          "cl": 3862,
+          "cr": 3894,
+          "len_cur": 32,
+          "len_new": 33,
+          "n_new": 100,
+          "fwd_rev": [
+            43,
+            57
+          ],
+          "cur_total": 765,
+          "exp_h": 7.8,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "25ede902d3190e4e",
+          "cur_sha": "9b3d0f76f9dd938a",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 30,
+          "cl": 3940,
+          "cr": 3970,
+          "len_cur": 31,
+          "len_new": 30,
+          "n_new": 20,
+          "fwd_rev": [
+            8,
+            12
+          ],
+          "cur_total": 2127,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "1683b9636b4ed120",
+          "cur_sha": "49ca319a237aa58b",
+          "n_rows_new": 5,
+          "n_rows_cur": 12,
+          "thr": 3,
+          "shared": true,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 31,
+          "cl": 4013,
+          "cr": 4043,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 17533,
+          "fwd_rev": [
+            9008,
+            8525
+          ],
+          "cur_total": 13639,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "51c9d0090e6f5fd1",
+          "cur_sha": "aeb4cd617af9bf22",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 32,
+          "cl": 4185,
+          "cr": 4215,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 20725,
+          "fwd_rev": [
+            10159,
+            10566
+          ],
+          "cur_total": 16646,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "92af08c63f29e870",
+          "cur_sha": "f67a43ac591ba817",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 35,
+          "cl": 4497,
+          "cr": 4527,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 816,
+          "fwd_rev": [
+            470,
+            346
+          ],
+          "cur_total": 51,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "e6a50c77f9910c68",
+          "cur_sha": "49c813dd77423fa2",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 36,
+          "cl": 4552,
+          "cr": 4582,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 478,
+          "fwd_rev": [
+            266,
+            212
+          ],
+          "cur_total": 188,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "49a1c13179c47f96",
+          "cur_sha": "ea76c2f5792ae0e7",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 37,
+          "cl": 4621,
+          "cr": 4661,
+          "len_cur": 41,
+          "len_new": 41,
+          "n_new": 7439,
+          "fwd_rev": [
+            3418,
+            4021
+          ],
+          "cur_total": 9,
+          "exp_h": 7.3,
+          "n_versions": 3,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "4e5a58a62d001cf8",
+          "cur_sha": "c895b89e96f870c0",
+          "n_rows_new": 2,
+          "n_rows_cur": 14,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 38,
+          "cl": 4839,
+          "cr": 4869,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 140,
+          "fwd_rev": [
+            57,
+            83
+          ],
+          "cur_total": 17865,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "fde9c09ebf3028ac",
+          "cur_sha": "62d971547cd3592f",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 39,
+          "cl": 4912,
+          "cr": 4945,
+          "len_cur": 34,
+          "len_new": 34,
+          "n_new": 41,
+          "fwd_rev": [
+            22,
+            19
+          ],
+          "cur_total": 46,
+          "exp_h": 7.7,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "cc1a7002c0747c38",
+          "cur_sha": "25c980d180f46827",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 40,
+          "cl": 4984,
+          "cr": 5014,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 75,
+          "fwd_rev": [
+            38,
+            37
+          ],
+          "cur_total": 1,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "91b3f70dee98c601",
+          "cur_sha": "c6c6f92c78d62bb6",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 42,
+          "cl": 5288,
+          "cr": 5318,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 196,
+          "fwd_rev": [
+            105,
+            91
+          ],
+          "cur_total": 20594,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "b95ed73976f29de6",
+          "cur_sha": "d1ee8a83849355b1",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 11,
+          "cl": 1826,
+          "cr": 1856,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 10,
+          "fwd_rev": [
+            5,
+            5
+          ],
+          "cur_total": 0,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "303ce06bd9653bec",
+          "cur_sha": "3550ed3f95cca014",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "shared": false,
+          "kind": "near_blind_region",
+          "donor_row": 5
+        },
+        {
+          "event": 12,
+          "cl": 1853,
+          "cr": 1884,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 7,
+          "fwd_rev": [
+            5,
+            2
+          ],
+          "cur_total": 0,
+          "exp_h": 7.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "1f057e1e8ea18fc5",
+          "cur_sha": "d0f2389a3211b004",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "shared": false,
+          "kind": "near_blind_region",
+          "donor_row": 5
+        }
+      ],
+      "decision": "no_patch"
+    }
+  ],
+  "confounded_windows_loaded": 13
+}

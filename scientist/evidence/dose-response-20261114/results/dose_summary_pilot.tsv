@@ -1,0 +1,469 @@
+group	readtype	cell	source	n_requested	mean_n_drawn	test_donors	metric	k	n	pct	lo	hi
+EAS	real	B_existing	B_existing			2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	B_existing	B_existing			2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	B_existing	B_existing			2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	B_existing	B_existing			2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	B_existing	B_existing			2	present_named4	27	28	96.43	92.86	100.0
+EAS	real	B_existing	B_existing			2	all_correct	27	32	84.38	81.25	87.5
+EAS	real	B_existing	B_existing			2	conv_exact_any	0	0			
+EAS	real	B_existing	B_existing			2	conv_exact_final	0	0			
+EAS	real	B_existing	B_existing			2	conv_body_any	0	0			
+EAS	real	B_existing	B_existing			2	conv_body_final	0	0			
+EAS	real	B_existing	B_existing			2	supplied_byte	0	0			
+EAS	real	B_existing	B_existing			2	supplied_body	0	0			
+EAS	real	B_existing	B_existing			2	absent_exact_any_unsupplied	0	0			
+EAS	real	match_n05	EAS	5	5.0	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	match_n05	EAS	5	5.0	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	match_n05	EAS	5	5.0	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	match_n05	EAS	5	5.0	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	match_n05	EAS	5	5.0	2	present_named4	28	28	100.0	100.0	100.0
+EAS	real	match_n05	EAS	5	5.0	2	all_correct	28	32	87.5	87.5	87.5
+EAS	real	match_n05	EAS	5	5.0	2	conv_exact_any	0	0			
+EAS	real	match_n05	EAS	5	5.0	2	conv_exact_final	0	0			
+EAS	real	match_n05	EAS	5	5.0	2	conv_body_any	0	0			
+EAS	real	match_n05	EAS	5	5.0	2	conv_body_final	0	0			
+EAS	real	match_n05	EAS	5	5.0	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	match_n05	EAS	5	5.0	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	match_n05	EAS	5	5.0	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+EAS	real	match_n10	EAS	10	10.0	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	match_n10	EAS	10	10.0	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	match_n10	EAS	10	10.0	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	match_n10	EAS	10	10.0	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	match_n10	EAS	10	10.0	2	present_named4	28	28	100.0	100.0	100.0
+EAS	real	match_n10	EAS	10	10.0	2	all_correct	28	32	87.5	87.5	87.5
+EAS	real	match_n10	EAS	10	10.0	2	conv_exact_any	0	0			
+EAS	real	match_n10	EAS	10	10.0	2	conv_exact_final	0	0			
+EAS	real	match_n10	EAS	10	10.0	2	conv_body_any	0	0			
+EAS	real	match_n10	EAS	10	10.0	2	conv_body_final	0	0			
+EAS	real	match_n10	EAS	10	10.0	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	match_n10	EAS	10	10.0	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	match_n10	EAS	10	10.0	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+EAS	real	match_n20	EAS	20	20.0	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	match_n20	EAS	20	20.0	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	match_n20	EAS	20	20.0	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	match_n20	EAS	20	20.0	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	match_n20	EAS	20	20.0	2	present_named4	28	28	100.0	100.0	100.0
+EAS	real	match_n20	EAS	20	20.0	2	all_correct	28	32	87.5	87.5	87.5
+EAS	real	match_n20	EAS	20	20.0	2	conv_exact_any	0	0			
+EAS	real	match_n20	EAS	20	20.0	2	conv_exact_final	0	0			
+EAS	real	match_n20	EAS	20	20.0	2	conv_body_any	0	0			
+EAS	real	match_n20	EAS	20	20.0	2	conv_body_final	0	0			
+EAS	real	match_n20	EAS	20	20.0	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	match_n20	EAS	20	20.0	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	match_n20	EAS	20	20.0	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+EAS	real	match_n40	EAS	40	40.0	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	match_n40	EAS	40	40.0	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	match_n40	EAS	40	40.0	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	match_n40	EAS	40	40.0	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	match_n40	EAS	40	40.0	2	present_named4	28	28	100.0	100.0	100.0
+EAS	real	match_n40	EAS	40	40.0	2	all_correct	28	32	87.5	87.5	87.5
+EAS	real	match_n40	EAS	40	40.0	2	conv_exact_any	0	0			
+EAS	real	match_n40	EAS	40	40.0	2	conv_exact_final	0	0			
+EAS	real	match_n40	EAS	40	40.0	2	conv_body_any	0	0			
+EAS	real	match_n40	EAS	40	40.0	2	conv_body_final	0	0			
+EAS	real	match_n40	EAS	40	40.0	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	match_n40	EAS	40	40.0	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	match_n40	EAS	40	40.0	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+EAS	real	n0	IPD	0	0.0	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	n0	IPD	0	0.0	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	n0	IPD	0	0.0	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	n0	IPD	0	0.0	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	n0	IPD	0	0.0	2	present_named4	28	28	100.0	100.0	100.0
+EAS	real	n0	IPD	0	0.0	2	all_correct	28	32	87.5	87.5	87.5
+EAS	real	n0	IPD	0	0.0	2	conv_exact_any	0	0			
+EAS	real	n0	IPD	0	0.0	2	conv_exact_final	0	0			
+EAS	real	n0	IPD	0	0.0	2	conv_body_any	0	0			
+EAS	real	n0	IPD	0	0.0	2	conv_body_final	0	0			
+EAS	real	n0	IPD	0	0.0	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	n0	IPD	0	0.0	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	n0	IPD	0	0.0	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n10	ME	10	10.5	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n10	ME	10	10.5	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n10	ME	10	10.5	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n10	ME	10	10.5	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n10	ME	10	10.5	2	present_named4	28	28	100.0	100.0	100.0
+EAS	real	x_ME_n10	ME	10	10.5	2	all_correct	28	32	87.5	87.5	87.5
+EAS	real	x_ME_n10	ME	10	10.5	2	conv_exact_any	0	0			
+EAS	real	x_ME_n10	ME	10	10.5	2	conv_exact_final	0	0			
+EAS	real	x_ME_n10	ME	10	10.5	2	conv_body_any	0	0			
+EAS	real	x_ME_n10	ME	10	10.5	2	conv_body_final	0	0			
+EAS	real	x_ME_n10	ME	10	10.5	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n10	ME	10	10.5	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n10	ME	10	10.5	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n40	ME	40	40.0	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n40	ME	40	40.0	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n40	ME	40	40.0	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n40	ME	40	40.0	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n40	ME	40	40.0	2	present_named4	27	28	96.43	92.86	100.0
+EAS	real	x_ME_n40	ME	40	40.0	2	all_correct	27	32	84.38	81.25	87.5
+EAS	real	x_ME_n40	ME	40	40.0	2	conv_exact_any	0	0			
+EAS	real	x_ME_n40	ME	40	40.0	2	conv_exact_final	0	0			
+EAS	real	x_ME_n40	ME	40	40.0	2	conv_body_any	0	0			
+EAS	real	x_ME_n40	ME	40	40.0	2	conv_body_final	0	0			
+EAS	real	x_ME_n40	ME	40	40.0	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n40	ME	40	40.0	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	x_ME_n40	ME	40	40.0	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	present_named4	28	28	100.0	100.0	100.0
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	all_correct	28	32	87.5	87.5	87.5
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_exact_any	0	0			
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_exact_final	0	0			
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_body_any	0	0			
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_body_final	0	0			
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	present_named4	28	28	100.0	100.0	100.0
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	all_correct	28	32	87.5	87.5	87.5
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_exact_any	0	0			
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_exact_final	0	0			
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_body_any	0	0			
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_body_final	0	0			
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n10	SAS	10	10.0	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n10	SAS	10	10.0	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n10	SAS	10	10.0	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n10	SAS	10	10.0	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n10	SAS	10	10.0	2	present_named4	28	28	100.0	100.0	100.0
+EAS	real	x_SAS_n10	SAS	10	10.0	2	all_correct	28	32	87.5	87.5	87.5
+EAS	real	x_SAS_n10	SAS	10	10.0	2	conv_exact_any	0	0			
+EAS	real	x_SAS_n10	SAS	10	10.0	2	conv_exact_final	0	0			
+EAS	real	x_SAS_n10	SAS	10	10.0	2	conv_body_any	0	0			
+EAS	real	x_SAS_n10	SAS	10	10.0	2	conv_body_final	0	0			
+EAS	real	x_SAS_n10	SAS	10	10.0	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n10	SAS	10	10.0	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n10	SAS	10	10.0	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n40	SAS	40	36.0	2	absent_exact_any	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n40	SAS	40	36.0	2	absent_exact_final	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n40	SAS	40	36.0	2	absent_body_any	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n40	SAS	40	36.0	2	absent_body_final	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n40	SAS	40	36.0	2	present_named4	28	28	100.0	100.0	100.0
+EAS	real	x_SAS_n40	SAS	40	36.0	2	all_correct	28	32	87.5	87.5	87.5
+EAS	real	x_SAS_n40	SAS	40	36.0	2	conv_exact_any	0	0			
+EAS	real	x_SAS_n40	SAS	40	36.0	2	conv_exact_final	0	0			
+EAS	real	x_SAS_n40	SAS	40	36.0	2	conv_body_any	0	0			
+EAS	real	x_SAS_n40	SAS	40	36.0	2	conv_body_final	0	0			
+EAS	real	x_SAS_n40	SAS	40	36.0	2	supplied_byte	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n40	SAS	40	36.0	2	supplied_body	0	4	0.0	0.0	0.0
+EAS	real	x_SAS_n40	SAS	40	36.0	2	absent_exact_any_unsupplied	0	4	0.0	0.0	0.0
+ME	sim	B_existing	B_existing			2	absent_exact_any	0	5	0.0	0.0	0.0
+ME	sim	B_existing	B_existing			2	absent_exact_final	0	5	0.0	0.0	0.0
+ME	sim	B_existing	B_existing			2	absent_body_any	2	5	40.0	0.0	66.67
+ME	sim	B_existing	B_existing			2	absent_body_final	2	5	40.0	0.0	66.67
+ME	sim	B_existing	B_existing			2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	B_existing	B_existing			2	all_correct	23	32	71.88	62.5	81.25
+ME	sim	B_existing	B_existing			2	conv_exact_any	0	0			
+ME	sim	B_existing	B_existing			2	conv_exact_final	0	0			
+ME	sim	B_existing	B_existing			2	conv_body_any	0	0			
+ME	sim	B_existing	B_existing			2	conv_body_final	0	0			
+ME	sim	B_existing	B_existing			2	supplied_byte	0	0			
+ME	sim	B_existing	B_existing			2	supplied_body	0	0			
+ME	sim	B_existing	B_existing			2	absent_exact_any_unsupplied	0	0			
+ME	sim	match_n05	ME	5	5.0	2	absent_exact_any	2	5	40.0	0.0	66.67
+ME	sim	match_n05	ME	5	5.0	2	absent_exact_final	1	5	20.0	0.0	33.33
+ME	sim	match_n05	ME	5	5.0	2	absent_body_any	2	5	40.0	0.0	66.67
+ME	sim	match_n05	ME	5	5.0	2	absent_body_final	1	5	20.0	0.0	33.33
+ME	sim	match_n05	ME	5	5.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	match_n05	ME	5	5.0	2	all_correct	24	32	75.0	68.75	81.25
+ME	sim	match_n05	ME	5	5.0	2	conv_exact_any	2	2	100.0	100.0	100.0
+ME	sim	match_n05	ME	5	5.0	2	conv_exact_final	1	2	50.0	50.0	50.0
+ME	sim	match_n05	ME	5	5.0	2	conv_body_any	2	2	100.0	100.0	100.0
+ME	sim	match_n05	ME	5	5.0	2	conv_body_final	1	2	50.0	50.0	50.0
+ME	sim	match_n05	ME	5	5.0	2	supplied_byte	2	5	40.0	0.0	66.67
+ME	sim	match_n05	ME	5	5.0	2	supplied_body	2	5	40.0	0.0	66.67
+ME	sim	match_n05	ME	5	5.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0
+ME	sim	match_n10	ME	10	10.0	2	absent_exact_any	2	5	40.0	0.0	66.67
+ME	sim	match_n10	ME	10	10.0	2	absent_exact_final	1	5	20.0	0.0	33.33
+ME	sim	match_n10	ME	10	10.0	2	absent_body_any	2	5	40.0	0.0	66.67
+ME	sim	match_n10	ME	10	10.0	2	absent_body_final	1	5	20.0	0.0	33.33
+ME	sim	match_n10	ME	10	10.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	match_n10	ME	10	10.0	2	all_correct	24	32	75.0	68.75	81.25
+ME	sim	match_n10	ME	10	10.0	2	conv_exact_any	2	2	100.0	100.0	100.0
+ME	sim	match_n10	ME	10	10.0	2	conv_exact_final	1	2	50.0	50.0	50.0
+ME	sim	match_n10	ME	10	10.0	2	conv_body_any	2	2	100.0	100.0	100.0
+ME	sim	match_n10	ME	10	10.0	2	conv_body_final	1	2	50.0	50.0	50.0
+ME	sim	match_n10	ME	10	10.0	2	supplied_byte	2	5	40.0	0.0	66.67
+ME	sim	match_n10	ME	10	10.0	2	supplied_body	2	5	40.0	0.0	66.67
+ME	sim	match_n10	ME	10	10.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0
+ME	sim	match_n20	ME	20	20.0	2	absent_exact_any	2	5	40.0	0.0	66.67
+ME	sim	match_n20	ME	20	20.0	2	absent_exact_final	1	5	20.0	0.0	33.33
+ME	sim	match_n20	ME	20	20.0	2	absent_body_any	2	5	40.0	0.0	66.67
+ME	sim	match_n20	ME	20	20.0	2	absent_body_final	1	5	20.0	0.0	33.33
+ME	sim	match_n20	ME	20	20.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	match_n20	ME	20	20.0	2	all_correct	24	32	75.0	68.75	81.25
+ME	sim	match_n20	ME	20	20.0	2	conv_exact_any	2	2	100.0	100.0	100.0
+ME	sim	match_n20	ME	20	20.0	2	conv_exact_final	1	2	50.0	50.0	50.0
+ME	sim	match_n20	ME	20	20.0	2	conv_body_any	2	2	100.0	100.0	100.0
+ME	sim	match_n20	ME	20	20.0	2	conv_body_final	1	2	50.0	50.0	50.0
+ME	sim	match_n20	ME	20	20.0	2	supplied_byte	2	5	40.0	0.0	66.67
+ME	sim	match_n20	ME	20	20.0	2	supplied_body	2	5	40.0	0.0	66.67
+ME	sim	match_n20	ME	20	20.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0
+ME	sim	match_n40	ME	40	40.0	2	absent_exact_any	2	5	40.0	0.0	66.67
+ME	sim	match_n40	ME	40	40.0	2	absent_exact_final	1	5	20.0	0.0	33.33
+ME	sim	match_n40	ME	40	40.0	2	absent_body_any	2	5	40.0	0.0	66.67
+ME	sim	match_n40	ME	40	40.0	2	absent_body_final	1	5	20.0	0.0	33.33
+ME	sim	match_n40	ME	40	40.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	match_n40	ME	40	40.0	2	all_correct	24	32	75.0	68.75	81.25
+ME	sim	match_n40	ME	40	40.0	2	conv_exact_any	2	2	100.0	100.0	100.0
+ME	sim	match_n40	ME	40	40.0	2	conv_exact_final	1	2	50.0	50.0	50.0
+ME	sim	match_n40	ME	40	40.0	2	conv_body_any	2	2	100.0	100.0	100.0
+ME	sim	match_n40	ME	40	40.0	2	conv_body_final	1	2	50.0	50.0	50.0
+ME	sim	match_n40	ME	40	40.0	2	supplied_byte	2	5	40.0	0.0	66.67
+ME	sim	match_n40	ME	40	40.0	2	supplied_body	2	5	40.0	0.0	66.67
+ME	sim	match_n40	ME	40	40.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0
+ME	sim	n0	IPD	0	0.0	2	absent_exact_any	0	5	0.0	0.0	0.0
+ME	sim	n0	IPD	0	0.0	2	absent_exact_final	0	5	0.0	0.0	0.0
+ME	sim	n0	IPD	0	0.0	2	absent_body_any	0	5	0.0	0.0	0.0
+ME	sim	n0	IPD	0	0.0	2	absent_body_final	0	5	0.0	0.0	0.0
+ME	sim	n0	IPD	0	0.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	n0	IPD	0	0.0	2	all_correct	23	32	71.88	62.5	81.25
+ME	sim	n0	IPD	0	0.0	2	conv_exact_any	0	0			
+ME	sim	n0	IPD	0	0.0	2	conv_exact_final	0	0			
+ME	sim	n0	IPD	0	0.0	2	conv_body_any	0	0			
+ME	sim	n0	IPD	0	0.0	2	conv_body_final	0	0			
+ME	sim	n0	IPD	0	0.0	2	supplied_byte	0	5	0.0	0.0	0.0
+ME	sim	n0	IPD	0	0.0	2	supplied_body	0	5	0.0	0.0	0.0
+ME	sim	n0	IPD	0	0.0	2	absent_exact_any_unsupplied	0	5	0.0	0.0	0.0
+ME	sim	x_EAS_n10	EAS	10	10.0	2	absent_exact_any	0	5	0.0	0.0	0.0
+ME	sim	x_EAS_n10	EAS	10	10.0	2	absent_exact_final	0	5	0.0	0.0	0.0
+ME	sim	x_EAS_n10	EAS	10	10.0	2	absent_body_any	2	5	40.0	0.0	66.67
+ME	sim	x_EAS_n10	EAS	10	10.0	2	absent_body_final	2	5	40.0	0.0	66.67
+ME	sim	x_EAS_n10	EAS	10	10.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	x_EAS_n10	EAS	10	10.0	2	all_correct	23	32	71.88	62.5	81.25
+ME	sim	x_EAS_n10	EAS	10	10.0	2	conv_exact_any	0	0			
+ME	sim	x_EAS_n10	EAS	10	10.0	2	conv_exact_final	0	0			
+ME	sim	x_EAS_n10	EAS	10	10.0	2	conv_body_any	2	2	100.0	100.0	100.0
+ME	sim	x_EAS_n10	EAS	10	10.0	2	conv_body_final	2	2	100.0	100.0	100.0
+ME	sim	x_EAS_n10	EAS	10	10.0	2	supplied_byte	0	5	0.0	0.0	0.0
+ME	sim	x_EAS_n10	EAS	10	10.0	2	supplied_body	2	5	40.0	0.0	66.67
+ME	sim	x_EAS_n10	EAS	10	10.0	2	absent_exact_any_unsupplied	0	5	0.0	0.0	0.0
+ME	sim	x_EAS_n40	EAS	40	40.0	2	absent_exact_any	0	5	0.0	0.0	0.0
+ME	sim	x_EAS_n40	EAS	40	40.0	2	absent_exact_final	0	5	0.0	0.0	0.0
+ME	sim	x_EAS_n40	EAS	40	40.0	2	absent_body_any	2	5	40.0	0.0	66.67
+ME	sim	x_EAS_n40	EAS	40	40.0	2	absent_body_final	2	5	40.0	0.0	66.67
+ME	sim	x_EAS_n40	EAS	40	40.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	x_EAS_n40	EAS	40	40.0	2	all_correct	23	32	71.88	62.5	81.25
+ME	sim	x_EAS_n40	EAS	40	40.0	2	conv_exact_any	0	0			
+ME	sim	x_EAS_n40	EAS	40	40.0	2	conv_exact_final	0	0			
+ME	sim	x_EAS_n40	EAS	40	40.0	2	conv_body_any	2	2	100.0	100.0	100.0
+ME	sim	x_EAS_n40	EAS	40	40.0	2	conv_body_final	2	2	100.0	100.0	100.0
+ME	sim	x_EAS_n40	EAS	40	40.0	2	supplied_byte	0	5	0.0	0.0	0.0
+ME	sim	x_EAS_n40	EAS	40	40.0	2	supplied_body	2	5	40.0	0.0	66.67
+ME	sim	x_EAS_n40	EAS	40	40.0	2	absent_exact_any_unsupplied	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_exact_any	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_exact_final	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_body_any	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_body_final	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	all_correct	23	32	71.88	62.5	81.25
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_exact_any	0	0			
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_exact_final	0	0			
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_body_any	0	0			
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_body_final	0	0			
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	supplied_byte	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	supplied_body	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_exact_any_unsupplied	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_exact_any	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_exact_final	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_body_any	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_body_final	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	all_correct	23	32	71.88	62.5	81.25
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_exact_any	0	0			
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_exact_final	0	0			
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_body_any	0	0			
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_body_final	0	0			
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	supplied_byte	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	supplied_body	0	5	0.0	0.0	0.0
+ME	sim	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_exact_any_unsupplied	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n10	SAS	10	10.0	2	absent_exact_any	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n10	SAS	10	10.0	2	absent_exact_final	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n10	SAS	10	10.0	2	absent_body_any	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n10	SAS	10	10.0	2	absent_body_final	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n10	SAS	10	10.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	x_SAS_n10	SAS	10	10.0	2	all_correct	23	32	71.88	62.5	81.25
+ME	sim	x_SAS_n10	SAS	10	10.0	2	conv_exact_any	0	0			
+ME	sim	x_SAS_n10	SAS	10	10.0	2	conv_exact_final	0	0			
+ME	sim	x_SAS_n10	SAS	10	10.0	2	conv_body_any	0	0			
+ME	sim	x_SAS_n10	SAS	10	10.0	2	conv_body_final	0	0			
+ME	sim	x_SAS_n10	SAS	10	10.0	2	supplied_byte	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n10	SAS	10	10.0	2	supplied_body	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n10	SAS	10	10.0	2	absent_exact_any_unsupplied	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n40	SAS	40	36.0	2	absent_exact_any	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n40	SAS	40	36.0	2	absent_exact_final	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n40	SAS	40	36.0	2	absent_body_any	2	5	40.0	0.0	66.67
+ME	sim	x_SAS_n40	SAS	40	36.0	2	absent_body_final	2	5	40.0	0.0	66.67
+ME	sim	x_SAS_n40	SAS	40	36.0	2	present_named4	23	27	85.19	76.92	92.86
+ME	sim	x_SAS_n40	SAS	40	36.0	2	all_correct	23	32	71.88	62.5	81.25
+ME	sim	x_SAS_n40	SAS	40	36.0	2	conv_exact_any	0	0			
+ME	sim	x_SAS_n40	SAS	40	36.0	2	conv_exact_final	0	0			
+ME	sim	x_SAS_n40	SAS	40	36.0	2	conv_body_any	2	2	100.0	100.0	100.0
+ME	sim	x_SAS_n40	SAS	40	36.0	2	conv_body_final	2	2	100.0	100.0	100.0
+ME	sim	x_SAS_n40	SAS	40	36.0	2	supplied_byte	0	5	0.0	0.0	0.0
+ME	sim	x_SAS_n40	SAS	40	36.0	2	supplied_body	2	5	40.0	0.0	66.67
+ME	sim	x_SAS_n40	SAS	40	36.0	2	absent_exact_any_unsupplied	0	5	0.0	0.0	0.0
+SAS	real	B_existing	B_existing			2	absent_exact_any	1	3	33.33	0.0	100.0
+SAS	real	B_existing	B_existing			2	absent_exact_final	1	3	33.33	0.0	100.0
+SAS	real	B_existing	B_existing			2	absent_body_any	1	3	33.33	0.0	100.0
+SAS	real	B_existing	B_existing			2	absent_body_final	1	3	33.33	0.0	100.0
+SAS	real	B_existing	B_existing			2	present_named4	28	29	96.55	93.33	100.0
+SAS	real	B_existing	B_existing			2	all_correct	29	32	90.62	87.5	93.75
+SAS	real	B_existing	B_existing			2	conv_exact_any	0	0			
+SAS	real	B_existing	B_existing			2	conv_exact_final	0	0			
+SAS	real	B_existing	B_existing			2	conv_body_any	0	0			
+SAS	real	B_existing	B_existing			2	conv_body_final	0	0			
+SAS	real	B_existing	B_existing			2	supplied_byte	0	0			
+SAS	real	B_existing	B_existing			2	supplied_body	0	0			
+SAS	real	B_existing	B_existing			2	absent_exact_any_unsupplied	0	0			
+SAS	real	match_n05	SAS	5	5.0	2	absent_exact_any	0	3	0.0	0.0	0.0
+SAS	real	match_n05	SAS	5	5.0	2	absent_exact_final	0	3	0.0	0.0	0.0
+SAS	real	match_n05	SAS	5	5.0	2	absent_body_any	0	3	0.0	0.0	0.0
+SAS	real	match_n05	SAS	5	5.0	2	absent_body_final	0	3	0.0	0.0	0.0
+SAS	real	match_n05	SAS	5	5.0	2	present_named4	28	29	96.55	93.33	100.0
+SAS	real	match_n05	SAS	5	5.0	2	all_correct	28	32	87.5	87.5	87.5
+SAS	real	match_n05	SAS	5	5.0	2	conv_exact_any	0	0			
+SAS	real	match_n05	SAS	5	5.0	2	conv_exact_final	0	0			
+SAS	real	match_n05	SAS	5	5.0	2	conv_body_any	0	0			
+SAS	real	match_n05	SAS	5	5.0	2	conv_body_final	0	0			
+SAS	real	match_n05	SAS	5	5.0	2	supplied_byte	0	3	0.0	0.0	0.0
+SAS	real	match_n05	SAS	5	5.0	2	supplied_body	0	3	0.0	0.0	0.0
+SAS	real	match_n05	SAS	5	5.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0
+SAS	real	match_n10	SAS	10	10.0	2	absent_exact_any	1	3	33.33	0.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	absent_exact_final	1	3	33.33	0.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	absent_body_any	1	3	33.33	0.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	absent_body_final	1	3	33.33	0.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	present_named4	29	29	100.0	100.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	all_correct	30	32	93.75	87.5	100.0
+SAS	real	match_n10	SAS	10	10.0	2	conv_exact_any	1	1	100.0	100.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	conv_exact_final	1	1	100.0	100.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	conv_body_any	1	1	100.0	100.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	conv_body_final	1	1	100.0	100.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	supplied_byte	1	3	33.33	0.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	supplied_body	1	3	33.33	0.0	100.0
+SAS	real	match_n10	SAS	10	10.0	2	absent_exact_any_unsupplied	0	2	0.0	0.0	0.0
+SAS	real	match_n20	SAS	20	20.0	2	absent_exact_any	1	3	33.33	0.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	absent_exact_final	1	3	33.33	0.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	absent_body_any	1	3	33.33	0.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	absent_body_final	1	3	33.33	0.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	present_named4	29	29	100.0	100.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	all_correct	30	32	93.75	87.5	100.0
+SAS	real	match_n20	SAS	20	20.0	2	conv_exact_any	1	1	100.0	100.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	conv_exact_final	1	1	100.0	100.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	conv_body_any	1	1	100.0	100.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	conv_body_final	1	1	100.0	100.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	supplied_byte	1	3	33.33	0.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	supplied_body	1	3	33.33	0.0	100.0
+SAS	real	match_n20	SAS	20	20.0	2	absent_exact_any_unsupplied	0	2	0.0	0.0	0.0
+SAS	real	match_n40	SAS	40	35.0	2	absent_exact_any	1	3	33.33	0.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	absent_exact_final	1	3	33.33	0.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	absent_body_any	1	3	33.33	0.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	absent_body_final	1	3	33.33	0.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	present_named4	29	29	100.0	100.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	all_correct	30	32	93.75	87.5	100.0
+SAS	real	match_n40	SAS	40	35.0	2	conv_exact_any	1	1	100.0	100.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	conv_exact_final	1	1	100.0	100.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	conv_body_any	1	1	100.0	100.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	conv_body_final	1	1	100.0	100.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	supplied_byte	1	3	33.33	0.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	supplied_body	1	3	33.33	0.0	100.0
+SAS	real	match_n40	SAS	40	35.0	2	absent_exact_any_unsupplied	0	2	0.0	0.0	0.0
+SAS	real	n0	IPD	0	0.0	2	absent_exact_any	0	3	0.0	0.0	0.0
+SAS	real	n0	IPD	0	0.0	2	absent_exact_final	0	3	0.0	0.0	0.0
+SAS	real	n0	IPD	0	0.0	2	absent_body_any	0	3	0.0	0.0	0.0
+SAS	real	n0	IPD	0	0.0	2	absent_body_final	0	3	0.0	0.0	0.0
+SAS	real	n0	IPD	0	0.0	2	present_named4	28	29	96.55	93.33	100.0
+SAS	real	n0	IPD	0	0.0	2	all_correct	28	32	87.5	87.5	87.5
+SAS	real	n0	IPD	0	0.0	2	conv_exact_any	0	0			
+SAS	real	n0	IPD	0	0.0	2	conv_exact_final	0	0			
+SAS	real	n0	IPD	0	0.0	2	conv_body_any	0	0			
+SAS	real	n0	IPD	0	0.0	2	conv_body_final	0	0			
+SAS	real	n0	IPD	0	0.0	2	supplied_byte	0	3	0.0	0.0	0.0
+SAS	real	n0	IPD	0	0.0	2	supplied_body	0	3	0.0	0.0	0.0
+SAS	real	n0	IPD	0	0.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0
+SAS	real	x_EAS_n10	EAS	10	10.0	2	absent_exact_any	0	3	0.0	0.0	0.0
+SAS	real	x_EAS_n10	EAS	10	10.0	2	absent_exact_final	0	3	0.0	0.0	0.0
+SAS	real	x_EAS_n10	EAS	10	10.0	2	absent_body_any	0	3	0.0	0.0	0.0
+SAS	real	x_EAS_n10	EAS	10	10.0	2	absent_body_final	0	3	0.0	0.0	0.0
+SAS	real	x_EAS_n10	EAS	10	10.0	2	present_named4	29	29	100.0	100.0	100.0
+SAS	real	x_EAS_n10	EAS	10	10.0	2	all_correct	29	32	90.62	87.5	93.75
+SAS	real	x_EAS_n10	EAS	10	10.0	2	conv_exact_any	0	0			
+SAS	real	x_EAS_n10	EAS	10	10.0	2	conv_exact_final	0	0			
+SAS	real	x_EAS_n10	EAS	10	10.0	2	conv_body_any	0	0			
+SAS	real	x_EAS_n10	EAS	10	10.0	2	conv_body_final	0	0			
+SAS	real	x_EAS_n10	EAS	10	10.0	2	supplied_byte	0	3	0.0	0.0	0.0
+SAS	real	x_EAS_n10	EAS	10	10.0	2	supplied_body	0	3	0.0	0.0	0.0
+SAS	real	x_EAS_n10	EAS	10	10.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	absent_exact_any	1	3	33.33	0.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	absent_exact_final	1	3	33.33	0.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	absent_body_any	1	3	33.33	0.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	absent_body_final	1	3	33.33	0.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	present_named4	29	29	100.0	100.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	all_correct	30	32	93.75	87.5	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	conv_exact_any	1	1	100.0	100.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	conv_exact_final	1	1	100.0	100.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	conv_body_any	1	1	100.0	100.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	conv_body_final	1	1	100.0	100.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	supplied_byte	1	3	33.33	0.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	supplied_body	1	3	33.33	0.0	100.0
+SAS	real	x_EAS_n40	EAS	40	40.0	2	absent_exact_any_unsupplied	0	2	0.0	0.0	0.0
+SAS	real	x_ME_n10	ME	10	11.0	2	absent_exact_any	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n10	ME	10	11.0	2	absent_exact_final	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n10	ME	10	11.0	2	absent_body_any	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n10	ME	10	11.0	2	absent_body_final	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n10	ME	10	11.0	2	present_named4	29	29	100.0	100.0	100.0
+SAS	real	x_ME_n10	ME	10	11.0	2	all_correct	29	32	90.62	87.5	93.75
+SAS	real	x_ME_n10	ME	10	11.0	2	conv_exact_any	0	0			
+SAS	real	x_ME_n10	ME	10	11.0	2	conv_exact_final	0	0			
+SAS	real	x_ME_n10	ME	10	11.0	2	conv_body_any	0	1	0.0	0.0	0.0
+SAS	real	x_ME_n10	ME	10	11.0	2	conv_body_final	0	1	0.0	0.0	0.0
+SAS	real	x_ME_n10	ME	10	11.0	2	supplied_byte	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n10	ME	10	11.0	2	supplied_body	1	3	33.33	0.0	100.0
+SAS	real	x_ME_n10	ME	10	11.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n40	ME	40	40.0	2	absent_exact_any	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n40	ME	40	40.0	2	absent_exact_final	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n40	ME	40	40.0	2	absent_body_any	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n40	ME	40	40.0	2	absent_body_final	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n40	ME	40	40.0	2	present_named4	29	29	100.0	100.0	100.0
+SAS	real	x_ME_n40	ME	40	40.0	2	all_correct	29	32	90.62	87.5	93.75
+SAS	real	x_ME_n40	ME	40	40.0	2	conv_exact_any	0	0			
+SAS	real	x_ME_n40	ME	40	40.0	2	conv_exact_final	0	0			
+SAS	real	x_ME_n40	ME	40	40.0	2	conv_body_any	0	1	0.0	0.0	0.0
+SAS	real	x_ME_n40	ME	40	40.0	2	conv_body_final	0	1	0.0	0.0	0.0
+SAS	real	x_ME_n40	ME	40	40.0	2	supplied_byte	0	3	0.0	0.0	0.0
+SAS	real	x_ME_n40	ME	40	40.0	2	supplied_body	1	3	33.33	0.0	100.0
+SAS	real	x_ME_n40	ME	40	40.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_exact_any	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_exact_final	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_body_any	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_body_final	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	present_named4	29	29	100.0	100.0	100.0
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	all_correct	29	32	90.62	87.5	93.75
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_exact_any	0	0			
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_exact_final	0	0			
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_body_any	0	0			
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	conv_body_final	0	0			
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	supplied_byte	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	supplied_body	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n10	NONASIAN	10	10.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_exact_any	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_exact_final	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_body_any	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_body_final	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	present_named4	28	29	96.55	93.33	100.0
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	all_correct	28	32	87.5	87.5	87.5
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_exact_any	0	0			
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_exact_final	0	0			
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_body_any	0	0			
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	conv_body_final	0	0			
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	supplied_byte	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	supplied_body	0	3	0.0	0.0	0.0
+SAS	real	x_NONASIAN_n40	NONASIAN	40	40.0	2	absent_exact_any_unsupplied	0	3	0.0	0.0	0.0

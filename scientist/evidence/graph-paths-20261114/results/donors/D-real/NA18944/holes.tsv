@@ -1,0 +1,13 @@
+readset	donor	gene	copy	ipd_absent	input	body_len	uncovered_bases	holes_ge50	hole_bases_ge50	holes
+D-real	NA18944	DRB1	1	False	i	13017	0	0	0	
+D-real	NA18944	DRB1	2	True	i	13007	0	0	0	
+D-real	NA18944	DRB1	1	False	ii	13017	0	0	0	
+D-real	NA18944	DRB1	2	True	ii	13007	0	0	0	
+D-real	NA18944	DQA1	1	False	i	5257	0	0	0	
+D-real	NA18944	DQA1	2	False	i	5399	0	0	0	
+D-real	NA18944	DQA1	1	False	ii	5257	0	0	0	
+D-real	NA18944	DQA1	2	False	ii	5399	0	0	0	
+D-real	NA18944	B	1	False	i	2689	0	0	0	
+D-real	NA18944	B	2	False	i	2677	0	0	0	
+D-real	NA18944	B	1	False	ii	2689	0	0	0	
+D-real	NA18944	B	2	False	ii	2677	0	0	0	

@@ -1,0 +1,9 @@
+readset	donor	gene	variant	copy	cls	ipd_absent	called_row	col_start	col_end	named	kind	len_true	len_called	testable	true_in_stored_path	true_is_walk	reads_true	reads_true_exact	reads_true_edit	reads_true_unmapped	reads_called	window_in_stored_path	window_is_walk	reads_given_to_giraffe	reads_mapped	giraffe_seconds
+D-real	HG00706	DRB1	ipd	1	mosaic	True	575	17206	17206	-	length	31	30	True	True	True	24	24	0	0	1	True	True	254	252	2.4
+D-real	HG00706	DRB1	ipd	2	private	True	575	1616	1616	-	substitution	31	31	True	True	True	15	15	0	0	13	True	True	254	252	2.4
+D-real	HG00706	DRB1	ipd	2	private	True	575	15195	15195	-	substitution	31	31	True	False	False	20	0	20	0	19	False	False	254	252	2.4
+D-real	HG00706	DRB1	ipd	2	private	True	575	16782	16782	-	substitution	31	31	True	True	True	19	19	0	0	17	True	True	254	252	2.4
+D-real	HG00706	DRB1	ipd_cohort	1	mosaic	True	575	17206	17206	-	length	31	30	True	True	True	24	24	0	0	1	True	True	254	252	1.2
+D-real	HG00706	DRB1	ipd_cohort	2	private	True	575	1616	1616	-	substitution	31	31	True	True	True	15	15	0	0	13	True	True	254	252	1.2
+D-real	HG00706	DRB1	ipd_cohort	2	private	True	575	15195	15195	-	substitution	31	31	True	False	False	20	0	20	0	19	False	False	254	252	1.2
+D-real	HG00706	DRB1	ipd_cohort	2	private	True	575	16782	16782	-	substitution	31	31	True	True	True	19	19	0	0	17	True	True	254	252	1.2

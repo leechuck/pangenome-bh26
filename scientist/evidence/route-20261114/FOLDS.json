@@ -1,0 +1,1896 @@
+{
+  "status": "frozen_developmental_grouped_CV",
+  "folds": [
+    {
+      "fold": 0,
+      "test": [
+        "APR-F",
+        "APR-M",
+        "APR-S",
+        "APR004",
+        "APR006",
+        "APR018",
+        "APR024",
+        "APR034",
+        "APR042",
+        "APR045",
+        "HG00621",
+        "HG00673",
+        "HG00706",
+        "HG02080",
+        "HG02083",
+        "HG02155",
+        "HG02514",
+        "HG02602",
+        "HG02735",
+        "HG03688",
+        "HG03784",
+        "HG03831",
+        "HG04187",
+        "NA18565",
+        "NA18945",
+        "NA18982",
+        "NA18983",
+        "NA20850",
+        "NA20870"
+      ],
+      "train": [
+        "APR001",
+        "APR002",
+        "APR003",
+        "APR005",
+        "APR007",
+        "APR008",
+        "APR009",
+        "APR010",
+        "APR011",
+        "APR012",
+        "APR013",
+        "APR014",
+        "APR015",
+        "APR016",
+        "APR019",
+        "APR020",
+        "APR021",
+        "APR022",
+        "APR023",
+        "APR025",
+        "APR026",
+        "APR027",
+        "APR029",
+        "APR030",
+        "APR031",
+        "APR032",
+        "APR033",
+        "APR035",
+        "APR036",
+        "APR037",
+        "APR038",
+        "APR039",
+        "APR040",
+        "APR041",
+        "APR043",
+        "APR044",
+        "APR046",
+        "APR047",
+        "APR048",
+        "APR049",
+        "APR050",
+        "APR051",
+        "HG00408",
+        "HG00423",
+        "HG00438",
+        "HG00544",
+        "HG00558",
+        "HG00597",
+        "HG00609",
+        "HG00658",
+        "HG02015",
+        "HG02027",
+        "HG02040",
+        "HG02056",
+        "HG02071",
+        "HG02074",
+        "HG02129",
+        "HG02132",
+        "HG02135",
+        "HG02165",
+        "HG02178",
+        "HG02391",
+        "HG02392",
+        "HG02523",
+        "HG02698",
+        "HG02738",
+        "HG03017",
+        "HG03239",
+        "HG03654",
+        "HG03669",
+        "HG03704",
+        "HG03710",
+        "HG03742",
+        "HG03804",
+        "HG03816",
+        "HG03834",
+        "HG03874",
+        "HG03927",
+        "HG03942",
+        "HG04115",
+        "HG04157",
+        "HG04160",
+        "HG04184",
+        "HG04199",
+        "HG04204",
+        "HG04228",
+        "KSA001",
+        "KSA002",
+        "KSA003",
+        "KSA004",
+        "KSA005",
+        "KSA006",
+        "KSA007",
+        "KSA008",
+        "KSA009",
+        "NA18570",
+        "NA18608",
+        "NA18620",
+        "NA18747",
+        "NA18940",
+        "NA18943",
+        "NA18944",
+        "NA18948",
+        "NA18952",
+        "NA18959",
+        "NA18960",
+        "NA18967",
+        "NA18970",
+        "NA18971",
+        "NA18974",
+        "NA18976",
+        "NA19087",
+        "NA20905",
+        "NA21093",
+        "NA21102",
+        "NA21106",
+        "NA21110",
+        "NA21144"
+      ]
+    },
+    {
+      "fold": 1,
+      "test": [
+        "APR001",
+        "APR010",
+        "APR011",
+        "APR012",
+        "APR013",
+        "APR014",
+        "APR023",
+        "APR025",
+        "APR032",
+        "APR036",
+        "APR050",
+        "HG00438",
+        "HG00597",
+        "HG02015",
+        "HG02027",
+        "HG02071",
+        "HG02392",
+        "HG03654",
+        "HG03669",
+        "HG03742",
+        "HG03816",
+        "HG04157",
+        "HG04204",
+        "NA18608",
+        "NA18940",
+        "NA18967",
+        "NA19087",
+        "NA20905"
+      ],
+      "train": [
+        "APR-F",
+        "APR-M",
+        "APR-S",
+        "APR002",
+        "APR003",
+        "APR004",
+        "APR005",
+        "APR006",
+        "APR007",
+        "APR008",
+        "APR009",
+        "APR015",
+        "APR016",
+        "APR018",
+        "APR019",
+        "APR020",
+        "APR021",
+        "APR022",
+        "APR024",
+        "APR026",
+        "APR027",
+        "APR029",
+        "APR030",
+        "APR031",
+        "APR033",
+        "APR034",
+        "APR035",
+        "APR037",
+        "APR038",
+        "APR039",
+        "APR040",
+        "APR041",
+        "APR042",
+        "APR043",
+        "APR044",
+        "APR045",
+        "APR046",
+        "APR047",
+        "APR048",
+        "APR049",
+        "APR051",
+        "HG00408",
+        "HG00423",
+        "HG00544",
+        "HG00558",
+        "HG00609",
+        "HG00621",
+        "HG00658",
+        "HG00673",
+        "HG00706",
+        "HG02040",
+        "HG02056",
+        "HG02074",
+        "HG02080",
+        "HG02083",
+        "HG02129",
+        "HG02132",
+        "HG02135",
+        "HG02155",
+        "HG02165",
+        "HG02178",
+        "HG02391",
+        "HG02514",
+        "HG02523",
+        "HG02602",
+        "HG02698",
+        "HG02735",
+        "HG02738",
+        "HG03017",
+        "HG03239",
+        "HG03688",
+        "HG03704",
+        "HG03710",
+        "HG03784",
+        "HG03804",
+        "HG03831",
+        "HG03834",
+        "HG03874",
+        "HG03927",
+        "HG03942",
+        "HG04115",
+        "HG04160",
+        "HG04184",
+        "HG04187",
+        "HG04199",
+        "HG04228",
+        "KSA001",
+        "KSA002",
+        "KSA003",
+        "KSA004",
+        "KSA005",
+        "KSA006",
+        "KSA007",
+        "KSA008",
+        "KSA009",
+        "NA18565",
+        "NA18570",
+        "NA18620",
+        "NA18747",
+        "NA18943",
+        "NA18944",
+        "NA18945",
+        "NA18948",
+        "NA18952",
+        "NA18959",
+        "NA18960",
+        "NA18970",
+        "NA18971",
+        "NA18974",
+        "NA18976",
+        "NA18982",
+        "NA18983",
+        "NA20850",
+        "NA20870",
+        "NA21093",
+        "NA21102",
+        "NA21106",
+        "NA21110",
+        "NA21144"
+      ]
+    },
+    {
+      "fold": 2,
+      "test": [
+        "APR003",
+        "APR005",
+        "APR016",
+        "APR020",
+        "APR026",
+        "APR029",
+        "APR035",
+        "APR041",
+        "APR049",
+        "APR051",
+        "HG00544",
+        "HG00609",
+        "HG02040",
+        "HG02135",
+        "HG02178",
+        "HG03017",
+        "HG03704",
+        "HG03804",
+        "HG03834",
+        "HG04199",
+        "KSA001",
+        "KSA002",
+        "KSA003",
+        "KSA004",
+        "KSA005",
+        "KSA006",
+        "KSA007",
+        "KSA008",
+        "KSA009",
+        "NA18620",
+        "NA18943",
+        "NA18970",
+        "NA18976",
+        "NA21106"
+      ],
+      "train": [
+        "APR-F",
+        "APR-M",
+        "APR-S",
+        "APR001",
+        "APR002",
+        "APR004",
+        "APR006",
+        "APR007",
+        "APR008",
+        "APR009",
+        "APR010",
+        "APR011",
+        "APR012",
+        "APR013",
+        "APR014",
+        "APR015",
+        "APR018",
+        "APR019",
+        "APR021",
+        "APR022",
+        "APR023",
+        "APR024",
+        "APR025",
+        "APR027",
+        "APR030",
+        "APR031",
+        "APR032",
+        "APR033",
+        "APR034",
+        "APR036",
+        "APR037",
+        "APR038",
+        "APR039",
+        "APR040",
+        "APR042",
+        "APR043",
+        "APR044",
+        "APR045",
+        "APR046",
+        "APR047",
+        "APR048",
+        "APR050",
+        "HG00408",
+        "HG00423",
+        "HG00438",
+        "HG00558",
+        "HG00597",
+        "HG00621",
+        "HG00658",
+        "HG00673",
+        "HG00706",
+        "HG02015",
+        "HG02027",
+        "HG02056",
+        "HG02071",
+        "HG02074",
+        "HG02080",
+        "HG02083",
+        "HG02129",
+        "HG02132",
+        "HG02155",
+        "HG02165",
+        "HG02391",
+        "HG02392",
+        "HG02514",
+        "HG02523",
+        "HG02602",
+        "HG02698",
+        "HG02735",
+        "HG02738",
+        "HG03239",
+        "HG03654",
+        "HG03669",
+        "HG03688",
+        "HG03710",
+        "HG03742",
+        "HG03784",
+        "HG03816",
+        "HG03831",
+        "HG03874",
+        "HG03927",
+        "HG03942",
+        "HG04115",
+        "HG04157",
+        "HG04160",
+        "HG04184",
+        "HG04187",
+        "HG04204",
+        "HG04228",
+        "NA18565",
+        "NA18570",
+        "NA18608",
+        "NA18747",
+        "NA18940",
+        "NA18944",
+        "NA18945",
+        "NA18948",
+        "NA18952",
+        "NA18959",
+        "NA18960",
+        "NA18967",
+        "NA18971",
+        "NA18974",
+        "NA18982",
+        "NA18983",
+        "NA19087",
+        "NA20850",
+        "NA20870",
+        "NA20905",
+        "NA21093",
+        "NA21102",
+        "NA21110",
+        "NA21144"
+      ]
+    },
+    {
+      "fold": 3,
+      "test": [
+        "APR007",
+        "APR009",
+        "APR015",
+        "APR021",
+        "APR027",
+        "APR031",
+        "APR038",
+        "APR040",
+        "APR043",
+        "APR044",
+        "HG00558",
+        "HG00658",
+        "HG02129",
+        "HG02391",
+        "HG02523",
+        "HG03239",
+        "HG03710",
+        "HG03874",
+        "HG03927",
+        "HG03942",
+        "HG04228",
+        "NA18747",
+        "NA18944",
+        "NA18948",
+        "NA18971",
+        "NA18974",
+        "NA21102",
+        "NA21144"
+      ],
+      "train": [
+        "APR-F",
+        "APR-M",
+        "APR-S",
+        "APR001",
+        "APR002",
+        "APR003",
+        "APR004",
+        "APR005",
+        "APR006",
+        "APR008",
+        "APR010",
+        "APR011",
+        "APR012",
+        "APR013",
+        "APR014",
+        "APR016",
+        "APR018",
+        "APR019",
+        "APR020",
+        "APR022",
+        "APR023",
+        "APR024",
+        "APR025",
+        "APR026",
+        "APR029",
+        "APR030",
+        "APR032",
+        "APR033",
+        "APR034",
+        "APR035",
+        "APR036",
+        "APR037",
+        "APR039",
+        "APR041",
+        "APR042",
+        "APR045",
+        "APR046",
+        "APR047",
+        "APR048",
+        "APR049",
+        "APR050",
+        "APR051",
+        "HG00408",
+        "HG00423",
+        "HG00438",
+        "HG00544",
+        "HG00597",
+        "HG00609",
+        "HG00621",
+        "HG00673",
+        "HG00706",
+        "HG02015",
+        "HG02027",
+        "HG02040",
+        "HG02056",
+        "HG02071",
+        "HG02074",
+        "HG02080",
+        "HG02083",
+        "HG02132",
+        "HG02135",
+        "HG02155",
+        "HG02165",
+        "HG02178",
+        "HG02392",
+        "HG02514",
+        "HG02602",
+        "HG02698",
+        "HG02735",
+        "HG02738",
+        "HG03017",
+        "HG03654",
+        "HG03669",
+        "HG03688",
+        "HG03704",
+        "HG03742",
+        "HG03784",
+        "HG03804",
+        "HG03816",
+        "HG03831",
+        "HG03834",
+        "HG04115",
+        "HG04157",
+        "HG04160",
+        "HG04184",
+        "HG04187",
+        "HG04199",
+        "HG04204",
+        "KSA001",
+        "KSA002",
+        "KSA003",
+        "KSA004",
+        "KSA005",
+        "KSA006",
+        "KSA007",
+        "KSA008",
+        "KSA009",
+        "NA18565",
+        "NA18570",
+        "NA18608",
+        "NA18620",
+        "NA18940",
+        "NA18943",
+        "NA18945",
+        "NA18952",
+        "NA18959",
+        "NA18960",
+        "NA18967",
+        "NA18970",
+        "NA18976",
+        "NA18982",
+        "NA18983",
+        "NA19087",
+        "NA20850",
+        "NA20870",
+        "NA20905",
+        "NA21093",
+        "NA21106",
+        "NA21110"
+      ]
+    },
+    {
+      "fold": 4,
+      "test": [
+        "APR002",
+        "APR008",
+        "APR019",
+        "APR022",
+        "APR030",
+        "APR033",
+        "APR037",
+        "APR039",
+        "APR046",
+        "APR047",
+        "APR048",
+        "HG00408",
+        "HG00423",
+        "HG02056",
+        "HG02074",
+        "HG02132",
+        "HG02165",
+        "HG02698",
+        "HG02738",
+        "HG04115",
+        "HG04160",
+        "HG04184",
+        "NA18570",
+        "NA18952",
+        "NA18959",
+        "NA18960",
+        "NA21093",
+        "NA21110"
+      ],
+      "train": [
+        "APR-F",
+        "APR-M",
+        "APR-S",
+        "APR001",
+        "APR003",
+        "APR004",
+        "APR005",
+        "APR006",
+        "APR007",
+        "APR009",
+        "APR010",
+        "APR011",
+        "APR012",
+        "APR013",
+        "APR014",
+        "APR015",
+        "APR016",
+        "APR018",
+        "APR020",
+        "APR021",
+        "APR023",
+        "APR024",
+        "APR025",
+        "APR026",
+        "APR027",
+        "APR029",
+        "APR031",
+        "APR032",
+        "APR034",
+        "APR035",
+        "APR036",
+        "APR038",
+        "APR040",
+        "APR041",
+        "APR042",
+        "APR043",
+        "APR044",
+        "APR045",
+        "APR049",
+        "APR050",
+        "APR051",
+        "HG00438",
+        "HG00544",
+        "HG00558",
+        "HG00597",
+        "HG00609",
+        "HG00621",
+        "HG00658",
+        "HG00673",
+        "HG00706",
+        "HG02015",
+        "HG02027",
+        "HG02040",
+        "HG02071",
+        "HG02080",
+        "HG02083",
+        "HG02129",
+        "HG02135",
+        "HG02155",
+        "HG02178",
+        "HG02391",
+        "HG02392",
+        "HG02514",
+        "HG02523",
+        "HG02602",
+        "HG02735",
+        "HG03017",
+        "HG03239",
+        "HG03654",
+        "HG03669",
+        "HG03688",
+        "HG03704",
+        "HG03710",
+        "HG03742",
+        "HG03784",
+        "HG03804",
+        "HG03816",
+        "HG03831",
+        "HG03834",
+        "HG03874",
+        "HG03927",
+        "HG03942",
+        "HG04157",
+        "HG04187",
+        "HG04199",
+        "HG04204",
+        "HG04228",
+        "KSA001",
+        "KSA002",
+        "KSA003",
+        "KSA004",
+        "KSA005",
+        "KSA006",
+        "KSA007",
+        "KSA008",
+        "KSA009",
+        "NA18565",
+        "NA18608",
+        "NA18620",
+        "NA18747",
+        "NA18940",
+        "NA18943",
+        "NA18944",
+        "NA18945",
+        "NA18948",
+        "NA18967",
+        "NA18970",
+        "NA18971",
+        "NA18974",
+        "NA18976",
+        "NA18982",
+        "NA18983",
+        "NA19087",
+        "NA20850",
+        "NA20870",
+        "NA20905",
+        "NA21102",
+        "NA21106",
+        "NA21144"
+      ]
+    }
+  ],
+  "seed": "20261014",
+  "groups": [
+    [
+      "HG002"
+    ],
+    [
+      "HG00406",
+      "HG00407",
+      "HG00408"
+    ],
+    [
+      "HG00421",
+      "HG00422",
+      "HG00423"
+    ],
+    [
+      "HG00436",
+      "HG00437",
+      "HG00438"
+    ],
+    [
+      "HG005"
+    ],
+    [
+      "HG00542",
+      "HG00543",
+      "HG00544"
+    ],
+    [
+      "HG00556",
+      "HG00557",
+      "HG00558"
+    ],
+    [
+      "HG00595",
+      "HG00596",
+      "HG00597"
+    ],
+    [
+      "HG00607",
+      "HG00608",
+      "HG00609"
+    ],
+    [
+      "HG00619",
+      "HG00620",
+      "HG00621"
+    ],
+    [
+      "HG00656",
+      "HG00657",
+      "HG00658",
+      "HG00701",
+      "HG00702",
+      "HG00703"
+    ],
+    [
+      "HG00671",
+      "HG00672",
+      "HG00673"
+    ],
+    [
+      "HG00704",
+      "HG00705",
+      "HG00706"
+    ],
+    [
+      "HG00731",
+      "HG00732",
+      "HG00733"
+    ],
+    [
+      "HG00734",
+      "HG00735",
+      "HG01047"
+    ],
+    [
+      "HG00739",
+      "HG00740",
+      "HG00741"
+    ],
+    [
+      "HG01069",
+      "HG01070",
+      "HG01071"
+    ],
+    [
+      "HG01104",
+      "HG01105",
+      "HG01106"
+    ],
+    [
+      "HG01107",
+      "HG01108",
+      "HG01109"
+    ],
+    [
+      "HG01173",
+      "HG01174",
+      "HG01175"
+    ],
+    [
+      "HG01241",
+      "HG01242",
+      "HG01243"
+    ],
+    [
+      "HG01256",
+      "HG01257",
+      "HG01258"
+    ],
+    [
+      "HG01356",
+      "HG01357",
+      "HG01358"
+    ],
+    [
+      "HG01359",
+      "HG01360",
+      "HG01361"
+    ],
+    [
+      "HG01889",
+      "HG01890",
+      "HG01891"
+    ],
+    [
+      "HG01926",
+      "HG01927",
+      "HG01928"
+    ],
+    [
+      "HG01950",
+      "HG01951",
+      "HG01952"
+    ],
+    [
+      "HG01976",
+      "HG01977",
+      "HG01978"
+    ],
+    [
+      "HG02015",
+      "HG02016",
+      "HG02017"
+    ],
+    [
+      "HG02027",
+      "HG02028",
+      "HG02029"
+    ],
+    [
+      "HG02040"
+    ],
+    [
+      "HG02053",
+      "HG02054",
+      "HG02055"
+    ],
+    [
+      "HG02056",
+      "HG02057",
+      "HG02058"
+    ],
+    [
+      "HG02071",
+      "HG02072",
+      "HG02073"
+    ],
+    [
+      "HG02074",
+      "HG02075",
+      "HG02076"
+    ],
+    [
+      "HG02080",
+      "HG02081",
+      "HG02082"
+    ],
+    [
+      "HG02083",
+      "HG02084",
+      "HG02085"
+    ],
+    [
+      "HG02107",
+      "HG02108",
+      "HG02109"
+    ],
+    [
+      "HG02129",
+      "HG02130",
+      "HG02131"
+    ],
+    [
+      "HG02132",
+      "HG02133",
+      "HG02134"
+    ],
+    [
+      "HG02135",
+      "HG02136",
+      "HG02137"
+    ],
+    [
+      "HG02143",
+      "HG02144",
+      "HG02145"
+    ],
+    [
+      "HG02146",
+      "HG02147",
+      "HG02148"
+    ],
+    [
+      "HG02155"
+    ],
+    [
+      "HG02165"
+    ],
+    [
+      "HG02178"
+    ],
+    [
+      "HG02255",
+      "HG02256",
+      "HG02257"
+    ],
+    [
+      "HG02391"
+    ],
+    [
+      "HG02392"
+    ],
+    [
+      "HG02512",
+      "HG02513",
+      "HG02514"
+    ],
+    [
+      "HG02521",
+      "HG02522",
+      "HG02523"
+    ],
+    [
+      "HG02570",
+      "HG02571",
+      "HG02572"
+    ],
+    [
+      "HG02600",
+      "HG02601",
+      "HG02602"
+    ],
+    [
+      "HG02620",
+      "HG02621",
+      "HG02622"
+    ],
+    [
+      "HG02628",
+      "HG02629",
+      "HG02630"
+    ],
+    [
+      "HG02696",
+      "HG02697",
+      "HG02698"
+    ],
+    [
+      "HG02715",
+      "HG02716",
+      "HG02717"
+    ],
+    [
+      "HG02721",
+      "HG02722",
+      "HG02723"
+    ],
+    [
+      "HG02733",
+      "HG02734",
+      "HG02735"
+    ],
+    [
+      "HG02736",
+      "HG02737",
+      "HG02738"
+    ],
+    [
+      "HG02816",
+      "HG02817",
+      "HG02818"
+    ],
+    [
+      "HG02884",
+      "HG02885",
+      "HG02886"
+    ],
+    [
+      "HG03015",
+      "HG03016",
+      "HG03017"
+    ],
+    [
+      "HG03072",
+      "HG03073",
+      "HG03096",
+      "HG03097",
+      "HG03098"
+    ],
+    [
+      "HG03237",
+      "HG03238",
+      "HG03239"
+    ],
+    [
+      "HG03451",
+      "HG03452",
+      "HG03453",
+      "HG03466",
+      "HG03468"
+    ],
+    [
+      "HG03438",
+      "HG03464",
+      "HG03465",
+      "HG03469",
+      "HG03470",
+      "HG03471",
+      "HG03478",
+      "HG03479",
+      "HG03480",
+      "HG03484",
+      "HG03485",
+      "HG03486"
+    ],
+    [
+      "HG03490",
+      "HG03491",
+      "HG03492"
+    ],
+    [
+      "HG03514",
+      "HG03515",
+      "HG03516"
+    ],
+    [
+      "HG03538",
+      "HG03539",
+      "HG03540"
+    ],
+    [
+      "HG03577",
+      "HG03578",
+      "HG03579"
+    ],
+    [
+      "HG03652",
+      "HG03653",
+      "HG03654"
+    ],
+    [
+      "HG03667",
+      "HG03668",
+      "HG03669"
+    ],
+    [
+      "HG03688",
+      "HG03885",
+      "HG03886"
+    ],
+    [
+      "HG03702",
+      "HG03703",
+      "HG03704"
+    ],
+    [
+      "HG03708",
+      "HG03709",
+      "HG03710"
+    ],
+    [
+      "HG03742"
+    ],
+    [
+      "HG03784",
+      "HG03786"
+    ],
+    [
+      "HG03802",
+      "HG03803",
+      "HG03804"
+    ],
+    [
+      "HG03814",
+      "HG03815",
+      "HG03816"
+    ],
+    [
+      "HG03829",
+      "HG03830",
+      "HG03831"
+    ],
+    [
+      "HG03832",
+      "HG03833",
+      "HG03834"
+    ],
+    [
+      "HG03874",
+      "HG03876",
+      "HG03879"
+    ],
+    [
+      "HG03925",
+      "HG03926",
+      "HG03927"
+    ],
+    [
+      "HG03940",
+      "HG03941",
+      "HG03942"
+    ],
+    [
+      "HG03894",
+      "HG03896",
+      "HG04115"
+    ],
+    [
+      "NA18876",
+      "NA18877",
+      "NA18906"
+    ],
+    [
+      "NA18940"
+    ],
+    [
+      "NA18943"
+    ],
+    [
+      "NA18944"
+    ],
+    [
+      "NA18945"
+    ],
+    [
+      "NA18948"
+    ],
+    [
+      "NA18959"
+    ],
+    [
+      "NA18960"
+    ],
+    [
+      "NA18967"
+    ],
+    [
+      "NA18970"
+    ],
+    [
+      "NA18982"
+    ],
+    [
+      "NA18912",
+      "NA18913",
+      "NA18914",
+      "NA19238",
+      "NA19239",
+      "NA19240"
+    ],
+    [
+      "NA19920",
+      "NA19921",
+      "NA20129"
+    ],
+    [
+      "NA21309"
+    ],
+    [
+      "APR002",
+      "APR030"
+    ],
+    [
+      "APR-F",
+      "APR-M",
+      "APR-S",
+      "APR_F",
+      "APR_M",
+      "APR_S"
+    ],
+    [
+      "APR52",
+      "APR052"
+    ],
+    [
+      "KSA001",
+      "KSA002",
+      "KSA003",
+      "KSA004",
+      "KSA005",
+      "KSA006",
+      "KSA007",
+      "KSA008",
+      "KSA009"
+    ],
+    [
+      "APR-S",
+      "APR-M"
+    ]
+  ],
+  "donors": {
+    "HG00408": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG00423": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG00438": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG00544": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG00558": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG00597": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG00609": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG00621": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG00658": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG00673": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG00706": {
+      "population": "CHS",
+      "resource": "HPRC"
+    },
+    "HG02015": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02027": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02040": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02056": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02071": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02074": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02080": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02083": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02129": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02132": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02135": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02155": {
+      "population": "CDX",
+      "resource": "HPRC"
+    },
+    "HG02165": {
+      "population": "CDX",
+      "resource": "HPRC"
+    },
+    "HG02178": {
+      "population": "CDX",
+      "resource": "HPRC"
+    },
+    "HG02391": {
+      "population": "CDX",
+      "resource": "HPRC"
+    },
+    "HG02392": {
+      "population": "CDX",
+      "resource": "HPRC"
+    },
+    "HG02514": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02523": {
+      "population": "KHV",
+      "resource": "HPRC"
+    },
+    "HG02602": {
+      "population": "PJL",
+      "resource": "HPRC"
+    },
+    "HG02698": {
+      "population": "PJL",
+      "resource": "HPRC"
+    },
+    "HG02735": {
+      "population": "PJL",
+      "resource": "HPRC"
+    },
+    "HG02738": {
+      "population": "PJL",
+      "resource": "HPRC"
+    },
+    "HG03017": {
+      "population": "PJL",
+      "resource": "HPRC"
+    },
+    "HG03239": {
+      "population": "PJL",
+      "resource": "HPRC"
+    },
+    "HG03654": {
+      "population": "PJL",
+      "resource": "HPRC"
+    },
+    "HG03669": {
+      "population": "PJL",
+      "resource": "HPRC"
+    },
+    "HG03688": {
+      "population": "STU",
+      "resource": "HPRC"
+    },
+    "HG03704": {
+      "population": "PJL",
+      "resource": "HPRC"
+    },
+    "HG03710": {
+      "population": "PJL",
+      "resource": "HPRC"
+    },
+    "HG03742": {
+      "population": "ITU",
+      "resource": "HPRC"
+    },
+    "HG03784": {
+      "population": "ITU",
+      "resource": "HPRC"
+    },
+    "HG03804": {
+      "population": "BEB",
+      "resource": "HPRC"
+    },
+    "HG03816": {
+      "population": "BEB",
+      "resource": "HPRC"
+    },
+    "HG03831": {
+      "population": "BEB",
+      "resource": "HPRC"
+    },
+    "HG03834": {
+      "population": "BEB",
+      "resource": "HPRC"
+    },
+    "HG03874": {
+      "population": "ITU",
+      "resource": "HPRC"
+    },
+    "HG03927": {
+      "population": "BEB",
+      "resource": "HPRC"
+    },
+    "HG03942": {
+      "population": "BEB",
+      "resource": "HPRC"
+    },
+    "HG04115": {
+      "population": "STU",
+      "resource": "HPRC"
+    },
+    "HG04157": {
+      "population": "BEB",
+      "resource": "HPRC"
+    },
+    "HG04160": {
+      "population": "BEB",
+      "resource": "HPRC"
+    },
+    "HG04184": {
+      "population": "BEB",
+      "resource": "HPRC"
+    },
+    "HG04187": {
+      "population": "BEB",
+      "resource": "HPRC"
+    },
+    "HG04199": {
+      "population": "STU",
+      "resource": "HPRC"
+    },
+    "HG04204": {
+      "population": "STU",
+      "resource": "HPRC"
+    },
+    "HG04228": {
+      "population": "STU",
+      "resource": "HPRC"
+    },
+    "NA18565": {
+      "population": "CHB",
+      "resource": "HPRC"
+    },
+    "NA18570": {
+      "population": "CHB",
+      "resource": "HPRC"
+    },
+    "NA18608": {
+      "population": "CHB",
+      "resource": "HPRC"
+    },
+    "NA18620": {
+      "population": "CHB",
+      "resource": "HPRC"
+    },
+    "NA18747": {
+      "population": "CHB",
+      "resource": "HPRC"
+    },
+    "NA18940": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18943": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18944": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18945": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18948": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18952": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18959": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18960": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18967": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18970": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18971": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18974": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18976": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18982": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA18983": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA19087": {
+      "population": "Japanese (JPT)",
+      "resource": "HPRC"
+    },
+    "NA20850": {
+      "population": "GIH",
+      "resource": "HPRC"
+    },
+    "NA20870": {
+      "population": "GIH",
+      "resource": "HPRC"
+    },
+    "NA20905": {
+      "population": "GIH",
+      "resource": "HPRC"
+    },
+    "NA21093": {
+      "population": "GIH",
+      "resource": "HPRC"
+    },
+    "NA21102": {
+      "population": "GIH",
+      "resource": "HPRC"
+    },
+    "NA21106": {
+      "population": "GIH",
+      "resource": "HPRC"
+    },
+    "NA21110": {
+      "population": "GIH",
+      "resource": "HPRC"
+    },
+    "NA21144": {
+      "population": "GIH",
+      "resource": "HPRC"
+    },
+    "APR-F": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR-M": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR-S": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR001": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR002": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR003": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR004": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR005": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR006": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR007": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR008": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR009": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR010": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR011": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR012": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR013": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR014": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR015": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR016": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR018": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR019": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR020": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR021": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR022": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR023": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR024": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR025": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR026": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR027": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR029": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR030": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR031": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR032": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR033": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR034": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR035": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR036": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR037": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR038": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR039": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR040": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR041": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR042": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR043": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR044": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR045": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR046": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR047": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR048": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR049": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR050": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "APR051": {
+      "population": "Arab (APR; finer population metadata pending)",
+      "resource": "Arab"
+    },
+    "KSA001": {
+      "population": "Saudi Arabian",
+      "resource": "Saudi"
+    },
+    "KSA002": {
+      "population": "Saudi Arabian",
+      "resource": "Saudi"
+    },
+    "KSA003": {
+      "population": "Saudi Arabian",
+      "resource": "Saudi"
+    },
+    "KSA004": {
+      "population": "Saudi Arabian",
+      "resource": "Saudi"
+    },
+    "KSA005": {
+      "population": "Saudi Arabian",
+      "resource": "Saudi"
+    },
+    "KSA006": {
+      "population": "Saudi Arabian",
+      "resource": "Saudi"
+    },
+    "KSA007": {
+      "population": "Saudi Arabian",
+      "resource": "Saudi"
+    },
+    "KSA008": {
+      "population": "Saudi Arabian",
+      "resource": "Saudi"
+    },
+    "KSA009": {
+      "population": "Saudi Arabian",
+      "resource": "Saudi"
+    }
+  },
+  "source_sha256": {
+    "/mnt/data1/dogohla/pangenome/scientist/evidence/cohort-family-supplement-20261005/FAMILY_RECONCILIATION.json": "3043d106d4bde89db69e07f3cc4071f4a8086731bb9239582af76a8e2e95b4eb",
+    "/mnt/data1/dogohla/pangenome/scientist/evidence/apr-original-assembly-provenance-v1/SOURCE_FAMILY_CONSTRAINTS-v2.json": "7a89d04c7fd30f96173242b36dc4318785ae89154704cbe3afd0501e2d09083c",
+    "/mnt/data1/dogohla/pangenome/scientist/evidence/saudi-native-read-comparison-20261007/RELATIONSHIP_REVIEW.json": "44773033c81f658e0bd80363977f94054d99747e67b2320d156f73c796e2f5e3",
+    "/mnt/data1/dogohla/pangenome/scientist/evidence/apr-native-read-comparison-20261008/RELATIONSHIP_REVIEW.json": "230bfb4283ddf27ea2c490d767c9c60a1132ad2504ecd59261a6575d253fb69e",
+    "/mnt/data1/dogohla/pangenome/scientist/evidence/apr-extended-native-read-comparison-20261008/RELATIONSHIP_REVIEW.json": "5fb15b72265697f75391749bedc0d4891108771a7ef4d9cefe66fa6c72a54d1a"
+  },
+  "reference_release": "3.65.0",
+  "rules": [
+    "Five outer folds; donor/family components kept together; population balancing uses metadata only.",
+    "Saudi cohort conservatively kept in one block pending complete relationship review.",
+    "Known relatedness screen groups pairs with >=10000 shared sites and relatedness>=0.1; incomplete screens do not certify independence.",
+    "No held-out donor contributes sequences, labels, weights, graph paths or parameter tuning. Fixed prior mapper configuration; no tuning on outer-fold results.",
+    "This previously exposed cohort supports developmental CV, not an untouched final benchmark.",
+    "IPD is a fixed external catalogue; identical sequences independently supplied by training donors are allowed.",
+    "Primary typing target is four-field named alleles / exact gene sequence for unnamed alleles; lower-field calls do not count as four-field successes.",
+    "Real reads preferred. Simulated reads are a separately labelled experiment and are not generated here."
+  ],
+  "scientific_admission": false
+}

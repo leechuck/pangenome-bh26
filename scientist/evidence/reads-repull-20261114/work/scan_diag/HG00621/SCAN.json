@@ -1,0 +1,246 @@
+{
+  "donor": "HG00621",
+  "col_range": [
+    0,
+    1000000000
+  ],
+  "pass1": [
+    "HLA-DRB1*09:01:02:03",
+    "HLA-DRB1*11:01:01:01"
+  ],
+  "hit_records": 121,
+  "copies": [
+    {
+      "hap": "1",
+      "ipd_absent": true,
+      "own_reads_all": 15,
+      "own_reads_in_hole": 15,
+      "own_pairs_in_hole": 15,
+      "in_hole_in_recruited_fastq": 1,
+      "in_hole_pulled_by_rule": 1,
+      "in_hole_contig_class": {
+        "other:chr2": 6,
+        "other:chr1": 2,
+        "other:chr15": 2,
+        "other:chrX": 2,
+        "other:chr3": 1,
+        "chr6 outside MHC": 1,
+        "other:chr19": 1
+      },
+      "in_hole_contig": {
+        "chr2": 6,
+        "chr1": 2,
+        "chr15": 2,
+        "chrX": 2,
+        "chr3": 1,
+        "chr6": 1,
+        "chr19": 1
+      },
+      "in_hole_mate_contig": {
+        "chr3": 3,
+        "chrX": 2,
+        "chr2": 2,
+        "chr4": 2,
+        "chr6": 2,
+        "chr7": 2,
+        "HLA-DRB1*07:01:01:02": 1,
+        "chr9": 1
+      },
+      "in_hole_mapq": {
+        "0": 12,
+        "1-19": 3
+      },
+      "in_hole_proper_pair": 0,
+      "in_hole_better_than_pass1": 15,
+      "in_hole_not_recruited": 14,
+      "in_hole_not_recruited_contig_class": {
+        "other:chr2": 5,
+        "other:chr1": 2,
+        "other:chr15": 2,
+        "other:chrX": 2,
+        "other:chr3": 1,
+        "chr6 outside MHC": 1,
+        "other:chr19": 1
+      },
+      "in_hole_not_recruited_positions": [
+        [
+          "chr1",
+          62249543,
+          0,
+          "chr2",
+          40492142,
+          81,
+          5761
+        ],
+        [
+          "chr1",
+          62249543,
+          0,
+          "chrX",
+          114788268,
+          145,
+          5742
+        ],
+        [
+          "chr15",
+          87384512,
+          0,
+          "chr3",
+          64795574,
+          81,
+          5708
+        ],
+        [
+          "chr15",
+          87384512,
+          0,
+          "chr3",
+          64795576,
+          145,
+          5701
+        ],
+        [
+          "chr19",
+          39687338,
+          0,
+          "chr7",
+          145011263,
+          81,
+          5689
+        ],
+        [
+          "chr2",
+          73216959,
+          0,
+          "chr3",
+          67947315,
+          97,
+          5704
+        ],
+        [
+          "chr2",
+          73216959,
+          0,
+          "chr6",
+          21385479,
+          161,
+          5714
+        ],
+        [
+          "chr2",
+          73216959,
+          0,
+          "chr6",
+          21385479,
+          1121,
+          5714
+        ],
+        [
+          "chr2",
+          73216959,
+          8,
+          "chr4",
+          3456403,
+          161,
+          5763
+        ],
+        [
+          "chr2",
+          73216959,
+          10,
+          "chr4",
+          3456380,
+          161,
+          5761
+        ],
+        [
+          "chr3",
+          12093857,
+          0,
+          "chr2",
+          40492142,
+          81,
+          5761
+        ],
+        [
+          "chr6",
+          108088864,
+          0,
+          "chr7",
+          145011265,
+          81,
+          5652
+        ],
+        [
+          "chrX",
+          123987486,
+          0,
+          "chrX",
+          101941887,
+          81,
+          5644
+        ],
+        [
+          "chrX",
+          123987487,
+          0,
+          "chr9",
+          39670013,
+          97,
+          5645
+        ]
+      ],
+      "in_hole_recruited_positions_sample": [
+        [
+          "chr2",
+          73216959,
+          1,
+          5737
+        ]
+      ],
+      "diag_reads_by_col500_recruited_vs_not": {
+        "5500": [
+          1,
+          14
+        ]
+      },
+      "diag_reads_recruited": 1,
+      "diag_reads_not_recruited": 14,
+      "diag_not_recruited_contig_class": {
+        "chr2": 5,
+        "chr1": 2,
+        "chr15": 2,
+        "chrX": 2,
+        "chr3": 1,
+        "chr6": 1,
+        "chr19": 1
+      }
+    },
+    {
+      "hap": "2",
+      "ipd_absent": false,
+      "own_reads_all": 0,
+      "own_reads_in_hole": 0,
+      "own_pairs_in_hole": 0,
+      "in_hole_in_recruited_fastq": 0,
+      "in_hole_pulled_by_rule": 0,
+      "in_hole_contig_class": {},
+      "in_hole_contig": {},
+      "in_hole_mate_contig": {},
+      "in_hole_mapq": {},
+      "in_hole_proper_pair": 0,
+      "in_hole_better_than_pass1": 0,
+      "in_hole_not_recruited": 0,
+      "in_hole_not_recruited_contig_class": {},
+      "in_hole_not_recruited_positions": [],
+      "in_hole_recruited_positions_sample": [],
+      "diag_reads_by_col500_recruited_vs_not": {},
+      "diag_reads_recruited": 0,
+      "diag_reads_not_recruited": 0,
+      "diag_not_recruited_contig_class": {}
+    }
+  ],
+  "primary_hit_records": 98,
+  "prefilter": "edlib only for reads with >= 50% of their 25-mers (either orientation) in the true copies",
+  "prefilter_passed": 16
+}

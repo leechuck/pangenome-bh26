@@ -1,0 +1,3 @@
+readset	donor	gene	variant	copy	cls	ipd_absent	called_row	col_start	col_end	named	kind	len_true	len_called	testable	true_in_stored_path	true_is_walk	reads_true	reads_true_exact	reads_true_edit	reads_true_unmapped	reads_called	window_in_stored_path	window_is_walk	reads_given_to_giraffe	reads_mapped	giraffe_seconds
+D-real	HG00558	DRB1	ipd	1	mosaic	True	275	5785	5785	homopolymer_5785	length	31	30	True	True	True	6	6	0	0	0	True	True	12	12	1.3
+D-real	HG00558	DRB1	ipd_cohort	1	mosaic	True	275	5785	5785	homopolymer_5785	length	31	30	True	True	True	6	6	0	0	0	True	True	12	12	1.2

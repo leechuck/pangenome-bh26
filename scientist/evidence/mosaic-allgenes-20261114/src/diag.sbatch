@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --account=pi-hohndor
+#SBATCH --partition=debug
+#SBATCH --job-name=drb1-diag
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=24G
+#SBATCH --time=02:00:00
+#SBATCH --output=/encrypted/e3008/hohndor-dogohla-20261020/mosaic-drb1-20261113/logs/%x_%A_%a.out
+#SBATCH --error=/encrypted/e3008/hohndor-dogohla-20261020/mosaic-drb1-20261113/logs/%x_%A_%a.err
+# usage: sbatch --array=0-39%10 diag.sbatch <script.py> <tasks.txt>   (tasks.txt: "READSET DONOR" per line)
+set -euo pipefail
+S2=/encrypted/e3008/hohndor-dogohla-20261020/mosaic-drb1-20261113
+export TMPDIR=$S2/tmp PYTHONNOUSERSITE=1
+umask 0002
+module load singularity/3.9.7
+export SINGULARITYENV_TMPDIR=$S2/tmp
+PY=/encrypted/e3008/hohndor-dogohla-20261020/mosaic-read-mapping-20261104/env/bin/python
+line=$(sed -n "$((SLURM_ARRAY_TASK_ID+1))p" "$2")
+echo "host $(hostname) task $SLURM_ARRAY_TASK_ID: $line"
+exec $PY $S2/src/$1 $line

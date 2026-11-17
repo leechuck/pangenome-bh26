@@ -1,0 +1,83 @@
+{
+  "donor": "NA18970",
+  "readset": "D-real3",
+  "arm": "C3",
+  "panel_arm": "C",
+  "params": {
+    "max_edit": 2,
+    "sup_share": 0.25,
+    "min_sup": 3,
+    "cur_ratio": 0.25,
+    "het_share": 0.3,
+    "pile": 2.5,
+    "max_indel_cols": 150,
+    "hom_ratio": 1.5,
+    "blind_min_run": 100,
+    "blind_near": 150,
+    "blind_max_nm": 2,
+    "n_max": 4,
+    "family_theta": 0.01
+  },
+  "expected_depth": 40.0,
+  "pass1": [
+    "HLA-DRB1*04:01:01:01",
+    "HLA-DRB1*14:05:01:02"
+  ],
+  "same_family": false,
+  "reads_assigned": 11193,
+  "reads_used": 10009,
+  "haplotypes": [
+    {
+      "pass1_allele": "HLA-DRB1*04:01:01:01",
+      "family_rows": 91,
+      "events": 91,
+      "resolvable": 87,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [
+        {
+          "event": 70,
+          "cl": 13855,
+          "cr": 13885,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 4,
+          "fwd_rev": [
+            2,
+            2
+          ],
+          "cur_total": 27,
+          "exp_h": 15.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "18176fc62a5d15b9",
+          "cur_sha": "bb494890f6c04cb2",
+          "n_rows_new": 1,
+          "n_rows_cur": 90,
+          "thr": 4.0,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        }
+      ],
+      "decision": "no_patch"
+    },
+    {
+      "pass1_allele": "HLA-DRB1*14:05:01:02",
+      "family_rows": 299,
+      "events": 315,
+      "resolvable": 307,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [],
+      "decision": "no_patch"
+    }
+  ],
+  "confounded_windows_loaded": 13
+}

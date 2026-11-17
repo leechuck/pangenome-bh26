@@ -1,0 +1,22 @@
+{
+  "donor": "HG02080",
+  "col_range": [
+    0,
+    1000000000
+  ],
+  "copies": [
+    {
+      "hap": "1",
+      "copy_start": 0,
+      "copy_end": 13818,
+      "kmers": 0
+    },
+    {
+      "hap": "2",
+      "copy_start": 0,
+      "copy_end": 16115,
+      "kmers": 0
+    }
+  ],
+  "patterns": 0
+}

@@ -1,0 +1,736 @@
+{
+  "donor": "HG02015",
+  "readset": "D-real2",
+  "arm": "C3",
+  "panel_arm": "C",
+  "params": {
+    "max_edit": 2,
+    "sup_share": 0.25,
+    "min_sup": 3,
+    "cur_ratio": 0.25,
+    "het_share": 0.3,
+    "pile": 2.5,
+    "max_indel_cols": 150,
+    "hom_ratio": 1.5,
+    "blind_min_run": 100,
+    "blind_near": 150,
+    "blind_max_nm": 2,
+    "n_max": 4,
+    "family_theta": 0.01
+  },
+  "expected_depth": 582.0,
+  "pass1": [
+    "HLA-DRB1*09:01:02:06",
+    "HLA-DRB1*09:01:02:05"
+  ],
+  "same_family": true,
+  "reads_assigned": 6819490,
+  "reads_used": 6073242,
+  "haplotypes": [
+    {
+      "pass1_allele": "HLA-DRB1*09:01:02:06",
+      "family_rows": 54,
+      "events": 193,
+      "resolvable": 190,
+      "blind_regions": [
+        [
+          691,
+          968
+        ],
+        [
+          1168,
+          1781
+        ],
+        [
+          1943,
+          3078
+        ],
+        [
+          5399,
+          14984
+        ],
+        [
+          15216,
+          15499
+        ],
+        [
+          15632,
+          16393
+        ],
+        [
+          16547,
+          18059
+        ]
+      ],
+      "n_blind": 7,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [
+        {
+          "event": 37,
+          "cl": 3419,
+          "cr": 3449,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 2597,
+          "fwd_rev": [
+            1331,
+            1266
+          ],
+          "cur_total": 0,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "188ff0c0869f1c51",
+          "cur_sha": "4e76a8f3a8248328",
+          "n_rows_new": 15,
+          "n_rows_cur": 39,
+          "thr": 57.7,
+          "kind": "pile_up"
+        },
+        {
+          "event": 40,
+          "cl": 3804,
+          "cr": 3834,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 82,
+          "fwd_rev": [
+            35,
+            47
+          ],
+          "cur_total": 3747,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "c3d15bd9df01efc4",
+          "cur_sha": "675b33b5f1cbc190",
+          "n_rows_new": 2,
+          "n_rows_cur": 52,
+          "thr": 57.7,
+          "shared": true,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 41,
+          "cl": 3862,
+          "cr": 3894,
+          "len_cur": 33,
+          "len_new": 32,
+          "n_new": 1041,
+          "fwd_rev": [
+            482,
+            559
+          ],
+          "cur_total": 28,
+          "exp_h": 227.0,
+          "n_versions": 3,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "85d5cd7a5a576a2d",
+          "cur_sha": "25ede902d3190e4e",
+          "n_rows_new": 37,
+          "n_rows_cur": 2,
+          "thr": 56.7,
+          "kind": "pile_up"
+        },
+        {
+          "event": 42,
+          "cl": 3899,
+          "cr": 3930,
+          "len_cur": 32,
+          "len_new": 32,
+          "n_new": 678,
+          "fwd_rev": [
+            407,
+            271
+          ],
+          "cur_total": 2,
+          "exp_h": 228.9,
+          "n_versions": 3,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "1424e946ecffb060",
+          "cur_sha": "d905ad4047ef43ad",
+          "n_rows_new": 15,
+          "n_rows_cur": 38,
+          "thr": 57.2,
+          "kind": "pile_up"
+        },
+        {
+          "event": 45,
+          "cl": 4109,
+          "cr": 4139,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 317,
+          "fwd_rev": [
+            166,
+            151
+          ],
+          "cur_total": 46811,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "85670cf5c6de32d1",
+          "cur_sha": "c9d3fa73074d6240",
+          "n_rows_new": 37,
+          "n_rows_cur": 17,
+          "thr": 57.7,
+          "shared": true,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 50,
+          "cl": 4497,
+          "cr": 4527,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 92,
+          "fwd_rev": [
+            51,
+            41
+          ],
+          "cur_total": 14515,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "49c813dd77423fa2",
+          "cur_sha": "e6a50c77f9910c68",
+          "n_rows_new": 15,
+          "n_rows_cur": 39,
+          "thr": 57.7,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 51,
+          "cl": 4552,
+          "cr": 4582,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 1437,
+          "fwd_rev": [
+            688,
+            749
+          ],
+          "cur_total": 45327,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "ea76c2f5792ae0e7",
+          "cur_sha": "49a1c13179c47f96",
+          "n_rows_new": 15,
+          "n_rows_cur": 39,
+          "thr": 57.7,
+          "kind": "pile_up"
+        },
+        {
+          "event": 52,
+          "cl": 4595,
+          "cr": 4625,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 527,
+          "fwd_rev": [
+            234,
+            293
+          ],
+          "cur_total": 51320,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "5a81cfeaaf9352c5",
+          "cur_sha": "79b2c45883b2bf58",
+          "n_rows_new": 37,
+          "n_rows_cur": 17,
+          "thr": 57.7,
+          "shared": true,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 54,
+          "cl": 4839,
+          "cr": 4869,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 127,
+          "fwd_rev": [
+            73,
+            54
+          ],
+          "cur_total": 15514,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "fde9c09ebf3028ac",
+          "cur_sha": "62d971547cd3592f",
+          "n_rows_new": 2,
+          "n_rows_cur": 52,
+          "thr": 57.7,
+          "shared": true,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 55,
+          "cl": 4912,
+          "cr": 4945,
+          "len_cur": 34,
+          "len_new": 34,
+          "n_new": 51172,
+          "fwd_rev": [
+            25586,
+            25586
+          ],
+          "cur_total": 52,
+          "exp_h": 225.0,
+          "n_versions": 5,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "0e46de5dee418a77",
+          "cur_sha": "cc1a7002c0747c38",
+          "n_rows_new": 1,
+          "n_rows_cur": 2,
+          "thr": 56.3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 60,
+          "cl": 5288,
+          "cr": 5318,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 137,
+          "fwd_rev": [
+            73,
+            64
+          ],
+          "cur_total": 193,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "d1ee8a83849355b1",
+          "cur_sha": "b95ed73976f29de6",
+          "n_rows_new": 52,
+          "n_rows_cur": 2,
+          "thr": 57.7,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        }
+      ],
+      "decision": "no_patch"
+    },
+    {
+      "pass1_allele": "HLA-DRB1*09:01:02:05",
+      "family_rows": 54,
+      "events": 193,
+      "resolvable": 191,
+      "blind_regions": [
+        [
+          691,
+          968
+        ],
+        [
+          1168,
+          1781
+        ],
+        [
+          1943,
+          3078
+        ],
+        [
+          5399,
+          14984
+        ],
+        [
+          15216,
+          15499
+        ],
+        [
+          15632,
+          16393
+        ],
+        [
+          16547,
+          18059
+        ]
+      ],
+      "n_blind": 7,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [
+        {
+          "event": 39,
+          "cl": 3715,
+          "cr": 3745,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 63,
+          "fwd_rev": [
+            32,
+            31
+          ],
+          "cur_total": 72968,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "8ce4aa90724ed445",
+          "cur_sha": "8056b5e411e4cc86",
+          "n_rows_new": 37,
+          "n_rows_cur": 17,
+          "thr": 57.7,
+          "shared": true,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 40,
+          "cl": 3804,
+          "cr": 3834,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 472,
+          "fwd_rev": [
+            236,
+            236
+          ],
+          "cur_total": 8266,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "c3d15bd9df01efc4",
+          "cur_sha": "675b33b5f1cbc190",
+          "n_rows_new": 2,
+          "n_rows_cur": 52,
+          "thr": 57.7,
+          "shared": true,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 41,
+          "cl": 3862,
+          "cr": 3894,
+          "len_cur": 32,
+          "len_new": 32,
+          "n_new": 3592,
+          "fwd_rev": [
+            1737,
+            1855
+          ],
+          "cur_total": 636,
+          "exp_h": 227.0,
+          "n_versions": 3,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "85d5cd7a5a576a2d",
+          "cur_sha": "9b3d0f76f9dd938a",
+          "n_rows_new": 37,
+          "n_rows_cur": 15,
+          "thr": 56.7,
+          "kind": "pile_up"
+        },
+        {
+          "event": 44,
+          "cl": 4013,
+          "cr": 4043,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 374,
+          "fwd_rev": [
+            200,
+            174
+          ],
+          "cur_total": 12107,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "51c9d0090e6f5fd1",
+          "cur_sha": "aeb4cd617af9bf22",
+          "n_rows_new": 39,
+          "n_rows_cur": 15,
+          "thr": 57.7,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 45,
+          "cl": 4109,
+          "cr": 4139,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 258,
+          "fwd_rev": [
+            144,
+            114
+          ],
+          "cur_total": 40806,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "85670cf5c6de32d1",
+          "cur_sha": "c9d3fa73074d6240",
+          "n_rows_new": 37,
+          "n_rows_cur": 17,
+          "thr": 57.7,
+          "shared": true,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 51,
+          "cl": 4552,
+          "cr": 4582,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 159,
+          "fwd_rev": [
+            87,
+            72
+          ],
+          "cur_total": 171,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "49a1c13179c47f96",
+          "cur_sha": "ea76c2f5792ae0e7",
+          "n_rows_new": 39,
+          "n_rows_cur": 15,
+          "thr": 57.7,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 54,
+          "cl": 4839,
+          "cr": 4869,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 131,
+          "fwd_rev": [
+            74,
+            57
+          ],
+          "cur_total": 16463,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "fde9c09ebf3028ac",
+          "cur_sha": "62d971547cd3592f",
+          "n_rows_new": 2,
+          "n_rows_cur": 52,
+          "thr": 57.7,
+          "shared": true,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 55,
+          "cl": 4912,
+          "cr": 4945,
+          "len_cur": 34,
+          "len_new": 34,
+          "n_new": 35660,
+          "fwd_rev": [
+            17776,
+            17884
+          ],
+          "cur_total": 37,
+          "exp_h": 225.0,
+          "n_versions": 5,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "0e46de5dee418a77",
+          "cur_sha": "25c980d180f46827",
+          "n_rows_new": 1,
+          "n_rows_cur": 15,
+          "thr": 56.3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 56,
+          "cl": 4930,
+          "cr": 4960,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 13135,
+          "fwd_rev": [
+            6378,
+            6757
+          ],
+          "cur_total": 54,
+          "exp_h": 230.9,
+          "n_versions": 3,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "e2b65ee65cde8ba4",
+          "cur_sha": "aaee2711749652d9",
+          "n_rows_new": 38,
+          "n_rows_cur": 15,
+          "thr": 57.7,
+          "kind": "pile_up"
+        },
+        {
+          "event": 35,
+          "cl": 3324,
+          "cr": 3354,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 468,
+          "fwd_rev": [
+            237,
+            231
+          ],
+          "cur_total": 16,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "d01cb75d2ad0d692",
+          "cur_sha": "7f0d7da2573cc93a",
+          "n_rows_new": 39,
+          "n_rows_cur": 15,
+          "thr": 57.7,
+          "shared": false,
+          "kind": "confounded_event",
+          "donor_row": 0
+        },
+        {
+          "event": 50,
+          "cl": 4497,
+          "cr": 4527,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 334,
+          "fwd_rev": [
+            180,
+            154
+          ],
+          "cur_total": 46,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "e6a50c77f9910c68",
+          "cur_sha": "49c813dd77423fa2",
+          "n_rows_new": 39,
+          "n_rows_cur": 15,
+          "thr": 57.7,
+          "shared": false,
+          "kind": "confounded_event",
+          "donor_row": 0
+        },
+        {
+          "event": 53,
+          "cl": 4621,
+          "cr": 4661,
+          "len_cur": 41,
+          "len_new": 41,
+          "n_new": 517,
+          "fwd_rev": [
+            210,
+            307
+          ],
+          "cur_total": 13,
+          "exp_h": 211.5,
+          "n_versions": 3,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "4e5a58a62d001cf8",
+          "cur_sha": "c895b89e96f870c0",
+          "n_rows_new": 39,
+          "n_rows_cur": 14,
+          "thr": 52.9,
+          "shared": false,
+          "kind": "confounded_event",
+          "donor_row": 0
+        },
+        {
+          "event": 57,
+          "cl": 4984,
+          "cr": 5014,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 80,
+          "fwd_rev": [
+            38,
+            42
+          ],
+          "cur_total": 0,
+          "exp_h": 230.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "91b3f70dee98c601",
+          "cur_sha": "c6c6f92c78d62bb6",
+          "n_rows_new": 39,
+          "n_rows_cur": 15,
+          "thr": 57.7,
+          "shared": false,
+          "kind": "confounded_event",
+          "donor_row": 0
+        }
+      ],
+      "decision": "no_patch"
+    }
+  ],
+  "confounded_windows_loaded": 13
+}

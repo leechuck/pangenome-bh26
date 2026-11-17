@@ -1,0 +1,76 @@
+== ag_regress.py regress2
+{"tasks": 60, "hap": 120, "same_hap": 120, "same_sha": 120, "same_ov": 60, "same_add": 60, "missing": 0}
+== ag_proposals_table.py main
+939 haplotype rows 60 tasks
+== ag_eval_patches.py main D-sim,D-real C
+D-real	C	applied	own_version_unsupported	new_is_truth	2
+D-real	C	applied	shared_with_partner	new_is_truth	2
+D-real	C	rejected	confounded_event	cur_is_truth	1
+D-real	C	rejected	confounded_event	neither	1
+D-real	DPA1	applied	own_version_unsupported	new_is_truth	5
+D-real	DPA1	applied	shared_with_partner	new_is_truth	2
+D-real	DPA1	rejected	own_version_still_supported	cur_is_truth	8
+D-real	DPB1	applied	same_family_phase_unknown	cur_is_truth	1
+D-real	DPB1	applied	same_family_phase_unknown	new_is_truth	1
+D-real	DPB1	applied	shared_with_partner	new_is_truth	2
+D-real	DQA1	applied	own_version_unsupported	new_is_truth	13
+D-real	DQA1	applied	shared_with_partner	new_is_truth	2
+D-real	DQA1	rejected	own_version_still_supported	cur_is_truth	1
+D-real	DQA1	rejected	own_version_still_supported	neither	7
+D-real	DQB1	applied	shared_with_partner	new_is_truth	1
+D-real	DRB1	applied	own_version_unsupported	new_is_truth	13
+D-real	DRB1	applied	same_family_phase_unknown	neither	1
+D-real	DRB1	applied	same_family_phase_unknown	new_is_truth	1
+D-real	DRB1	rejected	confounded_event	cur_is_truth	15
+D-real	DRB1	rejected	own_version_still_supported	cur_is_truth	19
+D-real	DRB1	rejected	own_version_still_supported	neither	1
+D-real	DRB1	rejected	pile_up	cur_is_truth	17
+D-sim	C	applied	own_version_unsupported	new_is_truth	3
+D-sim	C	applied	shared_with_partner	new_is_truth	2
+D-sim	C	rejected	confounded_event	new_is_truth	1
+D-sim	C	rejected	own_version_still_supported	cur_is_truth	4
+D-sim	DPA1	applied	own_version_unsupported	new_is_truth	3
+D-sim	DPA1	applied	shared_with_partner	cur_is_truth	8
+D-sim	DPA1	applied	shared_with_partner	new_is_truth	7
+D-sim	DPA1	rejected	confounded_event	new_is_truth	2
+D-sim	DPA1	rejected	own_version_still_supported	cur_is_truth	14
+D-sim	DPB1	applied	own_version_unsupported	new_is_truth	1
+D-sim	DPB1	rejected	own_version_still_supported	cur_is_truth	1
+D-sim	DQA1	applied	own_version_unsupported	new_is_truth	12
+D-sim	DQA1	applied	shared_with_partner	new_is_truth	2
+D-sim	DQA1	rejected	own_version_still_supported	cur_is_truth	1
+D-sim	DQA1	rejected	own_version_still_supported	neither	8
+D-sim	DQB1	applied	shared_with_partner	new_is_truth	1
+D-sim	DRB1	applied	own_version_unsupported	new_is_truth	26
+D-sim	DRB1	applied	shared_with_partner	cur_is_truth	6
+D-sim	DRB1	applied	shared_with_partner	new_is_truth	2
+D-sim	DRB1	rejected	own_version_still_supported	cur_is_truth	36
+D-sim	DRB1	rejected	own_version_still_supported	neither	1
+D-sim	DRB1	rejected	own_version_still_supported	new_is_truth	2
+D-sim	DRB1	rejected	pile_up	cur_is_truth	20
+== ag_eval_patches.py main D-real D
+D-real	C	applied	own_version_unsupported	new_is_truth	2
+D-real	C	applied	shared_with_partner	new_is_truth	2
+D-real	C	rejected	confounded_event	cur_is_truth	1
+D-real	C	rejected	confounded_event	neither	1
+D-real	DPA1	applied	own_version_unsupported	new_is_truth	7
+D-real	DPA1	applied	shared_with_partner	cur_is_truth	11
+D-real	DPA1	applied	shared_with_partner	new_is_truth	13
+D-real	DPA1	rejected	own_version_still_supported	cur_is_truth	10
+D-real	DPA1	rejected	own_version_still_supported	new_is_truth	2
+D-real	DPB1	applied	same_family_phase_unknown	cur_is_truth	1
+D-real	DPB1	applied	same_family_phase_unknown	new_is_truth	1
+D-real	DPB1	applied	shared_with_partner	cur_is_truth	43
+D-real	DPB1	rejected	own_version_still_supported	cur_is_truth	3
+D-real	DQA1	applied	own_version_unsupported	new_is_truth	6
+D-real	DQA1	applied	shared_with_partner	new_is_truth	1
+D-real	DQA1	rejected	own_version_still_supported	cur_is_truth	1
+D-real	DQA1	rejected	own_version_still_supported	neither	7
+D-real	DQB1	applied	shared_with_partner	new_is_truth	1
+D-real	DRB1	applied	own_version_unsupported	new_is_truth	13
+D-real	DRB1	rejected	confounded_event	cur_is_truth	17
+D-real	DRB1	rejected	own_version_still_supported	cur_is_truth	20
+D-real	DRB1	rejected	own_version_still_supported	neither	1
+D-real	DRB1	rejected	pile_up	cur_is_truth	17
+== ag_score.py main D-sim,D-real A,B,C4,C4R1,C4R1n,C4R2,C4R2n,C4R3,C4R3n,D4,D4R1,D4R1n,D4R2,D4R2n,D4R3,D4R3n
+7680 rows; 0 incomplete arm tables

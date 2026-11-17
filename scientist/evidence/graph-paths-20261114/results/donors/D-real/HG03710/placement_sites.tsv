@@ -1,0 +1,15 @@
+readset	donor	gene	variant	copy	cls	ipd_absent	called_row	col_start	col_end	named	kind	len_true	len_called	testable	true_in_stored_path	true_is_walk	reads_true	reads_true_exact	reads_true_edit	reads_true_unmapped	reads_called	window_in_stored_path	window_is_walk	reads_given_to_giraffe	reads_mapped	giraffe_seconds
+D-real	HG03710	DRB1	ipd	1	near-mosaic	True	202	9091	9091	-	substitution	31	31	True	True	True	8	8	0	0	0	True	True	274	231	10.6
+D-real	HG03710	DRB1	ipd	1	near-mosaic	True	202	17785	17786	-	length	32	24	True	True	True	7	7	0	0	0	False	True	274	231	10.6
+D-real	HG03710	DRB1	ipd	1	near-mosaic	True	202	17801	17806	-	length	36	28	True	True	True	9	9	0	0	0	False	False	274	231	10.6
+D-real	HG03710	DRB1	ipd	1	near-mosaic	True	202	17857	17857	-	length	31	27	True	True	True	35	32	0	3	4	False	False	274	231	10.6
+D-real	HG03710	DRB1	ipd	1	near-mosaic	True	202	17940	17942	-	length	33	29	True	True	True	34	31	0	3	4	False	False	274	231	10.6
+D-real	HG03710	DRB1	ipd	2	mosaic	True	522	12005	12006	intron2_repeat	length	30	32	True	True	True	89	87	0	2	0	True	True	274	231	10.6
+D-real	HG03710	DRB1	ipd_cohort	1	near-mosaic	True	202	9091	9091	-	substitution	31	31	True	True	True	8	8	0	0	0	True	True	274	231	12.4
+D-real	HG03710	DRB1	ipd_cohort	1	near-mosaic	True	202	17785	17786	-	length	32	24	True	True	True	7	7	0	0	0	False	True	274	231	12.4
+D-real	HG03710	DRB1	ipd_cohort	1	near-mosaic	True	202	17801	17806	-	length	36	28	True	True	True	9	9	0	0	0	False	False	274	231	12.4
+D-real	HG03710	DRB1	ipd_cohort	1	near-mosaic	True	202	17857	17857	-	length	31	27	True	True	True	35	32	0	3	4	False	False	274	231	12.4
+D-real	HG03710	DRB1	ipd_cohort	1	near-mosaic	True	202	17940	17942	-	length	33	29	True	True	True	34	31	0	3	4	False	False	274	231	12.4
+D-real	HG03710	DRB1	ipd_cohort	2	mosaic	True	522	12005	12006	intron2_repeat	length	30	32	True	True	True	89	87	0	2	0	True	True	274	231	12.4
+D-real	HG03710	DQA1	ipd	2	mosaic	True	130	5566	5566	-	substitution	31	31	True	True	True	41	29	12	0	0	True	True	80	79	1.4
+D-real	HG03710	DQA1	ipd_cohort	2	mosaic	True	130	5566	5566	-	substitution	31	31	True	True	True	41	34	7	0	0	True	True	80	79	1.4

@@ -1,0 +1,15 @@
+readset	donor	gene	variant	copy	cls	ipd_absent	called_row	col_start	col_end	named	kind	len_true	len_called	testable	true_in_stored_path	true_is_walk	reads_true	reads_true_exact	reads_true_edit	reads_true_unmapped	reads_called	window_in_stored_path	window_is_walk	reads_given_to_giraffe	reads_mapped	giraffe_seconds
+D-real	HG02015	DRB1	ipd	1	exact	False	657	12359	12360	-	substitution	32	32	True	True	True	9	9	0	0	0	True	True	218	197	3.3
+D-real	HG02015	DRB1	ipd	2	mosaic	True	159	5788	5789	homopolymer_5785	length	32	30	True	True	True	1	1	0	0	0	True	True	218	197	3.3
+D-real	HG02015	DRB1	ipd	2	mosaic	True	159	8345	8347	-	length	32	30	True	True	True	10	10	0	0	0	True	True	218	197	3.3
+D-real	HG02015	DRB1	ipd	2	mosaic	True	159	9607	9611	-	length	35	30	True	True	True	12	12	0	0	0	True	True	218	197	3.3
+D-real	HG02015	DRB1	ipd	2	mosaic	True	159	11940	11943	intron2_repeat	length	34	30	True	True	True	9	9	0	0	0	True	True	218	197	3.3
+D-real	HG02015	DRB1	ipd	2	mosaic	True	159	12004	12004	intron2_repeat	substitution	31	31	True	True	True	55	52	2	1	14	False	True	218	197	3.3
+D-real	HG02015	DRB1	ipd	2	mosaic	True	159	12741	12741	-	length	31	30	True	True	True	5	5	0	0	0	True	True	218	197	3.3
+D-real	HG02015	DRB1	ipd_cohort	1	exact	False	657	12359	12360	-	substitution	32	32	True	True	True	9	9	0	0	0	True	True	218	197	4.3
+D-real	HG02015	DRB1	ipd_cohort	2	mosaic	True	159	5788	5789	homopolymer_5785	length	32	30	True	True	True	1	1	0	0	0	True	True	218	197	4.3
+D-real	HG02015	DRB1	ipd_cohort	2	mosaic	True	159	8345	8347	-	length	32	30	True	True	True	10	10	0	0	0	True	True	218	197	4.3
+D-real	HG02015	DRB1	ipd_cohort	2	mosaic	True	159	9607	9611	-	length	35	30	True	True	True	12	12	0	0	0	True	True	218	197	4.3
+D-real	HG02015	DRB1	ipd_cohort	2	mosaic	True	159	11940	11943	intron2_repeat	length	34	30	True	True	True	9	9	0	0	0	True	True	218	197	4.3
+D-real	HG02015	DRB1	ipd_cohort	2	mosaic	True	159	12004	12004	intron2_repeat	substitution	31	31	True	True	True	55	52	2	1	14	False	True	218	197	4.3
+D-real	HG02015	DRB1	ipd_cohort	2	mosaic	True	159	12741	12741	-	length	31	30	True	True	True	5	5	0	0	0	True	True	218	197	4.3

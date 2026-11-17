@@ -1,0 +1,13 @@
+readset	donor	gene	variant	copy	ipd_absent	cls	body_len	dist	exact	picked_named	picked_stored	route_is_stored_path	h	alignments	rounds	seconds	error
+D-real	HG02392	DRB1	ipd	1	True	mosaic	10645	10645	False	False	False	False				900.9	CalledProcessError(-9, ['timeout', '-s', 'KILL', '900', 'singularity', 'exec', '--cleanenv', '--no-home', '--pwd', '/encrypted/e3008/hohndor-dogohla-20261020/graph-paths-20261114/work/D-real/HG02392/D
+D-real	HG02392	DRB1	ipd	2	False	exact	10648	10648	False	False	False	False				900.9	CalledProcessError(-9, ['timeout', '-s', 'KILL', '900', 'singularity', 'exec', '--cleanenv', '--no-home', '--pwd', '/encrypted/e3008/hohndor-dogohla-20261020/graph-paths-20261114/work/D-real/HG02392/D
+D-real	HG02392	DRB1	ipd_cohort	1	True	mosaic	10645	8	False	False	False	False	21.0	5342	2	82.5	
+D-real	HG02392	DRB1	ipd_cohort	2	False	exact	10648	99	False	False	False	False	21.0	5342	2	82.6	
+D-real	HG02392	DQA1	ipd	1	False	exact	5308	1	False	False	False	False	19.0	1721	2	223.6	
+D-real	HG02392	DQA1	ipd	2	False	exact	5308	21	False	False	False	False	19.0	1721	2	223.6	
+D-real	HG02392	DQA1	ipd_cohort	1	False	exact	5308	1	False	False	False	False	19.0	1721	2	2.4	
+D-real	HG02392	DQA1	ipd_cohort	2	False	exact	5308	21	False	False	False	False	19.0	1721	2	2.4	
+D-real	HG02392	B	ipd	1	False	exact	2677	2	False	False	False	False	21.0	1192	2	23.8	
+D-real	HG02392	B	ipd	2	False	exact	2676	0	True	True	True	False	21.0	1192	2	23.9	
+D-real	HG02392	B	ipd_cohort	1	False	exact	2677	2	False	False	False	False	21.0	1192	2	24.9	
+D-real	HG02392	B	ipd_cohort	2	False	exact	2676	0	True	True	True	False	21.0	1192	2	25.0	

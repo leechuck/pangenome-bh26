@@ -1,0 +1,207 @@
+{
+  "donor": "HG03804",
+  "readset": "D-real3",
+  "arm": "C3",
+  "panel_arm": "C",
+  "params": {
+    "max_edit": 2,
+    "sup_share": 0.25,
+    "min_sup": 3,
+    "cur_ratio": 0.25,
+    "het_share": 0.3,
+    "pile": 2.5,
+    "max_indel_cols": 150,
+    "hom_ratio": 1.5,
+    "blind_min_run": 100,
+    "blind_near": 150,
+    "blind_max_nm": 2,
+    "n_max": 4,
+    "family_theta": 0.01
+  },
+  "expected_depth": 38.0,
+  "pass1": [
+    "HLA-DRB1*15:01:01:02",
+    "HLA-DRB1*15:04"
+  ],
+  "same_family": true,
+  "reads_assigned": 5652,
+  "reads_used": 5308,
+  "haplotypes": [
+    {
+      "pass1_allele": "HLA-DRB1*15:01:01:02",
+      "family_rows": 94,
+      "events": 99,
+      "resolvable": 98,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 1,
+      "patches": [
+        {
+          "event": 53,
+          "cl": 11878,
+          "cr": 12024,
+          "len_cur": 77,
+          "len_new": 75,
+          "n_new": 9,
+          "fwd_rev": [
+            4,
+            5
+          ],
+          "cur_total": 0,
+          "exp_h": 7.5,
+          "n_versions": 19,
+          "anchor": [
+            25,
+            45
+          ],
+          "new_sha": "da75d12bdb9f159a",
+          "cur_sha": "3f4f846124f2c82a",
+          "n_rows_new": 1,
+          "n_rows_cur": 11,
+          "thr": 3,
+          "shared": false,
+          "kind": "same_family_phase_unknown",
+          "donor_row": 36
+        }
+      ],
+      "notes": [
+        {
+          "event": 54,
+          "cl": 11967,
+          "cr": 12046,
+          "len_cur": 52,
+          "len_new": 52,
+          "n_new": 4,
+          "fwd_rev": [
+            1,
+            3
+          ],
+          "cur_total": 8,
+          "exp_h": 12.4,
+          "n_versions": 4,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "0a70e5eb3c951004",
+          "cur_sha": "5e39fecd8f9a95f3",
+          "n_rows_new": 3,
+          "n_rows_cur": 61,
+          "thr": 3.1,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        }
+      ],
+      "decision": "proposed",
+      "sha256": "bd4b6501f8c39eb91947c8f05837a5a97a22fe2c2ccf45f24ffd967e12512852",
+      "length": 11569,
+      "spell_mismatch": 0,
+      "spell_switches": 1,
+      "kinds": [
+        "same_family_phase_unknown"
+      ],
+      "name": "HLA-DRB1*MOS_bd4b6501f8c3",
+      "exons": [
+        [
+          599,
+          699
+        ],
+        [
+          5963,
+          6233
+        ],
+        [
+          8499,
+          8781
+        ],
+        [
+          9481,
+          9592
+        ],
+        [
+          10067,
+          10091
+        ],
+        [
+          11233,
+          11247
+        ]
+      ]
+    },
+    {
+      "pass1_allele": "HLA-DRB1*15:04",
+      "family_rows": 94,
+      "events": 99,
+      "resolvable": 98,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 1,
+      "patches": [
+        {
+          "event": 53,
+          "cl": 11878,
+          "cr": 12024,
+          "len_cur": 79,
+          "len_new": 75,
+          "n_new": 9,
+          "fwd_rev": [
+            4,
+            5
+          ],
+          "cur_total": 0,
+          "exp_h": 7.5,
+          "n_versions": 19,
+          "anchor": [
+            25,
+            45
+          ],
+          "new_sha": "da75d12bdb9f159a",
+          "cur_sha": "88913f38519fe3e8",
+          "n_rows_new": 1,
+          "n_rows_cur": 2,
+          "thr": 3,
+          "shared": false,
+          "kind": "same_family_phase_unknown",
+          "donor_row": 36
+        }
+      ],
+      "notes": [],
+      "decision": "proposed",
+      "sha256": "d950ad54e24feee8f96a3cdf755e0e6cc8b1a159b375518ee50b7ad9889b3e64",
+      "length": 11476,
+      "spell_mismatch": 0,
+      "spell_switches": 2,
+      "kinds": [
+        "same_family_phase_unknown"
+      ],
+      "name": "HLA-DRB1*MOS_d950ad54e24f",
+      "exons": [
+        [
+          590,
+          690
+        ],
+        [
+          5954,
+          6224
+        ],
+        [
+          8490,
+          8772
+        ],
+        [
+          9472,
+          9583
+        ],
+        [
+          10058,
+          10082
+        ],
+        [
+          11224,
+          11238
+        ]
+      ]
+    }
+  ],
+  "confounded_windows_loaded": 13
+}

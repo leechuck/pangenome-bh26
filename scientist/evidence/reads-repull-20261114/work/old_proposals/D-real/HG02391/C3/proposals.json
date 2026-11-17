@@ -1,0 +1,121 @@
+{
+  "donor": "HG02391",
+  "readset": "D-real",
+  "arm": "C3",
+  "panel_arm": "C",
+  "params": {
+    "max_edit": 2,
+    "sup_share": 0.25,
+    "min_sup": 3,
+    "cur_ratio": 0.25,
+    "het_share": 0.3,
+    "pile": 2.5,
+    "max_indel_cols": 150,
+    "hom_ratio": 1.5,
+    "blind_min_run": 100,
+    "blind_near": 150,
+    "blind_max_nm": 2,
+    "n_max": 4,
+    "family_theta": 0.01
+  },
+  "expected_depth": 32.0,
+  "pass1": [
+    "HLA-DRB1*15:01:01:02",
+    "HLA-DRB1*16:02:01:05"
+  ],
+  "same_family": true,
+  "reads_assigned": 6075,
+  "reads_used": 5669,
+  "haplotypes": [
+    {
+      "pass1_allele": "HLA-DRB1*15:01:01:02",
+      "family_rows": 94,
+      "events": 99,
+      "resolvable": 98,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 1,
+      "patches": [
+        {
+          "event": 53,
+          "cl": 11878,
+          "cr": 12024,
+          "len_cur": 77,
+          "len_new": 75,
+          "n_new": 8,
+          "fwd_rev": [
+            2,
+            6
+          ],
+          "cur_total": 0,
+          "exp_h": 6.3,
+          "n_versions": 19,
+          "anchor": [
+            25,
+            45
+          ],
+          "new_sha": "987c73fe9377336f",
+          "cur_sha": "3f4f846124f2c82a",
+          "n_rows_new": 18,
+          "n_rows_cur": 11,
+          "thr": 3,
+          "shared": false,
+          "kind": "own_version_unsupported",
+          "donor_row": 2
+        }
+      ],
+      "notes": [
+        {
+          "event": 0,
+          "cl": 66,
+          "cr": 96,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 6,
+          "fwd_rev": [
+            2,
+            4
+          ],
+          "cur_total": 18,
+          "exp_h": 12.7,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "f794550ea3d62b93",
+          "cur_sha": "eb27603038632e1d",
+          "n_rows_new": 7,
+          "n_rows_cur": 29,
+          "thr": 3.2,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        }
+      ],
+      "decision": "rename_to_known_allele",
+      "sha256": "598813efc82f73a2f16e53f21bcaf36811899cbe381d46b9de9bc76ab5feb872",
+      "length": 11569,
+      "spell_mismatch": 0,
+      "spell_switches": 0,
+      "kinds": [
+        "own_version_unsupported"
+      ],
+      "rename_to": [
+        "HLA-DRB1*15:01:01:03"
+      ]
+    },
+    {
+      "pass1_allele": "HLA-DRB1*16:02:01:05",
+      "family_rows": 94,
+      "events": 99,
+      "resolvable": 96,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [],
+      "decision": "no_patch"
+    }
+  ],
+  "confounded_windows_loaded": 13
+}

@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "readset": "D-real",
+  "donor": "HG02392",
+  "fold": 1,
+  "placement_rows": 6,
+  "sampling_rows": 360,
+  "failed_settings": 0,
+  "sampling_errors": 0,
+  "seconds": 148.0
+}

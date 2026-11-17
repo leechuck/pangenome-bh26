@@ -1,0 +1,3 @@
+D-real3 NA18944 /encrypted/e3008/hohndor-dogohla-20261020/reads-repull-20261114/work/D-real3/NA18944/A
+D-real3 NA18945 /encrypted/e3008/hohndor-dogohla-20261020/reads-repull-20261114/work/D-real3/NA18945/A
+D-real3 NA18970 /encrypted/e3008/hohndor-dogohla-20261020/reads-repull-20261114/work/D-real3/NA18970/A

@@ -1,0 +1,263 @@
+{
+  "donor": "HG03710",
+  "readset": "D-real",
+  "arm": "C3",
+  "panel_arm": "C",
+  "params": {
+    "max_edit": 2,
+    "sup_share": 0.25,
+    "min_sup": 3,
+    "cur_ratio": 0.25,
+    "het_share": 0.3,
+    "pile": 2.5,
+    "max_indel_cols": 150,
+    "hom_ratio": 1.5,
+    "blind_min_run": 100,
+    "blind_near": 150,
+    "blind_max_nm": 2,
+    "n_max": 4,
+    "family_theta": 0.01
+  },
+  "expected_depth": 35.0,
+  "pass1": [
+    "HLA-DRB1*14:04:01:01",
+    "HLA-DRB1*07:01:01:02"
+  ],
+  "same_family": false,
+  "reads_assigned": 12422,
+  "reads_used": 11739,
+  "haplotypes": [
+    {
+      "pass1_allele": "HLA-DRB1*14:04:01:01",
+      "family_rows": 299,
+      "events": 315,
+      "resolvable": 307,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [],
+      "decision": "no_patch"
+    },
+    {
+      "pass1_allele": "HLA-DRB1*07:01:01:02",
+      "family_rows": 41,
+      "events": 136,
+      "resolvable": 135,
+      "blind_regions": [
+        [
+          3784,
+          3939
+        ],
+        [
+          4348,
+          4481
+        ],
+        [
+          5398,
+          5686
+        ]
+      ],
+      "n_blind": 3,
+      "n_patches": 1,
+      "patches": [
+        {
+          "event": 42,
+          "cl": 9076,
+          "cr": 9107,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 8,
+          "fwd_rev": [
+            4,
+            4
+          ],
+          "cur_total": 0,
+          "exp_h": 13.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "726a1a1fadcb493a",
+          "cur_sha": "582ada68532ccba6",
+          "n_rows_new": 37,
+          "n_rows_cur": 4,
+          "thr": 3.5,
+          "shared": false,
+          "kind": "own_version_unsupported",
+          "donor_row": 0
+        }
+      ],
+      "notes": [
+        {
+          "event": 14,
+          "cl": 3715,
+          "cr": 3745,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 97,
+          "fwd_rev": [
+            48,
+            49
+          ],
+          "cur_total": 0,
+          "exp_h": 13.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "8056b5e411e4cc86",
+          "cur_sha": "8ce4aa90724ed445",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3.5,
+          "kind": "pile_up"
+        },
+        {
+          "event": 18,
+          "cl": 4109,
+          "cr": 4139,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 69,
+          "fwd_rev": [
+            34,
+            35
+          ],
+          "cur_total": 23,
+          "exp_h": 13.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "c9d3fa73074d6240",
+          "cur_sha": "85670cf5c6de32d1",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3.5,
+          "kind": "pile_up"
+        },
+        {
+          "event": 19,
+          "cl": 4300,
+          "cr": 4330,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 8,
+          "fwd_rev": [
+            1,
+            7
+          ],
+          "cur_total": 0,
+          "exp_h": 13.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "6949390bb77bd63e",
+          "cur_sha": "b56ab6f792d37e9f",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3.5,
+          "shared": false,
+          "kind": "confounded_event",
+          "donor_row": 39
+        },
+        {
+          "event": 20,
+          "cl": 4595,
+          "cr": 4625,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 17,
+          "fwd_rev": [
+            7,
+            10
+          ],
+          "cur_total": 0,
+          "exp_h": 13.9,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "79b2c45883b2bf58",
+          "cur_sha": "5a81cfeaaf9352c5",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3.5,
+          "shared": false,
+          "kind": "confounded_event",
+          "donor_row": 39
+        },
+        {
+          "event": 21,
+          "cl": 4912,
+          "cr": 4944,
+          "len_cur": 33,
+          "len_new": 33,
+          "n_new": 30,
+          "fwd_rev": [
+            14,
+            16
+          ],
+          "cur_total": 0,
+          "exp_h": 13.7,
+          "n_versions": 3,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "60a2b32ae36f955b",
+          "cur_sha": "36fd1a8848acb02d",
+          "n_rows_new": 1,
+          "n_rows_cur": 38,
+          "thr": 3.4,
+          "shared": false,
+          "kind": "confounded_event",
+          "donor_row": 10
+        }
+      ],
+      "decision": "proposed",
+      "sha256": "6d9bf0d14ac72832e5f8db3c16bcffd179b69859a0fb47068730d46a00798ed9",
+      "length": 16120,
+      "spell_mismatch": 0,
+      "spell_switches": 1,
+      "kinds": [
+        "own_version_unsupported"
+      ],
+      "name": "HLA-DRB1*MOS_6d9bf0d14ac7",
+      "exons": [
+        [
+          604,
+          704
+        ],
+        [
+          10987,
+          11257
+        ],
+        [
+          13471,
+          13753
+        ],
+        [
+          14449,
+          14560
+        ],
+        [
+          15035,
+          15059
+        ],
+        [
+          15781,
+          15795
+        ]
+      ]
+    }
+  ],
+  "confounded_windows_loaded": 13
+}

@@ -1,0 +1,690 @@
+{
+  "donor": "HG00438",
+  "col_range": [
+    0,
+    1000000000
+  ],
+  "pass1": [
+    "HLA-DRB1*04:05:01:03",
+    "HLA-DRB1*14:05:01:02"
+  ],
+  "hit_records": 942,
+  "copies": [
+    {
+      "hap": "1",
+      "ipd_absent": true,
+      "own_reads_all": 8,
+      "own_reads_in_hole": 8,
+      "own_pairs_in_hole": 8,
+      "in_hole_in_recruited_fastq": 2,
+      "in_hole_pulled_by_rule": 2,
+      "in_hole_contig_class": {
+        "other:chr12": 5,
+        "other:chr2": 1,
+        "other:chr4": 1,
+        "other:chr7": 1
+      },
+      "in_hole_contig": {
+        "chr12": 5,
+        "chr2": 1,
+        "chr4": 1,
+        "chr7": 1
+      },
+      "in_hole_mate_contig": {
+        "chr10": 4,
+        "chr18": 1,
+        "chr1": 1,
+        "HLA-DRB1*10:01:01": 1,
+        "HLA-DRB1*12:01:01": 1
+      },
+      "in_hole_mapq": {
+        "20-59": 2,
+        "0": 5,
+        "1-19": 1
+      },
+      "in_hole_proper_pair": 0,
+      "in_hole_better_than_pass1": 8,
+      "in_hole_not_recruited": 6,
+      "in_hole_not_recruited_contig_class": {
+        "other:chr12": 3,
+        "other:chr2": 1,
+        "other:chr4": 1,
+        "other:chr7": 1
+      },
+      "in_hole_not_recruited_positions": [
+        [
+          "chr12",
+          12274255,
+          0,
+          "chr10",
+          118400550,
+          129,
+          4458
+        ],
+        [
+          "chr12",
+          12274259,
+          0,
+          "chr10",
+          118400550,
+          65,
+          4626
+        ],
+        [
+          "chr12",
+          12274260,
+          0,
+          "chr10",
+          118400550,
+          129,
+          4627
+        ],
+        [
+          "chr2",
+          51312250,
+          25,
+          "chr18",
+          13055148,
+          81,
+          4713
+        ],
+        [
+          "chr4",
+          40552127,
+          0,
+          "chr1",
+          28514296,
+          97,
+          4454
+        ],
+        [
+          "chr7",
+          148843124,
+          30,
+          "chr10",
+          118400550,
+          145,
+          4746
+        ]
+      ],
+      "in_hole_recruited_positions_sample": [
+        [
+          "chr12",
+          12274256,
+          0,
+          4436
+        ],
+        [
+          "chr12",
+          12274263,
+          9,
+          4630
+        ]
+      ],
+      "diag_reads_by_col500_recruited_vs_not": {
+        "4000": [
+          1,
+          2
+        ],
+        "4500": [
+          1,
+          4
+        ]
+      },
+      "diag_reads_recruited": 2,
+      "diag_reads_not_recruited": 6,
+      "diag_not_recruited_contig_class": {
+        "chr12": 3,
+        "chr2": 1,
+        "chr4": 1,
+        "chr7": 1
+      }
+    },
+    {
+      "hap": "2",
+      "ipd_absent": true,
+      "own_reads_all": 55,
+      "own_reads_in_hole": 55,
+      "own_pairs_in_hole": 55,
+      "in_hole_in_recruited_fastq": 31,
+      "in_hole_pulled_by_rule": 31,
+      "in_hole_contig_class": {
+        "other:chr10": 7,
+        "other:chr2": 6,
+        "other:chr3": 6,
+        "chr6 alt": 5,
+        "other:chr5": 4,
+        "MHC chr6 28.5-33.5M": 4,
+        "other:chr4": 3,
+        "other:chr15": 3,
+        "other:chr17": 3,
+        "other:chr8": 2,
+        "other:chr13": 2,
+        "other:chr20": 2,
+        "other:chrX": 2,
+        "other:chr9": 1,
+        "other:chr11": 1,
+        "other:chr14": 1,
+        "other:chr21": 1,
+        "other:chr22": 1,
+        "HLA contig": 1
+      },
+      "in_hole_contig": {
+        "chr10": 7,
+        "chr2": 6,
+        "chr3": 6,
+        "chr6_GL000256v2_alt": 5,
+        "chr5": 4,
+        "chr6": 4,
+        "chr4": 3,
+        "chr15": 3,
+        "chr17": 3,
+        "chr8": 2,
+        "chr13": 2,
+        "chr20": 2,
+        "chrX": 2,
+        "chr9": 1,
+        "chr11": 1,
+        "chr14": 1,
+        "chr21": 1,
+        "chr22": 1,
+        "HLA-DRB1*04:03:01": 1
+      },
+      "in_hole_mate_contig": {
+        "chr6": 16,
+        "chr1": 7,
+        "HLA-DRB1*04:03:01": 6,
+        "chr6_GL000256v2_alt": 5,
+        "chr19": 3,
+        "chr9": 3,
+        "chrX": 3,
+        "chr3": 2,
+        "chr11": 2,
+        "chr5": 2,
+        "chr4": 2,
+        "chr16": 1,
+        "chr20": 1,
+        "chr14": 1,
+        "chr7": 1
+      },
+      "in_hole_mapq": {
+        "20-59": 6,
+        "1-19": 15,
+        "0": 32,
+        "60": 2
+      },
+      "in_hole_proper_pair": 6,
+      "in_hole_better_than_pass1": 55,
+      "in_hole_not_recruited": 24,
+      "in_hole_not_recruited_contig_class": {
+        "other:chr3": 4,
+        "other:chr2": 2,
+        "other:chr5": 2,
+        "other:chr10": 2,
+        "other:chr13": 2,
+        "other:chr20": 2,
+        "other:chr4": 1,
+        "other:chr8": 1,
+        "other:chr9": 1,
+        "other:chr11": 1,
+        "other:chr14": 1,
+        "other:chr15": 1,
+        "other:chr17": 1,
+        "other:chr21": 1,
+        "other:chr22": 1,
+        "other:chrX": 1
+      },
+      "in_hole_not_recruited_positions": [
+        [
+          "chr10",
+          28146406,
+          0,
+          "chr11",
+          17285145,
+          65,
+          8230
+        ],
+        [
+          "chr10",
+          28146406,
+          0,
+          "chrX",
+          44444428,
+          129,
+          8253
+        ],
+        [
+          "chr11",
+          5361087,
+          0,
+          "chr1",
+          170371062,
+          177,
+          12646
+        ],
+        [
+          "chr13",
+          68583882,
+          2,
+          "chr19",
+          13311564,
+          129,
+          5749
+        ],
+        [
+          "chr13",
+          92544924,
+          0,
+          "chr1",
+          170371083,
+          161,
+          12638
+        ],
+        [
+          "chr14",
+          40173667,
+          7,
+          "chr14",
+          40173850,
+          163,
+          12650
+        ],
+        [
+          "chr15",
+          41314109,
+          0,
+          "chr7",
+          107084806,
+          161,
+          5737
+        ],
+        [
+          "chr17",
+          30301873,
+          0,
+          "chr9",
+          92933094,
+          145,
+          5689
+        ],
+        [
+          "chr2",
+          148176411,
+          22,
+          "chr19",
+          13311564,
+          65,
+          5698
+        ],
+        [
+          "chr2",
+          148176411,
+          33,
+          "chr19",
+          13311590,
+          65,
+          5695
+        ],
+        [
+          "chr20",
+          5129447,
+          4,
+          "chr6",
+          17404336,
+          65,
+          8318
+        ],
+        [
+          "chr20",
+          5129447,
+          4,
+          "chr6",
+          17404336,
+          1089,
+          8318
+        ],
+        [
+          "chr21",
+          20594421,
+          0,
+          "chr1",
+          170371062,
+          161,
+          12672
+        ],
+        [
+          "chr22",
+          38643032,
+          0,
+          "chr9",
+          128596441,
+          113,
+          5643
+        ],
+        [
+          "chr3",
+          133429757,
+          33,
+          "chr3",
+          133430036,
+          99,
+          12699
+        ],
+        [
+          "chr3",
+          153934321,
+          4,
+          "chr1",
+          170371041,
+          177,
+          12680
+        ],
+        [
+          "chr3",
+          158154462,
+          0,
+          "chr11",
+          17285145,
+          65,
+          8333
+        ],
+        [
+          "chr3",
+          158154462,
+          0,
+          "chr16",
+          67527594,
+          65,
+          8333
+        ],
+        [
+          "chr4",
+          27117822,
+          0,
+          "chr3",
+          119058636,
+          129,
+          12728
+        ],
+        [
+          "chr5",
+          37622827,
+          51,
+          "chr5",
+          37622645,
+          83,
+          12657
+        ],
+        [
+          "chr5",
+          79294121,
+          0,
+          "chr20",
+          53821302,
+          65,
+          5645
+        ],
+        [
+          "chr8",
+          79919804,
+          0,
+          "chr1",
+          170371081,
+          161,
+          12703
+        ],
+        [
+          "chr9",
+          77478031,
+          9,
+          "chr9",
+          77478494,
+          99,
+          12639
+        ],
+        [
+          "chrX",
+          10721134,
+          1,
+          "chrX",
+          10720878,
+          83,
+          12657
+        ]
+      ],
+      "in_hole_recruited_positions_sample": [
+        [
+          "HLA-DRB1*04:03:01",
+          9926,
+          0,
+          12646
+        ],
+        [
+          "chr10",
+          123788237,
+          0,
+          9521
+        ],
+        [
+          "chr10",
+          126393063,
+          4,
+          8272
+        ],
+        [
+          "chr10",
+          126393065,
+          5,
+          8274
+        ],
+        [
+          "chr10",
+          126393067,
+          2,
+          8276
+        ],
+        [
+          "chr10",
+          126393069,
+          0,
+          8278
+        ],
+        [
+          "chr15",
+          41314109,
+          0,
+          5743
+        ],
+        [
+          "chr15",
+          41314109,
+          0,
+          5747
+        ],
+        [
+          "chr17",
+          30301873,
+          0,
+          5734
+        ],
+        [
+          "chr17",
+          58727125,
+          2,
+          8329
+        ],
+        [
+          "chr2",
+          148176411,
+          8,
+          5715
+        ],
+        [
+          "chr2",
+          224433064,
+          0,
+          9529
+        ],
+        [
+          "chr2",
+          224433064,
+          0,
+          9564
+        ],
+        [
+          "chr2",
+          224433064,
+          0,
+          9591
+        ],
+        [
+          "chr3",
+          42134593,
+          4,
+          5725
+        ],
+        [
+          "chr3",
+          42134593,
+          6,
+          5717
+        ],
+        [
+          "chr4",
+          27117822,
+          0,
+          12709
+        ],
+        [
+          "chr4",
+          27117822,
+          0,
+          12709
+        ],
+        [
+          "chr5",
+          131056502,
+          0,
+          8240
+        ],
+        [
+          "chr5",
+          131056510,
+          0,
+          8248
+        ],
+        [
+          "chr6",
+          32521193,
+          30,
+          12620
+        ],
+        [
+          "chr6",
+          32521193,
+          60,
+          12638
+        ],
+        [
+          "chr6",
+          32521193,
+          60,
+          12638
+        ],
+        [
+          "chr6",
+          32567787,
+          2,
+          9469
+        ],
+        [
+          "chr6_GL000256v2_alt",
+          3984283,
+          0,
+          12664
+        ],
+        [
+          "chr6_GL000256v2_alt",
+          3984293,
+          0,
+          12654
+        ],
+        [
+          "chr6_GL000256v2_alt",
+          3984318,
+          0,
+          12629
+        ],
+        [
+          "chr6_GL000256v2_alt",
+          3984346,
+          0,
+          12601
+        ],
+        [
+          "chr6_GL000256v2_alt",
+          3987295,
+          0,
+          9467
+        ],
+        [
+          "chr8",
+          98900333,
+          39,
+          5658
+        ],
+        [
+          "chrX",
+          119177664,
+          0,
+          12731
+        ]
+      ],
+      "diag_reads_by_col500_recruited_vs_not": {
+        "5500": [
+          7,
+          7
+        ],
+        "8000": [
+          7,
+          6
+        ],
+        "9000": [
+          2,
+          0
+        ],
+        "9500": [
+          4,
+          0
+        ],
+        "12500": [
+          11,
+          11
+        ]
+      },
+      "diag_reads_recruited": 31,
+      "diag_reads_not_recruited": 24,
+      "diag_not_recruited_contig_class": {
+        "chr3": 4,
+        "chr2": 2,
+        "chr5": 2,
+        "chr10": 2,
+        "chr13": 2,
+        "chr20": 2,
+        "chr4": 1,
+        "chr8": 1,
+        "chr9": 1,
+        "chr11": 1,
+        "chr14": 1,
+        "chr15": 1,
+        "chr17": 1,
+        "chr21": 1,
+        "chr22": 1,
+        "chrX": 1
+      }
+    }
+  ],
+  "primary_hit_records": 855,
+  "prefilter": "edlib only for reads with >= 50% of their 25-mers (either orientation) in the true copies",
+  "prefilter_passed": 73
+}

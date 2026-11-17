@@ -1,0 +1,13 @@
+readset	donor	gene	copy	ipd_absent	input	body_len	uncovered_bases	holes_ge50	hole_bases_ge50	holes
+D-real	HG02080	DRB1	1	False	i	12990	24	0	0	
+D-real	HG02080	DRB1	2	True	i	15187	160	1	91	3660-3751
+D-real	HG02080	DRB1	1	False	ii	12990	84	1	83	2739-2822
+D-real	HG02080	DRB1	2	True	ii	15187	191	1	91	3660-3751
+D-real	HG02080	DQA1	1	True	i	5359	0	0	0	
+D-real	HG02080	DQA1	2	False	i	5223	0	0	0	
+D-real	HG02080	DQA1	1	True	ii	5359	0	0	0	
+D-real	HG02080	DQA1	2	False	ii	5223	0	0	0	
+D-real	HG02080	B	1	False	i	2689	0	0	0	
+D-real	HG02080	B	2	False	i	2689	0	0	0	
+D-real	HG02080	B	1	False	ii	2689	0	0	0	
+D-real	HG02080	B	2	False	ii	2689	0	0	0	

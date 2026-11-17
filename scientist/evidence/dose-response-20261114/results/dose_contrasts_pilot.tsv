@@ -1,0 +1,181 @@
+group	kind	cell_a	cell_b	metric	n_pairs	gains	losses	diff_pp	lo	hi	sign_flip_p
+EAS	matched vs IPD only	match_n05	n0	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n05	n0	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n05	n0	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n05	n0	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n10	n0	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n10	n0	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n10	n0	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n10	n0	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n20	n0	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n20	n0	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n20	n0	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n20	n0	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n40	n0	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n40	n0	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n40	n0	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs IPD only	match_n40	n0	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n10	match_n05	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n10	match_n05	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n10	match_n05	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n10	match_n05	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n20	match_n10	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n20	match_n10	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n20	match_n10	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n20	match_n10	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n20	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n20	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n20	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n20	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n05	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n05	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n05	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n05	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n10	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n10	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n10	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	trend within matched	match_n40	match_n10	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_ME_n10	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_ME_n10	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_ME_n10	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_ME_n10	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_ME_n40	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_ME_n40	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_ME_n40	present_named4	28	1	0	3.57	0.0	7.14	1.0
+EAS	matched vs cross-population, same n	match_n40	x_ME_n40	all_correct	32	1	0	3.12	0.0	6.25	1.0
+EAS	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_SAS_n10	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_SAS_n10	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_SAS_n10	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n10	x_SAS_n10	all_correct	32	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_SAS_n40	absent_exact_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_SAS_n40	absent_body_any	4	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_SAS_n40	present_named4	28	0	0	0.0	0.0	0.0	1.0
+EAS	matched vs cross-population, same n	match_n40	x_SAS_n40	all_correct	32	0	0	0.0	0.0	0.0	1.0
+ME	matched vs IPD only	match_n05	n0	absent_exact_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs IPD only	match_n05	n0	absent_body_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs IPD only	match_n05	n0	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	matched vs IPD only	match_n05	n0	all_correct	32	1	0	3.12	0.0	6.25	1.0
+ME	matched vs IPD only	match_n10	n0	absent_exact_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs IPD only	match_n10	n0	absent_body_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs IPD only	match_n10	n0	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	matched vs IPD only	match_n10	n0	all_correct	32	1	0	3.12	0.0	6.25	1.0
+ME	matched vs IPD only	match_n20	n0	absent_exact_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs IPD only	match_n20	n0	absent_body_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs IPD only	match_n20	n0	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	matched vs IPD only	match_n20	n0	all_correct	32	1	0	3.12	0.0	6.25	1.0
+ME	matched vs IPD only	match_n40	n0	absent_exact_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs IPD only	match_n40	n0	absent_body_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs IPD only	match_n40	n0	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	matched vs IPD only	match_n40	n0	all_correct	32	1	0	3.12	0.0	6.25	1.0
+ME	trend within matched	match_n10	match_n05	absent_exact_any	5	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n10	match_n05	absent_body_any	5	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n10	match_n05	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n10	match_n05	all_correct	32	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n20	match_n10	absent_exact_any	5	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n20	match_n10	absent_body_any	5	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n20	match_n10	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n20	match_n10	all_correct	32	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n20	absent_exact_any	5	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n20	absent_body_any	5	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n20	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n20	all_correct	32	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n05	absent_exact_any	5	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n05	absent_body_any	5	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n05	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n05	all_correct	32	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n10	absent_exact_any	5	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n10	absent_body_any	5	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n10	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	trend within matched	match_n40	match_n10	all_correct	32	0	0	0.0	0.0	0.0	1.0
+ME	matched vs cross-population, same n	match_n10	x_EAS_n10	absent_exact_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs cross-population, same n	match_n10	x_EAS_n10	absent_body_any	5	0	0	0.0	0.0	0.0	1.0
+ME	matched vs cross-population, same n	match_n10	x_EAS_n10	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	matched vs cross-population, same n	match_n10	x_EAS_n10	all_correct	32	1	0	3.12	0.0	6.25	1.0
+ME	matched vs cross-population, same n	match_n40	x_EAS_n40	absent_exact_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs cross-population, same n	match_n40	x_EAS_n40	absent_body_any	5	0	0	0.0	0.0	0.0	1.0
+ME	matched vs cross-population, same n	match_n40	x_EAS_n40	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	matched vs cross-population, same n	match_n40	x_EAS_n40	all_correct	32	1	0	3.12	0.0	6.25	1.0
+ME	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	absent_exact_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	absent_body_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	all_correct	32	1	0	3.12	0.0	6.25	1.0
+ME	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	absent_exact_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	absent_body_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	all_correct	32	1	0	3.12	0.0	6.25	1.0
+ME	matched vs cross-population, same n	match_n10	x_SAS_n10	absent_exact_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs cross-population, same n	match_n10	x_SAS_n10	absent_body_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs cross-population, same n	match_n10	x_SAS_n10	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	matched vs cross-population, same n	match_n10	x_SAS_n10	all_correct	32	1	0	3.12	0.0	6.25	1.0
+ME	matched vs cross-population, same n	match_n40	x_SAS_n40	absent_exact_any	5	2	0	40.0	0.0	66.67	1.0
+ME	matched vs cross-population, same n	match_n40	x_SAS_n40	absent_body_any	5	0	0	0.0	0.0	0.0	1.0
+ME	matched vs cross-population, same n	match_n40	x_SAS_n40	present_named4	27	0	0	0.0	0.0	0.0	1.0
+ME	matched vs cross-population, same n	match_n40	x_SAS_n40	all_correct	32	1	0	3.12	0.0	6.25	1.0
+SAS	matched vs IPD only	match_n05	n0	absent_exact_any	3	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs IPD only	match_n05	n0	absent_body_any	3	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs IPD only	match_n05	n0	present_named4	29	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs IPD only	match_n05	n0	all_correct	32	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs IPD only	match_n10	n0	absent_exact_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs IPD only	match_n10	n0	absent_body_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs IPD only	match_n10	n0	present_named4	29	1	0	3.45	0.0	6.67	1.0
+SAS	matched vs IPD only	match_n10	n0	all_correct	32	2	0	6.25	0.0	12.5	1.0
+SAS	matched vs IPD only	match_n20	n0	absent_exact_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs IPD only	match_n20	n0	absent_body_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs IPD only	match_n20	n0	present_named4	29	1	0	3.45	0.0	6.67	1.0
+SAS	matched vs IPD only	match_n20	n0	all_correct	32	2	0	6.25	0.0	12.5	1.0
+SAS	matched vs IPD only	match_n40	n0	absent_exact_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs IPD only	match_n40	n0	absent_body_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs IPD only	match_n40	n0	present_named4	29	1	0	3.45	0.0	6.67	1.0
+SAS	matched vs IPD only	match_n40	n0	all_correct	32	2	0	6.25	0.0	12.5	1.0
+SAS	trend within matched	match_n10	match_n05	absent_exact_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	trend within matched	match_n10	match_n05	absent_body_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	trend within matched	match_n10	match_n05	present_named4	29	1	0	3.45	0.0	6.67	1.0
+SAS	trend within matched	match_n10	match_n05	all_correct	32	2	0	6.25	0.0	12.5	1.0
+SAS	trend within matched	match_n20	match_n10	absent_exact_any	3	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n20	match_n10	absent_body_any	3	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n20	match_n10	present_named4	29	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n20	match_n10	all_correct	32	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n40	match_n20	absent_exact_any	3	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n40	match_n20	absent_body_any	3	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n40	match_n20	present_named4	29	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n40	match_n20	all_correct	32	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n40	match_n05	absent_exact_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	trend within matched	match_n40	match_n05	absent_body_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	trend within matched	match_n40	match_n05	present_named4	29	1	0	3.45	0.0	6.67	1.0
+SAS	trend within matched	match_n40	match_n05	all_correct	32	2	0	6.25	0.0	12.5	1.0
+SAS	trend within matched	match_n40	match_n10	absent_exact_any	3	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n40	match_n10	absent_body_any	3	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n40	match_n10	present_named4	29	0	0	0.0	0.0	0.0	1.0
+SAS	trend within matched	match_n40	match_n10	all_correct	32	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_EAS_n10	absent_exact_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_EAS_n10	absent_body_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_EAS_n10	present_named4	29	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_EAS_n10	all_correct	32	1	0	3.12	0.0	6.25	1.0
+SAS	matched vs cross-population, same n	match_n40	x_EAS_n40	absent_exact_any	3	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs cross-population, same n	match_n40	x_EAS_n40	absent_body_any	3	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs cross-population, same n	match_n40	x_EAS_n40	present_named4	29	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs cross-population, same n	match_n40	x_EAS_n40	all_correct	32	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_ME_n10	absent_exact_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_ME_n10	absent_body_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_ME_n10	present_named4	29	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_ME_n10	all_correct	32	1	0	3.12	0.0	6.25	1.0
+SAS	matched vs cross-population, same n	match_n40	x_ME_n40	absent_exact_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs cross-population, same n	match_n40	x_ME_n40	absent_body_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs cross-population, same n	match_n40	x_ME_n40	present_named4	29	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs cross-population, same n	match_n40	x_ME_n40	all_correct	32	1	0	3.12	0.0	6.25	1.0
+SAS	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	absent_exact_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	absent_body_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	present_named4	29	0	0	0.0	0.0	0.0	1.0
+SAS	matched vs cross-population, same n	match_n10	x_NONASIAN_n10	all_correct	32	1	0	3.12	0.0	6.25	1.0
+SAS	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	absent_exact_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	absent_body_any	3	1	0	33.33	0.0	100.0	1.0
+SAS	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	present_named4	29	1	0	3.45	0.0	6.67	1.0
+SAS	matched vs cross-population, same n	match_n40	x_NONASIAN_n40	all_correct	32	2	0	6.25	0.0	12.5	1.0

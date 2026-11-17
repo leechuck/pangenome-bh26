@@ -1,0 +1,265 @@
+{
+  "readset": "D-real",
+  "donor": "HG00558",
+  "times": {
+    "bwa": 2.0,
+    "coverage": 1.3,
+    "kmc": 5.8,
+    "place_DRB1_ipd": 4.1,
+    "place_DRB1_ipd_cohort": 4.3,
+    "place_DQA1_ipd": 1.3,
+    "place_DQA1_ipd_cohort": 1.2,
+    "place_B_ipd": 12.7,
+    "place_B_ipd_cohort": 12.7
+  },
+  "fold": 3,
+  "called": {
+    "A": [
+      "HLA-A*01:01:01:01",
+      "HLA-A*02:01:01:01"
+    ],
+    "B": [
+      "HLA-B*37:01:01:01",
+      "HLA-B*40:01:02:04"
+    ],
+    "C": [
+      "HLA-C*07:02:01:15",
+      "HLA-C*06:02:01:01"
+    ],
+    "E": [
+      "HLA-E*01:03:02:01",
+      "HLA-E*01:01:01:18"
+    ],
+    "F": [
+      "HLA-F*01:01:01:09",
+      "HLA-F*01:01:01:16"
+    ],
+    "G": [
+      "HLA-G*01:01:01:01",
+      "HLA-G*01:06:01:01"
+    ],
+    "H": [
+      "HLA-H*01:01:01:01",
+      "HLA-H*02:01:01:01"
+    ],
+    "J": [
+      "HLA-J*01:01:01:02",
+      "HLA-J*01:01:01:05"
+    ],
+    "K": [
+      "HLA-K*01:01:01:02",
+      "HLA-K*01:02"
+    ],
+    "L": [
+      "HLA-L*01:01:01:01"
+    ],
+    "N": [
+      "HLA-N*01:01:01:01"
+    ],
+    "P": [
+      "HLA-P*01:01:01:01",
+      "HLA-P*02:01:01:01"
+    ],
+    "R": [],
+    "S": [
+      "HLA-S*01:02:01:03"
+    ],
+    "T": [
+      "HLA-T*01:01:01:01",
+      "HLA-T*01:01:01:05"
+    ],
+    "U": [
+      "HLA-U*01:01:01:01",
+      "HLA-U*01:03"
+    ],
+    "V": [
+      "HLA-V*01:01:01:02",
+      "HLA-V*01:01:01:01"
+    ],
+    "W": [
+      "HLA-W*03:01:01:01",
+      "HLA-W*01:01:01:06"
+    ],
+    "Y": [],
+    "DRA": [
+      "HLA-DRA*01:01:01:11",
+      "HLA-DRA*01:01:01:12"
+    ],
+    "DRB1": [
+      "HLA-DRB1*09:01:02:03",
+      "HLA-DRB1*10:01:01:03"
+    ],
+    "DRB3": [],
+    "DRB4": [
+      "HLA-DRB4*01:03:02:01"
+    ],
+    "DRB5": [
+      "HLA-DRB5*02:02:01:02",
+      "HLA-DRB5*02:02:01:01"
+    ],
+    "DQA1": [
+      "HLA-DQA1*03:02:01:02",
+      "HLA-DQA1*01:05:01:01"
+    ],
+    "DQA2": [
+      "HLA-DQA2*01:01:01:01",
+      "HLA-DQA2*01:01:04:03"
+    ],
+    "DQB1": [
+      "HLA-DQB1*05:01:01:05",
+      "HLA-DQB1*03:03:02:02"
+    ],
+    "DQB2": [
+      "HLA-DQB2*01:04",
+      "HLA-DQB2*01:02:02:01"
+    ],
+    "DPA1": [
+      "HLA-DPA1*02:02:02:01"
+    ],
+    "DPA2": [
+      "HLA-DPA2*02:01:01:01",
+      "HLA-DPA2*01:01:02"
+    ],
+    "DPB1": [
+      "HLA-DPB1*05:01:01:01",
+      "HLA-DPB1*02:01:02:29"
+    ],
+    "DPB2": [
+      "HLA-DPB2*01:01:02",
+      "HLA-DPB2*03:02"
+    ],
+    "DMA": [
+      "HLA-DMA*01:01:01:03"
+    ],
+    "DMB": [
+      "HLA-DMB*01:03:01:03"
+    ],
+    "DOA": [
+      "HLA-DOA*01:01:02:15",
+      "HLA-DOA*01:01:04:01"
+    ],
+    "DOB": [
+      "HLA-DOB*01:01:01:04",
+      "HLA-DOB*01:01:05:01"
+    ],
+    "HFE": [],
+    "MICA": [
+      "MICA*008:01:01",
+      "MICA*008:04:02"
+    ],
+    "MICB": [
+      "MICB*005:02:07",
+      "MICB*004:01:01"
+    ],
+    "TAP1": [
+      "TAP1*01:01:01:02",
+      "TAP1*02:01:01"
+    ],
+    "TAP2": [
+      "TAP2*02:01:02:06",
+      "TAP2*02:05"
+    ]
+  },
+  "fragment_estimate": {
+    "pairs": 11393,
+    "median": 444,
+    "robust_sd": 112.7
+  },
+  "bwa_stats": {
+    "reads": 72142,
+    "gene:DMB": 1793,
+    "gene:DRB4": 3737,
+    "gene:DPB2": 6993,
+    "gene:TAP2": 1359,
+    "gene:DQB1": 1907,
+    "gene:DRB1": 12358,
+    "unmapped": 5539,
+    "gene:P": 781,
+    "gene:K": 979,
+    "gene:DQA2": 2658,
+    "gene:DPA2": 2044,
+    "gene:DQB2": 1885,
+    "gene:F": 987,
+    "gene:DPA1": 2630,
+    "gene:DPB1": 3180,
+    "gene:DOB": 1183,
+    "gene:L": 982,
+    "gene:DOA": 1075,
+    "gene:DRA": 1533,
+    "gene:C": 1281,
+    "gene:H": 985,
+    "gene:TAP1": 1676,
+    "gene:J": 1104,
+    "gene:DMA": 1442,
+    "gene:MICB": 858,
+    "gene:T": 1584,
+    "gene:G": 819,
+    "gene:W": 743,
+    "gene:B": 1229,
+    "gene:N": 218,
+    "gene:DQA1": 1727,
+    "gene:E": 1187,
+    "gene:U": 206,
+    "gene:DRB5": 674,
+    "gene:S": 210,
+    "gene:A": 1058,
+    "gene:V": 730,
+    "gene:MICA": 808
+  },
+  "reads_ii_pairs": {
+    "DRB1": 6302,
+    "DQA1": 874,
+    "B": 628
+  },
+  "reads_assigned": {
+    "DRB1": 7002,
+    "DQA1": 930,
+    "B": 659
+  },
+  "coverage": {
+    "DRB1:i": {
+      "target_kmers": 560,
+      "median": 33.0,
+      "mean": 34.13,
+      "zero_fraction": 0.0,
+      "used": 33
+    },
+    "DRB1:ii": {
+      "target_kmers": 560,
+      "median": 33.0,
+      "mean": 32.56,
+      "zero_fraction": 0.0,
+      "used": 33
+    },
+    "DQA1:i": {
+      "target_kmers": 1056,
+      "median": 29.5,
+      "mean": 30.81,
+      "zero_fraction": 0.0,
+      "used": 30
+    },
+    "DQA1:ii": {
+      "target_kmers": 1056,
+      "median": 29.0,
+      "mean": 30.59,
+      "zero_fraction": 0.0,
+      "used": 29
+    },
+    "B:i": {
+      "target_kmers": 1688,
+      "median": 32.0,
+      "mean": 33.48,
+      "zero_fraction": 0.0,
+      "used": 32
+    },
+    "B:ii": {
+      "target_kmers": 1688,
+      "median": 31.0,
+      "mean": 32.06,
+      "zero_fraction": 0.0,
+      "used": 31
+    }
+  },
+  "seconds": 11.4,
+  "failures": []
+}

@@ -1,0 +1,67 @@
+# Step 2b endpoints, tag test3: T-real3 (re-pulled reads) versus T-real (old reads)
+
+**P1** gene bodies recovered among IPD-absent copies, all genes, C4R4n T-real3 minus T-real: 12 -> 18 of 134 (+6; +4.5 pp [+1.4, +8.2], p=0.0312) -> PASS
+**P3** gene bodies recovered among IPD-absent copies, all genes, D4R4n T-real3 minus T-real: 38 -> 45 of 134 (+7; +5.2 pp [+1.4, +9.6], p=0.0391)
+
+**P2 safety**
+- (i) arm A four-field named, T-real3 vs T-real: 861 -> 868 of 914 (+7; +0.8 pp [+0.1, +1.6], p=0.0938); per gene change {'A': 0, 'B': 0, 'C': 0, 'DPA1': 7, 'DPB1': 0, 'DQA1': 0, 'DQB1': 0, 'DRB1': 0} -> PASS
+- (i) arm B four-field named, T-real3 vs T-real: 844 -> 852 of 914 (+8; +0.9 pp [+0.2, +1.6], p=0.0312); per gene change {'A': 0, 'B': 0, 'C': 0, 'DPA1': 7, 'DPB1': 1, 'DQA1': 0, 'DQB1': 0, 'DRB1': 0} -> PASS
+- (ii) novel final calls on IPD-present copies (T-real3): {'C4R4n': 1, 'D4R4n': 0} -> PASS
+- (iii) tasks in fallback: 4 of 264 ['HG04184:C_attempt1:task_failed', 'HG04199:D_attempt1:task_failed', 'NA18971:C_attempt1:task_failed', 'NA18971:D_attempt1:task_failed'] -> FAIL
+
+**P4** within T-real3
+- C4R4n minus A: gene body 0 -> 18 of 134 (+18; +13.4 pp [+8.1, +19.4], p=3.05e-05); four-field named 868 -> 879 of 914 (+11; +1.2 pp [+0.6, +1.9], p=0.000977)
+  (same on T-real: gene body 0 -> 12 of 134 (+12; +9.0 pp [+4.8, +13.4], p=0.000488))
+- D4R4n minus B: gene body 31 -> 45 of 134 (+14; +10.4 pp [+5.2, +16.3], p=0.000488); four-field named 852 -> 865 of 914 (+13; +1.4 pp [+0.8, +2.2], p=0.000244)
+  (same on T-real: gene body 31 -> 38 of 134 (+7; +5.2 pp [+2.1, +9.1], p=0.0156))
+
+**P5** novel final calls on IPD-absent copies, right gene body / not, per gene (old -> new)
+| gene | C4 | C4R4n | D4 | D4R4n |
+|---|---|---|---|---|
+| A | 0/0 -> 0/0 | 0/0 -> 0/0 | 0/0 -> 0/0 | 0/0 -> 0/0 |
+| B | 0/0 -> 0/0 | 0/0 -> 0/0 | 0/0 -> 0/0 | 0/0 -> 0/0 |
+| C | 0/0 -> 0/0 | 0/0 -> 0/0 | 0/0 -> 0/0 | 0/0 -> 0/0 |
+| DPA1 | 0/0 -> 0/0 | 0/0 -> 0/0 | 0/0 -> 0/0 | 0/0 -> 0/0 |
+| DPB1 | 3/0 -> 3/0 | 1/0 -> 1/0 | 2/0 -> 2/0 | 1/0 -> 1/0 |
+| DQA1 | 3/0 -> 3/0 | 3/0 -> 3/0 | 1/0 -> 1/0 | 1/0 -> 1/0 |
+| DQB1 | 0/0 -> 0/0 | 0/0 -> 0/0 | 0/0 -> 0/0 | 0/0 -> 0/0 |
+| DRB1 | 4/32 -> 12/38 | 4/14 -> 10/14 | 0/22 -> 4/22 | 0/10 -> 0/9 |
+| all | 10/32 -> 18/38 | 8/14 -> 14/14 | 3/22 -> 7/22 | 2/10 -> 2/9 |
+
+**P6** DRB1 only; DR53 group = donors whose old arm-A DRB1 call has *04, *07 or *09 in a slot
+DR53-group donors: 35
+| subset | arm | IPD-absent | body old -> new | byte-exact final old -> new | mean wrong bases old -> new (copies) | four-field named old -> new |
+|---|---|---|---|---|---|---|
+| DRB1 all | A | 85 | 0 -> 0 | 0 -> 0 | 4.56 -> 4.33 (132) | 31 -> 31 of 47 |
+| DRB1 all | B | 85 | 15 -> 15 | 14 -> 14 | 3.60 -> 3.36 (132) | 29 -> 29 of 47 |
+| DRB1 all | C4 | 85 | 5 -> 13 | 2 -> 4 | 3.49 -> 3.13 (132) | 38 -> 38 of 47 |
+| DRB1 all | C4R4n | 85 | 5 -> 11 | 2 -> 2 | 3.81 -> 3.58 (132) | 38 -> 38 of 47 |
+| DRB1 all | D4 | 85 | 17 -> 28 | 15 -> 26 | 2.88 -> 2.47 (132) | 38 -> 38 of 47 |
+| DRB1 all | D4R4n | 85 | 17 -> 24 | 15 -> 22 | 3.03 -> 2.70 (132) | 38 -> 38 of 47 |
+| DRB1 DR53 | A | 50 | 0 -> 0 | 0 -> 0 | 4.93 -> 4.64 (70) | 16 -> 16 of 20 |
+| DRB1 DR53 | B | 50 | 5 -> 5 | 5 -> 5 | 3.94 -> 3.57 (70) | 15 -> 15 of 20 |
+| DRB1 DR53 | C4 | 50 | 2 -> 10 | 1 -> 3 | 3.50 -> 3.09 (70) | 19 -> 19 of 20 |
+| DRB1 DR53 | C4R4n | 50 | 2 -> 8 | 1 -> 1 | 4.09 -> 3.64 (70) | 19 -> 19 of 20 |
+| DRB1 DR53 | D4 | 50 | 6 -> 16 | 6 -> 16 | 3.04 -> 2.44 (70) | 18 -> 18 of 20 |
+| DRB1 DR53 | D4R4n | 50 | 6 -> 13 | 6 -> 13 | 3.33 -> 2.80 (70) | 18 -> 18 of 20 |
+| DRB1 non-DR53 | A | 35 | 0 -> 0 | 0 -> 0 | 4.15 -> 3.97 (62) | 15 -> 15 of 27 |
+| DRB1 non-DR53 | B | 35 | 10 -> 10 | 9 -> 9 | 3.21 -> 3.13 (62) | 14 -> 14 of 27 |
+| DRB1 non-DR53 | C4 | 35 | 3 -> 3 | 1 -> 1 | 3.48 -> 3.18 (62) | 19 -> 19 of 27 |
+| DRB1 non-DR53 | C4R4n | 35 | 3 -> 3 | 1 -> 1 | 3.50 -> 3.50 (62) | 19 -> 19 of 27 |
+| DRB1 non-DR53 | D4 | 35 | 11 -> 12 | 9 -> 10 | 2.69 -> 2.50 (62) | 20 -> 20 of 27 |
+| DRB1 non-DR53 | D4R4n | 35 | 11 -> 11 | 9 -> 9 | 2.69 -> 2.58 (62) | 20 -> 20 of 27 |
+
+Blind regions (sum over haplotypes), old -> new: A/C: 0 -> 0, A/D: 0 -> 0, B/C: 0 -> 0, B/D: 0 -> 0, C/C: 0 -> 0, C/D: 0 -> 0, DPA1/C: 6 -> 0, DPA1/D: 6 -> 0, DPB1/C: 0 -> 0, DPB1/D: 0 -> 0, DQA1/C: 0 -> 0, DQA1/D: 0 -> 0, DQB1/C: 0 -> 0, DQB1/D: 0 -> 0, DRB1/C: 103 -> 0, DRB1/D: 103 -> 0
+Pairs added per donor: median 365, range 78-782, total 23982 over 66 donors
+
+**Arm A 2-/3-field correct per gene (all copies), old -> new; decoded (strict)**
+| gene | copies | 3-field | 2-field |
+|---|---|---|---|
+| A | 132 | 132 -> 132 (132 -> 132) | 132 -> 132 (132 -> 132) |
+| B | 132 | 127 -> 127 (127 -> 127) | 128 -> 128 (128 -> 128) |
+| C | 132 | 131 -> 131 (131 -> 131) | 131 -> 131 (131 -> 131) |
+| DPA1 | 132 | 129 -> 131 (129 -> 131) | 130 -> 132 (130 -> 132) |
+| DPB1 | 132 | 131 -> 130 (131 -> 130) | 132 -> 131 (132 -> 131) |
+| DQA1 | 132 | 131 -> 131 (131 -> 131) | 132 -> 132 (132 -> 132) |
+| DQB1 | 132 | 132 -> 132 (132 -> 132) | 132 -> 132 (132 -> 132) |
+| DRB1 | 132 | 123 -> 123 (123 -> 123) | 127 -> 127 (127 -> 127) |

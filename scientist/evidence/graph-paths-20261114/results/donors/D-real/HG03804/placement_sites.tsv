@@ -1,0 +1,15 @@
+readset	donor	gene	variant	copy	cls	ipd_absent	called_row	col_start	col_end	named	kind	len_true	len_called	testable	true_in_stored_path	true_is_walk	reads_true	reads_true_exact	reads_true_edit	reads_true_unmapped	reads_called	window_in_stored_path	window_is_walk	reads_given_to_giraffe	reads_mapped	giraffe_seconds
+D-real	HG03804	DRB1	ipd	1	exact	False	573	11911	11911	intron2_repeat	length	30	32	True	True	True	42	42	0	0	0	True	True	168	168	5.3
+D-real	HG03804	DRB1	ipd	1	exact	False	573	11946	11946	intron2_repeat	length	30	32	True	True	True	42	42	0	0	0	True	True	168	168	5.3
+D-real	HG03804	DRB1	ipd	2	mosaic	True	573	11768	11768	-	substitution	31	31	True	True	True	24	24	0	0	10	True	True	168	168	5.3
+D-real	HG03804	DRB1	ipd	2	mosaic	True	573	11911	11911	intron2_repeat	length	30	32	True	True	True	42	42	0	0	0	True	True	168	168	5.3
+D-real	HG03804	DRB1	ipd	2	mosaic	True	573	11946	11946	intron2_repeat	length	30	32	True	True	True	42	42	0	0	0	True	True	168	168	5.3
+D-real	HG03804	DRB1	ipd	2	mosaic	True	573	11982	11982	intron2_repeat	substitution	31	31	True	True	True	16	16	0	0	12	True	True	168	168	5.3
+D-real	HG03804	DRB1	ipd_cohort	1	exact	False	573	11911	11911	intron2_repeat	length	30	32	True	True	True	42	42	0	0	0	True	True	168	168	3.2
+D-real	HG03804	DRB1	ipd_cohort	1	exact	False	573	11946	11946	intron2_repeat	length	30	32	True	True	True	42	42	0	0	0	True	True	168	168	3.2
+D-real	HG03804	DRB1	ipd_cohort	2	mosaic	True	573	11768	11768	-	substitution	31	31	True	True	True	24	24	0	0	10	True	True	168	168	3.2
+D-real	HG03804	DRB1	ipd_cohort	2	mosaic	True	573	11911	11911	intron2_repeat	length	30	32	True	True	True	42	42	0	0	0	True	True	168	168	3.2
+D-real	HG03804	DRB1	ipd_cohort	2	mosaic	True	573	11946	11946	intron2_repeat	length	30	32	True	True	True	42	42	0	0	0	True	True	168	168	3.2
+D-real	HG03804	DRB1	ipd_cohort	2	mosaic	True	573	11982	11982	intron2_repeat	substitution	31	31	True	True	True	16	16	0	0	12	True	True	168	168	3.2
+D-real	HG03804	DQA1	ipd	2	private	True	34	1034	1034	-	substitution	31	31	True	False	False	13	0	13	0	21	False	False	68	68	1.2
+D-real	HG03804	DQA1	ipd_cohort	2	private	True	34	1034	1034	-	substitution	31	31	True	True	True	13	13	0	0	21	True	True	68	68	1.2

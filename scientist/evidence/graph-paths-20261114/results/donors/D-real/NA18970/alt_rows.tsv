@@ -1,0 +1,13 @@
+readset	donor	gene	variant	copy	ipd_absent	cls	body_len	dist	exact	picked_named	picked_stored	route_is_stored_path	h	alignments	rounds	seconds	error
+D-real	NA18970	DRB1	ipd	1	True	mosaic	13005	2331	False	False	False	False	26.0	10044	2	579.8	
+D-real	NA18970	DRB1	ipd	2	True	mosaic	14311	1792	False	False	False	False	26.0	10044	2	579.9	
+D-real	NA18970	DRB1	ipd_cohort	1	True	mosaic	13005	2331	False	False	False	False	26.0	10052	2	6.6	
+D-real	NA18970	DRB1	ipd_cohort	2	True	mosaic	14311	1793	False	False	False	False	26.0	10052	2	6.7	
+D-real	NA18970	DQA1	ipd	1	False	exact	5306	1	False	True	True	True	25.5	2250	2	393.6	
+D-real	NA18970	DQA1	ipd	2	False	exact	5257	0	True	True	True	False	25.5	2250	2	393.6	
+D-real	NA18970	DQA1	ipd_cohort	1	False	exact	5306	1	False	True	True	True	25.5	2250	2	2.3	
+D-real	NA18970	DQA1	ipd_cohort	2	False	exact	5257	0	True	True	True	False	25.5	2250	2	2.3	
+D-real	NA18970	B	ipd	1	False	exact	2688	0	True	True	True	False	23.0	1305	2	23.4	
+D-real	NA18970	B	ipd	2	False	exact	2689	4	False	False	False	False	23.0	1305	2	23.5	
+D-real	NA18970	B	ipd_cohort	1	False	exact	2688	0	True	True	True	False	23.0	1305	2	23.5	
+D-real	NA18970	B	ipd_cohort	2	False	exact	2689	4	False	False	False	False	23.0	1305	2	23.6	

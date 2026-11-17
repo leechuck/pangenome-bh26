@@ -1,0 +1,60 @@
+{
+  "gene": "B",
+  "variant": "ipd_cohort",
+  "fold": 1,
+  "vg": "/home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg",
+  "times": {
+    "build_gfa": 11.13,
+    "gbwt_G": 1.92,
+    "set_ref": 0.11,
+    "dist": 0.39,
+    "ri": 0.91,
+    "minimizer": 0.56,
+    "hapl_10000": 0.7,
+    "hapl_3000": 1.25,
+    "hapl_1000": 1.69,
+    "hapl_500": 2.01,
+    "hapl_300": 2.01
+  },
+  "rows": 7621,
+  "ipd_rows": 7592,
+  "cohort_rows": 29,
+  "ipd_names": 7592,
+  "cohort_copies": 64,
+  "msa_columns": 4662,
+  "ref_row": 0,
+  "nodes": 6083,
+  "edges": 9619,
+  "paths": 7621,
+  "graph_bases": 7804,
+  "one_base_nodes": 5582,
+  "acyclic": true,
+  "paths_verified_python": 7621,
+  "body_cols": null,
+  "translation_identity": true,
+  "paths_verified_gbz": 7622,
+  "vg_stats": "nodes\t6083\nedges\t9619\nacyclic\n",
+  "hapl": {
+    "10000": {
+      "bytes": 262408,
+      "log_tail": "$ singularity exec --cleanenv --no-home --pwd /encrypted/e3008/hohndor-dogohla-20261020/graph-paths-20261114/work/graphs/B/ipd_cohort_fold1 --bind /ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla:/home/leechuck/hla,/encrypted/e3008:/encrypted/e3008,/ibex/scratch/projects/c2014:/ibex/scratch/projects/c2014 /ibex/scratch/projects/c2014/rob/dogohla-benchmark/containers/ubuntu24.sif /home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg haplotypes -v 1 -t 4 --subchain-length 10000 -d graph.dist -r graph.ri -H hapl_10000.hapl graph.gbz\nLoading GBZ from graph.gbz\n[vg haplotypes] Generating haplotype information\n[vg haplotypes] Loading distance index from graph.dist\n[vg haplotypes] Building minimizer index\n[vg haplotypes] Built the minimizer index in 0.433932 seconds\nLoading r-index from graph.ri\nDetermining construction jobs\nPartitioned 1 components into 1 jobs in 0.00119178 seconds\nRunning 4 jobs in parallel\nFinished the jobs in 0.17649 seconds\n[vg haplotypes] Generated haplotype information in 0.612977 seconds\n[vg haplotypes] Writing haplotype information to hapl_10000.hapl\n[vg haplotypes] Used 0.629637 seconds, 0.044239 GiB\n"
+    },
+    "3000": {
+      "bytes": 2449112,
+      "log_tail": "$ singularity exec --cleanenv --no-home --pwd /encrypted/e3008/hohndor-dogohla-20261020/graph-paths-20261114/work/graphs/B/ipd_cohort_fold1 --bind /ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla:/home/leechuck/hla,/encrypted/e3008:/encrypted/e3008,/ibex/scratch/projects/c2014:/ibex/scratch/projects/c2014 /ibex/scratch/projects/c2014/rob/dogohla-benchmark/containers/ubuntu24.sif /home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg haplotypes -v 1 -t 4 --subchain-length 3000 -d graph.dist -r graph.ri -H hapl_3000.hapl graph.gbz\nLoading GBZ from graph.gbz\n[vg haplotypes] Generating haplotype information\n[vg haplotypes] Loading distance index from graph.dist\n[vg haplotypes] Building minimizer index\n[vg haplotypes] Built the minimizer index in 0.430922 seconds\nLoading r-index from graph.ri\nDetermining construction jobs\nPartitioned 1 components into 1 jobs in 0.00126944 seconds\nRunning 4 jobs in parallel\nFinished the jobs in 0.730891 seconds\n[vg haplotypes] Generated haplotype information in 1.16435 seconds\n[vg haplotypes] Writing haplotype information to hapl_3000.hapl\n[vg haplotypes] Used 1.17704 seconds, 0.0596733 GiB\n"
+    },
+    "1000": {
+      "bytes": 9975448,
+      "log_tail": "$ singularity exec --cleanenv --no-home --pwd /encrypted/e3008/hohndor-dogohla-20261020/graph-paths-20261114/work/graphs/B/ipd_cohort_fold1 --bind /ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla:/home/leechuck/hla,/encrypted/e3008:/encrypted/e3008,/ibex/scratch/projects/c2014:/ibex/scratch/projects/c2014 /ibex/scratch/projects/c2014/rob/dogohla-benchmark/containers/ubuntu24.sif /home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg haplotypes -v 1 -t 4 --subchain-length 1000 -d graph.dist -r graph.ri -H hapl_1000.hapl graph.gbz\nLoading GBZ from graph.gbz\n[vg haplotypes] Generating haplotype information\n[vg haplotypes] Loading distance index from graph.dist\n[vg haplotypes] Building minimizer index\n[vg haplotypes] Built the minimizer index in 0.410584 seconds\nLoading r-index from graph.ri\nDetermining construction jobs\nPartitioned 1 components into 1 jobs in 0.00136107 seconds\nRunning 4 jobs in parallel\nFinished the jobs in 1.1722 seconds\n[vg haplotypes] Generated haplotype information in 1.58706 seconds\n[vg haplotypes] Writing haplotype information to hapl_1000.hapl\n[vg haplotypes] Used 1.61372 seconds, 0.0559158 GiB\n"
+    },
+    "500": {
+      "bytes": 17336664,
+      "log_tail": "$ singularity exec --cleanenv --no-home --pwd /encrypted/e3008/hohndor-dogohla-20261020/graph-paths-20261114/work/graphs/B/ipd_cohort_fold1 --bind /ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla:/home/leechuck/hla,/encrypted/e3008:/encrypted/e3008,/ibex/scratch/projects/c2014:/ibex/scratch/projects/c2014 /ibex/scratch/projects/c2014/rob/dogohla-benchmark/containers/ubuntu24.sif /home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg haplotypes -v 1 -t 4 --subchain-length 500 -d graph.dist -r graph.ri -H hapl_500.hapl graph.gbz\nLoading GBZ from graph.gbz\n[vg haplotypes] Generating haplotype information\n[vg haplotypes] Loading distance index from graph.dist\n[vg haplotypes] Building minimizer index\n[vg haplotypes] Built the minimizer index in 0.435909 seconds\nLoading r-index from graph.ri\nDetermining construction jobs\nPartitioned 1 components into 1 jobs in 0.00129868 seconds\nRunning 4 jobs in parallel\nFinished the jobs in 1.46166 seconds\n[vg haplotypes] Generated haplotype information in 1.90209 seconds\n[vg haplotypes] Writing haplotype information to hapl_500.hapl\n[vg haplotypes] Used 1.94043 seconds, 0.0826797 GiB\n"
+    },
+    "300": {
+      "bytes": 18204256,
+      "log_tail": "$ singularity exec --cleanenv --no-home --pwd /encrypted/e3008/hohndor-dogohla-20261020/graph-paths-20261114/work/graphs/B/ipd_cohort_fold1 --bind /ibex/scratch/projects/c2014/rob/dogohla-benchmark/hla:/home/leechuck/hla,/encrypted/e3008:/encrypted/e3008,/ibex/scratch/projects/c2014:/ibex/scratch/projects/c2014 /ibex/scratch/projects/c2014/rob/dogohla-benchmark/containers/ubuntu24.sif /home/leechuck/hla/cactus/cactus-bin-v3.3.0/bin/vg haplotypes -v 1 -t 4 --subchain-length 300 -d graph.dist -r graph.ri -H hapl_300.hapl graph.gbz\nLoading GBZ from graph.gbz\n[vg haplotypes] Generating haplotype information\n[vg haplotypes] Loading distance index from graph.dist\n[vg haplotypes] Building minimizer index\n[vg haplotypes] Built the minimizer index in 0.419744 seconds\nLoading r-index from graph.ri\nDetermining construction jobs\nPartitioned 1 components into 1 jobs in 0.00146503 seconds\nRunning 4 jobs in parallel\nFinished the jobs in 1.46122 seconds\n[vg haplotypes] Generated haplotype information in 1.8856 seconds\n[vg haplotypes] Writing haplotype information to hapl_300.hapl\n[vg haplotypes] Used 1.93065 seconds, 0.0818138 GiB\n"
+    }
+  },
+  "seconds": 27.4
+}

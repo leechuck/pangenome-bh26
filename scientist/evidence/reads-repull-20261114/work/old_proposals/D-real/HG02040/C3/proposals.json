@@ -1,0 +1,179 @@
+{
+  "donor": "HG02040",
+  "readset": "D-real",
+  "arm": "C3",
+  "panel_arm": "C",
+  "params": {
+    "max_edit": 2,
+    "sup_share": 0.25,
+    "min_sup": 3,
+    "cur_ratio": 0.25,
+    "het_share": 0.3,
+    "pile": 2.5,
+    "max_indel_cols": 150,
+    "hom_ratio": 1.5,
+    "blind_min_run": 100,
+    "blind_near": 150,
+    "blind_max_nm": 2,
+    "n_max": 4,
+    "family_theta": 0.01
+  },
+  "expected_depth": 28.0,
+  "pass1": [
+    "HLA-DRB1*10:01:01:03",
+    "HLA-DRB1*09:01:02:03"
+  ],
+  "same_family": false,
+  "reads_assigned": 11801,
+  "reads_used": 11185,
+  "haplotypes": [
+    {
+      "pass1_allele": "HLA-DRB1*10:01:01:03",
+      "family_rows": 8,
+      "events": 8,
+      "resolvable": 8,
+      "blind_regions": [
+        [
+          5223,
+          5575
+        ]
+      ],
+      "n_blind": 1,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [],
+      "decision": "no_patch"
+    },
+    {
+      "pass1_allele": "HLA-DRB1*09:01:02:03",
+      "family_rows": 17,
+      "events": 73,
+      "resolvable": 73,
+      "blind_regions": [
+        [
+          3262,
+          3478
+        ],
+        [
+          4348,
+          4482
+        ],
+        [
+          5398,
+          5737
+        ]
+      ],
+      "n_blind": 3,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [
+        {
+          "event": 31,
+          "cl": 4013,
+          "cr": 4043,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 20,
+          "fwd_rev": [
+            11,
+            9
+          ],
+          "cur_total": 15,
+          "exp_h": 11.1,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "51c9d0090e6f5fd1",
+          "cur_sha": "aeb4cd617af9bf22",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 32,
+          "cl": 4185,
+          "cr": 4215,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 54,
+          "fwd_rev": [
+            31,
+            23
+          ],
+          "cur_total": 12,
+          "exp_h": 11.1,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "92af08c63f29e870",
+          "cur_sha": "f67a43ac591ba817",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "kind": "pile_up"
+        },
+        {
+          "event": 36,
+          "cl": 4552,
+          "cr": 4582,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 9,
+          "fwd_rev": [
+            7,
+            2
+          ],
+          "cur_total": 5,
+          "exp_h": 11.1,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "49a1c13179c47f96",
+          "cur_sha": "ea76c2f5792ae0e7",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 35,
+          "cl": 4497,
+          "cr": 4527,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 9,
+          "fwd_rev": [
+            7,
+            2
+          ],
+          "cur_total": 0,
+          "exp_h": 11.1,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "e6a50c77f9910c68",
+          "cur_sha": "49c813dd77423fa2",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3,
+          "shared": false,
+          "kind": "confounded_event",
+          "donor_row": 5
+        }
+      ],
+      "decision": "no_patch"
+    }
+  ],
+  "confounded_windows_loaded": 13
+}

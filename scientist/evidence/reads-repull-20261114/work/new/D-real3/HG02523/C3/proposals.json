@@ -1,0 +1,196 @@
+{
+  "donor": "HG02523",
+  "readset": "D-real3",
+  "arm": "C3",
+  "panel_arm": "C",
+  "params": {
+    "max_edit": 2,
+    "sup_share": 0.25,
+    "min_sup": 3,
+    "cur_ratio": 0.25,
+    "het_share": 0.3,
+    "pile": 2.5,
+    "max_indel_cols": 150,
+    "hom_ratio": 1.5,
+    "blind_min_run": 100,
+    "blind_near": 150,
+    "blind_max_nm": 2,
+    "n_max": 4,
+    "family_theta": 0.01
+  },
+  "expected_depth": 36.0,
+  "pass1": [
+    "HLA-DRB1*09:01:02:03",
+    "HLA-DRB1*10:01:01:03"
+  ],
+  "same_family": false,
+  "reads_assigned": 13021,
+  "reads_used": 12343,
+  "haplotypes": [
+    {
+      "pass1_allele": "HLA-DRB1*09:01:02:03",
+      "family_rows": 17,
+      "events": 73,
+      "resolvable": 73,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 1,
+      "patches": [
+        {
+          "event": 45,
+          "cl": 5757,
+          "cr": 5804,
+          "len_cur": 34,
+          "len_new": 35,
+          "n_new": 8,
+          "fwd_rev": [
+            5,
+            3
+          ],
+          "cur_total": 0,
+          "exp_h": 13.8,
+          "n_versions": 4,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "4dd5ee3ef114b713",
+          "cur_sha": "dabe0cb39c41f383",
+          "n_rows_new": 11,
+          "n_rows_cur": 3,
+          "thr": 3.5,
+          "shared": false,
+          "kind": "own_version_unsupported",
+          "donor_row": 0
+        }
+      ],
+      "notes": [
+        {
+          "event": 25,
+          "cl": 3324,
+          "cr": 3354,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 11,
+          "fwd_rev": [
+            8,
+            3
+          ],
+          "cur_total": 11,
+          "exp_h": 14.3,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "d01cb75d2ad0d692",
+          "cur_sha": "7f0d7da2573cc93a",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3.6,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 31,
+          "cl": 4013,
+          "cr": 4043,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 18,
+          "fwd_rev": [
+            9,
+            9
+          ],
+          "cur_total": 11,
+          "exp_h": 14.3,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "51c9d0090e6f5fd1",
+          "cur_sha": "aeb4cd617af9bf22",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3.6,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 32,
+          "cl": 4185,
+          "cr": 4215,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 75,
+          "fwd_rev": [
+            41,
+            34
+          ],
+          "cur_total": 20,
+          "exp_h": 14.3,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "92af08c63f29e870",
+          "cur_sha": "f67a43ac591ba817",
+          "n_rows_new": 2,
+          "n_rows_cur": 15,
+          "thr": 3.6,
+          "kind": "pile_up"
+        }
+      ],
+      "decision": "proposed",
+      "sha256": "7c5f9f4ee18fa53a91cfbdb95004bb5637c397f2abd323b36ff323c1f028103b",
+      "length": 15898,
+      "spell_mismatch": 0,
+      "spell_switches": 1,
+      "kinds": [
+        "own_version_unsupported"
+      ],
+      "name": "HLA-DRB1*MOS_7c5f9f4ee18f",
+      "exons": [
+        [
+          590,
+          690
+        ],
+        [
+          11005,
+          11275
+        ],
+        [
+          13511,
+          13793
+        ],
+        [
+          14490,
+          14601
+        ],
+        [
+          15076,
+          15100
+        ],
+        [
+          15789,
+          15803
+        ]
+      ]
+    },
+    {
+      "pass1_allele": "HLA-DRB1*10:01:01:03",
+      "family_rows": 8,
+      "events": 8,
+      "resolvable": 8,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [],
+      "decision": "no_patch"
+    }
+  ],
+  "confounded_windows_loaded": 13
+}

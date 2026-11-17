@@ -1,0 +1,186 @@
+{
+  "donor": "HG02602",
+  "readset": "D-real3",
+  "arm": "C3",
+  "panel_arm": "C",
+  "params": {
+    "max_edit": 2,
+    "sup_share": 0.25,
+    "min_sup": 3,
+    "cur_ratio": 0.25,
+    "het_share": 0.3,
+    "pile": 2.5,
+    "max_indel_cols": 150,
+    "hom_ratio": 1.5,
+    "blind_min_run": 100,
+    "blind_near": 150,
+    "blind_max_nm": 2,
+    "n_max": 4,
+    "family_theta": 0.01
+  },
+  "expected_depth": 38.0,
+  "pass1": [
+    "HLA-DRB1*07:01:01:02",
+    "HLA-DRB1*14:04:01:01"
+  ],
+  "same_family": false,
+  "reads_assigned": 13474,
+  "reads_used": 12703,
+  "haplotypes": [
+    {
+      "pass1_allele": "HLA-DRB1*07:01:01:02",
+      "family_rows": 41,
+      "events": 136,
+      "resolvable": 135,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [
+        {
+          "event": 14,
+          "cl": 3715,
+          "cr": 3745,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 96,
+          "fwd_rev": [
+            60,
+            36
+          ],
+          "cur_total": 4,
+          "exp_h": 15.1,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "8056b5e411e4cc86",
+          "cur_sha": "8ce4aa90724ed445",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3.8,
+          "kind": "pile_up"
+        },
+        {
+          "event": 18,
+          "cl": 4109,
+          "cr": 4139,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 63,
+          "fwd_rev": [
+            30,
+            33
+          ],
+          "cur_total": 33,
+          "exp_h": 15.1,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "c9d3fa73074d6240",
+          "cur_sha": "85670cf5c6de32d1",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3.8,
+          "kind": "pile_up"
+        },
+        {
+          "event": 19,
+          "cl": 4300,
+          "cr": 4330,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 9,
+          "fwd_rev": [
+            7,
+            2
+          ],
+          "cur_total": 17,
+          "exp_h": 15.1,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "6949390bb77bd63e",
+          "cur_sha": "b56ab6f792d37e9f",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3.8,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 21,
+          "cl": 4912,
+          "cr": 4944,
+          "len_cur": 33,
+          "len_new": 33,
+          "n_new": 27,
+          "fwd_rev": [
+            16,
+            11
+          ],
+          "cur_total": 7,
+          "exp_h": 14.8,
+          "n_versions": 3,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "60a2b32ae36f955b",
+          "cur_sha": "36fd1a8848acb02d",
+          "n_rows_new": 1,
+          "n_rows_cur": 38,
+          "thr": 3.7,
+          "shared": false,
+          "kind": "own_version_still_supported"
+        },
+        {
+          "event": 20,
+          "cl": 4595,
+          "cr": 4625,
+          "len_cur": 31,
+          "len_new": 31,
+          "n_new": 22,
+          "fwd_rev": [
+            7,
+            15
+          ],
+          "cur_total": 5,
+          "exp_h": 15.1,
+          "n_versions": 2,
+          "anchor": [
+            15,
+            15
+          ],
+          "new_sha": "79b2c45883b2bf58",
+          "cur_sha": "5a81cfeaaf9352c5",
+          "n_rows_new": 2,
+          "n_rows_cur": 39,
+          "thr": 3.8,
+          "shared": false,
+          "kind": "confounded_event",
+          "donor_row": 39
+        }
+      ],
+      "decision": "no_patch"
+    },
+    {
+      "pass1_allele": "HLA-DRB1*14:04:01:01",
+      "family_rows": 299,
+      "events": 315,
+      "resolvable": 307,
+      "blind_regions": [],
+      "n_blind": 0,
+      "n_patches": 0,
+      "patches": [],
+      "notes": [],
+      "decision": "no_patch"
+    }
+  ],
+  "confounded_windows_loaded": 13
+}
